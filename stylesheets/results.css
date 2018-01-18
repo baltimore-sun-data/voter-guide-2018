@@ -1,0 +1,83 @@
+
+table {
+	width:100%;
+	max-width:800px;
+}
+
+td.candidate {
+	width:30%;
+	color:#667682;
+}
+
+td.party-col {
+	width:10%;
+	color:#667682;
+}
+
+td.votes {
+	width:10%;
+	color:#667682;
+}
+
+td.percent {
+	width:50%;
+	color:#667682;
+}
+
+td.name {
+	font-weight: bold;
+}
+
+td {
+	padding-bottom: 10px;
+	padding-top:10px;
+	border-bottom: 1px dashed #cdcdcd;
+}
+
+.percent-bar-bg {
+		width:70%;
+		background:#cdcdcd;
+		height:20px;
+		float:left;
+	}
+
+.percent-bar {
+	background:#667682;
+	height:20px;
+}
+
+
+span.dem div.percent-bar {background-color:#2e98cc;}
+
+span.rep div.percent-bar {background-color:#ed4227;}
+
+.vote-percent {
+	float:left;
+	padding-left:10px;
+}
+
+
+.update {
+	display: none;
+	color:#ed4227;
+	font-size: .75em;
+}
+
+.pre {
+	color:#999;
+	font-size: 1em;
+	padding-bottom:5px;
+}
+
+
+
+@media (max-width: 600px) {
+  .percent-bar-bg, .percent-bar {display:none;}
+  td.candidate {width:40%;}
+  td.party-col, td.votes, td.percent {width:20%;}
+  h2.section-header-results {font-size: 1.5em;}
+  a.btn, #chooseDistrict.btn, .btn-primary {font-size:1.25em;}
+  .btn-primary {margin-bottom: 10px;}
+}
+
+

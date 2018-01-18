@@ -1,0 +1,147 @@
+.btn {
+     font-family: "Source Sans Pro", arial, sans-serif;
+    border: 0 none;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-group {
+    width:50%;
+}
+
+.btn-primary {
+    background: #667682;
+    color: #ffffff;
+}
+ 
+.btn-primary2 {
+    background: #999;
+    color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .open > .dropdown-toggle.btn-primary {
+    background: #2e98cc;
+    border: 0 none;
+}
+
+.btn-primary2:hover, .btn-primary2:focus, .open > .dropdown-toggle.btn-primary2 {
+    background: #2e98cc;
+    border: 0 none;
+     color: #ffffff;
+}
+
+
+#chooseDistrict.btn.btn-primary:focus, #chooseDistrict.btn.btn-primary.focus,#chooseDistrict.btn.btn-primary:active, #chooseDistrict.btn.btn-primary.active, a.btn.btn-primary:active, a.btn.btn-primary.active {
+    background: #68b0d3;
+    box-shadow: none;
+}
+
+
+
+#chooseDistrict.btn {width:100%;}
+
+ul.dropdown-menu {width:100%;}
+
+ul.dropdown-menu li {
+    font-family: "Source Sans Pro", arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    height:25px;
+    padding-left: 10px;
+}
+
+ul.dropdown-menu li:hover {background:#f0f0f0;}
+
+a.btn {
+    color:#fff;
+    font-weight: 300;
+    font-family: "Source Sans Pro", arial, sans-serif;
+}
+
+#button-clear {clear:both;margin-bottom:5px;}
+
+.btn-primary.find-district-button {
+    background:#2e98cc;
+    width: 200px;
+    border-radius: 6px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    font-size: .6em;
+}
+
+.btn-primary.find-district-button:hover {
+    background:#667682;
+}
+
+.btn-primary.district-button {
+    background:#667682;
+    width: 50%;
+    border-radius: 6px;
+    margin-bottom:10px;
+}
+
+.btn-primary.district-button:hover {
+    background:#ed4227;
+}
+
+.btn-primary.district-button:active, .btn-primary.find-district-button:active {
+    background:#cdcdcd;
+}
+
+.top-buttons {
+    background: #fff;
+    color:#667682;
+    border:2px solid #667682;
+    font-size: 1.5em;
+    width:200px;
+    margin-bottom:5px;
+}
+
+.top-buttons:hover, .top-buttons.selected:hover {
+    background:#2e98cc;
+        border:2px solid #2e98cc;
+}
+
+div.btn.top-buttons {
+    color:#667682;
+        font-weight:bold;
+        cursor: pointer;
+}
+
+div.btn.top-buttons:active {
+        background:#68b0d3;
+        font-weight:bold;
+         border:2px solid #68b0d3;
+}
+
+div.btn.top-buttons:hover {
+    color:#fff;
+        font-weight:bold;
+}
+
+.top-buttons.selected {
+    background: #667682;
+    cursor: default;
+    border:2px solid #667682;
+}
+
+div.btn.top-buttons.selected {
+    color:#fff;
+}
+
+@media only screen and (max-width: 450px) {
+    .col-xs-6 {width:100%;}
+}
+
+@media only screen and (max-width: 500px) {
+    #chooseDistrict.btn, .btn-primary {font-size: 1.5em;padding: 5px 8px;width:275px;}
+}
+
+@media only screen and (min-width: 500px) {
+    #button-clear {display: none;}
+}

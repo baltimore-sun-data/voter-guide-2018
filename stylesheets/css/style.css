@@ -1,0 +1,20 @@
+/******** SITE STYLES ********** */
+/******** MEDIA QUERIES ******** */
+/* Smaller than standard 960 (devices and browsers) */
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+/* All Mobile Sizes (devices and browser) */
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+/**** CLEARFIX **** */
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+* html .group {
+  zoom: 1; }
+
+*:first-child + html .group {
+  zoom: 1; }

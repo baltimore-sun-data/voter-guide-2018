@@ -1,0 +1,248 @@
+/******** SITE STYLES ********** */
+.page-header {
+  margin-top: 10px;
+  text-align: center;
+  font-family: Adelle, serif;
+  font-size: 16px;
+  position: relative;
+  color: #333333;
+  letter-spacing: 0.09em; }
+  .page-header div {
+    display: inline-block;
+    background-color: white;
+    position: relative;
+    padding: 10px 20px; }
+  .page-header:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 50%;
+    width: 100%;
+    height: 2px;
+    background-color: #dadada; }
+
+.splash-section {
+  margin-top: 30px; }
+  .splash-section header {
+    margin-bottom: 20px; }
+
+#general-assembly, #congress, #local, #bills {
+  margin-bottom: 50px;
+  width: 100%;}
+
+.divider {
+  height: 1px;
+  background-color: darkgrey;
+  margin-bottom: 20px; }
+
+p {
+  font-family: Georgia, Times New Roman, serif;
+  margin: 10px 0px;
+  font-size: 16px;
+  line-height: 120%; }
+
+.emphasis {
+  font-weight: bold;
+  margin-bottom: 30px; }
+  .emphasis.blue {
+    color: #104e8b; }
+  .emphasis.red {
+    color: #c62020; }
+
+.label {
+  margin-top: 0px; }
+
+.candidates-box {
+  position: relative;
+  margin: 20px 0px 20px 0px; }
+
+.party-box {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top; }
+  .party-box.single {
+    width: 280px;
+    text-align: center; }
+
+.candidate-box {
+  margin: 50px 5px 10px 5px;
+  display: inline-block;
+  text-align: center;
+  width: 129px;
+  height: 180px;
+  vertical-align: top;
+  position: relative; }
+  .candidate-box img {
+    border-radius: 99px;
+    width: 120px;
+    cursor: pointer; }
+  .candidate-box a:link {
+    color: #333333;
+    text-decoration: none; }
+  .candidate-box a:visited {
+    color: #333333;
+    text-decoration: none; }
+  .candidate-box a:hover {
+    color: #333333;
+    text-decoration: none; }
+  .candidate-box a:active {
+    color: #333333;
+    text-decoration: none; }
+  .candidate-box a.full {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%; }
+
+.party-label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  color: white;
+  font-family: Adelle, Georgia, Times New Roman, serif;
+  text-align: center;
+  padding: 5px 0px; }
+  .party-label.dem {
+    background-color: #104e8b; }
+  .party-label.rep {
+    background-color: #c62020; }
+  .party-label.lib {
+    background-color: #ffc801; }
+
+.btn {
+  display: inline-block;
+  font-family: Adelle, Georgia, Times New Roman, serif;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 20px; }
+  .btn.blue {
+    background-color: #104e8b; }
+  .btn.red {
+    background-color: #c62020; }
+  .btn.deactivated {
+    background-color: #f2f2f2;
+    color: darkgrey;
+    font-style: italic;
+    cursor: default; }
+
+@media only screen and (max-width: 1000px) {
+  .party-box {
+    float: none !important; } }
+@media only screen and (max-width: 650px) {
+  .party-box {
+    display: block; }
+    .party-box.single {
+      width: auto; }
+
+  .candidate-box {
+    display: block;
+    text-align: left;
+    margin: 15px 5px;
+    width: auto;
+    height: auto; }
+    .candidate-box img {
+      width: 70px;
+      vertical-align: middle; }
+
+  .label {
+    display: inline; }
+
+  .party-label {
+    position: static; }
+
+  .mobile-center {
+    text-align: center; }
+
+  .btn {
+    margin: 10px 0px; } }
+#bills p {
+  margin: 20px;
+  line-height: 150%; }
+
+.bill {
+  margin: 20px;
+  padding: 10px;
+  font-family: "Lato", "HelveticaNeue", Helvetica, sans-serif;
+  font-size: 16px; }
+  .bill ul {
+    margin: 15px 0px 0px 25px;
+    list-style: disc;
+    padding: 0px; }
+    .bill ul li {
+      margin: 5px 0px; }
+  .bill.red {
+    border-left: 5px solid black;
+    background-color: #f2f2f2; }
+    .bill.red ul li a:link {
+      color: #104e8b;
+      text-decoration: none; }
+    .bill.red ul li a:visited {
+      color: #104e8b;
+      text-decoration: none; }
+    .bill.red ul li a:hover {
+      color: #104e8b;
+      text-decoration: none; }
+    .bill.red ul li a:active {
+      color: #104e8b;
+      text-decoration: none; }
+  .bill.blue {
+    border-left: 5px solid #e0e0e0; }
+    .bill.blue ul li a:link {
+      color: #104e8b;
+      text-decoration: none; }
+    .bill.blue ul li a:visited {
+      color: #104e8b;
+      text-decoration: none; }
+    .bill.blue ul li a:hover {
+      color: #104e8b;
+      text-decoration: none; }
+    .bill.blue ul li a:active {
+      color: #104e8b;
+      text-decoration: none; }
+
+#bill-nav ul li {
+  margin: 5px; }
+
+.bill-title {
+  font-family: Adelle, Georgia, Times New Roman, serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+  line-height: 100%; }
+
+#jump-to {
+  margin-top: 30px;
+  font-family: "Lato", "HelveticaNeue", Helvetica, sans-serif;
+  padding-left: 30px;
+  border-left: 1px solid #e0e0e0; }
+  #jump-to ul li {
+    padding: 8px 5px;
+    margin: 0px; }
+    #jump-to ul li:hover {
+      background-color: #e0e0e0;
+      cursor: pointer; }
+
+#jump-header {
+  font-family: Adelle, Georgia, Times New Roman, serif;
+  padding: 10px;
+  text-align: center;
+  background-color: #c62020;
+  color: white;
+  margin-bottom: 10px; }
+
+/**** CLEARFIX **** */
+.group:after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0; }
+
+* html .group {
+  zoom: 1; }
+
+*:first-child + html .group {
+  zoom: 1; }
