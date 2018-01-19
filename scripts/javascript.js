@@ -26,24 +26,7 @@ function swapRace() {
 
 
 
-
-var app = {
-
-	init: function(){
-
-		app.news_animation();
-		app.questionnaire_nav();
-		app.toggle_answers();
-		app.all_candidates_toggle();
-		app.questionnaire_hash();
-		app.mobile_nav();
-		app.share(socialMessage);
-
-	},
-
-
-    // FACEBOOK  / TWITTER BUTTONS 
-    share: function(socialMessage){
+function share(socialMessage){
 
 
               $(".icon-twitter.top").on("click", function(){
@@ -72,9 +55,25 @@ var app = {
 
               });
               
-            },
+            };
 
 
+
+var app = {
+
+	init: function(){
+
+		app.news_animation();
+		app.questionnaire_nav();
+		app.toggle_answers();
+		app.all_candidates_toggle();
+		app.questionnaire_hash();
+		app.mobile_nav();
+
+	},
+
+
+   
 
 // This populates the candidate page bios based on json data
 
@@ -268,7 +267,7 @@ load_candidate_data: function(candidateData) {
 
 		var q = Number(window.location.hash.slice(1));
 
-		if (q >= 1 & q <= 11){
+		if (q >= 1 & q <= numberOfQuestions){
 
 			console.log("evaluated");
 			var q_position = $("#question-"+q).offset();
@@ -315,7 +314,7 @@ load_candidate_data: function(candidateData) {
 
 	load_all_answers: function(candidate){
 
-		for (var i = 1; i <=11; i++){
+		for (var i = 1; i <=numberOfQuestions; i++){
 
 			//Load the answer text and share texy
 			app.load_answer(i,candidate);
@@ -364,7 +363,7 @@ share_answer: function(){
 			var qnum = $(this).parent().data("num");
 			var current_candidate = shown_answers["q"+qnum]
 
-			var share_text = app.generate_share_text(current_candidate, qnum);
+			var share_text = generate_share_text(current_candidate, qnum);
 
 			var twitter_url = "https://twitter.com/intent/tweet?text="+share_text[0]+"&url="+share_text[1]+"&tw_p=tweetbutton";
 			window.open(twitter_url, 'mywin','left=200,top=200,width=500,height=300,toolbar=1,resizable=0'); return false;
@@ -377,7 +376,7 @@ share_answer: function(){
 			var qnum = $(this).parent().data("num");
 			var current_candidate = shown_answers["q"+qnum]
 
-			var share_text = app.generate_share_text(current_candidate, qnum);
+			var share_text = generate_share_text(current_candidate, qnum);
 
 			var facebook_url = "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link="+share_text[1]+"&picture=http://data.baltimoresun.com/voter-guide/images/candidates/"+current_candidate+".jpg&name=Baltimore Sun Voter Guide Q%26A&description="+share_text[0]+"&redirect_uri=http://data.baltimoresun.com/voter-guide";
 			window.open(facebook_url, 'mywin','left=200,top=200,width=500,height=300,toolbar=1,resizable=0'); return false;
@@ -387,8 +386,6 @@ share_answer: function(){
 
 
 	},
-
-
 
 	toggle_fixed_nav: function(){
 
