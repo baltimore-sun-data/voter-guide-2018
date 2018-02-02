@@ -54,7 +54,7 @@ Each candidates_page.html has 2 main js files:
 	- javascript.js has generic scripts for whole site
 	- javascript-(race).js has race specific functions
 
-The candidates_page.js are populated through a few functions:
+The candidates.html pages are populated through a few functions:
 	
 	A. app.toggle_fixed_nav() is called at the top of candidate pages, function is in javascript.js
 		Tells at what points to show / hide drop down nav
@@ -65,21 +65,20 @@ The candidates_page.js are populated through a few functions:
 
 	D.  app.load_candidate_data(dixonData); populates the candidate data based on a json file called at top. Function itself is in javascript.js
 
-	E. There are two JSON files called at the top that function as a database for these pages. One json file for data, one for the queston answers. Different races have different json files.
+	E. There are two JSON files called at the top that function as a database for these pages. One json file for data, one for the queston answers. Different races have different json files. EXAMPLE: scripts/governor-candidate-data.js and scripts/governor-questionnaire-data.js
 
-	F. Several functions in javascript.js control the question answer sharing. Need to be customized depending on the race, candidate and questions.
+	F. Several functions in javascript-(race).js control the question answer sharing. Need to be customized depending on the race, candidate and questions.
 
 A Jquery load() pullS in the footer and tophat from html files in the root.
 
 
 
 0. CREATE NEW RACE / ADD CANDIDATES PROCESS
-******************* NEEDS UPDATING
-
 
 ADD NEW CANDIDATE:
 Pull photo
-Complete spreadsheet / add json to text file
+Complete spreadsheet
+Copy JSON from spreadsheet into javascript files
 
 
 UPDATING CANDIDATE:
@@ -92,6 +91,9 @@ URL feed (may stay static)
 Facebook / Twitter meta tags
 js file names for data  
 Social message at bottom
+
+
+
 
 
 
