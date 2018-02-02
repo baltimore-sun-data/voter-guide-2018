@@ -16,37 +16,6 @@ POSSIBLE NEXT STEPS:
 
 
 
-0. SPREADSHEET NOTES:
-
-	A. Cadidate Data input notes:
-
-	PARTY: Democrat/Republican should be capatalized
-	WEBSITE: xxx.com (no http://www.)
-	TWITTER: @XXX
-	FACEBOOK: facebook.com/xxx (no http://www.)
-	BIO:  Wrap all paragraphs in <p></p>. MUST be one long string with no returns
-	BACKGROUND:  Wrap all paragraphs in <p></p>. MUST be one long string with no returns
-
-
-	B. Questionaires
-
-	- Entries must be one long string
-	- It is ok if some p2 fields are blank
-	- If a p2 entry has more that one paragraph, need to wrap all graphs in  <p></p>
-	- p1 entires should not be wrapped in <p>
-
-
-
-0. JSON IMPORTING NOTES:
-
-Use Mr Data Converter to convert spreadsheet to JSON or http://www.convertcsv.com/csv-to-json.htm
-
-Add JSON to appropriate js file
-* Small race and Big race JSON objects are formatted slightly differently. Follow pre-set format when pasting into js file
-
-
-
-
 
 0. FUNCTION NOTES:
 
@@ -73,24 +42,70 @@ A Jquery load() pullS in the footer and tophat from html files in the root.
 
 
 
-0. CREATE NEW RACE / ADD CANDIDATES PROCESS
-
-ADD NEW CANDIDATE:
-Pull photo
-Complete spreadsheet
-Copy JSON from spreadsheet into javascript files
+0. CREATE NEW RACE
 
 
-UPDATING CANDIDATE:
-Copy JSON from spreadsheet into javascript files
+1. Copy folder of race that is similar and rename
 
 
-MANUAL THINGS TO DO:
-Title
-URL feed (may stay static)
-Facebook / Twitter meta tags
-js file names for data  
-Social message at bottom
+2. On Candidates.html:
+
+	- Change race name in page title, social language in meta tags and script tags, omniture, page title, 
+	Hardcode in candidates for that race
+
+
+3. On Candidate-page.html:
+
+	- Change race name in page title, social language in meta tags and script tags, omniture, page title, 
+
+	- Hardcode in candidate names and links in the "Running Against" section
+
+	- Change url for news feed in "var feed_url" if you choose
+
+	- Hardcode in questions
+
+	- Change javascript refrences for specific race in three places. Example: <script language="javascript" src="../scripts/governor-candidate-data.js"> would become  <script language="javascript" src="../scripts/comptroller-candidate-data.js">. 
+
+
+4. Make three javascript pages
+	
+	javascript-(race).js: Swap info for canidiates and questions. This is for the SHARE QUESTION function
+
+	(race)-candidate-data.js: JSON file for candidate data
+		Complete google doc (*see spreadsheet notes below)
+		Convert to JSON (http://www.convertcsv.com/csv-to-json.htm)
+		Add JSON to this js file, follow formatting
+
+	(race)-questionaire-data.js: JSON file for candidate questionaire data
+		Complete google doc (*see spreadsheet notes below)
+		Convert to JSON (http://www.convertcsv.com/csv-to-json.htm)
+		Add JSON to this js file, follow formatting
+
+
+
+* SPREADSHEET NOTES:
+
+	A. Cadidate Data input notes:
+
+	PARTY: Democrat/Republican should be capatalized
+	WEBSITE: xxx.com (no http://www.)
+	TWITTER: @XXX
+	FACEBOOK: facebook.com/xxx (no http://www.)
+	BIO:  Wrap all paragraphs in <p></p>. MUST be one long string with no returns
+	BACKGROUND:  Wrap all paragraphs in <p></p>. MUST be one long string with no returns
+
+
+	B. Questionaires
+
+	- Entries must be one long string
+	- It is ok if some p2 fields are blank
+	- If a p2 entry has more that one paragraph, need to wrap all graphs in  <p></p>
+	- p1 entires should not be wrapped in <p>
+
+
+
+
+
 
 
 
