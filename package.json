@@ -1,0 +1,32 @@
+{
+  "name": "voter-guide-2018",
+  "version": "1.0.0",
+  "description": "Baltimore Sun Voter Guide for Election 2018",
+  "main": "index.js",
+  "repository": "git@github.com:baltimore-sun-data/voter-guide-2018.git",
+  "author": "carljohnson@tronc.com",
+  "license": "UNLICENSED",
+  "scripts": {
+    "format": "prettier --write '**/*.{css,js,json,md,scss}'",
+    "test": "eslint ."
+  },
+  "lint-staged": {
+    "*.{js,json,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^6.1.0",
+    "prettier": "^1.10.2"
+  }
+}
