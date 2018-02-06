@@ -11,10 +11,13 @@
   display: block;
   content: "";
   clear: both;
-  height: 0; }
+  height: 0;
+}
 
 * html .group {
-  zoom: 1; }
+  zoom: 1;
+}
 
 *:first-child + html .group {
-  zoom: 1; }
+  zoom: 1;
+}

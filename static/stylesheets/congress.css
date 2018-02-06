@@ -7,18 +7,28 @@ a:hover {
 
 /* Ads */
 
-.advert { text-align: center; margin-top: 16px; margin-bottom: 16px; }
-.advert iframe { margin: 0 auto; }
-.cube-ad { height: 250px; }
-.leaderboard-ad { height: 78px; }
+.advert {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.advert iframe {
+  margin: 0 auto;
+}
+.cube-ad {
+  height: 250px;
+}
+.leaderboard-ad {
+  height: 78px;
+}
 
 /* Bootstrap styles */
 .affix {
   background-color: #fbfcfc;
 }
 .navbar .brand {
-    padding-top: 8px;
-    padding-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 .navbar .nav-full .brand {
   float: right;
@@ -27,14 +37,15 @@ a:hover {
   width: 120px;
   height: auto;
 }
-.navbar-inverse .nav>li>a {
+.navbar-inverse .nav > li > a {
   font-size: 14px;
   padding: 10px 13px 10px;
 }
-.navbar-inverse .nav>li a.disabled {
+.navbar-inverse .nav > li a.disabled {
   color: #aaa;
 }
-.navbar-inverse .nav>li a.disabled:focus, .navbar-inverse .nav>li a.disabled:hover {
+.navbar-inverse .nav > li a.disabled:focus,
+.navbar-inverse .nav > li a.disabled:hover {
   background-color: transparent;
   background: none;
 }
@@ -51,9 +62,13 @@ a:hover {
   padding-left: 30px;
 }
 
-.m-top { margin-top: 10px;}
+.m-top {
+  margin-top: 10px;
+}
 
-.m-topbot { margin: 10px 0;}
+.m-topbot {
+  margin: 10px 0;
+}
 
 .m-bot-slim {
   margin-bottom: 2px;
@@ -111,21 +126,33 @@ a:hover {
   margin-top: -20px;
 }
 
-.absolute {position: fixed;}
+.absolute {
+  position: fixed;
+}
 
-.affix {top: 60px;}
-.affix-pills {top: 40px; text-align: center;}
+.affix {
+  top: 60px;
+}
+.affix-pills {
+  top: 40px;
+  text-align: center;
+}
 
 .candidate-name {
   line-height: 1.2em;
 }
 
-.line-height, .line-height li { line-height: 1.5em; }
+.line-height,
+.line-height li {
+  line-height: 1.5em;
+}
 
-.small-line { line-height: 1.3em; }
+.small-line {
+  line-height: 1.3em;
+}
 
 .endorsed {
-  background: #0D3058;
+  background: #0d3058;
   display: block;
   padding: 2px 10px;
   text-transform: uppercase;
@@ -143,13 +170,16 @@ a:hover {
 }
 
 .bigstar::before {
-    border-top: 2px solid #dadada;
-    content:"";
-    margin: 0 auto;
-    position: absolute;
-    top: 7px; left: 0; right: 0; bottom: 0;
-    width: 100%;
-    z-index: -2;
+  border-top: 2px solid #dadada;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -2;
 }
 
 .bigstar {
@@ -161,7 +191,8 @@ a:hover {
   text-transform: uppercase;
 }
 .bigstar span {
-  background-color: #fbfcfc; padding: 0px 10px;
+  background-color: #fbfcfc;
+  padding: 0px 10px;
   z-index: 0;
 }
 
@@ -170,20 +201,22 @@ a:hover {
 }
 
 .refer {
-  border-left: #D0D0D0 10px solid;
+  border-left: #d0d0d0 10px solid;
 }
 
 .boxed {
-  background: #EEEEEE;
+  background: #eeeeee;
   display: block;
   padding: 10px 10px 10px 10px;
   color: #333333;
   margin-bottom: 10px;
 }
-.boxed a { font-weight: 900; }
+.boxed a {
+  font-weight: 900;
+}
 
 .party-r {
-  border-left: #C11B17 10px solid;
+  border-left: #c11b17 10px solid;
   display: block;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -191,7 +224,7 @@ a:hover {
 }
 
 .party-d {
-  border-left: #549AC4 10px solid;
+  border-left: #549ac4 10px solid;
   display: block;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -199,7 +232,7 @@ a:hover {
 }
 
 .party-g {
-  border-left: #8BB381 10px solid;
+  border-left: #8bb381 10px solid;
   display: block;
   padding: 4px 10px;
   text-transform: uppercase;
@@ -207,20 +240,20 @@ a:hover {
 }
 
 .party-r2 {
-  border-left: #8C001A 10px solid;
-  background-color: #C11B17;
+  border-left: #8c001a 10px solid;
+  background-color: #c11b17;
   color: #fff;
 }
 
 .party-d2 {
-  border-left: #0D3058 10px solid;
-  background-color: #549AC4;
+  border-left: #0d3058 10px solid;
+  background-color: #549ac4;
   color: #fff;
 }
 
 .party-g2 {
   border-left: #285014 10px solid;
-  background-color: #8BB381;
+  background-color: #8bb381;
   color: #fff;
 }
 
@@ -238,14 +271,16 @@ a:hover {
   line-height: 18px;
   color: #555;
 }
-.roster a, .roster > span {
+.roster a,
+.roster > span {
   padding: 4px 10px;
   display: block;
-  border-left: #D0D0D0 10px solid;
+  border-left: #d0d0d0 10px solid;
 }
 
-.roster:not(.active) a:hover, .roster:not(.active) a:active {
-  border-left: #B0B0B0 10px solid;
+.roster:not(.active) a:hover,
+.roster:not(.active) a:active {
+  border-left: #b0b0b0 10px solid;
   background: #eee;
 }
 .roster.active a {
@@ -254,16 +289,16 @@ a:hover {
   background: #ccc;
 }
 .roster-endorsed a {
-  border-left: #0D3058 10px solid;
+  border-left: #0d3058 10px solid;
   padding: 4px 10px;
   margin-bottom: 2px;
 }
 .roster.roster-endorsed a:hover {
-  border-left: #0D3058 10px solid;
+  border-left: #0d3058 10px solid;
 }
 
 .roster-endorsed i {
-  color: #0D3058;
+  color: #0d3058;
 }
 
 .photo-box {
@@ -277,9 +312,8 @@ a:hover {
   padding-right: 20px;
 }
 
-
 .bio-back {
-  border-left: #D0D0D0 10px solid;
+  border-left: #d0d0d0 10px solid;
   display: block;
   padding: 4px 10px;
   color: #333;
@@ -309,7 +343,7 @@ a:hover {
 }
 
 .lead-intro {
-  border-left: #0D3058 10px solid;
+  border-left: #0d3058 10px solid;
   padding-left: 20px;
   font-style: italic;
 }
@@ -340,14 +374,16 @@ a:hover {
   display: inline-block;
 }
 
-#stickynav { margin: 0; }
+#stickynav {
+  margin: 0;
+}
 
 .ec_river .race-label {
   padding: 0px 0px 5px 0px;
   margin: -5px 0 0 0;
   line-height: 20px;
   font-family: "adelle", serif;
-  font-size: .9em;
+  font-size: 0.9em;
   text-transform: uppercase;
 }
 
@@ -361,7 +397,9 @@ a:hover {
   margin-left: 0px;
 }
 
-.ec_rail h3, .ec_river h3, .mobile_head h3 {
+.ec_rail h3,
+.ec_river h3,
+.mobile_head h3 {
   font-weight: bold;
   font-variant: 600;
   margin-top: 0px;
@@ -377,11 +415,8 @@ a:hover {
 }
 
 .ec_rail section {
-  border-bottom: 1px #dadada solid
+  border-bottom: 1px #dadada solid;
 }
-
-
-
 
 .moreinfo {
   font-size: 1.1em;
@@ -416,8 +451,8 @@ a:hover {
 #mid {
   background-color: red;
   width: 100%;
-  height: 40px;}
-
+  height: 40px;
+}
 
 .social-wrapper ul {
   margin: 0px;
@@ -527,10 +562,12 @@ h4 a:hover {
   width: 100%;
 }
 
-.big-typeahead input[type="text"]:focus, .small-typeahead input[type="text"]:focus {
+.big-typeahead input[type="text"]:focus,
+.small-typeahead input[type="text"]:focus {
   background-color: #fff;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(13, 48, 88, .6);
-  border-color: rgba(13, 48, 88, .8);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(13, 48, 88, 0.6);
+  border-color: rgba(13, 48, 88, 0.8);
 }
 
 .newrace h3 {
@@ -542,7 +579,6 @@ h4 a:hover {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-
 
 .ec_river {
   /*width: 600px;*/
@@ -572,7 +608,8 @@ h4 a:hover {
   padding-bottom: 20px;
 }
 
-.edboard-lead, .edboard-shout {
+.edboard-lead,
+.edboard-shout {
   font-size: 16px;
   line-height: 24px;
   padding: 0px 100px;
@@ -611,17 +648,18 @@ h4 a:hover {
   margin-left: 2px;
 }
 .jumptarget:before {
-  content:"";
-  display:block;
-  height:82px;
-  margin:-82px 0 0;
+  content: "";
+  display: block;
+  height: 82px;
+  margin: -82px 0 0;
 }
 
 /* Special ad rules */
 .advert-1 {
   margin: 20px 0 40px;
 }
-#race-candidates .advert, #right-rail-news .advert {
+#race-candidates .advert,
+#right-rail-news .advert {
   margin-top: 36px;
 }
 
@@ -637,18 +675,18 @@ h4 a:hover {
   padding: 5px 0;
   background-color: #fff;
   border: 1px solid #ccc;
-  border: 1px solid rgba(0,0,0,.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
   *border-bottom-width: 2px;
   -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-     -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
-          box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -webkit-background-clip: padding-box;
-     -moz-background-clip: padding;
-          background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
 }
 
 .tt-suggestion {
@@ -660,12 +698,22 @@ h4 a:hover {
   color: #fff;
   background-color: #0081c2;
   background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    0 100%,
+    from(#0088cc),
+    to(#0077b3)
+  );
   background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
   background-image: -o-linear-gradient(top, #0088cc, #0077b3);
   background-image: linear-gradient(to bottom, #0088cc, #0077b3);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0)
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#ff0088cc",
+      endColorstr="#ff0077b3",
+      GradientType=0
+    );
 }
 
 .tt-suggestion.tt-is-under-cursor a {
@@ -675,7 +723,6 @@ h4 a:hover {
 .tt-suggestion p {
   margin: 0;
 }
-
 
 .dropdown-menu {
   min-width: 400px;
@@ -705,31 +752,32 @@ h4 a:hover {
   float: none;
 }
 
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width: 1023px) {
   #right-rail-news {
     display: none;
   }
 
-  #stickynav, .wideback  {
+  #stickynav,
+  .wideback {
     display: none;
   }
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width: 1000px) {
   body {
     padding-top: 0px;
   }
   #race-candidates {
-  width: 200px;
+    width: 200px;
   }
 }
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width: 768px) {
   .pad-l30 {
     padding-left: 0;
   }
 
-  .edboard-lead  {
+  .edboard-lead {
     padding: 0px 0px;
   }
 
@@ -757,14 +805,13 @@ h4 a:hover {
 
 @media only screen and (max-width: 550px) {
   .lead-image {
-  width: 100%;
-  display: block;
-  clear: both;
+    width: 100%;
+    display: block;
+    clear: both;
   }
 }
 
 @media only screen and (max-width: 460px) {
-
   .advert {
     margin-right: -20px;
     margin-left: -20px;
@@ -777,10 +824,13 @@ h4 a:hover {
 
   .bigstar::before {
     border-top: none;
-    content:"";
+    content: "";
     margin: 0 auto;
     position: absolute;
-    top: 7px; left: 0; right: 0; bottom: 0;
+    top: 7px;
+    left: 0;
+    right: 0;
+    bottom: 0;
     width: 100%;
     z-index: -2;
   }
@@ -796,7 +846,8 @@ h4 a:hover {
   }
 
   .bigstar span {
-    background-color: #fbfcfc; padding: 0px 0px;
+    background-color: #fbfcfc;
+    padding: 0px 0px;
     z-index: 0;
   }
 
@@ -809,16 +860,16 @@ h4 a:hover {
   }
 
   .i-block {
-  background-color: white;
-  color: #111;
-  font-size: 18px;
-  width: 18px;
-  padding: 1px;
-  padding-left: 2px;
-  margin-top: -5px;
+    background-color: white;
+    color: #111;
+    font-size: 18px;
+    width: 18px;
+    padding: 1px;
+    padding-left: 2px;
+    margin-top: -5px;
 
-  border-radius: 1px;
-  height: 18px;
+    border-radius: 1px;
+    height: 18px;
   }
 
   .fourem {
@@ -829,7 +880,7 @@ h4 a:hover {
     padding: 10px 0px;
   }
 
-  .edboard-lead  {
+  .edboard-lead {
     padding: 0px 0px;
   }
 
@@ -838,11 +889,11 @@ h4 a:hover {
   }
 
   .ec_thumb {
-  width: 100%;
-  display: block;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  clear: both;
+    width: 100%;
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    clear: both;
   }
 
   .threeem {
