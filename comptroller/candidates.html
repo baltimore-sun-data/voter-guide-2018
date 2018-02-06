@@ -183,22 +183,38 @@
 
       <h1 class="section-header-splash grey">COMPTROLLER</h1>
 
+              <div class="btn-group col-md-12 col-sm-12 col-xs-12" id="testing" style="width:300px;">
+                <button class="btn btn-primary btn-lg dropdown-toggle" id="chooseDistrict" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <span id="choosePartyText">Choose party</span> <span class="caret"></span>
+                </button>
+                
+                <ul class="dropdown-menu"><!-- choose race district -->
+                  <li onClick="filter('democrats');" >Democrats</li>
+                  <li onClick="filter('republicans');">Republicans</li>
+                  <li onClick="filter('all');">See all</li>
+                </ul>
+
+              </div>
+
 
       <!-- DEMS-->
-      <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header bluebg">DEMOCRATS</div></div>
+      <div id="democrats">
+        <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header bluebg">DEMOCRATS</div></div>
 
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=franchot" class="btn btn-primary btn-lg district-button" type="button">PETER FRANCHOT</a>
+        <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=franchot" class="btn btn-primary btn-lg district-button" type="button">PETER FRANCHOT</a>
+        </div>
       </div>
-      
      
     
   
      <!-- REPUBLICANS-->
-      <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header redbg">REPUBLICANS</div></div>
+      <div id="republicans">
+        <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header redbg">REPUBLICANS</div></div>
 
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=phukan" class="btn btn-primary btn-lg district-button" type="button">ANJALI REED PHUKAN</a>
+        <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=phukan" class="btn btn-primary btn-lg district-button" type="button">ANJALI REED PHUKAN</a>
+        </div>
       </div>
       
      
@@ -253,6 +269,47 @@
         var socialMessage = "Learn about candidates running in the Maryland Comptroller race in the Baltimore Sun's Voter Guide:";
         share(socialMessage);
         stateLink();
+
+
+  function filter(party) {
+  
+  if (party == "democrats") {
+
+        $("#democrats").show();
+        $("#republicans").hide();
+        $("#greens").hide();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Democrats');
+
+    }  else if (party == "republicans") {
+
+        $("#democrats").hide();
+        $("#republicans").show();
+        $("#greens").hide();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Republicans');    
+ 
+  }  else if (party == "green") {
+
+        $("#democrats").hide();
+        $("#republicans").hide();
+        $("#greens").show();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Greens');
+ 
+  } else if (party == "all") {
+
+        $("#democrats").show();
+        $("#republicans").show();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Choose Party');
+ 
+  }
+
+
+
+}
+
 
 
 

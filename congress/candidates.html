@@ -184,82 +184,104 @@
 
       <h1 class="section-header-splash grey">U.S. CONGRESS</h1>
 
+           <div class="btn-group col-md-12 col-sm-12 col-xs-12" id="testing" style="width:300px;">
+                <button class="btn btn-primary btn-lg dropdown-toggle" id="chooseDistrict" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     <span id="choosePartyText">Choose party</span> <span class="caret"></span>
+                </button>
+                
+                <ul class="dropdown-menu"><!-- choose race district -->
+                  <li onClick="filter('democrats');" >Democrats</li>
+                  <li onClick="filter('republicans');">Republicans</li>
+                  <li onClick="filter('greens');">Greens</li>
+                  <li onClick="filter('all');">See all</li>
+                </ul>
+
+              </div>
+
+
 
       <!-- DEMS-->
-      <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header bluebg">DEMOCRATS</div></div>
+      <div id="democrats">
 
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=edwards" class="btn btn-primary btn-lg district-button" type="button">DONNA F. EDWARDS / DONNA F. EDWARDS</a>
-      </div>
-      
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=jaffe" class="btn btn-primary btn-lg district-button" type="button">RALPH JAFFE / RALPH JAFFE</a>
-      </div>
+        <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header bluebg">DEMOCRATS</div></div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=edwards" class="btn btn-primary btn-lg district-button" type="button">DONNA F. EDWARDS / DONNA F. EDWARDS</a>
+        </div>
         
         <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=scaldaferri" class="btn btn-primary btn-lg district-button" type="button">THERESA C. SCALDAFERRI / THERESA C. SCALDAFERRI</a>
+                    <a href="candidate-page.html?cand=jaffe" class="btn btn-primary btn-lg district-button" type="button">RALPH JAFFE / RALPH JAFFE</a>
         </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=scaldaferri" class="btn btn-primary btn-lg district-button" type="button">THERESA C. SCALDAFERRI / THERESA C. SCALDAFERRI</a>
+          </div>
+
+         <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=smith" class="btn btn-primary btn-lg district-button" type="button">CHARLES U. SMITH / CHARLES U. SMITH</a>
+          </div>
 
        <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=smith" class="btn btn-primary btn-lg district-button" type="button">CHARLES U. SMITH / CHARLES U. SMITH</a>
+                    <a href="candidate-page.html?cand=staley" class="btn btn-primary btn-lg district-button" type="button">VIOLET STALEY</a>
         </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=taylor" class="btn btn-primary btn-lg district-button" type="button">BLAINE TAYLOR / BLAINE TAYLOR</a>
+          </div>
 
-     <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=staley" class="btn btn-primary btn-lg district-button" type="button">VIOLET STALEY</a>
-      </div>
-        
-        <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=taylor" class="btn btn-primary btn-lg district-button" type="button">BLAINE TAYLOR / BLAINE TAYLOR</a>
+         <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=tinus" class="btn btn-primary btn-lg district-button" type="button">ED TINUS / ED TINUS</a>
+          </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=vanhollen" class="btn btn-primary btn-lg district-button" type="button">CHRIS VAN HOLLEN / CHRIS VAN HOLLEN</a>
         </div>
-
-       <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=tinus" class="btn btn-primary btn-lg district-button" type="button">ED TINUS / ED TINUS</a>
-        </div>
-        
+          
         <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=vanhollen" class="btn btn-primary btn-lg district-button" type="button">CHRIS VAN HOLLEN / CHRIS VAN HOLLEN</a>
-      </div>
-        
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=lihyoung" class="btn btn-primary btn-lg district-button" type="button">LIH YOUNG</a>
-      </div>
-    
+                    <a href="candidate-page.html?cand=lihyoung" class="btn btn-primary btn-lg district-button" type="button">LIH YOUNG</a>
+        </div>
+      </div>    
   
      <!-- REPUBLICANS-->
-      <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header redbg">REPUBLICANS</div></div>
 
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=chaffee" class="btn btn-primary btn-lg district-button" type="button">CHRIS CHAFFEE / CHRIS CHAFFEE</a>
-      </div>
-      
-      <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=connor" class="btn btn-primary btn-lg district-button" type="button">SEAN P. CONNOR / SEAN P. CONNOR</a>
-      </div>
-        
-        <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=douglas" class="btn btn-primary btn-lg district-button" type="button">RICHARD J. DOUGLAS / RICHARD J. DOUGLAS</a>
-        </div>
+      <div id="republicans">
 
-       <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=graziani" class="btn btn-primary btn-lg district-button" type="button">JOHN R. GRAZIANI / JOHN R. GRAZIANI</a>
-        </div>
+          <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header redbg">REPUBLICANS</div></div>
 
-     <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=holmes" class="btn btn-primary btn-lg district-button" type="button">GREG HOLMES / GREG HOLMES</a>
-      </div>
-        
+          <div class="col-md-6 col-sm-6 col-xs-6"> 
+                      <a href="candidate-page.html?cand=chaffee" class="btn btn-primary btn-lg district-button" type="button">CHRIS CHAFFEE / CHRIS CHAFFEE</a>
+          </div>
+          
+          <div class="col-md-6 col-sm-6 col-xs-6"> 
+                      <a href="candidate-page.html?cand=connor" class="btn btn-primary btn-lg district-button" type="button">SEAN P. CONNOR / SEAN P. CONNOR</a>
+          </div>
+            
+            <div class="col-md-6 col-sm-6 col-xs-6"> 
+                      <a href="candidate-page.html?cand=douglas" class="btn btn-primary btn-lg district-button" type="button">RICHARD J. DOUGLAS / RICHARD J. DOUGLAS</a>
+            </div>
+
+           <div class="col-md-6 col-sm-6 col-xs-6"> 
+                      <a href="candidate-page.html?cand=graziani" class="btn btn-primary btn-lg district-button" type="button">JOHN R. GRAZIANI / JOHN R. GRAZIANI</a>
+            </div>
+
+         <div class="col-md-6 col-sm-6 col-xs-6"> 
+                      <a href="candidate-page.html?cand=holmes" class="btn btn-primary btn-lg district-button" type="button">GREG HOLMES / GREG HOLMES</a>
+          </div>
+      </div>            
 
 
 
 
      <!-- GREENS-->
-      <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header greenbg">GREENS</div></div>
+      <div id="greens">
 
-       <div class="col-md-6 col-sm-6 col-xs-6"> 
-                  <a href="candidate-page.html?cand=flowers" class="btn btn-primary btn-lg district-button" type="button">MARGARET FLOWERS / MARGARET FLOWERS</a>
-        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12"><div class="party-header greenbg">GREENS</div></div>
 
+         <div class="col-md-6 col-sm-6 col-xs-6"> 
+                    <a href="candidate-page.html?cand=flowers" class="btn btn-primary btn-lg district-button" type="button">MARGARET FLOWERS / MARGARET FLOWERS</a>
+          </div>
 
+      </div>
     
   </div>
 
@@ -314,6 +336,44 @@
         share(socialMessage);
         stateLink();
 
+ function filter(party) {
+  
+  if (party == "democrats") {
+
+        $("#democrats").show();
+        $("#republicans").hide();
+        $("#greens").hide();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Democrats');
+
+    }  else if (party == "republicans") {
+
+        $("#democrats").hide();
+        $("#republicans").show();
+        $("#greens").hide();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Republicans');    
+ 
+  }  else if (party == "greens") {
+
+        $("#democrats").hide();
+        $("#republicans").hide();
+        $("#greens").show();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Greens');
+ 
+  } else if (party == "all") {
+
+        $("#democrats").show();
+        $("#republicans").show();
+        $('#choosePartyText').empty();
+        $('#choosePartyText').text('Choose Party');
+ 
+  }
+
+
+
+}
 
 
 
