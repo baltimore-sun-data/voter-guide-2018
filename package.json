@@ -7,6 +7,8 @@
   "author": "carljohnson@tronc.com",
   "license": "UNLICENSED",
   "scripts": {
+    "build": "hugo",
+    "server": "hugo serve",
     "format": "prettier --write '**/*.{css,js,json,md,scss}'",
     "test": "eslint ."
   },
