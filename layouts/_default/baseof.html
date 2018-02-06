@@ -11,30 +11,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- Javascript
       ================================================== -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-  </script>
-  <script language="javascript" src="scripts/jquery.easing.1.3.js">
-  </script>
+  <script language="javascript" src="{{.Site.BaseURL}}scripts/jquery-1.10.2.min.js"></script>
+  <script language="javascript" src="{{.Site.BaseURL}}scripts/jquery.easing.1.3.js"></script>
+  <script language="javascript" src="{{.Site.BaseURL}}scripts/javascript.js"></script>
+  <script language="javascript" src="{{.Site.BaseURL}}scripts/jquery.scrollTo.min.js"></script>
+
   <!-- CSS
       ================================================== -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/fonts.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/base.css">
+  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/fonts.css">
+  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/style.css">
   <!--BOOTSTRAP and MORE JS
       ================================================== -->
-  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
-  <script src="scripts/bootstrap.min.js">
-  </script>
-  <link rel="stylesheet" type="text/css" href="stylesheets/buttons.css">
-  <script language="javascript" src="scripts/javascript.js">
-  </script>
-  <!-- FONTS
-      ================================================== -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="{{.Site.BaseURL}}stylesheets/bootstrap.min.css">
+  <script src="{{.Site.BaseURL}}scripts/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/buttons.css">
+
   <!-- Facebook Stuff -->
   <meta property="og:title" content="Baltimore Sun Voter Guide">
-  <meta property="og:url" content="http://data.baltimoresun.com/voter-guide-2018/index.html">
-  <meta property="og:image" content="http://data.baltimoresun.com/voter-guide-2018/images/voter-guide-square.png">
+  <meta property="og:url" content="{{.Site.BaseURL}}{{.Page.URL}}">
+  <meta property="og:image" content="{{.Site.BaseURL}}images/voter-guide-square.png">
   <!-- /Facebook Stuff -->
   <!-- TWITTER STUFF -->
   <meta name="twitter:card" content="summary">
@@ -42,12 +38,9 @@
   <meta name="twitter:creator" content="">
   <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide 2018">
   <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s 2018 Maryland Voter Guide:">
-  <meta name="twitter:image" content="http://data.baltimoresun.com/voter-guide-2018/images/voter-guide-square.png">
+  <meta name="twitter:image" content="{{.Site.BaseURL}}images/voter-guide-square.png">
   <meta name="twitter:domain" content="baltimoresun.com">
-  <script language="javascript" src="../scripts/javascript.js">
-  </script>
-  <script language="javascript" src="../scripts/jquery.scrollTo-1.4.3.1-min.js">
-  </script>
+
   <!-- Baltimore Sun Ad Scripts -->
   <script type="text/javascript">
    var gptadslots=[];
