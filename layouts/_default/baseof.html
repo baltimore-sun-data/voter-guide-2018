@@ -1,0 +1,103 @@
+<html lang="en">
+ <head>
+  <!-- Basic Page Needs
+      ================================================== -->
+  <meta charset="utf-8">
+  <title>{{block "title" . }}{{.Title}} | Baltimore Sun Voter Guide{{ end }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <!-- Mobile Specific Metas
+      ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <!-- Javascript
+      ================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+  </script>
+  <script language="javascript" src="scripts/jquery.easing.1.3.js">
+  </script>
+  <!-- CSS
+      ================================================== -->
+  <link rel="stylesheet" type="text/css" href="stylesheets/base.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/fonts.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+  <!--BOOTSTRAP and MORE JS
+      ================================================== -->
+  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+  <script src="scripts/bootstrap.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="stylesheets/buttons.css">
+  <script language="javascript" src="scripts/javascript.js">
+  </script>
+  <!-- FONTS
+      ================================================== -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900" rel="stylesheet" type="text/css">
+  <!-- Facebook Stuff -->
+  <meta property="og:title" content="Baltimore Sun Voter Guide">
+  <meta property="og:url" content="http://data.baltimoresun.com/voter-guide-2018/index.html">
+  <meta property="og:image" content="http://data.baltimoresun.com/voter-guide-2018/images/voter-guide-square.png">
+  <!-- /Facebook Stuff -->
+  <!-- TWITTER STUFF -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@baltimoresun">
+  <meta name="twitter:creator" content="">
+  <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide 2018">
+  <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s 2018 Maryland Voter Guide:">
+  <meta name="twitter:image" content="http://data.baltimoresun.com/voter-guide-2018/images/voter-guide-square.png">
+  <meta name="twitter:domain" content="baltimoresun.com">
+  <script language="javascript" src="../scripts/javascript.js">
+  </script>
+  <script language="javascript" src="../scripts/jquery.scrollTo-1.4.3.1-min.js">
+  </script>
+  <!-- Baltimore Sun Ad Scripts -->
+  <script type="text/javascript">
+   var gptadslots=[];
+          var googletag = googletag || {};
+          googletag.cmd = googletag.cmd || [];
+          (function(){ var gads = document.createElement('script');
+            gads.async = true; gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+          })();
+  </script>
+  <!-- /Baltimore Sun Ad Scripts -->
+  <!-- Baltimore Sun Omniture -->
+  <script>
+   ((((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})).thirdparty = {
+          pageName: 'bs:data:news:maryland:politics:voter-guide-2018:dataproject.',
+          channel: 'news:maryland:politics',
+          server: 'data.baltimoresun.com',
+          hier1: 'baltimoresun:news:maryland:politics',
+          hier2: 'news:maryland:politics',
+          prop1: 'D=pageName',
+          prop2: 'news',
+          prop38: 'dataproject',
+          prop57: 'D=c38',
+          eVar20: 'baltimoresun',
+          eVar21: 'D=c38',
+          eVar34: 'D=ch',
+          eVar35: 'D=pageName',
+          events:''
+
+          });
+  </script>
+  <!-- /Baltimore Sun Omniture -->
+  <!--omniture call-->
+  <script src="http://www.baltimoresun.com/thirdpartyservice?disablenav=true&amp;disablessor=true" async="">
+  </script>
+ </head>
+ <body>
+  {{ partial "header.html" . }}
+  {{ block "main" . }}{{ end }}
+  <div id="footer">
+    {{ partial "footer.html" . }}
+  </div>
+  <script>
+     //Write the twitter and facebook message for buttons
+        var socialMessage = "Learn about primary elections in Maryland in the Baltimore Sun 2018 Voter Guide:";
+        share(socialMessage);
+        stateLink();
+  </script>
+ </body>
+</html>
