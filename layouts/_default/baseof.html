@@ -37,8 +37,8 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@baltimoresun">
   <meta name="twitter:creator" content="">
-  <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide 2018">
-  <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s 2018 Maryland Voter Guide:">
+  <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide {{.Site.Params.Year}}">
+  <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s {{.Site.Params.Year}} Maryland Voter Guide:">
   <meta name="twitter:image" content="{{.Site.BaseURL}}images/voter-guide-square.png">
   <meta name="twitter:domain" content="baltimoresun.com">
 
@@ -59,7 +59,7 @@
   <!-- Baltimore Sun Omniture -->
   <script>
    ((((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})).thirdparty = {
-          pageName: 'bs:data:news:maryland:politics:voter-guide-2018:dataproject.',
+          pageName: 'bs:data:news:maryland:politics:voter-guide-{{.Site.Params.Year}}:dataproject.',
           channel: 'news:maryland:politics',
           server: 'data.baltimoresun.com',
           hier1: 'baltimoresun:news:maryland:politics',
@@ -89,9 +89,8 @@
   </div>
   <script>
      //Write the twitter and facebook message for buttons
-        var socialMessage = "Learn about primary elections in Maryland in the Baltimore Sun 2018 Voter Guide:";
+        var socialMessage = "Learn about primary elections in Maryland in the Baltimore Sun {{.Site.Params.Year}} Voter Guide:";
         share(socialMessage);
-        stateLink();
   </script>
  </body>
 </html>
