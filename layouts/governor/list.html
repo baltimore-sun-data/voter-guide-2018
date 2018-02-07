@@ -1,5 +1,35 @@
 {{ define "extra-head" }}
-<script type="text/javascript" src="/scripts/governor.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".js-filter-party").on('click', function(e) {
+      var party = $(e.target).data('party-toggle');
+      if (party === "democrats") {
+        $("#democrats").show();
+        $("#republicans").hide();
+        $("#greens").hide();
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text("Democrats");
+      } else if (party === "republicans") {
+        $("#democrats").hide();
+        $("#republicans").show();
+        $("#greens").hide();
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text("Republicans");
+      } else if (party === "greens") {
+        $("#democrats").hide();
+        $("#republicans").hide();
+        $("#greens").show();
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text("Greens");
+      } else if (party === "all") {
+        $("#democrats").show();
+        $("#republicans").show();
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text("Choose Party");
+      }
+    });
+  });
+</script>
 {{ end }}
 
 {{ define "main" }}
@@ -17,16 +47,16 @@
     </button>
     <ul class="dropdown-menu">
      <!-- choose race district -->
-     <li onclick="filter_party('democrats');">
+     <li class="js-filter-party" data-party-toggle="democrats">
       Democrats
      </li>
-     <li onclick="filter_party('republicans');">
+     <li class="js-filter-party" data-party-toggle="republicans">
       Republicans
      </li>
-     <li onclick="filter_party('greens');">
+     <li class="js-filter-party" data-party-toggle="greens">
       Greens
      </li>
-     <li onclick="filter_party('all');">
+     <li class="js-filter-party" data-party-toggle="all">
       See all
      </li>
     </ul>
