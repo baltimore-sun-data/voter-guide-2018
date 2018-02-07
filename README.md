@@ -2,15 +2,15 @@
 
 ## Installation and usage
 
-- Project require [Hugo](https://gohugo.io) and [Yarn](https://yarnpkg.com/). The simplest way to install this on Mac is `brew install yarn hugo`.
+* Project require [Hugo](https://gohugo.io) and [Yarn](https://yarnpkg.com/). The simplest way to install this on Mac is `brew install yarn hugo`.
 
-- Run `yarn` to install JavaScript dependencies
+* Run `yarn` to install JavaScript dependencies
 
-- Run `yarn server` to run a development server at [http://localhost:1313/](http://localhost:1313/).
+* Run `yarn server` to run a development server at [http://localhost:1313/](http://localhost:1313/).
 
-- Run `yarn build` to create files for distribution in `public/`.
+* Run `yarn build` to create files for distribution in `public/`.
 
-- - - -
+---
 
 ## Old readme
 
