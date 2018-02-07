@@ -1,4 +1,4 @@
-{{ define "title" }}Baltimore Sun Voter Guide{{ end }}
+{{ define "title" }}{{ .Title }}{{ end }}
 
 {{ define "main" }}
   <div id="intro-block">
@@ -9,7 +9,7 @@
      </span>
      <span class="icon-star">
      </span>
-     MARYLAND VOTER GUIDE 2018
+     MARYLAND VOTER GUIDE {{.Site.Params.Year}}
      <span class="icon-star">
      </span>
      <span class="icon-star mobile-hide">
@@ -23,7 +23,7 @@
     </span>
    </div>
    <div id="splash-text">
-    Marylanders will elect a lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis diam eu tincidunt ultricies. Morbi pulvinar, purus a vulputate suscipit, ligula justo molestie elit, vitae porta erat ante ac nunc. Quisque quam diam, pulvinar id neque ac, tincidunt cursus libero. Sed eu tellus sit amet tortor feugiat ullamcorper. Morbi facilisis eleifend elementum. Etiam fermentum tempus lacus egestas.
+    {{ .Content }}
    </div>
   </div>
   <div id="splash-buttons">
@@ -44,42 +44,42 @@
     FEDERAL &amp; STATE RACES
    </h1>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="governor/candidates.html" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/governor/" class="btn btn-primary btn-lg district-button" type="button">
      Governor/Lt. Governor
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="comptroller/candidates.html" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/comptroller/" class="btn btn-primary btn-lg district-button" type="button">
      Comptroller
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="#" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/attorney-general/" class="btn btn-primary btn-lg district-button" type="button">
      Attorney General
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="#" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/us-senate/" class="btn btn-primary btn-lg district-button" type="button">
      U.S. Senator
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="congress/select-district.html" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/us-house/" class="btn btn-primary btn-lg district-button" type="button">
      Representative in Congress
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="#" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/state-senate/" class="btn btn-primary btn-lg district-button" type="button">
      State Senator
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="#" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/state-house/" class="btn btn-primary btn-lg district-button" type="button">
      House of Delegates
     </a>
    </div>
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="#" class="btn btn-primary btn-lg district-button" type="button">
+    <a href="/circuit-court/" class="btn btn-primary btn-lg district-button" type="button">
      Judge of the Circuit Court
     </a>
    </div>
