@@ -28,7 +28,7 @@
     </span>
     <span class="icon-star">
     </span>
-    MARYLAND GOVERNOR RACE
+    {{ .Page.CurrentSection.Title | upper }}
     <span class="icon-star">
     </span>
     <span class="icon-star mobile-hide">
@@ -108,8 +108,9 @@
      <!-- Democrat candidate navigation -->
      {{ range .CurrentSection.Pages.GroupByParam "party" }}
      <div class="candidate-{{.Key | lower }} candidates-list span-70 center">
+      {{ $adjective := dict "Democrat" "Democratic" }}
       <div class="list-label general">
-       Running against:
+       {{ default .Key (index $adjective .Key) }} Candidates:
       </div>
       <ul>
         {{ range .Pages }}
