@@ -1,5 +1,4 @@
 {{ define "main" }}
-
   <div id="leaderboard-ad">
    <script type="text/javascript">
     googletag.cmd.push(function() {
@@ -133,7 +132,9 @@
   <!-- /container -->
   <nav>
    <div id="nav-photo">
-    <img src="{{.Site.BaseURL}}{{.Params.imageNoBackground}}" class="nav-photo">
+    {{ with .Params.imageNoBackground }}
+    <img src="{{$.Site.BaseURL}}{{.}}" class="nav-photo">
+    {{ end }}
    </div>
    <div class="nav-item small" data-section="bio">
     <span class="icon-bio">
@@ -330,6 +331,10 @@
   </div>
   <!-- Page loading scripts -->
   <script type="text/javascript">
+    $(document).ready(function(){
+      app.toggle_fixed_nav();
+    });
+
     //Newsfeed script based on https://rss2json.com/
     var feed_url =
       "https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Fmaryland%2Fpolitics%2Frss2.0.xml&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5";
