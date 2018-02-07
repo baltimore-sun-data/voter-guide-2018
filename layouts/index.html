@@ -1,5 +1,25 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 
+{{ define "extra-head" }}
+<script>
+  $(document).ready(function(){
+    $(".js-swap-race").on('click', function(){
+        if ($("#local-races").is(":visible")) {
+          $("#local-races").hide();
+          $("#local-button").removeClass("selected");
+          $("#state-races").show();
+          $("#state-button").addClass("selected");
+        } else {
+          $("#state-races").hide();
+          $("#state-button").removeClass("selected");
+          $("#local-races").show();
+          $("#local-button").addClass("selected");
+        }
+    });
+  });
+</script>
+{{ end }}
+
 {{ define "main" }}
   <div id="intro-block">
    <div id="page-header" class="splash">
@@ -28,11 +48,11 @@
   </div>
   <div id="splash-buttons">
    <div class="btn-group">
-    <div id="state-button" onclick="swapRace();" class="btn btn-primary btn-lg top-buttons selected" type="button">
+    <div id="state-button" class="js-swap-race btn btn-primary btn-lg top-buttons selected" type="button">
      Fed &amp; State
     </div>
     <div class="btn-group">
-     <div id="local-button" onclick="swapRace();" class="btn btn-primary btn-lg top-buttons" type="button">
+     <div id="local-button" class="js-swap-race btn btn-primary btn-lg top-buttons" type="button">
       Local
      </div>
     </div>
