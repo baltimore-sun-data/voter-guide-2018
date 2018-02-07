@@ -800,15 +800,15 @@ img.cand-pic {
   margin: 0px 10px;
 }
 
-#all-candidates ul li img.dem {
+#all-candidates ul li img.democrat {
   border-bottom: 4px solid #2e98cc;
 }
 
-#all-candidates ul li img.rep {
+#all-candidates ul li img.republican {
   border-bottom: 4px solid #ed4227;
 }
 
-#all-candidates ul li img.lib {
+#all-candidates ul li img.libertarian {
   border-bottom: 4px solid #d5bc46;
 }
 
@@ -816,23 +816,23 @@ img.cand-pic {
   border-bottom: 4px solid #00a967;
 }
 
-.democrat {
+.section-header.democrat {
   border-left: 10px solid #2e98cc;
 }
 
-.republican {
+.section-header.republican {
   border-left: 10px solid #ed4227;
 }
 
-.green {
+.section-header.green {
   border-left: 10px solid #00a967;
 }
 
-.libertarian {
+.section-header.libertarian {
   border-left: 10px solid #d5bc46;
 }
 
-.neutral {
+.section-header.independent {
   border-left: 10px solid #d0d0d0;
 }
 
@@ -891,7 +891,7 @@ img.cand-pic {
   vertical-align: middle;
 }
 
-#social.dem span {
+#social.democrat span {
   color: #2e98cc;
 }
 
@@ -899,11 +899,11 @@ img.cand-pic {
   color: #00a967;
 }
 
-#social.rep span {
+#social.republican span {
   color: #ed4227;
 }
 
-#social.lib span {
+#social.libertarian span {
   color: #d5bc46;
 }
 
@@ -1038,35 +1038,35 @@ img.cand-pic {
   margin-bottom: 30px;
 }
 
-#questionnaire.dem .question-num {
+#questionnaire.democrat .question-num {
   background-color: #2e98cc;
 }
 
-#questionnaire.rep .question-num {
+#questionnaire.republican .question-num {
   background-color: #ed4227;
 }
 
-#questionnaire.lib .question-num {
+#questionnaire.libertarian .question-num {
   background-color: #d5bc46;
 }
 
-#questionnaire.gre .question-num {
+#questionnaire.green .question-num {
   background-color: #00a967;
 }
 
-#questionnaire.dem .question-text {
+#questionnaire.democrat .question-text {
   background-color: #9ddaf8;
 }
 
-#questionnaire.rep .question-text {
+#questionnaire.republican .question-text {
   background-color: #ffd0c9;
 }
 
-#questionnaire.lib .question-text {
+#questionnaire.libertarian .question-text {
   background-color: #f3ebc8;
 }
 
-#questionnaire.gre .question-text {
+#questionnaire.green .question-text {
   background-color: #bee2d4;
 }
 
@@ -1681,4 +1681,8 @@ p.about {
 
 *:first-child + html .group {
   zoom: 1;
+}
+
+.u-none {
+  display: none;
 }

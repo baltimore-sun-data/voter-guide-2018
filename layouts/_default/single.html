@@ -1,0 +1,362 @@
+{{ define "main" }}
+
+  <div id="leaderboard-ad">
+   <script type="text/javascript">
+    googletag.cmd.push(function() {
+
+    //Adslot 1 declaration
+    gptadslots[1]= googletag.defineSlot('/4011/trb.baltimoresun/news', [[728,90]],'div-gpt-ad-785317941620082696-1').setTargeting('pos',['1']).addService(googletag.pubads());
+
+    googletag.pubads().setTargeting('ptype',['s']);
+    googletag.pubads().enableAsyncRendering();
+    googletag.enableServices();
+  });
+   </script>
+   <!-- End: GPT -->
+   <!-- Beginning Async AdSlot 1 for Ad unit trb.baltimoresun/news  ### size: [[728,90]] -->
+   <!-- Adslot&#39;s refresh function: googletag.pubads().refresh([gptadslots[1]]) -->
+   <div id="div-gpt-ad-785317941620082696-1">
+    <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('div-gpt-ad-785317941620082696-1'); });
+    </script>
+   </div>
+   <!-- End AdSlot 1 -->
+  </div>
+  <div id="page-header">
+   <div id="page-header-text">
+    <span class="icon-star mobile-hide">
+    </span>
+    <span class="icon-star">
+    </span>
+    MARYLAND GOVERNOR RACE
+    <span class="icon-star">
+    </span>
+    <span class="icon-star mobile-hide">
+    </span>
+   </div>
+  </div>
+  <!-- social icons-->
+  <div id="social-icons" class="candidate-page">
+   <span class="icon-facebook top">
+   </span>
+   <span class="icon-twitter top">
+   </span>
+  </div>
+  <div class="container {{ .Params.party | lower }}-color">
+   <section id="top" class="group">
+    <div id="cand-bio" class="span-60 left">
+     <div id="cand-pic">
+      {{ with .Params.image}}
+      <img src="{{$.Site.BaseURL}}{{.}}" class="cand-pic">
+      {{ end }}
+     </div>
+     <div id="cand-bio-text">
+      <div id="cand-name">
+        {{.Params.candidateName}}
+      </div>
+      <div id="cand-details">
+       <ul>
+        <li id="party" class="{{ .Params.party | lower }}-color">
+          {{.Params.Party}}
+        </li>
+        <li>
+         <span id="age">
+          {{.Params.Age}}
+         </span>
+        </li>
+        <li id="job">
+          {{.Params.Job}}
+        </li>
+        <li>
+         <span id="lives">
+          {{.Params.LivesIn}}
+         </span>
+        </li>
+        <li id="graduated">
+          {{.Params.graduatedFrom}}
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <!-- /cand-bio -->
+    <div id="inline-nav" class="mobile">
+     <div class="nav-item" data-section="bio">
+      <span class="icon-bio">
+      </span>
+      <div class="nav-label">
+       BIO
+      </div>
+     </div>
+     <div class="nav-item" data-section="news">
+      <span class="icon-news">
+      </span>
+      <div class="nav-label">
+       COVERAGE
+      </div>
+     </div>
+     <div class="nav-item" data-section="questionnaire">
+      <span class="icon-list">
+      </span>
+      <div class="nav-label">
+       Q&amp;A
+      </div>
+     </div>
+    </div>
+    <div id="all-candidates" class="span-40 right">
+    <!-- TODO -->
+     <!-- Democrat candidate navigation -->
+     {{ range .CurrentSection.Pages.GroupByParam "party" }}
+     <div class="candidate-{{.Key | lower }} candidates-list span-70 center">
+      <div class="list-label general">
+       Running against:
+      </div>
+      <ul>
+        {{ range .Pages }}
+       <li>
+        <a href="{{.URL}}">{{.Title}}</a>
+       </li>
+       {{ end }}
+      </ul>
+      <div id="all-candidates-toggle-button" class="u-none">
+       + SHOW MORE
+      </div>
+     </div>
+     <!-- / Democrat candidate navigation -->
+     {{end}}
+    </div>
+    <!-- /all-candidates dem -->
+   </section>
+   <!-- /top section -->
+  </div>
+  <!-- /container -->
+  <nav>
+   <div id="nav-photo">
+    <img src="{{.Site.BaseURL}}{{.Params.imageNoBackground}}" class="nav-photo">
+   </div>
+   <div class="nav-item small" data-section="bio">
+    <span class="icon-bio">
+    </span>
+    <div class="nav-label">
+     BIO
+    </div>
+   </div>
+   <div class="nav-item small" data-section="news">
+    <span class="icon-news">
+    </span>
+    <div class="nav-label">
+     COVERAGE
+    </div>
+   </div>
+   <div class="nav-item small" data-section="questionnaire">
+    <span class="icon-list">
+    </span>
+    <div class="nav-label">
+     Q&amp;A
+    </div>
+   </div>
+  </nav>
+  <div id="inline-nav" class="desktop">
+   <div class="nav-item" data-section="bio">
+    <span class="icon-bio">
+    </span>
+    <div class="nav-label">
+     BIO
+    </div>
+   </div>
+   <div class="nav-item" data-section="news">
+    <span class="icon-news">
+    </span>
+    <div class="nav-label">
+     COVERAGE
+    </div>
+   </div>
+   <div class="nav-item" data-section="questionnaire">
+    <span class="icon-list">
+    </span>
+    <div class="nav-label">
+     Q&amp;A
+    </div>
+   </div>
+  </div>
+  <div class="container">
+   <section id="bio">
+    <header class="section-header {{.Params.party | lower }}">
+      About {{.Params.candidateLastName}}
+    </header>
+    <div class="group">
+     <div id="bio-text" class="span-60 left">
+      {{.Params.bio|markdownify}}
+     </div>
+     <div id="social" class="span-40 right {{.Params.party | lower }}">
+      <ul>
+       <li>
+        <span class="icon-globe side">
+        </span>
+        <a href="{{.Params.website}}" class="website-link" target="_blank">
+          {{ replace (replace .Params.website "http://" "") "https://" "" }}
+        </a>
+       </li>
+       <li>
+        <span class="icon-twitter side">
+        </span>
+        <a href="https://twitter.com/{{.Params.twitter}}" class="twitter-link" target="_blank">
+          @{{.Params.twitter}}
+        </a>
+       </li>
+       <li>
+        <span class="icon-facebook side">
+        </span>
+        <a href="https://facebook.com/{{.Params.facebook}}/" class="facebook-link" target="_blank">
+          facebook.com/{{.Params.facebook}}
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <!-- /bio -->
+   <div class="group">
+    <section id="news" class="span-65 left">
+     <header class="section-header {{.Params.party | lower }}">
+      Election Coverage
+     </header>
+     <ul>
+      <div id="newsfeed">
+      </div>
+     </ul>
+    </section>
+    <div id="cube-ad">
+     <div id="ad-holder">
+      <table class="cubeAd">
+       <tbody>
+        <tr>
+         <td id="rightrail_ad_td" valign="middle">
+          <script type="text/javascript">
+           googletag.cmd.push(function() {
+              //Adslot 1 declaration
+              gptadslots[1]= googletag.defineSlot('/4011/trb.baltimoresun/news', [[300,250]],'div-gpt-ad-551902210151013328-1').setTargeting('pos',['1']).addService(googletag.pubads());
+
+              googletag.pubads().setTargeting('ptype',['s']);
+              googletag.pubads().enableAsyncRendering();
+              googletag.enableServices();
+            });
+          </script>
+          <!-- End: GPT -->
+          <!-- Beginning Async AdSlot 1 for Ad unit trb.baltimoresun/news  ### size: [[300,250]] -->
+          <!-- Adslot&#39;s refresh function: googletag.pubads().refresh([gptadslots[1]]) -->
+          <div id="div-gpt-ad-551902210151013328-1">
+           <script type="text/javascript">
+            googletag.cmd.push(function() { googletag.display('div-gpt-ad-551902210151013328-1'); });
+           </script>
+          </div>
+          <!-- End AdSlot 1 -->
+         </td>
+        </tr>
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <section id="questionnaire" class="group {{.Params.party | lower }}">
+    <header class="section-header {{.Params.party | lower }}">
+     Questionnaire
+    </header>
+    {{ if not .Params.questions }}
+    <div id="message">
+     <br>
+     <p>
+      This candidate did not respond to The Sun&#39;s editorial questionnaire.
+     </p>
+     <br>
+     <br>
+    </div>
+    {{ else }}
+    <div id="questionnaire-candidate">
+     <!--&lt;div class=&#34;header-underline&#34;&gt;&lt;/div&gt;-->
+     <div id="questionnaire-nav">
+      <div>
+       Jump to:
+      </div>
+      <ul>
+       {{ range $i, $question := .Params.questions }}
+       <li data-subject="{{$question.shortname}}">
+        {{add $i 1}}
+       </li>
+       {{ end }}
+      </ul>
+     </div>
+     {{ $candidateLastName := .Params.candidateLastName }}
+     {{ range $i, $question := .Params.questions }}
+     <div id="question-{{$i}}" class="question span-70 left">
+      <header class="question-header">
+       <div class="question-num">
+        {{ add $i 1 }}
+       </div>
+       {{$question.shortname}}
+      </header>
+      <div class="question-text">
+        {{$question.question}}
+      </div>
+      <div class="answer">
+       <p>
+        <span class="speaker">{{$candidateLastName}}</span>:
+        <span class="first-para">
+          {{$question.answer}}
+        </span>
+       </p>
+       <div class="other-paras">
+       </div>
+       <div class="answer-social" data-num="{{$i}}">
+        SHARE THIS ANSWER
+        <span class="icon-twitter">
+        </span>
+        <span class="icon-facebook">
+        </span>
+       </div>
+      </div>
+      <!-- /answer -->
+     </div>
+     {{ end }}
+     <!-- /questionnaire-->
+    </div>
+    {{ end }}
+   </section>
+   <!-- /questionnaire -->
+  </div>
+  <!-- /container -->
+  <div id="footer">
+  </div>
+  <!-- Page loading scripts -->
+  <script type="text/javascript">
+    //Newsfeed script based on https://rss2json.com/
+    var feed_url =
+      "https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Fmaryland%2Fpolitics%2Frss2.0.xml&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5";
+
+    var content = document.getElementById("newsfeed");
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4 && xhr.status == 200) {
+        var data = JSON.parse(xhr.responseText);
+        if (data.status == "ok") {
+          var output = "";
+
+          for (var i = 0; i < data.items.length; ++i) {
+            output +=
+              '<li><div class="article-title"><a href="' +
+              data.items[i].link +
+              '" >' +
+              data.items[i].title +
+              "</a></li></div>";
+          }
+
+          content.innerHTML = output;
+        }
+      }
+    };
+    xhr.open("GET", feed_url, true);
+    xhr.send();
+  </script>
+{{ end }}
