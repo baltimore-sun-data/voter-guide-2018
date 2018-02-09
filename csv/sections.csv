@@ -1,9 +1,6 @@
-weight,directory,title,altTitle,filename,menu
-1,"content/governor","Maryland Governor Race","Governor / Lt. Governor",_index.md,"fedState"
-2,"content/comptroller",Comptroller,Comptroller,_index.md,"fedState"
-3,"content/attorney-general",Attorney General,Attorney General,_index.md,"fedState"
-4,"content/us-senate",U.S. Senator,U.S. Senator,_index.md,"fedState"
-5,"content/us-house",Representative in Congress,Representative in Congress,_index.md,"fedState"
-6,"content/state-senate",State Senator,State Senator,_index.md,"fedState"
-7,"content/state-house",House of Delegates,House of Delegates,_index.md,"fedState"
-8,"content/circuit-court",Judge of the Circuit Court,Judge of the Circuit Court,_index.md,"fedState"
+weight,directory,title,altTitle,filename,menu,type
+1,"content/governor","Maryland Governor Race","Governor / Lt. Governor",_index.md,"fedState",
+2,"content/comptroller",Comptroller,Comptroller,_index.md,"fedState",
+3,"content/attorney-general",Attorney General,Attorney General,_index.md,"fedState",
+4,"content/us-senate",U.S. Senate,U.S. Senator,_index.md,"fedState",
+8,"content/circuit-court",Maryland Judge of the Circuit Court,Judge of the Circuit Court,_index.md,"fedState",

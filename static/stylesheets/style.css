@@ -519,6 +519,10 @@ nav.revealed {
   padding: 25px 25px;
 }
 
+#splash-text a {
+  color: inherit;
+}
+
 .clear-splash {
   clear: both;
 }
