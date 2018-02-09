@@ -3,6 +3,7 @@ buildDrafts = false
 canonifyURLs = true
 contentDir = "content"
 disableHugoGeneratorInject = true
+disableKinds = ["taxonomy","taxonomyTerm"]
 languageCode = "en-us"
 layoutDir = "layouts"
 publishDir = "public"
