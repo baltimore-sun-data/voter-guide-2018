@@ -1694,3 +1694,7 @@ p.about {
 .u-none {
   display: none;
 }
+
+th {
+  font-weight: bold;
+}
