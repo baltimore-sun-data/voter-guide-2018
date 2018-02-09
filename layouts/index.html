@@ -69,46 +69,13 @@
    <h1 class="section-header-splash grey">
     FEDERAL &amp; STATE RACES
    </h1>
+   {{ range .Site.Menus.fedState }}
    <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/governor/" class="btn btn-primary btn-lg district-button" type="button">
-     Governor/Lt. Governor
+    <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
+     {{ .Page.Params.altTitle }}
     </a>
    </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/comptroller/" class="btn btn-primary btn-lg district-button" type="button">
-     Comptroller
-    </a>
-   </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/attorney-general/" class="btn btn-primary btn-lg district-button" type="button">
-     Attorney General
-    </a>
-   </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/us-senate/" class="btn btn-primary btn-lg district-button" type="button">
-     U.S. Senator
-    </a>
-   </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/us-house/" class="btn btn-primary btn-lg district-button" type="button">
-     Representative in Congress
-    </a>
-   </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/state-senate/" class="btn btn-primary btn-lg district-button" type="button">
-     State Senator
-    </a>
-   </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/state-house/" class="btn btn-primary btn-lg district-button" type="button">
-     House of Delegates
-    </a>
-   </div>
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="/circuit-court/" class="btn btn-primary btn-lg district-button" type="button">
-     Judge of the Circuit Court
-    </a>
-   </div>
+   {{ end }}
   </div>
   <!-- END STATE RACES -->
   <!-- START LOCAL RACES -->
@@ -116,6 +83,13 @@
    <h1 class="section-header-splash grey">
     LOCAL
    </h1>
+   {{ range .Site.Menus.local }}
+   <div class="col-md-6 col-sm-6 col-xs-6">
+    <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
+     {{ .Page.Params.altTitle }}
+    </a>
+   </div>
+   {{ end }}
   </div>
   <!-- END LOCAL RACES -->
   <div class="clear-splash">
