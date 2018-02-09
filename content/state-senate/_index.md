@@ -4,7 +4,7 @@
   "title": "Maryland State Senator",
   "type": "district-list",
   "districts": 47,
-  "partialUrl": "/state-senate",
+  "slug": "state-senate",
   "weight": 6
 }
 
