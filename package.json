@@ -9,12 +9,12 @@
   "scripts": {
     "build": "hugo",
     "server": "hugo serve",
-    "format": "prettier --write '**/*.{css,js,json,md,scss}'",
-    "precommit": "prettier -l '**/*.{css,js,json,md,scss}'",
+    "format": "prettier --write '**/*.{css,js,json,scss}'",
+    "precommit": "prettier -l '**/*.{css,js,json,scss}'",
     "test": "eslint static/scripts"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.{js,json,css}": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "eslint": "^4.17.0",
