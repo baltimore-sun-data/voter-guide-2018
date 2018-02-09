@@ -6,7 +6,7 @@ disableHugoGeneratorInject = true
 languageCode = "en-us"
 layoutDir = "layouts"
 publishDir = "public"
-title = "Election Guide 2016 | Baltimore Sun"
+title = "Election Guide 2018 | Baltimore Sun"
 
 [Params]
 Year = 2018
