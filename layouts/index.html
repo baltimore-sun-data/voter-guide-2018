@@ -2,21 +2,27 @@
 
 {{ define "extra-head" }}
 <script>
+(function(){
+  var showStatewide = true;
+
   $(document).ready(function(){
     $(".js-swap-race").on('click', function(){
-        if ($("#local-races").is(":visible")) {
+        if (!showStatewide) {
           $("#local-races").hide();
           $("#local-button").removeClass("selected");
           $("#state-races").show();
           $("#state-button").addClass("selected");
+          showStatewide = true;
         } else {
           $("#state-races").hide();
           $("#state-button").removeClass("selected");
           $("#local-races").show();
           $("#local-button").addClass("selected");
+          showStatewide = false;
         }
     });
   });
+})();
 </script>
 {{ end }}
 
