@@ -266,6 +266,10 @@ a.full {
   background-color: #dadada;
 }
 
+a.page-header-link {
+  color: inherit;
+}
+
 .container {
   width: 1000px;
   margin: 0px auto;

@@ -27,7 +27,9 @@
     </span>
     <span class="icon-star">
     </span>
-    {{ .Page.CurrentSection.Title | upper }}
+    <a href="{{ .Page.CurrentSection.URL }}" class="page-header-link">
+      {{ .Page.CurrentSection.Title | upper }}
+    </a>
     <span class="icon-star">
     </span>
     <span class="icon-star mobile-hide">
