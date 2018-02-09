@@ -7,9 +7,10 @@
   "author": "carljohnson@tronc.com",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "hugo",
+    "build": "yarn run make-content && hugo",
     "server": "hugo serve",
     "format": "prettier --write '**/*.{css,js,json,scss}'",
+    "make-content": "go run csv-splitter.go csv/*.csv",
     "precommit": "prettier -l '**/*.{css,js,json,scss}'",
     "test": "eslint static/scripts"
   },
