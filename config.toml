@@ -4,6 +4,7 @@ canonifyURLs = true
 contentDir = "content"
 disableHugoGeneratorInject = true
 disableKinds = ["taxonomy","taxonomyTerm"]
+enableRobotsTXT = true
 languageCode = "en-us"
 layoutDir = "layouts"
 publishDir = "public"
