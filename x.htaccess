@@ -1,5 +1,0 @@
-AuthUserFile /var/www/html/data-baltimoresun-com/voter-guide-2018-dev/.htpasswd
-AuthName "Please Log In"
-AuthType Basic
-
-require user baltsun
