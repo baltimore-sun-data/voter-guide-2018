@@ -35,41 +35,45 @@
    <h1 class="section-header-splash grey">
     All Candidates
    </h1>
-
-   <div class="table-responsive">
-    <table class="table table-striped table-hover">
-      <thead>
-       <tr>
-        <th>
-         Name
-        </th>
-        <th>
-         District
-        </th>
-        <th>
-         Party
-        </th>
-       </tr>
-      </thead>
-      <tbody>
-       {{ $inSection := where .Site.Pages "Section" .Section }}
-       {{ $pagesInSection := where $inSection "Kind" "page" }}
-       {{ range sort $pagesInSection ".URL" }}
-       <tr>
-        <td>
-         <a href="{{ .URL }}">
-          {{ .Title }}
-         </a>
-        </td>
-        <td>
-         {{ .Param "district" }}
-        </td>
-        <td>
-         {{ .Param "party" }}
-        </td>
-       </tr>
-       {{ end }}
-      </tbody>
-    </table>
+   <!-- TODO: Searchamajig? -->
+   <div class="container-fluid">
+    <div class="table-responsive">
+     <table class="table table-striped table-hover table-bordered">
+       <thead>
+        <tr>
+         <th>
+          Name
+         </th>
+         <th>
+          District
+         </th>
+         <th>
+          Party
+         </th>
+        </tr>
+       </thead>
+       <tbody>
+        {{ $inSection := where .Site.Pages "Section" .Section }}
+        {{ $pagesInSection := where $inSection "Kind" "page" }}
+        {{ range sort $pagesInSection ".URL" }}
+        <tr>
+         <td>
+          <a href="{{ .URL }}">
+           {{ .Title }}
+          </a>
+         </td>
+         <td>
+          <a href="{{ .CurrentSection.URL }}">
+           {{ .Parent.Param "shortTitle" }}
+          </a>
+         </td>
+         <td>
+          {{ .Param "party" }}
+         </td>
+        </tr>
+        {{ end }}
+       </tbody>
+     </table>
+    </div>
    </div>
 {{ end }}
