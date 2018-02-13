@@ -7,15 +7,19 @@
   "author": "carljohnson@tronc.com",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "yarn run make-content && hugo",
+    "build": "yarn run make-content && yarn run css && hugo",
     "server": "hugo serve",
     "format": "prettier --write '**/*.{css,js,json,scss}'",
     "make-content": "go run csv-splitter.go csv/*.csv",
     "precommit": "prettier -l '**/*.{css,js,json,scss}'",
+    "css": "yarn run css:sass && yarn run css:autoprefixer",
+    "css:autoprefixer":
+      "postcss --use autoprefixer --map -o dist/css/app.css dist/css/app.css",
+    "css:sass": "node-sass --output dist/css static/scss/app.scss",
     "test": "eslint static/scripts"
   },
   "lint-staged": {
-    "*.{js,json,css}": ["prettier --write", "git add"]
+    "*.{css,js,json,scss}": ["prettier --write", "git add"]
   },
   "devDependencies": {
     "eslint": "^4.17.0",
@@ -29,5 +33,10 @@
     "husky": "^0.14.3",
     "lint-staged": "^6.1.0",
     "prettier": "^1.10.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^8.0.0",
+    "node-sass": "^4.7.2",
+    "postcss-cli": "^5.0.0"
   }
 }
