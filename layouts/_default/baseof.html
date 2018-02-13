@@ -5,31 +5,19 @@
       ================================================== -->
   <meta charset="utf-8">
   <title>{{block "title" . }}{{.Title}} | Baltimore Sun Voter Guide{{ end }}</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <!-- Mobile Specific Metas
-      ================================================== -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <!-- Javascript
-      ================================================== -->
-  <script language="javascript" src="{{.Site.BaseURL}}scripts/jquery-1.10.2.min.js"></script>
-  <script language="javascript" src="{{.Site.BaseURL}}scripts/jquery.easing.1.3.js"></script>
-  <script language="javascript" src="{{.Site.BaseURL}}scripts/javascript.js"></script>
-  <script language="javascript" src="{{.Site.BaseURL}}scripts/jquery.scrollTo.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/app.css">
+  <!-- Javascript -->
+  <script src="{{.Site.BaseURL}}scripts/jquery-1.10.2.min.js"></script>
+  <script src="{{.Site.BaseURL}}scripts/jquery.easing.1.3.js"></script>
+  <script src="{{.Site.BaseURL}}scripts/javascript.js"></script>
+  <script src="{{.Site.BaseURL}}scripts/jquery.scrollTo.min.js"></script>
+  <script src="{{.Site.BaseURL}}scripts/bootstrap.js"></script>
   {{ block "extra-head" . }}{{ end }}
 
-  <!-- CSS
-      ================================================== -->
-  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/base.css">
-  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/fonts.css">
-  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/style.css">
-  <!--BOOTSTRAP and MORE JS
-      ================================================== -->
-  <link rel="stylesheet" href="{{.Site.BaseURL}}stylesheets/bootstrap.css">
-  <script src="{{.Site.BaseURL}}scripts/bootstrap.js"></script>
-  <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}stylesheets/buttons.css">
-
   <!-- Facebook Stuff -->
+  <meta name="description" content="{{.Summary}}">
+  <meta name="author" content="Baltimore Sun">
   <meta property="og:title" content="Baltimore Sun Voter Guide">
   <meta property="og:url" content="{{.Site.BaseURL}}{{.Page.URL}}">
   <meta property="og:image" content="{{.Site.BaseURL}}images/voter-guide-square.png">
@@ -45,17 +33,11 @@
 
   <!-- Baltimore Sun Ad Scripts -->
   <script type="text/javascript">
-   var gptadslots=[];
-          var googletag = googletag || {};
-          googletag.cmd = googletag.cmd || [];
-          (function(){ var gads = document.createElement('script');
-            gads.async = true; gads.type = 'text/javascript';
-            var useSSL = 'https:' == document.location.protocol;
-            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
-            var node = document.getElementsByTagName('script')[0];
-            node.parentNode.insertBefore(gads, node);
-          })();
+  var gptadslots=[];
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
   </script>
+  <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
   <!-- /Baltimore Sun Ad Scripts -->
   <!-- Baltimore Sun Omniture -->
   <script>
