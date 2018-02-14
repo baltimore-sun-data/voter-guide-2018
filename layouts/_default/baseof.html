@@ -65,11 +65,13 @@
   </script>
  </head>
  <body>
-  {{ partial "header.html" . }}
+  {{ block "header" . }}
+    {{ partial "header.html" . }}
+  {{ end }}
   {{ block "main" . }}{{ end }}
-  <div id="footer">
+  {{ block "footer" . }}
     {{ partial "footer.html" . }}
-  </div>
+  {{ end }}
   <script>
      //Write the twitter and facebook message for buttons
         var socialMessage = "Learn about primary elections in Maryland in the Baltimore Sun {{.Site.Params.Year}} Voter Guide:";
