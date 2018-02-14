@@ -3,29 +3,15 @@
   $(document).ready(function(){
     $(".js-filter-party").on('click', function(e) {
       var party = $(e.target).data('party-toggle');
-      if (party === "democrats") {
-        $("#democrats").show();
-        $("#republicans").hide();
-        $("#greens").hide();
-        $("#choosePartyText").empty();
-        $("#choosePartyText").text("Democrats");
-      } else if (party === "republicans") {
-        $("#democrats").hide();
-        $("#republicans").show();
-        $("#greens").hide();
-        $("#choosePartyText").empty();
-        $("#choosePartyText").text("Republicans");
-      } else if (party === "greens") {
-        $("#democrats").hide();
-        $("#republicans").hide();
-        $("#greens").show();
-        $("#choosePartyText").empty();
-        $("#choosePartyText").text("Greens");
-      } else if (party === "all") {
-        $("#democrats").show();
-        $("#republicans").show();
+      if (party === "all") {
         $("#choosePartyText").empty();
         $("#choosePartyText").text("Choose Party");
+        $(".js-party-group").show();
+      } else {
+        $(".js-party-group").hide();
+        $(".js-party-" + party).show();
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text(party);
       }
     });
   });
@@ -47,15 +33,11 @@
     </button>
     <ul class="dropdown-menu">
      <!-- choose race district -->
-     <li class="js-filter-party" data-party-toggle="democrats">
-      Democrats
+     {{ range .CurrentSection.Pages.GroupByParam "party" }}
+     <li class="js-filter-party" data-party-toggle="{{ .Key | pluralize }}">
+      {{ .Key | pluralize }}
      </li>
-     <li class="js-filter-party" data-party-toggle="republicans">
-      Republicans
-     </li>
-     <li class="js-filter-party" data-party-toggle="greens">
-      Greens
-     </li>
+     {{ end }}
      <li class="js-filter-party" data-party-toggle="all">
       See all
      </li>
@@ -63,7 +45,7 @@
    </div>
 
    {{ range .CurrentSection.Pages.GroupByParam "party" }}
-   <div id="{{ .Key | lower | pluralize }}">
+   <div class="js-party-group js-party-{{ .Key | pluralize }}">
     <div class="col-md-12 col-sm-12 col-xs-12">
      <div class="party-header {{.Key|lower}}bg">
       {{ .Key | pluralize }}
