@@ -13,3 +13,4 @@ staticDir = ["static", "dist"]
 
 [Params]
 Year = 2018
+DefaultShareText = "Learn about primary elections in Maryland in the Baltimore Sun 2018 Voter Guide:"

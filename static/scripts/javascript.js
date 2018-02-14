@@ -1,55 +1,47 @@
-function share(socialMessage) {
-  $(".icon-twitter.top").on("click", function() {
-    var tweet = socialMessage;
-    var url = window.location.href; // Interactive URL
-
-    var twitterURL =
-      "https://twitter.com/intent/tweet?text=" +
-      tweet +
-      "&url=" +
-      url +
-      "&tw_p=tweetbutton";
-    window.open(
-      twitterURL,
-      "mywin",
-      "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
-    );
-    return false;
-  });
-
-  $(".icon-facebook.top").on("click", function() {
-    var picture =
-      "http://www.trbimg.com/img-53fdf16a/turbine/bal-baltimore-default-facebook-icon"; // Picture URL
-    var title = "Baltimore Sun Voter Guide 2016"; // Post title
-    var description = socialMessage; // Post description
-
-    var url = window.location.href; // Interactive URL
-
-    var facebookURL =
-      "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" +
-      url +
-      "&picture=" +
-      picture +
-      "&name=" +
-      title +
-      "&description=" +
-      description +
-      "&redirect_uri=http://www.facebook.com";
-    window.open(
-      facebookURL,
-      "mywin",
-      "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
-    );
-    return false;
-  });
-}
-
 var app = {
   init: function() {
+    app.activate_social_buttons();
     app.news_animation();
     app.questionnaire_nav();
     app.all_candidates_toggle();
     app.mobile_nav();
+  },
+
+  activate_social_buttons: function(socialMessage) {
+    $(".icon-twitter.js-click").on("click", function(e) {
+      var tweet = $(e.target).data("share-text");
+      var url = window.location.href; // Interactive URL
+
+      var twitterURL =
+        "https://twitter.com/intent/tweet?text=" +
+        encodeURIComponent(tweet) +
+        "&url=" +
+        encodeURIComponent(url) +
+        "&tw_p=tweetbutton";
+      window.open(
+        twitterURL,
+        "mywin",
+        "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
+      );
+      return false;
+    });
+
+    $(".icon-facebook.js-click").on("click", function(e) {
+      // FaceBook has deprecated all the options in the pop-up,
+      // so it all needs to be controlled by the meta tags on the page.
+      // See https://developers.facebook.com/docs/sharing/reference/feed-dialog
+      var url = window.location.href;
+      var facebookURL =
+        "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" +
+        encodeURIComponent(url) +
+        "&redirect_uri=http://www.facebook.com";
+      window.open(
+        facebookURL,
+        "mywin",
+        "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
+      );
+      return false;
+    });
   },
 
   // these are the toggle buttons for the cadidate navigation toggle buttons
@@ -102,12 +94,14 @@ var app = {
       }
     );
 
-    $("#questionnaire-nav ul li").click(function() {
-      // We have to do some math because of the fixed nav
-
+    $("#questionnaire-nav ul li a").click(function(e) {
       // Find vertical displacement of the question we want to scroll to
-      var qPosition = $("#question-" + $(this).html()).offset();
+      // We have to do some math because of the fixed nav
+      var goal = /#.*?$/.exec(e.target.href)[0];
+      var qPosition = $(goal).offset();
       $.scrollTo(qPosition.top - 85, 800);
+      window.location = goal;
+      return false;
     });
   },
 
