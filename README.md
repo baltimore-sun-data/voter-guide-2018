@@ -6,6 +6,44 @@
 
 * Run `yarn` to install JavaScript dependencies
 
+* Run `yarn make-content` to create content files out of CSV files.
+
+* Run `yarn css` to create CSS out of SCSS code.
+
+* If you need test candidates, make files in content/(category)/(name).md with contents like
+
+  ```json
+  {
+    "age": 57,
+    "bio": "Edwards, 57, is in her fourth full term representing the 4th Congressional District in Congress. The Oxon Hill woman is a lawyer and former progressive advocate.",
+    "candidateLastName": "Edwards",
+    "candidateName": "Donna Edwards",
+    "facebook": "donnaedwardsforsenate",
+    "graduatedFrom": "Wake Forest University (BA); New Hampshire School of Law (formerly Franklin Pierce Law Center) (JD)",
+    "image": "images/candidates/edwards.jpg",
+    "imageNoBackground": "images/candidates-no-bg/edwards.jpg",
+    "job": "U.S. Representative, 4th District",
+    "livesIn": "Oxon Hill",
+    "party": "Green",
+    "photo": "edwards",
+    "questions": [
+      {
+        "answer": "And Iran.\n\nIran, so far away.",
+        "question": "What would you do about Iran?",
+        "shortname": "Iran"
+      },
+      {
+        "answer": "Not anymore.",
+        "question": "Best name for a cat?",
+        "shortname": "ISIS"
+      }
+    ],
+    "title": "Donna Edwards",
+    "twitter": "DonnaFEdwards",
+    "website": "http://donnaedwardsforsenate.com"
+  }
+  ```
+
 * Run `yarn server` to run a development server at [http://localhost:1313/](http://localhost:1313/).
 
 * Run `yarn build` to create files for distribution in `public/`.
