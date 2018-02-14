@@ -1102,21 +1102,25 @@ img.cand-pic {
 
 #questionnaire-nav ul li,
 #bill-nav ul li {
-  display: inline-block;
-  padding: 5px 10px;
-  color: #a5a5a5;
   border: 1px solid #d8d8d8;
+  color: #a5a5a5;
+  cursor: pointer;
+  display: inline-block;
   font-family: "Brandon", Helvetica, sans-serif;
   margin: 0px 5px;
-  cursor: pointer;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 #questionnaire-nav ul li:hover,
 #bill-nav ul li:hover {
   color: #333333;
   border: 1px solid #333333;
+}
+
+#questionnaire-nav ul li a {
+  color: inherit;
+  display: block;
+  padding: 5px 10px;
 }
 
 .question {

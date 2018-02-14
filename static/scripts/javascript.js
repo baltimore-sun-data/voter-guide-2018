@@ -94,12 +94,14 @@ var app = {
       }
     );
 
-    $("#questionnaire-nav ul li").click(function() {
-      // We have to do some math because of the fixed nav
-
+    $("#questionnaire-nav ul li a").click(function(e) {
       // Find vertical displacement of the question we want to scroll to
-      var qPosition = $("#question-" + $(this).html()).offset();
+      // We have to do some math because of the fixed nav
+      var goal = /#.*?$/.exec(e.target.href)[0];
+      var qPosition = $(goal).offset();
       $.scrollTo(qPosition.top - 85, 800);
+      window.location = goal;
+      return false;
     });
   },
 

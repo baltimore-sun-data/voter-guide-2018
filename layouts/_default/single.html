@@ -237,14 +237,16 @@
       <ul>
        {{ range $i, $question := .Params.questions }}
        <li data-subject="{{$question.shortname}}">
-        {{add $i 1}}
+        <a href="#question-{{ add $i 1 }}">
+         {{add $i 1}}
+        </a>
        </li>
        {{ end }}
       </ul>
      </div>
      {{ $candidateLastName := .Params.candidateLastName }}
      {{ range $i, $question := .Params.questions }}
-     <div id="question-{{$i}}" class="question span-70 left">
+     <div id="question-{{ add $i 1 }}" class="question span-70 left">
       <header class="question-header">
        <div class="question-num">
         {{ add $i 1 }}
