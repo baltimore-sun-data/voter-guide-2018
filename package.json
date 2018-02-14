@@ -9,14 +9,16 @@
   "scripts": {
     "build": "yarn run make-content && yarn run css && hugo",
     "server": "hugo serve",
-    "format": "prettier --write '**/*.{css,js,json,scss}'",
+    "format": "prettier --write '**/*.{js,json,scss}'",
     "make-content": "go run csv-splitter.go csv/*.csv",
-    "precommit": "prettier -l '**/*.{css,js,json,scss}'",
+    "precommit": "yarn run test",
     "css": "yarn run css:sass && yarn run css:autoprefixer",
     "css:autoprefixer":
       "postcss --use autoprefixer --map -o dist/css/app.css dist/css/app.css",
     "css:sass": "node-sass --output dist/css static/scss/app.scss",
-    "test": "eslint static/scripts"
+    "test": "yarn run test:eslint && yarn run test:prettier",
+    "test:eslint": "eslint static/scripts/javascript.js --fix",
+    "test:prettier": "prettier -l '**/*.{js,json,scss}'"
   },
   "lint-staged": {
     "*.{css,js,json,scss}": ["prettier --write", "git add"]
