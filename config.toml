@@ -8,9 +8,11 @@ enableRobotsTXT = true
 languageCode = "en-us"
 layoutDir = "layouts"
 publishDir = "public"
-title = "Election Guide 2018 | Baltimore Sun"
+title = "Baltimore Sun Election Guide 2018"
 staticDir = ["static", "dist"]
 
 [Params]
-Year = 2018
 DefaultShareText = "Learn about primary elections in Maryland in the Baltimore Sun 2018 Voter Guide:"
+icon = "images/icon.png"
+image = "images/icon.png"
+Year = 2018
