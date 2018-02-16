@@ -4,3 +4,4 @@ node_modules
 public
 content
 dist
+data/assets.json

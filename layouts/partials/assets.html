@@ -1,0 +1,6 @@
+{{- .Site.BaseURL -}}
+{{- with .Site.Data.assets -}}
+    {{- index . $.Value | default $.Value -}}
+{{- else -}}
+    {{- .Value -}}
+{{- end -}}
