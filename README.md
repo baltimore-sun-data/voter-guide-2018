@@ -2,7 +2,7 @@
 
 ## Installation and usage
 
-* Project require [Hugo](https://gohugo.io) and [Yarn](https://yarnpkg.com/). The simplest way to install this on Mac is `brew install yarn hugo`.
+* Project requires [Hugo](https://gohugo.io) and [Yarn](https://yarnpkg.com/). The simplest way to install this on Mac is `brew install yarn hugo`.
 
 * Run `yarn` to install JavaScript dependencies
 
@@ -46,7 +46,10 @@
 
 * Run `yarn server` to run a development server at [http://localhost:1313/](http://localhost:1313/).
 
-* Run `yarn build` to create files for distribution in `public/`.
+* Run `yarn build` to create files for distribution in `public/`. Builds additionally require "scattered" and "minify". Install in current working directory with:
+
+  - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/tdewolff/minify/cmd/minify`
+  - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/carlmjohnson/scattered/cmd/scattered`
 
 ---
 
