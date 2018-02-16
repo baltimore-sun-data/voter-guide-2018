@@ -4,7 +4,7 @@
   <!-- Basic Page Needs
       ================================================== -->
   <meta charset="utf-8">
-  <title>{{block "title" . }}{{.Title}} | Baltimore Sun Voter Guide{{ end }}</title>
+  <title>{{block "title" . }}{{.Title}} | {{ .Site.Title }}{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" type="text/css" href="{{.Site.BaseURL}}css/app.css">
   <!-- Javascript -->
@@ -13,56 +13,73 @@
   <script src="{{.Site.BaseURL}}scripts/javascript.js"></script>
   <script src="{{.Site.BaseURL}}scripts/jquery.scrollTo.min.js"></script>
   <script src="{{.Site.BaseURL}}scripts/bootstrap.js"></script>
-  {{ block "extra-head" . }}{{ end }}
-
-  <!-- Facebook Stuff -->
-  <meta name="description" content="{{.Summary}}">
-  <meta name="author" content="Baltimore Sun">
-  <meta property="og:title" content="Baltimore Sun Voter Guide">
-  <meta property="og:url" content="{{.Site.BaseURL}}{{.Page.URL}}">
-  <meta property="og:image" content="{{.Site.BaseURL}}images/voter-guide-square.png">
-  <!-- /Facebook Stuff -->
-  <!-- TWITTER STUFF -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@baltimoresun">
-  <meta name="twitter:creator" content="">
-  <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide {{.Site.Params.Year}}">
-  <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s {{.Site.Params.Year}} Maryland Voter Guide:">
-  <meta name="twitter:image" content="{{.Site.BaseURL}}images/voter-guide-square.png">
-  <meta name="twitter:domain" content="baltimoresun.com">
-
   <!-- Baltimore Sun Ad Scripts -->
   <script type="text/javascript">
-  var gptadslots=[];
+  var gptadslots = [];
   var googletag = googletag || {};
   googletag.cmd = googletag.cmd || [];
   </script>
   <script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
   <!-- /Baltimore Sun Ad Scripts -->
-  <!-- Baltimore Sun Omniture -->
-  <script>
-   ((((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})).thirdparty = {
-          pageName: 'bs:data:news:maryland:politics:voter-guide-{{.Site.Params.Year}}:dataproject.',
-          channel: 'news:maryland:politics',
-          server: 'news.baltimoresun.com',
-          hier1: 'baltimoresun:news:maryland:politics',
-          hier2: 'news:maryland:politics',
-          prop1: 'D=pageName',
-          prop2: 'news',
-          prop38: 'dataproject',
-          prop57: 'D=c38',
-          eVar20: 'baltimoresun',
-          eVar21: 'D=c38',
-          eVar34: 'D=ch',
-          eVar35: 'D=pageName',
-          events:''
+  {{ block "extra-head" . }}{{ end }}
 
-          });
+  {{ block "metadata" . }}
+  <link rel="icon" href='{{.Site.BaseURL}}{{.Param "icon"}}'>
+  <link rel="apple-touch-icon" href='{{.Site.BaseURL}}{{.Param "icon"}}'>
+  <!-- Google stuff -->
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="{{.Site.BaseURL}}{{.Page.URL}}">
+  <!-- Facebook stuff -->
+  <meta name="description" content="{{.Summary}}">
+  <meta name="author" content="Baltimore Sun">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:url" content="{{.Site.BaseURL}}{{.Page.URL}}">
+  <meta property="og:site_name" content="{{.Site.Title}}">
+  <meta property="og:image" content='{{.Site.BaseURL}}{{.Param "image"}}'>
+  <!-- /Facebook Stuff -->
+  <!-- TWITTER STUFF -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@baltimoresun">
+  <meta name="twitter:creator" content="Baltimore Sun Data Desk">
+  <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide {{.Site.Params.Year}}">
+  <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s {{.Site.Params.Year}} Maryland Voter Guide:">
+  <meta name="twitter:image" content='{{.Site.BaseURL}}{{.Param "image"}}'>
+  <meta name="twitter:domain" content="baltimoresun.com">
+
+  <!-- Baltimore Sun Omniture -->
+  {{ if (eq .Kind "page") }}
+    {{ $.Scratch.Add "pageName" (add ":" (.Title | lower | urlize))}}
+  {{ else }}
+    {{ $.Scratch.Add "pageName" "" }}
+  {{ end}}
+  <script>
+  (
+    ((window.trb || (window.trb = {})).data || (trb.data = {})).metrics ||
+    (trb.data.metrics = {})
+  ).thirdparty = {
+    pageName:
+      'bs:data:news:maryland:politics:voter-guide-{{.Site.Params.Year}}:dataproject{{$.Scratch.Get "pageName"}}.',
+    channel: "news:maryland:politics",
+    server: "news.baltimoresun.com",
+    hier1: "baltimoresun:news:maryland:politics",
+    hier2: "news:maryland:politics",
+    prop1: "D=pageName",
+    prop2: "news",
+    prop38: "dataproject",
+    prop57: "D=c38",
+    eVar20: "baltimoresun",
+    eVar21: "D=c38",
+    eVar34: "D=ch",
+    eVar35: "D=pageName",
+    events: ""
+  };
   </script>
   <!-- /Baltimore Sun Omniture -->
   <!--omniture call-->
   <script src="http://www.baltimoresun.com/thirdpartyservice?disablenav=true&amp;disablessor=true" async>
   </script>
+  {{ end }}
  </head>
  <body>
   {{ block "header" . }}
