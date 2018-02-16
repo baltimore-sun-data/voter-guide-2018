@@ -55,15 +55,13 @@
   {{ end}}
   <script>
   (
-    ((window.trb || (window.trb = {})).data || (trb.data = {})).metrics ||
-    (trb.data.metrics = {})
+    ((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})
   ).thirdparty = {
-    pageName:
-      'bs:data:news:maryland:politics:voter-guide-{{.Site.Params.Year}}:dataproject{{$.Scratch.Get "pageName"}}.',
-    channel: "news:maryland:politics",
+    pageName: '{{.Param "omniture-page-name"}}{{$.Scratch.Get "pageName"}}.',
+    channel: '{{.Param "omniture-channel"}}',
     server: "news.baltimoresun.com",
-    hier1: "baltimoresun:news:maryland:politics",
-    hier2: "news:maryland:politics",
+    hier1: 'baltimoresun:{{.Param "omniture-channel"}}',
+    hier2: '{{.Param "omniture-channel"}}',
     prop1: "D=pageName",
     prop2: "news",
     prop38: "dataproject",
