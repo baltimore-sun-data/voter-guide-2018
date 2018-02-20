@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "build":
-      "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && hugo && minify",
+      "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && hugo && yarn run minify",
     "clean": "yarn run clean:public && yarn run clean:dist",
     "clean:dist": "find dist/ -mindepth 1 -delete",
     "clean:public": "find public/ -mindepth 1 -delete",
