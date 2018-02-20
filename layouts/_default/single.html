@@ -28,7 +28,7 @@
     <div id="cand-bio" class="span-60 left">
      <div id="cand-pic">
       {{ with .Params.image}}
-      <img src="{{$.Site.BaseURL}}{{.}}" class="cand-pic">
+      <img src='{{ dict "Site" $.Site "Value" . | partial "assets.html" }}' class="cand-pic">
       {{ end }}
      </div>
      <div id="cand-bio-text">
@@ -115,7 +115,7 @@
   <nav>
    <div id="nav-photo">
     {{ with .Params.imageNoBackground }}
-    <img src="{{$.Site.BaseURL}}{{.}}" class="nav-photo">
+    <img src='{{ dict "Site" $.Site "Value" . | partial "assets.html" }}' class="nav-photo">
     {{ end }}
    </div>
    <div class="nav-item small" data-section="bio">

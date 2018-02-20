@@ -2,7 +2,7 @@
    <div id="footer-container">
     <div class="col-md-12 col-sm-12 col-xs-12">
      <a href="http://www.baltimoresun.com" target="_new">
-      <img src="{{.Site.BaseURL}}images/sun-logo-footer.gif">
+      <img src='{{ dict "Site" $.Site "Value" "images/sun-logo-footer.gif" | partial "assets.html" }}'>
      </a>
     </div>
     <div class="col-md-offset-1 col-md-2 col-sm-4 col-xs-12">
