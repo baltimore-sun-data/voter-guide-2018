@@ -1,0 +1,8 @@
+# Install required tools:
+required = [
+    "github.com/carlmjohnson/scattered/cmd/scattered",
+    "github.com/baltimore-sun-data/boreas",
+    "github.com/bep/s3deploy",
+    "github.com/spf13/hugo",
+    "github.com/tdewolff/minify/cmd/minify",
+]

@@ -1,0 +1,10 @@
+routes:
+  # Cache static assets forever
+  - route: "^.+\\.(jpeg|jpg|png|gif|flv|pdf|swf|ico|css|js|eot|ttf|ttc|otf|woff)$"
+    headers:
+       Cache-Control: "public, max-age=365000000, immutable"
+
+  # Cache webpages for 60 seconds (deploys only happen once a minute anyway)
+  - route: "^.+\\.(html|xml|json)$"
+    headers:
+       Cache-Control: "max-age=60, no-transform, public"
