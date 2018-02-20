@@ -34,7 +34,7 @@ var app = {
       var facebookURL =
         "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" +
         encodeURIComponent(url) +
-        "&redirect_uri=http://www.facebook.com";
+        "&redirect_uri=https://www.facebook.com";
       window.open(
         facebookURL,
         "mywin",
