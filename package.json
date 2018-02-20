@@ -19,7 +19,7 @@
     "hash-assets":
       "scattered -srcbasepath dist -output data/assets.json '*.css' '*.jpeg' '*.jpg' '*.js' '*.png' '*.svg' && scattered -srcbasepath static -dstbasepath dist -merge-existing -output data/assets.json '*.css' '*.jpeg' '*.jpg' '*.js' '*.png' '*.svg'",
     "format": "prettier --write '**/*.{js,json,scss}'",
-    "make-content": "csv-splitter csv/*.csv",
+    "make-content": "./make-content.sh",
     "minify": "minify -r -o public public",
     "precommit": "yarn run test",
     "server": "hugo serve",
