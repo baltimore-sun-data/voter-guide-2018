@@ -1,4 +1,4 @@
-baseURL = "http://election-guide.news.baltimoresun.com/"
+baseURL = "https://elections2018.news.baltimoresun.com/"
 buildDrafts = false
 canonifyURLs = true
 contentDir = "content"
