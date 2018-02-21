@@ -42,7 +42,7 @@ weight = 4
 
 [[menu.main]]
 url = "/about/"
-name = "About Questioneers"
+name = "About Questionnaires"
 weight = 5
 
 [[menu.main]]
