@@ -18,3 +18,44 @@ image = "images/icon.png"
 omniture-page-name = "bs:data:news:maryland:politics:voter-guide-2018:dataproject"
 omniture-channel = "news:maryland:politics"
 Year = 2018
+
+
+[[menu.main]]
+url = "http://www.baltimoresun.com/news/maryland/politics/"
+name = "Election Coverage"
+weight = 1
+
+[[menu.main]]
+url = "/"
+name = "Candidates"
+weight = 2
+
+[[menu.main]]
+url = "/dates/"
+name = "Key Dates"
+weight = 3
+
+[[menu.main]]
+url = "http://mdelect.net/"
+name = "Find District"
+weight = 4
+
+[[menu.main]]
+url = "/about/"
+name = "About Questioneers"
+weight = 5
+
+[[menu.main]]
+url = "http://www.tribpub.com/central-terms-of-service/"
+name = "Terms"
+weight = 6
+
+[[menu.main]]
+url = "http://www.tribpub.com/privacy-policy-and-your-privacy-rights/"
+name = "Privacy"
+weight = 7
+
+[[menu.main]]
+url = "mailto:coordinators@baltsun.com"
+name = "Feedback"
+weight = 8

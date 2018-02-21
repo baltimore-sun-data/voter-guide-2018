@@ -5,31 +5,13 @@
       <img src='{{ dict "Site" $.Site "Value" "images/sun-logo-footer.gif" | partial "assets.html" }}'>
      </a>
     </div>
+    {{ range .Site.Menus.main }}
     <div class="col-md-offset-1 col-md-2 col-sm-4 col-xs-12">
-     <a href="http://www.baltimoresun.com/news/maryland/politics/" target="_new">
-      ELECTION COVERAGE
+     <a href="{{ .URL }}" class="u-upper">
+      {{ .Name }}
      </a>
     </div>
-    <div class="col-md-2 col-sm-4 col-xs-12">
-     <a href="{{.Site.BaseURL}}">
-      CANDIDATES
-     </a>
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-12">
-     <a href="http://www.tribpub.com/central-terms-of-service/" target="_new">
-      TERMS
-     </a>
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-12">
-     <a href="http://www.tribpub.com/privacy-policy-and-your-privacy-rights/" target="_new">
-      PRIVACY
-     </a>
-    </div>
-    <div class="col-md-2 col-sm-4 col-xs-12">
-     <a href="mailto:coordinators@baltsun.com" target="_new">
-      FEEDBACK
-     </a>
-    </div>
+    {{ end }}
     <div class="col-md-12 col-sm-12 col-xs-12 copyright">
      &copy; {{ now.Format "2006" }} ALL RIGHTS RESERVED <br>
      WEBSITE DESIGN BY ADAM MARTON &amp; CAROLINE PATE | SUPPORT BY CARL JOHNSON | CONTENT BY KALANI GORDON

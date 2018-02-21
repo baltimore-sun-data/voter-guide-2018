@@ -9,31 +9,13 @@
     </div>
     <div id="mobile-nav-drop">
      <ul class="nav-links">
+      {{ range .Site.Menus.main }}
       <li>
-       <a href="http://www.baltimoresun.com/news/maryland/politics/">
-        ELECTION COVERAGE
+       <a href="{{ .URL }}" class="u-upper">
+        {{ .Name }}
        </a>
       </li>
-      <li>
-       <a href="{{ $.Site.BaseURL }}">
-        CANDIDATES
-       </a>
-      </li>
-      <li>
-       <a href="http://www.tribpub.com/central-terms-of-service/">
-        TERMS
-       </a>
-      </li>
-      <li>
-       <a href="http://www.tribpub.com/privacy-policy-and-your-privacy-rights/">
-        PRIVACY
-       </a>
-      </li>
-      <li>
-       <a href="mailto:coordinators@baltsun.com">
-        FEEDBACK
-       </a>
-      </li>
+      {{ end }}
      </ul>
     </div>
     <div id="star-and-logo">
