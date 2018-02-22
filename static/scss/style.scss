@@ -474,6 +474,25 @@ nav.revealed {
   content: " \2713";
   color: red;
 }
+/******** SUBSCRIBE ********** */
+.subscribe {
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-size: 1.5em;
+  margin: 60px auto;
+  text-align: center;
+  max-width: 1050px;
+  padding: 20px;
+  color: #667682;
+  border-bottom: 1px solid #667682;
+  border-top: 1px solid #667682;
+}
+.subscribe-btn {
+  background-color: #d5bc46;
+  font-family: "Brandon", Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
 
 /******** SPLASH PAGE SPECIFIC STYLES********** */
 

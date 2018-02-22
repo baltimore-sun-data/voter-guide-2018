@@ -85,6 +85,12 @@
     {{ partial "header.html" . }}
   {{ end }}
   {{ block "main" . }}{{ end }}
+  {{ block "subscribe" . }}
+    {{ partial "subscribe.html" . }}
+  {{ end }}
+  {{ block "ad" . }}
+    {{ partial "ad-leaderboard.html" . }}
+  {{ end }}
   {{ block "footer" . }}
     {{ partial "footer.html" . }}
   {{ end }}
