@@ -1516,7 +1516,6 @@ p.about {
     border-top: 1px solid white;
     left: 0px;
     right: 0px;
-    height: 200px;
     padding-left: 10px;
   }
 }
@@ -1696,6 +1695,10 @@ p.about {
 
 .u-none {
   display: none;
+}
+
+.u-upper {
+  text-transform: uppercase;
 }
 
 th {
