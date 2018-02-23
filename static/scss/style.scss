@@ -269,11 +269,6 @@ a.page-header-link {
   color: inherit;
 }
 
-.container {
-  width: 1000px;
-  margin: 0px auto;
-}
-
 .span-30 {
   width: 27.5%;
 }
@@ -480,7 +475,7 @@ nav.revealed {
   font-size: 1.5em;
   margin: 60px auto;
   text-align: center;
-  max-width: 1050px;
+  max-width: 800px;
   padding: 20px;
   color: #667682;
   border-bottom: 1px solid #667682;
@@ -842,23 +837,23 @@ img.cand-pic {
   border-bottom: 4px solid #00a967;
 }
 
-.section-header.democrat {
+.section-header.democrat, .cand-pic.democrat {
   border-left: 10px solid #2e98cc;
 }
 
-.section-header.republican {
+.section-header.republican, .cand-pic.republican {
   border-left: 10px solid #ed4227;
 }
 
-.section-header.green {
+.section-header.green, .cand-pic.green {
   border-left: 10px solid #00a967;
 }
 
-.section-header.libertarian {
+.section-header.libertarian, .cand-pic.libertarian {
   border-left: 10px solid #d5bc46;
 }
 
-.section-header.independent {
+.section-header.independent, .cand-pic.independent {
   border-left: 10px solid #d0d0d0;
 }
 

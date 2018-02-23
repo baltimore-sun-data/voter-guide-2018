@@ -13,19 +13,22 @@
    </div>
 
    <hr class="clear-splash">
-   <ul>
-    <!-- choose race district -->
-    {{ range seq .Params.districts }}
-    <li class="col-md-4 col-sm-4 col-xs-6">
-     <a
-      href="/{{ $.Slug }}/district-{{ . }}/"
-      class="btn btn-primary btn-lg district-button"
-      type="button">
-      District {{ . }}
-     </a>
-    </li>
-    {{ end }}
-   </ul>
+   <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Choose district
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <!-- choose race district -->
+      {{ range seq .Params.districts }}
+      <a
+        href="/{{ $.Slug }}/district-{{ . }}/"
+        class="dropdown-item"
+        type="button">
+        District {{ . }}
+      </a>
+      {{ end }}
+    </div>
+   </div>
    <div class="clear-splash">
    </div>
   </div>

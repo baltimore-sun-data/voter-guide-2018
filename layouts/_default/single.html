@@ -27,8 +27,8 @@
    <section id="top" class="group">
     <div id="cand-bio" class="span-60 left">
      <div id="cand-pic">
-      {{ with .Params.image}}
-      <img src='{{ dict "Site" $.Site "Value" . | partial "assets.html" }}' class="cand-pic">
+      {{ if .Params.image}}
+      <img src='{{ dict "Site" .Site "Value" .Params.image | partial "assets.html" }}' class="cand-pic {{ .Params.party | lower }}">
       {{ end }}
      </div>
      <div id="cand-bio-text">
