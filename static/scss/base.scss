@@ -383,9 +383,6 @@ input[type="button"] {
         100%); /* IE10+ */
   background: #eee
     linear-gradient(top, rgba(255, 255, 255, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%); /* W3C */
-  border: 1px solid #aaa;
-  border-top: 1px solid #ccc;
-  border-left: 1px solid #ccc;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -440,9 +437,6 @@ input[type="button"]:hover {
         100%); /* IE10+ */
   background: #ddd
     linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%); /* W3C */
-  border: 1px solid #888;
-  border-top: 1px solid #aaa;
-  border-left: 1px solid #aaa;
 }
 
 .button:active,
@@ -450,7 +444,6 @@ button:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
-  border: 1px solid #666;
   background: #ccc; /* Old browsers */
   background: #ccc -moz-linear-gradient(top, rgba(255, 255, 255, 0.35) 0%, rgba(
           10,
