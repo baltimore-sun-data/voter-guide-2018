@@ -60,7 +60,7 @@ ul.dropdown-menu li {
   text-transform: uppercase;
   cursor: pointer;
   height: 25px;
-  padding-left: 10px;
+  text-align: center;
 }
 
 ul.dropdown-menu li:hover {
@@ -95,6 +95,10 @@ a.btn {
   width: 100%;
   border-radius: 6px;
   margin-bottom: 10px;
+}
+.district-picker {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .small-button {

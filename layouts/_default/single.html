@@ -26,11 +26,11 @@
   <div class="container {{ .Params.party | lower }}-color">
    <section id="top" class="group">
     <div id="cand-bio" class="span-60 left">
+    {{ if .Params.image}}
      <div id="cand-pic">
-      {{ if .Params.image}}
       <img src='{{ dict "Site" .Site "Value" .Params.image | partial "assets.html" }}' class="cand-pic {{ .Params.party | lower }}">
-      {{ end }}
      </div>
+    {{ end }}
      <div id="cand-bio-text">
       <div id="cand-name">
         {{.Params.candidateName}}
