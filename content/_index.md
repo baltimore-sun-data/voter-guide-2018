@@ -2,4 +2,4 @@
 title = "Maryland Voter Guide 2018"
 +++
 
-Marylanders will elect a lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis diam eu tincidunt ultricies. Morbi pulvinar, purus a vulputate suscipit, ligula justo molestie elit, vitae porta erat ante ac nunc. Quisque quam diam, pulvinar id neque ac, tincidunt cursus libero. Sed eu tellus sit amet tortor feugiat ullamcorper. Morbi facilisis eleifend elementum. Etiam fermentum tempus lacus egestas.
+In 2018 Marylanders will vote in elections for governor, comptroller, attorney general, U.S. Senator, all eight seats in the House of Representatives and all 188 seats in the General Assembly. Local elections for county executives, council members or commissioners, state's attorneys and other offices will also be held throughout the state, with the exception of Baltimore City, where the offices of mayor and City Council are not on the ballot until 2020.
