@@ -8,8 +8,10 @@
   "license": "UNLICENSED",
   "scripts": {
     "build":
-      "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && hugo && yarn run minify",
-    "clean": "yarn run clean:public && yarn run clean:dist",
+      "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && hugo && yarn run minify && yarn run clean:data",
+    "clean":
+      "yarn run clean:data && yarn run clean:public && yarn run clean:dist",
+    "clean:data": "rm -f data/assets.json",
     "clean:dist": "mkdir -p dist && find dist/ -mindepth 1 -delete",
     "clean:public": "mkdir -p public && find public/ -mindepth 1 -delete",
     "css":
