@@ -21,7 +21,7 @@
 {{ define "main" }}
   <div id="state-races" class="splash-container">
    <h1 class="section-header-splash grey">
-    {{ default .Title .Params.altTitle | upper }}
+    {{ .Title | upper }}
    </h1>
    <div class="btn-group col-md-12 col-sm-12 col-xs-12" id="testing" style="width:300px;">
     <button class="btn btn-primary btn-lg dropdown-toggle" id="chooseDistrict" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

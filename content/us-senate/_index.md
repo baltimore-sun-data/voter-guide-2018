@@ -1,5 +1,5 @@
 {
-  "altTitle": "U.S. Senator",
+  "shortTitle": "U.S. Senator",
   "directory": "content/us-senate",
   "filename": "_index.md",
   "menu": "fedState",

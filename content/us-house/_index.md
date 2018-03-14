@@ -1,5 +1,5 @@
 {
-  "altTitle": "Representative in Congress",
+  "shortTitle": "Representative in Congress",
   "menu": "fedState",
   "title": "U.S. House of Representatives",
   "weight": 5,
