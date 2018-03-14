@@ -1,5 +1,5 @@
 {
-  "altTitle": "House of Delegates",
+  "shortTitle": "House of Delegates",
   "menu": "fedState",
   "title": "Maryland House of Delegates",
   "type": "district-list",

@@ -1,4 +1,4 @@
-weight,directory,title,altTitle,filename,menu,type
+weight,directory,title,shortTitle,filename,menu,type
 1,"content/governor","Maryland Governor Race","Governor / Lt. Governor",_index.md,"fedState",
 2,"content/comptroller",Comptroller,Comptroller,_index.md,"fedState",
 3,"content/attorney-general",Attorney General,Attorney General,_index.md,"fedState",

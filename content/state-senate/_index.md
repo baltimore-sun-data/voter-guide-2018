@@ -1,5 +1,5 @@
 {
-  "altTitle": "State Senator",
+  "shortTitle": "State Senator",
   "menu": "fedState",
   "title": "Maryland State Senator",
   "type": "district-list",
