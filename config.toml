@@ -3,6 +3,7 @@ buildDrafts = false
 canonifyURLs = true
 contentDir = "content"
 disableHugoGeneratorInject = true
+disableFastRender = true
 disableKinds = ["taxonomy","taxonomyTerm"]
 enableRobotsTXT = true
 languageCode = "en-us"
