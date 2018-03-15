@@ -3,23 +3,12 @@
 {{ define "extra-head" }}
 <script>
 (function(){
-  var showStatewide = true;
-
   $(document).ready(function(){
     $(".js-swap-race").on('click', function(){
-        if (!showStatewide) {
-          $("#local-races").hide();
-          $("#local-button").removeClass("selected");
-          $("#state-races").show();
-          $("#state-button").addClass("selected");
-          showStatewide = true;
-        } else {
-          $("#state-races").hide();
-          $("#state-button").removeClass("selected");
-          $("#local-races").show();
-          $("#local-button").addClass("selected");
-          showStatewide = false;
-        }
+      $('#swap-race').toggleClass('hide-fed-state');
+      $('#swap-race').toggleClass('hide-local');
+      $('#fed-state-button').toggleClass('selected');
+      $('#local-button').toggleClass('selected');
     });
   });
 })();
@@ -27,10 +16,10 @@
 {{ end }}
 
 {{ define "main" }}
-  <div id="intro-block">
+  <div class="intro-block">
    <div id="page-header" class="splash">
     <!-- stars logo-->
-    <div id="page-header-text" class="splash">
+    <div class="text">
      <span class="icon-star mobile-hide">
      </span>
      <span class="icon-star">
@@ -48,13 +37,13 @@
     <span class="icon-twitter js-click" data-share-text="{{ .Site.Params.DefaultShareText }}">
     </span>
    </div>
-   <div id="splash-text">
+   <div class="content">
     {{ .Content }}
    </div>
   </div>
-  <div id="splash-buttons" class="col-xs-12">
+  <div class="toggle-buttons" class="col-xs-12">
    <div class="btn-group">
-    <div id="state-button" class="js-swap-race btn btn-primary btn-lg top-buttons selected" type="button">
+    <div id="fed-state-button" class="js-swap-race btn btn-primary btn-lg top-buttons selected" type="button">
      Fed &amp; State
     </div>
     <div id="local-button" class="js-swap-race btn btn-primary btn-lg top-buttons" type="button">
@@ -63,31 +52,33 @@
    </div>
   </div>
   <!-- START STATE RACES -->
-  <div id="state-races" class="splash-container">
-   <h1 class="section-header-splash grey">
-    FEDERAL &amp; STATE RACES
-   </h1>
-   {{ range .Site.Menus.fedState }}
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
-     {{ .Page.Params.shortTitle }}
-    </a>
+  <div id="swap-race" class="hide-local">
+   <div class="splash-container fed-state-races">
+    <h1 class="section-header-splash grey">
+     FEDERAL &amp; STATE RACES
+    </h1>
+    {{ range .Site.Menus.fedState }}
+    <div class="col-md-6 col-sm-6 col-xs-12">
+     <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
+      {{ .Page.Params.shortTitle }}
+     </a>
+    </div>
+    {{ end }}
    </div>
-   {{ end }}
-  </div>
-  <!-- END STATE RACES -->
-  <!-- START LOCAL RACES -->
-  <div id="local-races" class="splash-container">
-   <h1 class="section-header-splash grey">
-    LOCAL
-   </h1>
-   {{ range .Site.Menus.local }}
-   <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
-     {{ .Page.Params.shortTitle }}
-    </a>
+   <!-- END STATE RACES -->
+   <!-- START LOCAL RACES -->
+   <div class="splash-container local-races">
+    <h1 class="section-header-splash grey">
+     LOCAL RACES
+    </h1>
+    {{ range .Site.Menus.local }}
+    <div class="col-md-6 col-sm-6 col-xs-12">
+     <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
+      {{ .Page.Params.shortTitle }}
+     </a>
+    </div>
+    {{ end }}
    </div>
-   {{ end }}
   </div>
   <!-- END LOCAL RACES -->
   <div class="clear-splash">

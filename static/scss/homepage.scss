@@ -1,0 +1,45 @@
+$bs-xs: 768px;
+
+.intro-block {
+  background: #f6f6f6;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+// TODO: Fix semi-broken #page-header splash line
+.intro-block #page-header .text {
+  background: #f6f6f6;
+}
+
+.intro-block .content {
+  color: #667682;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-size: 1.25em;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 25px 25px;
+  width: 80%;
+}
+
+.intro-block .content a {
+  color: inherit;
+}
+
+// Hide toggle buttons on mobile
+.toggle-buttons {
+  margin-top: 25px;
+  text-align: center;
+  width: 100%;
+
+  @media (max-width: $bs-xs - 1px) {
+    display: none;
+  }
+}
+
+@media (min-width: $bs-xs) {
+  .hide-fed-state .fed-state-races,
+  .hide-local .local-races {
+    display: none;
+  }
+}

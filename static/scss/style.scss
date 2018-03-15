@@ -249,7 +249,7 @@ a.full {
   color: #667682;
   letter-spacing: 0.09em;
 }
-#page-header div {
+#page-header .text {
   display: inline-block;
   background-color: white;
   position: relative;
@@ -496,10 +496,6 @@ nav.revealed {
 
 /******** SPLASH PAGE SPECIFIC STYLES********** */
 
-#local-races {
-  display: none;
-}
-
 #leaderboard-ad.splash-ad {
   margin-top: 80px;
   margin-bottom: 30px;
@@ -511,34 +507,9 @@ nav.revealed {
   padding-top: 25px;
 }
 
-#page-header-text.splash {
-  background: #f6f6f6;
-}
-
 .splash-container {
   max-width: 1050px;
   margin: 0 auto;
-}
-
-#intro-block {
-  width: 100%;
-  background: #f6f6f6;
-  color: #fff;
-  text-align: center;
-}
-
-#splash-text {
-  width: 80%;
-  max-width: 800px;
-  margin: 0 auto;
-  color: #667682;
-  font-family: "Source Sans Pro", arial, sans-serif;
-  font-size: 1.25em;
-  padding: 25px 25px;
-}
-
-#splash-text a {
-  color: inherit;
 }
 
 .clear-splash {
@@ -591,12 +562,6 @@ nav.revealed {
   margin-bottom: 10px;
   padding-left: 10px;
   margin-top: 15px;
-}
-
-#splash-buttons {
-  width: 100%;
-  text-align: center;
-  margin-top: 25px;
 }
 
 .candidate-name-box {
