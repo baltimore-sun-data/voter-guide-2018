@@ -1,6 +1,6 @@
 .btn {
   font-family: "Source Sans Pro", arial, sans-serif;
-  border: 0 none;
+  border: none;
   font-weight: 300;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -26,14 +26,14 @@
 .btn-primary:focus,
 .open > .dropdown-toggle.btn-primary {
   background: #2e98cc;
-  border: 0 none;
+  border: none;
 }
 
 .btn-primary2:hover,
 .btn-primary2:focus,
 .open > .dropdown-toggle.btn-primary2 {
   background: #2e98cc;
-  border: 0 none;
+  border: none;
   color: #ffffff;
 }
 
