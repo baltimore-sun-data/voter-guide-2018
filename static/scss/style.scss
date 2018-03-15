@@ -1469,6 +1469,11 @@ p.about {
 }
 
 @media only screen and (max-width: 600px) {
+  // Keep from scrolling on mobile even at the cost of breaking a word in a random spot
+  body {
+    word-break: break-word;
+  }
+
   #race-candidate-div {
     display: none;
   }
