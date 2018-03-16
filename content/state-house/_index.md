@@ -6,6 +6,7 @@
   "section": "state-house",
   "districts": 47,
   "slug": "state-house",
+  "showDistrictsTable": true,
   "weight": 7
 }
 

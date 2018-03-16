@@ -1,0 +1,190 @@
+[
+  {
+    "neighborhoods": "Cumberland, Frostburg, Oakland",
+    "counties": "Allegany, Garrett"
+  },
+  {
+    "neighborhoods": "Hagerstown, Boonsboro",
+    "counties": "Washington"
+  },
+  {
+    "neighborhoods": "Frederick, Ballenger Creek",
+    "counties": "Frederick"
+  },
+  {
+    "neighborhoods": "Mt. Airy, Thurmont",
+    "counties": "Frederick, Carroll"
+  },
+  {
+    "neighborhoods": "Westminster, Taneytown",
+    "counties": "Carroll"
+  },
+  {
+    "neighborhoods": "Dundalk, Essex",
+    "counties": "Baltimore County"
+  },
+  {
+    "neighborhoods": "Fallston, Middle River",
+    "counties": "Baltimore County, Harford"
+  },
+  {
+    "neighborhoods": "Parkville, Perry Hall, White Marsh",
+    "counties": "Baltimore County"
+  },
+  {
+    "neighborhoods": "Ellicott City, Woodbine, Sykesville",
+    "counties": " Howard, Carroll"
+  },
+  {
+    "neighborhoods": "Reisterstown, Randallstown",
+    "counties": "Baltimore County"
+  },
+  {
+    "neighborhoods": "Owings Mills, Pikesville",
+    "counties": "Baltimore County"
+  },
+  {
+    "neighborhoods": "Columbia, Elkridge, Halethorpe",
+    "counties": "Baltimore County, Howard"
+  },
+  {
+    "neighborhoods": "Columbia, Elkridge, North Laurel",
+    "counties": "Howard"
+  },
+  {
+    "neighborhoods": "Damascus, Olney,  Burtonsville",
+    "counties": "Montgomery"
+  },
+  {
+    "neighborhoods": "Darnestown, Poolesville, Germantown",
+    "counties": "Montgomery"
+  },
+  {
+    "neighborhoods": "Bethesda, Potomac",
+    "counties": "Montgomery "
+  },
+  {
+    "neighborhoods": "Rockville, Gaithersburg",
+    "counties": "Montgomery "
+  },
+  {
+    "neighborhoods": "North Bethesda, Kensington, Wheaton",
+    "counties": "Montgomery "
+  },
+  {
+    "neighborhoods": "Aspen Hill, Wheaton",
+    "counties": "Montgomery "
+  },
+  {
+    "neighborhoods": "Silver Spring, Takoma Park",
+    "counties": "Montgomery "
+  },
+  {
+    "neighborhoods": "Laurel, College Park, Odenton",
+    "counties": "Prince George's, Anne Arundel"
+  },
+  {
+    "neighborhoods": "Greenbelt, Hyattsville",
+    "counties": "Prince George's"
+  },
+  {
+    "neighborhoods": "Bowie, South Laurel",
+    "counties": "Prince George's"
+  },
+  {
+    "neighborhoods": "Largo, Seat Pleasant",
+    "counties": "Prince George's"
+  },
+  {
+    "neighborhoods": "District Heights, Forestville, Andrews AFB",
+    "counties": "Prince George's"
+  },
+  {
+    "neighborhoods": "Fort Washington, National Harbor",
+    "counties": "Prince George's"
+  },
+  {
+    "neighborhoods": "Brandywine, Hughesville, Prince Frederick",
+    "counties": "Prince George's, Calvert, Charles"
+  },
+  {
+    "neighborhoods": "La Plata, Waldorf",
+    "counties": "Charles"
+  },
+  {
+    "neighborhoods": "Leonardtown, Lexington Park, Lusby",
+    "counties": "Saint Mary's, Calvert"
+  },
+  {
+    "neighborhoods": "Annapolis, Shady Side",
+    "counties": "Anne Arundel"
+  },
+  {
+    "neighborhoods": "Glen Burnie, Pasadena, Gibson Island",
+    "counties": "Anne Arundel"
+  },
+  {
+    "neighborhoods": "Fort Meade, Glen Burnie, Linthicum",
+    "counties": "Anne Arundel"
+  },
+  {
+    "neighborhoods": "Arnold, Crofton, Severna Park",
+    "counties": "Anne Arundel"
+  },
+  {
+    "neighborhoods": "Aberdeen, Bel Air, Edgewood",
+    "counties": "Harford"
+  },
+  {
+    "neighborhoods": "Darlington, Jarrettsville, North East ",
+    "counties": "Harford, Cecil"
+  },
+  {
+    "neighborhoods": "Chestertown, Elkton, Kent Island",
+    "counties": "Queen Anne's, Caroline, Kent"
+  },
+  {
+    "neighborhoods": "Cambridge, Easton, Vienna",
+    "counties": "Dorchester, Caroline, Talbot, Wicomico"
+  },
+  {
+    "neighborhoods": "Ocean City, Pocomoke City, Salisbury",
+    "counties": "Somerset, Worcester, Wicomico"
+  },
+  {
+    "neighborhoods": "Germantown, Montgomery Village",
+    "counties": "Montgomery"
+  },
+  {
+    "neighborhoods": "Mount Vernon, Park Heights, Westside",
+    "counties": "Baltimore City"
+  },
+  {
+    "neighborhoods": "Edmondson, Forest Park, Roland Park",
+    "counties": "Baltimore City"
+  },
+  {
+    "neighborhoods": "Towson, Hereford, Hunt Valley",
+    "counties": "Baltimore County"
+  },
+  {
+    "neighborhoods": "Charles Village, Govans, Beverly Hills",
+    "counties": "Baltimore City"
+  },
+  {
+    "neighborhoods": "Catonsville, Lochearn, Sandtown-Winchester",
+    "counties": "Baltimore City "
+  },
+  {
+    "neighborhoods": "Belair-Edison, Clifton Park, Hamilton",
+    "counties": "Baltimore City "
+  },
+  {
+    "neighborhoods": "Brooklyn, Canton, Inner Harbor",
+    "counties": "Baltimore City "
+  },
+  {
+    "neighborhoods": "Adelphi, Chillum, Mount Rainier",
+    "counties": "Prince George's"
+  }
+]
