@@ -1,51 +1,61 @@
 {{ define "main" }}
-  <div id="state-races" class="splash-container" style="text-align: center;">
+  <div class="district-list">
    <h1 class="section-header-splash grey">
     {{ .Title }}
    </h1>
-   <div id="splash-text">
+   <div class="district-list-text col-md-8 col-md-offset-2 col-sm-12 col-xs-12">
     {{ .Content }}
    </div>
-   <div class="col-md-12 col-sm-12 col-xs-12">
-    <a href="http://mdelect.net/" class="btn btn-primary btn-lg find-district-button" type="button">
-     FIND YOUR DISTRICT
-    </a>
-   </div>
+
+   <div class="clear-splash"></div>
+
+   <a href="http://mdelect.net/" class="btn btn-primary btn-lg find-district-button">
+    FIND YOUR DISTRICT
+   </a>
 
    <hr class="clear-splash">
-   <!--<div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Choose district
-    </button>
-    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      {{ range seq .Params.districts }}
-      <a
-        href="/{{ $.Slug }}/district-{{ . }}/"
-        class="dropdown-item"
-        type="button">
-        District {{ . }}
-      </a>
-      {{ end }}
-    </div>
-   </div>-->
+
    <div class="btn-group">
     <button class="btn btn-secondary btn-lg dropdown-toggle district-picker" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span>Choose district</span><span class="caret"></span>
+     <span>Choose district</span>
+     <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-      {{ range seq .Params.districts }}
-      <li class="district"><a
-        href="/{{ $.Slug }}/district-{{ . }}/"
-        class="dropdown-item"
-        type="button">
-        District {{ . }}
-      </a></li>
-      {{ end }}
+     {{ range seq .Params.districts }}
+      {{ $link := printf "/%s/district-%d" $.Slug . }}
+      <li class="district">
+       <a href="{{ $link }}" class="dropdown-item">District {{ . }}</a>
+      </li>
+     {{ end }}
     </ul>
    </div>
-   <div class="clear-splash">
+  </div>
+
+  {{ if .Params.showDistrictsTable }}
+  <div class="container-fluid">
+   <div class="table-responsive">
+     <table class="table table-striped table-hover table-bordered districts-list-table">
+       <thead>
+         <tr>
+           <th>District</th>
+           <th>Counties in District</th>
+           <th>Major Cities / Neighborhoods</th>
+         </tr>
+       </thead>
+       <tbody>
+         {{ range $n, $district := index .Site.Data.stateDistricts }}
+         {{ $link := printf "/%s/district-%d/" $.Slug (add 1 $n) }}
+         <tr>
+           <td><a href="{{ $link }}">{{ add 1 $n }}</a></td>
+           <td>{{ $district.counties }}</td>
+           <td>{{ $district.neighborhoods }}</td>
+         </tr>
+         {{ end }}
+       </tbody>
+     </table>
    </div>
   </div>
+  {{ end }}
 
   {{ partial "ad-leaderboard.html" . }}
 
