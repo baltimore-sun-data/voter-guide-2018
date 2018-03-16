@@ -1,0 +1,12 @@
+$text-size: 1.6rem;
+
+.about-page {
+  font-size: $text-size;
+  margin: 2 * $text-size auto 0;
+  max-width: 80 * $text-size;
+}
+
+.about-page a {
+  color: #2e98cc;
+  text-decoration: underline;
+}
