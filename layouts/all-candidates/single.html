@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="container">
+  <h1 class="section-header-splash grey">
+    {{ .Title }}
+  </h1>
+  <main class="all-candidates">
+  {{ .Content }}
+  </main>
+  <!-- TODO: Searchamajig? -->
+  <div class="container-fluid">
+    <div class="table-responsive">
+      <table class="table table-striped table-hover table-bordered">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Running for Position</th>
+            <th>Party Affiliation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ $inSection := where .Site.Pages ".Parent" "ne" nil }}
+          {{ $pagesInSection := where $inSection "Kind" "page" }}
+          {{ range sort $pagesInSection ".URL" }}
+          <tr>
+            <td>
+              <a href="{{ .URL }}">{{ .Title }}</a>
+            </td>
+            <td>
+              <a href="{{ .CurrentSection.URL }}">{{ .Parent.Title }}</a>
+            </td>
+            <td>{{ .Param "party" }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+{{ end }}

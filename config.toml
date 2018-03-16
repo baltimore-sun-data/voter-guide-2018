@@ -27,7 +27,7 @@ name = "Election Coverage"
 weight = 1
 
 [[menu.main]]
-url = "/"
+url = "/candidates/"
 name = "Candidates"
 weight = 2
 
