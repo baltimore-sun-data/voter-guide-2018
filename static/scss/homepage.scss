@@ -3,11 +3,11 @@ $bs-xs: 768px;
 .intro-block {
   background: #f6f6f6;
   color: #fff;
+  padding: 25px 0 0;
   text-align: center;
   width: 100%;
 }
 
-// TODO: Fix semi-broken #page-header splash line
 .intro-block #page-header .text {
   background: #f6f6f6;
 }
