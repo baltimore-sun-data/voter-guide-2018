@@ -68,11 +68,14 @@
   color: black;
   display: inline-block;
   font-size: 15px;
-  margin-right: 0px;
   margin-top: 7px;
   padding: 1px 2px;
   position: relative;
   vertical-align: top;
+}
+
+#top-bar-star a {
+  text-decoration: none;
 }
 
 .election-center-logo {
@@ -597,9 +600,6 @@ nav.revealed {
 }
 
 @media only screen and (max-width: 550px) {
-  #splash-text {
-    font-size: 1em;
-  }
   h1.section-header-splash {
     font-size: 1.5em;
   }
@@ -1494,11 +1494,6 @@ p.about {
 
   .question-header {
     font-size: 1em;
-  }
-
-  #splash-text {
-    width: 100%;
-    padding-top: 10px;
   }
 
   #social ul li {
