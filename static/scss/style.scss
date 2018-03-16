@@ -37,11 +37,6 @@
   background-color: #bee2d4;
 }
 
-/* this hides the question comparisons on the candidate pages */
-.question-candidates {
-  display: none;
-}
-
 .no-display {
   display: none;
 }
@@ -61,10 +56,6 @@
   padding: 0px 20px;
 }
 
-#top-bar-star {
-  margin-right: 0px;
-}
-
 /******** VOTER CENTER LOGO ********** */
 
 #star-and-logo {
@@ -73,14 +64,15 @@
 }
 
 #top-bar-star {
-  display: inline-block;
   background-color: white;
   color: black;
-  padding: 1px 2px;
+  display: inline-block;
   font-size: 15px;
+  margin-right: 0px;
   margin-top: 7px;
-  vertical-align: top;
+  padding: 1px 2px;
   position: relative;
+  vertical-align: top;
 }
 
 .election-center-logo {
@@ -150,6 +142,7 @@ a.full {
   text-decoration: none;
 }
 #top-nav ul li a:hover {
+  background-color: #17274a;
   color: #fbfcfc;
   text-decoration: none;
 }
@@ -160,9 +153,6 @@ a.full {
 #top-nav ul li a {
   display: inline-block;
   padding: 11px;
-}
-#top-nav ul li a:hover {
-  background-color: #17274a;
 }
 
 #top-sun-logo {
@@ -407,14 +397,19 @@ nav.revealed {
 }
 
 .nav-item {
-  width: 60px;
-  height: 60px;
   border-radius: 99px;
-  position: relative;
   cursor: pointer;
-  text-align: center;
   display: inline-block;
+  height: 60px;
   margin: 0px 65px;
+  position: relative;
+  text-align: center;
+  transition: all 0.1s linear;
+  width: 60px;
+}
+
+.nav-item:hover {
+  transform: scale(1.25);
 }
 
 .nav-item.small {
@@ -457,17 +452,6 @@ nav.revealed {
   width: 300%;
   text-align: center;
   font-family: "Brandon", Helvetica, sans-serif;
-}
-
-.nav-item {
-  -webkit-transition: all 0.1s linear;
-  transition: all 0.1s linear;
-}
-
-.nav-item:hover {
-  -webkit-transform: scale(1.25);
-  -ms-transform: scale(1.25);
-  transform: scale(1.25);
 }
 
 .winner::after {
@@ -771,17 +755,13 @@ img.cand-pic {
 }
 
 #all-candidates ul li a:hover {
-  color: #667682;
+  color: #333333;
   text-decoration: none;
 }
 
 #all-candidates ul li a:active {
   color: #667682;
   text-decoration: none;
-}
-
-#all-candidates ul li a:hover {
-  color: #333333;
 }
 
 #all-candidates ul li img {
@@ -1188,55 +1168,6 @@ img.cand-pic {
   margin: 0px 15px 10px 0px;
 }
 
-.question-candidates {
-  position: absolute;
-  top: 50px;
-  left: 105%;
-  width: 150px;
-  font-family: "Lato", "HelveticaNeue", Helvetica, sans-serif;
-  font-size: 14px;
-}
-
-.question-candidates ul li {
-  padding: 10px;
-  margin: 5px 0px;
-  color: darkgrey;
-  cursor: pointer;
-  position: relative;
-}
-
-.question-candidates ul li.selected {
-  color: #333333;
-  background-color: #f2f2f2;
-  border-right-width: 5px;
-  border-right-style: solid;
-  cursor: default;
-}
-
-.question-candidates ul li.selected:before {
-  content: url("../images/caret.png");
-  position: absolute;
-  top: 0px;
-  right: 160px;
-}
-
-.question-candidates ul li.dem-list {
-  border-right-color: #2e98cc;
-}
-
-.question-candidates ul li.rep-list {
-  border-right-color: #ed4227;
-}
-
-.question-candidates ul li.lib-list {
-  border-right-color: #d5bc46;
-}
-
-.question-candidates ul li:hover {
-  background-color: #f2f2f2;
-  color: #333333;
-}
-
 .answer-social {
   font-family: "Brandon", Helvetica, sans-serif;
   color: darkgrey;
@@ -1327,6 +1258,7 @@ p.about {
 
   #cand-name,
   .cand-name {
+    font-size: 26px;
     width: auto;
   }
 
@@ -1340,11 +1272,6 @@ p.about {
 
   .nav-item {
     margin: 0px 5%;
-  }
-
-  #cand-name,
-  .cand-name {
-    font-size: 26px;
   }
 
   #cand-bio,
