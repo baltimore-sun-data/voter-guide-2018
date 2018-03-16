@@ -1,28 +1,22 @@
 {{ define "main" }}
   <div id="state-races" class="splash-container" style="text-align: center;">
    <h1 class="section-header-splash grey">
-    {{ .Title }}
+    Local Races for {{ .Title }}
    </h1>
    <div id="splash-text">
     {{ .Content }}
    </div>
-   <div class="col-md-12 col-sm-12 col-xs-12">
-    <a href="http://mdelect.net/" class="btn btn-primary btn-lg find-district-button" type="button">
-     FIND YOUR DISTRICT
-    </a>
-   </div>
-
    <hr class="clear-splash">
    <ul>
     <!-- choose race district -->
-    {{ range seq .Params.districts }}
-    <li class="col-md-4 col-sm-4 col-xs-6">
+    {{ range .Sections }}
+    <li class="col-md-3 col-sm-4 col-xs-6">
      <a
-      href="/{{ $.Slug }}/district-{{ . }}/"
+      href="{{ .URL }}"
       class="btn btn-primary btn-lg district-button"
       type="button">
-      District {{ . }}
-     </a>
+      {{ .Params.shortTitle }}
+      </a>
     </li>
     {{ end }}
    </ul>
