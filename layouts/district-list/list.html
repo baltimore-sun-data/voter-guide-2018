@@ -47,8 +47,8 @@
          {{ $link := printf "/%s/district-%d/" $.Slug (add 1 $n) }}
          <tr>
            <td><a href="{{ $link }}">{{ add 1 $n }}</a></td>
-           <td>{{ $district.counties }}</td>
-           <td>{{ $district.neighborhoods }}</td>
+           <td><a href="{{ $link }}">{{ $district.counties }}</a></td>
+           <td><a href="{{ $link }}">{{ $district.neighborhoods }}</a></td>
          </tr>
          {{ end }}
        </tbody>
