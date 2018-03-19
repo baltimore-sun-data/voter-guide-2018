@@ -7,6 +7,12 @@
   color: #2e98cc;
 }
 
+.districts-list-table.table > tbody > tr > td {
+  padding: 0;
+}
+
 .districts-list-table td a {
+  color: inherit;
   display: block;
+  padding: 8px;
 }
