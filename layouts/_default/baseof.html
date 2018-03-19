@@ -49,18 +49,19 @@
   <meta name="twitter:domain" content="baltimoresun.com">
 
   <!-- Baltimore Sun Omniture -->
+  {{ $.Scratch.Set "pageName" (.Param "omniture-page-name") }}
   {{ if (eq .Kind "page") }}
-    {{ $.Scratch.Add "pageName" (add ":" (.Title | lower | urlize))}}
+    {{ $.Scratch.Add "pageName" (printf ":%s." (.Title | lower | urlize))}}
   {{ else }}
-    {{ $.Scratch.Add "pageName" "" }}
+    {{ $.Scratch.Add "pageName" (printf ":%s." .Kind) }}
   {{ end}}
   <script>
   (
     ((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})
   ).thirdparty = {
-    pageName: '{{.Param "omniture-page-name"}}{{$.Scratch.Get "pageName"}}.',
+    pageName: '{{$.Scratch.Get "pageName"}}',
     channel: '{{.Param "omniture-channel"}}',
-    server: "news.baltimoresun.com",
+    server: '{{.Param "omniture-server"}}',
     hier1: 'baltimoresun:{{.Param "omniture-channel"}}',
     hier2: '{{.Param "omniture-channel"}}',
     prop1: "D=pageName",
