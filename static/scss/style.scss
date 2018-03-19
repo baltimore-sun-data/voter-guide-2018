@@ -478,12 +478,6 @@ nav.revealed {
 
 /******** SPLASH PAGE SPECIFIC STYLES********** */
 
-#leaderboard-ad.splash-ad {
-  margin-top: 80px;
-  margin-bottom: 30px;
-  clear: both;
-}
-
 .splash-container {
   max-width: 1050px;
   margin: 0 auto;
@@ -988,11 +982,6 @@ img.cand-pic {
   padding-top: 10px;
 }
 
-.leaderboard-ad {
-  display: none;
-  margin: 0;
-}
-
 .cube-ad {
   display: none;
   margin: 0;
@@ -1182,12 +1171,13 @@ img.cand-pic {
   color: #333333;
 }
 
-#leaderboard-ad {
+.leaderboard-ad {
+  clear: both;
+  margin-top: 80px auto 30px;
   text-align: center;
-  margin: 10px auto;
 }
 
-#leaderboard-ad div {
+.leaderboard-ad .slot {
   margin: 0px auto;
 }
 
@@ -1432,7 +1422,7 @@ p.about {
 }
 
 @media only screen and (max-width: 730px) {
-  #leaderboard-ad {
+  .leaderboard-ad {
     display: none;
   }
 }
