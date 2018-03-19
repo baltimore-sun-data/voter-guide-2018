@@ -968,25 +968,6 @@ img.cand-pic {
   text-decoration: none;
 }
 
-/******** AD  STYLES********** */
-#ad-holder {
-  width: 300px;
-  height: 250px;
-  background-color: #222222;
-  float: right;
-  overflow: hidden;
-}
-
-#ad1_inline {
-  height: 100px;
-  padding-top: 10px;
-}
-
-.cube-ad {
-  display: none;
-  margin: 0;
-}
-
 /******** QUESTIONAIRE********** */
 
 #questionnaire {
@@ -1169,16 +1150,6 @@ img.cand-pic {
 }
 .answer-social span:hover {
   color: #333333;
-}
-
-.leaderboard-ad {
-  clear: both;
-  margin-top: 80px auto 30px;
-  text-align: center;
-}
-
-.leaderboard-ad .slot {
-  margin: 0px auto;
 }
 
 p.about {
@@ -1421,12 +1392,6 @@ p.about {
   }
 }
 
-@media only screen and (max-width: 730px) {
-  .leaderboard-ad {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 715px) {
   .nav-item {
     width: 25px;
@@ -1439,13 +1404,6 @@ p.about {
   }
 
   #questionnaire-nav {
-    display: none;
-  }
-}
-
-@media only screen and (min-width: 500px) and (max-width: 950px) {
-  #ad-holder,
-  #cube-ad {
     display: none;
   }
 }
@@ -1467,17 +1425,6 @@ p.about {
 }
 
 @media only screen and (max-width: 500px) {
-  #cube-ad {
-    width: auto;
-    float: none;
-    margin: 20px auto;
-  }
-
-  #ad-holder {
-    float: none;
-    margin: 0px auto;
-  }
-
   #mobile-nav-break {
     display: block;
   }
@@ -1560,12 +1507,6 @@ p.about {
 
   .cand-name.race {
     font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 330px) {
-  #cube-ad {
-    display: none;
   }
 }
 

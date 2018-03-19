@@ -1,0 +1,36 @@
+.leaderboard-ad {
+  clear: both;
+  margin: 80px auto 30px;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.leaderboard-ad .slot {
+  background-color: #ccc;
+  height: 90px;
+  margin: 0px auto;
+  width: 728px;
+  @media (max-width: 750px) {
+    height: 250px;
+    width: 320px;
+  }
+}
+
+.right-rail-ad {
+  float: right;
+  max-width: 100%;
+  overflow: hidden;
+  @media only screen and (max-width: 500px) {
+    float: none;
+    margin: 20px auto;
+  }
+  @media only screen and (min-width: 500px) and (max-width: 950px) {
+    display: none;
+  }
+}
+
+.right-rail-ad .slot {
+  height: 250px;
+  width: 300px;
+}
