@@ -29,8 +29,6 @@ func deferClose(err *error, f func() error) {
 
 type FileList []string
 
-var errMissingInfo = fmt.Errorf("missing filename/directory")
-
 func (fl FileList) Execute() error {
 	for _, fn := range fl {
 		log.Printf("open: %s", fn)
@@ -40,10 +38,7 @@ func (fl FileList) Execute() error {
 		}
 		err = parseAndSplit(f)
 		if err != nil {
-			if err == errMissingInfo {
-				return fmt.Errorf("read %s: %v", fn, err)
-			}
-			return err
+			return fmt.Errorf("processing %s: %v", fn, err)
 		}
 	}
 	return nil
@@ -117,11 +112,11 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		datum["questions"] = questions
 	}
 
-	if birthday, ok := datum["birthday"].(string); ok && birthday != "" {
-		birthday, err := time.Parse("1-2-2006", birthday)
+	if birthday, _ := datum["birthday"].(string); birthday != "" {
+		birthdate, err := time.Parse("1-2-2006", birthday)
 		if err == nil {
-			age := time.Now().Year() - birthday.Year()
-			if time.Now().YearDay() < birthday.YearDay() {
+			age := time.Now().Year() - birthdate.Year()
+			if time.Now().YearDay() < birthdate.YearDay() {
 				age--
 			}
 			datum["age"] = age
@@ -129,6 +124,8 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 	}
 	return datum
 }
+
+var errMissingInfo = fmt.Errorf("missing filename/directory")
 
 func saveDatum(datum map[string]interface{}) (err error) {
 	dir, _ := datum["directory"].(string)
