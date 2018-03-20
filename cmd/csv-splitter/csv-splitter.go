@@ -59,10 +59,7 @@ func parseAndSplit(src io.ReadCloser) (err error) {
 	fields, err := cr.Read()
 
 	// Save headers for each row of dict
-	dataHeader := make(map[int]string, len(fields))
-	for i, field := range fields {
-		dataHeader[i] = field
-	}
+	dataHeader := append([]string{}, fields...)
 
 	for {
 		fields, err = cr.Read()
@@ -74,18 +71,7 @@ func parseAndSplit(src io.ReadCloser) (err error) {
 			return
 		}
 
-		datum := make(map[string]interface{}, len(fields))
-		for i, val := range fields {
-			if val == "" {
-				continue
-			}
-			if n, err := strconv.ParseFloat(val, 64); err == nil && (val != "directory" || val != "filename") {
-				datum[dataHeader[i]] = n
-				continue
-			}
-			datum[dataHeader[i]] = val
-		}
-
+		datum := makeDatum(dataHeader, fields)
 		dir, _ := datum["directory"].(string)
 		fn, _ := datum["filename"].(string)
 
@@ -120,4 +106,44 @@ func parseAndSplit(src io.ReadCloser) (err error) {
 			return err
 		}
 	}
+}
+
+func makeDatum(dataHeader, fields []string) map[string]interface{} {
+	datum := make(map[string]interface{}, len(fields))
+	for i, val := range fields {
+		if val == "" {
+			continue
+		}
+		if n, err := strconv.ParseFloat(val, 64); err == nil && (val != "directory" || val != "filename") {
+			datum[dataHeader[i]] = n
+			continue
+		}
+		datum[dataHeader[i]] = val
+	}
+	n := 1
+	type question = struct {
+		Question  interface{} `json:"question"`
+		Answer    interface{} `json:"answer"`
+		Shortname interface{} `json:"shortname"`
+	}
+	var questions []question
+	for {
+		qn := fmt.Sprintf("q%d", n)
+		an := fmt.Sprintf("a%d", n)
+		sn := fmt.Sprintf("sn%d", n)
+		if datum[qn] == nil || datum[qn] == "" {
+			break
+		}
+		questions = append(questions, question{
+			Question:  datum[qn],
+			Answer:    datum[an],
+			Shortname: datum[sn],
+		})
+		n++
+	}
+	if len(questions) > 0 {
+		datum["questions"] = questions
+	}
+
+	return datum
 }
