@@ -73,37 +73,8 @@ func parseAndSplit(src io.ReadCloser) (err error) {
 		}
 
 		datum := makeDatum(dataHeader, fields)
-		dir, _ := datum["directory"].(string)
-		fn, _ := datum["filename"].(string)
-
-		if dir == "" || fn == "" {
-			return errMissingInfo
-		}
-
-		log.Printf("creating %s/%s", dir, fn)
-
-		if err = os.MkdirAll(dir, 0777); err != nil {
-			return err
-		}
-
-		dfn := filepath.Join(dir, fn)
-		df, err := os.Create(dfn)
+		err = saveDatum(datum)
 		if err != nil {
-			return err
-		}
-
-		// Can't defer close in a loop
-
-		enc := json.NewEncoder(df)
-		enc.SetIndent("", "  ")
-		enc.SetEscapeHTML(false)
-
-		if err = enc.Encode(&datum); err != nil {
-			df.Close()
-			return err
-		}
-
-		if err = df.Close(); err != nil {
 			return err
 		}
 	}
@@ -157,4 +128,33 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		}
 	}
 	return datum
+}
+
+func saveDatum(datum map[string]interface{}) (err error) {
+	dir, _ := datum["directory"].(string)
+	fn, _ := datum["filename"].(string)
+
+	if dir == "" || fn == "" {
+		return errMissingInfo
+	}
+
+	log.Printf("creating %s/%s", dir, fn)
+
+	if err = os.MkdirAll(dir, 0777); err != nil {
+		return err
+	}
+
+	dfn := filepath.Join(dir, fn)
+	df, err := os.Create(dfn)
+	if err != nil {
+		return err
+	}
+	defer deferClose(&err, df.Close)
+
+	enc := json.NewEncoder(df)
+	enc.SetIndent("", "  ")
+	enc.SetEscapeHTML(false)
+	err = enc.Encode(&datum)
+
+	return
 }
