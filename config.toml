@@ -14,8 +14,8 @@ staticDir = ["static", "dist"]
 
 [Params]
 DefaultShareText = "Learn about primary elections in Maryland in the Baltimore Sun 2018 Voter Guide:"
-icon = "images/icon.png"
-image = "images/icon.png"
+icon = "images/voter-guide-square-128.png"
+image = "images/voter-guide-square.png"
 omniture-page-name = "bs:newsserver:elections2018:news:maryland:politics:voter-guide-2018:dataproject"
 omniture-channel = "news:maryland:politics"
 omniture-server = "elections2018.news.baltimoresun.com"
