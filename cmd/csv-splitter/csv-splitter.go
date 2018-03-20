@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
+	"time"
 )
 
 func main() {
@@ -145,5 +146,15 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		datum["questions"] = questions
 	}
 
+	if birthday, ok := datum["birthday"].(string); ok && birthday != "" {
+		birthday, err := time.Parse("1-2-2006", birthday)
+		if err == nil {
+			age := time.Now().Year() - birthday.Year()
+			if time.Now().YearDay() < birthday.YearDay() {
+				age--
+			}
+			datum["age"] = age
+		}
+	}
 	return datum
 }
