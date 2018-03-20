@@ -40,22 +40,14 @@
         <li id="party" class="{{ .Params.party | lower }}-color">
           {{.Params.Party}}
         </li>
+        {{ range .Site.Data.metadata.singlePageParams }}
+        {{ if $.Param .key }}
         <li>
-         <span id="age">
-          {{.Params.Age}}
-         </span>
+         <span class="key">{{ .display }}:</span>
+         <span class="value">{{ $.Param .key}}</span>
         </li>
-        <li id="job">
-          {{.Params.Job}}
-        </li>
-        <li>
-         <span id="lives">
-          {{.Params.LivesIn}}
-         </span>
-        </li>
-        <li id="graduated">
-          {{.Params.graduatedFrom}}
-        </li>
+        {{ end }}
+        {{ end }}
        </ul>
       </div>
      </div>
