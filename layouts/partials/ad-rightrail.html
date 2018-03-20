@@ -1,32 +1,3 @@
-{{ $.Scratch.Add "rightrail-id" 1 }}
-
-<script type="text/javascript">
-googletag.cmd.push(function() {
-  gptadslots.push(
-    googletag
-      .defineSlot(
-        "/4011/trb.baltimoresun/news",
-        [[300, 250]],
-        'gpt-ad-rightrail-{{ $.Scratch.Get "rightrail-id" }}'
-      )
-      .setTargeting("pos", ["1"])
-      .setCollapseEmptyDiv(true)
-      .addService(googletag.pubads())
-  );
-
-  googletag.pubads().setTargeting("ptype", ["s"]);
-  googletag.pubads().enableAsyncRendering();
-  googletag.enableServices();
-});
-</script>
-
 <div class="right-rail-ad">
- <div id='gpt-ad-rightrail-{{ $.Scratch.Get "rightrail-id" }}' class="slot">
- </div>
+ <div data-slot-viewports="[[0, 0]]" data-slot-sizes="[[300, 250]]"></div>
 </div>
-
-<script type="text/javascript">
- googletag.cmd.push(function() {
-   googletag.display('gpt-ad-{{ $.Scratch.Get "rightrail-id" }}');
- });
-</script>

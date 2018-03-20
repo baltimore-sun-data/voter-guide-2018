@@ -1,0 +1,44 @@
+<script type="text/javascript">
+var gptadslots = [];
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+
+document.addEventListener("DOMContentLoaded", function(event) {
+  var adUnit = "/4011/trb.baltimoresun/news";
+
+  document.querySelectorAll("[data-slot-sizes]").forEach(function(el, n) {
+    // Create inner div
+    var divId = "ad-unit-" + n.toString();
+    var slot = document.createElement("div");
+    slot.id = divId;
+    slot.classList.add("slot");
+    el.appendChild(slot);
+
+    // Create ad mappings
+    var sizes = JSON.parse(el.getAttribute("data-slot-sizes"));
+    var viewports = JSON.parse(el.getAttribute("data-slot-viewports"));
+
+    googletag.cmd.push(function() {
+      var mapping = googletag.sizeMapping();
+      sizes.forEach(function(size, i) {
+        mapping.addSize(viewports[i], size);
+      });
+      mapping = mapping.build();
+
+    // Push ad call
+      gptadslots.push(
+        googletag
+          .defineSlot(adUnit, mapping, divId)
+          .defineSizeMapping(mapping)
+          .setTargeting("pos", ["1"])
+          .setCollapseEmptyDiv(true)
+          .addService(googletag.pubads())
+      );
+      googletag.pubads().setTargeting("ptype", ["s"]);
+      googletag.enableServices();
+      googletag.display(divId);
+    });
+  });
+});
+</script>
+<script src="//www.googletagservices.com/tag/js/gpt.js" async></script>
