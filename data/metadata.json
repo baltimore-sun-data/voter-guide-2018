@@ -1,8 +1,8 @@
 {
   "singlePageParams": [
-    { "key": "RunningMate", "display": "Running Mate" },
-    { "key": "Age", "display": "Age" },
-    { "key": "LivesIn", "display": "Residence" },
-    { "key": "graduatedFrom", "display": "Education" }
+    { "key": "running-mate", "display": "Running Mate" },
+    { "key": "age", "display": "Age" },
+    { "key": "residence", "display": "Residence" },
+    { "key": "education", "display": "Education" }
   ]
 }

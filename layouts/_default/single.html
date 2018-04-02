@@ -33,12 +33,12 @@
     {{ end }}
      <div id="cand-bio-text">
       <div id="cand-name">
-        {{.Params.candidateName}}
+        {{ .Param "full-name" }}
       </div>
       <div id="cand-details">
        <ul>
         <li id="party" class="{{ .Params.party | lower }}-color">
-          {{.Params.Party}}
+          {{ .Params.party }}
         </li>
         {{ range .Site.Data.metadata.singlePageParams }}
         {{ if $.Param .key }}
@@ -158,35 +158,41 @@
   <div class="container">
    <section id="bio">
     <header class="section-header {{.Params.party | lower }}">
-      About {{.Params.candidateLastName}}
+      About {{ .Param "last-name" }}
     </header>
     <div class="group">
+     {{ with .Params.background }}
      <div id="bio-text" class="span-60 left">
-      {{.Params.bio|markdownify}}
+      {{ markdownify . }}
      </div>
+     {{ end }}
      <div id="social" class="span-40 right {{.Params.party | lower }}">
       <ul>
+       {{ with .Param "web" }}
        <li>
         <span class="icon-globe side">
         </span>
-        <a href="{{.Params.website}}" class="website-link" target="_blank">
-          {{ replace (replace .Params.website "http://" "") "https://" "" }}
+        <a href="{{ . }}" class="website-link" target="_blank">
+          {{ replace (replace . "http://" "") "https://" "" }}
         </a>
        </li>
+       {{ end }}
+       {{ with .Param "social-tw" }}
        <li>
-        <span class="icon-twitter side">
-        </span>
-        <a href="https://twitter.com/{{.Params.twitter}}" class="twitter-link" target="_blank">
-          @{{.Params.twitter}}
+        <span class="icon-twitter side"></span>
+        <a href="https://{{.}}" class="twitter-link" target="_blank">
+          @{{ replace . "twitter.com/" "" }}
         </a>
        </li>
+       {{ end }}
+       {{ with .Param "social-fb" }}
        <li>
-        <span class="icon-facebook side">
-        </span>
-        <a href="https://facebook.com/{{.Params.facebook}}/" class="facebook-link" target="_blank">
-          facebook.com/{{.Params.facebook}}
+        <span class="icon-facebook side"></span>
+        <a href='https://{{ . }}/' class="facebook-link" target="_blank">
+          {{ . }}
         </a>
        </li>
+       {{ end }}
       </ul>
      </div>
     </div>
@@ -236,7 +242,7 @@
        {{ end }}
       </ul>
      </div>
-     {{ $candidateLastName := .Params.candidateLastName }}
+     {{ $candidateLastName := .Param "last-name" }}
      {{ range $i, $question := .Params.questions }}
      <div id="question-{{ add $i 1 }}" class="question span-70 left">
       <header class="question-header">
@@ -250,7 +256,7 @@
       </div>
       <div class="answer">
        <div class="first-para">
-        {{ markdownify (print "<span class='speaker'>" $candidateLastName "</span>:" $question.answer) }}
+        {{ markdownify (print "<span class='speaker'>" $candidateLastName "</span>: " $question.answer) }}
        </div>
        {{ with index $question "supplemental_answer" }}
        <div class="other-paras">

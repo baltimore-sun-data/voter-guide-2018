@@ -9,6 +9,7 @@ import (
 	"os"
 	"path/filepath"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -112,16 +113,37 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		datum["questions"] = questions
 	}
 
-	if birthday, _ := datum["birthday"].(string); birthday != "" {
-		birthdate, err := time.Parse("1-2-2006", birthday)
+	if dob, _ := datum["dob"].(string); dob != "" {
+		birthdate, err := time.Parse("1/2/2006", dob)
 		if err == nil {
 			age := time.Now().Year() - birthdate.Year()
 			if time.Now().YearDay() < birthdate.YearDay() {
 				age--
 			}
 			datum["age"] = age
+		} else {
+			log.Printf("warning, could not parse dob: %v", err)
 		}
 	}
+
+	dir, _ := datum["directory"].(string)
+	fn, _ := datum["filename"].(string)
+	if dir == "" && fn == "" {
+		race, _ := datum["race"].(string)
+		datum["directory"] = fmt.Sprintf("content/%s", race)
+
+		fullname, _ := datum["full-name"].(string)
+		fullname = strings.ToLower(fullname)
+		fullname = strings.Replace(fullname, " ", "-", -1)
+		fullname = strings.Replace(fullname, ".", "", -1)
+		datum["filename"] = fmt.Sprintf("%s.md", fullname)
+	}
+
+	if title, _ := datum["title"].(string); title == "" {
+		fullname, _ := datum["full-name"].(string)
+		datum["title"] = fullname
+	}
+
 	return datum
 }
 
