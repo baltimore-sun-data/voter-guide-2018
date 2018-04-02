@@ -170,25 +170,34 @@
       <ul>
        {{ with .Param "web" }}
        <li>
-        <span class="icon-globe side">
-        </span>
         <a href="{{ . }}" class="website-link" target="_blank">
+          <span class="icon-globe"></span>
           {{ replace (replace . "http://" "") "https://" "" }}
         </a>
        </li>
        {{ end }}
        {{ with .Param "social-tw" }}
        <li>
-        <span class="icon-twitter side"></span>
         <a href="https://{{.}}" class="twitter-link" target="_blank">
+          <span class="icon-twitter"></span>
           @{{ replace . "twitter.com/" "" }}
+        </a>
+       </li>
+       {{ end }}
+       {{ with .Param "social-ig" }}
+       <li>
+        <a href="https://{{ . }}" target="_blank">
+          <span class="icon-instagram">
+            {{- partial "svg/instagram.svg" . -}}
+          </span>
+          {{ replace . "instagram.com/" "" }}
         </a>
        </li>
        {{ end }}
        {{ with .Param "social-fb" }}
        <li>
-        <span class="icon-facebook side"></span>
         <a href='https://{{ . }}/' class="facebook-link" target="_blank">
+          <span class="icon-facebook"></span>
           {{ . }}
         </a>
        </li>
@@ -220,7 +229,7 @@
     <div id="message">
      <br>
      <p>
-      This candidate did not respond to The Sun&#39;s editorial questionnaire.
+      This candidate did not respond to <i>The Sun</i>&#39;s editorial questionnaire.
      </p>
      <br>
      <br>

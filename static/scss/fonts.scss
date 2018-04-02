@@ -130,3 +130,13 @@
 .icon-facebook:before {
   content: "\e620";
 }
+// Not in the Font Awesome set we have and don't want to take the time to regenerate it
+.icon-instagram {
+  display: inline-block;
+
+  svg {
+    height: 25px;
+    padding: 2px;
+    width: 25px;
+  }
+}
