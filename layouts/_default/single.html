@@ -66,18 +66,18 @@
        BIO
       </div>
      </div>
-     <div class="nav-item" data-section="news">
-      <span class="icon-news">
-      </span>
-      <div class="nav-label">
-       COVERAGE
-      </div>
-     </div>
      <div class="nav-item" data-section="questionnaire">
       <span class="icon-list">
       </span>
       <div class="nav-label">
        Q&amp;A
+      </div>
+     </div>
+     <div class="nav-item" data-section="news">
+      <span class="icon-news">
+      </span>
+      <div class="nav-label">
+       COVERAGE
       </div>
      </div>
     </div>
@@ -122,18 +122,18 @@
      BIO
     </div>
    </div>
-   <div class="nav-item small" data-section="news">
-    <span class="icon-news">
-    </span>
-    <div class="nav-label">
-     COVERAGE
-    </div>
-   </div>
    <div class="nav-item small" data-section="questionnaire">
     <span class="icon-list">
     </span>
     <div class="nav-label">
      Q&amp;A
+    </div>
+   </div>
+   <div class="nav-item small" data-section="news">
+    <span class="icon-news">
+    </span>
+    <div class="nav-label">
+     COVERAGE
     </div>
    </div>
   </nav>
@@ -145,18 +145,18 @@
      BIO
     </div>
    </div>
-   <div class="nav-item" data-section="news">
-    <span class="icon-news">
-    </span>
-    <div class="nav-label">
-     COVERAGE
-    </div>
-   </div>
    <div class="nav-item" data-section="questionnaire">
     <span class="icon-list">
     </span>
     <div class="nav-label">
      Q&amp;A
+    </div>
+   </div>
+   <div class="nav-item" data-section="news">
+    <span class="icon-news">
+    </span>
+    <div class="nav-label">
+     COVERAGE
     </div>
    </div>
   </div>
@@ -212,20 +212,6 @@
     </div>
    </section>
    <!-- /bio -->
-   <div class="group">
-    <section id="news" class="span-65 left">
-     <header class="section-header {{.Params.party | lower }}">
-      Election Coverage
-     </header>
-     <ul>
-      <div id="newsfeed">
-      </div>
-     </ul>
-    </section>
-
-    {{ partial "ad-rightrail.html" . }}
-   </div>
-
    <section id="questionnaire" class="group {{.Params.party | lower }}">
     <header class="section-header {{.Params.party | lower }}">
      Questionnaire
@@ -293,44 +279,25 @@
     {{ end }}
    </section>
    <!-- /questionnaire -->
+
+   <div class="group">
+    <section id="news" class="span-65 left">
+     <header class="section-header {{.Params.party | lower }}">
+      Election Coverage
+     </header>
+
+     {{ partial "coverage.html" . }}
+    </section>
+
+    {{ partial "ad-rightrail.html" . }}
+   </div>
+
   </div>
-  <!-- /container -->
-  <div id="footer">
-  </div>
+
   <!-- Page loading scripts -->
   <script type="text/javascript">
     $(document).ready(function(){
       app.toggle_fixed_nav();
     });
-
-    //Newsfeed script based on https://rss2json.com/
-    var feed_url =
-      "https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Fmaryland%2Fpolitics%2Frss2.0.xml&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5";
-
-    var content = document.getElementById("newsfeed");
-
-    var xhr = new XMLHttpRequest();
-
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        var data = JSON.parse(xhr.responseText);
-        if (data.status == "ok") {
-          var output = "";
-
-          for (var i = 0; i < data.items.length; ++i) {
-            output +=
-              '<li><div class="article-title"><a href="' +
-              data.items[i].link +
-              '" >' +
-              data.items[i].title +
-              "</a></li></div>";
-          }
-
-          content.innerHTML = output;
-        }
-      }
-    };
-    xhr.open("GET", feed_url, true);
-    xhr.send();
   </script>
 {{ end }}

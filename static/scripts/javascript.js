@@ -182,6 +182,39 @@ var app = {
       // Jump to that year
       $.scrollTo($("#year-" + year), 0);
     });
+  },
+
+  fetch_coverage: function(selector) {
+    // Newsfeed script based on https://rss2json.com/
+    var feedURL =
+      "https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Fmaryland%2Fpolitics%2Frss2.0.xml&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5";
+
+    var content = document.querySelector(selector);
+
+    var xhr = new XMLHttpRequest();
+
+    xhr.addEventListener("load", function() {
+      var data = JSON.parse(xhr.responseText);
+      if (data.status === "ok") {
+        var output = "";
+
+        for (var i = 0; i < data.items.length; ++i) {
+          output +=
+            '<li><div class="article-title"><a href="' +
+            data.items[i].link +
+            '" >' +
+            data.items[i].title +
+            "</a></div></li>";
+        }
+
+        content.innerHTML = output;
+      }
+    });
+    xhr.addEventListener("error", function() {
+      content.innerHTML = "<li>I'm sorry, something went wrong.</li>";
+    });
+    xhr.open("GET", feedURL, true);
+    xhr.send();
   }
 };
 
