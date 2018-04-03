@@ -21,11 +21,21 @@
      <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+     <!-- HACK because Harford County has A-F districts -->
+     {{ if (in .Page.File.Path "harford") }}
+     {{ range seq 'a' 'g' }}
+      {{ $link := printf "district-%c/" . }}
+      <li class="district">
+       <a href="{{ $link }}" class="dropdown-item">{{ printf "district %c" . | title }}</a>
+      </li>
+     {{ end }}
+     {{ else }}
      {{ range seq .Params.districts }}
-      {{ $link := printf "/%s/district-%d" $.Slug . }}
+      {{ $link := printf "district-%d/" . }}
       <li class="district">
        <a href="{{ $link }}" class="dropdown-item">District {{ . }}</a>
       </li>
+     {{ end }}
      {{ end }}
     </ul>
    </div>
