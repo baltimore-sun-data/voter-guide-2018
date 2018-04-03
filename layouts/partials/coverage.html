@@ -1,0 +1,8 @@
+{{ $.Scratch.Add "coverage" 1 }}
+{{ $newsfeedID := printf "coverage-%d" ($.Scratch.Get "coverage") }}
+
+<ul id="{{ $newsfeedID }}"></ul>
+
+<script type="text/javascript">
+  app.fetch_coverage("#{{ $newsfeedID }}");
+</script>
