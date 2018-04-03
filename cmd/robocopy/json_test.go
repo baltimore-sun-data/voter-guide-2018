@@ -29,8 +29,10 @@ func TestUnmarshallJSON(t *testing.T) {
 	}{
 		{"old-metadata", "test/Metadata.js", &Metadata{}},
 		{"new-metadata", "test/GP18-Metadata.js", &Metadata{}},
-		{"precinct-results", "test/PrecinctResults.js", &PrecinctResults{}},
-		{"results", "test/Results.js", &Results{}},
+		{"old-precinct-results", "test/PrecinctResults.js", &PrecinctResults{}},
+		{"old-results", "test/Results.js", &Results{}},
+		{"new-precinct-results", "test/GP18-PrecinctResults.js", &PrecinctResults{}},
+		{"new-results", "test/GP18-Results.js", &Results{}},
 	}
 	for _, tc := range tcs {
 		t.Run(tc.name, func(t *testing.T) {
