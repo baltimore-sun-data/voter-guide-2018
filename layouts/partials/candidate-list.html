@@ -23,9 +23,10 @@
         </tr>
       </thead>
       <tbody>
-        {{ $inSection := where .Site.Pages "Section" .Section }}
-        {{ $pagesInSection := where $inSection "Kind" "page" }}
-        {{ range sort $pagesInSection ".URL" }}
+        {{ $parent := . }}
+        {{ $regularPages := where .Site.Pages "Kind" "page" }}
+        {{ range sort $regularPages ".URL" }}
+        {{ if .IsDescendant $parent }}
         <tr>
           <td>
             <a href="{{ .URL }}">{{ .Title }}</a>
@@ -35,6 +36,7 @@
           </td>
           <td>{{ .Param "party" }}</td>
         </tr>
+        {{ end }}
         {{ end }}
       </tbody>
     </table>
