@@ -82,7 +82,7 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		if val == "" {
 			continue
 		}
-		if n, err := strconv.ParseFloat(val, 64); err == nil && (val != "directory" || val != "filename") {
+		if n, err := strconv.ParseFloat(val, 64); err == nil {
 			datum[dataHeader[i]] = n
 			continue
 		}
@@ -99,7 +99,7 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		qn := fmt.Sprintf("q%d", n)
 		an := fmt.Sprintf("a%d", n)
 		sn := fmt.Sprintf("sn%d", n)
-		if datum[qn] == nil || datum[qn] == "" {
+		if get(datum, qn) == "" {
 			break
 		}
 		questions = append(questions, question{
@@ -113,7 +113,7 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		datum["questions"] = questions
 	}
 
-	if dob, _ := datum["dob"].(string); dob != "" {
+	if dob := get(datum, "dob"); dob != "" {
 		birthdate, err := time.Parse("1/2/2006", dob)
 		if err == nil {
 			age := time.Now().Year() - birthdate.Year()
@@ -126,21 +126,25 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		}
 	}
 
-	dir, _ := datum["directory"].(string)
-	fn, _ := datum["filename"].(string)
+	dir := get(datum, "directory")
+	fn := get(datum, "filename")
 	if dir == "" && fn == "" {
-		race, _ := datum["race"].(string)
-		datum["directory"] = fmt.Sprintf("content/%s", race)
+		if race := get(datum, "race"); race != "" {
+			datum["directory"] = fmt.Sprintf("content/%s", race)
+		} else if mun := get(datum, "race-municipality"); mun != "" {
+			mun = slugify(mun)
+			name := slugify(get(datum, "race-name"))
+			district := slugify(get(datum, "race-district"))
+			datum["directory"] = fmt.Sprintf("content/%s-county/%s/district-%v",
+				mun, name, district)
+		}
 
-		fullname, _ := datum["full-name"].(string)
-		fullname = strings.ToLower(fullname)
-		fullname = strings.Replace(fullname, " ", "-", -1)
-		fullname = strings.Replace(fullname, ".", "", -1)
-		datum["filename"] = fmt.Sprintf("%s.md", fullname)
+		fullname := get(datum, "full-name")
+		datum["filename"] = fmt.Sprintf("%s.md", slugify(fullname))
 	}
 
-	if title, _ := datum["title"].(string); title == "" {
-		fullname, _ := datum["full-name"].(string)
+	if title := get(datum, "title"); title == "" {
+		fullname := get(datum, "full-name")
 		datum["title"] = fullname
 	}
 
@@ -150,8 +154,8 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 var errMissingInfo = fmt.Errorf("missing filename/directory")
 
 func saveDatum(datum map[string]interface{}) (err error) {
-	dir, _ := datum["directory"].(string)
-	fn, _ := datum["filename"].(string)
+	dir := get(datum, "directory")
+	fn := get(datum, "filename")
 
 	if dir == "" || fn == "" {
 		return errMissingInfo
@@ -176,4 +180,26 @@ func saveDatum(datum map[string]interface{}) (err error) {
 	err = enc.Encode(&datum)
 
 	return
+}
+
+func get(m map[string]interface{}, key string) string {
+	s, _ := m[key].(string)
+	if f, ok := m[key].(float64); ok {
+		s = fmt.Sprintf("%v", f)
+	}
+	return s
+}
+
+func slugify(s string) string {
+	s = strings.ToLower(s)
+	s = strings.Replace(s, " ", "-", -1)
+	bb := make([]byte, 0, len(s))
+	for _, b := range []byte(s) {
+		if (b >= 'a' && b <= 'z') ||
+			(b >= '1' && b <= '9') ||
+			b == '-' {
+			bb = append(bb, b)
+		}
+	}
+	return string(bb)
 }
