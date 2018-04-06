@@ -20,34 +20,40 @@
   revision = "de5bf2ad457846296e2031421a34e2568e304e35"
 
 [[projects]]
+  branch = "master"
   name = "github.com/alecthomas/chroma"
-  packages = [".","formatters","formatters/html","lexers","styles"]
-  revision = "e0f32fbcb59bc99c521910291b7ba8ecdb17ca34"
-  version = "v0.2.1"
+  packages = [".","formatters","formatters/html","lexers","lexers/a","lexers/b","lexers/c","lexers/circular","lexers/d","lexers/e","lexers/f","lexers/g","lexers/h","lexers/i","lexers/internal","lexers/j","lexers/k","lexers/l","lexers/m","lexers/n","lexers/o","lexers/p","lexers/q","lexers/r","lexers/s","lexers/t","lexers/v","lexers/w","lexers/x","lexers/y","styles"]
+  revision = "6b1131c0069211a7729895c26f8c51765a4baf25"
 
 [[projects]]
   name = "github.com/aws/aws-sdk-go"
-  packages = ["aws","aws/awserr","aws/awsutil","aws/client","aws/client/metadata","aws/corehandlers","aws/credentials","aws/credentials/ec2rolecreds","aws/credentials/endpointcreds","aws/credentials/stscreds","aws/defaults","aws/ec2metadata","aws/endpoints","aws/request","aws/session","aws/signer/v4","internal/sdkrand","internal/shareddefaults","private/protocol","private/protocol/query","private/protocol/query/queryutil","private/protocol/rest","private/protocol/restxml","private/protocol/xml/xmlutil","service/cloudfront","service/sts"]
-  revision = "63324a33d7e42a386c04d4daec764a3de243492e"
-  version = "v1.13.0"
+  packages = ["aws","aws/awserr","aws/awsutil","aws/client","aws/client/metadata","aws/corehandlers","aws/credentials","aws/credentials/ec2rolecreds","aws/credentials/endpointcreds","aws/credentials/stscreds","aws/defaults","aws/ec2metadata","aws/endpoints","aws/request","aws/session","aws/signer/v4","internal/sdkio","internal/sdkrand","internal/shareddefaults","private/protocol","private/protocol/query","private/protocol/query/queryutil","private/protocol/rest","private/protocol/restxml","private/protocol/xml/xmlutil","service/cloudfront","service/s3","service/sts"]
+  revision = "827d8280a5c6590c21e2fc0a6a8b3242ee6e33f0"
+  version = "v1.13.29"
 
 [[projects]]
   branch = "master"
   name = "github.com/baltimore-sun-data/boreas"
   packages = [".","invalidator"]
-  revision = "29a3e54406ba7a97f95c5b8424edc2761fdf31c2"
+  revision = "614815cd9e65aeb0e158b4f72bb8886e3e635934"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/bep/debounce"
+  packages = ["."]
+  revision = "4d3a5ad34e592abc468ed5c6b2a23fcca372ebcd"
 
 [[projects]]
   branch = "master"
   name = "github.com/bep/gitmap"
   packages = ["."]
-  revision = "de8030ebafb76c6e84d50ee6d143382637c00598"
+  revision = "012701e8669671499fc43e9792335a1dcbfe2afb"
 
 [[projects]]
   name = "github.com/bep/s3deploy"
   packages = [".","lib"]
-  revision = "1b3c818df75adc87e86af04107ea589723010da4"
-  version = "v1.3.1"
+  revision = "12a65b6525ab27194b23669e293a75e41e149103"
+  version = "v2.0.1"
 
 [[projects]]
   name = "github.com/carlmjohnson/scattered"
@@ -87,6 +93,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/dsnet/golib"
+  packages = ["memfile"]
+  revision = "1ea1667757804fdcccc5a1810e09aba618885ac2"
+
+[[projects]]
+  branch = "master"
   name = "github.com/dustin/go-humanize"
   packages = ["."]
   revision = "bb3d318650d48840a39aa21a027c6630e198e626"
@@ -106,14 +118,8 @@
 [[projects]]
   name = "github.com/go-ini/ini"
   packages = ["."]
-  revision = "32e4c1e6bc4e7d0d8451aa6b75200d19e37a536a"
-  version = "v1.32.0"
-
-[[projects]]
-  name = "github.com/gobuffalo/envy"
-  packages = ["."]
-  revision = "e613c80275b86293880eddeb27417c9a7c670ff3"
-  version = "v1.3.0"
+  revision = "5e9692864e22d02ac79e2fa499cffb00520b4fea"
+  version = "v1.34.0"
 
 [[projects]]
   name = "github.com/gobwas/glob"
@@ -123,9 +129,9 @@
 
 [[projects]]
   name = "github.com/gohugoio/hugo"
-  packages = ["bufferpool","cache","commands","common/types","compare","config","create","deps","docshelper","helpers","hugofs","hugolib","i18n","livereload","media","metrics","output","parser","related","releaser","resource","source","tpl","tpl/cast","tpl/collections","tpl/compare","tpl/crypto","tpl/data","tpl/encoding","tpl/fmt","tpl/images","tpl/inflect","tpl/internal","tpl/lang","tpl/math","tpl/os","tpl/partials","tpl/safe","tpl/strings","tpl/time","tpl/tplimpl","tpl/transform","tpl/urls","transform","utils","watcher"]
-  revision = "18e3657a2a405b1bbfda2b49444546c0f1184853"
-  version = "v0.36"
+  packages = ["bufferpool","cache","commands","common/types","compare","config","create","deps","docshelper","helpers","hugofs","hugolib","hugolib/pagemeta","i18n","livereload","media","metrics","output","parser","related","releaser","resource","source","tpl","tpl/cast","tpl/collections","tpl/compare","tpl/crypto","tpl/data","tpl/encoding","tpl/fmt","tpl/images","tpl/inflect","tpl/internal","tpl/lang","tpl/math","tpl/os","tpl/partials","tpl/safe","tpl/strings","tpl/time","tpl/tplimpl","tpl/transform","tpl/urls","transform","utils","watcher"]
+  revision = "c475eab474a6ec6c12949694590913c1a0cf81f6"
+  version = "v0.38.1"
 
 [[projects]]
   name = "github.com/gorilla/websocket"
@@ -148,8 +154,8 @@
 [[projects]]
   branch = "master"
   name = "github.com/hashicorp/hcl"
-  packages = [".","hcl/ast","hcl/parser","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
-  revision = "23c074d0eceb2b8a5bfdbb271ab780cde70f05a8"
+  packages = [".","hcl/ast","hcl/parser","hcl/printer","hcl/scanner","hcl/strconv","hcl/token","json/parser","json/scanner","json/token"]
+  revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
 
 [[projects]]
   name = "github.com/inconshreveable/mousetrap"
@@ -169,12 +175,6 @@
   revision = "0b12d6b5"
 
 [[projects]]
-  name = "github.com/joho/godotenv"
-  packages = ["."]
-  revision = "a79fa1e548e2c689c241d10173efd51e5d689d5b"
-  version = "v1.2.0"
-
-[[projects]]
   name = "github.com/kyokomi/emoji"
   packages = ["."]
   revision = "7e06b236c489543f53868841f188a294e3383eab"
@@ -189,14 +189,13 @@
 [[projects]]
   name = "github.com/magiconair/properties"
   packages = ["."]
-  revision = "d419a98cdbed11a922bf76f257b7c4be79b50e73"
-  version = "v1.7.4"
+  revision = "c3beff4c2358b44d0493c7dda585e7db7ff28ae6"
+  version = "v1.7.6"
 
 [[projects]]
-  branch = "master"
   name = "github.com/markbates/inflect"
   packages = ["."]
-  revision = "fec282d55240317f603bca7e2e4d81865cc84f4e"
+  revision = "a12c3aec81a6a938bf584a4bac567afed9256586"
 
 [[projects]]
   name = "github.com/matryer/try"
@@ -218,27 +217,15 @@
 
 [[projects]]
   branch = "master"
-  name = "github.com/mitchellh/go-homedir"
-  packages = ["."]
-  revision = "b8bc1bf767474819792c23f32d8286a45736f1c6"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/mitchellh/goamz"
-  packages = ["aws","s3"]
-  revision = "caaaea8b30ee15616494ee68abd5d8ebbbef05cf"
-
-[[projects]]
-  branch = "master"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
-  revision = "a4e142e9c047c904fa2f1e144d9a84e6133024bc"
+  revision = "00c29f56e2386353d58c599509e8dc3801b0d716"
 
 [[projects]]
   branch = "master"
   name = "github.com/muesli/smartcrop"
   packages = [".","options"]
-  revision = "1db484956b9ef929344e51701299a017beefdaaa"
+  revision = "f6ebaa786a12a0fdb2d7c6dee72808e68c296464"
 
 [[projects]]
   name = "github.com/nicksnyder/go-i18n"
@@ -261,8 +248,8 @@
 [[projects]]
   name = "github.com/russross/blackfriday"
   packages = ["."]
-  revision = "4048872b16cc0fc2c5fd9eacf0ed2c2fedaa0c8c"
-  version = "v1.5"
+  revision = "55d61fa8aa702f59229e6cff85793c22e580eaf5"
+  version = "v1.5.1"
 
 [[projects]]
   branch = "master"
@@ -273,20 +260,20 @@
 [[projects]]
   name = "github.com/spf13/afero"
   packages = [".","mem"]
-  revision = "bb8f1927f2a9d3ab41c9340aa034f6b803f4359c"
-  version = "v1.0.2"
+  revision = "63644898a8da0bc22138abf860edaf5277b6102e"
+  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/spf13/cast"
   packages = ["."]
-  revision = "acbeb36b902d72a7a4c18e8f3241075e7ab763e4"
-  version = "v1.1.0"
+  revision = "8965335b8c7107321228e3e3702cab9832751bac"
+  version = "v1.2.0"
 
 [[projects]]
   branch = "master"
   name = "github.com/spf13/cobra"
   packages = [".","doc"]
-  revision = "be77323fc05148ef091e83b3866c0d47c8e74a8b"
+  revision = "4dab30cb33e6633c33c787106bafbfbfdde7842d"
 
 [[projects]]
   branch = "master"
@@ -297,8 +284,8 @@
 [[projects]]
   name = "github.com/spf13/hugo"
   packages = ["."]
-  revision = "18e3657a2a405b1bbfda2b49444546c0f1184853"
-  version = "v0.36"
+  revision = "c475eab474a6ec6c12949694590913c1a0cf81f6"
+  version = "v0.38.1"
 
 [[projects]]
   branch = "master"
@@ -321,8 +308,8 @@
 [[projects]]
   name = "github.com/spf13/viper"
   packages = ["."]
-  revision = "25b30aa063fc18e48662b86996252eabdcf2f0c7"
-  version = "v1.0.0"
+  revision = "b5e8006cbee93ec955a89ab31e0e3ce3204f3736"
+  version = "v1.0.2"
 
 [[projects]]
   name = "github.com/tdewolff/minify"
@@ -337,12 +324,6 @@
   version = "v2.3.2"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/vaughan0/go-ini"
-  packages = ["."]
-  revision = "a98ad7ee00ec53921f08832bc06ecf7fd600e6a1"
-
-[[projects]]
   name = "github.com/yosssi/ace"
   packages = ["."]
   revision = "ea038f4770b6746c3f8f84f14fa60d9fe1205b56"
@@ -352,41 +333,41 @@
   branch = "master"
   name = "golang.org/x/image"
   packages = ["bmp","draw","math/f64","riff","tiff","tiff/lzw","vp8","vp8l","webp"]
-  revision = "12117c17ca67ffa1ce22e9409f3b0b0a93ac08c7"
+  revision = "f315e440302883054d0c2bd85486878cb4f8572c"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","idna"]
-  revision = "f5dfe339be1d06f81b22525fe34671ee7d2c8904"
+  revision = "b3c676e531a6dc479fa1b35ac961c13f5e2b4d2e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sync"
   packages = ["errgroup"]
-  revision = "fd80eb99c8f653c847d294a001bdf2a3a6f768f5"
+  revision = "1d60e4601c6fd243af51cc01ddf169918a5407ca"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "37707fdb30a5b38865cfb95e5aab41707daec7fd"
+  revision = "3b87a42e500a6dc65dae1a55d0b641295971163e"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/text"
-  packages = ["collate","collate/build","internal/colltab","internal/gen","internal/tag","internal/triegen","internal/ucd","language","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable","width"]
-  revision = "4e4a3210bb54bb31f6ab2cdca2edcc0b50c420c1"
+  packages = ["collate","collate/build","encoding","encoding/internal","encoding/internal/identifier","encoding/unicode","internal/colltab","internal/gen","internal/language","internal/language/compact","internal/tag","internal/triegen","internal/ucd","internal/utf8internal","language","runes","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable","width"]
+  revision = "2cb43934f0eece38629746959acc633cba083fe4"
 
 [[projects]]
-  branch = "v2"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
-  revision = "d670f9405373e636a5a2765eea47fac0c9bc91a4"
+  revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
+  version = "v2.2.1"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "f7bc6b0bd1c37d99bfe289a74be08da6335836276975601321996938c4a2b0ec"
+  inputs-digest = "7e3161bc6c66de3fe845ebbf4f002047064b4ef96a044459f6314e968c7b451b"
   solver-name = "gps-cdcl"
   solver-version = 1
