@@ -1,4 +1,4 @@
-FROM golang:1.10.0-alpine as go-builder
+FROM golang:1.10-alpine as go-builder
 
 RUN apk --no-cache add \
     ca-certificates \
@@ -24,7 +24,7 @@ RUN go install \
     ./vendor/github.com/tdewolff/minify/cmd/minify
 
 # Node comes with yarn
-FROM node:alpine as yarn-builder
+FROM node:9-alpine as yarn-builder
 WORKDIR /go/src/github.com/baltimore-sun-data/voter-guide-2018
 COPY package.json yarn.lock ./
 RUN yarn
