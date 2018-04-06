@@ -166,7 +166,7 @@ var app = {
     var $map = $("#map");
     if ($map.length === 0) {
       return;
-    };
+    }
     var map = L.map("map").setView([39.000419, -76.7591], 8);
 
     var info = L.control();
