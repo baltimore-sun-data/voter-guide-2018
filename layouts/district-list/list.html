@@ -1,3 +1,8 @@
+{{ define "extra-head" }}
+  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/leaflet.js") }}'></script>
+  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/geosearch.js") }}'></script>
+  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/leaflet-pip.js") }}'></script>
+{{ end }}
 {{ define "main" }}
   <div class="district-list">
    <h1 class="section-header-splash grey">
@@ -71,11 +76,4 @@
   {{ partial "ad-leaderboard.html" . }}
 
   {{ partial "candidate-list.html" . }}
-  {{ if .Params.mapFile }}
-    <script type="text/javascript">
-      $(document).ready(function() {
-        app.find_district();
-      });
-    </script>
-  {{ end }}
 {{ end }}

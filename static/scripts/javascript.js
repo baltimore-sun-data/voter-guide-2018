@@ -4,7 +4,7 @@ var app = {
     app.news_animation();
     app.questionnaire_nav();
     app.all_candidates_toggle();
-    // app.find_district();
+    app.find_district();
     app.mobile_nav();
   },
 
@@ -164,9 +164,9 @@ var app = {
   /* global L, leafletPip */
   find_district: function() {
     var $map = $("#map");
-    if (!$map) {
+    if ($map.length === 0) {
       return;
-    }
+    };
     var map = L.map("map").setView([39.000419, -76.7591], 8);
 
     var info = L.control();
