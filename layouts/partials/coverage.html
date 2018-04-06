@@ -1,8 +1,1 @@
-{{ $.Scratch.Add "coverage" 1 }}
-{{ $newsfeedID := printf "coverage-%d" ($.Scratch.Get "coverage") }}
-
-<ul id="{{ $newsfeedID }}"></ul>
-
-<script type="text/javascript">
-  app.fetch_coverage("#{{ $newsfeedID }}");
-</script>
+<ul data-feed-url="http://www.baltimoresun.com/news/maryland/politics/rss2.0.xml"></ul>
