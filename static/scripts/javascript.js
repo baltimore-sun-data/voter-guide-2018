@@ -6,6 +6,7 @@ var app = {
     app.all_candidates_toggle();
     app.find_district();
     app.mobile_nav();
+    app.fetch_coverage();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -269,37 +270,48 @@ var app = {
     });
   },
 
-  fetch_coverage: function(selector) {
-    // Newsfeed script based on https://rss2json.com/
-    var feedURL =
-      "https://api.rss2json.com/v1/api.json?rss_url=http%3A%2F%2Fwww.baltimoresun.com%2Fnews%2Fmaryland%2Fpolitics%2Frss2.0.xml&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5";
+  fetch_coverage: function() {
+    var els = document.querySelectorAll("[data-feed-url]");
+    [].slice.call(els).forEach(function(el) {
+      var feedURL = el.getAttribute("data-feed-url");
+      // Newsfeed script based on https://rss2json.com/
+      var jsonFeedURL =
+        "https://api.rss2json.com/v1/api.json?&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5&rss_url=" +
+        encodeURIComponent(feedURL);
 
-    var content = document.querySelector(selector);
-
-    var xhr = new XMLHttpRequest();
-
-    xhr.addEventListener("load", function() {
-      var data = JSON.parse(xhr.responseText);
-      if (data.status === "ok") {
-        var output = "";
-
-        for (var i = 0; i < data.items.length; ++i) {
-          output +=
-            '<li><div class="article-title"><a href="' +
-            data.items[i].link +
-            '" >' +
-            data.items[i].title +
-            "</a></div></li>";
+      var xhr = new XMLHttpRequest();
+      xhr.addEventListener("load", function() {
+        var data;
+        try {
+          data = JSON.parse(xhr.responseText);
+        } catch (ex) {
+          console.warn("JSON parse error", ex);
+          xhr.dispatchEvent(new Event("error"));
+          return;
+        }
+        if (data.status !== "ok") {
+          xhr.dispatchEvent(new Event("error"));
+          return;
         }
 
-        content.innerHTML = output;
-      }
+        data.items.forEach(function(item) {
+          var li = document.createElement("li");
+          li.classList.add("article-title");
+          var a = document.createElement("a");
+          a.href = item.link;
+          a.innerText = item.title;
+          li.appendChild(a);
+          el.appendChild(li);
+        });
+      });
+
+      xhr.addEventListener("error", function(e) {
+        el.innerHTML = "<li class='article-title'>Could not load feed.</li>";
+        console.warn("JSON feed error");
+      });
+      xhr.open("GET", jsonFeedURL, true);
+      xhr.send();
     });
-    xhr.addEventListener("error", function() {
-      content.innerHTML = "<li>I'm sorry, something went wrong.</li>";
-    });
-    xhr.open("GET", feedURL, true);
-    xhr.send();
   }
 };
 
