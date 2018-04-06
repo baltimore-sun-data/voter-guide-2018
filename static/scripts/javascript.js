@@ -4,6 +4,7 @@ var app = {
     app.news_animation();
     app.questionnaire_nav();
     app.all_candidates_toggle();
+    // app.find_district();
     app.mobile_nav();
   },
 
@@ -158,6 +159,90 @@ var app = {
       var section = $(this).data("section");
       var position = $("#" + section).offset().top;
       $.scrollTo(position - 100, 800);
+    });
+  },
+  /* global L, leafletPip */
+  find_district: function() {
+    var $map = $("#map");
+    if (!$map) {
+      return;
+    }
+    var map = L.map("map").setView([39.000419, -76.7591], 8);
+
+    var info = L.control();
+
+    var address;
+
+    $.getJSON($map.data("map-layer"), function(districtData) {
+      L.tileLayer(
+        "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+        {
+          attribution:
+            '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
+        }
+      ).addTo(map);
+
+      function onEachFeature(feature, layer) {
+        if (feature.properties && feature.properties.name) {
+          layer.bindPopup("District: " + feature.properties.name);
+        }
+      }
+
+      var districtLayer = L.geoJSON(districtData, {
+        onEachFeature: onEachFeature
+      });
+
+      districtLayer.addTo(map);
+
+      L.Control.geocoder({
+        defaultMarkGeocode: false
+      })
+        .on("markgeocode", function(e) {
+          var polygon = leafletPip.pointInLayer(
+            [e.geocode.center.lng, e.geocode.center.lat],
+            districtLayer
+          );
+          if (polygon.length === 0) {
+            address =
+              "Your address cannot be found in Maryland. Re-enter your full address and try again.";
+            info.update(address);
+          } else {
+            var district = polygon[0].feature.properties.name;
+            address = e.geocode.html;
+            var bbox = e.geocode.bbox;
+            var poly = L.polygon([
+              bbox.getSouthEast(),
+              bbox.getNorthEast(),
+              bbox.getNorthWest(),
+              bbox.getSouthWest()
+            ]).addTo(map);
+            map.fitBounds(poly.getBounds());
+            districtLayer.eachLayer(function(feature) {
+              if (feature.feature.properties.name === district) {
+                info.update();
+                info.update(address, district);
+              }
+            });
+          }
+        })
+        .addTo(map);
+
+      info.onAdd = function(map) {
+        this._div = L.DomUtil.create("div", "info"); // create a div with a class "info"
+        return this._div;
+      };
+
+      // method that we will use to update the control based on feature properties passed
+      info.update = function(address, district) {
+        this._div.innerHTML =
+          '<div class="result">' +
+          address +
+          '<div class="district-result">District: ' +
+          district +
+          "</div></div>";
+      };
+
+      info.addTo(map);
     });
   },
 

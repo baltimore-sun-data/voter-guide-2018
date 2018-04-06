@@ -9,9 +9,10 @@
 
    <div class="clear-splash"></div>
 
-   <a href="http://mdelect.net/" class="btn btn-primary btn-lg find-district-button">
-    FIND YOUR DISTRICT
-   </a>
+  {{ if .Params.mapFile }}
+    <div id="map" data-map-layer="{{ .Params.mapFile}}"></div>
+  {{ end }}
+
 
    <hr class="clear-splash">
 
@@ -70,4 +71,11 @@
   {{ partial "ad-leaderboard.html" . }}
 
   {{ partial "candidate-list.html" . }}
+  {{ if .Params.mapFile }}
+    <script type="text/javascript">
+      $(document).ready(function() {
+        app.find_district();
+      });
+    </script>
+  {{ end }}
 {{ end }}
