@@ -1,3 +1,8 @@
+{{ define "extra-head" }}
+  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/leaflet.js") }}'></script>
+  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/geosearch.js") }}'></script>
+  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/leaflet-pip.js") }}'></script>
+{{ end }}
 {{ define "main" }}
   <div class="district-list">
    <h1 class="section-header-splash grey">
@@ -9,9 +14,10 @@
 
    <div class="clear-splash"></div>
 
-   <a href="http://mdelect.net/" class="btn btn-primary btn-lg find-district-button">
-    FIND YOUR DISTRICT
-   </a>
+  {{ if .Params.mapFile }}
+    <div id="map" data-map-layer="{{ .Params.mapFile}}"></div>
+  {{ end }}
+
 
    <hr class="clear-splash">
 
