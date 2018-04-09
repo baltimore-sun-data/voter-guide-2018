@@ -82,11 +82,7 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		if val == "" {
 			continue
 		}
-		if n, err := strconv.ParseFloat(val, 64); err == nil {
-			datum[dataHeader[i]] = n
-			continue
-		}
-		datum[dataHeader[i]] = val
+		datum[dataHeader[i]] = normalize(val)
 	}
 	n := 1
 	type question = struct {
@@ -154,6 +150,25 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 	}
 
 	return datum
+}
+
+var normalizedForms = map[string]string{
+	"democrat":    "Democrat",
+	"democratic":  "Democrat",
+	"independent": "Independent",
+	"republican":  "Republican",
+}
+
+func normalize(s string) interface{} {
+	s = strings.TrimSpace(s)
+	if n, err := strconv.ParseFloat(s, 64); err == nil {
+		return n
+	}
+	if n, ok := normalizedForms[strings.ToLower(s)]; ok {
+		return n
+	}
+
+	return s
 }
 
 var errMissingInfo = fmt.Errorf("missing filename/directory")
