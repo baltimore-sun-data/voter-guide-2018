@@ -1,6 +1,13 @@
 {{ define "main" }}
-  {{ $image := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
-  {{ $imageExists := fileExists (printf "static/%s" $image) }}
+  {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
+  {{ if fileExists (printf "static/%s" $imageJPG) }}
+      {{ $.Scratch.Set "image" $imageJPG }}
+  {{ end }}
+  {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
+  {{ if fileExists (printf "static/%s" $imagePNG) }}
+      {{ $.Scratch.Set "image" $imagePNG }}
+  {{ end }}
+  {{ $image := $.Scratch.Get "image" }}
 
   {{ partial "ad-leaderboard.html" . }}
 
@@ -29,7 +36,7 @@
   <div class="container {{ .Params.party | lower }}-color">
    <section id="top" class="group">
     <div id="cand-bio" class="span-60 left">
-    {{ if $imageExists }}
+    {{ if $image }}
      <div id="cand-pic">
       <img
         src='{{ dict "Site" .Site "Value" $image | partial "assets.html" }}'
@@ -111,7 +118,7 @@
   <!-- /container -->
   <nav>
    <div id="nav-photo">
-    {{ if $imageExists }}
+    {{ if $image }}
     <img src='{{ dict "Site" $.Site "Value" $image | partial "assets.html" }}' class="nav-photo">
     {{ end }}
    </div>
