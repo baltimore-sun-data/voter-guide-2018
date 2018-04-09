@@ -14,25 +14,17 @@
 
    <div class="clear-splash"></div>
 
-  {{ if .Params.mapFile }}
-    <div id="map" data-map-layer="{{ .Params.mapFile}}"></div>
-  {{ end }}
-
-
-   <hr class="clear-splash">
-
    <div class="btn-group">
     <button class="btn btn-secondary btn-lg dropdown-toggle district-picker" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
      <span>Choose district</span>
      <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-     <!-- HACK because Harford County has A-F districts -->
-     {{ if (in .Page.File.Path "harford") }}
-     {{ range seq 'a' 'f' }}
-      {{ $link := printf "district-%c/" . }}
+     {{ if .Param "customDistricts" }}
+     {{ range .Param "customDistricts" }}
+      {{ $link := printf "district-%s/" . | lower }}
       <li class="district">
-       <a href="{{ $link }}" class="dropdown-item">{{ printf "district %c" . | title }}</a>
+       <a href="{{ $link }}" class="dropdown-item">{{ printf "district %s" . | title }}</a>
       </li>
      {{ end }}
      {{ else }}
@@ -46,6 +38,13 @@
     </ul>
    </div>
   </div>
+
+  {{ if .Params.mapFile }}
+    <div id="map" data-map-layer="{{ .Params.mapFile}}"></div>
+  {{ end }}
+
+
+   <hr class="clear-splash">
 
   {{ if .Params.showDistrictsTable }}
   <div class="container-fluid">
