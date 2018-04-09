@@ -130,7 +130,12 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 	fn := get(datum, "filename")
 	if dir == "" && fn == "" {
 		if race := get(datum, "race"); race != "" {
-			datum["directory"] = fmt.Sprintf("content/%s", race)
+			if district := get(datum, "district"); district != "" {
+				datum["directory"] = fmt.Sprintf("content/%s/district-%s",
+					race, district)
+			} else {
+				datum["directory"] = fmt.Sprintf("content/%s", race)
+			}
 		} else if mun := get(datum, "race-municipality"); mun != "" {
 			mun = slugify(mun)
 			name := slugify(get(datum, "race-name"))
