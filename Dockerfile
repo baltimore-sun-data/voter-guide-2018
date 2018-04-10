@@ -18,10 +18,25 @@ RUN dep ensure -v
 RUN go install \
     ./cmd/csv-splitter \
     ./vendor/github.com/carlmjohnson/scattered/cmd/scattered \
-    ./vendor/github.com/baltimore-sun-data/boreas \
-    ./vendor/github.com/bep/s3deploy \
-    ./vendor/github.com/spf13/hugo \
-    ./vendor/github.com/tdewolff/minify/cmd/minify
+    ./vendor/github.com/baltimore-sun-data/boreas
+
+FROM alpine as go-curl
+RUN apk --no-cache add \
+    ca-certificates \
+    curl
+
+FROM go-curl as go-hugo
+ARG HUGO_VERSION=0.38.2
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
+
+FROM go-curl as go-minify
+ARG MINIFY_VERSION=2.3.4
+# Using 386 version because 64 bit version require .so missing in Alpine
+RUN curl -L https://github.com/tdewolff/minify/releases/download/v${MINIFY_VERSION}/minify_${MINIFY_VERSION}_linux_386.tar.gz | tar xz -C /bin/
+
+FROM go-curl as go-s3deploy
+ARG S3DEPLOY_VERSION=2.0.1
+RUN curl -L https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
 
 # Node comes with yarn
 FROM node:9-alpine as yarn-builder
@@ -31,8 +46,8 @@ RUN yarn
 
 COPY --from=go-builder /go/bin/csv-splitter /bin/
 COPY --from=go-builder /go/bin/scattered /bin/
-COPY --from=go-builder /go/bin/hugo /bin/
-COPY --from=go-builder /go/bin/minify /bin/
+COPY --from=go-hugo /bin/hugo /bin/
+COPY --from=go-minify /bin/minify /bin/
 
 COPY . .
 RUN yarn run build
@@ -43,7 +58,7 @@ FROM go-builder as deployer
 WORKDIR /deploy
 
 COPY --from=go-builder /go/bin/boreas /bin/
-COPY --from=go-builder /go/bin/s3deploy /bin/
+COPY --from=go-s3deploy /bin/s3deploy /bin/
 COPY --from=yarn-builder /go/src/github.com/baltimore-sun-data/voter-guide-2018/public/ /deploy/public
 
 # Add deploy script
