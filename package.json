@@ -24,7 +24,6 @@
     "format": "prettier --write '**/*.{js,json,scss}'",
     "make-content": "./make-content.sh",
     "minify": "minify -r -o public public",
-    "precommit": "yarn run test",
     "server": "hugo serve",
     "test": "yarn run test:eslint && yarn run test:prettier",
     "test:eslint": "eslint static/scripts/javascript.js --fix",
