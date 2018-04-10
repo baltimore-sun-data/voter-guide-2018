@@ -44,9 +44,12 @@
      </div>
     {{ end }}
      <div id="cand-bio-text">
-      <div id="cand-name">
+      <div id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
         {{ .Param "full-name" }}
       </div>
+      {{ if .Param "endorsement"}}
+        <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
+      {{ end }}
       <div id="cand-details">
        <ul>
         <li id="party" class="{{ .Params.party | lower }}-color">
