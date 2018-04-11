@@ -13,9 +13,6 @@
   <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/javascript.js") }}'></script>
   <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/jquery.scrollTo.min.js") }}'></script>
   <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/bootstrap.js") }}'></script>
-
-
-
   {{ partial "ad-scripts.html" . }}
   {{ block "extra-head" . }}{{ end }}
 
@@ -76,6 +73,7 @@
   <script src="//www.baltimoresun.com/thirdpartyservice?disablenav=true&amp;disablessor=true" async>
   </script>
   {{ end }}
+  {{ .Hugo.Generator }}
  </head>
  <body>
   {{ block "header" . }}
