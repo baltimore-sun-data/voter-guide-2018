@@ -1,20 +1,5 @@
 {{ define "title" }}{{ .Title }}{{ end }}
 
-{{ define "extra-head" }}
-<script>
-(function(){
-  $(document).ready(function(){
-    $(".js-swap-race").on('click', function(){
-      $('#swap-race').toggleClass('hide-fed-state');
-      $('#swap-race').toggleClass('hide-local');
-      $('#fed-state-button').toggleClass('selected');
-      $('#local-button').toggleClass('selected');
-    });
-  });
-})();
-</script>
-{{ end }}
-
 {{ define "main" }}
   <div class="intro-block">
    <div id="page-header" class="splash">
