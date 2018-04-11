@@ -152,11 +152,15 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 	return datum
 }
 
-var normalizedForms = map[string]string{
+var normalizedForms = map[string]interface{}{
 	"democrat":    "Democrat",
 	"democratic":  "Democrat",
 	"independent": "Independent",
 	"republican":  "Republican",
+	"false":       false,
+	"no":          false,
+	"true":        true,
+	"yes":         true,
 }
 
 func normalize(s string) interface{} {
