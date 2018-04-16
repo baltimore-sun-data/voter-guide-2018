@@ -193,27 +193,27 @@
        {{ end }}
        {{ with .Param "social-tw" }}
        <li>
-        <a href="https://{{.}}" class="twitter-link" target="_blank">
+        <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
           <span class="icon-twitter"></span>
-          @{{ replace . "twitter.com/" "" }}
+          @{{ . | strings.TrimSuffix "/" }}
         </a>
        </li>
        {{ end }}
        {{ with .Param "social-ig" }}
        <li>
-        <a href="https://{{ . }}" target="_blank">
+        <a href="https://instagram.com/{{ . }}" target="_blank">
           <span class="icon-instagram">
             {{- partial "svg/instagram.svg" . -}}
           </span>
-          {{ replace . "instagram.com/" "" }}
+          {{ . | strings.TrimSuffix "/" }}
         </a>
        </li>
        {{ end }}
        {{ with .Param "social-fb" }}
        <li>
-        <a href='https://{{ . }}' class="facebook-link" target="_blank">
+        <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
           <span class="icon-facebook"></span>
-          {{ . }}
+          {{ . | strings.TrimSuffix "/" }}
         </a>
        </li>
        {{ end }}
