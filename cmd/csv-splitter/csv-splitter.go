@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"net/url"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -167,13 +168,12 @@ func normalize(s string) interface{} {
 	s = strings.TrimSpace(s)
 
 	// Social media normalization
-	s = strings.TrimPrefix(s, "http://facebook.com/")
-	s = strings.TrimPrefix(s, "https://facebook.com/")
-	s = strings.TrimPrefix(s, "http://twitter.com/")
-	s = strings.TrimPrefix(s, "https://twitter.com/")
-	s = strings.TrimPrefix(s, "http://instagram.com/")
-	s = strings.TrimPrefix(s, "https://instagram.com/")
-
+	if u, err := url.Parse(s); err == nil &&
+		(strings.HasSuffix(u.Hostname(), "facebook.com") ||
+			strings.HasSuffix(u.Hostname(), "twitter.com") ||
+			strings.HasSuffix(u.Hostname(), "instagram.com")) {
+		return strings.Trim(u.Path, "/")
+	}
 	if n, err := strconv.ParseFloat(s, 64); err == nil {
 		return n
 	}
