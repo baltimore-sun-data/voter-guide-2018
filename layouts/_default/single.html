@@ -64,6 +64,11 @@
         {{ end }}
         {{ end }}
        </ul>
+       {{ if (and (isset .Params "survey-response") (.Param "survey-response" | not )) }}
+        <p>
+         This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
+        </p>
+       {{ end }}
       </div>
      </div>
     </div>
@@ -230,7 +235,7 @@
     <div id="message">
      <br>
      <p>
-      This candidate did not respond to <i>The Sun</i>&#39;s editorial questionnaire.
+      This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
      </p>
      <br>
      <br>
