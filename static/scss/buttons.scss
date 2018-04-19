@@ -25,14 +25,14 @@
 .btn-primary:hover,
 .btn-primary:focus,
 .open > .dropdown-toggle.btn-primary {
-  background: #2e98cc;
+  background: #818e98;
   border: none;
 }
 
 .btn-primary2:hover,
 .btn-primary2:focus,
 .open > .dropdown-toggle.btn-primary2 {
-  background: #2e98cc;
+  background: #818e98;
   border: none;
   color: #ffffff;
 }
@@ -43,7 +43,7 @@
 #chooseDistrict.btn.btn-primary.active,
 a.btn.btn-primary:active,
 a.btn.btn-primary.active {
-  background: #68b0d3;
+  background: #818e98;
   box-shadow: none;
 }
 
@@ -78,17 +78,6 @@ a.btn {
   margin-bottom: 5px;
 }
 
-.btn-primary.find-district-button {
-  background: #2e98cc;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
-.btn-primary.find-district-button:hover {
-  background: #667682;
-}
-
 .btn-primary.district-button {
   background: #667682;
   width: 100%;
@@ -105,7 +94,7 @@ a.btn {
 }
 
 .btn-primary.district-button:hover {
-  background: #ed4227;
+  background: #818e98;
 }
 
 .btn-primary.district-button:active,
@@ -124,8 +113,8 @@ a.btn {
 
 .top-buttons:hover,
 .top-buttons.selected:hover {
-  background: #2e98cc;
-  border: 2px solid #2e98cc;
+  background: #818e98;
+  border: 2px solid #667682;
 }
 
 div.btn.top-buttons {
