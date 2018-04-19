@@ -26,11 +26,25 @@
     </span>
    </div>
   </div>
+
+  <!--
+  <ul class="breadcrumbs">
+  {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
+  {{ if .p1.Parent }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
+  {{ end }}
+  <li class="crumb {{ if eq .p1 .p2 }}active{{ end }} {{ if .p1.IsHome }}home{{ end }}">
+    <a href="{{ .p1.Permalink }}">{{ .p1.Param "shorttitle" | default .p1.Title }}</a>
+  </li>
+  {{ end }}
+  </ul>
+   -->
+
   <!-- social icons-->
   <div id="social-icons" class="candidate-page">
-   <span class="icon-facebook">
+   <span class="icon-facebook js-click">
    </span>
-   <span class="icon-twitter" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:">
+   <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:">
    </span>
   </div>
   <div class="container {{ .Params.party | lower }}-color">
@@ -64,6 +78,11 @@
         {{ end }}
         {{ end }}
        </ul>
+       {{ if (and (isset .Params "survey-response") (.Param "survey-response" | not )) }}
+        <p>
+         This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
+        </p>
+       {{ end }}
       </div>
      </div>
     </div>
@@ -193,27 +212,27 @@
        {{ end }}
        {{ with .Param "social-tw" }}
        <li>
-        <a href="https://{{.}}" class="twitter-link" target="_blank">
+        <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
           <span class="icon-twitter"></span>
-          @{{ replace . "twitter.com/" "" }}
+          @{{ . | strings.TrimSuffix "/" }}
         </a>
        </li>
        {{ end }}
        {{ with .Param "social-ig" }}
        <li>
-        <a href="https://{{ . }}" target="_blank">
+        <a href="https://instagram.com/{{ . }}" target="_blank">
           <span class="icon-instagram">
             {{- partial "svg/instagram.svg" . -}}
           </span>
-          {{ replace . "instagram.com/" "" }}
+          {{ . | strings.TrimSuffix "/" }}
         </a>
        </li>
        {{ end }}
        {{ with .Param "social-fb" }}
        <li>
-        <a href='https://{{ . }}' class="facebook-link" target="_blank">
+        <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
           <span class="icon-facebook"></span>
-          {{ . }}
+          {{ . | strings.TrimSuffix "/" }}
         </a>
        </li>
        {{ end }}
@@ -230,7 +249,7 @@
     <div id="message">
      <br>
      <p>
-      This candidate did not respond to <i>The Sun</i>&#39;s editorial questionnaire.
+      This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
      </p>
      <br>
      <br>
