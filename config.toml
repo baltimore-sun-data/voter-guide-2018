@@ -58,6 +58,6 @@ name = "Privacy"
 weight = 7
 
 [[menu.main]]
-url = "mailto:coordinators@baltsun.com"
+url = "mailto:elections@baltsun.com"
 name = "Feedback"
 weight = 8
