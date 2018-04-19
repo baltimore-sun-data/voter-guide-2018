@@ -45,7 +45,7 @@
   background-color: #bee2d4;
 }
 
-.no-display {
+.no-display, .home, .active-pg {
   display: none;
 }
 
@@ -110,9 +110,13 @@ a.full {
 }
 
 #social-icons.candidate-page {
-  padding-bottom: 25px;
+  padding: 0;
+  float: right;
+  width: auto;
 }
-
+#social-icons.candidate-page .icon-facebook, #social-icons.candidate-page .icon-twitter {
+  font-size: 1.8em;
+}
 .icon-facebook,
 .icon-twitter {
   color: #667682;
@@ -123,7 +127,7 @@ a.full {
 
 .icon-facebook:hover,
 .icon-twitter:hover {
-  color: #2e98cc;
+  color: #818e98;
 }
 
 .icon-facebook:active,
@@ -268,8 +272,13 @@ a.full {
 
 a.page-header-link {
   color: inherit;
+  text-transform: uppercase;
 }
-
+.breadcrumbs, .crumbs {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
 .span-30 {
   width: 27.5%;
 }
@@ -543,6 +552,22 @@ nav.revealed {
   margin-bottom: 10px;
   padding-left: 10px;
   margin-top: 15px;
+}
+
+.party-header.democrat {
+  background-color: #2e98cc;
+}
+
+.party-header.green {
+  background-color: #00a967;
+}
+
+.party-header.republican {
+  background-color: #ed4227;
+}
+
+.party-header.libertarian {
+  background-color: #d5bc46;
 }
 
 .candidate-name-box {
