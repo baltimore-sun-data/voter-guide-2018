@@ -1,12 +1,3 @@
-{{ define "breadcrumbnav" }}
-  {{ if .p1.Parent }}
-    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
-  {{ end }}
-  <li class="crumb {{ if eq .p1 .p2 }}active{{ end }} {{ if .p1.IsHome }}home{{ end }}">
-    <a href="{{ .p1.Permalink }}">{{ .p1.Param "shorttitle" | default .p1.Title }}</a>
-  </li>
-{{ end }}
-
 {{ define "main" }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imageJPG) }}
@@ -36,9 +27,18 @@
    </div>
   </div>
 
+  <!--
   <ul class="breadcrumbs">
-  {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+  {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
+  {{ if .p1.Parent }}
+    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
+  {{ end }}
+  <li class="crumb {{ if eq .p1 .p2 }}active{{ end }} {{ if .p1.IsHome }}home{{ end }}">
+    <a href="{{ .p1.Permalink }}">{{ .p1.Param "shorttitle" | default .p1.Title }}</a>
+  </li>
+  {{ end }}
   </ul>
+   -->
 
   <!-- social icons-->
   <div id="social-icons" class="candidate-page">
