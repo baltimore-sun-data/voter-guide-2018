@@ -1,7 +1,6 @@
 weight,directory,title,shortTitle,filename,menu,type
 1,"content/governor","Maryland Governor’s Race","Governor / Lt. Governor",_index.md,"fedState",
 4,"content/us-senate",U.S. Senate,U.S. Senator,_index.md,"fedState",
-5,"content/circuit-court",Maryland Judge of the Circuit Court,Circuit Court Judge,_index.md,"fedState",
 1,"content/baltimore-city-states-attorney",Baltimore City State’s Attorney,Baltimore City,_index.md,"local",
 2,"content/anne-arundel-county",Anne Arundel County,Anne Arundel County,_index.md,"local",local-list
 3,"content/baltimore-county",Baltimore County,Baltimore County,_index.md,"local",local-list
