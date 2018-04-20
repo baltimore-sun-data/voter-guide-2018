@@ -66,10 +66,17 @@
         {{ end }}
         {{ end }}
        </ul>
-       {{ if (and (isset .Params "survey-response") (.Param "survey-response" | not )) }}
-        <p>
-         This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
-        </p>
+       {{ if isset .Params "survey-response" }}
+         {{ if .Param "survey-response" | eq "SUSPENDED" }}
+          <p>
+           This candidate has suspended their campaign.
+          </p>
+         {{ end }}
+         {{ if .Param "survey-response" | not }}
+          <p>
+           This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
+          </p>
+         {{ end }}
        {{ end }}
       </div>
      </div>
