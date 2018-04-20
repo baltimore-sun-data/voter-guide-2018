@@ -1236,12 +1236,9 @@ p.about {
 }
 
 @media only screen and (max-width: 1000px) {
-  /* This makes the running against list on the candidates page go two-col at tablet and mobile */
+  /* This makes the running against list on the candidates page one col */
   div.candidates-list.span-70.center {
-    min-height: 270px;
-  }
-  div.candidates-list.span-70.center ul {
-    float: left;
+    clear: both;
   }
 
   /* Footer height needs to be increased at smaller sizes, as more links are added */
@@ -1311,10 +1308,7 @@ p.about {
   }
 
   .candidates-list {
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e0e0e0;
-    width: auto !important;
-    font-family: "Source Sans Pro", arial, sans-serif;
+    width: auto;
   }
 
   #top-nav,
@@ -1548,10 +1542,6 @@ p.about {
     margin-bottom: 10px;
     display: block;
   }
-  .candidates-list {
-    border-bottom: none;
-  }
-
   div.toggle {
     margin-left: 0px;
   }
