@@ -172,7 +172,10 @@ var app = {
     if ($map.length === 0) {
       return;
     }
-    var map = L.map("map", {scrollWheelZoom: false}).setView([39.000419, -76.7591], 8);
+    var map = L.map("map", { scrollWheelZoom: false }).setView(
+      [39.000419, -76.7591],
+      8
+    );
 
     var info = L.control();
 
@@ -188,11 +191,35 @@ var app = {
       ).addTo(map);
 
       function onEachFeature(feature, layer) {
-        if (feature.properties && feature.properties.name && feature.properties.county && feature.properties.city) {
-          layer.bindPopup("<div><b>District:</b> <a href='"+window.location.href+'district-'+feature.properties.name+"'>" + feature.properties.name + "</a></div><div><b>Counties in district:</b> " + feature.properties.county + "</div><div><b>Cities/neighborhoods in district:</b> " + feature.properties.city + "</div>");
-        }
-        else {
-          layer.bindPopup("<b>District:</b> <a href='"+window.location.href+'district-'+feature.properties.name+"'>" + feature.properties.name + "</a>");
+        if (
+          feature.properties &&
+          feature.properties.name &&
+          feature.properties.county &&
+          feature.properties.city
+        ) {
+          layer.bindPopup(
+            "<div><b>District:</b> <a href='" +
+              window.location.href +
+              "district-" +
+              feature.properties.name +
+              "'>" +
+              feature.properties.name +
+              "</a></div><div><b>Counties in district:</b> " +
+              feature.properties.county +
+              "</div><div><b>Cities/neighborhoods in district:</b> " +
+              feature.properties.city +
+              "</div>"
+          );
+        } else {
+          layer.bindPopup(
+            "<b>District:</b> <a href='" +
+              window.location.href +
+              "district-" +
+              feature.properties.name +
+              "'>" +
+              feature.properties.name +
+              "</a>"
+          );
         }
       }
 
@@ -245,7 +272,11 @@ var app = {
         this._div.innerHTML =
           '<div class="result">' +
           address +
-          '<div class="district-result">District: <a href="'+ window.location.href+'district-'+district+'">' +
+          '<div class="district-result">District: <a href="' +
+          window.location.href +
+          "district-" +
+          district +
+          '">' +
           district +
           "</a></div></div>";
       };

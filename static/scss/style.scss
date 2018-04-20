@@ -45,7 +45,9 @@
   background-color: #bee2d4;
 }
 
-.no-display, .home, .active-pg {
+.no-display,
+.home,
+.active-pg {
   display: none;
 }
 
@@ -114,7 +116,8 @@ a.full {
   float: right;
   width: auto;
 }
-#social-icons.candidate-page .icon-facebook, #social-icons.candidate-page .icon-twitter {
+#social-icons.candidate-page .icon-facebook,
+#social-icons.candidate-page .icon-twitter {
   font-size: 1.8em;
 }
 .icon-facebook,
@@ -278,7 +281,8 @@ a.page-header-link {
   color: inherit;
   text-transform: uppercase;
 }
-.breadcrumbs, .crumbs {
+.breadcrumbs,
+.crumbs {
   margin: 0;
   padding: 0;
   clear: both;
