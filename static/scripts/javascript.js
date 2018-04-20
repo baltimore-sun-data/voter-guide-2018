@@ -215,8 +215,8 @@ var app = {
             "<b>District:</b> <a href='" +
               window.location.href +
               "district-" +
-              feature.properties.name +
-              "'>" +
+              feature.properties.name.toLowerCase() +
+              "/'>" +
               feature.properties.name +
               "</a>"
           );
@@ -275,8 +275,8 @@ var app = {
           '<div class="district-result">District: <a href="' +
           window.location.href +
           "district-" +
-          district +
-          '">' +
+          district.toLowerCase() +
+          '/">' +
           district +
           "</a></div></div>";
       };
