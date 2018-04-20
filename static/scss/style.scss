@@ -1,13 +1,4 @@
 /******** SITE STYLES ********** */
-// First so it gets overridden!
-.independentbg {
-  background-color: #d0d0d0;
-}
-
-.libertarianbg {
-  background-color: #f3ebc8;
-}
-
 .red,
 .republican-color {
   color: #ed4227;
@@ -49,6 +40,18 @@
 .home,
 .active-pg {
   display: none;
+}
+
+.row-centered {
+  text-align: center;
+  [class*="col-"] {
+    @media (min-width: 992px) {
+      display: inline-block !important;
+       float: none !important;
+    margin-right: -4px;
+    vertical-align: top;
+    }
+  }
 }
 
 /******** TOP HAT ********** */
@@ -552,6 +555,7 @@ nav.revealed {
 
 .party-header {
   color: #fff;
+  background-color: #d0d0d0;
   font-family: Brandon, Helvetica, sans-serif;
   font-size: 1.25em;
   text-transform: uppercase;
@@ -1152,7 +1156,7 @@ img.cand-pic {
   font-size: 1.1em;
   line-height: 150%;
   position: relative;
-  min-height: 100px;
+  min-height: 7em;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;

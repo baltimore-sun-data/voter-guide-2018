@@ -47,7 +47,7 @@
    {{ range .CurrentSection.Pages.GroupByParam "party" }}
    <div class="js-party-group js-party-{{ .Key | pluralize }}">
     <div class="col-md-12 col-sm-12 col-xs-12">
-     <div class="party-header independentbg {{.Key|lower}}">
+     <div class="party-header {{.Key|lower}}">
       {{ .Key | pluralize }}
      </div>
     </div>

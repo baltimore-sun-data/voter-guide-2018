@@ -47,10 +47,7 @@
 
 .district-list-text {
   font-size: 1.2em;
-}
-
-@media (max-width: 600px) {
-  .district-list-text {
+  @media (max-width: 600px) {
     font-size: 1em;
   }
 }
