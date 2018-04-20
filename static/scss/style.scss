@@ -1,13 +1,4 @@
 /******** SITE STYLES ********** */
-// First so it gets overridden!
-.independentbg {
-  background-color: #d0d0d0;
-}
-
-.libertarianbg {
-  background-color: #f3ebc8;
-}
-
 .red,
 .republican-color {
   color: #ed4227;
@@ -45,8 +36,22 @@
   background-color: #bee2d4;
 }
 
-.no-display {
+.no-display,
+.home-pg,
+.active-pg {
   display: none;
+}
+
+.row-centered {
+  text-align: center;
+  [class*="col-"] {
+    @media (min-width: 992px) {
+      display: inline-block !important;
+      float: none !important;
+      margin-right: -4px;
+      vertical-align: top;
+    }
+  }
 }
 
 /******** TOP HAT ********** */
@@ -110,9 +115,14 @@ a.full {
 }
 
 #social-icons.candidate-page {
-  padding-bottom: 25px;
+  padding: 0;
+  float: right;
+  width: auto;
 }
-
+#social-icons.candidate-page .icon-facebook,
+#social-icons.candidate-page .icon-twitter {
+  font-size: 1.8em;
+}
 .icon-facebook,
 .icon-twitter {
   color: #667682;
@@ -123,7 +133,7 @@ a.full {
 
 .icon-facebook:hover,
 .icon-twitter:hover {
-  color: #2e98cc;
+  color: #818e98;
 }
 
 .icon-facebook:active,
@@ -256,6 +266,10 @@ a.full {
   position: relative;
   padding: 10px 20px;
 }
+#page-header .text h1 {
+  margin-top: 10px;
+  font-size: 16px;
+}
 #page-header:before {
   content: "";
   position: absolute;
@@ -268,8 +282,14 @@ a.full {
 
 a.page-header-link {
   color: inherit;
+  text-transform: uppercase;
 }
-
+.breadcrumbs,
+.crumbs {
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
 .span-30 {
   width: 27.5%;
 }
@@ -535,6 +555,7 @@ nav.revealed {
 
 .party-header {
   color: #fff;
+  background-color: #d0d0d0;
   font-family: Brandon, Helvetica, sans-serif;
   font-size: 1.25em;
   text-transform: uppercase;
@@ -543,6 +564,22 @@ nav.revealed {
   margin-bottom: 10px;
   padding-left: 10px;
   margin-top: 15px;
+}
+
+.party-header.democrat {
+  background-color: #2e98cc;
+}
+
+.party-header.green {
+  background-color: #00a967;
+}
+
+.party-header.republican {
+  background-color: #ed4227;
+}
+
+.party-header.libertarian {
+  background-color: #d5bc46;
 }
 
 .candidate-name-box {
@@ -1119,7 +1156,7 @@ img.cand-pic {
   font-size: 1.1em;
   line-height: 150%;
   position: relative;
-  min-height: 320px;
+  min-height: 7em;
   -webkit-transition: height 0.3s;
   -moz-transition: height 0.3s;
   transition: height 0.3s;

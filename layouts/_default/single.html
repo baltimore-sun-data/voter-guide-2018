@@ -13,40 +13,22 @@
 
   <div id="page-header">
    <div class="text">
-    <span class="icon-star mobile-hide">
-    </span>
-    <span class="icon-star">
-    </span>
-    <a href="{{ .Page.CurrentSection.URL }}" class="page-header-link">
-      {{ .Page.CurrentSection.Title | upper }}
-    </a>
-    <span class="icon-star">
-    </span>
-    <span class="icon-star mobile-hide">
-    </span>
+    <span class="icon-star"></span>
+    <span class="icon-star mobile-hide"></span>
+    {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
+    {{ if .p1.Parent }}
+      {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
+    {{ end }}
+      <span class="crumb {{ if eq .p1 .p2 }}active-pg{{ end }} {{ if .p1.IsHome }}home-pg{{ end }}">
+        <a class="page-header-link" href="{{ .p1.Permalink }}">{{ .p1.Param "shorttitle" | default .p1.Title }}</a>
+        <span class="icon-star"></span>
+        <span class="icon-star mobile-hide"></span>
+      </span>
+    {{ end }}
    </div>
   </div>
 
-  <!--
-  <ul class="breadcrumbs">
-  {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
-  {{ if .p1.Parent }}
-    {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
-  {{ end }}
-  <li class="crumb {{ if eq .p1 .p2 }}active{{ end }} {{ if .p1.IsHome }}home{{ end }}">
-    <a href="{{ .p1.Permalink }}">{{ .p1.Param "shorttitle" | default .p1.Title }}</a>
-  </li>
-  {{ end }}
-  </ul>
-   -->
-
   <!-- social icons-->
-  <div id="social-icons" class="candidate-page">
-   <span class="icon-facebook js-click">
-   </span>
-   <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:">
-   </span>
-  </div>
   <div class="container {{ .Params.party | lower }}-color">
    <section id="top" class="group">
     <div id="cand-bio" class="span-60 left">
@@ -65,6 +47,12 @@
         <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
       {{ end }}
       <div id="cand-details">
+        <div id="social-icons" class="candidate-page">
+          <span class="icon-facebook js-click">
+          </span>
+          <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:">
+          </span>
+        </div>
        <ul>
         <li id="party" class="{{ .Params.party | lower }}-color">
           {{ .Params.party }}

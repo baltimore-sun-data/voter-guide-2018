@@ -257,7 +257,7 @@ th {
   }
   .table-bordered th,
   .table-bordered td {
-    border: 1px solid #ddd !important;
+    border: 1px solid #f6f6f6 !important;
   }
 }
 @font-face {
@@ -1086,13 +1086,6 @@ html {
   font-size: 10px;
 
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.42857143;
-  color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -2356,6 +2349,8 @@ caption {
 }
 th {
   text-align: left;
+  text-transform: uppercase;
+  color: #667682;
 }
 .table {
   width: 100%;
@@ -2371,11 +2366,11 @@ th {
   padding: 8px;
   line-height: 1.42857143;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #f6f6f6;
 }
 .table > thead > tr > th {
   vertical-align: bottom;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #f6f6f6;
 }
 .table > caption + thead > tr:first-child > th,
 .table > colgroup + thead > tr:first-child > th,
@@ -2386,7 +2381,7 @@ th {
   border-top: 0;
 }
 .table > tbody + tbody {
-  border-top: 2px solid #ddd;
+  border-top: 2px solid #f6f6f6;
 }
 .table .table {
   background-color: #fff;
@@ -2400,7 +2395,7 @@ th {
   padding: 5px;
 }
 .table-bordered {
-  border: 1px solid #ddd;
+  border: 1px solid #f6f6f6;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
@@ -2408,7 +2403,7 @@ th {
 .table-bordered > thead > tr > td,
 .table-bordered > tbody > tr > td,
 .table-bordered > tfoot > tr > td {
-  border: 1px solid #ddd;
+  border: 1px solid #f6f6f6;
 }
 .table-bordered > thead > tr > th,
 .table-bordered > thead > tr > td {

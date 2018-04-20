@@ -66,7 +66,7 @@
                   collapsed: true,
                   expand: "touch", // options: touch, click, anythingelse
                   position: "topright",
-                  placeholder: "Search...",
+                  placeholder: "Ex. 501 N Calvert Street, Baltimore, MD",
                   errorMessage: "Nothing found.",
                   suggestMinLength: 3,
                   suggestTimeout: 250,

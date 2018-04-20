@@ -3,7 +3,11 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "name": "01" },
+      "properties": {
+        "name": "1",
+        "county": "Allegany, Garrett",
+        "city": "Cumberland, Frostburg, Oakland"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -433,7 +437,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "02" },
+      "properties": {
+        "name": "2",
+        "county": "Washington",
+        "city": "Hagerstown, Boonsboro"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -617,7 +625,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "03" },
+      "properties": {
+        "name": "3",
+        "county": "Frederick",
+        "city": "Frederick, Ballenger Creek"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -797,7 +809,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "04" },
+      "properties": {
+        "name": "4",
+        "county": "Frederick, Carroll",
+        "city": "Mt. Airy, Thurmont"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1165,7 +1181,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "05" },
+      "properties": {
+        "name": "5",
+        "county": "Carroll",
+        "city": "Westminster, Taneytown"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -1376,7 +1396,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "06" },
+      "properties": {
+        "name": "6",
+        "county": "Baltimore County",
+        "city": "Dundalk, Essex"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -1925,7 +1949,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "07" },
+      "properties": {
+        "name": "7",
+        "county": "Baltimore County, Harford",
+        "city": "Fallston, Middle River"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -2457,7 +2485,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "08" },
+      "properties": {
+        "name": "8",
+        "county": "Baltimore County",
+        "city": "Parkville, Perry Hall, White Marsh"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2530,7 +2562,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "09" },
+      "properties": {
+        "name": "9",
+        "county": "Howard, Carroll",
+        "city": "Ellicott City, Woodbine, Sykesville"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2785,7 +2821,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "10" },
+      "properties": {
+        "name": "10",
+        "county": "Baltimore County",
+        "city": "Reisterstown, Randallstown"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -2989,7 +3029,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "11" },
+      "properties": {
+        "name": "11",
+        "county": "Baltimore County",
+        "city": "Owings Mills, Pikesville"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3116,7 +3160,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "12" },
+      "properties": {
+        "name": "12",
+        "county": "Baltimore County, Howard",
+        "city": "Columbia, Elkridge, Halethorpe"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3259,7 +3307,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "13" },
+      "properties": {
+        "name": "13",
+        "county": "Howard",
+        "city": "Columbia, Elkridge, North Laurel"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3357,7 +3409,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "14" },
+      "properties": {
+        "name": "14",
+        "county": "Montgomery",
+        "city": "Damascus, Olney, Burtonsville"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3528,7 +3584,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "15" },
+      "properties": {
+        "name": "15",
+        "county": "Montgomery",
+        "city": "Darnestown, Poolesville, Germantown"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3644,7 +3704,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "16" },
+      "properties": {
+        "name": "16",
+        "county": "Montgomery",
+        "city": "Bethesda, Potomac"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3724,7 +3788,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "17" },
+      "properties": {
+        "name": "17",
+        "county": "Montgomery",
+        "city": "Rockville, Gaithersburg"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3847,7 +3915,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "18" },
+      "properties": {
+        "name": "18",
+        "county": "Montgomery",
+        "city": "North Bethesda, Kensington, Wheaton"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -3921,7 +3993,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "19" },
+      "properties": {
+        "name": "19",
+        "county": "Montgomery",
+        "city": "Aspen Hill, Wheaton"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4050,7 +4126,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "20" },
+      "properties": {
+        "name": "20",
+        "county": "Montgomery",
+        "city": "Silver Spring, Takoma Park"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4107,7 +4187,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "21" },
+      "properties": {
+        "name": "21",
+        "county": "Prince George's, Anne Arundel",
+        "city": "Laurel, College Park, Odenton"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4261,7 +4345,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "22" },
+      "properties": {
+        "name": "22",
+        "county": "Prince George's",
+        "city": "Greenbelt, Hyattsville"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4426,7 +4514,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "23" },
+      "properties": {
+        "name": "23",
+        "county": "Prince George's",
+        "city": "Bowie, South Laurel"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4642,7 +4734,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "24" },
+      "properties": {
+        "name": "24",
+        "county": "Prince George's",
+        "city": "Largo, Seat Pleasant"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4835,7 +4931,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "25" },
+      "properties": {
+        "name": "25",
+        "county": "Prince George's",
+        "city": "District Heights, Forestville, Andrews AFB"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -4988,7 +5088,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "26" },
+      "properties": {
+        "name": "26",
+        "county": "Prince George's",
+        "city": "Fort Washington, National Harbor"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -5183,7 +5287,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "27" },
+      "properties": {
+        "name": "27",
+        "county": "Prince George's, Calvert, Charles",
+        "city": "Brandywine, Hughesville, Prince Frederick"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -5682,7 +5790,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "28" },
+      "properties": {
+        "name": "28",
+        "county": "Charles",
+        "city": "La Plata, Waldorf"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -6339,7 +6451,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "29" },
+      "properties": {
+        "name": "29",
+        "county": "Saint Mary's, Calvert",
+        "city": "Leonardtown, Lexington Park, Lusby"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -7875,7 +7991,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "30" },
+      "properties": {
+        "name": "30",
+        "county": "Anne Arundel",
+        "city": "Annapolis, Shady Side"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -8715,7 +8835,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "31" },
+      "properties": {
+        "name": "31",
+        "county": "Anne Arundel",
+        "city": "Glen Burnie, Pasadena, Gibson Island"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -9199,7 +9323,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "32" },
+      "properties": {
+        "name": "32",
+        "county": "Anne Arundel",
+        "city": "Fort Meade, Glen Burnie, Linthicum"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -9310,7 +9438,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "33" },
+      "properties": {
+        "name": "33",
+        "county": "Anne Arundel",
+        "city": "Arnold, Crofton, Severna Park"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -9808,7 +9940,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "34" },
+      "properties": {
+        "name": "34",
+        "county": "Harford",
+        "city": "Aberdeen, Bel Air, Edgewood"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -10060,7 +10196,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "35" },
+      "properties": {
+        "name": "35",
+        "county": "Harford, Cecil",
+        "city": "Darlington, Jarrettsville, North East"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -10377,7 +10517,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "36" },
+      "properties": {
+        "name": "36",
+        "county": "Queen Anne's, Caroline, Kent",
+        "city": "Chestertown, Elkton, Kent Island"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -11922,7 +12066,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "37" },
+      "properties": {
+        "name": "37",
+        "county": "Dorchester, Caroline, Talbot, Wicomico",
+        "city": "Cambridge, Easton, Vienna"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -14864,7 +15012,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "38" },
+      "properties": {
+        "name": "38",
+        "county": "Somerset, Worcester, Wicomico",
+        "city": "Ocean City, Pocomoke City, Salisbury"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -19594,7 +19746,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "39" },
+      "properties": {
+        "name": "39",
+        "county": "Montgomery",
+        "city": "Germantown, Montgomery Village"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -19702,7 +19858,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "40" },
+      "properties": {
+        "name": "40",
+        "county": "Baltimore City",
+        "city": "Mount Vernon, Park Heights, Westside"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -19807,7 +19967,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "41" },
+      "properties": {
+        "name": "41",
+        "county": "Baltimore City",
+        "city": "Edmondson, Forest Park, Roland Park"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -19863,7 +20027,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "42" },
+      "properties": {
+        "name": "42",
+        "county": "Baltimore County",
+        "city": "Towson, Hereford, Hunt Valley"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -20050,7 +20218,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "43" },
+      "properties": {
+        "name": "43",
+        "county": "Baltimore City",
+        "city": "Charles Village, Govans, Beverly Hills"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -20091,7 +20263,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "44" },
+      "properties": {
+        "name": "44",
+        "county": "Baltimore City",
+        "city": "Catonsville, Lochearn, Sandtown-Winchester"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -20213,7 +20389,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "45" },
+      "properties": {
+        "name": "45",
+        "county": "Baltimore City",
+        "city": "Belair-Edison, Clifton Park, Hamilton"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
@@ -20262,7 +20442,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "46" },
+      "properties": {
+        "name": "46",
+        "county": "Baltimore City",
+        "city": "Brooklyn, Canton, Inner Harbor"
+      },
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
@@ -20566,7 +20750,11 @@
     },
     {
       "type": "Feature",
-      "properties": { "name": "47" },
+      "properties": {
+        "name": "47",
+        "county": "Prince George's",
+        "city": "Adelphi, Chillum, Mount Rainier"
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
