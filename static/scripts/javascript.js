@@ -192,7 +192,7 @@ var app = {
           layer.bindPopup("<div><b>District:</b> <a href='"+window.location.href+'district-'+feature.properties.name+"'>" + feature.properties.name + "</a></div><div><b>Counties in district:</b> " + feature.properties.county + "</div><div><b>Cities/neighborhoods in district:</b> " + feature.properties.city + "</div>");
         }
         else {
-          layer.bindPopup("<b>District:<b> " + feature.properties.name);
+          layer.bindPopup("<b>District:</b> <a href='"+window.location.href+'district-'+feature.properties.name+"'>" + feature.properties.name + "</a>");
         }
       }
 

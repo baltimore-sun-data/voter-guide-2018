@@ -5,15 +5,17 @@
    <div id="page-header" class="splash">
     <!-- stars logo-->
     <div class="text">
-     <span class="icon-star mobile-hide">
-     </span>
-     <span class="icon-star">
-     </span>
-     MARYLAND VOTER GUIDE {{.Site.Params.Year}}
-     <span class="icon-star">
-     </span>
-     <span class="icon-star mobile-hide">
-     </span>
+      <h1>
+       <span class="icon-star mobile-hide">
+       </span>
+       <span class="icon-star">
+       </span>
+       MARYLAND VOTER GUIDE {{.Site.Params.Year}}
+       <span class="icon-star">
+       </span>
+       <span class="icon-star mobile-hide">
+       </span>
+     </h1>
     </div>
    </div>
    <div id="social-icons">
@@ -39,9 +41,9 @@
   <!-- START STATE RACES -->
   <div id="swap-race" class="hide-local">
    <div class="splash-container fed-state-races">
-    <h1 class="section-header-splash grey">
+    <h2 class="section-header-splash grey">
      FEDERAL &amp; STATE RACES
-    </h1>
+    </h2>
     {{ range .Site.Menus.fedState }}
     <div class="col-md-6 col-sm-6 col-xs-12">
      <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
@@ -53,9 +55,9 @@
    <!-- END STATE RACES -->
    <!-- START LOCAL RACES -->
    <div class="splash-container local-races">
-    <h1 class="section-header-splash grey">
+    <h2 class="section-header-splash grey">
      LOCAL RACES
-    </h1>
+    </h2>
     {{ range .Site.Menus.local }}
     <div class="col-md-6 col-sm-6 col-xs-12">
      <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
