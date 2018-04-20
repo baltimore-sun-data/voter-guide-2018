@@ -191,6 +191,11 @@ func normalize(s string) interface{} {
 var errMissingInfo = fmt.Errorf("missing filename/directory")
 
 func saveDatum(datum map[string]interface{}) (err error) {
+	// Temporary until primary: Skip general only candidates
+	if generalOnly, _ := datum["general-only"].(bool); generalOnly {
+		return nil
+	}
+
 	dir := get(datum, "directory")
 	fn := get(datum, "filename")
 
