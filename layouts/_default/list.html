@@ -21,7 +21,20 @@
 {{ define "main" }}
   <div id="state-races" class="splash-container">
    <h1 class="section-header-splash grey">
-    {{ .Title | upper }}
+    {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
+      {{ if .p1.Parent }}
+        {{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2) }}
+      {{ end }}
+      {{ if .p1.IsHome|not }}
+        {{ if eq .p1 .p2 }}
+          {{ .p1.Param "shorttitle" | default .p1.Title }}
+        {{ else }}
+        <a class="page-header-link" href="{{ .p1.Permalink }}">
+          {{- .p1.Param "shorttitle" | default .p1.Title -}}
+        </a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
    </h1>
    <div class="btn-group col-md-12 col-sm-12 col-xs-12" id="testing" style="width:300px;">
     <button class="btn btn-primary btn-lg dropdown-toggle" id="chooseDistrict" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

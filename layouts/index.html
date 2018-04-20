@@ -47,7 +47,7 @@
     {{ range .Site.Menus.fedState }}
     <div class="col-md-6 col-sm-6 col-xs-12">
      <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
-      {{ .Page.Params.shortTitle }}
+      {{ .Page.Params.menuTitle | default .Page.Params.shortTitle }}
      </a>
     </div>
     {{ end }}
@@ -61,7 +61,7 @@
     {{ range .Site.Menus.local }}
     <div class="col-md-6 col-sm-6 col-xs-12">
      <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
-      {{ .Page.Params.shortTitle }}
+      {{ .Page.Params.menuTitle | default .Page.Params.shortTitle }}
      </a>
     </div>
     {{ end }}
