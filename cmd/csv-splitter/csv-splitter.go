@@ -235,6 +235,7 @@ func get(m map[string]interface{}, key string) string {
 func slugify(s string) string {
 	s = strings.ToLower(s)
 	s = strings.Replace(s, " ", "-", -1)
+	s = strings.Replace(s, "ñ", "n", -1)
 	bb := make([]byte, 0, len(s))
 	for _, b := range []byte(s) {
 		if (b >= 'a' && b <= 'z') ||
