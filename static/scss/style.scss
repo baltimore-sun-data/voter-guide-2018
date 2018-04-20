@@ -37,7 +37,7 @@
 }
 
 .no-display,
-.home,
+.home-pg,
 .active-pg {
   display: none;
 }
@@ -47,9 +47,9 @@
   [class*="col-"] {
     @media (min-width: 992px) {
       display: inline-block !important;
-       float: none !important;
-    margin-right: -4px;
-    vertical-align: top;
+      float: none !important;
+      margin-right: -4px;
+      vertical-align: top;
     }
   }
 }
