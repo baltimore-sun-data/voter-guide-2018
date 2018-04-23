@@ -74,6 +74,7 @@
 #star-and-logo {
   display: inline-block;
   vertical-align: top;
+  float: left;
 }
 
 #top-bar-star {
@@ -107,37 +108,32 @@ a.full {
   width: 100%;
   height: 100%;
 }
-
-#social-icons {
-  width: 100%;
-  text-align: center;
-  padding-top: 10px;
-}
-
-#social-icons.candidate-page {
-  padding: 0;
-  float: right;
+.nav-social.social-icons {
   width: auto;
+  float: left;
+  padding-left: 15px;
+  padding-top: 8px;
 }
-#social-icons.candidate-page .icon-facebook,
-#social-icons.candidate-page .icon-twitter {
-  font-size: 1.8em;
-}
+
+.nav-social.social-icons .icon-facebook, .nav-social.social-icons .icon-twitter {
+  color: white;
+} 
+
 .icon-facebook,
 .icon-twitter {
   color: #667682;
   cursor: pointer;
-  font-size: 2em;
+  font-size: 1.8em;
   padding: 2px;
 }
 
-.icon-facebook:hover,
-.icon-twitter:hover {
+.icon-facebook:hover, .nav-social.social-icons .icon-facebook:hover,
+.icon-twitter:hover, .nav-social.social-icons .icon-twitter:hover {
   color: #818e98;
 }
 
-.icon-facebook:active,
-.icon-twitter:active {
+.icon-facebook:active, .nav-social.social-icons .icon-facebook:active,
+.icon-twitter:active, .nav-social.social-icons .icon-twitter:active {
   color: #cdcdcd;
 }
 
@@ -1317,7 +1313,7 @@ p.about {
   }
 
   #star-and-logo {
-    float: right;
+    margin-left: 5px;
   }
 
   #mobile-nav {
