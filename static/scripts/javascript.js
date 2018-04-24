@@ -17,7 +17,10 @@ var app = {
   activate_social_buttons: function(socialMessage) {
     $(".icon-twitter.js-click").on("click", function(e) {
       var tweet = $(e.target).data("share-text");
-      var url = window.location.href; // Interactive URL
+      var url = e.target.getAttribute("data-url");
+      if (!url) {
+        url = window.location.href;
+      }
 
       var twitterURL =
         "https://twitter.com/intent/tweet?text=" +
@@ -37,7 +40,11 @@ var app = {
       // FaceBook has deprecated all the options in the pop-up,
       // so it all needs to be controlled by the meta tags on the page.
       // See https://developers.facebook.com/docs/sharing/reference/feed-dialog
-      var url = window.location.href;
+      var url = e.target.getAttribute("data-url");
+      if (!url) {
+        url = window.location.href;
+      }
+
       var facebookURL =
         "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" +
         encodeURIComponent(url) +
@@ -397,7 +404,10 @@ var app = {
       var hostname = link.hostname;
       if (
         hostname &&
-        !(hostname.endsWith("baltimoresun.com") || hostname === "localhost")
+        !(
+          hostname.endsWith("baltimoresun.com") ||
+          hostname === window.location.hostname
+        )
       ) {
         link.target = "_blank";
       }

@@ -37,21 +37,14 @@
      <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-     {{ if .Param "customDistricts" }}
-     {{ range .Param "customDistricts" }}
-      {{ $link := printf "district-%s/" . | lower }}
+      {{ $parent := . }}
+      {{ range where .Site.Pages.ByWeight "Kind" "section" }}
+      {{ if and (ne . $parent) (.IsDescendant $parent) (len .Pages) }}
       <li class="district">
-       <a href="{{ $link }}" class="dropdown-item">{{ printf "district %s" . | title }}</a>
+       <a href="{{ .URL }}" class="dropdown-item">{{ .Params.shortTitle }}</a>
       </li>
-     {{ end }}
-     {{ else }}
-     {{ range seq .Params.districts }}
-      {{ $link := printf "district-%d/" . }}
-      <li class="district">
-       <a href="{{ $link }}" class="dropdown-item">District {{ . }}</a>
-      </li>
-     {{ end }}
-     {{ end }}
+      {{ end }}
+      {{ end }}
     </ul>
    </div>
   </div>

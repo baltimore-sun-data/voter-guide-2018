@@ -23,9 +23,9 @@
      </div>
     </div>
     <div class="nav-social social-icons">
-      <span class="icon-facebook js-click">
+      <span class="icon-facebook js-click" data-url="{{ .Site.BaseURL }}">
       </span>
-      <span class="icon-twitter js-click" data-share-text="{{ .Site.Params.DefaultShareText }}">
+      <span class="icon-twitter js-click" data-url="{{ .Site.BaseURL }}" data-share-text="{{ .Site.Params.DefaultShareText }}">
       </span>
     </div>
     <div id="top-nav">
@@ -33,7 +33,7 @@
      </ul>
     </div>
     <a href="http://www.baltimoresun.com">
-     <img border="0" id="top-sun-logo" src='{{ dict "Site" $.Site "Value" "images/header-sun-logo.png" | partial "assets.html" }}' width="190">
+     <img id="top-sun-logo" src='{{ dict "Site" $.Site "Value" "images/logo-white.svg" | partial "assets.html" }}' alt="The Baltimore Sun" width="190">
     </a>
    </div>
   </header>
