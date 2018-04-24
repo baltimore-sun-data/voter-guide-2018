@@ -9,8 +9,6 @@
   {{ end }}
   {{ $image := $.Scratch.Get "image" }}
 
-  <div class="mobile-hide">{{ partial "ad-leaderboard.html" . }}</div>
-
   <div id="page-header">
    <div class="text">
     {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
