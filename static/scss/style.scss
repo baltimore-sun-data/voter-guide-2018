@@ -39,7 +39,7 @@
 .no-display,
 .home-pg,
 .active-pg {
-  display: none;
+  display: none !important;
 }
 
 .row-centered {
@@ -57,6 +57,10 @@
 .table-width {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.table-mobile td span {
+  display: none;
 }
 
 /******** TOP HAT ********** */
@@ -851,7 +855,9 @@ img.cand-pic {
 }
 
 .section-header.independent,
-.cand-pic.independent {
+.section-header.non-partisan,
+.cand-pic.independent,
+.cand-pic.non-partisan {
   border-left: 10px solid #d0d0d0;
 }
 
@@ -1063,6 +1069,10 @@ img.cand-pic {
 
 #questionnaire.green .question-text {
   background-color: #bee2d4;
+}
+
+#questionnaire.non-partisan .question-text {
+  background-color: #d0d0d0;
 }
 
 #questionnaire-nav,
@@ -1367,9 +1377,6 @@ p.about {
   #bills .span-70 {
     width: 90%;
   }
-  .mobile-hide {
-    display: none;
-  }
   .intro-block .content {
     display: none;
   }
@@ -1390,6 +1397,9 @@ p.about {
   .cand-details {
     padding: 5px;
   }
+  .crumb {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -1406,11 +1416,17 @@ p.about {
   .cand-pic-race img {
     width: 80px;
   }
-  .cand-name {
-    padding: 0px;
+  .cand-name,
+  #cand-name {
     font-size: 1.5em;
     width: 250px;
     padding-top: 5px;
+  }
+  .subscribe {
+    font-size: 1.3em;
+  }
+  .subscribe span {
+    display: block;
   }
 }
 
@@ -1465,6 +1481,17 @@ p.about {
   #questionnaire-nav {
     display: none;
   }
+  .table-mobile td {
+    display: block;
+    text-align: left !important;
+    border: none !important;
+  }
+  .table-mobile th {
+    display: none;
+  }
+  .table-mobile td span {
+    display: inline;
+  }
 }
 
 @media only screen and (max-width: 535px) {
@@ -1489,6 +1516,9 @@ p.about {
   }
   .endorsement {
     padding-top: 10px;
+  }
+  .mobile-hide {
+    display: none;
   }
 }
 
@@ -1530,15 +1560,18 @@ p.about {
   #cand-name,
   .cand-name {
     background-color: transparent;
+    padding: 0 0 20px 0;
   }
   .endorsement {
     float: none;
     clear: both;
     padding: 20px 20px 0 20px;
   }
-  #cand-details {
+  #cand-details,
+  .cand-details {
     float: none;
     clear: both;
+    padding: 0 0 20px 0;
   }
 
   #footer-container {
@@ -1563,9 +1596,6 @@ p.about {
 }
 
 @media only screen and (max-width: 380px) {
-  .mobile-hide {
-    display: none;
-  }
   #cand-name,
   .cand-name {
     font-size: 22px;

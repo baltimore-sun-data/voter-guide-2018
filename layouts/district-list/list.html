@@ -60,7 +60,7 @@
   <div class="table-width">
     <div class="container-fluid">
      <div class="table-responsive">
-       <table class="table table-striped table-hover table-bordered districts-list-table">
+       <table class="table table-striped table-hover table-bordered table-mobile districts-list-table">
          <thead>
            <tr>
              <th>District</th>
@@ -72,9 +72,9 @@
            {{ range $n, $district := index .Site.Data.stateDistricts }}
            {{ $link := printf "/%s/district-%d/" $.Slug (add 1 $n) }}
            <tr>
-             <td><a href="{{ $link }}">{{ add 1 $n }}</a></td>
-             <td><a href="{{ $link }}">{{ $district.counties }}</a></td>
-             <td><a href="{{ $link }}">{{ $district.neighborhoods }}</a></td>
+             <td><span><b>District: </b></span><a href="{{ $link }}">{{ add 1 $n }}</a></td>
+             <td><span><b>Counties in District: </b></span><a href="{{ $link }}">{{ $district.counties }}</a></td>
+             <td><span><b>Major Cities / Neighborhood: </b></span><a href="{{ $link }}">{{ $district.neighborhoods }}</a></td>
            </tr>
            {{ end }}
          </tbody>
