@@ -1,20 +1,20 @@
   <footer>
    <div id="footer-container">
-    <div class="col-md-12 col-sm-12 col-xs-12">
-     <a href="http://www.baltimoresun.com" target="_new">
-      <img src='{{ dict "Site" $.Site "Value" "images/sun-logo-footer.gif" | partial "assets.html" }}'>
-     </a>
-    </div>
-    {{ range .Site.Menus.main }}
-    <div class="col-md-offset-1 col-md-2 col-sm-4 col-xs-12">
-     <a href="{{ .URL }}" class="u-upper">
-      {{ .Name }}
-     </a>
-    </div>
-    {{ end }}
-    <div class="col-md-12 col-sm-12 col-xs-12 copyright">
-     &copy; {{ now.Format "2006" }} ALL RIGHTS RESERVED <br>
-     WEBSITE DESIGN BY ADAM MARTON &amp; CAROLINE PATE | SUPPORT BY CARL JOHNSON | CONTENT BY KALANI GORDON
-    </div>
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <a href="http://www.baltimoresun.com" target="_blank">
+          <img src='{{ dict "Site" $.Site "Value" "images/logo.svg" | partial "assets.html" }}'>
+        </a>
+      </div>
+      {{ range .Site.Menus.main }}
+      <div class="col-md-3 col-sm-6 col-xs-12">
+        <a href="{{ .URL }}" class="u-upper">
+          {{ .Name }}
+        </a>
+      </div>
+      {{ end }}
+      <div class="col-md-12 col-sm-12 col-xs-12 copyright">
+      &copy; {{ now.Format "2006" }} ALL RIGHTS RESERVED <br>
+      WEBSITE DESIGN BY ADAM MARTON &amp; CAROLINE PATE | SUPPORT BY CARL JOHNSON | CONTENT BY KALANI GORDON
+      </div>
    </div>
   </footer>
