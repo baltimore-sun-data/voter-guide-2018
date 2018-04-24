@@ -397,7 +397,7 @@ var app = {
       var hostname = link.hostname;
       if (
         hostname &&
-        !(hostname.endsWith("baltimoresun.com") || hostname === "locahost")
+        !(hostname.endsWith("baltimoresun.com") || hostname === "localhost")
       ) {
         link.target = "_blank";
       }
