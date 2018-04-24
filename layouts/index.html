@@ -24,10 +24,10 @@
   </div>
   <div class="toggle-buttons col-xs-12">
    <div class="btn-group">
-    <div id="fed-state-button" class="js-swap-race btn btn-primary btn-lg top-buttons selected" type="button">
+    <div id="fed-state-button" class="js-swap-race btn btn-primary btn-lg top-buttons selected">
      Fed &amp; State
     </div>
-    <div id="local-button" class="js-swap-race btn btn-primary btn-lg top-buttons" type="button">
+    <div id="local-button" class="js-swap-race btn btn-primary btn-lg top-buttons">
      Local
     </div>
    </div>
@@ -40,7 +40,7 @@
     </h2>
     {{ range .Site.Menus.fedState }}
     <div class="col-md-6 col-sm-6 col-xs-12">
-     <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
+     <a href="{{.URL}}" class="btn btn-primary btn-lg district-button">
       {{ .Page.Params.menuTitle | default .Page.Params.shortTitle }}
      </a>
     </div>
@@ -54,7 +54,7 @@
     </h2>
     {{ range .Site.Menus.local }}
     <div class="col-md-6 col-sm-6 col-xs-12">
-     <a href="{{.URL}}" class="btn btn-primary btn-lg district-button" type="button">
+     <a href="{{.URL}}" class="btn btn-primary btn-lg district-button">
       {{ .Page.Params.menuTitle | default .Page.Params.shortTitle }}
      </a>
     </div>
