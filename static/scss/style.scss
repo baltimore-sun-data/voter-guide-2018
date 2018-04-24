@@ -120,9 +120,10 @@ a.full {
   padding-top: 8px;
 }
 
-.nav-social.social-icons .icon-facebook, .nav-social.social-icons .icon-twitter {
+.nav-social.social-icons .icon-facebook,
+.nav-social.social-icons .icon-twitter {
   color: white;
-} 
+}
 
 .icon-facebook,
 .icon-twitter {
@@ -132,13 +133,17 @@ a.full {
   padding: 2px;
 }
 
-.icon-facebook:hover, .nav-social.social-icons .icon-facebook:hover,
-.icon-twitter:hover, .nav-social.social-icons .icon-twitter:hover {
+.icon-facebook:hover,
+.nav-social.social-icons .icon-facebook:hover,
+.icon-twitter:hover,
+.nav-social.social-icons .icon-twitter:hover {
   color: #818e98;
 }
 
-.icon-facebook:active, .nav-social.social-icons .icon-facebook:active,
-.icon-twitter:active, .nav-social.social-icons .icon-twitter:active {
+.icon-facebook:active,
+.nav-social.social-icons .icon-facebook:active,
+.icon-twitter:active,
+.nav-social.social-icons .icon-twitter:active {
   color: #cdcdcd;
 }
 
