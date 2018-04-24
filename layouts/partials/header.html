@@ -3,21 +3,6 @@
   <header id="top-bar">
    <!--tophat-->
    <div id="top-bar-content">
-    <div id="mobile-nav">
-     <span class="icon-menu"></span>
-     <span class="text">SECTIONS</span>
-    </div>
-    <div id="mobile-nav-drop">
-     <ul class="nav-links">
-      {{ range .Site.Menus.main }}
-      <li>
-       <a href="{{ .URL }}" class="u-upper">
-        {{ .Name }}
-       </a>
-      </li>
-      {{ end }}
-     </ul>
-    </div>
     <div id="star-and-logo">
      <div class="election-center-logo blue">
       <a class="full" href="{{.Site.BaseURL}}">
@@ -36,6 +21,12 @@
       </a>
       GUIDE
      </div>
+    </div>
+    <div class="nav-social social-icons">
+      <span class="icon-facebook js-click">
+      </span>
+      <span class="icon-twitter js-click" data-share-text="{{ .Site.Params.DefaultShareText }}">
+      </span>
     </div>
     <div id="top-nav">
      <ul class="nav-links">

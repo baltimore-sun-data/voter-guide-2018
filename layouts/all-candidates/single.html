@@ -18,33 +18,34 @@
       </div>
     </div>
   </div>
-
-  <div class="container-fluid">
-    <div class="table-responsive">
-      <table class="table table-striped table-hover table-bordered js-candidates-table">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Running for Position</th>
-            <th>Party Affiliation</th>
-          </tr>
-        </thead>
-        <tbody>
-          {{ $inSection := where .Site.Pages ".Section" "ne" "" }}
-          {{ $pagesInSection := where $inSection "Kind" "page" }}
-          {{ range sort $pagesInSection ".URL" }}
-          <tr>
-            <td>
-              <a href="{{ .URL }}">{{ .Title }}</a>
-            </td>
-            <td>
-              <a href="{{ .CurrentSection.URL }}">{{ .Parent.Title }}</a>
-            </td>
-            <td>{{ .Param "party" }}</td>
-          </tr>
-          {{ end }}
-        </tbody>
-      </table>
+  <div class="table-width">
+    <div class="container-fluid">
+      <div class="table-responsive">
+        <table class="table table-striped table-hover table-bordered js-candidates-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Running for Position</th>
+              <th>Party Affiliation</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ $inSection := where .Site.Pages ".Section" "ne" "" }}
+            {{ $pagesInSection := where $inSection "Kind" "page" }}
+            {{ range sort $pagesInSection ".URL" }}
+            <tr>
+              <td>
+                <a href="{{ .URL }}">{{ .Title }}</a>
+              </td>
+              <td>
+                <a href="{{ .CurrentSection.URL }}">{{ .Parent.Title }}</a>
+              </td>
+              <td>{{ .Param "party" }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
     </div>
   </div>
 </div>

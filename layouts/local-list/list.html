@@ -7,19 +7,21 @@
     {{ .Content }}
    </div>
    <hr class="clear-splash">
-   <ul class="row row-centered">
-    <!-- choose race district -->
-    {{ range .Sections }}
-    <li class="col-md col-sm-4 col-xs-6">
-     <a
-      href="{{ .URL }}"
-      class="btn btn-primary btn-lg district-button"
-      type="button">
-      {{ .Params.shortTitle }}
-      </a>
-    </li>
-    {{ end }}
-   </ul>
+   <div class="container-fluid">
+     <ul class="row row-centered">
+      <!-- choose race district -->
+      {{ range .Sections }}
+      <li class="col-md col-sm-4 col-xs-6">
+       <a
+        href="{{ .URL }}"
+        class="btn btn-primary btn-lg district-button"
+        type="button">
+        {{ .Params.shortTitle }}
+        </a>
+      </li>
+      {{ end }}
+     </ul>
+   </div>
    <div class="clear-splash">
    </div>
   </div>
