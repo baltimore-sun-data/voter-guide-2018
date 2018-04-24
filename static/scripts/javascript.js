@@ -11,6 +11,7 @@ var app = {
     app.homepage_toggle();
     app.candidate_table_filter();
     app.fetch_coverage();
+    app.target_links();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -387,6 +388,19 @@ var app = {
     var inputs = document.getElementsByClassName("light-table-filter");
     Arr.forEach.call(inputs, function(input) {
       input.oninput = _onInputEvent;
+    });
+  },
+
+  target_links: function() {
+    var links = document.querySelectorAll("a");
+    [].slice.call(links).forEach(function(link) {
+      var hostname = link.hostname;
+      if (
+        hostname &&
+        !(hostname.endsWith("baltimoresun.com") || hostname === "localhost")
+      ) {
+        link.target = "_blank";
+      }
     });
   }
 };
