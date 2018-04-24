@@ -64,28 +64,30 @@
    <hr class="clear-splash">
 
   {{ if .Params.showDistrictsTable }}
-  <div class="container-fluid">
-   <div class="table-responsive">
-     <table class="table table-striped table-hover table-bordered districts-list-table">
-       <thead>
-         <tr>
-           <th>District</th>
-           <th>Counties in District</th>
-           <th>Major Cities / Neighborhoods</th>
-         </tr>
-       </thead>
-       <tbody>
-         {{ range $n, $district := index .Site.Data.stateDistricts }}
-         {{ $link := printf "/%s/district-%d/" $.Slug (add 1 $n) }}
-         <tr>
-           <td><a href="{{ $link }}">{{ add 1 $n }}</a></td>
-           <td><a href="{{ $link }}">{{ $district.counties }}</a></td>
-           <td><a href="{{ $link }}">{{ $district.neighborhoods }}</a></td>
-         </tr>
-         {{ end }}
-       </tbody>
-     </table>
-   </div>
+  <div class="table-width">
+    <div class="container-fluid">
+     <div class="table-responsive">
+       <table class="table table-striped table-hover table-bordered districts-list-table">
+         <thead>
+           <tr>
+             <th>District</th>
+             <th>Counties in District</th>
+             <th>Major Cities / Neighborhoods</th>
+           </tr>
+         </thead>
+         <tbody>
+           {{ range $n, $district := index .Site.Data.stateDistricts }}
+           {{ $link := printf "/%s/district-%d/" $.Slug (add 1 $n) }}
+           <tr>
+             <td><a href="{{ $link }}">{{ add 1 $n }}</a></td>
+             <td><a href="{{ $link }}">{{ $district.counties }}</a></td>
+             <td><a href="{{ $link }}">{{ $district.neighborhoods }}</a></td>
+           </tr>
+           {{ end }}
+         </tbody>
+       </table>
+     </div>
+    </div>
   </div>
   {{ end }}
 

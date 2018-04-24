@@ -54,6 +54,11 @@
   }
 }
 
+.table-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /******** TOP HAT ********** */
 
 #top-bar {
@@ -275,7 +280,6 @@ a.full {
   height: 2px;
   background-color: #dadada;
 }
-
 a.page-header-link {
   color: inherit;
   text-transform: uppercase;
@@ -1357,6 +1361,12 @@ p.about {
   }
   #bills .span-70 {
     width: 90%;
+  }
+  .mobile-hide {
+    display: none;
+  }
+  .intro-block .content {
+    display: none;
   }
 }
 
