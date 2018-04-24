@@ -21,7 +21,7 @@
   <div class="table-width">
     <div class="container-fluid">
       <div class="table-responsive">
-        <table class="table table-striped table-hover table-bordered js-candidates-table">
+        <table class="table table-striped table-hover table-bordered table-mobile js-candidates-table">
           <thead>
             <tr>
               <th>Name</th>
@@ -35,12 +35,17 @@
             {{ range sort $pagesInSection ".URL" }}
             <tr>
               <td>
+                <span><b>Name: </b></span>
                 <a href="{{ .URL }}">{{ .Title }}</a>
               </td>
               <td>
+                <span><b>Running for Position: </b></span>
                 <a href="{{ .CurrentSection.URL }}">{{ .Parent.Title }}</a>
               </td>
-              <td>{{ .Param "party" }}</td>
+              <td>
+                <span><b>Party Affiliation: </b></span>
+                {{ .Param "party" }}
+              </td>
             </tr>
             {{ end }}
           </tbody>
