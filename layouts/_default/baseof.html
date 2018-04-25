@@ -23,25 +23,30 @@
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="{{.Site.BaseURL}}{{.Page.URL}}">
   <!-- Facebook stuff -->
-  {{ $.Scratch.Set "share-image" (.Param "image") }}
+  {{ $.Scratch.Set "fb-image" (.Param "icon") }}
+  {{ $.Scratch.Set "tw-image" (.Param "image") }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imageJPG) }}
-      {{ $.Scratch.Set "share-image" $imageJPG }}
+      {{ $.Scratch.Set "fb-image" $imageJPG }}
+      {{ $.Scratch.Set "tw-image" $imageJPG }}
   {{ end }}
   {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imagePNG) }}
-      {{ $.Scratch.Set "share-image" $imagePNG }}
+      {{ $.Scratch.Set "fb-image" $imagePNG }}
+      {{ $.Scratch.Set "tw-image" $imagePNG }}
   {{ end }}
-  {{ $image := $.Scratch.Get "share-image" }}
+  {{ $imageFB := $.Scratch.Get "fb-image" }}
+  {{ $imageTW := $.Scratch.Get "tw-image" }}
 
-  <meta name="description" content="{{.Summary}}">
+  <meta name="description" content="{{ .Summary }}">
   <meta name="author" content="Baltimore Sun">
   <meta property="fb:app_id" content="310302989040998">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:url" content="{{.Site.BaseURL}}{{.Page.URL}}">
   <meta property="og:site_name" content="{{.Site.Title}}">
-  <meta property="og:image" content='{{ dict "Site" .Site "Value" $image | partial "assets.html" }}'>
+  <meta property="og:description" content="{{ .Summary }}">
+  <meta property="og:image" content='{{ dict "Site" .Site "Value" $imageFB | partial "assets.html" }}'>
   <!-- /Facebook Stuff -->
   <!-- TWITTER STUFF -->
   <meta name="twitter:card" content="summary">
@@ -49,7 +54,7 @@
   <meta name="twitter:creator" content="Baltimore Sun Data Desk">
   <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide {{.Site.Params.Year}}">
   <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s {{.Site.Params.Year}} Maryland Voter Guide:">
-  <meta name="twitter:image" content='{{ dict "Site" .Site "Value" $image | partial "assets.html" }}'>
+  <meta name="twitter:image" content='{{ dict "Site" .Site "Value" $imageTW | partial "assets.html" }}'>
   <meta name="twitter:domain" content="baltimoresun.com">
 
   <!-- Baltimore Sun Omniture -->
