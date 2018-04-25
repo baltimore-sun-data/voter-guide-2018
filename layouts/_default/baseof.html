@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" href='{{ dict "Site" .Site "Value" (.Param "icon") | partial "assets.html" }}'>
   <!-- Google stuff -->
   <meta name="robots" content="index,follow">
-  <link rel="canonical" href="{{.Site.BaseURL}}{{.Page.URL}}">
+  <link rel="canonical" href="{{ .Page.URL | absURL }}">
   <!-- Facebook stuff -->
   {{ $.Scratch.Set "fb-image" (.Param "icon") }}
   {{ $.Scratch.Set "tw-image" (.Param "image") }}
@@ -43,7 +43,7 @@
   <meta property="fb:app_id" content="310302989040998">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ .Title }}">
-  <meta property="og:url" content="{{.Site.BaseURL}}{{.Page.URL}}">
+  <meta property="og:url" content="{{ .Page.URL | absURL }}">
   <meta property="og:site_name" content="{{.Site.Title}}">
   <meta property="og:description" content="{{ .Summary }}">
   <meta property="og:image" content='{{ dict "Site" .Site "Value" $imageFB | partial "assets.html" }}'>
