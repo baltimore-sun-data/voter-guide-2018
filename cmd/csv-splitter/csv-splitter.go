@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+	"regexp"
 	"strconv"
 	"strings"
 	"time"
@@ -69,7 +70,11 @@ func parseAndSplit(src io.ReadCloser) (err error) {
 			return
 		}
 
-		datum := makeDatum(dataHeader, fields)
+		var datum map[string]interface{}
+		datum, err = makeDatum(dataHeader, fields)
+		if err != nil {
+			return err
+		}
 		err = saveDatum(datum)
 		if err != nil {
 			return err
@@ -77,11 +82,17 @@ func parseAndSplit(src io.ReadCloser) (err error) {
 	}
 }
 
-func makeDatum(dataHeader, fields []string) map[string]interface{} {
+// Checks that text is ASCII or a whitelisted Unicode character
+var unicodeChecker = regexp.MustCompile(`[^\x00-\x7F‘’–—•”“ñ§½…¢óï]`)
+
+func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 	datum := make(map[string]interface{}, len(fields))
 	for i, val := range fields {
 		if val == "" {
 			continue
+		}
+		if unicodeChecker.MatchString(val) {
+			return nil, fmt.Errorf("file has Unicode errors: %q", val)
 		}
 		datum[dataHeader[i]] = normalize(val)
 	}
@@ -117,9 +128,12 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 			if time.Now().YearDay() < birthdate.YearDay() {
 				age--
 			}
+			if age < 10 || age > 100 {
+				return nil, fmt.Errorf("bad birthday: %s", dob)
+			}
 			datum["age"] = age
 		} else {
-			log.Printf("warning, could not parse dob: %v", err)
+			return nil, fmt.Errorf("could not parse dob: %v", err)
 		}
 	}
 
@@ -150,7 +164,7 @@ func makeDatum(dataHeader, fields []string) map[string]interface{} {
 		datum["title"] = fullname
 	}
 
-	return datum
+	return datum, nil
 }
 
 var strictNormalizedForms = map[string]interface{}{
