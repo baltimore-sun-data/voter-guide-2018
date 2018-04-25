@@ -13,7 +13,7 @@ title = "Baltimore Sun Election Guide 2018"
 staticDir = ["static", "dist"]
 
 [Params]
-DefaultShareText = "Learn about primary elections in Maryland in the Baltimore Sun 2018 Voter Guide:"
+DefaultShareText = "Learn more about the upcoming election in the Baltimore Sun’s 2018 Maryland Voter Guide"
 icon = "images/voter-guide-square-200.png"
 image = "images/voter-guide-square.png"
 omniture-page-name = "bs:newsserver:elections2018:news:maryland:politics:voter-guide-2018:dataproject"
