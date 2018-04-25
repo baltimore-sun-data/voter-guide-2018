@@ -1055,6 +1055,15 @@ img.cand-pic {
   background-color: #00a967;
 }
 
+#questionnaire.non-partisan .question-num,
+#questionnaire.independent .question-num {
+  background-color: #d0d0d0;
+}
+
+#questionnaire.non-partisan .question-text {
+  background-color: #d0d0d0;
+}
+
 #questionnaire.democrat .question-text {
   background-color: #9ddaf8;
 }
@@ -1072,7 +1081,7 @@ img.cand-pic {
 }
 
 #questionnaire.non-partisan .question-text {
-  background-color: #d0d0d0;
+  background-color: #ececec;
 }
 
 #questionnaire-nav,
