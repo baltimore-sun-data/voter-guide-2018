@@ -54,6 +54,7 @@
   <meta name="twitter:creator" content="Baltimore Sun Data Desk">
   <meta name="twitter:title" content="Baltimore Sun Maryland Voter Guide {{.Site.Params.Year}}">
   <meta name="twitter:description" content="Learn more about the upcoming election in the Baltimore Sun&#39;s {{.Site.Params.Year}} Maryland Voter Guide:">
+  <meta name="twitter:description" content='{{ .Site.Param "defaultsharetext" }}'>
   <meta name="twitter:image" content='{{ dict "Site" .Site "Value" $imageTW | partial "assets.html" }}'>
   <meta name="twitter:domain" content="baltimoresun.com">
 
