@@ -26,7 +26,7 @@ RUN apk --no-cache add \
     curl
 
 FROM go-curl as go-hugo
-ARG HUGO_VERSION=0.38.2
+ARG HUGO_VERSION=0.40.1
 RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
 
 FROM go-curl as go-minify
