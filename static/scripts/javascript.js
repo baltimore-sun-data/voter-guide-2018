@@ -7,7 +7,6 @@ var app = {
     app.questionnaire_nav();
     app.all_candidates_toggle();
     app.find_district();
-    app.mobile_nav();
     app.homepage_toggle();
     app.candidate_table_filter();
     app.fetch_coverage();
@@ -290,18 +289,6 @@ var app = {
       };
 
       info.addTo(map);
-    });
-  },
-
-  mobile_nav: function() {
-    $("#mobile-nav").click(function() {
-      if (!$(this).hasClass("clicked")) {
-        $("#mobile-nav-drop").show();
-        $(this).addClass("clicked");
-      } else {
-        $("#mobile-nav-drop").hide();
-        $(this).removeClass("clicked");
-      }
     });
   },
 
