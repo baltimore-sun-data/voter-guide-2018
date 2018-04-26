@@ -11,6 +11,7 @@ var app = {
     app.fetch_coverage();
     app.target_links();
     app.toggle_fixed_nav();
+    app.party_toggle();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -338,6 +339,22 @@ var app = {
         )
       ) {
         link.target = "_blank";
+      }
+    });
+  },
+
+  party_toggle: function() {
+    $(".js-filter-party").on("click", function(e) {
+      var party = $(e.target).data("party-toggle");
+      if (party === "all") {
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text("Choose Party");
+        $(".js-party-group").show();
+      } else {
+        $(".js-party-group").hide();
+        $(".js-party-" + party).show();
+        $("#choosePartyText").empty();
+        $("#choosePartyText").text(party);
       }
     });
   }
