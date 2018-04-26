@@ -98,24 +98,26 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 	}
 	n := 1
 	type question = struct {
-		Question  interface{} `json:"question"`
-		Answer    interface{} `json:"answer"`
-		Shortname interface{} `json:"shortname"`
+		Question  string `json:"question"`
+		Answer    string `json:"answer"`
+		Shortname string `json:"shortname"`
 	}
 	var questions []question
-	for {
-		qn := fmt.Sprintf("q%d", n)
-		an := fmt.Sprintf("a%d", n)
-		sn := fmt.Sprintf("sn%d", n)
-		if get(datum, qn) == "" {
-			break
+	if get(datum, "a1") != "" {
+		for {
+			qn := fmt.Sprintf("q%d", n)
+			an := fmt.Sprintf("a%d", n)
+			sn := fmt.Sprintf("sn%d", n)
+			if get(datum, qn) == "" {
+				break
+			}
+			questions = append(questions, question{
+				Question:  get(datum, qn),
+				Answer:    get(datum, an),
+				Shortname: get(datum, sn),
+			})
+			n++
 		}
-		questions = append(questions, question{
-			Question:  datum[qn],
-			Answer:    datum[an],
-			Shortname: datum[sn],
-		})
-		n++
 	}
 	if len(questions) > 0 {
 		datum["questions"] = questions
