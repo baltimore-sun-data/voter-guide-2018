@@ -5,7 +5,6 @@ var app = {
     app.activate_social_buttons();
     app.news_animation();
     app.questionnaire_nav();
-    app.all_candidates_toggle();
     app.find_district();
     app.homepage_toggle();
     app.candidate_table_filter();
@@ -54,29 +53,6 @@ var app = {
         "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
       );
       return false;
-    });
-  },
-
-  // these are the toggle buttons for the cadidate navigation toggle buttons
-  all_candidates_toggle: function() {
-    $("#all-candidates-toggle-button").click(function() {
-      $("#all-candidates-toggle").slideToggle("fast");
-
-      if ($("#all-candidates-toggle-button").text() === "+ SHOW MORE") {
-        $("#all-candidates-toggle-button").text("- SHOW LESS");
-      } else {
-        $("#all-candidates-toggle-button").text("+ SHOW MORE");
-      }
-    });
-
-    $("#all-candidates-toggle-button-rep").click(function() {
-      $("#all-candidates-toggle-rep").slideToggle("fast");
-
-      if ($("#all-candidates-toggle-button-rep").text() === "+ SHOW MORE") {
-        $("#all-candidates-toggle-button-rep").text("- SHOW LESS");
-      } else {
-        $("#all-candidates-toggle-button-rep").text("+ SHOW MORE");
-      }
     });
   },
 
@@ -173,6 +149,7 @@ var app = {
       $.scrollTo(position - 100, 800);
     });
   },
+
   /* global L, leafletPip */
   find_district: function() {
     var $map = $("#map");
@@ -289,17 +266,6 @@ var app = {
       };
 
       info.addTo(map);
-    });
-  },
-
-  bill_reference_nav: function() {
-    $("#bill-nav ul li").click(function() {
-      // Grab the year clicked
-      var year = $(this).html();
-      if (year === "Feedback") year = "feedback";
-
-      // Jump to that year
-      $.scrollTo($("#year-" + year), 0);
     });
   },
 
