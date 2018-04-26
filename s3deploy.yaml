@@ -1,6 +1,6 @@
 routes:
   # Cache static assets forever
-  - route: "^.+\\.(jpeg|jpg|png|gif|flv|pdf|swf|ico|css|js|eot|ttf|ttc|otf|woff)$"
+  - route: "^.+\\.(jpeg|jpg|png|gif|flv|pdf|swf|ico|css|js|eot|ttf|ttc|otf|woff|svg|woff2)$"
     headers:
        Cache-Control: "public, max-age=365000000, immutable"
 
