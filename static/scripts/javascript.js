@@ -16,7 +16,7 @@ var app = {
 
   activate_social_buttons: function(socialMessage) {
     $(".icon-twitter.js-click").on("click", function(e) {
-      var tweet = $(e.target).data("share-text");
+      var tweet = e.target.getAttribute("data-share-text");
       var url = e.target.getAttribute("data-url");
       if (!url) {
         url = window.location.href;
@@ -28,11 +28,7 @@ var app = {
         "&url=" +
         encodeURIComponent(url) +
         "&tw_p=tweetbutton";
-      window.open(
-        twitterURL,
-        "mywin",
-        "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
-      );
+      window.open(twitterURL, "_blank", "width=500,height=300,toolbar=no");
       return false;
     });
 
@@ -49,11 +45,7 @@ var app = {
         "https://www.facebook.com/dialog/feed?display=popup&app_id=310302989040998&link=" +
         encodeURIComponent(url) +
         "&redirect_uri=https://www.facebook.com";
-      window.open(
-        facebookURL,
-        "mywin",
-        "left=200,top=200,width=500,height=300,toolbar=1,resizable=0"
-      );
+      window.open(facebookURL, "_blank", "width=500,height=500,toolbar=no");
       return false;
     });
   },
