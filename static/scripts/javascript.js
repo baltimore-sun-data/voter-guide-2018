@@ -10,6 +10,7 @@ var app = {
     app.candidate_table_filter();
     app.fetch_coverage();
     app.target_links();
+    app.toggle_fixed_nav();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -94,37 +95,11 @@ var app = {
     });
   },
 
-  load_answer: function(qnum, candidate) {
-    // Load headshot
-    // $("#question-"+qnum).find(".answer-headshot").attr("src","../images/candidates-no-bg/"+(window[candidate]["candidateLastName"].replace(/\s+/g, '-').toLowerCase())+".jpg");
-
-    // Change name
-    $("#question-" + qnum)
-      .find(".speaker")
-      .html(window[candidate]["candidateLastName"]);
-
-    // Insert the first paragraph (done so separately bc of the headshot)
-    $("#question-" + qnum)
-      .find(".first-para")
-      .html(window[candidate]["q" + qnum + "p1"]);
-
-    // If q1 is blank, hide and questionnaire section and say there is no questionaire.
-    if (window[candidate]["q" + qnum + "p1"] === "") {
-      $("#questionnaire-candidate").hide();
-      $("#message").show();
+  toggle_fixed_nav: function() {
+    if (!document.getElementById("inline-nav")) {
+      return;
     }
 
-    // Append the rest of the answer
-    $("#question-" + qnum)
-      .find(".other-paras")
-      .append(window[candidate]["q" + qnum + "p2"]);
-  },
-
-  share_answer: function() {
-    console.log("TODO");
-  },
-
-  toggle_fixed_nav: function() {
     // Establish at what vertical spot we want the nav to be revealed
 
     // We will add to where the inline-nav begins. We don't want that
