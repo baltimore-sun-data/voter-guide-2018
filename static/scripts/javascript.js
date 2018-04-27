@@ -18,8 +18,8 @@ var app = {
     $(".icon-twitter.js-click").on("click", function(e) {
       var tweet = e.target.getAttribute("data-share-text");
       var url = e.target.getAttribute("data-url");
-      var question = e.target.getAttribute("data-num");
-      if (!e.target.getAttribute("data-num")) {
+      var question = e.target.getAttribute("data-anchor");
+      if (!question) {
         question = "";
       }
       if (!url) {
