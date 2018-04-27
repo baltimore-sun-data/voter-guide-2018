@@ -263,6 +263,8 @@
       </ul>
      </div>
      {{ $candidateLastName := .Param "last-name" }}
+     {{ $candidateFullName := .Param "full-name" }}
+     {{ $race := .Page.CurrentSection.Title }}
      {{ range $i, $question := .Params.questions }}
      <div id="question-{{ add $i 1 }}" class="question span-70 left">
       <header class="question-header">
@@ -285,7 +287,7 @@
        {{ end }}
        <div class="answer-social" data-num="{{$i}}">
         SHARE THIS ANSWER
-        <span class="icon-twitter js-click" data-share-text='{{ $candidateLastName }}: "{{ $question.answer }}"'>
+        <span class="icon-twitter js-click" data-share-text='{{ $race }} candidate {{ $candidateFullName }} on {{ $question.shortname }}' data-num="#question-{{ add $i 1 }}">
         </span>
         <span class="icon-facebook js-click">
         </span>

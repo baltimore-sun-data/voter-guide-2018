@@ -18,6 +18,10 @@ var app = {
     $(".icon-twitter.js-click").on("click", function(e) {
       var tweet = e.target.getAttribute("data-share-text");
       var url = e.target.getAttribute("data-url");
+      var question = e.target.getAttribute("data-num");
+      if (!e.target.getAttribute("data-num")) {
+        question = "";
+      }
       if (!url) {
         url = window.location.href;
       }
@@ -26,7 +30,8 @@ var app = {
         "https://twitter.com/intent/tweet?text=" +
         encodeURIComponent(tweet) +
         "&url=" +
-        encodeURIComponent(url) +
+        encodeURIComponent(url) + 
+        encodeURIComponent(question) +
         "&tw_p=tweetbutton";
       window.open(twitterURL, "_blank", "width=500,height=300,toolbar=no");
       return false;
