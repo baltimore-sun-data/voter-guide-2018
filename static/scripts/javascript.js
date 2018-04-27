@@ -30,7 +30,7 @@ var app = {
         "https://twitter.com/intent/tweet?text=" +
         encodeURIComponent(tweet) +
         "&url=" +
-        encodeURIComponent(url) + 
+        encodeURIComponent(url) +
         encodeURIComponent(question) +
         "&tw_p=tweetbutton";
       window.open(twitterURL, "_blank", "width=500,height=300,toolbar=no");
