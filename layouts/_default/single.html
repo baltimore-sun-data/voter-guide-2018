@@ -31,6 +31,7 @@
     {{ if $image }}
      <div id="cand-pic">
       <img
+        alt='{{ .Param "full-name" }}'
         src='{{ dict "Site" .Site "Value" $image | partial "assets.html" }}'
         class="cand-pic {{ .Params.party | lower }}">
      </div>
@@ -44,10 +45,8 @@
       {{ end }}
       <div id="cand-details">
         <div class="social-icons candidate-page">
-          <span class="icon-facebook js-click">
-          </span>
-          <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:">
-          </span>
+          <span class="icon-facebook js-click"></span>
+          <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:"></span>
         </div>
        <ul>
         <li id="party" class="{{ .Params.party | lower }}-color">
@@ -78,7 +77,7 @@
      </div>
     </div>
     <!-- /cand-bio -->
-    <div id="inline-nav" class="mobile">
+    <div class="inline-nav-single mobile">
      <div class="nav-item" data-section="bio">
       <span class="icon-bio">
       </span>
@@ -117,9 +116,6 @@
        </li>
        {{ end }}
       </ul>
-      <div id="all-candidates-toggle-button" class="u-none">
-       + SHOW MORE
-      </div>
      </div>
      <!-- / Democrat candidate navigation -->
      {{end}}
@@ -132,7 +128,10 @@
   <nav>
    <div id="nav-photo">
     {{ if $image }}
-    <img src='{{ dict "Site" $.Site "Value" $image | partial "assets.html" }}' class="nav-photo">
+    <img
+      alt='{{ .Param "full-name" }}'
+      src='{{ dict "Site" $.Site "Value" $image | partial "assets.html" }}'
+      class="nav-photo">
     {{ end }}
    </div>
    <div class="nav-item small" data-section="bio">

@@ -386,10 +386,11 @@ footer div {
 
 /******** INLINE NAV ********** */
 
-#inline-nav {
+#inline-nav,
+.inline-nav-single {
   text-align: center;
-  margin: 20px 0px 70px 0px;
   color: #667682;
+  margin: 20px 0px 70px 0px;
 }
 #inline-nav a:link {
   color: #444444;
@@ -677,7 +678,7 @@ nav.revealed {
 
 /******** CANDIDATE PAGE STYLES********** */
 
-#inline-nav.mobile {
+.inline-nav-single.mobile {
   display: none;
 }
 
@@ -1285,10 +1286,11 @@ p.about {
   }
 
   #cand-pic {
-    width: 25%;
+    float: none;
+    width: auto;
   }
   #cand-pic img {
-    width: 100%;
+    max-width: 100%;
   }
 
   #cand-name,
@@ -1315,18 +1317,9 @@ p.about {
     width: auto;
   }
 
-  #cand-pic,
-  .cand-pic-race {
-    margin-right: 25px;
-  }
-
   #cand-bio-text,
   .cand-bio-text {
     float: none;
-  }
-
-  #cand-bio-text {
-    padding-left: 100px;
   }
 
   #all-candidates {
@@ -1357,8 +1350,8 @@ p.about {
     display: none;
   }
 
-  #inline-nav.mobile {
-    display: inline-block;
+  .inline-nav-single.mobile {
+    display: block;
   }
   #inline-nav.desktop {
     display: none;
