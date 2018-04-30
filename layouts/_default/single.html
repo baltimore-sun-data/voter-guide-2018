@@ -37,9 +37,9 @@
      </div>
     {{ end }}
      <div id="cand-bio-text">
-      <div id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
+      <h1 id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
         {{ .Param "full-name" }}
-      </div>
+      </h1>
       {{ if .Param "endorsement"}}
         <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
       {{ end }}
@@ -180,56 +180,76 @@
    </div>
   </div>
   <div class="container">
-   <section id="bio">
-    <header class="section-header {{.Params.party | lower }}">
-      Background
-    </header>
+  <section id="bio">
+    <h2 class="section-header {{.Params.party | lower }}">
+      About {{ .Param "full-name" }}
+    </h2>
+
     <div class="group">
-     {{ with .Params.background }}
-     <div id="bio-text" class="span-60 left">
-      {{ markdownify . }}
-     </div>
-     {{ end }}
-     <div id="social" class="span-40 right {{.Params.party | lower }}">
-      <ul>
-       {{ with .Param "web" }}
-       <li>
-        <a href="{{ . }}" class="website-link" target="_blank">
-          <span class="icon-globe"></span>
-          {{ replace (replace . "http://" "") "https://" "" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-tw" }}
-       <li>
-        <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
-          <span class="icon-twitter"></span>
-          @{{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-ig" }}
-       <li>
-        <a href="https://instagram.com/{{ . }}" target="_blank">
-          <span class="icon-instagram">
-            {{- partial "svg/instagram.svg" . -}}
-          </span>
-          {{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-fb" }}
-       <li>
-        <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
-          <span class="icon-facebook"></span>
-          {{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-      </ul>
-     </div>
+      <div id="social" class="span-40 right {{.Params.party | lower }}">
+        <ul>
+        {{ with .Param "web" }}
+          <li>
+            <a href="{{ . }}" class="website-link" target="_blank">
+              <span class="icon-globe"></span>
+              {{ $url := urls.Parse . }}
+              {{ $url.Host }}{{ $url.Path }}
+              </a>
+          </li>
+          {{ end }}
+          {{ with .Param "social-tw" }}
+          <li>
+            <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
+              <span class="icon-twitter"></span>
+              @{{ . | strings.TrimSuffix "/" }}
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Param "social-ig" }}
+          <li>
+            <a href="https://instagram.com/{{ . }}" target="_blank">
+              <span class="icon-instagram">
+                {{- partial "svg/instagram.svg" . -}}
+              </span>
+              {{ . | strings.TrimSuffix "/" }}
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Param "social-fb" }}
+          <li>
+            <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
+              <span class="icon-facebook"></span>
+              {{ . | strings.TrimSuffix "/" }}
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+      <div id="bio-text" class="span-60">
+      {{ if not (or .Params.education .Params.background) }}
+        <p>
+          This candidate has not provided biographical information to <i>The Sun</i>.
+        </p>
+      {{ end }}
+      {{ with .Params.education }}
+        <h3 class="sub-header">
+          Education
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      {{ with .Params.background }}
+        <h3 class="sub-header">
+          Background
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      </div>
     </div>
-   </section>
+  </section>
    <!-- /bio -->
    <section id="questionnaire" class="group {{.Params.party | lower }}">
     <header class="section-header {{.Params.party | lower }}">
