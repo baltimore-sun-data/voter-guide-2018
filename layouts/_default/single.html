@@ -28,12 +28,9 @@
   <div class="container {{ .Params.party | lower }}-color">
    <section id="top" class="row">
     <div id="cand-bio" class="col-md-9 col-sm-12 {{ .Params.party | lower }}">
-      <div id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
+      <h1 id="cand-name">
         {{ .Param "full-name" }}
-      </div>
-      {{ if .Param "endorsement"}}
-        <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
-      {{ end }}
+      </h1>
     {{ if $image }}
      <div id="cand-pic">
       <img
@@ -44,6 +41,9 @@
     {{ end }}
      <div id="cand-bio-text">
       <div id="cand-details">
+        {{ if .Param "endorsement"}}
+          <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
+        {{ end }}
         <div class="social-icons candidate-page">
           <span class="icon-facebook js-click"></span>
           <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:"></span>
@@ -80,7 +80,7 @@
 
     <div class="btn-group candidates-group">
       <button class="btn candidates-btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-       <span>All candidates</span>
+       <span>Other candidates</span>
        <span class="caret"></span>
       </button>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -183,12 +183,32 @@
   <div class="container">
     <div class="row">
      <section id="bio" class="col-sm-9">
-      <header class="section-header {{.Params.party | lower }}">
-        Background
-      </header>
-      {{ with .Params.background }}
-        {{ markdownify . }}
+      <h2 class="section-header {{.Params.party | lower }}">
+        About {{ .Param "full-name" }}
+      </h2>
+      <div class="candidate-p">
+      {{ if not (or .Params.education .Params.background) }}
+        <p>
+          This candidate has not provided biographical information to <i>The Sun</i>.
+        </p>
       {{ end }}
+      {{ with .Params.education }}
+        <h3 class="sub-header">
+          Education
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      {{ with .Params.background }}
+        <h3 class="sub-header">
+          Background
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      </div>
      </section>
       <section id="social" class="col-sm-3 {{.Params.party | lower }}">
         <ul>
@@ -196,7 +216,8 @@
          <li>
           <a href="{{ . }}" class="website-link" target="_blank">
             <span class="icon-globe"></span>
-            {{ replace (replace . "http://" "") "https://" "" }}
+              {{ $url := urls.Parse . }}
+              {{ $url.Host }}{{ $url.Path }}
           </a>
          </li>
          {{ end }}
@@ -233,11 +254,11 @@
    <section id="questionnaire" class="{{.Params.party | lower }}">
     <div class="row">
     <div class="col-sm-12">
-      <header class="section-header {{.Params.party | lower }}">
+      <h2 class="section-header {{.Params.party | lower }}">
        Questionnaire
-      </header>
+      </h2>
       {{ if not .Params.questions }}
-      <div id="message">
+      <div class="candidate-p">
        <br>
        <p>
         This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
@@ -308,9 +329,9 @@
 
    <div class="row">
     <section id="news" class="col-sm-8">
-     <header class="section-header {{.Params.party | lower }}">
+     <h2 class="section-header {{.Params.party | lower }}">
       Election Coverage
-     </header>
+     </h2>
 
      {{ partial "coverage.html" . }}
     </section>

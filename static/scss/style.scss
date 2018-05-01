@@ -718,6 +718,8 @@ img.cand-pic {
   font-family: "Brandon", Helvetica, sans-serif;
   line-height: 100%;
   text-transform: uppercase;
+  border-bottom: 10px solid #d0d0d0;
+  margin: 0;
 }
 
 .cand-name {
@@ -754,11 +756,8 @@ img.cand-pic {
   font-weight: bold;
 }
 /*********If endorsed***********/
-.endorsed-name {
-  float: left;
-}
 .endorsement img {
-  margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 .list-label {
@@ -868,11 +867,6 @@ img.cand-pic {
   border-bottom: 10px solid #d5bc46;
 }
 
-.independent #cand-name,
-.non-partisan #cand-name {
-  border-bottom: 10px solid #d0d0d0;
-}
-
 .section-header {
   padding: 0;
   text-align: left;
@@ -907,12 +901,16 @@ img.cand-pic {
 #background header {
   margin-bottom: 10px;
 }
-
+#bio .sub-header {
+  color: #a5a5a5;
+  font-family: "Brandon", Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 #bio p,
-#background p {
+#background p, .candidate-p p {
   font-family: "Source Sans Pro", arial, sans-serif;
-  padding: 10px 10px 0px 10px;
-  margin: 5px 0px 5px 0px;
   font-size: 1.15em;
   line-height: 150%;
 }
@@ -1359,9 +1357,6 @@ p.about {
   .question-candidates {
     display: none;
   }
-  .question {
-    width: 75%;
-  }
   #bills .span-70 {
     width: 90%;
   }
@@ -1510,15 +1505,6 @@ p.about {
   #mobile-nav-break {
     display: block;
   }
-  .endorsed-name {
-    float: none;
-  }
-  .endorsement img {
-    margin: 0;
-  }
-  .endorsement {
-    padding-top: 10px;
-  }
   .mobile-hide {
     display: none;
   }
@@ -1560,11 +1546,6 @@ p.about {
     background-color: transparent;
     padding: 0 0 10px 0;
     width: auto;
-  }
-  .endorsement {
-    float: none;
-    clear: both;
-    padding: 20px 20px 0 20px;
   }
   #footer-container {
     margin-bottom: 20px;
