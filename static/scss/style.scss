@@ -873,7 +873,6 @@ img.cand-pic {
   border-bottom: 10px solid #d0d0d0;
 }
 
-
 .section-header {
   padding: 0;
   text-align: left;
@@ -1450,7 +1449,8 @@ p.about {
     clear: both;
     width: 100%;
   }
-  .cand-bio-text, #cand-bio-text {
+  .cand-bio-text,
+  #cand-bio-text {
     float: none;
     clear: both;
     width: 100%;
