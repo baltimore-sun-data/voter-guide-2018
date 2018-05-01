@@ -533,10 +533,6 @@ nav.revealed {
   padding-top: 50px;
 }
 
-.col-md-3 {
-  text-align: center;
-}
-
 .cand-button {
   width: 90%;
   color: #fff;
@@ -706,12 +702,12 @@ img.cand-pic {
 
 #cand-name {
   background-color: #f2f2f2;
-  padding: 20px;
-  width: 350px;
+  font-family: "Brandon", Helvetica, sans-serif;
   font-size: 2.25em;
   letter-spacing: 0.09em;
-  font-family: "Brandon", Helvetica, sans-serif;
   line-height: 100%;
+  margin: 0;
+  padding: 20px;
   text-transform: uppercase;
 }
 
@@ -897,13 +893,17 @@ img.cand-pic {
   margin-bottom: 10px;
 }
 
-#bio p,
-#background p {
+.basic-p p {
   font-family: "Source Sans Pro", arial, sans-serif;
-  padding: 10px 10px 0px 10px;
-  margin: 5px 0px 5px 0px;
   font-size: 1.15em;
   line-height: 150%;
+}
+
+#bio .sub-header {
+  color: #a5a5a5;
+  font-family: "Brandon", Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 #social {
@@ -1376,9 +1376,6 @@ p.about {
 @media only screen and (max-width: 900px) {
   .question-candidates {
     display: none;
-  }
-  .question {
-    width: 75%;
   }
   #bills .span-70 {
     width: 90%;

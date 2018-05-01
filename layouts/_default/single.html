@@ -37,9 +37,9 @@
      </div>
     {{ end }}
      <div id="cand-bio-text">
-      <div id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
+      <h1 id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
         {{ .Param "full-name" }}
-      </div>
+      </h1>
       {{ if .Param "endorsement"}}
         <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
       {{ end }}
@@ -180,69 +180,88 @@
    </div>
   </div>
   <div class="container">
-   <section id="bio">
-    <header class="section-header {{.Params.party | lower }}">
-      Background
-    </header>
-    <div class="group">
-     {{ with .Params.background }}
-     <div id="bio-text" class="span-60 left">
-      {{ markdownify . }}
-     </div>
-     {{ end }}
-     <div id="social" class="span-40 right {{.Params.party | lower }}">
-      <ul>
-       {{ with .Param "web" }}
-       <li>
-        <a href="{{ . }}" class="website-link" target="_blank">
-          <span class="icon-globe"></span>
-          {{ replace (replace . "http://" "") "https://" "" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-tw" }}
-       <li>
-        <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
-          <span class="icon-twitter"></span>
-          @{{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-ig" }}
-       <li>
-        <a href="https://instagram.com/{{ . }}" target="_blank">
-          <span class="icon-instagram">
-            {{- partial "svg/instagram.svg" . -}}
-          </span>
-          {{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-fb" }}
-       <li>
-        <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
-          <span class="icon-facebook"></span>
-          {{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-      </ul>
-     </div>
+  <section id="bio">
+    <div class="col-xs-12">
+    <h2 class="section-header {{.Params.party | lower }}">
+      About {{ .Param "full-name" }}
+    </h2>
     </div>
-   </section>
+
+    <div class="group">
+      <div id="bio-text" class="col-md-7 basic-p">
+      {{ if not (or .Params.education .Params.background) }}
+        <p>
+          This candidate has not provided biographical information to <i>The Sun</i>.
+        </p>
+      {{ end }}
+      {{ with .Params.education }}
+        <h3 class="sub-header">
+          Education
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      {{ with .Params.background }}
+        <h3 class="sub-header">
+          Background
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      </div>
+      <div id="social" class="col-md-4 col-md-offset-1 {{.Params.party | lower }}">
+        <ul>
+        {{ with .Param "web" }}
+          <li>
+            <a href="{{ . }}" class="website-link" target="_blank">
+              <span class="icon-globe"></span>
+              {{ $url := urls.Parse . }}
+              {{ $url.Host }}{{ $url.Path }}
+              </a>
+          </li>
+          {{ end }}
+          {{ with .Param "social-tw" }}
+          <li>
+            <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
+              <span class="icon-twitter"></span>
+              @{{ . | strings.TrimSuffix "/" }}
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Param "social-ig" }}
+          <li>
+            <a href="https://instagram.com/{{ . }}" target="_blank">
+              <span class="icon-instagram">
+                {{- partial "svg/instagram.svg" . -}}
+              </span>
+              {{ . | strings.TrimSuffix "/" }}
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Param "social-fb" }}
+          <li>
+            <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
+              <span class="icon-facebook"></span>
+              {{ . | strings.TrimSuffix "/" }}
+            </a>
+          </li>
+        {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
    <!-- /bio -->
-   <section id="questionnaire" class="group {{.Params.party | lower }}">
-    <header class="section-header {{.Params.party | lower }}">
+   <section id="questionnaire" class="col-xs-12 group {{.Params.party | lower }}">
+    <h2 class="section-header {{.Params.party | lower }}">
      Questionnaire
-    </header>
+    </h2>
     {{ if not .Params.questions }}
-    <div id="message">
-     <br>
+    <div class="basic-p">
      <p>
       This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
      </p>
-     <br>
-     <br>
     </div>
     {{ else }}
     <div id="questionnaire-candidate">
@@ -265,7 +284,7 @@
      {{ $candidateFullName := .Param "full-name" }}
      {{ $race := .Page.CurrentSection.Title }}
      {{ range $i, $question := .Params.questions }}
-     <div id="question-{{ add $i 1 }}" class="question span-70 left">
+     <div id="question-{{ add $i 1 }}" class="question">
       <header class="question-header">
        <div class="question-num">
         {{ add $i 1 }}
@@ -301,11 +320,11 @@
    </section>
    <!-- /questionnaire -->
 
-   <div class="group">
-    <section id="news" class="span-65 left">
-     <header class="section-header {{.Params.party | lower }}">
+   <div class="group col-xs-12">
+    <section id="news">
+     <h2 class="section-header {{.Params.party | lower }}">
       Election Coverage
-     </header>
+     </h2>
 
      {{ partial "coverage.html" . }}
     </section>
