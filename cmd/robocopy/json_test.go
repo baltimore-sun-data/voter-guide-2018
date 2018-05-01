@@ -3,18 +3,41 @@ package main
 import (
 	"encoding/json"
 	"io/ioutil"
+	"net/http"
 	"os"
+	"strings"
 	"testing"
 )
 
-func readFile(t *testing.T, fn string) []byte {
+func readSource(t *testing.T, name string) []byte {
 	t.Helper()
+	if strings.HasPrefix(name, "http") {
+		return readURL(t, name)
+	}
+
+	return readFile(t, name)
+}
+
+func readFile(t *testing.T, fn string) []byte {
 	f, err := os.Open(fn)
 	if err != nil {
 		t.Fatalf("unexpected error opening file in testing: %v ", err)
 	}
 	defer f.Close()
 	b, err := ioutil.ReadAll(BOMReader(f))
+	if err != nil {
+		t.Fatalf("unexpected read error in testing: %v ", err)
+	}
+	return b
+}
+
+func readURL(t *testing.T, url string) []byte {
+	rsp, err := http.Get(url)
+	if err != nil {
+		t.Fatalf("unexpected error opening file in testing: %v ", err)
+	}
+	defer rsp.Body.Close()
+	b, err := ioutil.ReadAll(BOMReader(rsp.Body))
 	if err != nil {
 		t.Fatalf("unexpected read error in testing: %v ", err)
 	}
@@ -33,10 +56,13 @@ func TestUnmarshallJSON(t *testing.T) {
 		{"old-results", "test/Results.js", &Results{}},
 		{"new-precinct-results", "test/GP18-PrecinctResults.js", &PrecinctResults{}},
 		{"new-results", "test/GP18-Results.js", &Results{}},
+		{"live-metadata", "http://elections.maryland.gov/elections/results_data/GP18/MetaData.js", &Metadata{}},
+		{"live-precinct-results", "http://elections.maryland.gov/elections/results_data/GP18/PrecinctResults.js", &PrecinctResults{}},
+		{"live-results", "http://elections.maryland.gov/elections/results_data/GP18/Results.js", &Results{}},
 	}
 	for _, tc := range tcs {
 		t.Run(tc.name, func(t *testing.T) {
-			b := readFile(t, tc.file)
+			b := readSource(t, tc.file)
 			if err := json.Unmarshal(b, &tc.value); err != nil {
 				t.Fatalf("could not unmarshall JSON: %v ", err)
 			}
@@ -51,10 +77,11 @@ func TestMetadataObj(t *testing.T) {
 	}{
 		{"new-metadata", "test/GP18-Metadata.js"},
 		{"old-metadata", "test/Metadata.js"},
+		{"live-metadata", "http://elections.maryland.gov/elections/results_data/GP18/MetaData.js"},
 	}
 	for _, tc := range tcs {
 		t.Run(tc.name, func(t *testing.T) {
-			b := readFile(t, tc.file)
+			b := readSource(t, tc.file)
 
 			var m Metadata
 			if err := json.Unmarshal(b, &m); err != nil {
