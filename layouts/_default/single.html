@@ -181,12 +181,37 @@
   </div>
   <div class="container">
   <section id="bio">
+    <div class="col-xs-12">
     <h2 class="section-header {{.Params.party | lower }}">
       About {{ .Param "full-name" }}
     </h2>
+    </div>
 
     <div class="group">
-      <div id="social" class="span-40 right {{.Params.party | lower }}">
+      <div id="bio-text" class="col-md-7 basic-p">
+      {{ if not (or .Params.education .Params.background) }}
+        <p>
+          This candidate has not provided biographical information to <i>The Sun</i>.
+        </p>
+      {{ end }}
+      {{ with .Params.education }}
+        <h3 class="sub-header">
+          Education
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      {{ with .Params.background }}
+        <h3 class="sub-header">
+          Background
+        </h3>
+        <div>
+          {{ markdownify . }}
+        </div>
+      {{ end }}
+      </div>
+      <div id="social" class="col-md-4 col-md-offset-1 {{.Params.party | lower }}">
         <ul>
         {{ with .Param "web" }}
           <li>
@@ -225,44 +250,18 @@
         {{ end }}
         </ul>
       </div>
-      <div id="bio-text" class="span-60">
-      {{ if not (or .Params.education .Params.background) }}
-        <p>
-          This candidate has not provided biographical information to <i>The Sun</i>.
-        </p>
-      {{ end }}
-      {{ with .Params.education }}
-        <h3 class="sub-header">
-          Education
-        </h3>
-        <div>
-          {{ markdownify . }}
-        </div>
-      {{ end }}
-      {{ with .Params.background }}
-        <h3 class="sub-header">
-          Background
-        </h3>
-        <div>
-          {{ markdownify . }}
-        </div>
-      {{ end }}
-      </div>
     </div>
   </section>
    <!-- /bio -->
-   <section id="questionnaire" class="group {{.Params.party | lower }}">
-    <header class="section-header {{.Params.party | lower }}">
+   <section id="questionnaire" class="col-xs-12 group {{.Params.party | lower }}">
+    <h2 class="section-header {{.Params.party | lower }}">
      Questionnaire
-    </header>
+    </h2>
     {{ if not .Params.questions }}
-    <div id="message">
-     <br>
+    <div class="basic-p">
      <p>
       This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
      </p>
-     <br>
-     <br>
     </div>
     {{ else }}
     <div id="questionnaire-candidate">
@@ -285,7 +284,7 @@
      {{ $candidateFullName := .Param "full-name" }}
      {{ $race := .Page.CurrentSection.Title }}
      {{ range $i, $question := .Params.questions }}
-     <div id="question-{{ add $i 1 }}" class="question span-70 left">
+     <div id="question-{{ add $i 1 }}" class="question">
       <header class="question-header">
        <div class="question-num">
         {{ add $i 1 }}
@@ -321,11 +320,11 @@
    </section>
    <!-- /questionnaire -->
 
-   <div class="group">
-    <section id="news" class="span-65 left">
-     <header class="section-header {{.Params.party | lower }}">
+   <div class="group col-xs-12">
+    <section id="news">
+     <h2 class="section-header {{.Params.party | lower }}">
       Election Coverage
-     </header>
+     </h2>
 
      {{ partial "coverage.html" . }}
     </section>
