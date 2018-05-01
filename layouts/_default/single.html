@@ -144,6 +144,12 @@
     <img
       alt='{{ .Param "full-name" }}'
       src='{{ dict "Site" $.Site "Value" $image | partial "assets.html" }}'
+      {{ if $imageRetina }}
+        srcset='
+          {{ dict "Site" .Site "Value" $image | partial "assets.html" }} 1x,
+          {{ dict "Site" .Site "Value" $imageRetina | partial "assets.html" }} 2x
+        '
+      {{ end }}
       class="nav-photo">
     {{ end }}
    </div>
