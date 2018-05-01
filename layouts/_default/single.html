@@ -26,8 +26,14 @@
 
   <!-- social icons-->
   <div class="container {{ .Params.party | lower }}-color">
-   <section id="top" class="group">
-    <div id="cand-bio" class="span-60 left">
+   <section id="top" class="row">
+    <div id="cand-bio" class="col-md-9 col-sm-12 {{ .Params.party | lower }}">
+      <div id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
+        {{ .Param "full-name" }}
+      </div>
+      {{ if .Param "endorsement"}}
+        <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
+      {{ end }}
     {{ if $image }}
      <div id="cand-pic">
       <img
@@ -37,12 +43,6 @@
      </div>
     {{ end }}
      <div id="cand-bio-text">
-      <div id="cand-name" class='{{ if .Param "endorsement"}}endorsed-name{{ end }}'>
-        {{ .Param "full-name" }}
-      </div>
-      {{ if .Param "endorsement"}}
-        <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
-      {{ end }}
       <div id="cand-details">
         <div class="social-icons candidate-page">
           <span class="icon-facebook js-click"></span>
@@ -76,6 +76,28 @@
       </div>
      </div>
     </div>
+    <div id="all-candidates" class="col-md-3 col-sm-12">
+
+    <div class="btn-group candidates-group">
+      <button class="btn candidates-btn btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <span>All candidates</span>
+       <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        {{ range .CurrentSection.Pages.GroupByParam "party" }}
+          {{ $adjective := dict "Democrat" "Democratic" }}
+            <h6 class="dropdown-header list-label general">
+             {{ default .Key (index $adjective .Key) }} Candidates:
+            </h6>
+            {{ range .Pages }}
+              <li>
+               <a href="{{ .URL }}" class="dropdown-item">{{.Title}}</a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </div>
+    </div>
     <!-- /cand-bio -->
     <div class="inline-nav-single mobile">
      <div class="nav-item" data-section="bio">
@@ -100,27 +122,6 @@
       </div>
      </div>
     </div>
-    <div id="all-candidates" class="span-40 right">
-    <!-- TODO -->
-     <!-- Democrat candidate navigation -->
-     {{ range .CurrentSection.Pages.GroupByParam "party" }}
-     <div class="candidate-{{.Key | lower }} candidates-list span-70 center">
-      {{ $adjective := dict "Democrat" "Democratic" }}
-      <div class="list-label general">
-       {{ default .Key (index $adjective .Key) }} Candidates:
-      </div>
-      <ul>
-        {{ range .Pages }}
-       <li>
-        <a href="{{.URL}}">{{.Title}}</a>
-       </li>
-       {{ end }}
-      </ul>
-     </div>
-     <!-- / Democrat candidate navigation -->
-     {{end}}
-    </div>
-    <!-- /all-candidates dem -->
    </section>
    <!-- /top section -->
   </div>
@@ -180,92 +181,96 @@
    </div>
   </div>
   <div class="container">
-   <section id="bio">
-    <header class="section-header {{.Params.party | lower }}">
-      Background
-    </header>
-    <div class="group">
-     {{ with .Params.background }}
-     <div id="bio-text" class="span-60 left">
-      {{ markdownify . }}
-     </div>
-     {{ end }}
-     <div id="social" class="span-40 right {{.Params.party | lower }}">
-      <ul>
-       {{ with .Param "web" }}
-       <li>
-        <a href="{{ . }}" class="website-link" target="_blank">
-          <span class="icon-globe"></span>
-          {{ replace (replace . "http://" "") "https://" "" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-tw" }}
-       <li>
-        <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
-          <span class="icon-twitter"></span>
-          @{{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-ig" }}
-       <li>
-        <a href="https://instagram.com/{{ . }}" target="_blank">
-          <span class="icon-instagram">
-            {{- partial "svg/instagram.svg" . -}}
-          </span>
-          {{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-       {{ with .Param "social-fb" }}
-       <li>
-        <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
-          <span class="icon-facebook"></span>
-          {{ . | strings.TrimSuffix "/" }}
-        </a>
-       </li>
-       {{ end }}
-      </ul>
-     </div>
+    <div class="row">
+     <section id="bio" class="col-sm-9">
+      <header class="section-header {{.Params.party | lower }}">
+        Background
+      </header>
+      {{ with .Params.background }}
+        {{ markdownify . }}
+      {{ end }}
+     </section>
+      <section id="social" class="col-sm-3 {{.Params.party | lower }}">
+        <ul>
+         {{ with .Param "web" }}
+         <li>
+          <a href="{{ . }}" class="website-link" target="_blank">
+            <span class="icon-globe"></span>
+            {{ replace (replace . "http://" "") "https://" "" }}
+          </a>
+         </li>
+         {{ end }}
+         {{ with .Param "social-tw" }}
+         <li>
+          <a href="https://twitter.com/{{.}}" class="twitter-link" target="_blank">
+            <span class="icon-twitter"></span>
+            @{{ . | strings.TrimSuffix "/" }}
+          </a>
+         </li>
+         {{ end }}
+         {{ with .Param "social-ig" }}
+         <li>
+          <a href="https://instagram.com/{{ . }}" target="_blank">
+            <span class="icon-instagram">
+              {{- partial "svg/instagram.svg" . -}}
+            </span>
+            {{ . | strings.TrimSuffix "/" }}
+          </a>
+         </li>
+         {{ end }}
+         {{ with .Param "social-fb" }}
+         <li>
+          <a href='https://facebook.com/{{ . }}' class="facebook-link" target="_blank">
+            <span class="icon-facebook"></span>
+            {{ . | strings.TrimSuffix "/" }}
+          </a>
+         </li>
+         {{ end }}
+        </ul>
+      </section>
     </div>
-   </section>
    <!-- /bio -->
-   <section id="questionnaire" class="group {{.Params.party | lower }}">
-    <header class="section-header {{.Params.party | lower }}">
-     Questionnaire
-    </header>
-    {{ if not .Params.questions }}
-    <div id="message">
-     <br>
-     <p>
-      This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
-     </p>
-     <br>
-     <br>
-    </div>
-    {{ else }}
-    <div id="questionnaire-candidate">
-     <!--&lt;div class=&#34;header-underline&#34;&gt;&lt;/div&gt;-->
-     <div id="questionnaire-nav">
-      <div>
-       Jump to:
+   <section id="questionnaire" class="{{.Params.party | lower }}">
+    <div class="row">
+    <div class="col-sm-12">
+      <header class="section-header {{.Params.party | lower }}">
+       Questionnaire
+      </header>
+      {{ if not .Params.questions }}
+      <div id="message">
+       <br>
+       <p>
+        This candidate did not respond to <i>The Sun</i>’s editorial questionnaire.
+       </p>
+       <br>
+       <br>
       </div>
-      <ul>
-       {{ range $i, $question := .Params.questions }}
-       <li data-subject="{{$question.shortname}}">
-        <a href="#question-{{ add $i 1 }}">
-         {{add $i 1}}
-        </a>
-       </li>
-       {{ end }}
-      </ul>
-     </div>
+      {{ else }}
+      <div id="questionnaire-candidate">
+       <!--&lt;div class=&#34;header-underline&#34;&gt;&lt;/div&gt;-->
+       <div id="questionnaire-nav">
+        <div>
+         Jump to:
+        </div>
+        <ul>
+         {{ range $i, $question := .Params.questions }}
+         <li data-subject="{{$question.shortname}}">
+          <a href="#question-{{ add $i 1 }}">
+           {{add $i 1}}
+          </a>
+         </li>
+         {{ end }}
+        </ul>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
      {{ $candidateLastName := .Param "last-name" }}
      {{ $candidateFullName := .Param "full-name" }}
      {{ $race := .Page.CurrentSection.Title }}
      {{ range $i, $question := .Params.questions }}
-     <div id="question-{{ add $i 1 }}" class="question span-70 left">
+     <div id="question-{{ add $i 1 }}" class="question col-sm-10">
       <header class="question-header">
        <div class="question-num">
         {{ add $i 1 }}
@@ -301,8 +306,8 @@
    </section>
    <!-- /questionnaire -->
 
-   <div class="group">
-    <section id="news" class="span-65 left">
+   <div class="row">
+    <section id="news" class="col-sm-8">
      <header class="section-header {{.Params.party | lower }}">
       Election Coverage
      </header>
