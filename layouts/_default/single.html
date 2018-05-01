@@ -8,6 +8,12 @@
       {{ $.Scratch.Set "image" $imagePNG }}
   {{ end }}
   {{ $image := $.Scratch.Get "image" }}
+  <!-- Retina images are optional, always JPEG -->
+  {{ $image500 := printf "images/candidates/%s-500.jpg" .Page.File.BaseFileName }}
+  {{ if fileExists (printf "static/%s" $image500) }}
+      {{ $.Scratch.Set "imageRetina" $image500 }}
+  {{ end }}
+  {{ $imageRetina := $.Scratch.Get "imageRetina" }}
 
   <div id="page-header">
    <div class="text">
@@ -36,6 +42,12 @@
       <img
         alt='{{ .Param "full-name" }}'
         src='{{ dict "Site" .Site "Value" $image | partial "assets.html" }}'
+        {{ if $imageRetina }}
+          srcset='
+            {{ dict "Site" .Site "Value" $image | partial "assets.html" }} 1x,
+            {{ dict "Site" .Site "Value" $imageRetina | partial "assets.html" }} 2x
+          '
+        {{ end }}
         class="cand-pic {{ .Params.party | lower }}">
      </div>
     {{ end }}
