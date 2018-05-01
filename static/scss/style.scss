@@ -299,6 +299,11 @@ a.page-header-link {
   padding: 0;
   clear: both;
 }
+
+.span-20 {
+  width: 22.5%;
+}
+
 .span-30 {
   width: 27.5%;
 }
@@ -327,6 +332,10 @@ a.page-header-link {
   width: 67.5%;
 }
 
+.span-80 {
+  width: 72.5%;
+}
+
 .left {
   float: left;
   margin-right: 2.5%;
@@ -339,10 +348,6 @@ a.page-header-link {
 
 .center {
   margin: 0px auto;
-}
-
-#top {
-  margin-top: 10px;
 }
 
 /******** FOOTER********** */
@@ -390,7 +395,11 @@ footer div {
 .inline-nav-single {
   text-align: center;
   color: #667682;
-  margin: 20px 0px 70px 0px;
+  padding-bottom: 40px;
+  max-width: 1140px;
+  margin: 20px auto 20px auto;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
 }
 #inline-nav a:link {
   color: #444444;
@@ -531,10 +540,6 @@ nav.revealed {
   clear: both;
   border-bottom: 1px solid #cdcdcd;
   padding-top: 50px;
-}
-
-.col-md-3 {
-  text-align: center;
 }
 
 .cand-button {
@@ -683,12 +688,13 @@ nav.revealed {
 }
 
 img.cand-pic {
-  max-width: 175px;
+  max-width: 350px;
+  width: 100%;
 }
 
 #cand-pic {
-  width: 175px;
-  height: 255px;
+  width: 40%;
+  height: auto;
   float: left;
   overflow: hidden;
 }
@@ -702,17 +708,18 @@ img.cand-pic {
 #cand-bio-text,
 .cand-bio-text {
   float: left;
+  width: 60%;
 }
 
 #cand-name {
-  background-color: #f2f2f2;
-  padding: 20px;
-  width: 350px;
+  padding: 10px;
   font-size: 2.25em;
   letter-spacing: 0.09em;
   font-family: "Brandon", Helvetica, sans-serif;
   line-height: 100%;
   text-transform: uppercase;
+  border-bottom: 10px solid #d0d0d0;
+  margin: 0;
 }
 
 .cand-name {
@@ -743,26 +750,14 @@ img.cand-pic {
   color: #222222;
 }
 
-#cand-details {
-  width: 100%;
-  max-width: 450px;
-}
-
-.cand-details {
-  padding-top: 10px;
-}
-
 #party,
 .party {
   text-transform: uppercase;
   font-weight: bold;
 }
 /*********If endorsed***********/
-.endorsed-name {
-  float: left;
-}
 .endorsement img {
-  margin-left: 10px;
+  padding-bottom: 10px;
 }
 
 .list-label {
@@ -835,31 +830,41 @@ img.cand-pic {
   border-bottom: 4px solid #00a967;
 }
 
-.section-header.democrat,
-.cand-pic.democrat {
+.section-header.democrat {
   border-left: 10px solid #2e98cc;
 }
 
-.section-header.republican,
-.cand-pic.republican {
+.section-header.republican {
   border-left: 10px solid #ed4227;
 }
 
-.section-header.green,
-.cand-pic.green {
+.section-header.green {
   border-left: 10px solid #00a967;
 }
 
-.section-header.libertarian,
-.cand-pic.libertarian {
+.section-header.libertarian {
   border-left: 10px solid #d5bc46;
 }
 
 .section-header.independent,
-.section-header.non-partisan,
-.cand-pic.independent,
-.cand-pic.non-partisan {
+.section-header.non-partisan {
   border-left: 10px solid #d0d0d0;
+}
+
+.democrat #cand-name {
+  border-bottom: 10px solid #2e98cc;
+}
+
+.republican #cand-name {
+  border-bottom: 10px solid #ed4227;
+}
+
+.green #cand-name {
+  border-bottom: 10px solid #00a967;
+}
+
+.libertarian #cand-name {
+  border-bottom: 10px solid #d5bc46;
 }
 
 .section-header {
@@ -896,12 +901,17 @@ img.cand-pic {
 #background header {
   margin-bottom: 10px;
 }
-
+#bio .sub-header {
+  color: #a5a5a5;
+  font-family: "Brandon", Helvetica, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 #bio p,
-#background p {
+#background p,
+.candidate-p p {
   font-family: "Source Sans Pro", arial, sans-serif;
-  padding: 10px 10px 0px 10px;
-  margin: 5px 0px 5px 0px;
   font-size: 1.15em;
   line-height: 150%;
 }
@@ -1285,17 +1295,9 @@ p.about {
     display: none;
   }
 
-  #cand-pic {
-    float: none;
-    width: auto;
-  }
-  #cand-pic img {
-    max-width: 100%;
-  }
-
   #cand-name,
   .cand-name {
-    font-size: 26px;
+    font-size: 2em;
     width: auto;
   }
 
@@ -1311,20 +1313,7 @@ p.about {
     margin: 0px 5%;
   }
 
-  #cand-bio,
-  .cand-bio {
-    float: none;
-    width: auto;
-  }
-
-  #cand-bio-text,
-  .cand-bio-text {
-    float: none;
-  }
-
   #all-candidates {
-    float: none;
-    width: auto;
     margin: 20px 0px 30px 0px;
   }
 
@@ -1349,10 +1338,6 @@ p.about {
   .candidate-box.selected:after {
     display: none;
   }
-
-  .inline-nav-single.mobile {
-    display: block;
-  }
   #inline-nav.desktop {
     display: none;
   }
@@ -1364,10 +1349,6 @@ p.about {
     float: none;
   }
 
-  .cand-bio-text {
-    width: 100%;
-  }
-
   .comptroller-button {
     display: none;
   }
@@ -1376,9 +1357,6 @@ p.about {
 @media only screen and (max-width: 900px) {
   .question-candidates {
     display: none;
-  }
-  .question {
-    width: 75%;
   }
   #bills .span-70 {
     width: 90%;
@@ -1424,8 +1402,6 @@ p.about {
   }
   .cand-name,
   #cand-name {
-    font-size: 1.5em;
-    width: 250px;
     padding-top: 5px;
   }
   .subscribe {
@@ -1464,7 +1440,23 @@ p.about {
   #mobile-nav .text {
     display: none;
   }
-
+  #cand-pic {
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+  .cand-bio-text,
+  #cand-bio-text {
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+  #cand-details,
+  .cand-details {
+    float: none;
+    clear: both;
+    padding: 20px 0 20px 0;
+  }
   #mobile-nav-drop {
     border-top: 1px solid white;
     left: 0px;
@@ -1514,15 +1506,6 @@ p.about {
   #mobile-nav-break {
     display: block;
   }
-  .endorsed-name {
-    float: none;
-  }
-  .endorsement img {
-    margin: 0;
-  }
-  .endorsement {
-    padding-top: 10px;
-  }
   .mobile-hide {
     display: none;
   }
@@ -1559,28 +1542,12 @@ p.about {
     height: auto;
   }
 
-  #cand-bio-text {
-    padding-left: 0px;
-  }
-
   #cand-name,
   .cand-name {
     background-color: transparent;
-    padding: 0 0 20px 0;
+    padding: 0 0 10px 0;
     width: auto;
   }
-  .endorsement {
-    float: none;
-    clear: both;
-    padding: 20px 20px 0 20px;
-  }
-  #cand-details,
-  .cand-details {
-    float: none;
-    clear: both;
-    padding: 0 0 20px 0;
-  }
-
   #footer-container {
     margin-bottom: 20px;
   }
@@ -1603,12 +1570,6 @@ p.about {
 }
 
 @media only screen and (max-width: 380px) {
-  #cand-name,
-  .cand-name {
-    font-size: 22px;
-    padding: 5px 0px 0px 0px;
-  }
-
   .cand-name.race {
     font-size: 1em;
   }
