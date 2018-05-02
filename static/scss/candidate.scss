@@ -32,4 +32,16 @@
     -o-transform: translateX(10px);
     transform: translateX(10px);
   }
+  .link.left {
+    @media only screen and (max-width: 585px) {
+      float: none;
+      margin-right: 0;
+    }
+  }
+  .link.right {
+    @media only screen and (max-width: 585px) {
+      float: none;
+      margin: 20px 0 0 0;
+    }
+  }
 }
