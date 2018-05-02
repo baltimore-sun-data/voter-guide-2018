@@ -5,13 +5,7 @@
   }
   .link {
     font-size: 1.5em;
-    -webkit-transform: translateX(0px);
-    -moz-transform: translateX(0px);
-    -ms-transform: translateX(0px);
-    -o-transform: translateX(0px);
     transform: translateX(0px);
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
     transition: all 0.5s;
   }
   a.btn {
@@ -19,17 +13,9 @@
     font-weight: 600;
   }
   .link.left:hover {
-    -webkit-transform: translateX(-10px);
-    -moz-transform: translateX(-10px);
-    -ms-transform: translateX(-10px);
-    -o-transform: translateX(-10px);
     transform: translateX(-10px);
   }
   .link.right:hover {
-    -webkit-transform: translateX(10px);
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
-    -o-transform: translateX(10px);
     transform: translateX(10px);
   }
   .link.left {
