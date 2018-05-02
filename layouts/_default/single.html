@@ -372,3 +372,73 @@
    {{ end }}
   </div>
 {{ end }}
+
+{{ define "extra-footer" }}
+<!-- Magic Google metadata -->
+{{ $.Scratch.Set "google-image" (slice (.Param "icon") (.Param "image") ) }}
+{{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
+{{ if fileExists (printf "static/%s" $imageJPG) }}
+    {{ $.Scratch.Add "google-image" $imageJPG }}
+{{ end }}
+{{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
+{{ if fileExists (printf "static/%s" $imagePNG) }}
+    {{ $.Scratch.Add "google-image" $imagePNG }}
+{{ end }}
+{{ $image500 := printf "images/candidates/%s-500.jpg" .Page.File.BaseFileName }}
+{{ if fileExists (printf "static/%s" $image500) }}
+    {{ $.Scratch.Add "google-image" $image500 }}
+{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  },
+  "headline": "{{ .Title }}",
+  "image": [
+   {{ range $i, $image := $.Scratch.Get "google-image" }}
+   {{ if gt $i 0 }},{{ end }}
+   {{ dict "Site" $.Site "Value" $image | partial "assets.html" | jsonify }}
+   {{ end }}
+  ],
+  "datePublished": "2018-04-25T09:20:00+04:00",
+  "dateModified": "{{ now.Format "2006-01-02T03:04:05+06:00" }}",
+  "author": {
+    "@type": "Organization",
+    "name": "The Baltimore Sun"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "The Baltimore Sun",
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ dict "Site" $.Site "Value" "/images/icon.png" | partial "assets.html" | jsonify }}
+    }
+  },
+  "description": "{{ .Param "full-name" }} answers an election 2018 questionnaire for The Baltimore Sun"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{ block "google-breadcrumb" (dict "p1" . "p2" .) }}
+      {{ if .p1.Parent }}
+        {{ template "google-breadcrumb" (dict "p1" .p1.Parent "p2" .p2) }}
+        ,
+      {{ end }}
+      {
+        "@type": "ListItem",
+        "item": {
+          "@id": "{{ .p1.Permalink }}",
+          "name": "{{ .p1.Param "shorttitle" | default .p1.Title }}"
+        }
+      }
+    {{ end }}
+  ]
+}
+</script>
+{{ end }}
