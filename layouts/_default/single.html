@@ -344,7 +344,27 @@
     {{ end }}
    </section>
    <!-- /questionnaire -->
-
+   {{ if (or .NextInSection .PrevInSection) }}
+   <div class="row next-in-section col-sm-12">
+     <h2 class="section-header {{.Params.party | lower }}">
+       More Candidates for
+       <a href="{{ .CurrentSection.URL }}">{{ .CurrentSection.LinkTitle }}</a>
+     </h2>
+     <div class="col-sm-8">
+       {{ with .NextInSection }}
+       <div class="link left">
+         <a href="{{ .URL }}">← {{ .LinkTitle }}</a>
+       </div>
+       {{ end }}
+       {{ with .PrevInSection }}
+       <div class="link right">
+         <a href="{{ .URL }}">{{ .LinkTitle }} →</a>
+       </div>
+       {{ end }}
+     </div>
+   </div>
+   <div class="clear-splash"></div>
+   {{ end }}
    <div class="row">
     <section id="news" class="col-sm-8">
      <h2 class="section-header {{.Params.party | lower }}">
