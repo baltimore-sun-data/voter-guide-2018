@@ -12,6 +12,7 @@ var app = {
     app.target_links();
     app.toggle_fixed_nav();
     app.party_toggle();
+    app.results_download();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -353,6 +354,87 @@ var app = {
         $("#choosePartyText").empty();
         $("#choosePartyText").text(party);
       }
+    });
+  },
+
+  results_download: function() {
+    // Simple convenience functions
+    function each(qs, callback) {
+      var nodes = typeof qs === "object" ? qs : document.querySelectorAll(qs);
+      var i;
+      for (i = 0; i < nodes.length; i++) {
+        callback(nodes[i], i);
+      }
+    }
+
+    // function on(qs, etype, callback) {
+    //   var nodes = typeof qs === "object" ? qs : document.querySelectorAll(qs);
+    //   var i;
+    //   for (i = 0; i < nodes.length; i++) {
+    //     nodes[i].addEventListener(etype, callback);
+    //   }
+    // }
+
+    function request(url, success, failure) {
+      var xhr = new XMLHttpRequest();
+      xhr.addEventListener("load", function() {
+        if (xhr.status < 200 || xhr.status > 299) {
+          console.warn("request error", xhr.statusText);
+          xhr.dispatchEvent(new Event("error"));
+          return;
+        }
+        try {
+          success(xhr);
+        } catch (ex) {
+          console.warn("request error", ex);
+          xhr.dispatchEvent(new Event("error"));
+        }
+      });
+      xhr.addEventListener("error", failure);
+      xhr.open("GET", url, true);
+      xhr.send();
+    }
+
+    each("[data-replacement-url]", function(el) {
+      var url = el.getAttribute("data-replacement-url");
+      var targetEl = el.getAttribute("data-target");
+      var errorEl = el.getAttribute("data-errors");
+      var timeout = el.getAttribute("data-timeout");
+
+      if (!url || !targetEl || !errorEl || !timeout) {
+        console.warn("data-replacement-url missing requirements");
+        return;
+      }
+
+      var timeoutID;
+      function setTimer() {
+        timeoutID = window.setTimeout(function() {
+          el.dispatchEvent(new Event("update"));
+        }, timeout);
+      }
+
+      el.addEventListener("update", function(ev) {
+        console.log("update started");
+        window.clearTimeout(timeoutID);
+        request(
+          url,
+          function(xhr) {
+            each(targetEl, function(el) {
+              el.innerHTML = xhr.responseText;
+            });
+          },
+          function(e) {
+            each(errorEl, function(el) {
+              el.innerText = "Something went wrong";
+            });
+
+            console.error(e);
+          }
+        );
+        setTimer();
+      }, true);
+
+      el.dispatchEvent(new Event("update"));
     });
   }
 };
