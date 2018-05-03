@@ -56,9 +56,9 @@ func TestUnmarshallJSON(t *testing.T) {
 		{"old-results", "test/Results.js", &Results{}},
 		{"new-precinct-results", "test/GP18-PrecinctResults.js", &PrecinctResults{}},
 		{"new-results", "test/GP18-Results.js", &Results{}},
-		{"live-metadata", "http://elections.maryland.gov/elections/results_data/GP18/MetaData.js", &Metadata{}},
-		{"live-precinct-results", "http://elections.maryland.gov/elections/results_data/GP18/PrecinctResults.js", &PrecinctResults{}},
-		{"live-results", "http://elections.maryland.gov/elections/results_data/GP18/Results.js", &Results{}},
+		{"live-metadata", metadata18url, &Metadata{}},
+		{"live-precinct-results", precinctResults18url, &PrecinctResults{}},
+		{"live-results", results18url, &Results{}},
 	}
 	for _, tc := range tcs {
 		t.Run(tc.name, func(t *testing.T) {
@@ -77,7 +77,7 @@ func TestMetadataObj(t *testing.T) {
 	}{
 		{"new-metadata", "test/GP18-Metadata.js"},
 		{"old-metadata", "test/Metadata.js"},
-		{"live-metadata", "http://elections.maryland.gov/elections/results_data/GP18/MetaData.js"},
+		{"live-metadata", metadata18url},
 	}
 	for _, tc := range tcs {
 		t.Run(tc.name, func(t *testing.T) {

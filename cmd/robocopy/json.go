@@ -258,6 +258,21 @@ type Metadata struct {
 	Parties       map[PartyID]Party
 }
 
+func MetadataFrom(name string) (m *Metadata, err error) {
+	rc, err := readFrom(name)
+	if err != nil {
+		return nil, fmt.Errorf("could not open metadata: %v", err)
+	}
+	defer deferClose(&err, rc.Close)
+
+	m = &Metadata{}
+	dec := json.NewDecoder(BOMReader(rc))
+	if err = dec.Decode(&m); err != nil {
+		return nil, fmt.Errorf("could not decode metadata: %v", err)
+	}
+	return m, err
+}
+
 func (m *Metadata) UnmarshalJSON(b []byte) error {
 	var raw metadataJSON
 	err := json.Unmarshal(b, &raw)
