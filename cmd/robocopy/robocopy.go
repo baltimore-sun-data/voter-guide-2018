@@ -1,10 +1,12 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"net/http"
 	"os"
+	"path/filepath"
 	"time"
 )
 
@@ -29,6 +31,7 @@ func main() {
 type Config struct {
 	Local            bool
 	MetadataLocation string
+	OutputDir        string
 }
 
 func FromArgs(args []string) *Config {
@@ -36,6 +39,7 @@ func FromArgs(args []string) *Config {
 	fl := flag.NewFlagSet("robocopy", flag.ExitOnError)
 	fl.BoolVar(&conf.Local, "local", false, "just save files local")
 	fl.StringVar(&conf.MetadataLocation, "metadata-src", metadata18url, "url or filename for metadata")
+	fl.StringVar(&conf.OutputDir, "output-dir", "static/results/", "directory to save into")
 	fl.Usage = func() {
 		fmt.Fprintf(os.Stderr,
 			`robocopy
@@ -61,6 +65,28 @@ func (c *Config) Exec() error {
 		return err
 	}
 
-	err = templates.ExecuteTemplate(os.Stdout, "metadata", m)
-	return err
+	return c.createJSON("metadata.json", m)
+}
+
+func (c *Config) createJSON(filename string, data interface{}) (err error) {
+	os.MkdirAll(c.OutputDir, os.ModePerm)
+	f, err := os.Create(filepath.Join(c.OutputDir, filename))
+	if err != nil {
+		return fmt.Errorf("could not create JSON file %s/%s: %v", c.OutputDir, filename, err)
+	}
+	defer deferClose(&err, f.Close)
+
+	enc := json.NewEncoder(f)
+	return enc.Encode(data)
+}
+
+func (c *Config) createFile(name string, data interface{}) (err error) {
+	os.MkdirAll(c.OutputDir, os.ModePerm)
+	f, err := os.Create(filepath.Join(c.OutputDir, name) + ".html")
+	if err != nil {
+		return fmt.Errorf("could not create template file %s/%s.html: %v", c.OutputDir, name, err)
+	}
+	defer deferClose(&err, f.Close)
+
+	return templates.ExecuteTemplate(f, name, data)
 }
