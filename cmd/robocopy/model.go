@@ -96,7 +96,7 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 		dist, ok := jur.dmap[did]
 		if !ok {
 			jur.Districts = append(jur.Districts, districtReturnJSON{
-				Name: m.Jurisdictions[jid].Name,
+				Name: m.Districts[did].Name,
 			})
 			dist = &jur.Districts[len(jur.Districts)-1]
 		}
