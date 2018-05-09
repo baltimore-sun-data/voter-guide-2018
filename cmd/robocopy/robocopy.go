@@ -30,6 +30,7 @@ func main() {
 
 type Config struct {
 	Local            bool
+	CreateResults    bool
 	MetadataLocation string
 	OutputDir        string
 }
@@ -38,6 +39,7 @@ func FromArgs(args []string) *Config {
 	conf := &Config{}
 	fl := flag.NewFlagSet("robocopy", flag.ExitOnError)
 	fl.BoolVar(&conf.Local, "local", false, "just save files local")
+	fl.BoolVar(&conf.CreateResults, "results", false, "create results metadata file")
 	fl.StringVar(&conf.MetadataLocation, "metadata-src", metadata18url, "url or filename for metadata")
 	fl.StringVar(&conf.OutputDir, "output-dir", "static/results/", "directory to save into")
 	fl.Usage = func() {
@@ -65,7 +67,14 @@ func (c *Config) Exec() error {
 		return err
 	}
 
-	return c.createJSON("metadata.json", m)
+	if c.CreateResults {
+		err = c.createJSON("results.json", m)
+		if err != nil {
+			return fmt.Errorf("could not create results file: %v", err)
+		}
+	}
+
+	return nil
 }
 
 func (c *Config) createJSON(filename string, data interface{}) (err error) {
