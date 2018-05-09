@@ -421,6 +421,20 @@ type ResultsContainer struct {
 	}
 }
 
+func ResultsContainerFrom(name string) (r *ResultsContainer, err error) {
+	rc, err := readFrom(name)
+	if err != nil {
+		return nil, fmt.Errorf("could not open results: %v", err)
+	}
+	defer deferClose(&err, rc.Close)
+
+	r = &ResultsContainer{}
+	dec := json.NewDecoder(BOMReader(rc))
+	if err = dec.Decode(&r); err != nil {
+		return nil, fmt.Errorf("could not decode results: %v", err)
+	}
+	return r, err
+}
 func (r *ResultsContainer) UnmarshalJSON(b []byte) error {
 	/*
 	   Test:<If this is a test feed>,
