@@ -2,6 +2,22 @@
   "ElectionDate": "2018-06-26T00:00:00Z",
   "ElectionType": "Gubernatorial",
   "IsPrimary": true,
+  "KeyContests": [
+    {
+      "Name": "Governor / Lt. Governor",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Democrat",
+      "ID": 1
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Democrat",
+      "ID": 454
+    }
+  ],
   "AllContests": [
     {
       "Name": "Governor / Lt. Governor",

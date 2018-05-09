@@ -19,7 +19,9 @@
         data-timeout="30000">
 
         <select class="all-contests js-select2">
-          {{ range .Site.Data.results.AllContests }}
+          <optgroup label="Key Contests">
+          {{ block "optgroup" .Site.Data.results.KeyContests }}
+          {{ range . }}
             <option value="/results/contests/{{ .ID }}.html">
               {{- .Name -}}
               {{- if ne .Jurisdiction "State of Maryland" -}}
@@ -33,6 +35,11 @@
               {{- end -}}
             </option>
           {{ end }}
+          {{ end }}
+          </optgroup>
+          <optgroup label="All Contests">
+          {{ template "optgroup" .Site.Data.results.AllContests }}
+          </optgroup>
         </select>
 
 
