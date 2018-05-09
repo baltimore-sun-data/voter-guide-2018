@@ -55,12 +55,15 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		// rawOption := m.Options[rawResult.OptionID]
 		option, ok := result.om[rawResult.OptionID]
 		if !ok {
-			option = &OptionResult{}
-			option.Text = m.Options[rawResult.OptionID].Text
 			did := contest.District
-			option.District = m.Districts[did].Name
 			jid := m.Districts[did].Parent
-			option.Jurisdiction = m.Jurisdictions[jid].Name
+			result.Options = append(result.Options, OptionResult{
+				Text:         m.Options[rawResult.OptionID].Text,
+				District:     m.Districts[did].Name,
+				Jurisdiction: m.Jurisdictions[jid].Name,
+			})
+
+			option = &result.Options[len(result.Options)-1]
 			result.om[rawResult.OptionID] = option
 		}
 		if contest.District == rawResult.DistrictID {
