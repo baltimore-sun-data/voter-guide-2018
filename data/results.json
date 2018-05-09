@@ -4,16 +4,14 @@
   "IsPrimary": true,
   "KeyContests": [
     {
-      "Name": "Governor / Lt. Governor",
+      "Name": "Governor",
       "Jurisdiction": "State of Maryland",
       "District": "State of Maryland",
       "Party": "Democrat",
       "ID": 1
     },
     {
-      "Name": "State's Attorney",
-      "Jurisdiction": "State of Maryland",
-      "District": "Baltimore City",
+      "Name": "Baltimore City State's Attorney",
       "Party": "Democrat",
       "ID": 454
     }
