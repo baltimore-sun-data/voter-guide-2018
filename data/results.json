@@ -1,0 +1,6006 @@
+{
+  "ElectionDate": "2018-06-26T00:00:00Z",
+  "ElectionType": "Gubernatorial",
+  "IsPrimary": true,
+  "AllContests": [
+    {
+      "Name": "Governor / Lt. Governor",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Democrat",
+      "ID": 1
+    },
+    {
+      "Name": "Governor / Lt. Governor",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Republican",
+      "ID": 2
+    },
+    {
+      "Name": "Comptroller",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Democrat",
+      "ID": 3
+    },
+    {
+      "Name": "Comptroller",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Republican",
+      "ID": 4
+    },
+    {
+      "Name": "Attorney General",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Democrat",
+      "ID": 5
+    },
+    {
+      "Name": "Attorney General",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Republican",
+      "ID": 6
+    },
+    {
+      "Name": "U.S. Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Republican",
+      "ID": 7
+    },
+    {
+      "Name": "U.S. Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland",
+      "Party": "Democrat",
+      "ID": 8
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 1",
+      "Party": "Republican",
+      "ID": 9
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 1",
+      "Party": "Democrat",
+      "ID": 10
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 2",
+      "Party": "Republican",
+      "ID": 11
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 2",
+      "Party": "Democrat",
+      "ID": 12
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 3",
+      "Party": "Democrat",
+      "ID": 13
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 3",
+      "Party": "Republican",
+      "ID": 14
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 4",
+      "Party": "Democrat",
+      "ID": 15
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 4",
+      "Party": "Republican",
+      "ID": 16
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 5",
+      "Party": "Republican",
+      "ID": 17
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 5",
+      "Party": "Democrat",
+      "ID": 18
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 6",
+      "Party": "Democrat",
+      "ID": 19
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 6",
+      "Party": "Republican",
+      "ID": 20
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 7",
+      "Party": "Republican",
+      "ID": 21
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 7",
+      "Party": "Democrat",
+      "ID": 22
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 8",
+      "Party": "Democrat",
+      "ID": 23
+    },
+    {
+      "Name": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 8",
+      "Party": "Republican",
+      "ID": 24
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1",
+      "Party": "Republican",
+      "ID": 25
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 2",
+      "Party": "Republican",
+      "ID": 26
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3",
+      "Party": "Republican",
+      "ID": 27
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3",
+      "Party": "Democrat",
+      "ID": 28
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 4",
+      "Party": "Republican",
+      "ID": 29
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 4",
+      "Party": "Democrat",
+      "ID": 30
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 5",
+      "Party": "Republican",
+      "ID": 31
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 5",
+      "Party": "Democrat",
+      "ID": 32
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Party": "Democrat",
+      "ID": 33
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Party": "Republican",
+      "ID": 34
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Republican",
+      "ID": 35
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Democrat",
+      "ID": 36
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Party": "Republican",
+      "ID": 37
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Party": "Democrat",
+      "ID": 38
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9",
+      "Party": "Republican",
+      "ID": 39
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9",
+      "Party": "Democrat",
+      "ID": 40
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Party": "Democrat",
+      "ID": 41
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Party": "Republican",
+      "ID": 42
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Party": "Democrat",
+      "ID": 43
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Republican",
+      "ID": 44
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Democrat",
+      "ID": 45
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 13",
+      "Party": "Democrat",
+      "ID": 46
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Democrat",
+      "ID": 47
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Republican",
+      "ID": 48
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Democrat",
+      "ID": 49
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Republican",
+      "ID": 50
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Democrat",
+      "ID": 51
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Republican",
+      "ID": 52
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Democrat",
+      "ID": 53
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Republican",
+      "ID": 54
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Democrat",
+      "ID": 55
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Democrat",
+      "ID": 56
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Republican",
+      "ID": 57
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Democrat",
+      "ID": 58
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Republican",
+      "ID": 59
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 60
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Republican",
+      "ID": 61
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Democrat",
+      "ID": 62
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23",
+      "Party": "Democrat",
+      "ID": 63
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24",
+      "Party": "Democrat",
+      "ID": 64
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Party": "Democrat",
+      "ID": 65
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Party": "Democrat",
+      "ID": 66
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Party": "Republican",
+      "ID": 67
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27",
+      "Party": "Republican",
+      "ID": 68
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27",
+      "Party": "Democrat",
+      "ID": 69
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 28",
+      "Party": "Republican",
+      "ID": 70
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 28",
+      "Party": "Democrat",
+      "ID": 71
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29",
+      "Party": "Democrat",
+      "ID": 72
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29",
+      "Party": "Republican",
+      "ID": 73
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30",
+      "Party": "Republican",
+      "ID": 74
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30",
+      "Party": "Democrat",
+      "ID": 75
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 31",
+      "Party": "Republican",
+      "ID": 76
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 31",
+      "Party": "Democrat",
+      "ID": 77
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Democrat",
+      "ID": 78
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Republican",
+      "ID": 79
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Republican",
+      "ID": 80
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Democrat",
+      "ID": 81
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 34",
+      "Party": "Democrat",
+      "ID": 82
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 34",
+      "Party": "Republican",
+      "ID": 83
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 35",
+      "Party": "Republican",
+      "ID": 84
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Party": "Republican",
+      "ID": 85
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Party": "Democrat",
+      "ID": 86
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37",
+      "Party": "Republican",
+      "ID": 87
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37",
+      "Party": "Democrat",
+      "ID": 88
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38",
+      "Party": "Democrat",
+      "ID": 89
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38",
+      "Party": "Republican",
+      "ID": 90
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Democrat",
+      "ID": 91
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Republican",
+      "ID": 92
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 40",
+      "Party": "Democrat",
+      "ID": 93
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 41",
+      "Party": "Democrat",
+      "ID": 94
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42",
+      "Party": "Democrat",
+      "ID": 95
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 43",
+      "Party": "Democrat",
+      "ID": 96
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44",
+      "Party": "Republican",
+      "ID": 97
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44",
+      "Party": "Democrat",
+      "ID": 98
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Party": "Democrat",
+      "ID": 99
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Party": "Democrat",
+      "ID": 100
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Party": "Republican",
+      "ID": 101
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47",
+      "Party": "Republican",
+      "ID": 102
+    },
+    {
+      "Name": "State Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47",
+      "Party": "Democrat",
+      "ID": 103
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1A",
+      "Party": "Republican",
+      "ID": 104
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1A",
+      "Party": "Democrat",
+      "ID": 105
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1B",
+      "Party": "Republican",
+      "ID": 106
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1B",
+      "Party": "Democrat",
+      "ID": 107
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1C",
+      "Party": "Republican",
+      "ID": 108
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 2A",
+      "Party": "Republican",
+      "ID": 109
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 2B",
+      "Party": "Democrat",
+      "ID": 110
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 2B",
+      "Party": "Republican",
+      "ID": 111
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3A",
+      "Party": "Democrat",
+      "ID": 112
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3A",
+      "Party": "Republican",
+      "ID": 113
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3B",
+      "Party": "Republican",
+      "ID": 114
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3B",
+      "Party": "Democrat",
+      "ID": 115
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 4",
+      "Party": "Republican",
+      "ID": 116
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 4",
+      "Party": "Democrat",
+      "ID": 117
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 5",
+      "Party": "Republican",
+      "ID": 118
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 5",
+      "Party": "Democrat",
+      "ID": 119
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Party": "Republican",
+      "ID": 120
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Party": "Democrat",
+      "ID": 121
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Democrat",
+      "ID": 122
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Republican",
+      "ID": 123
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Party": "Democrat",
+      "ID": 124
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Party": "Republican",
+      "ID": 125
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9A",
+      "Party": "Republican",
+      "ID": 126
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9A",
+      "Party": "Democrat",
+      "ID": 127
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9B",
+      "Party": "Republican",
+      "ID": 128
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9B",
+      "Party": "Democrat",
+      "ID": 129
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Party": "Republican",
+      "ID": 130
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Party": "Democrat",
+      "ID": 131
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Party": "Democrat",
+      "ID": 132
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Party": "Republican",
+      "ID": 133
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Republican",
+      "ID": 134
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Democrat",
+      "ID": 135
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 13",
+      "Party": "Democrat",
+      "ID": 136
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 13",
+      "Party": "Republican",
+      "ID": 137
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Democrat",
+      "ID": 138
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Republican",
+      "ID": 139
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Democrat",
+      "ID": 140
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Republican",
+      "ID": 141
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Democrat",
+      "ID": 142
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Republican",
+      "ID": 143
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Republican",
+      "ID": 144
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Democrat",
+      "ID": 145
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Democrat",
+      "ID": 146
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Republican",
+      "ID": 147
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Democrat",
+      "ID": 148
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Republican",
+      "ID": 149
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Democrat",
+      "ID": 150
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 151
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Republican",
+      "ID": 152
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Democrat",
+      "ID": 153
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Republican",
+      "ID": 154
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23A",
+      "Party": "Republican",
+      "ID": 155
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23A",
+      "Party": "Democrat",
+      "ID": 156
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23B",
+      "Party": "Democrat",
+      "ID": 157
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24",
+      "Party": "Democrat",
+      "ID": 158
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Party": "Democrat",
+      "ID": 159
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Party": "Democrat",
+      "ID": 160
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27A",
+      "Party": "Democrat",
+      "ID": 161
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27B",
+      "Party": "Democrat",
+      "ID": 162
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27B",
+      "Party": "Republican",
+      "ID": 163
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27C",
+      "Party": "Republican",
+      "ID": 164
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27C",
+      "Party": "Democrat",
+      "ID": 165
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 28",
+      "Party": "Democrat",
+      "ID": 166
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 28",
+      "Party": "Republican",
+      "ID": 167
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29A",
+      "Party": "Republican",
+      "ID": 168
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29A",
+      "Party": "Democrat",
+      "ID": 169
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29B",
+      "Party": "Republican",
+      "ID": 170
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29B",
+      "Party": "Democrat",
+      "ID": 171
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29C",
+      "Party": "Republican",
+      "ID": 172
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29C",
+      "Party": "Democrat",
+      "ID": 173
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30A",
+      "Party": "Republican",
+      "ID": 174
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30A",
+      "Party": "Democrat",
+      "ID": 175
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30B",
+      "Party": "Republican",
+      "ID": 176
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30B",
+      "Party": "Democrat",
+      "ID": 177
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 31A",
+      "Party": "Democrat",
+      "ID": 178
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 31A",
+      "Party": "Republican",
+      "ID": 179
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 31B",
+      "Party": "Republican",
+      "ID": 180
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 31B",
+      "Party": "Democrat",
+      "ID": 181
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Democrat",
+      "ID": 182
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Republican",
+      "ID": 183
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Republican",
+      "ID": 184
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Democrat",
+      "ID": 185
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 34A",
+      "Party": "Democrat",
+      "ID": 186
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 34A",
+      "Party": "Republican",
+      "ID": 187
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 34B",
+      "Party": "Democrat",
+      "ID": 188
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 34B",
+      "Party": "Republican",
+      "ID": 189
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 35A",
+      "Party": "Democrat",
+      "ID": 190
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 35A",
+      "Party": "Republican",
+      "ID": 191
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 35B",
+      "Party": "Republican",
+      "ID": 192
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 35B",
+      "Party": "Democrat",
+      "ID": 193
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Party": "Republican",
+      "ID": 194
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Party": "Democrat",
+      "ID": 195
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Party": "Democrat",
+      "ID": 196
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Party": "Democrat",
+      "ID": 197
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37A",
+      "Party": "Democrat",
+      "ID": 198
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37A",
+      "Party": "Republican",
+      "ID": 199
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37B",
+      "Party": "Republican",
+      "ID": 200
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37B",
+      "Party": "Democrat",
+      "ID": 201
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38A",
+      "Party": "Democrat",
+      "ID": 202
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38A",
+      "Party": "Republican",
+      "ID": 203
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38B",
+      "Party": "Republican",
+      "ID": 204
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38C",
+      "Party": "Republican",
+      "ID": 205
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Democrat",
+      "ID": 206
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Republican",
+      "ID": 207
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 40",
+      "Party": "Democrat",
+      "ID": 208
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 41",
+      "Party": "Democrat",
+      "ID": 209
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42A",
+      "Party": "Democrat",
+      "ID": 210
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42A",
+      "Party": "Republican",
+      "ID": 211
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42B",
+      "Party": "Republican",
+      "ID": 212
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42B",
+      "Party": "Democrat",
+      "ID": 213
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 43",
+      "Party": "Democrat",
+      "ID": 214
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44A",
+      "Party": "Democrat",
+      "ID": 215
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44B",
+      "Party": "Democrat",
+      "ID": 216
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Party": "Republican",
+      "ID": 217
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Party": "Democrat",
+      "ID": 218
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Party": "Democrat",
+      "ID": 219
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Party": "Republican",
+      "ID": 220
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47A",
+      "Party": "Democrat",
+      "ID": 221
+    },
+    {
+      "Name": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47B",
+      "Party": "Democrat",
+      "ID": 222
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Republican",
+      "ID": 223
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Democrat",
+      "ID": 224
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Democrat",
+      "ID": 225
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Republican",
+      "ID": 226
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 227
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 228
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 229
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 230
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Republican",
+      "ID": 231
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 232
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Republican",
+      "ID": 233
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 234
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Republican",
+      "ID": 235
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 236
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 237
+    },
+    {
+      "Name": "County Executive",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 238
+    },
+    {
+      "Name": "President of the County Council",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 239
+    },
+    {
+      "Name": "President of the County Council",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 240
+    },
+    {
+      "Name": "County Commissioner President",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Republican",
+      "ID": 241
+    },
+    {
+      "Name": "County Commissioner President",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 242
+    },
+    {
+      "Name": "County Commissioner President",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Democrat",
+      "ID": 243
+    },
+    {
+      "Name": "County Commissioner President",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 244
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 245
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Republican",
+      "ID": 246
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Democrat",
+      "ID": 247
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 248
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 249
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Democrat",
+      "ID": 250
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 251
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Republican",
+      "ID": 252
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 253
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Republican",
+      "ID": 254
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 255
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 256
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Republican",
+      "ID": 257
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 258
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 259
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Republican",
+      "ID": 260
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 261
+    },
+    {
+      "Name": "County Council At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 262
+    },
+    {
+      "Name": "County Commissioner At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 263
+    },
+    {
+      "Name": "County Commissioner At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Democrat",
+      "ID": 264
+    },
+    {
+      "Name": "County Commissioner At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 265
+    },
+    {
+      "Name": "County Commissioner At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Democrat",
+      "ID": 266
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 267
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 268
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 269
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 270
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 271
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 272
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 273
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 274
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 275
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 276
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 277
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 278
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 279
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 280
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 281
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 282
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 283
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 284
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 285
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 286
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 287
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 288
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 289
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 290
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 291
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 292
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 293
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 294
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 295
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 296
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 297
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 298
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 299
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 300
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 301
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 302
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 303
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 304
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 3",
+      "Party": "Democrat",
+      "ID": 305
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 306
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 307
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 308
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 309
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 310
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 311
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 312
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 313
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 314
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 315
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 316
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 317
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 4",
+      "Party": "Democrat",
+      "ID": 318
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 5",
+      "Party": "Democrat",
+      "ID": 319
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 320
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 321
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 5",
+      "Party": "Democrat",
+      "ID": 322
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 323
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 324
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Frederick",
+      "District": "Councilmanic District 5",
+      "Party": "Democrat",
+      "ID": 325
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 326
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Howard",
+      "District": "Councilmanic District 5",
+      "Party": "Democrat",
+      "ID": 327
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Montgomery",
+      "District": "Councilmanic District 5",
+      "Party": "Democrat",
+      "ID": 328
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 5",
+      "Party": "Democrat",
+      "ID": 329
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 330
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 6",
+      "Party": "Republican",
+      "ID": 331
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 6",
+      "Party": "Democrat",
+      "ID": 332
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 6",
+      "Party": "Democrat",
+      "ID": 333
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 6",
+      "Party": "Republican",
+      "ID": 334
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 6",
+      "Party": "Democrat",
+      "ID": 335
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 7",
+      "Party": "Democrat",
+      "ID": 336
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 7",
+      "Party": "Republican",
+      "ID": 337
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 7",
+      "Party": "Democrat",
+      "ID": 338
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 7",
+      "Party": "Republican",
+      "ID": 339
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 7",
+      "Party": "Democrat",
+      "ID": 340
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 8",
+      "Party": "Democrat",
+      "ID": 341
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Prince George's",
+      "District": "Councilmanic District 9",
+      "Party": "Democrat",
+      "ID": 342
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District A",
+      "Party": "Democrat",
+      "ID": 343
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District A",
+      "Party": "Republican",
+      "ID": 344
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District B",
+      "Party": "Republican",
+      "ID": 345
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District B",
+      "Party": "Democrat",
+      "ID": 346
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District C",
+      "Party": "Republican",
+      "ID": 347
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District C",
+      "Party": "Democrat",
+      "ID": 348
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District D",
+      "Party": "Democrat",
+      "ID": 349
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District D",
+      "Party": "Republican",
+      "ID": 350
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District E",
+      "Party": "Republican",
+      "ID": 351
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District E",
+      "Party": "Democrat",
+      "ID": 352
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District F",
+      "Party": "Republican",
+      "ID": 353
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Harford",
+      "District": "Councilmanic District F",
+      "Party": "Democrat",
+      "ID": 354
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 355
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 356
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 357
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 358
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 2",
+      "Party": "Republican",
+      "ID": 359
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 360
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 2",
+      "Party": "Republican",
+      "ID": 361
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 362
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 3",
+      "Party": "Democrat",
+      "ID": 363
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 364
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 365
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 3",
+      "Party": "Democrat",
+      "ID": 366
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 3",
+      "Party": "Democrat",
+      "ID": 367
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 368
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 4",
+      "Party": "Republican",
+      "ID": 369
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 4",
+      "Party": "Democrat",
+      "ID": 370
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 4",
+      "Party": "Democrat",
+      "ID": 371
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 4",
+      "Party": "Republican",
+      "ID": 372
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 4",
+      "Party": "Republican",
+      "ID": 373
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 4",
+      "Party": "Democrat",
+      "ID": 374
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Carroll",
+      "District": "Commissioner District 5",
+      "Party": "Republican",
+      "ID": 375
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 5",
+      "Party": "Democrat",
+      "ID": 376
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Somerset",
+      "District": "Commissioner District 5",
+      "Party": "Republican",
+      "ID": 377
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 5",
+      "Party": "Democrat",
+      "ID": 378
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 5",
+      "Party": "Republican",
+      "ID": 379
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 6",
+      "Party": "Republican",
+      "ID": 380
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 7",
+      "Party": "Republican",
+      "ID": 381
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
+      "Party": "Republican",
+      "ID": 382
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
+      "Party": "Democrat",
+      "ID": 383
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
+      "Party": "Republican",
+      "ID": 384
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
+      "Party": "Democrat",
+      "ID": 385
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
+      "Party": "Republican",
+      "ID": 386
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
+      "Party": "Democrat",
+      "ID": 387
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 2",
+      "Party": "Republican",
+      "ID": 388
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 2",
+      "Party": "Democrat",
+      "ID": 389
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 2",
+      "Party": "Republican",
+      "ID": 390
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 2",
+      "Party": "Democrat",
+      "ID": 391
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 2",
+      "Party": "Republican",
+      "ID": 392
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 2",
+      "Party": "Democrat",
+      "ID": 393
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 3",
+      "Party": "Republican",
+      "ID": 394
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 3",
+      "Party": "Democrat",
+      "ID": 395
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 3",
+      "Party": "Republican",
+      "ID": 396
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 3",
+      "Party": "Democrat",
+      "ID": 397
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 4",
+      "Party": "Republican",
+      "ID": 398
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 4",
+      "Party": "Democrat",
+      "ID": 399
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 5",
+      "Party": "Republican",
+      "ID": 400
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 5",
+      "Party": "Democrat",
+      "ID": 401
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 5",
+      "Party": "Republican",
+      "ID": 402
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 5",
+      "Party": "Democrat",
+      "ID": 403
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 6",
+      "Party": "Republican",
+      "ID": 404
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 6",
+      "Party": "Democrat",
+      "ID": 405
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 6",
+      "Party": "Republican",
+      "ID": 406
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 6",
+      "Party": "Democrat",
+      "ID": 407
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 7",
+      "Party": "Republican",
+      "ID": 408
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 7",
+      "Party": "Democrat",
+      "ID": 409
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 7",
+      "Party": "Republican",
+      "ID": 410
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 7",
+      "Party": "Democrat",
+      "ID": 411
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 8",
+      "Party": "Republican",
+      "ID": 412
+    },
+    {
+      "Name": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 8",
+      "Party": "Democrat",
+      "ID": 413
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Cecil",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 414
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Cecil",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 415
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Cecil",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 416
+    },
+    {
+      "Name": "County Council",
+      "Jurisdiction": "Cecil",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 417
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Calvert",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 418
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Calvert",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 419
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Charles",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 420
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Charles",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 421
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Garrett",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 422
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Garrett",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 423
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 424
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 425
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Saint Mary's",
+      "District": "Commissioner District 1",
+      "Party": "Republican",
+      "ID": 426
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Saint Mary's",
+      "District": "Commissioner District 1",
+      "Party": "Democrat",
+      "ID": 427
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Calvert",
+      "District": "Commissioner District 2",
+      "Party": "Republican",
+      "ID": 428
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Calvert",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 429
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Charles",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 430
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Garrett",
+      "District": "Commissioner District 2",
+      "Party": "Republican",
+      "ID": 431
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 432
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 2",
+      "Party": "Republican",
+      "ID": 433
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Saint Mary's",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 434
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Saint Mary's",
+      "District": "Commissioner District 2",
+      "Party": "Republican",
+      "ID": 435
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Calvert",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 436
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Calvert",
+      "District": "Commissioner District 3",
+      "Party": "Democrat",
+      "ID": 437
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Charles",
+      "District": "Commissioner District 3",
+      "Party": "Democrat",
+      "ID": 438
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Garrett",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 439
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 3",
+      "Party": "Democrat",
+      "ID": 440
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 441
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Saint Mary's",
+      "District": "Commissioner District 3",
+      "Party": "Republican",
+      "ID": 442
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Charles",
+      "District": "Commissioner District 4",
+      "Party": "Republican",
+      "ID": 443
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Charles",
+      "District": "Commissioner District 4",
+      "Party": "Democrat",
+      "ID": 444
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 4",
+      "Party": "Democrat",
+      "ID": 445
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 4",
+      "Party": "Republican",
+      "ID": 446
+    },
+    {
+      "Name": "County Commissioner",
+      "Jurisdiction": "Saint Mary's",
+      "District": "Commissioner District 4",
+      "Party": "Republican",
+      "ID": 447
+    },
+    {
+      "Name": "Treasurer",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 448
+    },
+    {
+      "Name": "Treasurer",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 449
+    },
+    {
+      "Name": "Treasurer",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 450
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 451
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Republican",
+      "ID": 452
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Democrat",
+      "ID": 453
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Democrat",
+      "ID": 454
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Democrat",
+      "ID": 455
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 456
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 457
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Republican",
+      "ID": 458
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Republican",
+      "ID": 459
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 460
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Democrat",
+      "ID": 461
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 462
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Republican",
+      "ID": 463
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 464
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 465
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Republican",
+      "ID": 466
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 467
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 468
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Republican",
+      "ID": 469
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 470
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 471
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 472
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 473
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Republican",
+      "ID": 474
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 475
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Republican",
+      "ID": 476
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 477
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 478
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 479
+    },
+    {
+      "Name": "State's Attorney",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Republican",
+      "ID": 480
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 481
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Republican",
+      "ID": 482
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Democrat",
+      "ID": 483
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Democrat",
+      "ID": 484
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Democrat",
+      "ID": 485
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Republican",
+      "ID": 486
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Democrat",
+      "ID": 487
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Democrat",
+      "ID": 488
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 489
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Democrat",
+      "ID": 490
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Republican",
+      "ID": 491
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Republican",
+      "ID": 492
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 493
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Republican",
+      "ID": 494
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 495
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 496
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Republican",
+      "ID": 497
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 498
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 499
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Republican",
+      "ID": 500
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 501
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 502
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 503
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 504
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 505
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 506
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Democrat",
+      "ID": 507
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Democrat",
+      "ID": 508
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Republican",
+      "ID": 509
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 510
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Republican",
+      "ID": 511
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Republican",
+      "ID": 512
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 513
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 514
+    },
+    {
+      "Name": "Clerk of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Republican",
+      "ID": 515
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Democrat",
+      "ID": 516
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 517
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Republican",
+      "ID": 518
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Democrat",
+      "ID": 519
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Democrat",
+      "ID": 520
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Democrat",
+      "ID": 521
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Republican",
+      "ID": 522
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 523
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Democrat",
+      "ID": 524
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 525
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Republican",
+      "ID": 526
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Republican",
+      "ID": 527
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 528
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Democrat",
+      "ID": 529
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Republican",
+      "ID": 530
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 531
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 532
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Republican",
+      "ID": 533
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 534
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 535
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 536
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Republican",
+      "ID": 537
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 538
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Republican",
+      "ID": 539
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 540
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 541
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 542
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 543
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Republican",
+      "ID": 544
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 545
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 546
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 547
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Democrat",
+      "ID": 548
+    },
+    {
+      "Name": "Register of Wills",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Republican",
+      "ID": 549
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 550
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Democrat",
+      "ID": 551
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Republican",
+      "ID": 552
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Democrat",
+      "ID": 553
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Democrat",
+      "ID": 554
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 555
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Democrat",
+      "ID": 556
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 557
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Democrat",
+      "ID": 558
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Republican",
+      "ID": 559
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Republican",
+      "ID": 560
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Democrat",
+      "ID": 561
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 562
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 563
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 564
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Republican",
+      "ID": 565
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 566
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 567
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Republican",
+      "ID": 568
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 569
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 570
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Democrat",
+      "ID": 571
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 572
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Democrat",
+      "ID": 573
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Republican",
+      "ID": 574
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Republican",
+      "ID": 575
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 576
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Republican",
+      "ID": 577
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 578
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 579
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 580
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Republican",
+      "ID": 581
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "Dorchester",
+      "District": "Orphans' Court District 1",
+      "Party": "Democrat",
+      "ID": 582
+    },
+    {
+      "Name": "Judge of the Orphans' Court",
+      "Jurisdiction": "Dorchester",
+      "District": "Orphans' Court District 2",
+      "Party": "Democrat",
+      "ID": 583
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 584
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Democrat",
+      "ID": 585
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Anne Arundel County",
+      "Party": "Republican",
+      "ID": 586
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Republican",
+      "ID": 587
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore City",
+      "Party": "Democrat",
+      "ID": 588
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Democrat",
+      "ID": 589
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County",
+      "Party": "Republican",
+      "ID": 590
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Democrat",
+      "ID": 591
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 592
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 593
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Democrat",
+      "ID": 594
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Republican",
+      "ID": 595
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Republican",
+      "ID": 596
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 597
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Republican",
+      "ID": 598
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Democrat",
+      "ID": 599
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 600
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 601
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Republican",
+      "ID": 602
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 603
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 604
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Republican",
+      "ID": 605
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 606
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Republican",
+      "ID": 607
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 608
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Republican",
+      "ID": 609
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Prince George's County",
+      "Party": "Democrat",
+      "ID": 610
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Democrat",
+      "ID": 611
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 612
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 613
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Democrat",
+      "ID": 614
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Democrat",
+      "ID": 615
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Republican",
+      "ID": 616
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 617
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Republican",
+      "ID": 618
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 619
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 620
+    },
+    {
+      "Name": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Republican",
+      "ID": 621
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Democrat",
+      "ID": 622
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Democrat",
+      "ID": 623
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 2",
+      "Party": "Democrat",
+      "ID": 624
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 4",
+      "Party": "Democrat",
+      "ID": 625
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 5",
+      "Party": "Democrat",
+      "ID": 626
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 6",
+      "Party": "Democrat",
+      "ID": 627
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Worcester",
+      "District": "Commissioner District 7",
+      "Party": "Democrat",
+      "ID": 628
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 1",
+      "Party": "Democrat",
+      "ID": 629
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "Dorchester",
+      "District": "Councilmanic District 2",
+      "Party": "Democrat",
+      "ID": 630
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Democrat",
+      "ID": 631
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 632
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Democrat",
+      "ID": 633
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23",
+      "Party": "Democrat",
+      "ID": 634
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24",
+      "Party": "Democrat",
+      "ID": 635
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Party": "Democrat",
+      "ID": 636
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Party": "Democrat",
+      "ID": 637
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27",
+      "Party": "Democrat",
+      "ID": 638
+    },
+    {
+      "Name": "Democratic Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47",
+      "Party": "Democrat",
+      "ID": 639
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Party": "Democrat",
+      "ID": 640
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Party": "Democrat",
+      "ID": 641
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Democrat",
+      "ID": 642
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Democrat",
+      "ID": 643
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Party": "Democrat",
+      "ID": 644
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Party": "Democrat",
+      "ID": 645
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Party": "Democrat",
+      "ID": 646
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Party": "Democrat",
+      "ID": 647
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Party": "Democrat",
+      "ID": 648
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Party": "Democrat",
+      "ID": 649
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Party": "Democrat",
+      "ID": 650
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Democrat",
+      "ID": 651
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Democrat",
+      "ID": 652
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Party": "Democrat",
+      "ID": 653
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 654
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 655
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 656
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Democrat",
+      "ID": 657
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Democrat",
+      "ID": 658
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23A",
+      "Party": "Democrat",
+      "ID": 659
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23A",
+      "Party": "Democrat",
+      "ID": 660
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23B",
+      "Party": "Democrat",
+      "ID": 661
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23B",
+      "Party": "Democrat",
+      "ID": 662
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24",
+      "Party": "Democrat",
+      "ID": 663
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24",
+      "Party": "Democrat",
+      "ID": 664
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Party": "Democrat",
+      "ID": 665
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Party": "Democrat",
+      "ID": 666
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Party": "Democrat",
+      "ID": 667
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Party": "Democrat",
+      "ID": 668
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27A",
+      "Party": "Democrat",
+      "ID": 669
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27A",
+      "Party": "Democrat",
+      "ID": 670
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27A",
+      "Party": "Democrat",
+      "ID": 671
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27B",
+      "Party": "Democrat",
+      "ID": 672
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27B",
+      "Party": "Democrat",
+      "ID": 673
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27B",
+      "Party": "Democrat",
+      "ID": 674
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 40",
+      "Party": "Democrat",
+      "ID": 675
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 40",
+      "Party": "Democrat",
+      "ID": 676
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 41",
+      "Party": "Democrat",
+      "ID": 677
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 41",
+      "Party": "Democrat",
+      "ID": 678
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42A",
+      "Party": "Democrat",
+      "ID": 679
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42A",
+      "Party": "Democrat",
+      "ID": 680
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42B",
+      "Party": "Democrat",
+      "ID": 681
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42B",
+      "Party": "Democrat",
+      "ID": 682
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 43",
+      "Party": "Democrat",
+      "ID": 683
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 43",
+      "Party": "Democrat",
+      "ID": 684
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44A",
+      "Party": "Democrat",
+      "ID": 685
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44A",
+      "Party": "Democrat",
+      "ID": 686
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44B",
+      "Party": "Democrat",
+      "ID": 687
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44B",
+      "Party": "Democrat",
+      "ID": 688
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Party": "Democrat",
+      "ID": 689
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Party": "Democrat",
+      "ID": 690
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Party": "Democrat",
+      "ID": 691
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Party": "Democrat",
+      "ID": 692
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47A",
+      "Party": "Democrat",
+      "ID": 693
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47A",
+      "Party": "Democrat",
+      "ID": 694
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47B",
+      "Party": "Democrat",
+      "ID": 695
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47B",
+      "Party": "Democrat",
+      "ID": 696
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Democrat",
+      "ID": 697
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Democrat",
+      "ID": 698
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Democrat",
+      "ID": 699
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Democrat",
+      "ID": 700
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 701
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 702
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Democrat",
+      "ID": 703
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 704
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 705
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 706
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Democrat",
+      "ID": 707
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Democrat",
+      "ID": 708
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Democrat",
+      "ID": 709
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 710
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 711
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 712
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Democrat",
+      "ID": 713
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Democrat",
+      "ID": 714
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Democrat",
+      "ID": 715
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Democrat",
+      "ID": 716
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Democrat",
+      "ID": 717
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Democrat",
+      "ID": 718
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Democrat",
+      "ID": 719
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Democrat",
+      "ID": 720
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Democrat",
+      "ID": 721
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Democrat",
+      "ID": 722
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Democrat",
+      "ID": 723
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Democrat",
+      "ID": 724
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Democrat",
+      "ID": 725
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Democrat",
+      "ID": 726
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Democrat",
+      "ID": 727
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Democrat",
+      "ID": 728
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 729
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 730
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Democrat",
+      "ID": 731
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Democrat",
+      "ID": 732
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Democrat",
+      "ID": 733
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Democrat",
+      "ID": 734
+    },
+    {
+      "Name": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Democrat",
+      "ID": 735
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Republican",
+      "ID": 736
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Calvert County",
+      "Party": "Republican",
+      "ID": 737
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Caroline County",
+      "Party": "Republican",
+      "ID": 738
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Republican",
+      "ID": 739
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County",
+      "Party": "Republican",
+      "ID": 740
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Republican",
+      "ID": 741
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Dorchester County",
+      "Party": "Republican",
+      "ID": 742
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Republican",
+      "ID": 743
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Garrett County",
+      "Party": "Republican",
+      "ID": 744
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County",
+      "Party": "Republican",
+      "ID": 745
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Republican",
+      "ID": 746
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Kent County",
+      "Party": "Republican",
+      "ID": 747
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County",
+      "Party": "Republican",
+      "ID": 748
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Saint Mary's County",
+      "Party": "Republican",
+      "ID": 749
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Somerset County",
+      "Party": "Republican",
+      "ID": 750
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Talbot County",
+      "Party": "Republican",
+      "ID": 751
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Washington County",
+      "Party": "Republican",
+      "ID": 752
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Wicomico County",
+      "Party": "Republican",
+      "ID": 753
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Worcester County",
+      "Party": "Republican",
+      "ID": 754
+    },
+    {
+      "Name": "Republican Central Committee At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Republican",
+      "ID": 755
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Republican",
+      "ID": 756
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Republican",
+      "ID": 757
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Republican",
+      "ID": 758
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Republican",
+      "ID": 759
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Republican",
+      "ID": 760
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Republican",
+      "ID": 761
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Republican",
+      "ID": 762
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Republican",
+      "ID": 763
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Republican",
+      "ID": 764
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Republican",
+      "ID": 765
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Republican",
+      "ID": 766
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Republican",
+      "ID": 767
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Republican",
+      "ID": 768
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Republican",
+      "ID": 769
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Republican",
+      "ID": 770
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Republican",
+      "ID": 771
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Party": "Republican",
+      "ID": 772
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Republican",
+      "ID": 773
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Party": "Republican",
+      "ID": 774
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Republican",
+      "ID": 775
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 32",
+      "Party": "Republican",
+      "ID": 776
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Republican",
+      "ID": 777
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Party": "Republican",
+      "ID": 778
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Republican",
+      "ID": 779
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Republican",
+      "ID": 780
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 781
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 1",
+      "Party": "Republican",
+      "ID": 782
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 783
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 2",
+      "Party": "Republican",
+      "ID": 784
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 785
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 3",
+      "Party": "Republican",
+      "ID": 786
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 787
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 4",
+      "Party": "Republican",
+      "ID": 788
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 5",
+      "Party": "Republican",
+      "ID": 789
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 6",
+      "Party": "Republican",
+      "ID": 790
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 6",
+      "Party": "Republican",
+      "ID": 791
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 7",
+      "Party": "Republican",
+      "ID": 792
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 7",
+      "Party": "Republican",
+      "ID": 793
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 8",
+      "Party": "Republican",
+      "ID": 794
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 9",
+      "Party": "Republican",
+      "ID": 795
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 10",
+      "Party": "Republican",
+      "ID": 796
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 11",
+      "Party": "Republican",
+      "ID": 797
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 12",
+      "Party": "Republican",
+      "ID": 798
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 13",
+      "Party": "Republican",
+      "ID": 799
+    },
+    {
+      "Name": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 14",
+      "Party": "Republican",
+      "ID": 800
+    },
+    {
+      "Name": "Democratic Central Committee Female At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 801
+    },
+    {
+      "Name": "Democratic Central Committee Male At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Democrat",
+      "ID": 802
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Democrat",
+      "ID": 803
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Democrat",
+      "ID": 804
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Democrat",
+      "ID": 805
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Democrat",
+      "ID": 806
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Democrat",
+      "ID": 807
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Democrat",
+      "ID": 808
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Democrat",
+      "ID": 809
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Democrat",
+      "ID": 810
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Democrat",
+      "ID": 811
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Democrat",
+      "ID": 812
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Democrat",
+      "ID": 813
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Democrat",
+      "ID": 814
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Democrat",
+      "ID": 815
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Democrat",
+      "ID": 816
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Democrat",
+      "ID": 817
+    },
+    {
+      "Name": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Democrat",
+      "ID": 818
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Democrat",
+      "ID": 819
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Party": "Democrat",
+      "ID": 820
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Democrat",
+      "ID": 821
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Party": "Democrat",
+      "ID": 822
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Democrat",
+      "ID": 823
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Party": "Democrat",
+      "ID": 824
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Democrat",
+      "ID": 825
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Party": "Democrat",
+      "ID": 826
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Democrat",
+      "ID": 827
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Party": "Democrat",
+      "ID": 828
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Democrat",
+      "ID": 829
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Party": "Democrat",
+      "ID": 830
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Democrat",
+      "ID": 831
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Party": "Democrat",
+      "ID": 832
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Democrat",
+      "ID": 833
+    },
+    {
+      "Name": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Party": "Democrat",
+      "ID": 834
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "State of Maryland",
+      "District": "Allegany County",
+      "Party": "Non Partisan",
+      "ID": 835
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "State of Maryland",
+      "District": "Carroll County",
+      "Party": "Non Partisan",
+      "ID": 836
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County",
+      "Party": "Non Partisan",
+      "ID": 837
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County",
+      "Party": "Non Partisan",
+      "ID": 838
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "State of Maryland",
+      "District": "Howard County",
+      "Party": "Non Partisan",
+      "ID": 839
+    },
+    {
+      "Name": "Board of Education At Large",
+      "Jurisdiction": "State of Maryland",
+      "District": "Montgomery County",
+      "Party": "Non Partisan",
+      "ID": 840
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Montgomery",
+      "District": "Board of Education District 3",
+      "Party": "Non Partisan",
+      "ID": 841
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Queen Anne's",
+      "District": "Commissioner District 2",
+      "Party": "Non Partisan",
+      "ID": 842
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Garrett",
+      "District": "Commissioner District 3",
+      "Party": "Non Partisan",
+      "ID": 843
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Prince George's",
+      "District": "Board of Education District 2",
+      "Party": "Non Partisan",
+      "ID": 844
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Prince George's",
+      "District": "Board of Education District 3",
+      "Party": "Non Partisan",
+      "ID": 845
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Prince George's",
+      "District": "Board of Education District 6",
+      "Party": "Non Partisan",
+      "ID": 846
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Prince George's",
+      "District": "Board of Education District 9",
+      "Party": "Non Partisan",
+      "ID": 847
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 1",
+      "Party": "Non Partisan",
+      "ID": 848
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 1",
+      "Party": "Non Partisan",
+      "ID": 849
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 1",
+      "Party": "Non Partisan",
+      "ID": 850
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 3",
+      "Party": "Non Partisan",
+      "ID": 851
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 4",
+      "Party": "Non Partisan",
+      "ID": 852
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 4",
+      "Party": "Non Partisan",
+      "ID": 853
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Wicomico",
+      "District": "Councilmanic District 4",
+      "Party": "Non Partisan",
+      "ID": 854
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 5",
+      "Party": "Non Partisan",
+      "ID": 855
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Anne Arundel",
+      "District": "Councilmanic District 7",
+      "Party": "Non Partisan",
+      "ID": 856
+    },
+    {
+      "Name": "Board of Education",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 7",
+      "Party": "Non Partisan",
+      "ID": 857
+    }
+  ]
+}

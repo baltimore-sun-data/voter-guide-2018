@@ -395,14 +395,13 @@ var app = {
       xhr.send();
     }
 
-    each("[data-replacement-url]", function(el) {
-      var url = el.getAttribute("data-replacement-url");
+    each(".js-results-container", function(el) {
       var targetEl = el.getAttribute("data-target");
       var errorEl = el.getAttribute("data-errors");
       var timeout = el.getAttribute("data-timeout");
 
-      if (!url || !targetEl || !errorEl || !timeout) {
-        console.warn("data-replacement-url missing requirements");
+      if (!targetEl || !errorEl || !timeout) {
+        console.warn(".js-results-container missing requirements");
         return;
       }
 
@@ -413,27 +412,39 @@ var app = {
         }, timeout);
       }
 
-      el.addEventListener("update", function(ev) {
-        console.log("update started");
-        window.clearTimeout(timeoutID);
-        request(
-          url,
-          function(xhr) {
-            each(targetEl, function(el) {
-              el.innerHTML = xhr.responseText;
-            });
-          },
-          function(e) {
-            each(errorEl, function(el) {
-              el.innerText = "Something went wrong";
-            });
+      el.addEventListener(
+        "update",
+        function(ev) {
+          window.clearTimeout(timeoutID);
+          var url = el.querySelector("select").value;
+          console.log("update started for", url);
 
-            console.error(e);
-          }
-        );
-        setTimer();
-      }, true);
+          request(
+            url,
+            function(xhr) {
+              each(targetEl, function(el) {
+                el.innerHTML = xhr.responseText;
+              });
+            },
+            function(e) {
+              each(errorEl, function(el) {
+                el.innerText = "Something went wrong";
+              });
 
+              console.error(e);
+            }
+          );
+          setTimer();
+        },
+        true
+      );
+
+      el.dispatchEvent(new Event("update"));
+    });
+
+    $(".js-select2").select2();
+    $(".js-select2").on("select2:select", function(e) {
+      var el = e.target.closest(".js-results-container");
       el.dispatchEvent(new Event("update"));
     });
   }

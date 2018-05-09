@@ -1,0 +1,47 @@
+{{ define "extra-head" }}
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+{{ end }}
+
+{{ define "main" }}
+<div class="container">
+    <h1 class="section-header-splash grey">{{.Title}}</h1>
+    <main class="results-page">
+        {{ .Content }}
+    </main>
+
+    {{ partial "ad-leaderboard.html" . }}
+
+    <div
+        class="js-results-container"
+        data-target="#info"
+        data-errors="#errors"
+        data-timeout="30000">
+
+        <select class="all-contests js-select2">
+          {{ range .Site.Data.results.AllContests }}
+            <option value="/results/contests/{{ .ID }}.html">
+              {{- .Name -}}
+              {{- if ne .Jurisdiction "State of Maryland" -}}
+                {{- " " -}}{{- .Jurisdiction -}}
+              {{- end -}}
+              {{- if ne .District "State of Maryland" -}}
+                {{- " " -}}{{- .District -}}
+              {{- end -}}
+              {{- if ne .Party "Non Partisan" -}}
+                {{- " " -}}({{- .Party -}})
+              {{- end -}}
+            </option>
+          {{ end }}
+        </select>
+
+
+        <div id="errors"></div>
+        <div id="info"></div>
+    </div>
+</div>
+
+<!-- googletag.pubads().refresh([gptadslots[0]]) -->
+
+{{ end }}
+
