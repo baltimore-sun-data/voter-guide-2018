@@ -3,43 +3,20 @@ package main
 import (
 	"encoding/json"
 	"io/ioutil"
-	"net/http"
-	"os"
-	"strings"
 	"testing"
 )
 
 func readSource(t *testing.T, name string) []byte {
 	t.Helper()
-	if strings.HasPrefix(name, "http") {
-		return readURL(t, name)
+	rc, err := readFrom(name)
+	if err != nil {
+		t.Fatalf("unexpected error opening source in testing: %v ", err)
 	}
+	defer rc.Close()
 
-	return readFile(t, name)
-}
-
-func readFile(t *testing.T, fn string) []byte {
-	f, err := os.Open(fn)
+	b, err := ioutil.ReadAll(BOMReader(rc))
 	if err != nil {
-		t.Fatalf("unexpected error opening file in testing: %v ", err)
-	}
-	defer f.Close()
-	b, err := ioutil.ReadAll(BOMReader(f))
-	if err != nil {
-		t.Fatalf("unexpected read error in testing: %v ", err)
-	}
-	return b
-}
-
-func readURL(t *testing.T, url string) []byte {
-	rsp, err := http.Get(url)
-	if err != nil {
-		t.Fatalf("unexpected error opening file in testing: %v ", err)
-	}
-	defer rsp.Body.Close()
-	b, err := ioutil.ReadAll(BOMReader(rsp.Body))
-	if err != nil {
-		t.Fatalf("unexpected read error in testing: %v ", err)
+		t.Fatalf("unexpected error reading source in testing: %v ", err)
 	}
 	return b
 }
@@ -53,12 +30,12 @@ func TestUnmarshallJSON(t *testing.T) {
 		{"old-metadata", "test/Metadata.js", &Metadata{}},
 		{"new-metadata", "test/GP18-Metadata.js", &Metadata{}},
 		{"old-precinct-results", "test/PrecinctResults.js", &PrecinctResults{}},
-		{"old-results", "test/Results.js", &Results{}},
+		{"old-results", "test/Results.js", &ResultsContainer{}},
 		{"new-precinct-results", "test/GP18-PrecinctResults.js", &PrecinctResults{}},
-		{"new-results", "test/GP18-Results.js", &Results{}},
+		{"new-results", "test/GP18-Results.js", &ResultsContainer{}},
 		{"live-metadata", metadata18url, &Metadata{}},
 		{"live-precinct-results", precinctResults18url, &PrecinctResults{}},
-		{"live-results", results18url, &Results{}},
+		{"live-results", results18url, &ResultsContainer{}},
 	}
 	for _, tc := range tcs {
 		t.Run(tc.name, func(t *testing.T) {
@@ -121,6 +98,60 @@ func TestMetadataObj(t *testing.T) {
 				}
 				if len(bad) > 0 {
 					t.Errorf("jurisdiction %v has invalid children: %v", j.Name, bad)
+				}
+			}
+		})
+	}
+}
+
+func TestResultsMetadata(t *testing.T) {
+	var tcs = []struct {
+		name         string
+		metadatafile string
+		resultsfile  string
+	}{
+		{"old-files", "test/Metadata.js", "test/Results.js"},
+		{"new-files", "test/GP18-Metadata.js", "test/GP18-Results.js"},
+		{"live-files", metadata18url, results18url},
+	}
+	for _, tc := range tcs {
+		t.Run(tc.name, func(t *testing.T) {
+			b := readSource(t, tc.metadatafile)
+			var m Metadata
+			if err := json.Unmarshal(b, &m); err != nil {
+				t.Fatalf("could not unmarshall JSON: %v ", err)
+			}
+
+			b = readSource(t, tc.resultsfile)
+			var rc ResultsContainer
+			if err := json.Unmarshal(b, &rc); err != nil {
+				t.Fatalf("could not unmarshall JSON: %v ", err)
+			}
+
+			for _, r := range rc.Results {
+				if _, ok := m.Options[r.OptionID]; !ok {
+					t.Fatalf("results have missing option: %d", r.OptionID)
+				}
+				cid := m.OptionParents[r.OptionID]
+				contest, ok := m.Contests[cid]
+				if !ok {
+					t.Fatalf("bad contest id %d", cid)
+
+				}
+				dist, ok := m.Districts[r.DistrictID]
+				if !ok {
+					t.Fatalf("bad district %d", r.DistrictID)
+				}
+
+				if r.DistrictID != contest.District {
+					if dist.Parent != m.Districts[contest.District].Parent {
+						t.Fatalf("option %d has unexpected district parents: %d != %d",
+							r.OptionID, dist.Parent, m.Districts[contest.District].Parent)
+					}
+				}
+				if dist.Parent != 0 && r.JurisdictionID != dist.Parent {
+					t.Fatalf("option %d has unexpected jurisdiction: %d != %d",
+						r.OptionID, r.JurisdictionID, dist.Parent)
 				}
 			}
 		})
