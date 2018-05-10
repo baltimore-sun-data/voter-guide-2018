@@ -15,15 +15,6 @@
   {{ end }}
   {{ $imageRetina := $.Scratch.Get "imageRetina" }}
 
-  {{ if .Param "note" }}
-  <div class="container note">
-
-    <h2 class="section-header {{.Params.party | lower }}">Note from <i>The Baltimore Sun</i></h2>
-    <div class="note-body">
-      {{ .Param "note" | markdownify }}
-    </div>
-  </div>
-  {{ end }}
   <div id="page-header">
    <div class="text">
     {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
@@ -119,6 +110,19 @@
         </ul>
       </div>
     </div>
+  </section>
+  {{ if .Param "note" }}
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="note">
+          <h2 class="section-header note-header">Note from <i>The Baltimore Sun</i></h2>
+          <div class="note-body">
+            {{ .Param "note" | markdownify }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
     <!-- /cand-bio -->
     <div class="inline-nav-single mobile">
      <div class="nav-item" data-section="bio">
@@ -143,7 +147,6 @@
       </div>
      </div>
     </div>
-   </section>
    <!-- /top section -->
   </div>
   <!-- /container -->

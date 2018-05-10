@@ -33,10 +33,35 @@
 }
 
 .note {
+  background-color: #f6f6f6;
+  padding: 1px 20px 20px 20px;
+  margin-top: 20px;
   i {
     font-style: oblique;
   }
   a {
     color: #2e98cc;
+  }
+  @media only screen and (max-width: 990px) {
+    margin-top: 0;
+  }
+  @media only screen and (max-width: 770px) {
+    padding: 1px 10px 10px 10px;
+  }
+}
+.section-header.note-header {
+  text-align: center;
+  color: #a5a5a5;
+  padding-left: 0;
+}
+
+.note-body {
+  font-weight: bold;
+  font-style: italic;
+  color: #667682;
+  font-size: 1.3em;
+
+  @media only screen and (max-width: 770px) {
+    font-size: 1.1em;
   }
 }
