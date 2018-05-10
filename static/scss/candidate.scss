@@ -34,7 +34,7 @@
 
 .note {
   background-color: #f6f6f6;
-  padding: 1px 20px 20px 20px;
+  padding: 20px;
   margin-top: 20px;
   i {
     font-style: oblique;
@@ -46,16 +46,19 @@
     margin-top: 0;
   }
   @media only screen and (max-width: 770px) {
-    padding: 1px 10px 10px 10px;
+    padding: 10px;
   }
 }
-.section-header.note-header {
+.note .note-header {
   text-align: center;
   color: #a5a5a5;
   padding-left: 0;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
-.note-body {
+.note .note-body {
   font-weight: bold;
   font-style: italic;
   color: #667682;
