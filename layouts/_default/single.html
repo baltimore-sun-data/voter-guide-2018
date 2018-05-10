@@ -15,6 +15,15 @@
   {{ end }}
   {{ $imageRetina := $.Scratch.Get "imageRetina" }}
 
+  {{ if .Param "note" }}
+  <div class="container note">
+
+    <h2 class="section-header {{.Params.party | lower }}">Note from <i>The Baltimore Sun</i></h2>
+    <div class="note-body">
+      {{ .Param "note" | markdownify }}
+    </div>
+  </div>
+  {{ end }}
   <div id="page-header">
    <div class="text">
     {{ block "breadcrumbnav" (dict "p1" . "p2" .) }}
