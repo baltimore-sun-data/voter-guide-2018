@@ -123,7 +123,7 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 		datum["questions"] = questions
 	}
 
-	if dob := get(datum, "dob"); dob != "" {
+	if dob := get(datum, "dob"); dob != "" && get(datum, "age") == "" {
 		birthdate, err := time.Parse("1/2/2006", dob)
 		if err == nil {
 			age := time.Now().Year() - birthdate.Year()
