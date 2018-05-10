@@ -64,13 +64,23 @@
         <li id="party" class="{{ .Params.party | lower }}-color">
           {{ .Params.party }}
         </li>
-        {{ range .Site.Data.metadata.singlePageParams }}
-        {{ if $.Param .key }}
+        {{ if $.Param "running-mate" }}
         <li>
-         <span class="key">{{ .display }}:</span>
-         <span class="value">{{ $.Param .key}}</span>
+         <span class="key">Running mate:</span>
+         <span class="value">{{ $.Param "running-mate"}}</span>
         </li>
         {{ end }}
+        {{ if $.Param "age" }}
+        <li title='As of {{ now.Format "January 2, 2006" }}'>
+         <span class="key">Age:</span>
+         <span class="value">{{ $.Param "age"}}</span>
+        </li>
+        {{ end }}
+        {{ if $.Param "residence" }}
+        <li>
+         <span class="key">Residence:</span>
+         <span class="value">{{ $.Param "residence"}}</span>
+        </li>
         {{ end }}
        </ul>
        {{ if isset .Params "survey-response" }}
