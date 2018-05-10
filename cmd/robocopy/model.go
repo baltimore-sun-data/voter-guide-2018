@@ -6,16 +6,22 @@ import (
 	"time"
 )
 
-func (c Contest) Party(m Metadata) string {
+func (c Contest) Party(m *Metadata) string {
 	return c.PartyID.From(m).Code
 }
 
-func (c Contest) DistrictName(m Metadata) string {
+func (c Contest) DistrictJurisdiction(m *Metadata) (dist, jur string) {
+	d := c.District.From(m)
+	p := d.Parent.From(m)
+	return d.Name, p.Name
+}
+
+func (c Contest) DistrictName(m *Metadata) string {
 	d := c.District.From(m)
 	return d.Name
 }
 
-func (c Contest) Jurisdiction(m Metadata) string {
+func (c Contest) Jurisdiction(m *Metadata) string {
 	d := c.District.From(m)
 	p := d.Parent.From(m)
 	if p.Name == d.Name {

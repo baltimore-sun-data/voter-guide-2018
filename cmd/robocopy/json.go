@@ -227,23 +227,23 @@ const (
 	AllWriteInCandidates          = 'A'
 )
 
-func (id ContestID) From(m Metadata) Contest {
+func (id ContestID) From(m *Metadata) Contest {
 	return m.Contests[id]
 }
 
-func (id DistrictTypeID) From(m Metadata) DistrictType {
+func (id DistrictTypeID) From(m *Metadata) DistrictType {
 	return m.DistrictTypes[id]
 }
 
-func (id DistrictID) From(m Metadata) District {
+func (id DistrictID) From(m *Metadata) District {
 	return m.Districts[id]
 }
 
-func (id JurisdictionID) From(m Metadata) Jurisdiction {
+func (id JurisdictionID) From(m *Metadata) Jurisdiction {
 	return m.Jurisdictions[id]
 }
 
-func (id PartyID) From(m Metadata) Party {
+func (id PartyID) From(m *Metadata) Party {
 	return m.Parties[id]
 }
 

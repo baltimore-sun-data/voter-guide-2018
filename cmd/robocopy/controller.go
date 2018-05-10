@@ -2,16 +2,18 @@ package main
 
 import "time"
 
+type SubResult struct {
+	Jurisdiction string
+	District     string
+	TotalVotes   int
+}
+
 type OptionResult struct {
 	Text         string
 	TotalVotes   int
 	Jurisdiction string
 	District     string
-	SubResults   []struct {
-		Jurisdiction string
-		District     string
-		TotalVotes   int
-	}
+	SubResults   []SubResult
 }
 
 type Result struct {
@@ -61,6 +63,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 				Text:         m.Options[rawResult.OptionID].Text,
 				District:     m.Districts[did].Name,
 				Jurisdiction: m.Jurisdictions[jid].Name,
+				SubResults:   []SubResult{},
 			})
 
 			option = &result.Options[len(result.Options)-1]
@@ -69,7 +72,13 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		if contest.District == rawResult.DistrictID {
 			option.TotalVotes = rawResult.TotalVotes
 		} else {
-			// make a list of subresults
+			dist := rawResult.DistrictID.From(m)
+			jur := rawResult.JurisdictionID.From(m)
+			option.SubResults = append(option.SubResults, SubResult{
+				District:     dist.Name,
+				Jurisdiction: jur.Name,
+				TotalVotes:   rawResult.TotalVotes,
+			})
 		}
 	}
 	return contests
