@@ -1,7 +1,0 @@
-{
-  "singlePageParams": [
-    { "key": "running-mate", "display": "Running mate" },
-    { "key": "age", "display": "Age" },
-    { "key": "residence", "display": "Residence" }
-  ]
-}
