@@ -1,6 +1,8 @@
 package main
 
-import "time"
+import (
+	"time"
+)
 
 type SubResult struct {
 	Jurisdiction string
@@ -9,11 +11,9 @@ type SubResult struct {
 }
 
 type OptionResult struct {
-	Text         string
-	TotalVotes   int
-	Jurisdiction string
-	District     string
-	SubResults   []SubResult
+	Text       string
+	TotalVotes int
+	SubResults []SubResult
 }
 
 type Result struct {
@@ -28,7 +28,7 @@ type Result struct {
 	FullDescription      string
 
 	Options []OptionResult
-	om      map[OptionID]*OptionResult
+	om      map[OptionID]int
 }
 
 func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result {
@@ -36,46 +36,43 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 	for _, rawResult := range rc.Results {
 		cid := m.OptionParents[rawResult.OptionID]
 		contest := m.Contests[cid]
-
+		dist, jur := contest.DistrictJurisdiction(m)
 		result, ok := contests[cid]
 		if !ok {
-			result = &Result{}
-			result.LastUpdate = rc.LastUpdate
-			result.Contest = contest.Name
-			dist := m.Districts[contest.District]
-			result.District = dist.Name
-			result.Jurisdiction = m.Jurisdictions[dist.Parent].Name
-			result.Party = m.Parties[contest.PartyID].Description
-			result.VoteFor = contest.VoteFor
-			result.PrimaryDescription = contest.PrimaryDescription
-			result.SecondaryDescription = contest.SecondaryDescription
-			result.FullDescription = contest.FullDescription
-			result.om = make(map[OptionID]*OptionResult)
+			result = &Result{
+				LastUpdate:           rc.LastUpdate,
+				Contest:              contest.Name,
+				District:             dist,
+				Jurisdiction:         jur,
+				Party:                contest.Party(m),
+				VoteFor:              contest.VoteFor,
+				PrimaryDescription:   contest.PrimaryDescription,
+				SecondaryDescription: contest.SecondaryDescription,
+				FullDescription:      contest.FullDescription,
+				om:                   make(map[OptionID]int),
+			}
 			contests[cid] = result
 		}
 
-		option, ok := result.om[rawResult.OptionID]
+		pos, ok := result.om[rawResult.OptionID]
 		if !ok {
-			did := contest.District
-			jid := m.Districts[did].Parent
 			result.Options = append(result.Options, OptionResult{
-				Text:         m.Options[rawResult.OptionID].Text,
-				District:     m.Districts[did].Name,
-				Jurisdiction: m.Jurisdictions[jid].Name,
-				SubResults:   []SubResult{},
+				Text:       m.Options[rawResult.OptionID].Text,
+				SubResults: []SubResult{},
 			})
-
-			option = &result.Options[len(result.Options)-1]
-			result.om[rawResult.OptionID] = option
+			pos = len(result.Options) - 1
+			result.om[rawResult.OptionID] = pos
 		}
-		if contest.District == rawResult.DistrictID {
+		option := &result.Options[pos]
+		if rawResult.DistrictID == contest.District &&
+			rawResult.JurisdictionID == contest.JurisdictionID(m) {
 			option.TotalVotes = rawResult.TotalVotes
 		} else {
-			dist := rawResult.DistrictID.From(m)
-			jur := rawResult.JurisdictionID.From(m)
+			subDist := rawResult.DistrictID.From(m).Name
+			subJur := rawResult.JurisdictionID.From(m).Name
 			option.SubResults = append(option.SubResults, SubResult{
-				District:     dist.Name,
-				Jurisdiction: jur.Name,
+				District:     subDist,
+				Jurisdiction: subJur,
 				TotalVotes:   rawResult.TotalVotes,
 			})
 		}
