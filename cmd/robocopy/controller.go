@@ -54,7 +54,6 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			contests[cid] = result
 		}
 
-		// rawOption := m.Options[rawResult.OptionID]
 		option, ok := result.om[rawResult.OptionID]
 		if !ok {
 			did := contest.District

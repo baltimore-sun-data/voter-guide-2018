@@ -82,6 +82,7 @@ func (c *Config) Exec() error {
 		if err != nil {
 			return fmt.Errorf("could not create results file: %v", err)
 		}
+		return nil
 	}
 
 	r, err := ResultsContainerFrom(c.ResultsLocation)
