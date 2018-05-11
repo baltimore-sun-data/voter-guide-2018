@@ -9,6 +9,8 @@
   "scripts": {
     "build":
       "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && yarn run hugo && yarn run minify && yarn run clean:data",
+    "build:robocopy":
+      "GOPATH=$(mktemp -d) GOBIN=$(pwd) go get -v ./cmd/robocopy",
     "clean":
       "yarn run clean:data && yarn run clean:public && yarn run clean:dist",
     "clean:data": "rm -f data/assets.json",
