@@ -10,24 +10,15 @@ func (c Contest) Party(m *Metadata) string {
 	return c.PartyID.From(m).Code
 }
 
+func (c Contest) JurisdictionID(m *Metadata) JurisdictionID {
+	d := c.District.From(m)
+	return d.Parent
+}
+
 func (c Contest) DistrictJurisdiction(m *Metadata) (dist, jur string) {
 	d := c.District.From(m)
 	p := d.Parent.From(m)
 	return d.Name, p.Name
-}
-
-func (c Contest) DistrictName(m *Metadata) string {
-	d := c.District.From(m)
-	return d.Name
-}
-
-func (c Contest) Jurisdiction(m *Metadata) string {
-	d := c.District.From(m)
-	p := d.Parent.From(m)
-	if p.Name == d.Name {
-		return ""
-	}
-	return p.Name
 }
 
 func (m *Metadata) MarshalJSON() (b []byte, err error) {

@@ -93,7 +93,7 @@ func (c *Config) Exec() error {
 	cr := MapContestResults(m, r)
 	for cid, rp := range cr {
 		filename := fmt.Sprintf("%d.html", cid)
-		err = c.createFile(t, "contest.html", filename, &rp)
+		err = c.createFile(t, "contest.html", filename, rp)
 		if err != nil {
 			return fmt.Errorf("could not create results file: %v", err)
 		}
