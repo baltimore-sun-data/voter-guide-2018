@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"log"
+	"html/template"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -35,6 +35,7 @@ type Config struct {
 	MetadataLocation string
 	ResultsLocation  string
 	OutputDir        string
+	TemplateGlob     string
 }
 
 func FromArgs(args []string) *Config {
@@ -44,7 +45,8 @@ func FromArgs(args []string) *Config {
 	fl.BoolVar(&conf.CreateResults, "results", false, "create results metadata file")
 	fl.StringVar(&conf.MetadataLocation, "metadata-src", metadata18url, "url or filename for metadata")
 	fl.StringVar(&conf.ResultsLocation, "results-src", results18url, "url or filename for results")
-	fl.StringVar(&conf.OutputDir, "output-dir", "static/results/contests", "directory to save into")
+	fl.StringVar(&conf.OutputDir, "output-dir", "dist/results/contests", "directory to save into")
+	fl.StringVar(&conf.TemplateGlob, "template-glob", "layouts-robocopy/*.html", "pattern to look for templates with")
 	fl.Usage = func() {
 		fmt.Fprintf(os.Stderr,
 			`robocopy
@@ -63,6 +65,11 @@ Usage of robocopy:
 func (c *Config) Exec() error {
 	if !c.Local {
 		return fmt.Errorf("not implemented")
+	}
+
+	t, err := template.ParseGlob(c.TemplateGlob)
+	if err != nil {
+		return fmt.Errorf("could not load templates from %s: %v", c.TemplateGlob, err)
 	}
 
 	m, err := MetadataFrom(c.MetadataLocation)
@@ -85,7 +92,7 @@ func (c *Config) Exec() error {
 	cr := MapContestResults(m, r)
 	for cid, rp := range cr {
 		filename := fmt.Sprintf("%d.html", cid)
-		err = c.createFile("contest", filename, &rp)
+		err = c.createFile(t, "contest.html", filename, &rp)
 		if err != nil {
 			return fmt.Errorf("could not create results file: %v", err)
 		}
@@ -95,7 +102,6 @@ func (c *Config) Exec() error {
 }
 
 func (c *Config) createJSON(filename string, data interface{}) (err error) {
-	log.Println("creating json", filename)
 	os.MkdirAll(c.OutputDir, os.ModePerm)
 	f, err := os.Create(filepath.Join(c.OutputDir, filename))
 	if err != nil {
@@ -107,8 +113,7 @@ func (c *Config) createJSON(filename string, data interface{}) (err error) {
 	return enc.Encode(data)
 }
 
-func (c *Config) createFile(tplname, filename string, data interface{}) (err error) {
-	log.Println("creating file", filename)
+func (c *Config) createFile(t *template.Template, tplname, filename string, data interface{}) (err error) {
 	os.MkdirAll(c.OutputDir, os.ModePerm)
 	f, err := os.Create(filepath.Join(c.OutputDir, filename))
 	if err != nil {
@@ -116,5 +121,5 @@ func (c *Config) createFile(tplname, filename string, data interface{}) (err err
 	}
 	defer deferClose(&err, f.Close)
 
-	return templates.ExecuteTemplate(f, tplname, data)
+	return t.ExecuteTemplate(f, tplname, data)
 }
