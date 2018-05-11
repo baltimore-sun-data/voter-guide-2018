@@ -1,6 +1,7 @@
 package main
 
 import (
+	"sort"
 	"time"
 )
 
@@ -14,6 +15,8 @@ type OptionResult struct {
 	Text       string
 	TotalVotes int
 	SubResults []SubResult
+	// Party should be here, but it's a primary, so we can omit for now
+	order int
 }
 
 type Result struct {
@@ -56,9 +59,11 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 
 		pos, ok := result.om[rawResult.OptionID]
 		if !ok {
+			opt := m.Options[rawResult.OptionID]
 			result.Options = append(result.Options, OptionResult{
-				Text:       m.Options[rawResult.OptionID].Text,
+				Text:       opt.Text,
 				SubResults: []SubResult{},
+				order:      opt.Order,
 			})
 			pos = len(result.Options) - 1
 			result.om[rawResult.OptionID] = pos
@@ -76,6 +81,13 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 				TotalVotes:   rawResult.TotalVotes,
 			})
 		}
+	}
+
+	// sort options by BoE order
+	for _, result := range contests {
+		sort.Slice(result.Options, func(i, j int) bool {
+			return result.Options[i].order < result.Options[j].order
+		})
 	}
 	return contests
 }
