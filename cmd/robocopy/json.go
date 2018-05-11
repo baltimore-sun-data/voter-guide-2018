@@ -227,15 +227,52 @@ const (
 	AllWriteInCandidates          = 'A'
 )
 
+func (id ContestID) From(m *Metadata) Contest {
+	return m.Contests[id]
+}
+
+func (id DistrictTypeID) From(m *Metadata) DistrictType {
+	return m.DistrictTypes[id]
+}
+
+func (id DistrictID) From(m *Metadata) District {
+	return m.Districts[id]
+}
+
+func (id JurisdictionID) From(m *Metadata) Jurisdiction {
+	return m.Jurisdictions[id]
+}
+
+func (id PartyID) From(m *Metadata) Party {
+	return m.Parties[id]
+}
+
 type Metadata struct {
 	ElectionDate  time.Time
 	ElectionType  string
 	IsPrimary     bool
 	Contests      map[ContestID]Contest
+	Options       map[OptionID]*Option
+	OptionParents map[OptionID]ContestID
 	DistrictTypes map[DistrictTypeID]DistrictType
 	Districts     map[DistrictID]District
 	Jurisdictions map[JurisdictionID]Jurisdiction
 	Parties       map[PartyID]Party
+}
+
+func MetadataFrom(name string) (m *Metadata, err error) {
+	rc, err := readFrom(name)
+	if err != nil {
+		return nil, fmt.Errorf("could not open metadata: %v", err)
+	}
+	defer deferClose(&err, rc.Close)
+
+	m = &Metadata{}
+	dec := json.NewDecoder(BOMReader(rc))
+	if err = dec.Decode(&m); err != nil {
+		return nil, fmt.Errorf("could not decode metadata: %v", err)
+	}
+	return m, err
 }
 
 func (m *Metadata) UnmarshalJSON(b []byte) error {
@@ -253,6 +290,8 @@ func (m *Metadata) UnmarshalJSON(b []byte) error {
 	m.IsPrimary = raw.IsPrimary == "Yes"
 
 	m.Contests = make(map[ContestID]Contest, len(raw.Contests))
+	m.Options = make(map[OptionID]*Option)
+	m.OptionParents = make(map[OptionID]ContestID)
 	for _, c := range raw.Contests {
 		nc := Contest{
 			BallotDistrict:       DistrictID(c.BallotDistrict),
@@ -279,6 +318,8 @@ func (m *Metadata) UnmarshalJSON(b []byte) error {
 				WriteIn: o.WriteIn[0],
 			}
 			nc.Options = append(nc.Options, no)
+			m.Options[no.ID] = &nc.Options[len(nc.Options)-1]
+			m.OptionParents[no.ID] = nc.ID
 		}
 		m.Contests[nc.ID] = nc
 	}
@@ -349,15 +390,20 @@ func (m *Metadata) UnmarshalJSON(b []byte) error {
 	return err
 }
 
-type Results struct {
+type ResultsContainer struct {
 	Test       bool
 	LastUpdate time.Time
 	Results    []struct {
-		OptionID, JurisdictionID, DistrictID, TotalVotes int
+		OptionID
+		JurisdictionID
+		DistrictID
+		TotalVotes int
 	}
 	DistrictReporting []struct {
-		JurisdictionID, DistrictID, PrecinctsReporting, TotalPrecincts int
-		PercentCounted                                                 float64
+		JurisdictionID
+		DistrictID
+		PrecinctsReporting, TotalPrecincts int
+		PercentCounted                     float64
 	}
 	Reporting []struct {
 		PrecinctID       int
@@ -375,7 +421,21 @@ type Results struct {
 	}
 }
 
-func (r *Results) UnmarshalJSON(b []byte) error {
+func ResultsContainerFrom(name string) (r *ResultsContainer, err error) {
+	rc, err := readFrom(name)
+	if err != nil {
+		return nil, fmt.Errorf("could not open results: %v", err)
+	}
+	defer deferClose(&err, rc.Close)
+
+	r = &ResultsContainer{}
+	dec := json.NewDecoder(BOMReader(rc))
+	if err = dec.Decode(&r); err != nil {
+		return nil, fmt.Errorf("could not decode results: %v", err)
+	}
+	return r, err
+}
+func (r *ResultsContainer) UnmarshalJSON(b []byte) error {
 	/*
 	   Test:<If this is a test feed>,
 	   LastUpdate:<Dateand Time of Last Updatein the format “YYYY-MM-DD HH:mm:SS”>,
@@ -404,21 +464,26 @@ func (r *Results) UnmarshalJSON(b []byte) error {
 		return err
 	}
 	r.Results = make([]struct {
-		OptionID, JurisdictionID, DistrictID, TotalVotes int
+		OptionID
+		JurisdictionID
+		DistrictID
+		TotalVotes int
 	}, len(raw.Results))
 	for i := range raw.Results {
-		r.Results[i].OptionID = raw.Results[i][0]
-		r.Results[i].JurisdictionID = raw.Results[i][1]
-		r.Results[i].DistrictID = raw.Results[i][2]
+		r.Results[i].OptionID = OptionID(raw.Results[i][0])
+		r.Results[i].JurisdictionID = JurisdictionID(raw.Results[i][1])
+		r.Results[i].DistrictID = DistrictID(raw.Results[i][2])
 		r.Results[i].TotalVotes = raw.Results[i][3]
 	}
 	r.DistrictReporting = make([]struct {
-		JurisdictionID, DistrictID, PrecinctsReporting, TotalPrecincts int
-		PercentCounted                                                 float64
+		JurisdictionID
+		DistrictID
+		PrecinctsReporting, TotalPrecincts int
+		PercentCounted                     float64
 	}, len(raw.DReporting))
 	for i := range raw.DReporting {
-		r.DistrictReporting[i].JurisdictionID = int(raw.DReporting[i][0])
-		r.DistrictReporting[i].DistrictID = int(raw.DReporting[i][1])
+		r.DistrictReporting[i].JurisdictionID = JurisdictionID(raw.DReporting[i][0])
+		r.DistrictReporting[i].DistrictID = DistrictID(raw.DReporting[i][1])
 		r.DistrictReporting[i].PrecinctsReporting = int(raw.DReporting[i][2])
 		r.DistrictReporting[i].TotalPrecincts = int(raw.DReporting[i][3])
 		r.DistrictReporting[i].PercentCounted = raw.DReporting[i][4]
