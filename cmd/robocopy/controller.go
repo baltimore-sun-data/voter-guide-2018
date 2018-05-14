@@ -30,7 +30,7 @@ type Result struct {
 	SecondaryDescription string
 	FullDescription      string
 
-	Options []OptionResult
+	Options []*OptionResult
 	om      map[OptionID]int
 }
 
@@ -60,7 +60,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		pos, ok := result.om[rawResult.OptionID]
 		if !ok {
 			opt := m.Options[rawResult.OptionID]
-			result.Options = append(result.Options, OptionResult{
+			result.Options = append(result.Options, &OptionResult{
 				Text:       opt.Text,
 				SubResults: []SubResult{},
 				order:      opt.Order,
@@ -68,7 +68,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			pos = len(result.Options) - 1
 			result.om[rawResult.OptionID] = pos
 		}
-		option := &result.Options[pos]
+		option := result.Options[pos]
 		if rawResult.DistrictID == contest.District &&
 			rawResult.JurisdictionID == contest.JurisdictionID(m) {
 			option.TotalVotes = rawResult.TotalVotes

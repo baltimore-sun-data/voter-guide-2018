@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"fmt"
+	"sort"
 	"time"
 )
 
@@ -166,115 +167,6 @@ type metadataJSON struct {
 	} `json:"VoteCenters"`
 }
 
-type (
-	OptionID int
-	Option   struct {
-		ID      OptionID
-		PartyID PartyID
-		Order   int
-		Text    string
-		WriteIn byte
-	}
-	ContestID   int
-	ContestType int
-	Contest     struct {
-		BallotDistrict       DistrictID
-		District             DistrictID
-		ID                   ContestID
-		Type                 ContestType
-		PartyID              PartyID
-		Name                 string
-		Order                int
-		VoteFor              int
-		PrimaryDescription   string
-		SecondaryDescription string
-		FullDescription      string
-		Options              []Option
-	}
-	DistrictTypeID int
-	DistrictType   struct {
-		ID          DistrictTypeID
-		Description string
-	}
-	DistrictID int
-	District   struct {
-		ID     DistrictID
-		Parent JurisdictionID
-		Type   DistrictTypeID
-		Name   string
-	}
-	JurisdictionID int
-	Jurisdiction   struct {
-		AllDistricts []DistrictID
-		ID           JurisdictionID
-		Name         string
-	}
-	PartyID int
-	Party   struct {
-		ID                PartyID
-		Code, Description string
-	}
-)
-
-const (
-	Race        ContestType = 0
-	Continuance ContestType = 1
-	Question    ContestType = 2
-
-	RegularOption                 = 'N'
-	RegisteredWriteInCandidate    = 'Y'
-	UnregisteredWriteInCandidates = 'O'
-	AllWriteInCandidates          = 'A'
-)
-
-func (id ContestID) From(m *Metadata) Contest {
-	return m.Contests[id]
-}
-
-func (id DistrictTypeID) From(m *Metadata) DistrictType {
-	return m.DistrictTypes[id]
-}
-
-func (id DistrictID) From(m *Metadata) District {
-	return m.Districts[id]
-}
-
-func (id JurisdictionID) From(m *Metadata) Jurisdiction {
-	return m.Jurisdictions[id]
-}
-
-func (id PartyID) From(m *Metadata) Party {
-	return m.Parties[id]
-}
-
-type Metadata struct {
-	ElectionDate  time.Time
-	ElectionType  string
-	IsPrimary     bool
-	Contests      map[ContestID]Contest
-	Options       map[OptionID]*Option
-	OptionParents map[OptionID]ContestID
-	DistrictTypes map[DistrictTypeID]DistrictType
-	Districts     map[DistrictID]District
-	Jurisdictions map[JurisdictionID]Jurisdiction
-	Parties       map[PartyID]Party
-}
-
-func MetadataFrom(name string) (m *Metadata, err error) {
-	rc, err := readFrom(name)
-	if err != nil {
-		return nil, fmt.Errorf("could not open metadata: %v", err)
-	}
-	defer deferClose(&err, rc.Close)
-
-	m = &Metadata{}
-	dec := json.NewDecoder(BOMReader(rc))
-	if err = dec.Decode(&m); err != nil {
-		return nil, fmt.Errorf("could not decode metadata: %v", err)
-	}
-	return m, err
-}
-
 func (m *Metadata) UnmarshalJSON(b []byte) error {
 	var raw metadataJSON
 	err := json.Unmarshal(b, &raw)
@@ -390,51 +282,52 @@ func (m *Metadata) UnmarshalJSON(b []byte) error {
 	return err
 }
 
-type ResultsContainer struct {
-	Test       bool
-	LastUpdate time.Time
-	Results    []struct {
-		OptionID
-		JurisdictionID
-		DistrictID
-		TotalVotes int
+func (m *Metadata) MarshalJSON() (b []byte, err error) {
+	// Make a list of all contests for use in template
+	type raceReturnJSON struct {
+		Name         string
+		Jurisdiction string
+		District     string
+		Party        string
+		ID           int
 	}
-	DistrictReporting []struct {
-		JurisdictionID
-		DistrictID
-		PrecinctsReporting, TotalPrecincts int
-		PercentCounted                     float64
+	type metadataReturnJSON struct {
+		ElectionDate *time.Time
+		ElectionType *string
+		IsPrimary    *bool
+		AllContests  []raceReturnJSON
 	}
-	Reporting []struct {
-		PrecinctID       int
-		PercentReporting float64
-		BallotsCounted   int
+	var r = metadataReturnJSON{
+		ElectionDate: &m.ElectionDate,
+		ElectionType: &m.ElectionType,
+		IsPrimary:    &m.IsPrimary,
 	}
-	EarlyVotingReporting []struct {
-		EarlyVotingCenterID int
-		PercentReporting    float64
-		BallotsCounted      int
+
+	// sort by BoE order
+	cids := make([]ContestID, 0, len(m.Contests))
+	for cid := range m.Contests {
+		cids = append(cids, cid)
 	}
-	CanvasCounts []struct {
-		JurisdictionID int
-		BallotsCounted int
+	sort.Slice(cids, func(i, j int) bool {
+		return m.Contests[cids[i]].Order < m.Contests[cids[j]].Order
+	})
+
+	for _, cid := range cids {
+		con := m.Contests[cid]
+		dist := m.Districts[con.District]
+		jur := m.Jurisdictions[dist.Parent]
+		party := m.Parties[con.PartyID]
+		r.AllContests = append(r.AllContests, raceReturnJSON{
+			Name:         con.Name,
+			Jurisdiction: jur.Name,
+			District:     dist.Name,
+			Party:        party.Description,
+			ID:           int(cid),
+		})
 	}
+	return json.Marshal(&r)
 }
 
-func ResultsContainerFrom(name string) (r *ResultsContainer, err error) {
-	rc, err := readFrom(name)
-	if err != nil {
-		return nil, fmt.Errorf("could not open results: %v", err)
-	}
-	defer deferClose(&err, rc.Close)
-
-	r = &ResultsContainer{}
-	dec := json.NewDecoder(BOMReader(rc))
-	if err = dec.Decode(&r); err != nil {
-		return nil, fmt.Errorf("could not decode results: %v", err)
-	}
-	return r, err
-}
 func (r *ResultsContainer) UnmarshalJSON(b []byte) error {
 	/*
 	   Test:<If this is a test feed>,
