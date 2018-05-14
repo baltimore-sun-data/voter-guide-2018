@@ -9,6 +9,8 @@ import (
 	"os"
 	"path/filepath"
 	"time"
+
+	humanize "github.com/dustin/go-humanize"
 )
 
 const (
@@ -67,7 +69,10 @@ func (c *Config) Exec() error {
 		return fmt.Errorf("not implemented")
 	}
 
-	t, err := template.ParseGlob(c.TemplateGlob)
+	var funcMap = map[string]interface{}{
+		"commas": func(i int) string { return humanize.Comma(int64(i)) },
+	}
+	t, err := template.New("").Funcs(funcMap).ParseGlob(c.TemplateGlob)
 	if err != nil {
 		return fmt.Errorf("could not load templates from %s: %v", c.TemplateGlob, err)
 	}

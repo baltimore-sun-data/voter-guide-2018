@@ -3,21 +3,61 @@
 
 [[projects]]
   name = "github.com/aws/aws-sdk-go"
-  packages = ["aws","aws/awserr","aws/awsutil","aws/client","aws/client/metadata","aws/corehandlers","aws/credentials","aws/credentials/ec2rolecreds","aws/credentials/endpointcreds","aws/credentials/stscreds","aws/defaults","aws/ec2metadata","aws/endpoints","aws/request","aws/session","aws/signer/v4","internal/sdkio","internal/sdkrand","internal/shareddefaults","private/protocol","private/protocol/query","private/protocol/query/queryutil","private/protocol/rest","private/protocol/restxml","private/protocol/xml/xmlutil","service/cloudfront","service/sts"]
+  packages = [
+    "aws",
+    "aws/awserr",
+    "aws/awsutil",
+    "aws/client",
+    "aws/client/metadata",
+    "aws/corehandlers",
+    "aws/credentials",
+    "aws/credentials/ec2rolecreds",
+    "aws/credentials/endpointcreds",
+    "aws/credentials/stscreds",
+    "aws/defaults",
+    "aws/ec2metadata",
+    "aws/endpoints",
+    "aws/request",
+    "aws/session",
+    "aws/signer/v4",
+    "internal/sdkio",
+    "internal/sdkrand",
+    "internal/shareddefaults",
+    "private/protocol",
+    "private/protocol/query",
+    "private/protocol/query/queryutil",
+    "private/protocol/rest",
+    "private/protocol/restxml",
+    "private/protocol/xml/xmlutil",
+    "service/cloudfront",
+    "service/sts"
+  ]
   revision = "a72204b9bf8d48230ee0fe8995613b394c66f2da"
   version = "v1.13.31"
 
 [[projects]]
   branch = "master"
   name = "github.com/baltimore-sun-data/boreas"
-  packages = [".","invalidator"]
+  packages = [
+    ".",
+    "invalidator"
+  ]
   revision = "5c24e3c5f1093f94b1899939410647ddbd491638"
 
 [[projects]]
   name = "github.com/carlmjohnson/scattered"
-  packages = [".","cmd/scattered"]
+  packages = [
+    ".",
+    "cmd/scattered"
+  ]
   revision = "38a550b413fb33494f957d9ced907827af5ba0de"
   version = "v0.1.0"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/dustin/go-humanize"
+  packages = ["."]
+  revision = "02af3965c54e8cacf948b97fef38925c4120652c"
 
 [[projects]]
   name = "github.com/go-ini/ini"
@@ -32,13 +72,23 @@
 
 [[projects]]
   name = "golang.org/x/text"
-  packages = ["encoding","encoding/internal","encoding/internal/identifier","encoding/unicode","internal/gen","internal/utf8internal","runes","transform","unicode/cldr"]
+  packages = [
+    "encoding",
+    "encoding/internal",
+    "encoding/internal/identifier",
+    "encoding/unicode",
+    "internal/gen",
+    "internal/utf8internal",
+    "runes",
+    "transform",
+    "unicode/cldr"
+  ]
   revision = "f21a4dfb5e38f5895301dc265a8def02365cc3d0"
   version = "v0.3.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "cdb5c60b4f5a888362985d5506e1e63106953d6293709e2d5280b131da6aeb91"
+  inputs-digest = "81ad83d57dcd7905bc4fd68ee5d10951ab612a4a973aef88d578db6d7048ea8f"
   solver-name = "gps-cdcl"
   solver-version = 1
