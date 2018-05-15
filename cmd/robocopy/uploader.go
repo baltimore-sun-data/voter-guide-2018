@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"html/template"
 	"log"
+	"os"
+	"os/signal"
 	"sync"
 	"time"
 
@@ -43,7 +45,10 @@ func (c *Config) RemoteExec() error {
 		metadata: m,
 	}
 
-	for range time.Tick(c.PollInterval) {
+	ticker := time.Tick(c.PollInterval)
+	stopChan := make(chan os.Signal, 1)
+	signal.Notify(stopChan, os.Interrupt)
+	for {
 		cl.template, err = c.template()
 		if err != nil {
 			return err
@@ -52,6 +57,12 @@ func (c *Config) RemoteExec() error {
 			log.Printf("had errors: %v", err)
 		} else {
 			log.Print("finished uploading")
+		}
+		select {
+		case <-stopChan:
+			log.Print("quitting")
+			return nil
+		case <-ticker:
 		}
 	}
 	panic("unreachable")
