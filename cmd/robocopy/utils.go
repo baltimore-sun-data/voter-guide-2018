@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"os"
 	"strings"
@@ -24,6 +25,7 @@ func deferClose(err *error, f func() error) {
 }
 
 func readFrom(name string) (rc io.ReadCloser, err error) {
+	log.Printf("preparing to get %q", name)
 	if strings.HasPrefix(name, "http") {
 		rsp, err := http.Get(name)
 		return rsp.Body, err

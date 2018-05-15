@@ -140,6 +140,7 @@ func (c *Config) createFile(t *template.Template, tplname, filename string, data
 }
 
 func (c *Config) Remote(m *Metadata, t *template.Template) error {
+	log.Print("connecting to AWS")
 	s, err := session.NewSession(&aws.Config{
 		Region: aws.String(c.Region),
 	})
@@ -155,13 +156,13 @@ func (c *Config) Remote(m *Metadata, t *template.Template) error {
 	}
 
 	for range time.Tick(c.PollInterval) {
-		log.Print("getting results")
 		r, err := ResultsContainerFrom(c.ResultsLocation)
 		if err != nil {
 			log.Printf("results error: %v", err)
 			continue
 		}
 
+		log.Print("processing and uploading results")
 		cr := MapContestResults(m, r)
 		for cid, rp := range cr {
 			filename := fmt.Sprintf("%d.html", cid)
@@ -203,6 +204,7 @@ func (c *Config) uploadFile(cl client, filename string, data interface{}) error 
 	_, err = cl.uploader.Upload(&s3manager.UploadInput{
 		Bucket:       aws.String(c.Bucket),
 		Key:          aws.String(c.Path + filename),
+		ContentType:  aws.String("text/html; charset=utf-8"),
 		CacheControl: cl.cachecontrol,
 		Body:         &buf,
 	})
