@@ -21,7 +21,7 @@ type client struct {
 	metadata     *Metadata
 }
 
-func (c *Config) Remote(m *Metadata, t *template.Template) error {
+func (c *Config) RemoteExec() error {
 	log.Print("connecting to AWS")
 	s, err := session.NewSession(&aws.Config{
 		Region: aws.String(c.Region),
@@ -29,16 +29,25 @@ func (c *Config) Remote(m *Metadata, t *template.Template) error {
 	if err != nil {
 		return fmt.Errorf("bad AWS credentials: %v", err)
 	}
+	m, err := MetadataFrom(c.MetadataLocation)
+	if err != nil {
+		return err
+	}
+
+	log.Printf("connecting to S3")
 	var cl = client{
 		uploader: s3manager.NewUploader(s),
 		cachecontrol: aws.String(
 			fmt.Sprintf("public, max-age=%.0f", c.PollInterval.Seconds()),
 		),
-		template: t,
 		metadata: m,
 	}
 
 	for range time.Tick(c.PollInterval) {
+		cl.template, err = c.template()
+		if err != nil {
+			return err
+		}
 		if err = c.RemoteTick(cl); err != nil {
 			log.Printf("had errors: %v", err)
 		} else {
@@ -118,6 +127,7 @@ var funcMap = map[string]interface{}{
 }
 
 func (c *Config) template() (*template.Template, error) {
+	log.Print("getting template")
 	t, err := template.New("").Funcs(funcMap).ParseGlob(c.TemplateGlob)
 	if err != nil {
 		return nil, fmt.Errorf("could not load templates from %s: %v", c.TemplateGlob, err)

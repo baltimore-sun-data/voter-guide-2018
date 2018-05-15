@@ -73,6 +73,13 @@ Usage of robocopy:
 }
 
 func (c *Config) Exec() error {
+	if !c.Local {
+		return c.RemoteExec()
+	}
+	return c.LocalExec()
+}
+
+func (c *Config) LocalExec() error {
 	t, err := c.template()
 	if err != nil {
 		return err
@@ -80,10 +87,6 @@ func (c *Config) Exec() error {
 	m, err := MetadataFrom(c.MetadataLocation)
 	if err != nil {
 		return err
-	}
-
-	if !c.Local {
-		return c.Remote(m, t)
 	}
 
 	if c.CreateResults {
