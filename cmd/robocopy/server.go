@@ -45,17 +45,31 @@ func (c *Config) devServer(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if err := c.handleRequest(w, r); err != nil {
+		status := http.StatusInternalServerError
+		if s, ok := err.(interface{ Status() int }); ok {
+			status = s.Status()
+		}
 		log.Printf("error: %v", err)
-		http.Error(w, err.Error(), http.StatusInternalServerError)
+		http.Error(w, err.Error(), status)
 		return
 	}
 	log.Println("OK")
 }
 
+type statusError int
+
+func (s statusError) Error() string {
+	return fmt.Sprintf("%d: %s", s, http.StatusText(s.Status()))
+}
+
+func (s statusError) Status() int {
+	return int(s)
+}
+
 func (c *Config) handleRequest(w http.ResponseWriter, r *http.Request) error {
 	id, err := strconv.Atoi(strings.TrimSuffix(r.URL.Path, ".html"))
 	if err != nil {
-		return fmt.Errorf("invalid contest id: %v", err)
+		return statusError(http.StatusNotFound)
 	}
 	cid := ContestID(id)
 
@@ -76,8 +90,13 @@ func (c *Config) handleRequest(w http.ResponseWriter, r *http.Request) error {
 	cr := MapContestResults(m, rc)
 	data, ok := cr[cid]
 	if !ok {
-		return fmt.Errorf("no such contest: %d", cid)
+		return statusError(http.StatusNotFound)
 	}
 
-	return t.ExecuteTemplate(w, "contest.html", data)
+	err = t.ExecuteTemplate(w, "contest.html", data)
+	if err != nil {
+		// too late to return 500
+		log.Printf("error executing template: %v", err)
+	}
+	return nil
 }
