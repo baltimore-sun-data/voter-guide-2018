@@ -20,25 +20,28 @@
 
         <select class="all-contests js-select2">
           <optgroup label="Key Contests">
-          {{ block "optgroup" .Site.Data.results.KeyContests }}
-          {{ range . }}
-            <option value="/results/contests/{{ .ID }}.html">
-              {{- .Name -}}
-              {{- if ne .Jurisdiction "State of Maryland" -}}
-                {{- " " -}}{{- .Jurisdiction -}}
-              {{- end -}}
-              {{- if ne .District "State of Maryland" -}}
-                {{- " " -}}{{- .District -}}
-              {{- end -}}
-              {{- if ne .Party "Non Partisan" -}}
-                {{- " " -}}({{- .Party -}})
-              {{- end -}}
-            </option>
-          {{ end }}
+          {{ .Scratch.Set "contests" .Site.Data.results.KeyContests }}
+          {{ block "optgroup" . }}
+            {{ $baseURL := .Param "results-base-url" }}
+            {{ range .Scratch.Get "contests" }}
+              <option value='{{ $baseURL }}{{ .ID }}.html'>
+                {{- .Name -}}
+                {{- if ne .Jurisdiction "State of Maryland" -}}
+                  {{- " " -}}{{- .Jurisdiction -}}
+                {{- end -}}
+                {{- if ne .District "State of Maryland" -}}
+                  {{- " " -}}{{- .District -}}
+                {{- end -}}
+                {{- if ne .Party "Non Partisan" -}}
+                  {{- " " -}}({{- .Party -}})
+                {{- end -}}
+              </option>
+            {{ end }}
           {{ end }}
           </optgroup>
           <optgroup label="All Contests">
-          {{ template "optgroup" .Site.Data.results.AllContests }}
+          {{ .Scratch.Set "contests" .Site.Data.results.AllContests }}
+          {{ template "optgroup" . }}
           </optgroup>
         </select>
 
