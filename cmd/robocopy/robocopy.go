@@ -31,6 +31,7 @@ func main() {
 
 type Config struct {
 	Local            bool
+	DevServer        bool
 	CreateResults    bool
 	MetadataLocation string
 	ResultsLocation  string
@@ -40,13 +41,15 @@ type Config struct {
 	Bucket           string
 	Path             string
 	PollInterval     time.Duration
+	DevPort          int
 	NumWorkers       int
 }
 
 func FromArgs(args []string) *Config {
 	conf := &Config{}
 	fl := flag.NewFlagSet("robocopy", flag.ExitOnError)
-	fl.BoolVar(&conf.Local, "local", false, "just save files local")
+	fl.BoolVar(&conf.Local, "local", false, "just save files locally")
+	fl.BoolVar(&conf.DevServer, "dev-server", false, "start a local development server")
 	fl.BoolVar(&conf.CreateResults, "results", false, "create results metadata file")
 	fl.StringVar(&conf.MetadataLocation, "metadata-src", metadata18url, "url or filename for metadata")
 	fl.StringVar(&conf.ResultsLocation, "results-src", results18url, "url or filename for results")
@@ -56,6 +59,7 @@ func FromArgs(args []string) *Config {
 	fl.StringVar(&conf.Bucket, "bucket", "elections2018-news-baltimoresun-com", "Amazon S3 bucket")
 	fl.StringVar(&conf.Path, "path", "/results/contests/", "Amazon S3 destination path")
 	fl.DurationVar(&conf.PollInterval, "poll-interval", 30*time.Second, "time between refreshing S3")
+	fl.IntVar(&conf.DevPort, "dev-port", 9191, "port for dev server")
 	fl.IntVar(&conf.NumWorkers, "workers", 5, "number of upload workers")
 	fl.Usage = func() {
 		fmt.Fprintf(os.Stderr,
@@ -73,10 +77,13 @@ Usage of robocopy:
 }
 
 func (c *Config) Exec() error {
-	if !c.Local {
-		return c.RemoteExec()
+	if c.Local {
+		return c.LocalExec()
 	}
-	return c.LocalExec()
+	if c.DevServer {
+		return c.Serve()
+	}
+	return c.RemoteExec()
 }
 
 func (c *Config) LocalExec() error {
