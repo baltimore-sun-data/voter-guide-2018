@@ -5,10 +5,21 @@ import (
 	"time"
 )
 
+type JurisdictionDistrictID struct {
+	JurisdictionID
+	DistrictID
+}
+
+type Reporting struct {
+	PrecinctsReporting, TotalPrecincts int
+	PercentCounted                     float64
+}
+
 type SubResult struct {
 	Jurisdiction string
 	District     string
 	TotalVotes   int
+	Reporting
 }
 
 type OptionResult struct {
@@ -29,12 +40,27 @@ type Result struct {
 	PrimaryDescription   string
 	SecondaryDescription string
 	FullDescription      string
+	Reporting
 
 	Options []*OptionResult
 	om      map[OptionID]int
 }
 
 func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result {
+	// Get reporting info for later use
+	reporting := map[JurisdictionDistrictID]Reporting{}
+	for _, report := range rc.DistrictReporting {
+		jdid := JurisdictionDistrictID{
+			JurisdictionID: report.JurisdictionID,
+			DistrictID:     report.DistrictID,
+		}
+		reporting[jdid] = Reporting{
+			PrecinctsReporting: report.PrecinctsReporting,
+			TotalPrecincts:     report.TotalPrecincts,
+			PercentCounted:     report.PercentCounted,
+		}
+	}
+
 	contests := make(map[ContestID]*Result)
 	for _, rawResult := range rc.Results {
 		cid := m.OptionParents[rawResult.OptionID]
@@ -42,6 +68,10 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		dist, jur := contest.DistrictJurisdiction(m)
 		result, ok := contests[cid]
 		if !ok {
+			jdid := JurisdictionDistrictID{
+				JurisdictionID: contest.JurisdictionID(m),
+				DistrictID:     contest.District,
+			}
 			result = &Result{
 				LastUpdate:           rc.LastUpdate,
 				Contest:              contest.Name,
@@ -52,6 +82,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 				PrimaryDescription:   contest.PrimaryDescription,
 				SecondaryDescription: contest.SecondaryDescription,
 				FullDescription:      contest.FullDescription,
+				Reporting:            reporting[jdid],
 				om:                   make(map[OptionID]int),
 			}
 			contests[cid] = result
@@ -73,12 +104,18 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			rawResult.JurisdictionID == contest.JurisdictionID(m) {
 			option.TotalVotes = rawResult.TotalVotes
 		} else {
+			jdid := JurisdictionDistrictID{
+				JurisdictionID: rawResult.JurisdictionID,
+				DistrictID:     rawResult.DistrictID,
+			}
+
 			subDist := rawResult.DistrictID.From(m).Name
 			subJur := rawResult.JurisdictionID.From(m).Name
 			option.SubResults = append(option.SubResults, SubResult{
 				District:     subDist,
 				Jurisdiction: subJur,
 				TotalVotes:   rawResult.TotalVotes,
+				Reporting:    reporting[jdid],
 			})
 		}
 	}
