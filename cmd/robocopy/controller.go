@@ -23,9 +23,11 @@ type SubResult struct {
 }
 
 type OptionResult struct {
-	Text       string
-	TotalVotes int
-	SubResults []SubResult
+	Text            string
+	TotalVotes      int
+	PercentageVotes float64
+	FrontRunner     bool
+	SubResults      []SubResult
 	// Party should be here, but it's a primary, so we can omit for now
 	order int
 }
@@ -36,6 +38,7 @@ type Result struct {
 	District             string
 	Jurisdiction         string
 	Party                string
+	TotalVotes           int
 	VoteFor              int
 	PrimaryDescription   string
 	SecondaryDescription string
@@ -120,8 +123,28 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		}
 	}
 
+	// set the total votes / percentage / front-runner
 	// sort options by BoE order
 	for _, result := range contests {
+		total := 0
+		for _, o := range result.Options {
+			total += o.TotalVotes
+		}
+		if total > 0 {
+			result.TotalVotes = total
+			tf := float64(total)
+			for _, o := range result.Options {
+				o.PercentageVotes = float64(o.TotalVotes) / tf * 100
+			}
+			// Sort to mark the top N front runners
+			sort.Slice(result.Options, func(i, j int) bool {
+				return result.Options[i].TotalVotes > result.Options[j].TotalVotes
+			})
+			// Bug: How to deal with ties?
+			for i := 0; i < result.VoteFor && i < len(result.Options); i++ {
+				result.Options[i].FrontRunner = true
+			}
+		}
 		sort.Slice(result.Options, func(i, j int) bool {
 			return result.Options[i].order < result.Options[j].order
 		})
