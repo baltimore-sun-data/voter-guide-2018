@@ -581,19 +581,23 @@ nav.revealed {
   margin-top: 15px;
 }
 
-.party-header.democrat, .party-header.Democrat {
+.party-header.democrat,
+.party-header.Democrat {
   background-color: #2e98cc;
 }
 
-.party-header.green, .party-header.Green {
+.party-header.green,
+.party-header.Green {
   background-color: #00a967;
 }
 
-.party-header.republican, .party-header.Republican {
+.party-header.republican,
+.party-header.Republican {
   background-color: #ed4227;
 }
 
-.party-header.libertarian, .party-header.Libertarian {
+.party-header.libertarian,
+.party-header.Libertarian {
   background-color: #d5bc46;
 }
 
@@ -901,7 +905,8 @@ img.cand-pic {
 #background header {
   margin-bottom: 10px;
 }
-#bio .sub-header, .race .sub-header {
+#bio .sub-header,
+.race .sub-header {
   color: #a5a5a5;
   font-family: "Brandon", Helvetica, sans-serif;
   font-size: 18px;
