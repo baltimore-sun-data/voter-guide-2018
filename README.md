@@ -51,8 +51,8 @@
   - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/tdewolff/minify/cmd/minify`
   - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/carlmjohnson/scattered/cmd/scattered`
 
----
-Robocopy for primary:
+
+## Robocopy for primary:
 
 This gets basic robocopy functionality working for local development.
 
@@ -78,7 +78,20 @@ This will make the page http://localhost:1313/results/
 - When you run `robocopy -local`, it will download the metadata and results from the board of elections for 2018 and make a bunch of contest pages in `dist/results/contests/{CONTEST-NUMBER}.html`.
 - The individual contests are templated by `layouts-robocopy/contests.html`. This template can't use the extra functions normally used by Hugo without more work. Please ask me if you need one of those functions to be added.
 - If you want to use the 2016 contest results, run `robocopy -local -metadata-src cmd/robocopy/test/Metadata.js -results-src cmd/robocopy/test/Results.js`.
----
+- To use remote server mode, run `robocopy -dev-server` to start the dev server. (You can also change the data source with the same options as in local mode.) Change `results.md` to tell it to use the new server:
+
+```
++++
+title = "2018 Primary Results"
+type = "results-page"
+results-base-url = "http://localhost:9191/results/contests/"
++++
+
+lorem ipsum
+```
+
+Remove `results-base-url` from the front-matter if you want to go back to testing in local-mode.
+
 
 ## Old readme
 
