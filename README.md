@@ -52,6 +52,33 @@
   - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/carlmjohnson/scattered/cmd/scattered`
 
 ---
+Robocopy for primary:
+
+This gets basic robocopy functionality working for local development.
+
+- Use `yarn run build:robocopy` to create a robocopy executable in your project directory. You can then move it to `~/bin` or something to keep it out of the way but still runnable.
+- Make the file `content/results.md` with contents like
+
+```
++++
+title = "2018 Primary Results"
+type = "results-page"
++++
+
+lorem ipsum
+```
+
+This will make the page http://localhost:1313/results/
+
+- That page is based on `layouts/results/single.html`. Change that template to change the basic HTML for the results container page.
+- The results page has a list of races for 2018 that it gets from `data/results.json`. If you want, you can change that file manually to change the races listed or regenerate the file by running `robocopy -local -results -output-dir data`. You can use the 2016 races by running `robocopy -local -results -output-dir data -metadata-src cmd/robocopy/test/Metadata.js`.
+- The results page has a magic div that the JS looks for called `.js-results-container`. It uses that to figure out what to put into the `#info` box using AJAX. It reports errors downloading into the `#errors` div. It updates console.log when it downloads the page again. As written now, it redownloads the page every 30,000 milliseconds (30s).
+- `robocopy` has different options you can change, but the defaults should be fine. Run `robocopy -h` or `robocopy --help` to see the options.
+- As written now, you'll always want to use `robocopy` in local mode, so run `robocopy -local`.
+- When you run `robocopy -local`, it will download the metadata and results from the board of elections for 2018 and make a bunch of contest pages in `dist/results/contests/{CONTEST-NUMBER}.html`.
+- The individual contests are templated by `layouts-robocopy/contests.html`. This template can't use the extra functions normally used by Hugo without more work. Please ask me if you need one of those functions to be added.
+- If you want to use the 2016 contest results, run `robocopy -local -metadata-src cmd/robocopy/test/Metadata.js -results-src cmd/robocopy/test/Results.js`.
+---
 
 ## Old readme
 

@@ -1,76 +1,65 @@
-<table>
-    <tr>
-        <td>LastUpdate</td>
-        <td>{{ .LastUpdate.Format "1:04pm Jan. 2, 2006" }}</td>
-    </tr>
-    <tr>
-        <td>Contest</td>
-        <td>{{ .Contest }}</td>
-    </tr>
-    <tr>
-        <td>District</td>
-        <td>{{ .District }}</td>
-    </tr>
-    <tr>
-        <td>Jurisdiction</td>
-        <td>{{ .Jurisdiction }}</td>
-    </tr>
-    <tr>
-        <td>Party</td>
-        <td>{{ .Party }}</td>
-    </tr>
-    <tr>
-        <td>VoteFor</td>
-        <td>{{ .VoteFor }}</td>
-    </tr>
-    <tr>
-        <td>PrimaryDescription</td>
-        <td>{{ .PrimaryDescription }}</td>
-    </tr>
-    <tr>
-        <td>SecondaryDescription</td>
-        <td>{{ .SecondaryDescription }}</td>
-    </tr>
-    <tr>
-        <td>FullDescription</td>
-        <td>{{ .FullDescription }}</td>
-    </tr>
-</table>
-
+<div class="race">
+    <em>
+        Last Update from
+        <a href="https://elections.maryland.gov/elections/results_data/">Board of Elections</a>:
+        {{ .LastUpdate.Format "3:04pm Jan. 2, 2006" }}
+    </em>
+    <h2 class="section-header">{{ .Contest }}</h2>
+    {{ if ne .District "State of Maryland" }}
+    <div class="sub-header">District: {{ .District }}</div>
+    {{ end }}
+    {{ if ne .Jurisdiction "State of Maryland" }}
+    <div>Jurisdiction: {{ .Jurisdiction }}</div>
+    {{ end }}
+    <div class="party-header {{ .Party }}">{{ .Party }}</div>
+    {{ if gt .VoteFor 1 }}
+    <div>VoteFor: {{ .VoteFor }}</div>
+    {{ end }}
+    <div>Votes counted: {{ .TotalVotes | commas }}</div>
+</div>
 <ul>
     {{ range .Options }}
     <li>
-        <table>
-            <tr>
-                <td>Text</td>
-                <td>{{ .Text }}</td>
-            </tr>
-            <tr>
-                <td>TotalVotes</td>
-                <td>{{ .TotalVotes | commas }}</td>
-            </tr>
-        </table>
-        SubResults
-        <ul>
-        {{ range .SubResults }}
-        <li>
-        <table>
-            <tr>
-                <td>Jurisdiction</td>
-                <td>{{ .Jurisdiction }}</td>
-            </tr>
-            <tr>
-                <td>District</td>
-                <td>{{ .District }}</td>
-            </tr>
-            <tr>
-                <td>TotalVotes</td>
-                <td>{{ .TotalVotes }}</td>
-            </tr>
-        </table>
-        </li>
-        {{ end }}
-        </ul>
+        <div>{{ .Text }}</div>
+        <div>Votes: {{ .TotalVotes | commas }} ({{ .PercentageVotes | printf "%.1f" }}%)</div>
+        <div>{{ if .FrontRunner }}✔{{ end }}</div>
     </li>
     {{ end }}
 </ul>
+<div>
+    <div>{{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting</div>
+    <div>{{ .PercentCounted }}% counted</div>
+</div>
+
+<h2>Detailed results</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Jurisdiction</th>
+            <th>District</th>
+            <th>Precincts Reporting</th>
+            <th>Total Precincts</th>
+            <th>Percent Counted</th>
+             {{ range .Options }}
+                <th>{{ .Text }}</th>
+             {{ end }}
+        </tr>
+    </thead>
+    <tbody>
+    {{ range .SubResults }}
+    <tr>
+        <td>{{ .Jurisdiction }}</td>
+        <td>{{ .District }}</td>
+        <td>{{ .PrecinctsReporting }}</td>
+        <td>{{ .TotalPrecincts }}</td>
+        <td>{{ .PercentCounted }}</td>
+        {{ range .Options }}
+            <td>
+                {{ .TotalVotes | commas }}
+            </td>
+        {{ end }}
+    </tr>
+    {{ end }}
+    </tbody>
+</table>
