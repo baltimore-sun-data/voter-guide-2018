@@ -121,3 +121,7 @@ func (c Contest) DistrictJurisdiction(m *Metadata) (dist, jur string) {
 	p := d.Parent.From(m)
 	return d.Name, p.Name
 }
+
+func (o Option) Party(m *Metadata) string {
+	return o.PartyID.From(m).Description
+}
