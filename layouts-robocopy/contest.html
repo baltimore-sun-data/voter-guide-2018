@@ -37,6 +37,7 @@
     <div>{{ .PercentCounted }}% counted</div>
 </div>
 
+{{ if gt (len .SubResults) 0 }}
 <h2>Detailed results</h2>
 
 <table>
@@ -71,3 +72,4 @@
     {{ end }}
     </tbody>
 </table>
+{{ end }}
