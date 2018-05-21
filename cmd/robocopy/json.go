@@ -203,11 +203,12 @@ func (m *Metadata) UnmarshalJSON(b []byte) error {
 				return fmt.Errorf("Unexpected WriteIn value: %s", o.WriteIn)
 			}
 			no := Option{
-				ID:      OptionID(o.ID),
-				PartyID: PartyID(o.PartyID),
-				Order:   o.Order,
-				Text:    o.Text,
-				WriteIn: o.WriteIn[0],
+				ContestID: nc.ID,
+				ID:        OptionID(o.ID),
+				PartyID:   PartyID(o.PartyID),
+				Order:     o.Order,
+				Text:      o.Text,
+				WriteIn:   o.WriteIn[0],
 			}
 			nc.Options = append(nc.Options, no)
 			m.Options[no.ID] = &nc.Options[len(nc.Options)-1]
@@ -291,11 +292,19 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 		Party        string
 		ID           int
 	}
+	type optionReturnJSON struct {
+		ID           int
+		Name         string
+		Contest      string
+		Jurisdiction string
+		District     string
+	}
 	type metadataReturnJSON struct {
 		ElectionDate *time.Time
 		ElectionType *string
 		IsPrimary    *bool
 		AllContests  []raceReturnJSON
+		AllOptions   []optionReturnJSON
 	}
 	var r = metadataReturnJSON{
 		ElectionDate: &m.ElectionDate,
@@ -325,6 +334,21 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 			ID:           int(cid),
 		})
 	}
+	r.AllOptions = make([]optionReturnJSON, 0, len(m.Options))
+	for _, o := range m.Options {
+		contest := o.ContestID.From(m)
+		dist, jur := contest.DistrictJurisdiction(m)
+		r.AllOptions = append(r.AllOptions, optionReturnJSON{
+			ID:           int(o.ContestID),
+			Name:         o.Text,
+			Contest:      contest.Name,
+			Jurisdiction: jur,
+			District:     dist,
+		})
+	}
+	sort.Slice(r.AllOptions, func(i, j int) bool {
+		return LowerAlpha(r.AllOptions[i].Name) < LowerAlpha(r.AllOptions[j].Name)
+	})
 	return json.Marshal(&r)
 }
 
