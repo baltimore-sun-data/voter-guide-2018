@@ -367,13 +367,13 @@ var app = {
       }
     }
 
-    // function on(qs, etype, callback) {
-    //   var nodes = typeof qs === "object" ? qs : document.querySelectorAll(qs);
-    //   var i;
-    //   for (i = 0; i < nodes.length; i++) {
-    //     nodes[i].addEventListener(etype, callback);
-    //   }
-    // }
+    function on(qs, etype, callback) {
+      var nodes = typeof qs === "object" ? qs : document.querySelectorAll(qs);
+      var i;
+      for (i = 0; i < nodes.length; i++) {
+        nodes[i].addEventListener(etype, callback);
+      }
+    }
 
     function request(url, success, failure) {
       var xhr = new XMLHttpRequest();
@@ -416,7 +416,7 @@ var app = {
         "update",
         function(ev) {
           window.clearTimeout(timeoutID);
-          var url = el.querySelector("select").value;
+          var url = el.getAttribute("data-fetch-url");
           console.log("update started for", url);
 
           request(
@@ -442,9 +442,16 @@ var app = {
       el.dispatchEvent(new Event("update"));
     });
 
+    on(".js-key-contests-btn", "click", function(e){
+      var el = e.target.closest(".js-results-container");
+      el.setAttribute("data-fetch-url", e.target.value);
+      el.dispatchEvent(new Event("update"));
+    });
+
     $(".js-select2").select2();
     $(".js-select2").on("select2:select", function(e) {
       var el = e.target.closest(".js-results-container");
+      el.setAttribute("data-fetch-url", e.target.value);
       el.dispatchEvent(new Event("update"));
     });
   }
