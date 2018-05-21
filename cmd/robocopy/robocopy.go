@@ -5,10 +5,14 @@ import (
 	"flag"
 	"fmt"
 	"html/template"
+	"log"
 	"net/http"
 	"os"
 	"path/filepath"
+	"strings"
 	"time"
+
+	humanize "github.com/dustin/go-humanize"
 )
 
 const (
@@ -142,4 +146,28 @@ func (c *Config) createFile(t *template.Template, tplname, filename string, data
 	defer deferClose(&err, f.Close)
 
 	return t.ExecuteTemplate(f, tplname, data)
+}
+
+var funcMap = map[string]interface{}{
+	"commas": func(i int) string { return humanize.Comma(int64(i)) },
+	"lowerAlpha": func(s string) string {
+		return strings.Map(func(r rune) rune {
+			if r >= 'a' && r <= 'z' {
+				return r
+			}
+			if r >= 'A' && r <= 'Z' {
+				return r - 'A' + 'a'
+			}
+			return -1
+		}, s)
+	},
+}
+
+func (c *Config) template() (*template.Template, error) {
+	log.Print("getting template")
+	t, err := template.New("").Funcs(funcMap).ParseGlob(c.TemplateGlob)
+	if err != nil {
+		return nil, fmt.Errorf("could not load templates from %s: %v", c.TemplateGlob, err)
+	}
+	return t, err
 }

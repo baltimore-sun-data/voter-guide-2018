@@ -7,13 +7,11 @@ import (
 	"log"
 	"os"
 	"os/signal"
-	"sync"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	humanize "github.com/dustin/go-humanize"
 )
 
 type client struct {
@@ -132,21 +130,6 @@ func (c *Config) RemoteTick(cl client) error {
 	log.Printf("handled %d items", loops)
 	return hadErr
 }
-
-var funcMap = map[string]interface{}{
-	"commas": func(i int) string { return humanize.Comma(int64(i)) },
-}
-
-func (c *Config) template() (*template.Template, error) {
-	log.Print("getting template")
-	t, err := template.New("").Funcs(funcMap).ParseGlob(c.TemplateGlob)
-	if err != nil {
-		return nil, fmt.Errorf("could not load templates from %s: %v", c.TemplateGlob, err)
-	}
-	return t, err
-}
-
-var pool sync.Pool
 
 func (c *Config) uploadFile(cl client, filename string, data interface{}) error {
 	var buf = &bytes.Buffer{}
