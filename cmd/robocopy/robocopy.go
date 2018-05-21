@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"reflect"
 	"strings"
 	"time"
 
@@ -160,6 +161,17 @@ var funcMap = map[string]interface{}{
 			}
 			return -1
 		}, s)
+	},
+	"len": func(i interface{}) int {
+		v := reflect.ValueOf(i)
+		if k := v.Kind(); k != reflect.Array &&
+			k != reflect.Chan &&
+			k != reflect.Map &&
+			k != reflect.Slice &&
+			k != reflect.String {
+			return 0
+		}
+		return v.Len()
 	},
 }
 
