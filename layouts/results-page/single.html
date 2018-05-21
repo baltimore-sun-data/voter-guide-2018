@@ -12,37 +12,51 @@
 
     {{ partial "ad-leaderboard.html" . }}
 
+    {{ $baseURL := .Param "results-base-url" }}
     <div
         class="js-results-container"
+        data-fetch-url='{{.Param "results-base-url" }}1.html'
         data-target="#info"
         data-errors="#errors"
         data-timeout="30000">
 
+        {{ range .Site.Data.results.KeyContests }}
+          <button
+            type="button"
+            class="js-key-contests-btn"
+            value="{{ $baseURL }}{{ .ID }}.html">
+              {{- .Name -}}
+          </button>
+        {{ end }}
+
         <select class="all-contests js-select2">
-          <optgroup label="Key Contests">
-          {{ .Scratch.Set "contests" .Site.Data.results.KeyContests }}
-          {{ block "optgroup" . }}
-            {{ $baseURL := .Param "results-base-url" }}
-            {{ range .Scratch.Get "contests" }}
-              <option value='{{ $baseURL }}{{ .ID }}.html'>
-                {{- .Name -}}
-                {{- if ne .Jurisdiction "State of Maryland" -}}
-                  {{- " " -}}{{- .Jurisdiction -}}
-                {{- end -}}
-                {{- if ne .District "State of Maryland" -}}
-                  {{- " " -}}{{- .District -}}
-                {{- end -}}
-                {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
-                  {{- " " -}}({{- .Party -}})
-                {{- end -}}
-              </option>
-            {{ end }}
+          <option disabled selected>Choose by race name</option>
+          {{ range .Site.Data.results.AllContests }}
+            <option value='{{ $baseURL }}{{ .ID }}.html'>
+              {{- .Name -}}
+              {{- if ne .Jurisdiction "State of Maryland" -}}
+                {{- " " -}}{{- .Jurisdiction -}}
+              {{- end -}}
+              {{- if ne .District "State of Maryland" -}}
+                {{- " " -}}{{- .District -}}
+              {{- end -}}
+              {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
+                {{- " " -}}({{- .Party -}})
+              {{- end -}}
+            </option>
           {{ end }}
-          </optgroup>
-          <optgroup label="All Contests">
-          {{ .Scratch.Set "contests" .Site.Data.results.AllContests }}
-          {{ template "optgroup" . }}
-          </optgroup>
+        </select>
+
+
+        <select class="all-options js-select2">
+          <option disabled selected>Choose by candidate name</option>
+          {{ range sort .Site.Data.results.AllOptions }}
+            <option value='{{ $baseURL }}{{ .ID }}.html'>
+              {{- .Name -}}
+              {{- " • " }}{{ .Contest -}}
+              {{- " • " }}{{ .District -}}
+            </option>
+          {{ end }}
         </select>
 
 
