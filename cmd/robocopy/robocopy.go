@@ -149,19 +149,21 @@ func (c *Config) createFile(t *template.Template, tplname, filename string, data
 	return t.ExecuteTemplate(f, tplname, data)
 }
 
+func LowerAlpha(s string) string {
+	return strings.Map(func(r rune) rune {
+		if r >= 'a' && r <= 'z' {
+			return r
+		}
+		if r >= 'A' && r <= 'Z' {
+			return r - 'A' + 'a'
+		}
+		return -1
+	}, s)
+}
+
 var funcMap = map[string]interface{}{
-	"commas": func(i int) string { return humanize.Comma(int64(i)) },
-	"lowerAlpha": func(s string) string {
-		return strings.Map(func(r rune) rune {
-			if r >= 'a' && r <= 'z' {
-				return r
-			}
-			if r >= 'A' && r <= 'Z' {
-				return r - 'A' + 'a'
-			}
-			return -1
-		}, s)
-	},
+	"commas":     func(i int) string { return humanize.Comma(int64(i)) },
+	"lowerAlpha": LowerAlpha,
 	"len": func(i interface{}) int {
 		v := reflect.ValueOf(i)
 		if k := v.Kind(); k != reflect.Array &&

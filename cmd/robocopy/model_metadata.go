@@ -40,6 +40,7 @@ func MetadataFrom(name string) (*Metadata, error) {
 type (
 	OptionID int
 	Option   struct {
+		ContestID
 		ID      OptionID
 		PartyID PartyID
 		Order   int
