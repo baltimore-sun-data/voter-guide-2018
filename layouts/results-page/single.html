@@ -10,7 +10,7 @@
         {{ .Content }}
     </main>
 
-    {{ partial "ad-leaderboard.html" . }}
+    {{ partial "ad-autorefresh.html" . }}
 
     {{ $baseURL := .Param "results-base-url" }}
     <div
@@ -64,8 +64,5 @@
         <div id="info"></div>
     </div>
 </div>
-
-<!-- googletag.pubads().refresh([gptadslots[0]]) -->
-
 {{ end }}
 
