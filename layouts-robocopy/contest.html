@@ -11,15 +11,21 @@
     {{ if ne .Jurisdiction "State of Maryland" }}
     <div>Jurisdiction: {{ .Jurisdiction }}</div>
     {{ end }}
+    {{ if ne (lowerAlpha .Party) "nonpartisan" }}
     <div class="party-header {{ .Party }}">{{ .Party }}</div>
+    {{ end }}
     {{ if gt .VoteFor 1 }}
     <div>VoteFor: {{ .VoteFor }}</div>
     {{ end }}
     <div>Votes counted: {{ .TotalVotes | commas }}</div>
 </div>
+{{ $contestParty := .Party }}
 <ul>
     {{ range .Options }}
     <li>
+        {{ if and (ne (lowerAlpha .Party) "nonpartisan") (ne .Party $contestParty) }}
+        <div>{{ .Party }}</div>
+        {{ end }}
         <div>{{ .Text }}</div>
         <div>Votes: {{ .TotalVotes | commas }} ({{ .PercentageVotes | printf "%.1f" }}%)</div>
         <div>{{ if .FrontRunner }}✔{{ end }}</div>
@@ -48,6 +54,7 @@
     </thead>
     <tbody>
     {{ range .SubResults }}
+    {{ if and (ne .Jurisdiction "State of Maryland") (ne .District "State of Maryland") }}
     <tr>
         <td>{{ .Jurisdiction }}</td>
         <td>{{ .District }}</td>
@@ -60,6 +67,7 @@
             </td>
         {{ end }}
     </tr>
+    {{ end }}
     {{ end }}
     </tbody>
 </table>

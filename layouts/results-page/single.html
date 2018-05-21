@@ -32,7 +32,7 @@
                 {{- if ne .District "State of Maryland" -}}
                   {{- " " -}}{{- .District -}}
                 {{- end -}}
-                {{- if ne .Party "Non Partisan" -}}
+                {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
                   {{- " " -}}({{- .Party -}})
                 {{- end -}}
               </option>
