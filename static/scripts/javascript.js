@@ -442,18 +442,20 @@ var app = {
       el.dispatchEvent(new Event("update"));
     });
 
-    on(".js-key-contests-btn", "click", function(e){
+    on(".js-key-contests-btn", "click", function(e) {
       var el = e.target.closest(".js-results-container");
       el.setAttribute("data-fetch-url", e.target.value);
       el.dispatchEvent(new Event("update"));
     });
 
-    $(".js-select2").select2();
-    $(".js-select2").on("select2:select", function(e) {
-      var el = e.target.closest(".js-results-container");
-      el.setAttribute("data-fetch-url", e.target.value);
-      el.dispatchEvent(new Event("update"));
-    });
+    if (document.querySelector(".js-select2")) {
+      $(".js-select2").select2();
+      $(".js-select2").on("select2:select", function(e) {
+        var el = e.target.closest(".js-results-container");
+        el.setAttribute("data-fetch-url", e.target.value);
+        el.dispatchEvent(new Event("update"));
+      });
+    }
   }
 };
 
