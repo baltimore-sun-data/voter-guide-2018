@@ -205,6 +205,9 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			return result.Options[i].Order < result.Options[j].Order
 		})
 		sort.Slice(result.SubResults, func(i, j int) bool {
+			if result.SubResults[i].District == result.SubResults[j].District {
+				return result.SubResults[i].Jurisdiction < result.SubResults[j].Jurisdiction
+			}
 			return result.SubResults[i].District < result.SubResults[j].District
 		})
 
