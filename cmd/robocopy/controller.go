@@ -21,6 +21,7 @@ type SubResult struct {
 	District     string
 	Reporting
 	Options []*OptionResult
+	orm     map[OptionID]*OptionResult
 }
 
 type OptionResult struct {
@@ -47,8 +48,26 @@ type Result struct {
 	Reporting
 
 	Options    []*OptionResult
+	orm        map[OptionID]*OptionResult
 	SubResults []*SubResult
 	srm        map[JurisdictionDistrictID]*SubResult
+}
+
+func makeOptionResultSlice(cid ContestID, m *Metadata, orm map[OptionID]*OptionResult) []*OptionResult {
+	metaOptions := m.Contests[cid].Options
+	options := make([]*OptionResult, 0, len(metaOptions))
+	for _, optM := range metaOptions {
+		// If this doesn't exist, we'll end up putting in blanks, which is fine
+		optR := orm[optM.ID]
+		if optR == nil {
+			optR = &OptionResult{}
+		}
+		optR.Text = optM.Text
+		optR.Party = optM.Party(m)
+		optR.Order = optM.Order
+		options = append(options, optR)
+	}
+	return options
 }
 
 func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result {
@@ -85,9 +104,9 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			SecondaryDescription: contest.SecondaryDescription,
 			FullDescription:      contest.FullDescription,
 			Reporting:            reporting[jdid],
+			orm:                  make(map[OptionID]*OptionResult),
 			srm:                  make(map[JurisdictionDistrictID]*SubResult),
 		}
-
 		contests[cid] = result
 	}
 
@@ -100,11 +119,6 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 	seen := map[rawIDs]*OptionResult{}
 
 	for _, rawResult := range rc.Results {
-		optM, ok := m.Options[rawResult.OptionID]
-		if !ok {
-			log.Printf("warning: unknown option: %d", rawResult.OptionID)
-			continue
-		}
 		cid := m.OptionParents[rawResult.OptionID]
 		result, ok := contests[cid]
 		if !ok {
@@ -125,9 +139,6 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		}
 
 		option = &OptionResult{
-			Text:       optM.Text,
-			Party:      optM.Party(m),
-			Order:      optM.Order,
 			TotalVotes: rawResult.TotalVotes,
 		}
 		seen[sid] = option
@@ -135,7 +146,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		contestM := m.Contests[cid]
 		if rawResult.DistrictID == contestM.District &&
 			rawResult.JurisdictionID == contestM.JurisdictionID(m) {
-			result.Options = append(result.Options, option)
+			result.orm[rawResult.OptionID] = option
 		} else {
 			jdid := JurisdictionDistrictID{
 				JurisdictionID: rawResult.JurisdictionID,
@@ -149,20 +160,26 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 					Jurisdiction: subJur,
 					District:     subDist,
 					Reporting:    reporting[jdid],
+					orm:          make(map[OptionID]*OptionResult),
 				}
 				result.SubResults = append(result.SubResults, subres)
 				result.srm[jdid] = subres
 			}
-			subres.Options = append(subres.Options, option)
+			subres.orm[rawResult.OptionID] = option
 		}
 	}
 
 	// set the total votes / percentage / front-runner
 	// sort options by BoE order
-	for _, result := range contests {
+	for cid, result := range contests {
 		// For some local races, the jurisdiction info seems wrong
-		if len(result.Options) == 0 && len(result.SubResults) == 1 {
-			result.Options = result.SubResults[0].Options
+		if len(result.orm) == 0 && len(result.SubResults) == 1 {
+			result.orm = result.SubResults[0].orm
+		}
+
+		result.Options = makeOptionResultSlice(cid, m, result.orm)
+		for _, subr := range result.SubResults {
+			subr.Options = makeOptionResultSlice(cid, m, subr.orm)
 		}
 
 		total := 0
