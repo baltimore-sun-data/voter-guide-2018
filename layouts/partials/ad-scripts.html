@@ -26,17 +26,28 @@ document.addEventListener("DOMContentLoaded", function(event) {
       mapping = mapping.build();
 
       // Push ad call
-      gptadslots.push(
-        googletag
-          .defineSlot(adUnit, mapping, divId)
-          .defineSizeMapping(mapping)
-          .setTargeting("pos", ["1"])
-          .setCollapseEmptyDiv(true)
-          .addService(googletag.pubads())
-      );
+      var slot = googletag
+        .defineSlot(adUnit, mapping, divId)
+        .defineSizeMapping(mapping)
+        .setTargeting("pos", ["1"])
+        .setCollapseEmptyDiv(true)
+        .addService(googletag.pubads());
+      gptadslots.push(slot);
       googletag.pubads().setTargeting("ptype", ["s"]);
       googletag.enableServices();
       googletag.display(divId);
+
+      var timeout = el.getAttribute("data-refresh");
+      if (timeout) {
+        var timer = function() {
+          googletag.cmd.push(function() {
+            console.log("refreshing", slot)
+            googletag.pubads().refresh([slot]);
+          });
+          window.setTimeout(timer, timeout);
+        };
+        window.setTimeout(timer, timeout);
+      }
     });
   });
 });
