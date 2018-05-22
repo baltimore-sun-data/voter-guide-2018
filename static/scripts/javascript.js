@@ -252,7 +252,7 @@ var app = {
         "https://api.rss2json.com/v1/api.json?&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5&rss_url=" +
         encodeURIComponent(feedURL);
 
-      var update_feed = function() {
+      var updateFeed = function() {
         var xhr = new XMLHttpRequest();
         xhr.addEventListener("load", function() {
           var data;
@@ -288,13 +288,13 @@ var app = {
         xhr.send();
       };
 
-      update_feed();
+      updateFeed();
 
       var refresh = el.getAttribute("data-refresh");
       if (refresh) {
         var timer = function() {
           console.log("updating", feedURL);
-          update_feed();
+          updateFeed();
           window.setTimeout(timer, refresh);
         };
 
