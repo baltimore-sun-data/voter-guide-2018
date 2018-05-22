@@ -252,38 +252,54 @@ var app = {
         "https://api.rss2json.com/v1/api.json?&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5&rss_url=" +
         encodeURIComponent(feedURL);
 
-      var xhr = new XMLHttpRequest();
-      xhr.addEventListener("load", function() {
-        var data;
-        try {
-          data = JSON.parse(xhr.responseText);
-        } catch (ex) {
-          console.warn("JSON parse error", ex);
-          xhr.dispatchEvent(new Event("error"));
-          return;
-        }
-        if (data.status !== "ok") {
-          xhr.dispatchEvent(new Event("error"));
-          return;
-        }
+      var update_feed = function() {
+        var xhr = new XMLHttpRequest();
+        xhr.addEventListener("load", function() {
+          var data;
+          try {
+            data = JSON.parse(xhr.responseText);
+          } catch (ex) {
+            console.warn("JSON parse error", ex);
+            xhr.dispatchEvent(new Event("error"));
+            return;
+          }
+          if (data.status !== "ok") {
+            xhr.dispatchEvent(new Event("error"));
+            return;
+          }
 
-        data.items.forEach(function(item) {
-          var li = document.createElement("li");
-          li.classList.add("article-title");
-          var a = document.createElement("a");
-          a.href = item.link;
-          a.innerText = item.title;
-          li.appendChild(a);
-          el.appendChild(li);
+          el.innerHTML = "";
+          data.items.forEach(function(item) {
+            var li = document.createElement("li");
+            li.classList.add("article-title");
+            var a = document.createElement("a");
+            a.href = item.link;
+            a.innerText = item.title;
+            li.appendChild(a);
+            el.appendChild(li);
+          });
         });
-      });
 
-      xhr.addEventListener("error", function(e) {
-        el.innerHTML = "<li class='article-title'>Could not load feed.</li>";
-        console.warn("JSON feed error");
-      });
-      xhr.open("GET", jsonFeedURL, true);
-      xhr.send();
+        xhr.addEventListener("error", function(e) {
+          el.innerHTML = "<li class='article-title'>Could not load feed.</li>";
+          console.warn("JSON feed error");
+        });
+        xhr.open("GET", jsonFeedURL, true);
+        xhr.send();
+      };
+
+      update_feed();
+
+      var refresh = el.getAttribute("data-refresh");
+      if (refresh) {
+        var timer = function() {
+          console.log("updating", feedURL);
+          update_feed();
+          window.setTimeout(timer, refresh);
+        };
+
+        window.setTimeout(timer, refresh);
+      }
     });
   },
 
