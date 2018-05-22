@@ -414,6 +414,7 @@ var app = {
     each(".js-results-container", function(el) {
       var targetEl = el.getAttribute("data-target");
       var errorEl = el.getAttribute("data-errors");
+      var timeEl = el.getAttribute("data-time");
       var timeout = el.getAttribute("data-timeout");
 
       if (!targetEl || !errorEl || !timeout) {
@@ -444,6 +445,12 @@ var app = {
               each(errorEl, function(el) {
                 el.innerHTML = "";
               });
+              if (timeEl) {
+                each(timeEl, function(el) {
+                  var now = new Date();
+                  el.innerHTML = now.toLocaleTimeString("en-US");
+                });
+              }
             },
             function(e) {
               each(errorEl, function(el) {
@@ -463,7 +470,9 @@ var app = {
 
     on(".js-key-contests-btn", "click", function(e) {
       var el = e.target.closest(".js-results-container");
-      el.setAttribute("data-fetch-url", e.target.value);
+      if (e.target.value) {
+        el.setAttribute("data-fetch-url", e.target.value);
+      }
       el.dispatchEvent(new Event("update"));
     });
 
