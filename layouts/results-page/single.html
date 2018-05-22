@@ -10,6 +10,10 @@
         {{ .Content }}
     </main>
 
+    <noscript>
+      <h2>Warning: This page requires Javascript.</h2>
+    </noscript>
+
     {{ partial "ad-autorefresh.html" . }}
 
     {{ $baseURL := .Param "results-base-url" }}
@@ -62,14 +66,11 @@
         </select>
 
         <div class="last-refresh">
-          Page last refreshed: <span id="time"></span>
+          Page last refreshed: <span id="time">Still loading…</span>
         </div>
         <div id="errors"></div>
         <div id="info">
           <p>Loading results…</p>
-          <noscript>
-            <h2>This feature requires Javascript.</h2>
-          </noscript>
         </div>
 
         <div class="newsfeed">
