@@ -441,6 +441,9 @@ var app = {
               each(targetEl, function(el) {
                 el.innerHTML = xhr.responseText;
               });
+              each(errorEl, function(el) {
+                el.innerHTML = "";
+              });
             },
             function(e) {
               each(errorEl, function(el) {
