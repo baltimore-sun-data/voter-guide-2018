@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Governor",
+    "ID": 1
+  },
+  {
+    "Name": "Baltimore City State's Attorney",
+    "ID": 454
+  },
+  {
+    "Name": "Democratic Baltimore County Executive",
+    "Party": "Democrat",
+    "ID": 225
+  },
+  {
+    "Name": "Republican Baltimore County Executive",
+    "ID": 226
+  }
+]
