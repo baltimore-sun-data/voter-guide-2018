@@ -18,6 +18,7 @@
         data-fetch-url='{{.Param "results-base-url" }}1.html'
         data-target="#info"
         data-errors="#errors"
+        data-time="#time"
         data-timeout="30000">
 
         {{ range .Site.Data.KeyContests2018Primary }}
@@ -28,6 +29,8 @@
               {{- .Name -}}
           </button>
         {{ end }}
+
+        <button type="button" class="js-key-contests-btn">Refresh</button>
 
         <select class="all-contests js-select2">
           <option disabled selected>Choose by race name</option>
@@ -47,7 +50,6 @@
           {{ end }}
         </select>
 
-
         <select class="all-options js-select2">
           <option disabled selected>Choose by candidate name</option>
           {{ range sort .Site.Data.results.AllOptions }}
@@ -59,7 +61,9 @@
           {{ end }}
         </select>
 
-
+        <div class="last-refresh">
+          Page last refreshed: <span id="time"></span>
+        </div>
         <div id="errors"></div>
         <div id="info">
           <p>Loading results…</p>
