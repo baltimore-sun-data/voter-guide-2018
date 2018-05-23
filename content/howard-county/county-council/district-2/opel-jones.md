@@ -1,0 +1,23 @@
+{
+  "directory": "content/howard-county/county-council/district-2",
+  "district": 2,
+  "filename": "opel-jones.md",
+  "full-name": "Opel Jones",
+  "last-name": "Jones",
+  "party": "Democrat",
+  "race": "howard-county/county-council",
+  "sn1": "TIFs",
+  "sn2": "School safety",
+  "sn3": "Privatization",
+  "sn4": "Adequate public facilities",
+  "sn5": "Sanctuary county",
+  "sn6": "Ellicott City",
+  "sn7": "Opioids",
+  "sn8": "Public transportation",
+  "sn9": "Taxes",
+  "social-fb": "friendsofOpelJones",
+  "social-tw": "opeljones",
+  "survey-response": false,
+  "title": "Opel Jones",
+  "web": "https://www.opeljones.com"
+}
