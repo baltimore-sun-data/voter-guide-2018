@@ -2,7 +2,7 @@
 
 node_modules
 public
-content
+csv
 dist
 data/assets.json
 vendor

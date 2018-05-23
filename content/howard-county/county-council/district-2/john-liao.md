@@ -1,0 +1,20 @@
+{
+  "directory": "content/howard-county/county-council/district-2",
+  "district": 2,
+  "filename": "john-liao.md",
+  "full-name": "John Liao",
+  "last-name": "Liao",
+  "party": "Republican",
+  "race": "howard-county/county-council",
+  "sn1": "TIFs",
+  "sn2": "School safety",
+  "sn3": "Privatization",
+  "sn4": "Adequate public facilities",
+  "sn5": "Sanctuary county",
+  "sn6": "Ellicott City",
+  "sn7": "Opioids",
+  "sn8": "Public transportation",
+  "sn9": "Taxes",
+  "survey-response": false,
+  "title": "John Liao"
+}

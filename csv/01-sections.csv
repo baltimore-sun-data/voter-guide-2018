@@ -1,8 +1,0 @@
-weight,directory,title,shortTitle,filename,menu,type
-1,"content/governor","Maryland Governor’s Race","Governor / Lt. Governor",_index.md,"fedState",
-4,"content/us-senate",U.S. Senate,U.S. Senator,_index.md,"fedState",
-2,"content/anne-arundel-county",Anne Arundel County,Anne Arundel County,_index.md,"local",local-list
-3,"content/baltimore-county",Baltimore County,Baltimore County,_index.md,"local",local-list
-4,"content/harford-county",Harford County,Harford County,_index.md,"local",local-list
-4,"content/howard-county",Howard County,Howard County,_index.md,"local",local-list
-5,"content/carroll-county",Carroll County,Carroll County,_index.md,"local",local-list
