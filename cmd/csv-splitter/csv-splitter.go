@@ -116,6 +116,10 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 				Answer:    get(datum, an),
 				Shortname: get(datum, sn),
 			})
+			// Clean up JSON output
+			delete(datum, qn)
+			delete(datum, an)
+			delete(datum, sn)
 			n++
 		}
 	}
