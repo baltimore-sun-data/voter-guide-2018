@@ -7,8 +7,10 @@
   "filename": "krish-omara-vignarajah.md",
   "full-name": "Krish O'Mara Vignarajah",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/117-75abfb0882df46d66c25fb582513d290_Krish_Headshot.jpg",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-krish-vignarajah-20171214-htmlstory.html",
   "last-name": "Vignarajah",
   "party": "Democrat",
+  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-krish-vignarajah-profile-20180521-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

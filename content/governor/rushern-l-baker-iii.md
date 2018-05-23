@@ -7,8 +7,10 @@
   "filename": "rushern-l-baker-iii.md",
   "full-name": "Rushern L. Baker III",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/179-3005753b5d3f45f3177ab7a53795312a_countyexec_thumb.jpg",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-rushern-baker-20171012-htmlstory.html",
   "last-name": "Baker",
   "party": "Democrat",
+  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-baker-profile-20180514-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

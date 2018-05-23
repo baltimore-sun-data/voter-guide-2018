@@ -7,8 +7,10 @@
   "filename": "ben-jealous.md",
   "full-name": "Ben Jealous",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/52-4abe643c0ca256765bcff4d275d026c2_20170427_BJEALOUS_HEADSHOTS-1416_%281%29_%281%29.jpg",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-ben-jeaous-20180301-htmlstory.html",
   "last-name": "Jealous",
   "party": "Democrat",
+  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-ben-jealous-profile-20180508-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

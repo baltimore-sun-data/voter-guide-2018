@@ -7,8 +7,10 @@
   "filename": "jim-shea.md",
   "full-name": "Jim Shea",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/253-79100d6890050b17bd8b1d93d126da51_JLSHeadshot.jpeg",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-jim-shea-20170802-htmlstory.html",
   "last-name": "Shea",
   "party": "Democrat",
+  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-jim-shea-profile-20180515-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
