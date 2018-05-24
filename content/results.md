@@ -1,7 +1,7 @@
 +++
 title = "2018 Primary Election Results"
 type = "results-page"
-results-base-url = "http://localhost:9191/results/contests/"
+results-base-url = "http://localhost:9191/results/"
 draft = true
 +++
 

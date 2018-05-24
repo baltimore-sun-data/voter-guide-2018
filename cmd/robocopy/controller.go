@@ -219,3 +219,19 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 	}
 	return contests
 }
+
+func MapDistrictResults(m *Metadata, contests map[ContestID]*Result) map[DistrictID][]*Result {
+	districts := make(map[DistrictID][]*Result)
+	// Go through all the data and map out the districts
+	for cid, result := range contests {
+		did := m.Contests[cid].District
+		districts[did] = append(districts[did], result)
+	}
+	// Sort the districts by contest name
+	for _, results := range districts {
+		sort.Slice(results, func(i, j int) bool {
+			return results[i].Contest < results[j].Contest
+		})
+	}
+	return districts
+}

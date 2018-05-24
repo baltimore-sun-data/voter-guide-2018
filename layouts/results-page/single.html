@@ -19,7 +19,7 @@
     {{ $baseURL := .Param "results-base-url" }}
     <div
         class="js-results-container"
-        data-fetch-url='{{.Param "results-base-url" }}1.html'
+        data-fetch-url='{{.Param "results-base-url" }}contests/1.html'
         data-target="#info"
         data-errors="#errors"
         data-time="#time"
@@ -29,7 +29,7 @@
           <button
             type="button"
             class="js-key-contests-btn"
-            value="{{ $baseURL }}{{ .ID }}.html">
+            value="{{ $baseURL }}contests/{{ .ID }}.html">
               {{- .Name -}}
           </button>
         {{ end }}
@@ -39,7 +39,7 @@
         <select class="all-contests js-select2">
           <option disabled selected>Choose by race name</option>
           {{ range .Site.Data.results.AllContests }}
-            <option value='{{ $baseURL }}{{ .ID }}.html'>
+            <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
               {{- .Name -}}
               {{- if ne .Jurisdiction "State of Maryland" -}}
                 {{- " " -}}{{- .Jurisdiction -}}
@@ -56,14 +56,28 @@
 
         <select class="all-options js-select2">
           <option disabled selected>Choose by candidate name</option>
-          {{ range sort .Site.Data.results.AllOptions }}
-            <option value='{{ $baseURL }}{{ .ID }}.html'>
+          {{ range .Site.Data.results.AllOptions }}
+            <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
               {{- .Name -}}
               {{- " • " }}{{ .Contest -}}
               {{- " • " }}{{ .District -}}
             </option>
           {{ end }}
         </select>
+
+        <select class="all-options js-select2">
+          <option disabled selected>Choose by district</option>
+          {{ range sort .Site.Data.results.AllDistricts "ID" }}
+            <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
+              {{- if ne .Jurisdiction "State of Maryland" -}}
+                {{- .Jurisdiction -}}{{- " " -}}
+              {{- end -}}
+              {{- .District -}}
+              {{- if eq .Type "Senatorial District" }} (State Senate){{ end -}}
+            </option>
+          {{ end }}
+        </select>
+
 
         <div class="last-refresh">
           Page last refreshed: <span id="time">Still loading…</span>
@@ -83,4 +97,3 @@
     </div>
 </div>
 {{ end }}
-
