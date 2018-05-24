@@ -1,5 +1,5 @@
 .race {
-margin: 20px 0 20px 0;
+  margin: 20px 0 20px 0;
 }
 .race table {
   width: 100%;
@@ -7,22 +7,26 @@ margin: 20px 0 20px 0;
 .race th {
   font-weight: normal;
 }
-td.candidate, th.candidate {
+td.candidate,
+th.candidate {
   width: 30%;
   color: #667682;
 }
 
-td.party-col, th.party-col {
+td.party-col,
+th.party-col {
   width: 10%;
   color: #667682;
 }
 
-td.votes, th.votes {
+td.votes,
+th.votes {
   width: 10%;
   color: #667682;
 }
 
-td.percent, th.percent {
+td.percent,
+th.percent {
   width: 50%;
   color: #667682;
 }
