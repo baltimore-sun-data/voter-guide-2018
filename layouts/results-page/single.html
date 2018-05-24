@@ -4,38 +4,56 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $baseURL := .Param "results-base-url" }}
 <div class="container">
     <h1 class="section-header-splash grey">{{.Title}}</h1>
     <main class="results-page">
         {{ .Content }}
+        <em>
+            Last update from
+            <a href="https://elections.maryland.gov/elections/results_data/">Board of Elections</a>:
+            <!--To do: change last update from BOE-->
+        </em>
     </main>
 
     <noscript>
       <h2>Warning: This page requires Javascript.</h2>
     </noscript>
-
     {{ partial "ad-autorefresh.html" . }}
+    <h2 class="results-header">Key races</h2>
+    <hr>
+    <div class="last-refresh">
+      Results last refreshed: <span id="time-key">Still loading…</span>
+    </div>
+    {{ range $race := .Site.Data.KeyContests2018Primary }}
+    <section>
+      <div
+        class="js-results-container"
+        data-fetch-url='{{ $.Param "results-base-url" }}{{ $race.ID }}.html'
+        data-target='#info-{{ $race.ID }}'
+        data-errors='#errors-{{ $race.ID }}'
+        data-time='#time-key'
+        data-timeout="3000000">
+          <div id="errors-{{ $race.ID }}"></div>
+          <div id="info-{{ $race.ID }}">
+            <p>Loading results…</p>
+          </div>
+      </div>
+    </section>
+    {{ end }}
 
-    {{ $baseURL := .Param "results-base-url" }}
     <div
         class="js-results-container"
-        data-fetch-url='{{.Param "results-base-url" }}1.html'
+        data-fetch-url=''
         data-target="#info"
         data-errors="#errors"
-        data-time="#time"
-        data-timeout="30000">
-
-        {{ range .Site.Data.KeyContests2018Primary }}
-          <button
-            type="button"
-            class="js-key-contests-btn"
-            value="{{ $baseURL }}{{ .ID }}.html">
-              {{- .Name -}}
-          </button>
-        {{ end }}
-
-        <button type="button" class="js-key-contests-btn">Refresh</button>
-
+        data-time="#time-all"
+        data-timeout="3000000">
+        <h2 class="results-header">Find races</h2>
+        <hr>
+        <div class="last-refresh">
+          Results last refreshed: <span id="time-all"></span>
+        </div>
         <select class="all-contests js-select2">
           <option disabled selected>Choose by race name</option>
           {{ range .Site.Data.results.AllContests }}
@@ -64,16 +82,23 @@
             </option>
           {{ end }}
         </select>
-
-        <div class="last-refresh">
-          Page last refreshed: <span id="time">Still loading…</span>
-        </div>
+        <select class="all-options js-select2">
+          <option disabled selected>Choose by jurisdiction</option>
+          {{ range sort .Site.Data.results.AllOptions }}
+            <option value='{{ $baseURL }}{{ .ID }}.html'>
+              {{ .District -}}
+              {{- " • " }}{{ .Contest -}}
+            </option>
+          {{ end }}
+        </select>
         <div id="errors"></div>
         <div id="info">
           <p>Loading results…</p>
         </div>
+        <button type="button" class="js-key-contests-btn btn btn-primary btn-lg">Refresh</button>
 
         <div class="newsfeed">
+          <h2 class="results-header">Election coverage</h2>
           <!-- TODO: Get proper election day results feed URL -->
           <ul
               data-feed-url="http://www.baltimoresun.com/news/maryland/politics/rss2.0.xml"
@@ -83,4 +108,3 @@
     </div>
 </div>
 {{ end }}
-

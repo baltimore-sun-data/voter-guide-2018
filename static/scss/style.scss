@@ -574,7 +574,6 @@ nav.revealed {
   font-family: Brandon, Helvetica, sans-serif;
   font-size: 1.25em;
   text-transform: uppercase;
-  width: 99%;
   margin: 0 auto;
   margin-bottom: 10px;
   padding-left: 10px;
@@ -582,22 +581,26 @@ nav.revealed {
 }
 
 .party-header.democrat,
-.party-header.Democrat {
+.party-header.Democrat, 
+.percent-bar.candDemocrat {
   background-color: #2e98cc;
 }
 
 .party-header.green,
-.party-header.Green {
+.party-header.Green,
+.percent-bar.candGreen {
   background-color: #00a967;
 }
 
 .party-header.republican,
-.party-header.Republican {
+.party-header.Republican,
+.percent-bar.candRepublican {
   background-color: #ed4227;
 }
 
 .party-header.libertarian,
-.party-header.Libertarian {
+.party-header.Libertarian,
+.percent-bar.candLibertarian {
   background-color: #d5bc46;
 }
 
@@ -968,11 +971,11 @@ img.cand-pic {
   text-decoration: none;
 }
 
-#news ul {
+.newsfeed ul {
   min-height: 330px;
 }
 
-#news ul li {
+.newsfeed ul li {
   padding: 10px;
   border-bottom: 1px solid #d8d8d8;
   font-family: "Source Sans Pro", arial, sans-serif;
@@ -987,7 +990,7 @@ img.cand-pic {
   transition: all 0.5s;
 }
 
-#news ul li:hover {
+.newsfeed ul li:hover {
   -webkit-transform: translateX(10px);
   -moz-transform: translateX(10px);
   -ms-transform: translateX(10px);
@@ -995,7 +998,7 @@ img.cand-pic {
   transform: translateX(10px);
 }
 
-#news ul li.faded {
+.newsfeed ul li.faded {
   opacity: 0.5;
 }
 
@@ -1349,7 +1352,7 @@ p.about {
 }
 
 @media only screen and (max-width: 950px) {
-  #news {
+  .newsfeed {
     width: auto;
     float: none;
   }
