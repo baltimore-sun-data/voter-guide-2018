@@ -249,8 +249,12 @@ var app = {
       var feedURL = el.getAttribute("data-feed-url");
       var limit = el.getAttribute("data-limit") || "5";
       var updateFeed = function() {
+        var useSSL = "https:" === document.location.protocol;
+        var apiURL =
+          (useSSL ? "https:" : "http:") + "//query.yahooapis.com/v1/public/yql";
+
         $.ajax({
-          url: "http://query.yahooapis.com/v1/public/yql",
+          url: apiURL,
           jsonp: "callback",
           dataType: "jsonp",
           data: {
