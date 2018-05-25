@@ -299,12 +299,19 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 		Jurisdiction string
 		District     string
 	}
+	type districtReturnJSON struct {
+		ID           string
+		Jurisdiction string
+		District     string
+		Type         string
+	}
 	type metadataReturnJSON struct {
 		ElectionDate *time.Time
 		ElectionType *string
 		IsPrimary    *bool
 		AllContests  []raceReturnJSON
 		AllOptions   []optionReturnJSON
+		AllDistricts []districtReturnJSON
 	}
 	var r = metadataReturnJSON{
 		ElectionDate: &m.ElectionDate,
@@ -348,6 +355,19 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 	}
 	sort.Slice(r.AllOptions, func(i, j int) bool {
 		return LowerAlpha(r.AllOptions[i].Name) < LowerAlpha(r.AllOptions[j].Name)
+	})
+
+	r.AllDistricts = make([]districtReturnJSON, 0, len(m.Districts))
+	for did, dist := range m.Districts {
+		r.AllDistricts = append(r.AllDistricts, districtReturnJSON{
+			ID:           fmt.Sprintf("%d", did),
+			Jurisdiction: dist.Parent.From(m).Name,
+			District:     dist.Name,
+			Type:         dist.Type.From(m).Description,
+		})
+	}
+	sort.Slice(r.AllDistricts, func(i, j int) bool {
+		return LowerAlpha(r.AllDistricts[i].District) < LowerAlpha(r.AllDistricts[j].District)
 	})
 	return json.Marshal(&r)
 }

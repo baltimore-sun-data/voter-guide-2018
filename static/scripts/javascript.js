@@ -247,45 +247,44 @@ var app = {
     var els = document.querySelectorAll("[data-feed-url]");
     [].slice.call(els).forEach(function(el) {
       var feedURL = el.getAttribute("data-feed-url");
-      // Newsfeed script based on https://rss2json.com/
-      var jsonFeedURL =
-        "https://api.rss2json.com/v1/api.json?&api_key=q3gkae8uetnoaynpco9iwje8fpuqcibubkxfr5g8&count=5&rss_url=" +
-        encodeURIComponent(feedURL);
-
+      var limit = el.getAttribute("data-limit") || "5";
       var updateFeed = function() {
-        var xhr = new XMLHttpRequest();
-        xhr.addEventListener("load", function() {
-          var data;
-          try {
-            data = JSON.parse(xhr.responseText);
-          } catch (ex) {
-            console.warn("JSON parse error", ex);
-            xhr.dispatchEvent(new Event("error"));
-            return;
-          }
-          if (data.status !== "ok") {
-            xhr.dispatchEvent(new Event("error"));
-            return;
-          }
+        var useSSL = "https:" === document.location.protocol;
+        var apiURL =
+          (useSSL ? "https:" : "http:") + "//query.yahooapis.com/v1/public/yql";
 
-          el.innerHTML = "";
-          data.items.forEach(function(item) {
-            var li = document.createElement("li");
-            li.classList.add("article-title");
-            var a = document.createElement("a");
-            a.href = item.link;
-            a.innerText = item.title;
-            li.appendChild(a);
-            el.appendChild(li);
-          });
-        });
+        $.ajax({
+          url: apiURL,
+          jsonp: "callback",
+          dataType: "jsonp",
+          data: {
+            q:
+              "select link, title from rss where url = '" +
+              feedURL +
+              "' limit " +
+              limit,
+            format: "json"
+          },
 
-        xhr.addEventListener("error", function(e) {
-          el.innerHTML = "<li class='article-title'>Could not load feed.</li>";
-          console.warn("JSON feed error");
+          success: function(data) {
+            el.innerHTML = "";
+            var items = data.query.results.item;
+            items.forEach(function(item) {
+              var li = document.createElement("li");
+              li.classList.add("article-title");
+              var a = document.createElement("a");
+              a.href = item.link;
+              a.innerText = item.title;
+              li.appendChild(a);
+              el.appendChild(li);
+            });
+          },
+          fail: function() {
+            el.innerHTML =
+              "<li class='article-title'>Could not load feed.</li>";
+            console.warn("JSON feed error");
+          }
         });
-        xhr.open("GET", jsonFeedURL, true);
-        xhr.send();
       };
 
       updateFeed();
