@@ -373,10 +373,10 @@
      </h2>
       {{ if or (.Param "interview") (.Param "profile") }}
           <div class="interviews">
-            <h3 class="sub-header">Exclusive interviews</h3>
+            <h3 class="sub-header">{{ .Param "full-name" }} in <em>The Baltimore Sun</em></h3>
             <ul>
             {{ if .Param "interview"}}
-              <li class="article-title"><a href='{{ .Param "interview" }}'>{{ .Param "full-name" }} on Roughly Speaking</a></li>
+              <li class="article-title"><a href='{{ .Param "interview" }}'>Dan Rodricks interviews {{ .Param "full-name" }} on Roughly Speaking</a></li>
             {{ end }}
             {{ if .Param "profile" }}
               <li class="article-title">{{ .Param "profile" | markdownify }}</li>
