@@ -51,10 +51,11 @@ func (c *Config) RemoteExec() error {
 		if err != nil {
 			return err
 		}
+		start := time.Now()
 		if err = c.RemoteTick(cl); err != nil {
 			log.Printf("had errors: %v", err)
 		} else {
-			log.Print("finished uploading")
+			log.Printf("finished uploading in %v", time.Since(start))
 		}
 		select {
 		case <-stopChan:
@@ -86,7 +87,7 @@ func (c *Config) RemoteTick(cl client) error {
 		return err
 	}
 
-	log.Print("processing and uploading results")
+	log.Print("processing and uploading contest results")
 	cr := MapContestResults(cl.metadata, r)
 	// make a queue of cids
 	cids := make([]ContestID, 0, len(cr))
@@ -94,7 +95,7 @@ func (c *Config) RemoteTick(cl client) error {
 		cids = append(cids, cid)
 	}
 
-	log.Printf("received %d items", len(cids))
+	log.Printf("received %d contests", len(cids))
 
 	// loop through and pop off cids until they're all gone
 	var (
@@ -109,9 +110,9 @@ func (c *Config) RemoteTick(cl client) error {
 		if len(cids) > 0 {
 			cid := cids[0]
 			rp := cr[cid]
-			filename := fmt.Sprintf("%d.html", cid)
+			filename := fmt.Sprintf("contests/%d.html", cid)
 			taskCh = funcCh
-			task = func() error { return c.uploadFile(cl, filename, rp) }
+			task = func() error { return c.uploadFile(cl, filename, "contest.html", rp) }
 		}
 
 		select {
@@ -128,19 +129,59 @@ func (c *Config) RemoteTick(cl client) error {
 		}
 	}
 	log.Printf("handled %d items", loops)
+	if hadErr != nil {
+		return hadErr
+	}
+
+	dr := MapDistrictResults(cl.metadata, cr)
+	// make a queue of cids
+	dids := make([]DistrictID, 0, len(dr))
+	for did := range dr {
+		dids = append(dids, did)
+	}
+	log.Printf("received %d districts", len(dids))
+	loops = 0
+	for len(dids) > 0 || waitingFor > 0 {
+		var (
+			taskCh chan func() error
+			task   func() error
+		)
+		if len(dids) > 0 {
+			did := dids[0]
+			dp := dr[did]
+			filename := fmt.Sprintf("districts/%d.html", did)
+			taskCh = funcCh
+			task = func() error { return c.uploadFile(cl, filename, "district.html", dp) }
+		}
+
+		select {
+		case taskCh <- task:
+			waitingFor++
+			dids = dids[1:]
+		case err := <-errCh:
+			loops++
+			waitingFor--
+			if err != nil && hadErr == nil {
+				hadErr = err
+				dids = nil // Just give up for now
+			}
+		}
+	}
+	log.Printf("handled %d items", loops)
 	return hadErr
 }
 
-func (c *Config) uploadFile(cl client, filename string, data interface{}) error {
+func (c *Config) uploadFile(cl client, filename, templatename string, data interface{}) error {
+	// TODO upload jurisdictions
 	var buf = &bytes.Buffer{}
-	err := cl.template.ExecuteTemplate(buf, "contest.html", data)
+	err := cl.template.ExecuteTemplate(buf, templatename, data)
 	if err != nil {
 		return fmt.Errorf("error executing template: %v", err)
 	}
 
 	_, err = cl.uploader.Upload(&s3manager.UploadInput{
 		Bucket:       aws.String(c.Bucket),
-		Key:          aws.String(c.Path + filename),
+		Key:          aws.String(c.Path + "contests/" + filename),
 		ContentType:  aws.String("text/html; charset=utf-8"),
 		CacheControl: cl.cachecontrol,
 		Body:         buf,

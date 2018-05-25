@@ -909,6 +909,7 @@ img.cand-pic {
   margin-bottom: 10px;
 }
 #bio .sub-header,
+.newsfeed .sub-header,
 .race .sub-header {
   color: #a5a5a5;
   font-family: "Brandon", Helvetica, sans-serif;
@@ -971,8 +972,23 @@ img.cand-pic {
   text-decoration: none;
 }
 
+.interviews {
+  padding: 20px;
+  background-color: #f6f6f6;
+}
+
+.interviews .sub-header {
+  margin-top: 0;
+  color: #484848;
+  margin-left: 10px;
+}
+
 .newsfeed ul {
   min-height: 330px;
+}
+
+.newsfeed .interviews ul {
+  min-height: 0;
 }
 
 .newsfeed ul li {
@@ -1079,27 +1095,28 @@ img.cand-pic {
   background-color: #d0d0d0;
 }
 
-#questionnaire.non-partisan .question-text {
-  background-color: #d0d0d0;
-}
-
-#questionnaire.democrat .question-text {
+#questionnaire.democrat .question-text,
+.interviews.democrat {
   background-color: #9ddaf8;
 }
 
-#questionnaire.republican .question-text {
+#questionnaire.republican .question-text,
+.interviews.republican {
   background-color: #ffd0c9;
 }
 
-#questionnaire.libertarian .question-text {
+#questionnaire.libertarian .question-text,
+.interviews.libertarian {
   background-color: #f3ebc8;
 }
 
-#questionnaire.green .question-text {
+#questionnaire.green .question-text,
+.interviews.green {
   background-color: #bee2d4;
 }
 
-#questionnaire.non-partisan .question-text {
+#questionnaire.non-partisan .question-text,
+.interviews.non-partisan {
   background-color: #ececec;
 }
 

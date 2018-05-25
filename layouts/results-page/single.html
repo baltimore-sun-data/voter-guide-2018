@@ -29,11 +29,11 @@
     <section>
       <div
         class="js-results-container"
-        data-fetch-url='{{ $.Param "results-base-url" }}{{ $race.ID }}.html'
+        data-fetch-url='{{ $baseURL }}contests/{{ .ID }}.html'
         data-target='#info-{{ $race.ID }}'
         data-errors='#errors-{{ $race.ID }}'
         data-time='#time-key'
-        data-timeout="3000000">
+        data-timeout="30000">
           <div id="errors-{{ $race.ID }}"></div>
           <div id="info-{{ $race.ID }}">
             <p>Loading results…</p>
@@ -48,49 +48,57 @@
         data-target="#info"
         data-errors="#errors"
         data-time="#time-all"
-        data-timeout="3000000">
+        data-timeout="30000">
         <h2 class="results-header">Find races</h2>
         <hr>
         <div class="last-refresh">
           Results last refreshed: <span id="time-all"></span>
         </div>
-        <select class="all-contests js-select2">
-          <option disabled selected>Choose by race name</option>
-          {{ range .Site.Data.results.AllContests }}
-            <option value='{{ $baseURL }}{{ .ID }}.html'>
-              {{- .Name -}}
-              {{- if ne .Jurisdiction "State of Maryland" -}}
-                {{- " " -}}{{- .Jurisdiction -}}
-              {{- end -}}
-              {{- if ne .District "State of Maryland" -}}
-                {{- " " -}}{{- .District -}}
-              {{- end -}}
-              {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
-                {{- " " -}}({{- .Party -}})
-              {{- end -}}
-            </option>
-          {{ end }}
-        </select>
-
-        <select class="all-options js-select2">
-          <option disabled selected>Choose by candidate name</option>
-          {{ range sort .Site.Data.results.AllOptions }}
-            <option value='{{ $baseURL }}{{ .ID }}.html'>
-              {{- .Name -}}
-              {{- " • " }}{{ .Contest -}}
-              {{- " • " }}{{ .District -}}
-            </option>
-          {{ end }}
-        </select>
-        <select class="all-options js-select2">
-          <option disabled selected>Choose by jurisdiction</option>
-          {{ range sort .Site.Data.results.AllOptions }}
-            <option value='{{ $baseURL }}{{ .ID }}.html'>
-              {{ .District -}}
-              {{- " • " }}{{ .Contest -}}
-            </option>
-          {{ end }}
-        </select>
+        <div class="find-results">
+          <select class="all-contests js-select2" style="width: 100%">
+            <option disabled selected>Choose by race name</option>
+            {{ range .Site.Data.results.AllContests }}
+              <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
+                {{- .Name -}}
+                {{- if ne .Jurisdiction "State of Maryland" -}}
+                  {{- " " -}}{{- .Jurisdiction -}}
+                {{- end -}}
+                {{- if ne .District "State of Maryland" -}}
+                  {{- " " -}}{{- .District -}}
+                {{- end -}}
+                {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
+                  {{- " " -}}({{- .Party -}})
+                {{- end -}}
+              </option>
+            {{ end }}
+          </select>
+        </div>
+        <div class="find-results">
+          <select class="all-options js-select2" style="width: 100%;">
+            <option disabled selected>Choose by candidate name</option>
+            {{ range .Site.Data.results.AllOptions }}
+              <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
+                {{- .Name -}}
+                {{- " • " }}{{ .Contest -}}
+                {{- " • " }}{{ .District -}}
+              </option>
+            {{ end }}
+          </select>
+        </div>
+        <div class="find-results">
+          <select class="all-options js-select2" style="width: 100%">
+            <option disabled selected>Choose by district</option>
+            {{ range sort .Site.Data.results.AllDistricts "ID" }}
+              <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
+                {{- if ne .Jurisdiction "State of Maryland" -}}
+                  {{- .Jurisdiction -}}{{- " " -}}
+                {{- end -}}
+                {{- .District -}}
+                {{- if eq .Type "Senatorial District" }} (State Senate){{ end -}}
+              </option>
+            {{ end }}
+          </select>
+        </div>
         <div id="errors"></div>
         <div id="info">
           <p>Loading results…</p>

@@ -101,6 +101,12 @@ button.view-hide {
   border-radius: 0;
   border-bottom: 1px solid black;
 }
+.find-results {
+  width: 30%;
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+}
 
 @media (max-width: 600px) {
   .percent-bar-bg,
