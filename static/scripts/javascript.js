@@ -420,6 +420,7 @@ var app = {
       var targetEl = el.getAttribute("data-target");
       var errorEl = el.getAttribute("data-errors");
       var timeEl = el.getAttribute("data-time");
+      var boeUpdateEl = el.getAttribute("data-boe-update");
       var timeout = el.getAttribute("data-timeout");
 
       if (!targetEl || !errorEl || !timeout) {
@@ -450,16 +451,30 @@ var app = {
           request(
             url,
             function(xhr) {
+              // This can't be searched for until it's in a DOM
+              var boeUpdate;
+
               each(targetEl, function(el) {
                 el.innerHTML = xhr.responseText;
+                var boeUpdateContainer = el.querySelector("[data-boe-update]");
+                if (boeUpdateContainer) {
+                boeUpdate = boeUpdateContainer.getAttribute("data-boe-update");
+                } else {
+                  console.warn("expected data-boe-update missing")
+                }
               });
               each(errorEl, function(el) {
                 el.innerHTML = "";
               });
+              if (boeUpdateEl && boeUpdate) {
+                each(boeUpdateEl, function(el) {
+                  el.innerText = boeUpdate;
+                });
+              }
               if (timeEl) {
                 each(timeEl, function(el) {
                   var now = new Date();
-                  el.innerHTML = now.toLocaleTimeString("en-US");
+                  el.innerText = now.toLocaleTimeString("en-US");
                 });
               }
             },

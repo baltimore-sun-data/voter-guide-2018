@@ -12,7 +12,7 @@
         <em>
             Last update from
             <a href="https://elections.maryland.gov/elections/results_data/">Board of Elections</a>:
-            <!--To do: change last update from BOE-->
+            <span id="boe-update-time">Still loading…</span>
         </em>
     </main>
 
@@ -33,6 +33,7 @@
         data-target='#info-{{ $race.ID }}'
         data-errors='#errors-{{ $race.ID }}'
         data-time='#time-key'
+        data-boe-update="#boe-update-time"
         data-timeout="30000">
           <div id="errors-{{ $race.ID }}"></div>
           <div id="info-{{ $race.ID }}">
@@ -48,6 +49,7 @@
         data-target="#info"
         data-errors="#errors"
         data-time="#time-all"
+        data-boe-update="#boe-update-time"
         data-timeout="30000">
         <h2 class="results-header">Find races</h2>
         <hr>
