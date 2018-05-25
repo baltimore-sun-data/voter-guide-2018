@@ -494,11 +494,9 @@ var app = {
     });
 
     on(".js-key-contests-btn", "click", function(e) {
-      var el = e.target.closest(".js-results-container");
-      if (e.target.value) {
-        el.setAttribute("data-fetch-url", e.target.value);
-      }
-      el.dispatchEvent(new Event("update"));
+      each(".js-results-container", function(el){
+        el.dispatchEvent(new Event("update"));
+      });
     });
 
     if (document.querySelector(".js-select2")) {
