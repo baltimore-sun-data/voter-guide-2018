@@ -12,7 +12,6 @@ var app = {
     app.target_links();
     app.toggle_fixed_nav();
     app.party_toggle();
-    app.results_toggle();
     app.results_download();
   },
 
