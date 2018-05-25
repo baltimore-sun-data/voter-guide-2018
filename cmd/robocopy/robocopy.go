@@ -62,7 +62,7 @@ func FromArgs(args []string) *Config {
 	fl.StringVar(&conf.TemplateGlob, "template-glob", "layouts-robocopy/*.html", "pattern to look for templates with")
 	fl.StringVar(&conf.Region, "region", "us-east-1", "Amazon region for S3")
 	fl.StringVar(&conf.Bucket, "bucket", "elections2018-news-baltimoresun-com", "Amazon S3 bucket")
-	fl.StringVar(&conf.Path, "path", "/results/contests/", "Amazon S3 destination path")
+	fl.StringVar(&conf.Path, "path", "/results/", "Amazon S3 destination path")
 	fl.DurationVar(&conf.PollInterval, "poll-interval", 30*time.Second, "time between refreshing S3")
 	fl.IntVar(&conf.DevPort, "dev-port", 9191, "port for dev server")
 	fl.IntVar(&conf.NumWorkers, "workers", 5, "number of upload workers")
