@@ -10,7 +10,7 @@
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-jim-shea-20170802-htmlstory.html",
   "last-name": "Shea",
   "party": "Democrat",
-  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-jim-shea-profile-20180515-story.html",
+  "profile": "[After career in law, Democrat Jim Shea seeks to be governor: 'I think I have something to offer'](http://www.baltimoresun.com/news/maryland/politics/bs-md-jim-shea-profile-20180515-story.html)",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

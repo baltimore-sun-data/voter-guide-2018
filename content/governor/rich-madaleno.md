@@ -10,7 +10,7 @@
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-madaleno-20171212-htmlstory.html",
   "last-name": "Madaleno",
   "party": "Democrat",
-  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-madaleno-profile-20180508-story.html",
+  "profile": "[Madaleno, staunch liberal and policy wonk, hopes to build on Montgomery Co. base in Maryland governor's race](http://www.baltimoresun.com/news/maryland/politics/bs-md-madaleno-profile-20180508-story.html)",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

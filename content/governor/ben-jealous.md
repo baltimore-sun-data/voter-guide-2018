@@ -10,7 +10,7 @@
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-ben-jeaous-20180301-htmlstory.html",
   "last-name": "Jealous",
   "party": "Democrat",
-  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-ben-jealous-profile-20180508-story.html",
+  "profile": "[Democrat Ben Jealous pitches health care for all, free college tuition in bid for Maryland governor](http://www.baltimoresun.com/news/maryland/politics/bs-md-ben-jealous-profile-20180508-story.html)",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

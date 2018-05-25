@@ -10,7 +10,7 @@
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-krish-vignarajah-20171214-htmlstory.html",
   "last-name": "Vignarajah",
   "party": "Democrat",
-  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-krish-vignarajah-profile-20180521-story.html",
+  "profile": "[Democrat Krish Vignarajah says it's time for a woman to be Maryland's governor](http://www.baltimoresun.com/news/maryland/politics/bs-md-krish-vignarajah-profile-20180521-story.html)",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

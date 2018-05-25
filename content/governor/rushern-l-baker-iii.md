@@ -10,7 +10,7 @@
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-rushern-baker-20171012-htmlstory.html",
   "last-name": "Baker",
   "party": "Democrat",
-  "profile": "http://www.baltimoresun.com/news/maryland/politics/bs-md-baker-profile-20180514-story.html",
+  "profile": "[In governor's race, Democrat Rushern Baker says he turned around Prince George's and will do same for Maryland](http://www.baltimoresun.com/news/maryland/politics/bs-md-baker-profile-20180514-story.html)",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
