@@ -1,4 +1,6 @@
 <div class="race" data-boe-update='{{ .LastUpdate.Format "3:04pm Jan. 2, 2006" }}'>
+    {{ $contestParty := .Party }}
+    {{ $nonPartisan := (eq (lowerAlpha .Party) "nonpartisan") }}
     {{ if ne .District "State of Maryland" }}
     <div class="sub-header">{{ .District }}</div>
     {{ end }}
@@ -6,24 +8,23 @@
     {{ if ne .Jurisdiction "State of Maryland" }}
     <div>Jurisdiction: {{ .Jurisdiction }}</div>
     {{ end }}
-    {{ if ne (lowerAlpha .Party) "nonpartisan" }}
+    {{ if not $nonPartisan }}
     <div class="party-header {{ .Party }}">{{ .Party }}</div>
     {{ end }}
     {{ if gt .VoteFor 1 }}
-    <div>VoteFor: {{ .VoteFor }}</div>
+    <div>Top {{ .VoteFor }} candidates advance</div>
     {{ end }}
-    {{ $contestParty := .Party }}
     <table>
         <thead>
             <th>Candidate</th>
-            {{ if and (ne (lowerAlpha .Party) "nonpartisan") (ne .Party $contestParty) }}<th>Party</th>{{ end }}
+            {{ if $nonPartisan }}<th>Party</th>{{ end }}
             <th>Votes</th>
             <th>Percentage</th>
         </thead>
         {{ range .Options }}
         <tr>
-            <td class="candidate name">{{ .Text }}{{ if .FrontRunner }}✔{{ end }}</td>
-            {{ if and (ne (lowerAlpha .Party) "nonpartisan") (ne .Party $contestParty) }}
+            <td class="candidate name">{{ .Text }}{{ if .FrontRunner }} ✔{{ end }}</td>
+            {{ if $nonPartisan }}
             <td class="party-col">{{ .Party }}</td>
             {{ end }}
             <td class="votes">{{ .TotalVotes | commas }}</td>
