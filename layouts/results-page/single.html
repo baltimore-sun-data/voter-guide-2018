@@ -19,7 +19,11 @@
     <noscript>
       <h2>Warning: This page requires Javascript.</h2>
     </noscript>
+
     {{ partial "ad-autorefresh.html" . }}
+
+    <button type="button" class="js-key-contests-btn btn btn-primary btn-lg">Refresh</button>
+
     <h2 class="results-header">Key races</h2>
     <hr>
     <div class="last-refresh">
@@ -103,18 +107,19 @@
         </div>
         <div id="errors"></div>
         <div id="info">
-          <p>Loading results…</p>
+          <p>Select race above</p>
         </div>
-        <button type="button" class="js-key-contests-btn btn btn-primary btn-lg">Refresh</button>
+    </div>
 
-        <div class="newsfeed">
-          <h2 class="results-header">Election coverage</h2>
-          <!-- TODO: Get proper election day results feed URL -->
-          <ul
-              data-feed-url="http://www.baltimoresun.com/news/maryland/politics/rss2.0.xml"
-              data-refresh="60000">
-          </ul>
-        </div>
+    <button type="button" class="js-key-contests-btn btn btn-primary btn-lg">Refresh</button>
+
+    <div class="newsfeed">
+      <h2 class="results-header">Election coverage</h2>
+      <!-- TODO: Get proper election day results feed URL -->
+      <ul
+          data-feed-url="http://www.baltimoresun.com/news/maryland/politics/rss2.0.xml"
+          data-refresh="60000">
+      </ul>
     </div>
 </div>
 {{ end }}
