@@ -2,6 +2,7 @@
   "directory": "content/governor",
   "filename": "valerie-ervin.md",
   "full-name": "Valerie Ervin",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-kamenetz-ervin-20180509-htmlstory.html",
   "last-name": "Ervin",
   "note": "Kevin Kamenetz [died suddenly on May 10](http://www.baltimoresun.com/news/maryland/politics/bs-md-kevin-kamenetz-ill-20180510-story.html). Under state law, his running mate, Valerie Ervin, has chosen to replace him as a candidate for governor. However, because ballots were already being printed before she entered the race, her name is not expected to appear among the gubernatorial candidates, and state officials are [still developing a procedure for voters to choose her](http://www.baltimoresun.com/news/maryland/politics/bs-md-ervin-ballot-20180518-story.html).",
   "party": "Democrat",
