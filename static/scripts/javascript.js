@@ -58,12 +58,12 @@ var app = {
 
   news_animation: function() {
     $(document)
-      .on("mouseenter", "#news ul li", function() {
-        $("#news ul li").addClass("faded");
+      .on("mouseenter", ".newsfeed ul li", function() {
+        $(".newsfeed ul li").addClass("faded");
         $(this).removeClass("faded");
       })
-      .on("mouseleave", "#news ul li", function() {
-        $("#news ul li").removeClass("faded");
+      .on("mouseleave", ".newsfeed ul li", function() {
+        $(".newsfeed ul li").removeClass("faded");
       });
   },
 
@@ -372,6 +372,12 @@ var app = {
     });
   },
 
+  results_toggle: function() {
+    var btn = event.target;
+    var results = btn.nextElementSibling;
+    $(results).toggleClass("hidden");
+  },
+
   results_download: function() {
     // Simple convenience functions
     function each(qs, callback) {
@@ -432,8 +438,14 @@ var app = {
         "update",
         function(ev) {
           window.clearTimeout(timeoutID);
+          setTimer();
+
           var url = el.getAttribute("data-fetch-url");
           console.log("update started for", url);
+          if (!url) {
+            // URL not set yet, bail until it is set
+            return;
+          }
 
           request(
             url,
@@ -459,7 +471,6 @@ var app = {
               console.error(e);
             }
           );
-          setTimer();
         },
         true
       );

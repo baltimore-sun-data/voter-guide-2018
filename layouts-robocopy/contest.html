@@ -1,13 +1,8 @@
 <div class="race">
-    <em>
-        Last Update from
-        <a href="https://elections.maryland.gov/elections/results_data/">Board of Elections</a>:
-        {{ .LastUpdate.Format "3:04pm Jan. 2, 2006" }}
-    </em>
-    <h2 class="section-header">{{ .Contest }}</h2>
     {{ if ne .District "State of Maryland" }}
-    <div class="sub-header">District: {{ .District }}</div>
+    <div class="sub-header">{{ .District }}</div>
     {{ end }}
+    <h3 class="section-header">{{ .Contest }}</h3>
     {{ if ne .Jurisdiction "State of Maryland" }}
     <div>Jurisdiction: {{ .Jurisdiction }}</div>
     {{ end }}
@@ -17,59 +12,62 @@
     {{ if gt .VoteFor 1 }}
     <div>VoteFor: {{ .VoteFor }}</div>
     {{ end }}
-    <div>Votes counted: {{ .TotalVotes | commas }}</div>
-</div>
-{{ $contestParty := .Party }}
-<ul>
-    {{ range .Options }}
-    <li>
-        {{ if and (ne (lowerAlpha .Party) "nonpartisan") (ne .Party $contestParty) }}
-        <div>{{ .Party }}</div>
-        {{ end }}
-        <div>{{ .Text }}</div>
-        <div>Votes: {{ .TotalVotes | commas }} ({{ .PercentageVotes | printf "%.1f" }}%)</div>
-        <div>{{ if .FrontRunner }}✔{{ end }}</div>
-    </li>
-    {{ end }}
-</ul>
-<div>
-    <div>{{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting</div>
-    <div>{{ .PercentCounted }}% counted</div>
-</div>
-
-{{ if gt (len .SubResults) 0 }}
-<h2>Detailed results</h2>
-
-<table>
-    <thead>
-        <tr>
-            <th>Jurisdiction</th>
-            <th>District</th>
-            <th>Precincts Reporting</th>
-            <th>Total Precincts</th>
-            <th>Percent Counted</th>
-             {{ range .Options }}
-                <th>{{ .Text }}</th>
-             {{ end }}
-        </tr>
-    </thead>
-    <tbody>
-    {{ range .SubResults }}
-    {{ if and (ne .Jurisdiction "State of Maryland") (ne .District "State of Maryland") }}
-    <tr>
-        <td>{{ .Jurisdiction }}</td>
-        <td>{{ .District }}</td>
-        <td>{{ .PrecinctsReporting }}</td>
-        <td>{{ .TotalPrecincts }}</td>
-        <td>{{ .PercentCounted }}</td>
+    {{ $contestParty := .Party }}
+    <table>
+        <thead>
+            <th>Candidate</th>
+            {{ if and (ne (lowerAlpha .Party) "nonpartisan") (ne .Party $contestParty) }}<th>Party</th>{{ end }}
+            <th>Votes</th>
+            <th>Percentage</th>
+        </thead>
         {{ range .Options }}
-            <td>
-                {{ .TotalVotes | commas }}
+        <tr>
+            <td class="candidate name">{{ .Text }}{{ if .FrontRunner }}✔{{ end }}</td>
+            {{ if and (ne (lowerAlpha .Party) "nonpartisan") (ne .Party $contestParty) }}
+            <td class="party-col">{{ .Party }}</td>
+            {{ end }}
+            <td class="votes">{{ .TotalVotes | commas }}</td>
+            <td class="percent">
+                <div class="percent-bar-bg">
+                    <div class="percent-bar cand{{ .Party }}" style='width: {{ .PercentageVotes | printf "%.1f" }}%'></div>
+                </div>
+                <div class="vote-percent">{{ .PercentageVotes | printf "%.1f" }}%</div>
             </td>
+        </tr>
         {{ end }}
-    </tr>
-    {{ end }}
-    {{ end }}
-    </tbody>
-</table>
+    </table>
+    <div>{{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% ) | {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting</div>
+    {{ if gt (len .SubResults) 1 }}
+    <button class="view-hide" onclick="app.results_toggle();">View results by district</button>
+    <table class="districts-results hidden">
+        <thead>
+            <tr>
+                <th>Jurisdiction</th>
+                <th>District</th>
+                <th>Precincts Reporting/&#32;Total Precincts</th>
+                <th>Percent Counted</th>
+                 {{ range .Options }}
+                    <th>{{ .Text }}</th>
+                 {{ end }}
+            </tr>
+        </thead>
+        <tbody>
+        {{ range .SubResults }}
+        {{ if and (ne .Jurisdiction "State of Maryland") (ne .District "State of Maryland") }}
+        <tr>
+            <td>{{ .Jurisdiction }}</td>
+            <td>{{ .District }}</td>
+            <td>{{ .PrecinctsReporting }}/{{ .TotalPrecincts }}</td>
+            <td>{{ .PercentCounted }}</td>
+            {{ range .Options }}
+                <td>
+                    {{ .TotalVotes | commas }}
+                </td>
+            {{ end }}
+        </tr>
+        {{ end }}
+        {{ end }}
+        </tbody>
+    </table>
+</div>
 {{ end }}
