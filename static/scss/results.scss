@@ -4,35 +4,44 @@
 .race table {
   width: 100%;
 }
+
 .race th {
   font-weight: normal;
+  padding: 0 0.5rem;
+  word-break: break-word;
 }
-td.candidate,
-th.candidate {
+
+.race td.candidate,
+.race th.candidate {
   width: 30%;
   color: #667682;
 }
 
-td.party-col,
-th.party-col {
+.race td.party-col,
+.race th.party-col {
   width: 10%;
   color: #667682;
 }
 
-td.votes,
-th.votes {
+.race td.votes,
+.race th.votes {
   width: 10%;
   color: #667682;
 }
 
-td.percent,
-th.percent {
+.race td.percent,
+.race th.percent {
   width: 50%;
   color: #667682;
 }
 
-td.name {
+.race td.name {
   font-weight: bold;
+}
+
+.race th.fixed,
+.race td.fixed {
+  width: 10rem;
 }
 
 .race td {
@@ -51,14 +60,6 @@ td.name {
 .percent-bar {
   background: #667682;
   height: 20px;
-}
-
-span.dem div.percent-bar {
-  background-color: #2e98cc;
-}
-
-span.rep div.percent-bar {
-  background-color: #ed4227;
 }
 
 .vote-percent {
@@ -113,23 +114,35 @@ button.view-hide {
   .percent-bar {
     display: none;
   }
-  td.candidate {
+  .race td.candidate {
     width: 40%;
   }
-  td.party-col,
-  td.votes,
-  td.percent {
+  .race td.party-col,
+  .race td.votes,
+  .race td.percent {
     width: 20%;
   }
-  h2.section-header-results {
+  .section-header-results {
     font-size: 1.5em;
   }
-  a.btn,
-  #chooseDistrict.btn,
-  .btn-primary {
-    font-size: 1.25em;
-  }
-  .btn-primary {
-    margin-bottom: 10px;
-  }
+}
+
+.district-results {
+  display: none;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.show-district-results .district-results {
+  display: block;
+}
+
+.district-results th:nth-child(even),
+.district-results td:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.race td.numeric {
+  text-align: right;
+  padding-right: 0.5em;
 }

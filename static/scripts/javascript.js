@@ -373,9 +373,8 @@ var app = {
   },
 
   results_toggle: function() {
-    var btn = event.target;
-    var results = btn.nextElementSibling;
-    $(results).toggleClass("hidden");
+    var parent = event.target.closest(".js-results-container");
+    parent.classList.toggle("show-district-results");
   },
 
   results_download: function() {
@@ -458,9 +457,11 @@ var app = {
                 el.innerHTML = xhr.responseText;
                 var boeUpdateContainer = el.querySelector("[data-boe-update]");
                 if (boeUpdateContainer) {
-                boeUpdate = boeUpdateContainer.getAttribute("data-boe-update");
+                  boeUpdate = boeUpdateContainer.getAttribute(
+                    "data-boe-update"
+                  );
                 } else {
-                  console.warn("expected data-boe-update missing")
+                  console.warn("expected data-boe-update missing");
                 }
               });
               each(errorEl, function(el) {
@@ -494,7 +495,7 @@ var app = {
     });
 
     on(".js-key-contests-btn", "click", function(e) {
-      each(".js-results-container", function(el){
+      each(".js-results-container", function(el) {
         el.dispatchEvent(new Event("update"));
       });
     });
