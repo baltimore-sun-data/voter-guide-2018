@@ -55,13 +55,12 @@
         data-time="#time-all"
         data-boe-update="#boe-update-time"
         data-timeout="30000">
+
         <h2 class="results-header">Find races</h2>
         <hr>
-        <div class="last-refresh">
-          Results last refreshed: <span id="time-all"></span>
-        </div>
-        <div class="find-results">
-          <select class="all-contests js-select2" style="width: 100%">
+
+        <div class="find-results col-sm-4 col-xs-12">
+          <select class="js-select2">
             <option disabled selected>Choose by race name</option>
             {{ range .Site.Data.results.AllContests }}
               <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
@@ -79,8 +78,8 @@
             {{ end }}
           </select>
         </div>
-        <div class="find-results">
-          <select class="all-options js-select2" style="width: 100%;">
+        <div class="find-results col-sm-4 col-xs-12">
+          <select class="js-select2">
             <option disabled selected>Choose by candidate name</option>
             {{ range .Site.Data.results.AllOptions }}
               <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
@@ -91,8 +90,8 @@
             {{ end }}
           </select>
         </div>
-        <div class="find-results">
-          <select class="all-options js-select2" style="width: 100%">
+        <div class="find-results col-sm-4 col-xs-12">
+          <select class="js-select2">
             <option disabled selected>Choose by district</option>
             {{ range sort .Site.Data.results.AllDistricts "ID" }}
               <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
@@ -105,6 +104,11 @@
             {{ end }}
           </select>
         </div>
+
+        <div class="last-refresh">
+          Results last refreshed: <span id="time-all"></span>
+        </div>
+
         <div id="errors"></div>
         <div id="info">
           <p>Select race above</p>
