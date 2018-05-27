@@ -35,6 +35,7 @@ type OptionResult struct {
 
 type Result struct {
 	LastUpdate           time.Time
+	IsPrimary            bool
 	Contest              string
 	Party                string
 	TotalVotes           int
@@ -94,6 +95,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			DistrictID:     contest.District,
 		}
 		result := &Result{
+			IsPrimary:            m.IsPrimary,
 			LastUpdate:           rc.LastUpdate,
 			Contest:              contest.Name,
 			District:             dist,
