@@ -5697,16 +5697,16 @@
       "District": "Prince George's County"
     },
     {
-      "ID": 661,
+      "ID": 216,
       "Name": "Aisha Khan",
-      "Contest": "Democratic Central Committee",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 44B"
     },
     {
-      "ID": 216,
+      "ID": 661,
       "Name": "Aisha Khan",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 44B"
     },
@@ -5858,16 +5858,16 @@
       "District": "Howard County"
     },
     {
-      "ID": 57,
+      "ID": 726,
       "Name": "Alirio E. Martinez, Jr.",
-      "Contest": "State Senator",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 19"
     },
     {
-      "ID": 726,
+      "ID": 57,
       "Name": "Alirio E. Martinez, Jr.",
-      "Contest": "Republican Central Committee",
+      "Contest": "State Senator",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 19"
     },
@@ -6180,18 +6180,18 @@
       "District": "Legislative District 15"
     },
     {
-      "ID": 217,
-      "Name": "Andy Zipay",
-      "Contest": "House of Delegates",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 45"
-    },
-    {
       "ID": 735,
       "Name": "Andy Zipay",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "Baltimore City",
       "District": "Councilmanic District 2"
+    },
+    {
+      "ID": 217,
+      "Name": "Andy Zipay",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45"
     },
     {
       "ID": 208,
@@ -6635,18 +6635,18 @@
       "District": "Montgomery County"
     },
     {
-      "ID": 673,
-      "Name": "Barbara Osborn Kreamer",
-      "Contest": "Democratic Central Committee Female",
-      "Jurisdiction": "State of Maryland",
-      "District": "Harford County"
-    },
-    {
       "ID": 82,
       "Name": "Barbara Osborn Kreamer",
       "Contest": "State Senator",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 34"
+    },
+    {
+      "ID": 673,
+      "Name": "Barbara Osborn Kreamer",
+      "Contest": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Harford County"
     },
     {
       "ID": 713,
@@ -6705,14 +6705,14 @@
       "District": "Legislative District 30A"
     },
     {
-      "ID": 386,
+      "ID": 387,
       "Name": "Beau H. Oglesby",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 1"
     },
     {
-      "ID": 387,
+      "ID": 386,
       "Name": "Beau H. Oglesby",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -6915,18 +6915,18 @@
       "District": "Legislative District 16"
     },
     {
-      "ID": 706,
-      "Name": "Bill Dotson",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Charles County"
-    },
-    {
       "ID": 168,
       "Name": "Bill Dotson",
       "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 28"
+    },
+    {
+      "ID": 706,
+      "Name": "Bill Dotson",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County"
     },
     {
       "ID": 101,
@@ -7279,18 +7279,18 @@
       "District": "Councilmanic District 5"
     },
     {
-      "ID": 722,
-      "Name": "Bradley St. Rohrs",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 15"
-    },
-    {
       "ID": 20,
       "Name": "Bradley St. Rohrs",
       "Contest": "Representative in Congress",
       "Jurisdiction": "State of Maryland",
       "District": "Congressional District 6"
+    },
+    {
+      "ID": 722,
+      "Name": "Bradley St. Rohrs",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15"
     },
     {
       "ID": 774,
@@ -7384,14 +7384,14 @@
       "District": "Calvert County"
     },
     {
-      "ID": 398,
+      "ID": 399,
       "Name": "Brett Wilson",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 4"
     },
     {
-      "ID": 399,
+      "ID": 398,
       "Name": "Brett Wilson",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -7475,18 +7475,18 @@
       "District": "Legislative District 15"
     },
     {
-      "ID": 590,
-      "Name": "Brian J. Noon",
-      "Contest": "Sheriff",
-      "Jurisdiction": "State of Maryland",
-      "District": "Baltimore County"
-    },
-    {
       "ID": 745,
       "Name": "Brian J. Noon",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "Baltimore County",
       "District": "Councilmanic District 7"
+    },
+    {
+      "ID": 590,
+      "Name": "Brian J. Noon",
+      "Contest": "Sheriff",
+      "Jurisdiction": "State of Maryland",
+      "District": "Baltimore County"
     },
     {
       "ID": 682,
@@ -7972,16 +7972,16 @@
       "District": "Calvert County"
     },
     {
-      "ID": 772,
+      "ID": 704,
       "Name": "Cathey Allison",
-      "Contest": "Board of Education",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Carroll County"
     },
     {
-      "ID": 704,
+      "ID": 772,
       "Name": "Cathey Allison",
-      "Contest": "Republican Central Committee",
+      "Contest": "Board of Education",
       "Jurisdiction": "State of Maryland",
       "District": "Carroll County"
     },
@@ -8105,16 +8105,16 @@
       "District": "Commissioner District 2"
     },
     {
-      "ID": 684,
+      "ID": 558,
       "Name": "Charles E. Harrison",
-      "Contest": "Democratic Central Committee Male",
+      "Contest": "Judge of the Orphans' Court",
       "Jurisdiction": "State of Maryland",
       "District": "Carroll County"
     },
     {
-      "ID": 558,
+      "ID": 684,
       "Name": "Charles E. Harrison",
-      "Contest": "Judge of the Orphans' Court",
+      "Contest": "Democratic Central Committee Male",
       "Jurisdiction": "State of Maryland",
       "District": "Carroll County"
     },
@@ -8882,6 +8882,13 @@
       "District": "Wicomico County"
     },
     {
+      "ID": 196,
+      "Name": "Crystal Woodward",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36"
+    },
+    {
       "ID": 197,
       "Name": "Crystal Woodward",
       "Contest": "House of Delegates",
@@ -8890,13 +8897,6 @@
     },
     {
       "ID": 198,
-      "Name": "Crystal Woodward",
-      "Contest": "House of Delegates",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 36"
-    },
-    {
-      "ID": 196,
       "Name": "Crystal Woodward",
       "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
@@ -8987,14 +8987,14 @@
       "District": "Legislative District 18"
     },
     {
-      "ID": 413,
+      "ID": 412,
       "Name": "Dana Michele Middleton",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 8"
     },
     {
-      "ID": 412,
+      "ID": 413,
       "Name": "Dana Michele Middleton",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -9029,18 +9029,18 @@
       "District": "Legislative District 11"
     },
     {
-      "ID": 117,
-      "Name": "Dan Cox",
-      "Contest": "House of Delegates",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 4"
-    },
-    {
       "ID": 708,
       "Name": "Dan Cox",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Frederick County"
+    },
+    {
+      "ID": 117,
+      "Name": "Dan Cox",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 4"
     },
     {
       "ID": 722,
@@ -9099,14 +9099,14 @@
       "District": "Legislative District 42B"
     },
     {
-      "ID": 383,
+      "ID": 382,
       "Name": "Daniel William Powell",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 1"
     },
     {
-      "ID": 382,
+      "ID": 383,
       "Name": "Daniel William Powell",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -9365,18 +9365,18 @@
       "District": "Allegany County"
     },
     {
-      "ID": 735,
-      "Name": "David Anthony Wiggins",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 2"
-    },
-    {
       "ID": 587,
       "Name": "David Anthony Wiggins",
       "Contest": "Sheriff",
       "Jurisdiction": "State of Maryland",
       "District": "Baltimore City"
+    },
+    {
+      "ID": 735,
+      "Name": "David Anthony Wiggins",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 2"
     },
     {
       "ID": 702,
@@ -9610,14 +9610,14 @@
       "District": "Legislative District 15"
     },
     {
-      "ID": 406,
+      "ID": 407,
       "Name": "David W. Lease",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 407,
+      "ID": 406,
       "Name": "David W. Lease",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -9729,18 +9729,18 @@
       "District": "Saint Mary's County"
     },
     {
-      "ID": 676,
-      "Name": "Deborah Krueger",
-      "Contest": "Democratic Central Committee Female",
-      "Jurisdiction": "State of Maryland",
-      "District": "Queen Anne's County"
-    },
-    {
       "ID": 445,
       "Name": "Deborah Krueger",
       "Contest": "County Commissioner",
       "Jurisdiction": "Queen Anne's County",
       "District": "Commissioner District 4"
+    },
+    {
+      "ID": 676,
+      "Name": "Deborah Krueger",
+      "Contest": "Democratic Central Committee Female",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County"
     },
     {
       "ID": 724,
@@ -10016,16 +10016,16 @@
       "District": "Commissioner District 3"
     },
     {
-      "ID": 214,
+      "ID": 659,
       "Name": "Destinee Parker",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 43"
     },
     {
-      "ID": 659,
+      "ID": 214,
       "Name": "Destinee Parker",
-      "Contest": "Democratic Central Committee",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 43"
     },
@@ -10065,14 +10065,14 @@
       "District": "Commissioner District 2"
     },
     {
-      "ID": 397,
+      "ID": 396,
       "Name": "Diane Adkins-Tobin",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 3"
     },
     {
-      "ID": 396,
+      "ID": 397,
       "Name": "Diane Adkins-Tobin",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -10107,18 +10107,18 @@
       "District": "Legislative District 26"
     },
     {
-      "ID": 692,
-      "Name": "Dino Romano LaMana",
-      "Contest": "Democratic Central Committee Male",
-      "Jurisdiction": "State of Maryland",
-      "District": "Queen Anne's County"
-    },
-    {
       "ID": 424,
       "Name": "Dino Romano LaMana",
       "Contest": "County Commissioner",
       "Jurisdiction": "Queen Anne's County",
       "District": "Commissioner District 1"
+    },
+    {
+      "ID": 692,
+      "Name": "Dino Romano LaMana",
+      "Contest": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Queen Anne's County"
     },
     {
       "ID": 343,
@@ -10135,18 +10135,18 @@
       "District": "Prince George's County"
     },
     {
-      "ID": 725,
-      "Name": "Dolores Reyes",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 18"
-    },
-    {
       "ID": 539,
       "Name": "Dolores Reyes",
       "Contest": "Register of Wills",
       "Jurisdiction": "State of Maryland",
       "District": "Montgomery County"
+    },
+    {
+      "ID": 725,
+      "Name": "Dolores Reyes",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18"
     },
     {
       "ID": 245,
@@ -10233,16 +10233,16 @@
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 159,
+      "ID": 635,
       "Name": "Donjuan \"DJ\" Williams",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee At Large",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 24"
     },
     {
-      "ID": 635,
+      "ID": 159,
       "Name": "Donjuan \"DJ\" Williams",
-      "Contest": "Democratic Central Committee At Large",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 24"
     },
@@ -11458,14 +11458,14 @@
       "District": "Legislative District 20"
     },
     {
-      "ID": 403,
+      "ID": 402,
       "Name": "George Psoras, Jr.",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 5"
     },
     {
-      "ID": 402,
+      "ID": 403,
       "Name": "George Psoras, Jr.",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -11591,13 +11591,6 @@
       "District": "Frederick County"
     },
     {
-      "ID": 653,
-      "Name": "Gloria McClam-Magruder",
-      "Contest": "Democratic Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 27A"
-    },
-    {
       "ID": 504,
       "Name": "Gloria McClam-Magruder",
       "Contest": "Clerk of the Circuit Court",
@@ -11605,11 +11598,11 @@
       "District": "Prince George's County"
     },
     {
-      "ID": 123,
-      "Name": "Gordon Koerner",
-      "Contest": "House of Delegates",
+      "ID": 653,
+      "Name": "Gloria McClam-Magruder",
+      "Contest": "Democratic Central Committee",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 7"
+      "District": "Legislative District 27A"
     },
     {
       "ID": 689,
@@ -11617,6 +11610,13 @@
       "Contest": "Democratic Central Committee Male",
       "Jurisdiction": "State of Maryland",
       "District": "Harford County"
+    },
+    {
+      "ID": 123,
+      "Name": "Gordon Koerner",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7"
     },
     {
       "ID": 521,
@@ -12004,18 +12004,18 @@
       "District": "Legislative District 16"
     },
     {
-      "ID": 11,
-      "Name": "Hubert Owens, Jr.",
-      "Contest": "Representative in Congress",
-      "Jurisdiction": "State of Maryland",
-      "District": "Congressional District 2"
-    },
-    {
       "ID": 730,
       "Name": "Hubert Owens, Jr.",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 32"
+    },
+    {
+      "ID": 11,
+      "Name": "Hubert Owens, Jr.",
+      "Contest": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 2"
     },
     {
       "ID": 313,
@@ -12207,18 +12207,18 @@
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 706,
-      "Name": "James Ashburn",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Charles County"
-    },
-    {
       "ID": 443,
       "Name": "James Ashburn",
       "Contest": "County Commissioner",
       "Jurisdiction": "Charles County",
       "District": "Commissioner District 4"
+    },
+    {
+      "ID": 706,
+      "Name": "James Ashburn",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County"
     },
     {
       "ID": 513,
@@ -12606,16 +12606,16 @@
       "District": "Frederick County"
     },
     {
-      "ID": 321,
+      "ID": 741,
       "Name": "Jay Payne",
-      "Contest": "County Council",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "Baltimore County",
       "District": "Councilmanic District 5"
     },
     {
-      "ID": 741,
+      "ID": 321,
       "Name": "Jay Payne",
-      "Contest": "Republican Central Committee",
+      "Contest": "County Council",
       "Jurisdiction": "Baltimore County",
       "District": "Councilmanic District 5"
     },
@@ -12697,14 +12697,14 @@
       "District": "Councilmanic District D"
     },
     {
-      "ID": 407,
+      "ID": 406,
       "Name": "Jeannie E. Cho",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 406,
+      "ID": 407,
       "Name": "Jeannie E. Cho",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -12809,14 +12809,14 @@
       "District": "Howard County"
     },
     {
-      "ID": 412,
+      "ID": 413,
       "Name": "Jennifer Bridget Schiffer",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 8"
     },
     {
-      "ID": 413,
+      "ID": 412,
       "Name": "Jennifer Bridget Schiffer",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -12998,18 +12998,18 @@
       "District": "Legislative District 45"
     },
     {
-      "ID": 708,
-      "Name": "Jesse T. Pippy",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Frederick County"
-    },
-    {
       "ID": 117,
       "Name": "Jesse T. Pippy",
       "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 4"
+    },
+    {
+      "ID": 708,
+      "Name": "Jesse T. Pippy",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County"
     },
     {
       "ID": 710,
@@ -13425,18 +13425,18 @@
       "District": "Legislative District 8"
     },
     {
-      "ID": 708,
-      "Name": "Joe Parsley",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Frederick County"
-    },
-    {
       "ID": 301,
       "Name": "Joe Parsley",
       "Contest": "County Council",
       "Jurisdiction": "Frederick County",
       "District": "Councilmanic District 3"
+    },
+    {
+      "ID": 708,
+      "Name": "Joe Parsley",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Frederick County"
     },
     {
       "ID": 662,
@@ -14279,14 +14279,14 @@
       "District": "Legislative District 29C"
     },
     {
-      "ID": 404,
+      "ID": 405,
       "Name": "Julia Martz-Fisher",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 405,
+      "ID": 404,
       "Name": "Julia Martz-Fisher",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -14615,18 +14615,18 @@
       "District": "Legislative District 11"
     },
     {
-      "ID": 355,
-      "Name": "Katherine Adelaide",
-      "Contest": "County Commissioner",
-      "Jurisdiction": "Carroll County",
-      "District": "Commissioner District 1"
-    },
-    {
       "ID": 704,
       "Name": "Katherine Adelaide",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Carroll County"
+    },
+    {
+      "ID": 355,
+      "Name": "Katherine Adelaide",
+      "Contest": "County Commissioner",
+      "Jurisdiction": "Carroll County",
+      "District": "Commissioner District 1"
     },
     {
       "ID": 505,
@@ -14713,14 +14713,14 @@
       "District": "Legislative District 23A"
     },
     {
-      "ID": 385,
+      "ID": 384,
       "Name": "Kathleen L. Beckstead",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 1"
     },
     {
-      "ID": 384,
+      "ID": 385,
       "Name": "Kathleen L. Beckstead",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -14846,6 +14846,13 @@
       "District": "Legislative District 40"
     },
     {
+      "ID": 196,
+      "Name": "Keirien Taylor",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36"
+    },
+    {
       "ID": 198,
       "Name": "Keirien Taylor",
       "Contest": "House of Delegates",
@@ -14860,13 +14867,6 @@
       "District": "Legislative District 36"
     },
     {
-      "ID": 196,
-      "Name": "Keirien Taylor",
-      "Contest": "House of Delegates",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 36"
-    },
-    {
       "ID": 544,
       "Name": "Keith B. Ward",
       "Contest": "Register of Wills",
@@ -14874,16 +14874,16 @@
       "District": "Somerset County"
     },
     {
-      "ID": 215,
+      "ID": 660,
       "Name": "Keith E. Haynes",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 44A"
     },
     {
-      "ID": 660,
+      "ID": 215,
       "Name": "Keith E. Haynes",
-      "Contest": "Democratic Central Committee",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 44A"
     },
@@ -14951,16 +14951,16 @@
       "District": "Carroll County"
     },
     {
-      "ID": 160,
+      "ID": 636,
       "Name": "Kent Roberson",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee At Large",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 25"
     },
     {
-      "ID": 636,
+      "ID": 160,
       "Name": "Kent Roberson",
-      "Contest": "Democratic Central Committee At Large",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 25"
     },
@@ -15000,16 +15000,16 @@
       "District": "Saint Mary's County"
     },
     {
-      "ID": 140,
+      "ID": 721,
       "Name": "Kevin Dorrance",
-      "Contest": "House of Delegates",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 14"
     },
     {
-      "ID": 721,
+      "ID": 140,
       "Name": "Kevin Dorrance",
-      "Contest": "Republican Central Committee",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 14"
     },
@@ -15028,14 +15028,14 @@
       "District": "Baltimore County"
     },
     {
-      "ID": 407,
+      "ID": 406,
       "Name": "Kevin G. Hessler",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 406,
+      "ID": 407,
       "Name": "Kevin G. Hessler",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -15091,16 +15091,16 @@
       "District": "Queen Anne's County"
     },
     {
-      "ID": 157,
+      "ID": 648,
       "Name": "Kevin Samuel Thomas",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 23A"
     },
     {
-      "ID": 648,
+      "ID": 157,
       "Name": "Kevin Samuel Thomas",
-      "Contest": "Democratic Central Committee",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 23A"
     },
@@ -15385,18 +15385,18 @@
       "District": "Legislative District 13"
     },
     {
-      "ID": 306,
-      "Name": "Larry W. Dodd",
-      "Contest": "County Council",
-      "Jurisdiction": "Wicomico County",
-      "District": "Councilmanic District 3"
-    },
-    {
       "ID": 718,
       "Name": "Larry W. Dodd",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Wicomico County"
+    },
+    {
+      "ID": 306,
+      "Name": "Larry W. Dodd",
+      "Contest": "County Council",
+      "Jurisdiction": "Wicomico County",
+      "District": "Councilmanic District 3"
     },
     {
       "ID": 159,
@@ -16113,14 +16113,14 @@
       "District": "Prince George's County"
     },
     {
-      "ID": 408,
+      "ID": 409,
       "Name": "Makeba Gibbs",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 409,
+      "ID": 408,
       "Name": "Makeba Gibbs",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -16211,16 +16211,16 @@
       "District": "Harford County"
     },
     {
-      "ID": 723,
+      "ID": 52,
       "Name": "Marcus Alzona",
-      "Contest": "Republican Central Committee",
+      "Contest": "State Senator",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 16"
     },
     {
-      "ID": 52,
+      "ID": 723,
       "Name": "Marcus Alzona",
-      "Contest": "State Senator",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 16"
     },
@@ -16253,14 +16253,14 @@
       "District": "Calvert County"
     },
     {
-      "ID": 406,
+      "ID": 407,
       "Name": "Margaret Marie Schweitzer",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 407,
+      "ID": 406,
       "Name": "Margaret Marie Schweitzer",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -16708,14 +16708,14 @@
       "District": "Carroll County"
     },
     {
-      "ID": 406,
+      "ID": 407,
       "Name": "Marylin Pierre",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 407,
+      "ID": 406,
       "Name": "Marylin Pierre",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -16827,14 +16827,14 @@
       "District": "Councilmanic District 1"
     },
     {
-      "ID": 384,
+      "ID": 385,
       "Name": "Matthew A. Maciarello",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 1"
     },
     {
-      "ID": 385,
+      "ID": 384,
       "Name": "Matthew A. Maciarello",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -17037,18 +17037,18 @@
       "District": "Councilmanic District 7"
     },
     {
-      "ID": 734,
-      "Name": "Melanie Harris",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 1"
-    },
-    {
       "ID": 135,
       "Name": "Melanie Harris",
       "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 12"
+    },
+    {
+      "ID": 734,
+      "Name": "Melanie Harris",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 1"
     },
     {
       "ID": 259,
@@ -17261,14 +17261,14 @@
       "District": "Legislative District 36"
     },
     {
-      "ID": 391,
+      "ID": 390,
       "Name": "Michael D. Smigiel, Sr.",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 2"
     },
     {
-      "ID": 390,
+      "ID": 391,
       "Name": "Michael D. Smigiel, Sr.",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -17345,6 +17345,13 @@
       "District": "Legislative District 36"
     },
     {
+      "ID": 685,
+      "Name": "Michael Ian Welker",
+      "Contest": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Cecil County"
+    },
+    {
       "ID": 197,
       "Name": "Michael Ian Welker",
       "Contest": "House of Delegates",
@@ -17357,13 +17364,6 @@
       "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 36"
-    },
-    {
-      "ID": 685,
-      "Name": "Michael Ian Welker",
-      "Contest": "Democratic Central Committee Male",
-      "Jurisdiction": "State of Maryland",
-      "District": "Cecil County"
     },
     {
       "ID": 324,
@@ -17415,18 +17415,18 @@
       "District": "Allegany County"
     },
     {
-      "ID": 21,
-      "Name": "Michael Pearson",
-      "Contest": "Representative in Congress",
-      "Jurisdiction": "State of Maryland",
-      "District": "Congressional District 7"
-    },
-    {
       "ID": 750,
       "Name": "Michael Pearson",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "Baltimore City",
       "District": "Councilmanic District 12"
+    },
+    {
+      "ID": 21,
+      "Name": "Michael Pearson",
+      "Contest": "Representative in Congress",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 7"
     },
     {
       "ID": 787,
@@ -17828,16 +17828,16 @@
       "District": "Legislative District 10"
     },
     {
-      "ID": 771,
+      "ID": 701,
       "Name": "Morgan Mayer",
-      "Contest": "Board of Education",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Allegany County"
     },
     {
-      "ID": 701,
+      "ID": 771,
       "Name": "Morgan Mayer",
-      "Contest": "Republican Central Committee",
+      "Contest": "Board of Education",
       "Jurisdiction": "State of Maryland",
       "District": "Allegany County"
     },
@@ -17982,16 +17982,16 @@
       "District": "Legislative District 10"
     },
     {
-      "ID": 94,
+      "ID": 656,
       "Name": "Nathaniel T. Oaks",
-      "Contest": "State Senator",
+      "Contest": "Democratic Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 41"
     },
     {
-      "ID": 656,
+      "ID": 94,
       "Name": "Nathaniel T. Oaks",
-      "Contest": "Democratic Central Committee",
+      "Contest": "State Senator",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 41"
     },
@@ -18080,18 +18080,18 @@
       "District": "Allegany County"
     },
     {
-      "ID": 733,
-      "Name": "Nicholas Wentworth",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 1"
-    },
-    {
       "ID": 220,
       "Name": "Nicholas Wentworth",
       "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 46"
+    },
+    {
+      "ID": 733,
+      "Name": "Nicholas Wentworth",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 1"
     },
     {
       "ID": 181,
@@ -18409,18 +18409,18 @@
       "District": "Legislative District 14"
     },
     {
-      "ID": 650,
-      "Name": "Patricia M. Waiters",
-      "Contest": "Democratic Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 24"
-    },
-    {
       "ID": 329,
       "Name": "Patricia M. Waiters",
       "Contest": "County Council",
       "Jurisdiction": "Prince George's County",
       "District": "Councilmanic District 5"
+    },
+    {
+      "ID": 650,
+      "Name": "Patricia M. Waiters",
+      "Contest": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24"
     },
     {
       "ID": 777,
@@ -18682,14 +18682,14 @@
       "District": "Councilmanic District 3"
     },
     {
-      "ID": 397,
+      "ID": 396,
       "Name": "Paul W. Ishak",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 3"
     },
     {
-      "ID": 396,
+      "ID": 397,
       "Name": "Paul W. Ishak",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -18787,18 +18787,18 @@
       "District": "Wicomico County"
     },
     {
-      "ID": 111,
-      "Name": "Peter E. Perini, Sr.",
-      "Contest": "House of Delegates",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 2B"
-    },
-    {
       "ID": 696,
       "Name": "Peter E. Perini, Sr.",
       "Contest": "Democratic Central Committee Male",
       "Jurisdiction": "State of Maryland",
       "District": "Washington County"
+    },
+    {
+      "ID": 111,
+      "Name": "Peter E. Perini, Sr.",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 2B"
     },
     {
       "ID": 3,
@@ -18808,14 +18808,14 @@
       "District": "State of Maryland"
     },
     {
-      "ID": 410,
+      "ID": 411,
       "Name": "Peter Killough",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 411,
+      "ID": 410,
       "Name": "Peter Killough",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -19102,16 +19102,16 @@
       "District": "Prince George's County"
     },
     {
-      "ID": 686,
+      "ID": 562,
       "Name": "Reginald Kearney",
-      "Contest": "Democratic Central Committee Male",
+      "Contest": "Judge of the Orphans' Court",
       "Jurisdiction": "State of Maryland",
       "District": "Charles County"
     },
     {
-      "ID": 562,
+      "ID": 686,
       "Name": "Reginald Kearney",
-      "Contest": "Judge of the Orphans' Court",
+      "Contest": "Democratic Central Committee Male",
       "Jurisdiction": "State of Maryland",
       "District": "Charles County"
     },
@@ -19319,14 +19319,14 @@
       "District": "Carroll County"
     },
     {
-      "ID": 402,
+      "ID": 403,
       "Name": "Richard R. Titus",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 5"
     },
     {
-      "ID": 403,
+      "ID": 402,
       "Name": "Richard R. Titus",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -19368,18 +19368,18 @@
       "District": "Congressional District 7"
     },
     {
-      "ID": 195,
-      "Name": "Rick Bowers",
-      "Contest": "House of Delegates",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 36"
-    },
-    {
       "ID": 713,
       "Name": "Rick Bowers",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Queen Anne's County"
+    },
+    {
+      "ID": 195,
+      "Name": "Rick Bowers",
+      "Contest": "House of Delegates",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36"
     },
     {
       "ID": 400,
@@ -19438,14 +19438,14 @@
       "District": "Councilmanic District 3"
     },
     {
-      "ID": 405,
+      "ID": 404,
       "Name": "Ricky Sandy",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 6"
     },
     {
-      "ID": 404,
+      "ID": 405,
       "Name": "Ricky Sandy",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -19508,14 +19508,14 @@
       "District": "Legislative District 46"
     },
     {
-      "ID": 394,
+      "ID": 395,
       "Name": "Robert A. Cohen",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 3"
     },
     {
-      "ID": 395,
+      "ID": 394,
       "Name": "Robert A. Cohen",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -19648,14 +19648,14 @@
       "District": "Howard County"
     },
     {
-      "ID": 400,
+      "ID": 401,
       "Name": "Robert W. Burton",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 5"
     },
     {
-      "ID": 401,
+      "ID": 400,
       "Name": "Robert W. Burton",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -19690,14 +19690,14 @@
       "District": "Garrett County"
     },
     {
-      "ID": 410,
+      "ID": 411,
       "Name": "Robin Bright",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 411,
+      "ID": 410,
       "Name": "Robin Bright",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -19795,16 +19795,16 @@
       "District": "Congressional District 6"
     },
     {
-      "ID": 505,
+      "ID": 713,
       "Name": "Roger Twigg",
-      "Contest": "Clerk of the Circuit Court",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Queen Anne's County"
     },
     {
-      "ID": 713,
+      "ID": 505,
       "Name": "Roger Twigg",
-      "Contest": "Republican Central Committee",
+      "Contest": "Clerk of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Queen Anne's County"
     },
@@ -20019,14 +20019,14 @@
       "District": "Garrett County"
     },
     {
-      "ID": 394,
+      "ID": 395,
       "Name": "Ruth Jakubowski",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 3"
     },
     {
-      "ID": 395,
+      "ID": 394,
       "Name": "Ruth Jakubowski",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -20390,14 +20390,14 @@
       "District": "Legislative District 26"
     },
     {
-      "ID": 411,
+      "ID": 410,
       "Name": "Sean D. Wallace",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 410,
+      "ID": 411,
       "Name": "Sean D. Wallace",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -20607,18 +20607,18 @@
       "District": "Garrett County"
     },
     {
-      "ID": 661,
-      "Name": "Sheila Ruth",
-      "Contest": "Democratic Central Committee",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 44B"
-    },
-    {
       "ID": 269,
       "Name": "Sheila Ruth",
       "Contest": "County Council",
       "Jurisdiction": "Baltimore County",
       "District": "Councilmanic District 1"
+    },
+    {
+      "ID": 661,
+      "Name": "Sheila Ruth",
+      "Contest": "Democratic Central Committee",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44B"
     },
     {
       "ID": 43,
@@ -20922,16 +20922,16 @@
       "District": "Legislative District 36"
     },
     {
-      "ID": 719,
+      "ID": 549,
       "Name": "Steven K. Sisk",
-      "Contest": "Republican Central Committee",
+      "Contest": "Register of Wills",
       "Jurisdiction": "State of Maryland",
       "District": "Worcester County"
     },
     {
-      "ID": 549,
+      "ID": 719,
       "Name": "Steven K. Sisk",
-      "Contest": "Register of Wills",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Worcester County"
     },
@@ -20992,16 +20992,16 @@
       "District": "Montgomery County"
     },
     {
-      "ID": 489,
+      "ID": 703,
       "Name": "Steve Stouffer",
-      "Contest": "Clerk of the Circuit Court",
+      "Contest": "Republican Central Committee",
       "Jurisdiction": "State of Maryland",
       "District": "Caroline County"
     },
     {
-      "ID": 703,
+      "ID": 489,
       "Name": "Steve Stouffer",
-      "Contest": "Republican Central Committee",
+      "Contest": "Clerk of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Caroline County"
     },
@@ -21566,18 +21566,18 @@
       "District": "Frederick County"
     },
     {
-      "ID": 430,
-      "Name": "Thomasina \"Sina\" Coates",
-      "Contest": "County Commissioner",
-      "Jurisdiction": "Charles County",
-      "District": "Commissioner District 2"
-    },
-    {
       "ID": 670,
       "Name": "Thomasina \"Sina\" Coates",
       "Contest": "Democratic Central Committee Female",
       "Jurisdiction": "State of Maryland",
       "District": "Charles County"
+    },
+    {
+      "ID": 430,
+      "Name": "Thomasina \"Sina\" Coates",
+      "Contest": "County Commissioner",
+      "Jurisdiction": "Charles County",
+      "District": "Commissioner District 2"
     },
     {
       "ID": 416,
@@ -21832,18 +21832,18 @@
       "District": "Councilmanic District 1"
     },
     {
-      "ID": 686,
-      "Name": "Tom Desabla",
-      "Contest": "Democratic Central Committee Male",
-      "Jurisdiction": "State of Maryland",
-      "District": "Charles County"
-    },
-    {
       "ID": 430,
       "Name": "Tom Desabla",
       "Contest": "County Commissioner",
       "Jurisdiction": "Charles County",
       "District": "Commissioner District 2"
+    },
+    {
+      "ID": 686,
+      "Name": "Tom Desabla",
+      "Contest": "Democratic Central Committee Male",
+      "Jurisdiction": "State of Maryland",
+      "District": "Charles County"
     },
     {
       "ID": 291,
@@ -21972,18 +21972,18 @@
       "District": "Legislative District 41"
     },
     {
-      "ID": 7,
-      "Name": "Tony Campbell",
-      "Contest": "U.S. Senator",
-      "Jurisdiction": "State of Maryland",
-      "District": "State of Maryland"
-    },
-    {
       "ID": 743,
       "Name": "Tony Campbell",
       "Contest": "Republican Central Committee",
       "Jurisdiction": "Baltimore County",
       "District": "Councilmanic District 6"
+    },
+    {
+      "ID": 7,
+      "Name": "Tony Campbell",
+      "Contest": "U.S. Senator",
+      "Jurisdiction": "State of Maryland",
+      "District": "State of Maryland"
     },
     {
       "ID": 286,
@@ -22014,16 +22014,16 @@
       "District": "Legislative District 33"
     },
     {
-      "ID": 764,
+      "ID": 141,
       "Name": "Tony Puca",
-      "Contest": "Democratic Central Committee Male",
+      "Contest": "House of Delegates",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 15"
     },
     {
-      "ID": 141,
+      "ID": 764,
       "Name": "Tony Puca",
-      "Contest": "House of Delegates",
+      "Contest": "Democratic Central Committee Male",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 15"
     },
@@ -22553,14 +22553,14 @@
       "District": "Caroline County"
     },
     {
-      "ID": 390,
+      "ID": 391,
       "Name": "Will Davis",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 2"
     },
     {
-      "ID": 391,
+      "ID": 390,
       "Name": "Will Davis",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -22679,14 +22679,14 @@
       "District": "Baltimore County"
     },
     {
-      "ID": 408,
+      "ID": 409,
       "Name": "William R. Greer, Jr.",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 409,
+      "ID": 408,
       "Name": "William R. Greer, Jr.",
       "Contest": "Judge of the Circuit Court",
       "Jurisdiction": "State of Maryland",
@@ -22714,13 +22714,6 @@
       "District": "Kent County"
     },
     {
-      "ID": 411,
-      "Name": "William Snoddy",
-      "Contest": "Judge of the Circuit Court",
-      "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 7"
-    },
-    {
       "ID": 410,
       "Name": "William Snoddy",
       "Contest": "Judge of the Circuit Court",
@@ -22728,11 +22721,11 @@
       "District": "Judicial Circuit 7"
     },
     {
-      "ID": 738,
-      "Name": "William T. Newton",
-      "Contest": "Republican Central Committee",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 3"
+      "ID": 411,
+      "Name": "William Snoddy",
+      "Contest": "Judge of the Circuit Court",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 7"
     },
     {
       "ID": 21,
@@ -22740,6 +22733,13 @@
       "Contest": "Representative in Congress",
       "Jurisdiction": "State of Maryland",
       "District": "Congressional District 7"
+    },
+    {
+      "ID": 738,
+      "Name": "William T. Newton",
+      "Contest": "Republican Central Committee",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 3"
     },
     {
       "ID": 571,
@@ -22845,21 +22845,9 @@
       "Type": "County"
     },
     {
-      "ID": "500000043",
-      "Jurisdiction": "Montgomery County",
-      "District": "Board of Education District 3",
-      "Type": "Board of Education District"
-    },
-    {
       "ID": "500000183",
       "Jurisdiction": "Prince George's County",
       "District": "Board of Education District 9",
-      "Type": "Board of Education District"
-    },
-    {
-      "ID": "500000037",
-      "Jurisdiction": "Prince George's County",
-      "District": "Board of Education District 2",
       "Type": "Board of Education District"
     },
     {
@@ -22869,9 +22857,21 @@
       "Type": "Board of Education District"
     },
     {
+      "ID": "500000043",
+      "Jurisdiction": "Montgomery County",
+      "District": "Board of Education District 3",
+      "Type": "Board of Education District"
+    },
+    {
       "ID": "500000180",
       "Jurisdiction": "Prince George's County",
       "District": "Board of Education District 6",
+      "Type": "Board of Education District"
+    },
+    {
+      "ID": "500000037",
+      "Jurisdiction": "Prince George's County",
+      "District": "Board of Education District 2",
       "Type": "Board of Education District"
     },
     {
@@ -22905,14 +22905,14 @@
       "Type": "County"
     },
     {
-      "ID": "7626",
-      "Jurisdiction": "Somerset County",
-      "District": "Commissioner District 2",
+      "ID": "750000086",
+      "Jurisdiction": "Carroll County",
+      "District": "Commissioner District 3",
       "Type": "Commissioner District"
     },
     {
-      "ID": "7211",
-      "Jurisdiction": "Saint Mary's County",
+      "ID": "6497",
+      "Jurisdiction": "Queen Anne's County",
       "District": "Commissioner District 3",
       "Type": "Commissioner District"
     },
@@ -22923,164 +22923,14 @@
       "Type": "Commissioner District"
     },
     {
-      "ID": "7780",
-      "Jurisdiction": "Worcester County",
-      "District": "Commissioner District 6",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7209",
-      "Jurisdiction": "Saint Mary's County",
-      "District": "Commissioner District 1",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000088",
-      "Jurisdiction": "Carroll County",
-      "District": "Commissioner District 5",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7158",
-      "Jurisdiction": "Charles County",
-      "District": "Commissioner District 2",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000044",
-      "Jurisdiction": "Calvert County",
-      "District": "Commissioner District 3",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7159",
-      "Jurisdiction": "Charles County",
-      "District": "Commissioner District 3",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7210",
-      "Jurisdiction": "Saint Mary's County",
-      "District": "Commissioner District 2",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7628",
-      "Jurisdiction": "Somerset County",
-      "District": "Commissioner District 1",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "6497",
-      "Jurisdiction": "Queen Anne's County",
-      "District": "Commissioner District 3",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000085",
-      "Jurisdiction": "Carroll County",
-      "District": "Commissioner District 2",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000087",
-      "Jurisdiction": "Carroll County",
-      "District": "Commissioner District 4",
-      "Type": "Commissioner District"
-    },
-    {
       "ID": "7778",
       "Jurisdiction": "Worcester County",
       "District": "Commissioner District 3",
       "Type": "Commissioner District"
     },
     {
-      "ID": "7620",
-      "Jurisdiction": "Somerset County",
-      "District": "Commissioner District 3",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7781",
-      "Jurisdiction": "Worcester County",
-      "District": "Commissioner District 7",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000086",
-      "Jurisdiction": "Carroll County",
-      "District": "Commissioner District 3",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000084",
-      "Jurisdiction": "Carroll County",
-      "District": "Commissioner District 1",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "6614",
-      "Jurisdiction": "Garrett County",
-      "District": "Commissioner District 2",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "6619",
-      "Jurisdiction": "Garrett County",
-      "District": "Commissioner District 1",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7212",
-      "Jurisdiction": "Saint Mary's County",
-      "District": "Commissioner District 4",
-      "Type": "Commissioner District"
-    },
-    {
       "ID": "7775",
       "Jurisdiction": "Worcester County",
-      "District": "Commissioner District 5",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "750000043",
-      "Jurisdiction": "Calvert County",
-      "District": "Commissioner District 2",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "6616",
-      "Jurisdiction": "Garrett County",
-      "District": "Commissioner District 3",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "6498",
-      "Jurisdiction": "Queen Anne's County",
-      "District": "Commissioner District 4",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7622",
-      "Jurisdiction": "Somerset County",
-      "District": "Commissioner District 4",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7777",
-      "Jurisdiction": "Worcester County",
-      "District": "Commissioner District 2",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7157",
-      "Jurisdiction": "Charles County",
-      "District": "Commissioner District 1",
-      "Type": "Commissioner District"
-    },
-    {
-      "ID": "7624",
-      "Jurisdiction": "Somerset County",
       "District": "Commissioner District 5",
       "Type": "Commissioner District"
     },
@@ -23091,20 +22941,92 @@
       "Type": "Commissioner District"
     },
     {
-      "ID": "7160",
+      "ID": "7211",
+      "Jurisdiction": "Saint Mary's County",
+      "District": "Commissioner District 3",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7157",
       "Jurisdiction": "Charles County",
+      "District": "Commissioner District 1",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7780",
+      "Jurisdiction": "Worcester County",
+      "District": "Commissioner District 6",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "750000043",
+      "Jurisdiction": "Calvert County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "6619",
+      "Jurisdiction": "Garrett County",
+      "District": "Commissioner District 1",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7624",
+      "Jurisdiction": "Somerset County",
+      "District": "Commissioner District 5",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "750000044",
+      "Jurisdiction": "Calvert County",
+      "District": "Commissioner District 3",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7781",
+      "Jurisdiction": "Worcester County",
+      "District": "Commissioner District 7",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "750000085",
+      "Jurisdiction": "Carroll County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "6498",
+      "Jurisdiction": "Queen Anne's County",
       "District": "Commissioner District 4",
       "Type": "Commissioner District"
     },
     {
-      "ID": "7776",
-      "Jurisdiction": "Worcester County",
-      "District": "Commissioner District 1",
+      "ID": "7159",
+      "Jurisdiction": "Charles County",
+      "District": "Commissioner District 3",
       "Type": "Commissioner District"
     },
     {
       "ID": "6496",
       "Jurisdiction": "Queen Anne's County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7209",
+      "Jurisdiction": "Saint Mary's County",
+      "District": "Commissioner District 1",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7628",
+      "Jurisdiction": "Somerset County",
+      "District": "Commissioner District 1",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7626",
+      "Jurisdiction": "Somerset County",
       "District": "Commissioner District 2",
       "Type": "Commissioner District"
     },
@@ -23115,15 +23037,93 @@
       "Type": "Commissioner District"
     },
     {
-      "ID": "86",
+      "ID": "7158",
+      "Jurisdiction": "Charles County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "750000087",
+      "Jurisdiction": "Carroll County",
+      "District": "Commissioner District 4",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7776",
+      "Jurisdiction": "Worcester County",
+      "District": "Commissioner District 1",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7777",
+      "Jurisdiction": "Worcester County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7210",
+      "Jurisdiction": "Saint Mary's County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7622",
+      "Jurisdiction": "Somerset County",
+      "District": "Commissioner District 4",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7160",
+      "Jurisdiction": "Charles County",
+      "District": "Commissioner District 4",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7212",
+      "Jurisdiction": "Saint Mary's County",
+      "District": "Commissioner District 4",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "6616",
+      "Jurisdiction": "Garrett County",
+      "District": "Commissioner District 3",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "6614",
+      "Jurisdiction": "Garrett County",
+      "District": "Commissioner District 2",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "750000088",
+      "Jurisdiction": "Carroll County",
+      "District": "Commissioner District 5",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "750000084",
+      "Jurisdiction": "Carroll County",
+      "District": "Commissioner District 1",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "7620",
+      "Jurisdiction": "Somerset County",
+      "District": "Commissioner District 3",
+      "Type": "Commissioner District"
+    },
+    {
+      "ID": "113",
       "Jurisdiction": "State of Maryland",
-      "District": "Congressional District 6",
+      "District": "Congressional District 4",
       "Type": "Congressional District"
     },
     {
-      "ID": "90",
+      "ID": "93",
       "Jurisdiction": "State of Maryland",
-      "District": "Congressional District 5",
+      "District": "Congressional District 7",
       "Type": "Congressional District"
     },
     {
@@ -23139,21 +23139,21 @@
       "Type": "Congressional District"
     },
     {
-      "ID": "113",
-      "Jurisdiction": "State of Maryland",
-      "District": "Congressional District 4",
-      "Type": "Congressional District"
-    },
-    {
       "ID": "89",
       "Jurisdiction": "State of Maryland",
       "District": "Congressional District 3",
       "Type": "Congressional District"
     },
     {
-      "ID": "93",
+      "ID": "90",
       "Jurisdiction": "State of Maryland",
-      "District": "Congressional District 7",
+      "District": "Congressional District 5",
+      "Type": "Congressional District"
+    },
+    {
+      "ID": "86",
+      "Jurisdiction": "State of Maryland",
+      "District": "Congressional District 6",
       "Type": "Congressional District"
     },
     {
@@ -23163,81 +23163,21 @@
       "Type": "Congressional District"
     },
     {
-      "ID": "5352",
-      "Jurisdiction": "Montgomery County",
-      "District": "Councilmanic District 2",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6337",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 6",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5355",
-      "Jurisdiction": "Montgomery County",
-      "District": "Councilmanic District 5",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5763",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 14",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5828",
-      "Jurisdiction": "Howard County",
-      "District": "Councilmanic District 3",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6352",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 1",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7522",
-      "Jurisdiction": "Prince George's County",
-      "District": "Councilmanic District 4",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6277",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 4",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5755",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 6",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5762",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 13",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7698",
-      "Jurisdiction": "Dorchester County",
-      "District": "Councilmanic District 5",
-      "Type": "Councilmanic District"
-    },
-    {
       "ID": "6904",
       "Jurisdiction": "Anne Arundel County",
       "District": "Councilmanic District 4",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "500000211",
-      "Jurisdiction": "Frederick County",
-      "District": "Councilmanic District 5",
+      "ID": "5824",
+      "Jurisdiction": "Howard County",
+      "District": "Councilmanic District 1",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5757",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 8",
       "Type": "Councilmanic District"
     },
     {
@@ -23247,129 +23187,15 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "6907",
+      "ID": "6906",
       "Jurisdiction": "Anne Arundel County",
-      "District": "Councilmanic District 7",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5351",
-      "Jurisdiction": "Montgomery County",
-      "District": "Councilmanic District 1",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5354",
-      "Jurisdiction": "Montgomery County",
-      "District": "Councilmanic District 4",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7576",
-      "Jurisdiction": "Wicomico County",
-      "District": "Councilmanic District 5",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7519",
-      "Jurisdiction": "Prince George's County",
-      "District": "Councilmanic District 1",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5760",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 11",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5756",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 7",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7524",
-      "Jurisdiction": "Prince George's County",
       "District": "Councilmanic District 6",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "7694",
-      "Jurisdiction": "Dorchester County",
-      "District": "Councilmanic District 1",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "500000215",
-      "Jurisdiction": "Frederick County",
-      "District": "Councilmanic District 2",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7696",
-      "Jurisdiction": "Dorchester County",
-      "District": "Councilmanic District 3",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7695",
-      "Jurisdiction": "Dorchester County",
-      "District": "Councilmanic District 2",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5826",
+      "ID": "5825",
       "Jurisdiction": "Howard County",
-      "District": "Councilmanic District 5",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5751",
-      "Jurisdiction": "Baltimore City",
       "District": "Councilmanic District 2",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5750",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 1",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6485",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 3",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6328",
-      "Jurisdiction": "Baltimore County",
-      "District": "Councilmanic District 2",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7574",
-      "Jurisdiction": "Wicomico County",
-      "District": "Councilmanic District 3",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7573",
-      "Jurisdiction": "Wicomico County",
-      "District": "Councilmanic District 2",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5753",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 4",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "7525",
-      "Jurisdiction": "Prince George's County",
-      "District": "Councilmanic District 7",
       "Type": "Councilmanic District"
     },
     {
@@ -23379,15 +23205,9 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "7527",
-      "Jurisdiction": "Prince George's County",
-      "District": "Councilmanic District 9",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6903",
-      "Jurisdiction": "Anne Arundel County",
-      "District": "Councilmanic District 3",
+      "ID": "5826",
+      "Jurisdiction": "Howard County",
+      "District": "Councilmanic District 5",
       "Type": "Councilmanic District"
     },
     {
@@ -23403,21 +23223,9 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5752",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 3",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "5827",
-      "Jurisdiction": "Howard County",
-      "District": "Councilmanic District 4",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "500000214",
-      "Jurisdiction": "Frederick County",
-      "District": "Councilmanic District 4",
+      "ID": "7695",
+      "Jurisdiction": "Dorchester County",
+      "District": "Councilmanic District 2",
       "Type": "Councilmanic District"
     },
     {
@@ -23427,15 +23235,33 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "6902",
-      "Jurisdiction": "Anne Arundel County",
-      "District": "Councilmanic District 2",
+      "ID": "5355",
+      "Jurisdiction": "Montgomery County",
+      "District": "Councilmanic District 5",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "7572",
-      "Jurisdiction": "Wicomico County",
+      "ID": "7525",
+      "Jurisdiction": "Prince George's County",
+      "District": "Councilmanic District 7",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7519",
+      "Jurisdiction": "Prince George's County",
       "District": "Councilmanic District 1",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5828",
+      "Jurisdiction": "Howard County",
+      "District": "Councilmanic District 3",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7524",
+      "Jurisdiction": "Prince George's County",
+      "District": "Councilmanic District 6",
       "Type": "Councilmanic District"
     },
     {
@@ -23445,27 +23271,21 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5761",
+      "ID": "5763",
       "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 12",
+      "District": "Councilmanic District 14",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "500000202",
-      "Jurisdiction": "Cecil County",
-      "District": "Councilmanic District 2",
+      "ID": "5752",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 3",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "500000204",
-      "Jurisdiction": "Cecil County",
-      "District": "Councilmanic District 4",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6905",
-      "Jurisdiction": "Anne Arundel County",
-      "District": "Councilmanic District 5",
+      "ID": "7572",
+      "Jurisdiction": "Wicomico County",
+      "District": "Councilmanic District 1",
       "Type": "Councilmanic District"
     },
     {
@@ -23475,21 +23295,39 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "6906",
-      "Jurisdiction": "Anne Arundel County",
-      "District": "Councilmanic District 6",
-      "Type": "Councilmanic District"
-    },
-    {
-      "ID": "6901",
-      "Jurisdiction": "Anne Arundel County",
+      "ID": "6352",
+      "Jurisdiction": "Baltimore County",
       "District": "Councilmanic District 1",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5757",
-      "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 8",
+      "ID": "6485",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 3",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6337",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 6",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6903",
+      "Jurisdiction": "Anne Arundel County",
+      "District": "Councilmanic District 3",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7573",
+      "Jurisdiction": "Wicomico County",
+      "District": "Councilmanic District 2",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "500000214",
+      "Jurisdiction": "Frederick County",
+      "District": "Councilmanic District 4",
       "Type": "Councilmanic District"
     },
     {
@@ -23499,26 +23337,38 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5353",
-      "Jurisdiction": "Montgomery County",
-      "District": "Councilmanic District 3",
+      "ID": "7527",
+      "Jurisdiction": "Prince George's County",
+      "District": "Councilmanic District 9",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5759",
+      "ID": "500000204",
+      "Jurisdiction": "Cecil County",
+      "District": "Councilmanic District 4",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5753",
       "Jurisdiction": "Baltimore City",
-      "District": "Councilmanic District 10",
+      "District": "Councilmanic District 4",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5825",
-      "Jurisdiction": "Howard County",
+      "ID": "500000202",
+      "Jurisdiction": "Cecil County",
       "District": "Councilmanic District 2",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "500000213",
-      "Jurisdiction": "Frederick County",
+      "ID": "7696",
+      "Jurisdiction": "Dorchester County",
+      "District": "Councilmanic District 3",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5353",
+      "Jurisdiction": "Montgomery County",
       "District": "Councilmanic District 3",
       "Type": "Councilmanic District"
     },
@@ -23529,21 +23379,171 @@
       "Type": "Councilmanic District"
     },
     {
-      "ID": "7521",
-      "Jurisdiction": "Prince George's County",
+      "ID": "5760",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 11",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7574",
+      "Jurisdiction": "Wicomico County",
       "District": "Councilmanic District 3",
       "Type": "Councilmanic District"
     },
     {
-      "ID": "5824",
-      "Jurisdiction": "Howard County",
+      "ID": "5761",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 12",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5751",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 2",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6907",
+      "Jurisdiction": "Anne Arundel County",
+      "District": "Councilmanic District 7",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5759",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 10",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7694",
+      "Jurisdiction": "Dorchester County",
       "District": "Councilmanic District 1",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5351",
+      "Jurisdiction": "Montgomery County",
+      "District": "Councilmanic District 1",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7522",
+      "Jurisdiction": "Prince George's County",
+      "District": "Councilmanic District 4",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6902",
+      "Jurisdiction": "Anne Arundel County",
+      "District": "Councilmanic District 2",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6328",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 2",
       "Type": "Councilmanic District"
     },
     {
       "ID": "7523",
       "Jurisdiction": "Prince George's County",
       "District": "Councilmanic District 5",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5354",
+      "Jurisdiction": "Montgomery County",
+      "District": "Councilmanic District 4",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6905",
+      "Jurisdiction": "Anne Arundel County",
+      "District": "Councilmanic District 5",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "500000213",
+      "Jurisdiction": "Frederick County",
+      "District": "Councilmanic District 3",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "500000211",
+      "Jurisdiction": "Frederick County",
+      "District": "Councilmanic District 5",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5827",
+      "Jurisdiction": "Howard County",
+      "District": "Councilmanic District 4",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6277",
+      "Jurisdiction": "Baltimore County",
+      "District": "Councilmanic District 4",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5352",
+      "Jurisdiction": "Montgomery County",
+      "District": "Councilmanic District 2",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7576",
+      "Jurisdiction": "Wicomico County",
+      "District": "Councilmanic District 5",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7698",
+      "Jurisdiction": "Dorchester County",
+      "District": "Councilmanic District 5",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5750",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 1",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "6901",
+      "Jurisdiction": "Anne Arundel County",
+      "District": "Councilmanic District 1",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "500000215",
+      "Jurisdiction": "Frederick County",
+      "District": "Councilmanic District 2",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "7521",
+      "Jurisdiction": "Prince George's County",
+      "District": "Councilmanic District 3",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5756",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 7",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5762",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 13",
+      "Type": "Councilmanic District"
+    },
+    {
+      "ID": "5755",
+      "Jurisdiction": "Baltimore City",
+      "District": "Councilmanic District 6",
       "Type": "Councilmanic District"
     },
     {
@@ -23613,9 +23613,9 @@
       "Type": "County"
     },
     {
-      "ID": "159",
+      "ID": "150",
       "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 1",
+      "District": "Judicial Circuit 4",
       "Type": "Judicial Circuit"
     },
     {
@@ -23625,27 +23625,9 @@
       "Type": "Judicial Circuit"
     },
     {
-      "ID": "155",
+      "ID": "153",
       "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 2",
-      "Type": "Judicial Circuit"
-    },
-    {
-      "ID": "154",
-      "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 7",
-      "Type": "Judicial Circuit"
-    },
-    {
-      "ID": "150",
-      "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 4",
-      "Type": "Judicial Circuit"
-    },
-    {
-      "ID": "160",
-      "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 6",
+      "District": "Judicial Circuit 3",
       "Type": "Judicial Circuit"
     },
     {
@@ -23655,9 +23637,27 @@
       "Type": "Judicial Circuit"
     },
     {
-      "ID": "153",
+      "ID": "155",
       "Jurisdiction": "State of Maryland",
-      "District": "Judicial Circuit 3",
+      "District": "Judicial Circuit 2",
+      "Type": "Judicial Circuit"
+    },
+    {
+      "ID": "160",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 6",
+      "Type": "Judicial Circuit"
+    },
+    {
+      "ID": "154",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 7",
+      "Type": "Judicial Circuit"
+    },
+    {
+      "ID": "159",
+      "Jurisdiction": "State of Maryland",
+      "District": "Judicial Circuit 1",
       "Type": "Judicial Circuit"
     },
     {
@@ -23667,9 +23667,57 @@
       "Type": "County"
     },
     {
-      "ID": "500000490",
+      "ID": "500000483",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 45",
+      "District": "Legislative District 38",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "215",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000459",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000455",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000466",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000468",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 23",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000457",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "51",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 13",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000485",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 40",
       "Type": "Senatorial District"
     },
     {
@@ -23679,15 +23727,291 @@
       "Type": "Senatorial District"
     },
     {
+      "ID": "500000447",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 2",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000462",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 17",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000492",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 47",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "219",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "62",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "54",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000475",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000471",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 26",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000446",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 1",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000456",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 11",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000225",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 33",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000467",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 22",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000448",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 3",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000474",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "60",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 39",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "208",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 40",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000230",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 12",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000473",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 28",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000470",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000226",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 5",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000472",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000469",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 24",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000218",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 4",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000481",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 36",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "218",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 10",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "66",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 25",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000451",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 6",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000482",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 37",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "53",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 14",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "57",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "59",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 20",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "61",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 21",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000454",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 9",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000453",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000488",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 43",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "55",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000461",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 16",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000490",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000452",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000464",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 19",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000463",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 18",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "212",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 45",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "44",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 7",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000460",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 15",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "500000489",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44",
+      "Type": "Senatorial District"
+    },
+    {
       "ID": "500000487",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 42",
       "Type": "Senatorial District"
     },
     {
-      "ID": "500000230",
+      "ID": "500000486",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 12",
+      "District": "Legislative District 41",
+      "Type": "Senatorial District"
+    },
+    {
+      "ID": "217",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 8",
       "Type": "Legislative District"
     },
     {
@@ -23703,69 +24027,15 @@
       "Type": "Senatorial District"
     },
     {
-      "ID": "62",
+      "ID": "205",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 22",
+      "District": "Legislative District 32",
       "Type": "Legislative District"
     },
     {
-      "ID": "500000460",
+      "ID": "34",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 15",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000492",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 47",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000476",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 31",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000451",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 6",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "67",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 26",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000447",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 2",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000484",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 39",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000485",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 40",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000450",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 5",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "56",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 17",
+      "District": "Legislative District 36",
       "Type": "Legislative District"
     },
     {
@@ -23775,105 +24045,15 @@
       "Type": "Senatorial District"
     },
     {
-      "ID": "213",
+      "ID": "500000476",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 46",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000471",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 26",
+      "District": "Legislative District 31",
       "Type": "Senatorial District"
     },
     {
-      "ID": "500000491",
+      "ID": "56",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 46",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000461",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 16",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "208",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 40",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000225",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 33",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000483",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 38",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000486",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 41",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000456",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 11",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000472",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 27",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "218",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 10",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "44",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 7",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000470",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 25",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000473",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 28",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000489",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 44",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000453",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 8",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "209",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 41",
+      "District": "Legislative District 17",
       "Type": "Legislative District"
     },
     {
@@ -23883,147 +24063,9 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "65",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 24",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000463",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 18",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "210",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 43",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000454",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 9",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000459",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 14",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000488",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 43",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000455",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 10",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "55",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 16",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000218",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 4",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000468",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 23",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000481",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 36",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "60",
+      "ID": "500000484",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 39",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "54",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 15",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "212",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 45",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000465",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 20",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000452",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 7",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "219",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 11",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000475",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 30",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "66",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 25",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000478",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 33",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "53",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 14",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "205",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 32",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "51",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 13",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000464",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 19",
       "Type": "Senatorial District"
     },
     {
@@ -24033,46 +24075,16 @@
       "Type": "Senatorial District"
     },
     {
-      "ID": "500000462",
+      "ID": "65",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 17",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000467",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 22",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000474",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 29",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000457",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 12",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "500000446",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 1",
-      "Type": "Senatorial District"
-    },
-    {
-      "ID": "61",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 21",
+      "District": "Legislative District 24",
       "Type": "Legislative District"
     },
     {
-      "ID": "57",
+      "ID": "500000478",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 18",
-      "Type": "Legislative District"
+      "District": "Legislative District 33",
+      "Type": "Senatorial District"
     },
     {
       "ID": "500000458",
@@ -24081,69 +24093,57 @@
       "Type": "Senatorial District"
     },
     {
-      "ID": "59",
+      "ID": "209",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 41",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000465",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 20",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "217",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 8",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000482",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 37",
       "Type": "Senatorial District"
     },
     {
-      "ID": "34",
+      "ID": "67",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 36",
+      "District": "Legislative District 26",
       "Type": "Legislative District"
     },
     {
-      "ID": "500000469",
+      "ID": "500000491",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 24",
+      "District": "Legislative District 46",
       "Type": "Senatorial District"
     },
     {
-      "ID": "500000466",
+      "ID": "210",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 21",
-      "Type": "Senatorial District"
+      "District": "Legislative District 43",
+      "Type": "Legislative District"
     },
     {
-      "ID": "500000226",
+      "ID": "213",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 46",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000450",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 5",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000448",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 3",
       "Type": "Senatorial District"
     },
     {
-      "ID": "215",
+      "ID": "32",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 6",
+      "District": "Legislative District 34A",
       "Type": "Legislative District"
     },
     {
-      "ID": "43",
+      "ID": "500000221",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 1A",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000239",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 47A",
+      "District": "Legislative District 30A",
       "Type": "Legislative District"
     },
     {
@@ -24153,21 +24153,27 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "500000223",
+      "ID": "500000231",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 31A",
+      "District": "Legislative District 42A",
       "Type": "Legislative District"
     },
     {
-      "ID": "77",
+      "ID": "68",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 2A",
+      "District": "Legislative District 27A",
       "Type": "Legislative District"
     },
     {
-      "ID": "32",
+      "ID": "46",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 34A",
+      "District": "Legislative District 35A",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000219",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 44A",
       "Type": "Legislative District"
     },
     {
@@ -24183,9 +24189,9 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "500000221",
+      "ID": "500000223",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 30A",
+      "District": "Legislative District 31A",
       "Type": "Legislative District"
     },
     {
@@ -24195,27 +24201,15 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "48",
+      "ID": "43",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 9A",
+      "District": "Legislative District 1A",
       "Type": "Legislative District"
     },
     {
-      "ID": "68",
+      "ID": "500000239",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 27A",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000231",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 42A",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "46",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 35A",
+      "District": "Legislative District 47A",
       "Type": "Legislative District"
     },
     {
@@ -24225,27 +24219,15 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "500000219",
+      "ID": "77",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 44A",
+      "District": "Legislative District 2A",
       "Type": "Legislative District"
     },
     {
-      "ID": "72",
+      "ID": "48",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 29B",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000232",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 42B",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "47",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 35B",
+      "District": "Legislative District 9A",
       "Type": "Legislative District"
     },
     {
@@ -24261,9 +24243,21 @@
       "Type": "Legislative District"
     },
     {
+      "ID": "84",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 38B",
+      "Type": "Legislative District"
+    },
+    {
       "ID": "500000224",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 31B",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "47",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 35B",
       "Type": "Legislative District"
     },
     {
@@ -24273,27 +24267,9 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "500000233",
+      "ID": "64",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 44B",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "500000222",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 30B",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "223",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 27B",
-      "Type": "Legislative District"
-    },
-    {
-      "ID": "84",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 38B",
+      "District": "Legislative District 23B",
       "Type": "Legislative District"
     },
     {
@@ -24303,9 +24279,33 @@
       "Type": "Legislative District"
     },
     {
+      "ID": "223",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27B",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "72",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 29B",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000232",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 42B",
+      "Type": "Legislative District"
+    },
+    {
       "ID": "31",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 9B",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000222",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 30B",
       "Type": "Legislative District"
     },
     {
@@ -24315,21 +24315,21 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "64",
-      "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 23B",
-      "Type": "Legislative District"
-    },
-    {
       "ID": "40",
       "Jurisdiction": "State of Maryland",
       "District": "Legislative District 3B",
       "Type": "Legislative District"
     },
     {
-      "ID": "500000241",
+      "ID": "500000233",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 38C",
+      "District": "Legislative District 44B",
+      "Type": "Legislative District"
+    },
+    {
+      "ID": "500000220",
+      "Jurisdiction": "State of Maryland",
+      "District": "Legislative District 27C",
       "Type": "Legislative District"
     },
     {
@@ -24345,9 +24345,9 @@
       "Type": "Legislative District"
     },
     {
-      "ID": "500000220",
+      "ID": "500000241",
       "Jurisdiction": "State of Maryland",
-      "District": "Legislative District 27C",
+      "District": "Legislative District 38C",
       "Type": "Legislative District"
     },
     {
@@ -24357,15 +24357,15 @@
       "Type": "County"
     },
     {
-      "ID": "7693",
-      "Jurisdiction": "Dorchester County",
-      "District": "Orphans' Court District 1",
-      "Type": "Orphans' Court District"
-    },
-    {
       "ID": "7692",
       "Jurisdiction": "Dorchester County",
       "District": "Orphans' Court District 2",
+      "Type": "Orphans' Court District"
+    },
+    {
+      "ID": "7693",
+      "Jurisdiction": "Dorchester County",
+      "District": "Orphans' Court District 1",
       "Type": "Orphans' Court District"
     },
     {
