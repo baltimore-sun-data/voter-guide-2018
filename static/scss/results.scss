@@ -39,11 +39,6 @@
   font-weight: bold;
 }
 
-.race th.fixed,
-.race td.fixed {
-  width: 10rem;
-}
-
 .race td {
   padding-bottom: 10px;
   padding-top: 10px;
@@ -128,23 +123,55 @@ button.view-hide {
 }
 
 .district-results {
-  display: none;
+  display: none; // Overrides on button push
   max-width: 100%;
   overflow-x: scroll;
-}
 
-.show-district-results .district-results {
-  display: block;
-}
+  .show-district-results & {
+    display: block;
+  }
 
-.district-results th:nth-child(even),
-.district-results td:nth-child(even) {
-  background-color: #fafafa;
-}
+  th:nth-child(even),
+  td:nth-child(even) {
+    background-color: #fafafa;
+  }
 
-.race td.numeric {
-  text-align: right;
-  padding-right: 0.5em;
+  .fixed {
+    width: 10rem;
+  }
+
+  .numeric {
+    text-align: right;
+    padding-right: 0.5em;
+  }
+
+  @media (max-width: 600px) {
+    th {
+      display: none;
+    }
+
+    td {
+      display: block;
+      text-align: left !important;
+    }
+
+    td:nth-child(even) {
+      background-color: inherit;
+    }
+
+    td:before {
+      content: attr(data-col)": ";
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fafafa;
+    }
+
+    .fixed {
+      width: 100%;
+    }
+  }
 }
 
 .js-select2 {

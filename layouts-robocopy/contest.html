@@ -63,11 +63,11 @@
         {{ range .SubResults }}
         {{ if and (ne .Jurisdiction "State of Maryland") (ne .District "State of Maryland") }}
           <tr>
-            <td class="fixed">{{ .District }}</td>
-            <td class="fixed numeric">{{ .PrecinctsReporting }}/{{ .TotalPrecincts }}</td>
-            <td class="fixed numeric">{{ .PercentCounted }}</td>
+            <td data-col="District" class="fixed">{{ .District }}</td>
+            <td data-col="Precincts Reporting / Total Precincts" class="fixed numeric">{{ .PrecinctsReporting }}/{{ .TotalPrecincts }}</td>
+            <td data-col="Percent Counted" class="fixed numeric">{{ .PercentCounted }}</td>
             {{ range .Options }}
-              <td class="numeric">
+              <td data-col="{{ .Text }}" class="numeric">
                 {{ .TotalVotes | commas }}
               </td>
             {{ end }}
