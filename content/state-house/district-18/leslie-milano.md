@@ -1,5 +1,5 @@
 {
-  "age": 43,
+  "age": 44,
   "background": "Co-founded nonprofit organization focused on labor rights at age 25; spoke at 300 universities and business schools over the course of eight years on corporate social responsibility; invited by then-Rep Sherrod Brown to brief members of Congress on labor abuses in US-subcontracted factories.    Currently, executive director of a public health organization focused on infection prevention and control. Turned around the business, which was net negative into a multi-million dollar organization in three years.",
   "directory": "content/state-house/district-18",
   "district": 18,

@@ -1,5 +1,5 @@
 {
-  "age": 61,
+  "age": 62,
   "background": "Larry Hogan is the 62nd Governor of Maryland. Prior to his election, Governor Hogan worked in the private sector for more than 25 years as a successful Maryland small business owner.",
   "directory": "content/governor",
   "dob": "5/25/1956",
