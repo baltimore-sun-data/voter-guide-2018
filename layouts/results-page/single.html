@@ -95,7 +95,7 @@
         <div class="find-results col-sm-4 col-xs-12">
           <select class="js-select2">
             <option disabled selected>Choose by district</option>
-            {{ range sort .Site.Data.results.AllDistricts "ID" }}
+            {{ range .Site.Data.results.AllDistricts }}
               <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
                 {{- if ne .Jurisdiction "State of Maryland" -}}
                   {{- .Jurisdiction -}}{{- " " -}}
