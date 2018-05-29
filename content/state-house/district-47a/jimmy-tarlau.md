@@ -1,5 +1,5 @@
 {
-  "age": 69,
+  "age": 70,
   "background": "40 years as a union organizer, negotiator and business representative (30 years with the Communications Workers of America)",
   "directory": "content/state-house/district-47a",
   "district": "47a",
