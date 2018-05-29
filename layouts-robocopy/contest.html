@@ -1,81 +1,82 @@
+{{ $contestParty := .Party }}
+{{ $nonPartisan := (eq (lowerAlpha .Party) "nonpartisan") }}
+{{ $isPrimary := .IsPrimary }}
+
 <div class="race" data-boe-update='{{ .LastUpdate.Format "3:04pm Jan. 2, 2006" }}'>
-    {{ $contestParty := .Party }}
-    {{ $nonPartisan := (eq (lowerAlpha .Party) "nonpartisan") }}
-    {{ $isPrimary := .IsPrimary }}
-    {{ if ne .District "State of Maryland" }}
+  {{ if ne .Jurisdiction "State of Maryland" }}
+    <div class="sub-header">{{ .Jurisdiction }}</div>
+  {{ end }}
+  {{ if ne .District "State of Maryland" }}
     <div class="sub-header">{{ .District }}</div>
-    {{ end }}
-    <h3 class="section-header">{{ .Contest }}</h3>
-    {{ if ne .Jurisdiction "State of Maryland" }}
-    <div>Jurisdiction: {{ .Jurisdiction }}</div>
-    {{ end }}
-    {{ if not $nonPartisan }}
+  {{ end }}
+  <h3 class="section-header">{{ .Contest }}</h3>
+  {{ if not $nonPartisan }}
     <div class="party-header {{ .Party }}">{{ .Party }}</div>
+  {{ end }}
+  {{ if gt .VoteFor 1 }}
+    <div class="voter-for">Top {{ .VoteFor }} candidates advance</div>
+  {{ end }}
+
+  <table class="main-results">
+    <thead>
+      <th>Candidate</th>
+      {{ if not $isPrimary }}<th>Party</th>{{ end }}
+      <th>Votes</th>
+      <th>Percentage</th>
+    </thead>
+    {{ range .Options }}
+      <tr>
+        <td class="candidate name">{{ .Text }}{{ if .FrontRunner }} ✔{{ end }}</td>
+        {{ if not $isPrimary }}<td class="party-col">{{ .Party }}</td>{{ end }}
+        <td class="votes">{{ .TotalVotes | commas }}</td>
+        <td class="percent">
+          <div class="percent-bar-bg">
+            <div class="percent-bar cand{{ .Party }}" style='width: {{ .PercentageVotes | printf "%.1f" }}%'></div>
+          </div>
+          <div class="vote-percent">{{ .PercentageVotes | printf "%.1f" }}%</div>
+        </td>
+      </tr>
     {{ end }}
-    {{ if gt .VoteFor 1 }}
-    <div>Top {{ .VoteFor }} candidates advance</div>
-    {{ end }}
+  </table>
 
-    <table>
-        <thead>
-            <th>Candidate</th>
-            {{ if not $isPrimary }}<th>Party</th>{{ end }}
-            <th>Votes</th>
-            <th>Percentage</th>
-        </thead>
-        {{ range .Options }}
-        <tr>
-            <td class="candidate name">{{ .Text }}{{ if .FrontRunner }} ✔{{ end }}</td>
-            {{ if not $isPrimary }}
-            <td class="party-col">{{ .Party }}</td>
-            {{ end }}
-            <td class="votes">{{ .TotalVotes | commas }}</td>
-            <td class="percent">
-                <div class="percent-bar-bg">
-                    <div class="percent-bar cand{{ .Party }}" style='width: {{ .PercentageVotes | printf "%.1f" }}%'></div>
-                </div>
-                <div class="vote-percent">{{ .PercentageVotes | printf "%.1f" }}%</div>
-            </td>
-        </tr>
-        {{ end }}
-    </table>
+  <div>
+    {{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% )
+  | {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
+  </div>
 
-    <div>
-      {{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% )
-    | {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
-    </div>
-
-    {{ if gt (len .SubResults) 1 }}
+  {{ if gt (len .SubResults) 1 }}
     <button class="view-hide" onclick="app.results_toggle();">View results by district</button>
     <div class="district-results">
       <table>
         <thead>
-            <tr>
-              <th class="fixed">District</th>
-              <th class="fixed">Precincts Reporting / Total Precincts</th>
-              <th class="fixed">Percent Counted</th>
-               {{ range .Options }}
-                  <th>{{ .Text }}</th>
-               {{ end }}
-            </tr>
-        </thead>
-        <tbody>
-        {{ range .SubResults }}
-        {{ if and (ne .Jurisdiction "State of Maryland") (ne .District "State of Maryland") }}
           <tr>
-            <td data-col="District" class="fixed">{{ .District }}</td>
-            <td data-col="Precincts Reporting / Total Precincts" class="fixed numeric">{{ .PrecinctsReporting }}/{{ .TotalPrecincts }}</td>
-            <td data-col="Percent Counted" class="fixed numeric">{{ .PercentCounted }}</td>
+            <th class="fixed">District</th>
+            <th class="fixed">Precincts Reporting / Total Precincts</th>
+            <th class="fixed">Percent Counted</th>
             {{ range .Options }}
-              <td data-col="{{ .Text }}" class="numeric">
-                {{ .TotalVotes | commas }}
-              </td>
+              <th>{{ .Text }}</th>
             {{ end }}
           </tr>
-        {{ end }}
-        {{ end }}
+        </thead>
+        <tbody>
+          {{ range .SubResults }}
+          {{ if and (ne .Jurisdiction "State of Maryland") (ne .District "State of Maryland") }}
+            <tr>
+              <td data-col="District" class="fixed">{{ .District }}</td>
+              <td data-col="Precincts Reporting / Total Precincts" class="fixed numeric">
+                {{- .PrecinctsReporting }}/{{ .TotalPrecincts -}}
+              </td>
+              <td data-col="Percent Counted" class="fixed numeric">{{ .PercentCounted }}</td>
+              {{ range .Options }}
+                <td data-col="{{ .Text }}" class="numeric">
+                  {{ .TotalVotes | commas }}
+                </td>
+              {{ end }}
+            </tr>
+          {{ end }}
+          {{ end }}
         </tbody>
       </table>
     </div>
+  {{ end }}
 </div>
-{{ end }}
