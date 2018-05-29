@@ -1,5 +1,5 @@
 {
-  "age": 78,
+  "age": 79,
   "background": "Registered Pharmacist Administrative Manager for the Office of the State's Attorney, Anne Arundel County",
   "directory": "content/state-house/district-32",
   "district": 32,
