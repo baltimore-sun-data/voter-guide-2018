@@ -4,11 +4,11 @@
     "ID": 1
   },
   {
-    "Name": "Democratic U.S. Senator",
+    "Name": "Republican U.S. Senator",
     "ID": 7
   },
   {
-    "Name": "Republican U.S. Senator",
+    "Name": "Democratic U.S. Senator",
     "ID": 8
   },
   {
@@ -17,7 +17,6 @@
   },
   {
     "Name": "Democratic Baltimore County Executive",
-    "Party": "Democrat",
     "ID": 225
   },
   {
