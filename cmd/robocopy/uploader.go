@@ -181,7 +181,7 @@ func (c *Config) uploadFile(cl client, filename, templatename string, data inter
 
 	_, err = cl.uploader.Upload(&s3manager.UploadInput{
 		Bucket:       aws.String(c.Bucket),
-		Key:          aws.String(c.Path + "contests/" + filename),
+		Key:          aws.String(c.Path + filename),
 		ContentType:  aws.String("text/html; charset=utf-8"),
 		CacheControl: cl.cachecontrol,
 		Body:         buf,
