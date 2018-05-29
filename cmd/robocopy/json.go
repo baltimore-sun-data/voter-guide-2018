@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"sort"
+	"strconv"
 	"time"
 )
 
@@ -367,7 +368,9 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 		})
 	}
 	sort.Slice(r.AllDistricts, func(i, j int) bool {
-		return LowerAlpha(r.AllDistricts[i].District) < LowerAlpha(r.AllDistricts[j].District)
+		a, _ := strconv.Atoi(r.AllDistricts[i].ID)
+		b, _ := strconv.Atoi(r.AllDistricts[j].ID)
+		return a < b
 	})
 	return json.Marshal(&r)
 }
