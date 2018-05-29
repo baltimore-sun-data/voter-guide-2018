@@ -7,6 +7,7 @@
   "filename": "ivan-bates.md",
   "full-name": "Ivan Bates",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4296412/245-5a69ebb1e6248afd8f2b3133f43eb50c_IvanBates-1192_preview.jpeg",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-bates-20180510-htmlstory.html",
   "last-name": "Bates",
   "party": "Democrat",
   "questions": [

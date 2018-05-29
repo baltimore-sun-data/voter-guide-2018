@@ -7,7 +7,7 @@
   "filename": "rich-madaleno.md",
   "full-name": "Rich Madaleno",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/52-9b45783d784e8b2a0e617cd85deb8ab1_Rich_Madaleno.jpg",
-  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-madaleno-20171212-htmlstory.html",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-madaleno-jenkins-20180529-htmlstory.html",
   "last-name": "Madaleno",
   "party": "Democrat",
   "profile": "[Madaleno, staunch liberal and policy wonk, hopes to build on Montgomery Co. base in Maryland governor's race](http://www.baltimoresun.com/news/maryland/politics/bs-md-madaleno-profile-20180508-story.html)",
