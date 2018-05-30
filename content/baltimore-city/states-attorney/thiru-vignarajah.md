@@ -7,6 +7,7 @@
   "filename": "thiru-vignarajah.md",
   "full-name": "Thiru Vignarajah",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4296412/52-d2fa947fe839226298eea96f41500110_thiru-vignarajah-headshot.jpeg",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-thiru-vignarajah-20180425-htmlstory.html",
   "last-name": "Vignarajah",
   "party": "Democrat",
   "questions": [

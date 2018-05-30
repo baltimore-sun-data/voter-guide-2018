@@ -10,6 +10,7 @@
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-ross-verratti-tech-beer-20180522-htmlstory.html",
   "last-name": "Ross",
   "party": "Democrat",
+  "profile": "[Democrat Alec Ross, tech expert and author, says as Maryland governor he'll focus on 'what's next'](http://www.baltimoresun.com/news/maryland/politics/bs-md-alec-ross-profile-20180521-story.html)",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
