@@ -184,6 +184,14 @@ var funcMap = map[string]interface{}{
 		}
 		return s[:n]
 	},
+	"initials": func(s string) string {
+		ss := strings.Fields(s)
+		b := make([]byte, len(ss))
+		for i, word := range ss {
+			b[i] = word[0]
+		}
+		return string(b)
+	},
 }
 
 func (c *Config) template() (*template.Template, error) {
