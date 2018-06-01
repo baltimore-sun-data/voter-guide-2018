@@ -177,6 +177,13 @@ var funcMap = map[string]interface{}{
 		return v.Len()
 	},
 	"titlecase": func(s string) string { return titlecase.Convert(s, nil, nil) },
+	"truncateAt": func(from, s string) string {
+		n := strings.Index(s, from)
+		if n < 0 {
+			n = len(s)
+		}
+		return s[:n]
+	},
 }
 
 func (c *Config) template() (*template.Template, error) {
