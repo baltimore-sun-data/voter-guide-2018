@@ -127,6 +127,10 @@ button.view-hide {
   max-width: 100%;
   overflow-x: scroll;
 
+  [title] {
+    cursor: help;
+  }
+
   .show-district-results & {
     display: block;
   }
