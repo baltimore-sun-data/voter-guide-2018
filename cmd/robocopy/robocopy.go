@@ -13,6 +13,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/KenjiTakahashi/tu/titlecase"
 	humanize "github.com/dustin/go-humanize"
 )
 
@@ -175,6 +176,7 @@ var funcMap = map[string]interface{}{
 		}
 		return v.Len()
 	},
+	"titlecase": func(s string) string { return titlecase.Convert(s, nil, nil) },
 }
 
 func (c *Config) template() (*template.Template, error) {
