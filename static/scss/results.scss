@@ -131,6 +131,10 @@ button.view-hide {
     display: block;
   }
 
+  th {
+    vertical-align: bottom;
+  }
+
   th:nth-child(even),
   td:nth-child(even) {
     background-color: #fafafa;
