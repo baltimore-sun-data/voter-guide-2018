@@ -2,6 +2,12 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/KenjiTakahashi/tu"
+  packages = ["titlecase"]
+  revision = "670620747ed71d6b80425f4aa00c5a894751d3ff"
+
+[[projects]]
   name = "github.com/aws/aws-sdk-go"
   packages = [
     "aws",
@@ -92,6 +98,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "b2fcd4087c3284006fa758110d38424a92769300a5fbc9cb368a48a63fd39244"
+  inputs-digest = "eba121951d57c511192650bf19d2ab43f553ce3c1bb263ae2a4860a2e43a6a7b"
   solver-name = "gps-cdcl"
   solver-version = 1
