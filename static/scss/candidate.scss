@@ -71,3 +71,18 @@
     font-size: 1.1em;
   }
 }
+
+.cand-details {
+  padding: 20px;
+  font-family: "Source Sans Pro", arial, sans-serif;
+  font-size: 1.15em;
+  color: #222222;
+
+  [title] {
+    cursor: help;
+  }
+
+  @media only screen and (max-width: 767px) {
+    padding: 20px 0 20px 0;
+  }
+}

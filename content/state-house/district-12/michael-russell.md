@@ -1,5 +1,5 @@
 {
-  "age": 27,
+  "age": 28,
   "background": "I served 7 years in the Maryland Army National Guard and deployed twice( once to Egypt the other was to Baltimore city in 2015)  I worked on Governor Hogans Campaign, Transition team , and in his administration in the State Department.  In 2017 I worked with Delegate Bob Long in the legislative session as a legislative aid.   I have started my own political consulting firm.   I am currently a radio host and tv host to a news show.",
   "directory": "content/state-house/district-12",
   "district": 12,

@@ -1,5 +1,5 @@
 {
-  "age": 57,
+  "age": 58,
   "background": "Former Teacher, Coach, College Administrator, Medical Sales Representative. Currently the Associate Director of the Mid Atlantic United Methodist Foundation.",
   "directory": "content/carroll-county/county-commissioner/district-5",
   "district": 5,

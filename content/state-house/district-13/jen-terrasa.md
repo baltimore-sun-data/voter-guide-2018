@@ -1,5 +1,5 @@
 {
-  "age": 48,
+  "age": 49,
   "background": "I am honored to have represented District 3 on the Howard County Council since 2006. During this time, I have served as Zoning Board Chair, Council Chair,  and as the Council Representative to the Maryland Association of Counties. I also served on the Board of Directors of the Maryland Economic Development Corporation, and as a member of the Governor's Task Force for Student Physical Fitness.  Previously, I served as Chair of the Kings Contrivance Village Board and worked as an attorney for 6 years at The Women's Law Center of Maryland.  After law school, I was a Judicial Law Clerk for judges on both the Court of Appeals of Maryland and the Circuit Court for Howard County.",
   "directory": "content/state-house/district-13",
   "district": 13,
