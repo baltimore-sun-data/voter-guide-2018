@@ -52,7 +52,7 @@
      </div>
     {{ end }}
      <div id="cand-bio-text">
-      <div id="cand-details">
+      <div class="cand-details">
         {{ if .Param "endorsement"}}
           <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
         {{ end }}
@@ -71,7 +71,7 @@
         </li>
         {{ end }}
         {{ if $.Param "age" }}
-        <li title='As of May 29, 2018'>
+        <li title='As of Primary Day, June 26, 2018'>
          <span class="key">Age:</span>
          <span class="value">{{ $.Param "age"}}</span>
         </li>

@@ -749,14 +749,6 @@ img.cand-pic {
   color: #888888;
 }
 
-#cand-details,
-.cand-details {
-  padding: 20px;
-  font-family: "Source Sans Pro", arial, sans-serif;
-  font-size: 1.15em;
-  color: #222222;
-}
-
 #party,
 .party {
   text-transform: uppercase;
@@ -1403,9 +1395,6 @@ p.about {
   #page-header {
     font-size: 0.9em;
   }
-  .cand-details {
-    padding: 5px;
-  }
   .crumb {
     display: block;
   }
@@ -1475,12 +1464,6 @@ p.about {
     float: none;
     clear: both;
     width: 100%;
-  }
-  #cand-details,
-  .cand-details {
-    float: none;
-    clear: both;
-    padding: 20px 0 20px 0;
   }
   #mobile-nav-drop {
     border-top: 1px solid white;

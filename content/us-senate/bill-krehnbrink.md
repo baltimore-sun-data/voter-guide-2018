@@ -1,5 +1,5 @@
 {
-  "age": 70,
+  "age": 71,
   "background": "Class A mechanic Educator Sports Coach Builder",
   "directory": "content/us-senate",
   "dob": "06/03/1947",

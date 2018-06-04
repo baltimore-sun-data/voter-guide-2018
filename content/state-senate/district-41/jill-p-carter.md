@@ -1,5 +1,5 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "Attorney, Director of Civil Rights, Legislator",
   "directory": "content/state-senate/district-41",
   "district": 41,

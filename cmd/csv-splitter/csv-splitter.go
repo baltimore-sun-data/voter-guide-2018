@@ -128,10 +128,11 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 	}
 
 	if dob := get(datum, "dob"); dob != "" && get(datum, "age") == "" {
+		electionDay, _ := time.Parse("1/2/2006", "6/26/2018")
 		birthdate, err := time.Parse("1/2/2006", dob)
 		if err == nil {
-			age := time.Now().Year() - birthdate.Year()
-			if time.Now().YearDay() < birthdate.YearDay() {
+			age := electionDay.Year() - birthdate.Year()
+			if electionDay.YearDay() < birthdate.YearDay() {
 				age--
 			}
 			if age < 10 || age > 100 {

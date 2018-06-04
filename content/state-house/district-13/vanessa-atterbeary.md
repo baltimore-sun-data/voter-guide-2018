@@ -1,5 +1,5 @@
 {
-  "age": 42,
+  "age": 43,
   "background": "I currently serve as Corporate Counsel for KRA Corporation, a company dedicated to workforce development and whose headquarters is in Fulton, MD.  I began my career as a law clerk for the Honorable Judge David Young in Baltimore City where he presided over juvenile cases.  I then worked as an Associate at Bulman, Dunie, Burke & Feld, Chartered where the majority of my practice was family law.  I later worked as an Assistant Attorney General for the District of Columbia practicing defensive civil litigation.",
   "directory": "content/state-house/district-13",
   "district": 13,

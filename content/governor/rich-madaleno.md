@@ -1,5 +1,5 @@
 {
-  "age": 52,
+  "age": 53,
   "background": "I have had the honor of serving the people of Maryland in the State Senate and the House of Delegates for the past sixteen years. I have an extensive record of public and community service, having held numerous leadership positions in the General Assembly and in the community. I am currently the Vice-Chair of the Senate Budget & Taxation Committee. I have been a leading voice on improving public education for all children and currently serve on the Commission on Innovation and Excellence in Education (\"the Kirwan Commission\"). I am also Senate Chair of the Joint Committee on Ending Homelessness. Prior to my election to the legislature I had a successful career working in public service for both the Maryland State and Montgomery County governments. People know me as a policy expert, a pragmatic leader on budget issues, and a crusader for civil rights and social justice.",
   "directory": "content/governor",
   "dob": "6/16/1965",

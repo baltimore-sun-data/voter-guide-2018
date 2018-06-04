@@ -1,5 +1,5 @@
 {
-  "age": 36,
+  "age": 37,
   "background": "Worked for Baltimore City for 2 years, private sector for 4 years and for Baltimore County for 9 years.",
   "directory": "content/state-house/district-6",
   "district": 6,

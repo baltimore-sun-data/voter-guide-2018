@@ -1,5 +1,5 @@
 {
-  "age": 49,
+  "age": 50,
   "background": "I am currently serving as the President of the Anne Arundel County Public Schools Board of Education.I taught elementary students with learning and emotional disabilities for 5 years in Frederick and Fairfax Counties, Virginia. Prior to that, I was a bank manager and certified investment counselor with First Union Bank.",
   "directory": "content/anne-arundel-county/board-of-education/district-4",
   "district": 4,
