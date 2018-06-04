@@ -224,12 +224,6 @@ a.page-header-link {
   color: inherit;
   text-transform: uppercase;
 }
-.breadcrumbs,
-.crumbs {
-  margin: 0;
-  padding: 0;
-  clear: both;
-}
 
 .left {
   float: left;
@@ -511,26 +505,6 @@ img.cand-pic {
   text-transform: uppercase;
   border-bottom: 10px solid #d0d0d0;
   margin: 0;
-}
-
-.cand-name {
-  padding: 20px;
-  padding-bottom: 0px;
-  padding-top: 5px;
-  font-size: 1.75em;
-  letter-spacing: 0.09em;
-  font-family: "Brandon", Helvetica, sans-serif;
-  line-height: 100%;
-  text-transform: uppercase;
-}
-
-#cand-mate {
-  margin-top: 5px;
-  font-size: 16px;
-  font-family: "Source Sans Pro", arial, sans-serif;
-  font-style: italic;
-  letter-spacing: 0em;
-  color: #888888;
 }
 
 #party,
@@ -1059,12 +1033,6 @@ img.cand-pic {
     float: none;
     clear: both;
     width: 100%;
-  }
-  #mobile-nav-drop {
-    border-top: 1px solid white;
-    left: 0px;
-    right: 0px;
-    padding-left: 10px;
   }
 }
 
