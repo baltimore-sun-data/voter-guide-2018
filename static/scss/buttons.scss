@@ -17,24 +17,11 @@
   color: #ffffff;
 }
 
-.btn-primary2 {
-  background: #999;
-  color: #ffffff;
-}
-
 .btn-primary:hover,
 .btn-primary:focus,
 .open > .dropdown-toggle.btn-primary {
   background: #818e98;
   border: none;
-}
-
-.btn-primary2:hover,
-.btn-primary2:focus,
-.open > .dropdown-toggle.btn-primary2 {
-  background: #818e98;
-  border: none;
-  color: #ffffff;
 }
 
 #chooseDistrict.btn.btn-primary:focus,
@@ -74,11 +61,6 @@ a.btn {
   font-family: "Source Sans Pro", arial, sans-serif;
 }
 
-#button-clear {
-  clear: both;
-  margin-bottom: 5px;
-}
-
 .btn-primary.district-button {
   background: #667682;
   width: 100%;
@@ -101,16 +83,12 @@ a.btn {
   width: 100%;
   text-shadow: none;
 }
-.small-button {
-  width: 50% !important;
-}
 
 .btn-primary.district-button:hover {
   background: #818e98;
 }
 
-.btn-primary.district-button:active,
-.btn-primary.find-district-button:active {
+.btn-primary.district-button:active {
   background: #cdcdcd;
 }
 
@@ -168,11 +146,5 @@ div.btn.top-buttons.selected {
     font-size: 1.5em;
     padding: 5px 8px;
     width: 275px;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  #button-clear {
-    display: none;
   }
 }
