@@ -192,75 +192,6 @@ a.full {
   margin-top: 13px;
 }
 
-#mobile-nav {
-  display: none;
-  font-family: Arial, sans-serif;
-  font-size: 14px;
-  color: #fbfcfc;
-  font-weight: bold;
-  vertical-align: top;
-  margin-top: 0px;
-  margin-left: 0px;
-  padding: 8px 11px;
-  cursor: pointer;
-}
-#mobile-nav .text {
-  vertical-align: top;
-  margin-left: 5px;
-}
-#mobile-nav .icon-menu {
-  color: #fbfcfc;
-  font-size: 20px;
-  vertical-align: bottom;
-}
-#mobile-nav:hover {
-  background-color: #667682;
-}
-#mobile-nav.clicked {
-  background-color: #667682;
-}
-
-#mobile-nav-drop {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 20px;
-  min-width: 400px;
-  padding: 10px 0px 0px 0px;
-  background-color: #667682;
-  z-index: 999;
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #fbfcfc;
-  font-weight: bold;
-}
-#mobile-nav-drop a {
-  display: block;
-}
-#mobile-nav-drop a:link {
-  color: #fbfcfc;
-  text-decoration: none;
-}
-#mobile-nav-drop a:visited {
-  color: #fbfcfc;
-  text-decoration: none;
-}
-#mobile-nav-drop a:hover {
-  color: #fbfcfc;
-  text-decoration: none;
-}
-#mobile-nav-drop a:active {
-  color: #fbfcfc;
-  text-decoration: none;
-}
-#mobile-nav-drop ul li {
-  padding: 10px 2px;
-  margin: 0px;
-}
-#mobile-nav-drop ul li:hover {
-  background-color: #0d1124;
-}
-
 #page-header {
   margin-top: 10px;
   text-align: center;
@@ -298,42 +229,6 @@ a.page-header-link {
   margin: 0;
   padding: 0;
   clear: both;
-}
-
-.span-20 {
-  width: 22.5%;
-}
-
-.span-30 {
-  width: 27.5%;
-}
-
-.span-35 {
-  width: 32.5%;
-}
-
-.span-40 {
-  width: 37.5%;
-}
-
-.span-50 {
-  width: 47.5%;
-}
-
-.span-60 {
-  width: 57.5%;
-}
-
-.span-65 {
-  width: 62.5%;
-}
-
-.span-70 {
-  width: 67.5%;
-}
-
-.span-80 {
-  width: 72.5%;
 }
 
 .left {
@@ -416,11 +311,6 @@ footer div {
 #inline-nav a:active {
   color: #444444;
   text-decoration: none;
-}
-
-#mobile-nav-break {
-  display: none;
-  height: 40px;
 }
 
 nav {
@@ -536,27 +426,6 @@ nav.revealed {
   clear: both;
 }
 
-.clear-splash.border {
-  clear: both;
-  border-bottom: 1px solid #cdcdcd;
-  padding-top: 50px;
-}
-
-.cand-button {
-  width: 90%;
-  color: #fff;
-}
-
-.cand-img {
-  width: 100%;
-  max-width: 225px;
-}
-
-.cand-img:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-}
-
 .section-header-splash {
   padding: 0;
   text-align: center;
@@ -604,87 +473,9 @@ nav.revealed {
   background-color: #d5bc46;
 }
 
-.candidate-name-box {
-  height: 30px;
-  background: #fff;
-  position: relative;
-  top: -35px;
-  opacity: 0.7;
-  width: 93%;
-  margin: 0 auto;
-  font-family: Brandon, Helvetica, sans-serif;
-  padding-top: 3px;
-  font-size: 1.15em;
-  border-radius: 6px;
-}
-
-.candidate-name-box a:link,
-.candidate-name-box a:visited {
-  color: #2c2c2c;
-  text-decoration: none;
-}
-
-.candidate-name-box a:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  text-decoration: none;
-}
-
-.candidate-mobile {
-  text-align: left;
-  border-bottom: 1px solid #cdcdcd;
-  height: 90px;
-}
-
-.candidate-mobile img {
-  width: 90px;
-  float: left;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
-}
-
-.candidate-mobile p {
-  padding-top: 20px;
-  font-family: "Brandon", Helvetica, sans-serif;
-  color: #667682;
-  letter-spacing: 0.09em;
-  font-size: 1.5em;
-  line-height: 100%;
-  text-transform: uppercase;
-}
-
-.candidate-mobile p:hover {
-  color: #424548;
-}
-
-.candidate-mobile a:link {
-  text-decoration: none;
-}
-
 @media only screen and (max-width: 550px) {
   h1.section-header-splash {
     font-size: 1.5em;
-  }
-  .cand-name.blue,
-  .cand-name.red {
-    color: #667682;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  img.cand-img,
-  .candidate-name-box {
-    display: none;
-  }
-  div.clear.border {
-    border: none;
-  }
-}
-
-@media only screen and (min-width: 450px) {
-  .candidate-mobile {
-    display: none;
   }
 }
 
@@ -706,14 +497,7 @@ img.cand-pic {
   overflow: hidden;
 }
 
-.cand-pic-race {
-  width: 175px;
-  float: left;
-  overflow: hidden;
-}
-
-#cand-bio-text,
-.cand-bio-text {
+#cand-bio-text {
   float: left;
   width: 60%;
 }
@@ -765,19 +549,6 @@ img.cand-pic {
   font-family: "Brandon", Helvetica, sans-serif;
   text-transform: uppercase;
   color: #667682;
-}
-
-#all-candidates-toggle-button,
-#all-candidates-toggle-button-rep {
-  font-family: "Brandon", Helvetica, sans-serif;
-  text-transform: uppercase;
-  font-size: 0.8em;
-  cursor: pointer;
-}
-
-#all-candidates-toggle,
-#all-candidates-toggle-rep {
-  display: none;
 }
 
 #all-candidates ul li {
@@ -877,27 +648,12 @@ img.cand-pic {
   text-transform: uppercase;
 }
 
-.header-underline {
-  text-align: center;
-}
-
-.header-underline:after {
-  content: "";
-  width: 100px;
-  height: 1px;
-  display: inline-block;
-  background-color: #bfbfbf;
-  position: relative;
-  bottom: 5px;
-}
-
 #bio {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
-#bio header,
-#background header {
+#bio header {
   margin-bottom: 10px;
 }
 #bio .sub-header,
@@ -910,7 +666,6 @@ img.cand-pic {
   font-weight: 600;
 }
 #bio p,
-#background p,
 .candidate-p p {
   font-family: "Source Sans Pro", arial, sans-serif;
   font-size: 1.15em;
@@ -988,21 +743,11 @@ img.cand-pic {
   border-bottom: 1px solid #d8d8d8;
   font-family: "Source Sans Pro", arial, sans-serif;
   margin-bottom: 0px;
-  -webkit-transform: translateX(0px);
-  -moz-transform: translateX(0px);
-  -ms-transform: translateX(0px);
-  -o-transform: translateX(0px);
   transform: translateX(0px);
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
   transition: all 0.5s;
 }
 
 .newsfeed ul li:hover {
-  -webkit-transform: translateX(10px);
-  -moz-transform: translateX(10px);
-  -ms-transform: translateX(10px);
-  -o-transform: translateX(10px);
   transform: translateX(10px);
 }
 
@@ -1010,34 +755,10 @@ img.cand-pic {
   opacity: 0.5;
 }
 
-.article-date {
-  color: darkgrey;
-  font-size: 0.875em;
-  margin-top: 5px;
-}
-
 .article-title {
   font-size: 1.1em;
   margin: 3px 0px 10px 0px;
   line-height: 150%;
-}
-
-.article-date.featured {
-  padding-left: 10px;
-  padding-top: 3px;
-  font-family: "Source Sans Pro", arial, sans-serif;
-}
-
-.article-title.featured {
-  padding-left: 10px;
-  padding-top: 1px;
-  font-family: "Source Sans Pro", arial, sans-serif;
-}
-
-.article-title.featured a:link {
-  font-family: "Source Sans Pro", arial, sans-serif;
-  font-weight: bold;
-  color: #667682;
 }
 
 .article-title a:link {
@@ -1112,16 +833,14 @@ img.cand-pic {
   background-color: #ececec;
 }
 
-#questionnaire-nav,
-#bill-nav {
+#questionnaire-nav {
   font-family: "Source Sans Pro", arial, sans-serif;
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#questionnaire-nav div,
-#bill-nav div {
+#questionnaire-nav div {
   display: inline-block;
   width: 120px;
   text-align: right;
@@ -1129,13 +848,11 @@ img.cand-pic {
   right: 10px;
 }
 
-#questionnaire-nav ul,
-#bill-nav ul {
+#questionnaire-nav ul {
   display: inline;
 }
 
-#questionnaire-nav ul li,
-#bill-nav ul li {
+#questionnaire-nav ul li {
   border: 1px solid #d8d8d8;
   color: #a5a5a5;
   cursor: pointer;
@@ -1145,8 +862,7 @@ img.cand-pic {
   transition: all 0.5s;
 }
 
-#questionnaire-nav ul li:hover,
-#bill-nav ul li:hover {
+#questionnaire-nav ul li:hover {
   color: #333333;
   border: 1px solid #333333;
 }
@@ -1165,21 +881,12 @@ img.cand-pic {
   list-style-type: circle;
 }
 
-.question.medium {
-  margin-bottom: 0;
-}
-
 .question-header {
   font-family: "Brandon", Helvetica, sans-serif;
   font-size: 1.5em;
   margin: 15px 0px;
   text-transform: uppercase;
   color: #667682;
-}
-
-.question-header.medium {
-  font-size: 1.25em;
-  margin: 10px 0px;
 }
 
 .question-num {
@@ -1190,10 +897,6 @@ img.cand-pic {
   font-weight: normal;
   color: white;
   margin-right: 5px;
-}
-
-.question-num.medium {
-  font-size: 1em;
 }
 
 .question-text {
@@ -1218,29 +921,8 @@ img.cand-pic {
   transition: height 0.3s;
 }
 
-.question-text.medium {
-  font-weight: normal;
-  font-size: 1.25em;
-}
-
-.answer.medium {
-  font-size: 1.1em;
-  min-height: 120px;
-  border: none;
-  margin: 0;
-  padding: 5px;
-}
-
 .speaker {
   font-weight: bold;
-}
-
-.answer-headshot {
-  width: 65px;
-  border-radius: 99px;
-  vertical-align: top;
-  float: left;
-  margin: 0px 15px 10px 0px;
 }
 
 .answer-social {
@@ -1262,41 +944,8 @@ img.cand-pic {
   color: #333333;
 }
 
-p.about {
-  font-size: 1.25em;
-  line-height: 150%;
-}
-
-.extra {
-  max-width: 1000px;
-  min-height: 500px;
-  margin-left: 25px;
-  padding-top: 15px;
-}
-
-.bottom-border {
-  border-bottom: 1px solid #cdcdcd;
-}
-
 /******** MEDIA QUERIES ******** */
-
-@media only screen and (max-width: 1100px) {
-  #all-candidates-toggle-button,
-  #all-candidates-toggle-button-rep {
-    display: none;
-  }
-  #all-candidates-toggle,
-  #all-candidates-toggle-rep {
-    display: inline;
-  }
-}
-
 @media only screen and (max-width: 1000px) {
-  /* This makes the running against list on the candidates page one col */
-  div.candidates-list.span-70.center {
-    clear: both;
-  }
-
   /* Footer height needs to be increased at smaller sizes, as more links are added */
   footer {
     height: 800px;
@@ -1312,8 +961,7 @@ p.about {
     display: none;
   }
 
-  #cand-name,
-  .cand-name {
+  #cand-name {
     font-size: 2em;
     width: auto;
   }
@@ -1322,20 +970,12 @@ p.about {
     padding: 0px 10px;
   }
 
-  .question-candidates ul li.selected:before {
-    right: 156px;
-  }
-
   .nav-item {
     margin: 0px 5%;
   }
 
   #all-candidates {
     margin: 20px 0px 30px 0px;
-  }
-
-  .candidates-list {
-    width: auto;
   }
 
   #top-nav,
@@ -1347,14 +987,6 @@ p.about {
     margin-left: 5px;
   }
 
-  #mobile-nav {
-    display: inline-block;
-  }
-
-  #donut-container,
-  .candidate-box.selected:after {
-    display: none;
-  }
   #inline-nav.desktop {
     display: none;
   }
@@ -1365,19 +997,9 @@ p.about {
     width: auto;
     float: none;
   }
-
-  .comptroller-button {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 900px) {
-  .question-candidates {
-    display: none;
-  }
-  #bills .span-70 {
-    width: 90%;
-  }
   .intro-block .content {
     display: none;
   }
@@ -1388,10 +1010,6 @@ p.about {
   body {
     word-break: break-word;
   }
-
-  #race-candidate-div {
-    display: none;
-  }
   #page-header {
     font-size: 0.9em;
   }
@@ -1400,21 +1018,7 @@ p.about {
   }
 }
 
-@media only screen and (min-width: 600px) {
-  .bio-mobile {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 600px) {
-  .cand-pic-race {
-    width: 100px;
-    margin-right: 5px;
-  }
-  .cand-pic-race img {
-    width: 80px;
-  }
-  .cand-name,
   #cand-name {
     padding-top: 5px;
   }
@@ -1427,12 +1031,6 @@ p.about {
 }
 
 @media only screen and (max-width: 830px) {
-  #bio-text,
-  #background-text {
-    float: none;
-    width: auto;
-  }
-
   #social {
     float: none;
     width: auto;
@@ -1451,15 +1049,12 @@ p.about {
     padding-left: 0px;
   }
 
-  #mobile-nav .text {
-    display: none;
-  }
   #cand-pic {
     float: none;
     clear: both;
     width: 100%;
   }
-  .cand-bio-text,
+
   #cand-bio-text {
     float: none;
     clear: both;
@@ -1511,19 +1106,12 @@ p.about {
 }
 
 @media only screen and (max-width: 530px) {
-  #mobile-nav-break {
-    display: block;
-  }
   .mobile-hide {
     display: none;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  #mobile-nav-break {
-    display: block;
-  }
-
   .question-header {
     font-size: 1em;
   }
@@ -1539,8 +1127,7 @@ p.about {
 }
 
 @media only screen and (max-width: 460px) {
-  #top-bar-star,
-  #election-center-logo {
+  #top-bar-star {
     font-size: 16px;
   }
 }
@@ -1550,8 +1137,7 @@ p.about {
     height: auto;
   }
 
-  #cand-name,
-  .cand-name {
+  #cand-name {
     background-color: transparent;
     padding: 0 0 10px 0;
     width: auto;
@@ -1562,24 +1148,8 @@ p.about {
 }
 
 @media only screen and (max-width: 400px) {
-  #bill-nav div {
-    text-align: left;
-    margin-left: 20px;
-    margin-bottom: 10px;
-    display: block;
-  }
   div.toggle {
     margin-left: 0px;
-  }
-
-  #message {
-    font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 380px) {
-  .cand-name.race {
-    font-size: 1em;
   }
 }
 
@@ -1601,10 +1171,6 @@ p.about {
 
 *:first-child + html .group {
   zoom: 1;
-}
-
-.u-none {
-  display: none;
 }
 
 .u-upper {

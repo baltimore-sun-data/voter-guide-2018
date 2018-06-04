@@ -344,14 +344,6 @@ li p {
   line-height: 21px;
 }
 
-/* #Images
-================================================== */
-
-img.scale-with-grid {
-  max-width: 100%;
-  height: auto;
-}
-
 /* #Buttons
 ================================================== */
 
@@ -474,16 +466,4 @@ legend span {
   font-weight: normal;
   font-size: 13px;
   color: #444;
-}
-
-/* #Misc
-================================================== */
-.remove-bottom {
-  margin-bottom: 0 !important;
-}
-.half-bottom {
-  margin-bottom: 10px !important;
-}
-.add-bottom {
-  margin-bottom: 20px !important;
 }
