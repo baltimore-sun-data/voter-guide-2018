@@ -14,6 +14,13 @@
 .primary .race th.candidate {
   width: 35%;
   color: #667682;
+  @media (max-width: 900px) {
+    padding-right: 0.5rem;
+  }
+  @media (max-width: 600px) {
+    width: 40%;
+    padding-right: 0.5rem;
+  }
 }
 
 .race td.party-col,
@@ -26,6 +33,9 @@
 .primary .race th.votes {
   width: 15%;
   color: #667682;
+  @media (max-width: 900px) {
+    padding-left: 0.7rem;
+  }
 }
 
 .race td.percent,
@@ -49,11 +59,17 @@
   background: #cdcdcd;
   height: 20px;
   float: left;
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .percent-bar {
   background: #667682;
   height: 20px;
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 
 .vote-percent {
@@ -97,27 +113,7 @@ button.view-hide {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 900px) {
-  .race td.candidate {
-    padding-right: 0.5rem;
-  }
-  .race td.votes {
-    padding-left: 0.7rem;
-  }
-}
-
 @media (max-width: 600px) {
-  .percent-bar-bg,
-  .percent-bar {
-    display: none;
-  }
-  .race th {
-    padding: 0;
-  }
-  .race td.candidate {
-    width: 40%;
-    padding-right: 0.5rem;
-  }
   .race td.party-col,
   .race td.votes,
   .race td.percent {
