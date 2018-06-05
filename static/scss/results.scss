@@ -7,13 +7,12 @@
 
 .race th {
   font-weight: normal;
-  padding: 0 0.5rem;
   word-break: break-word;
 }
 
-.race td.candidate,
-.race th.candidate {
-  width: 30%;
+.primary .race td.candidate,
+.primary .race th.candidate {
+  width: 35%;
   color: #667682;
 }
 
@@ -23,9 +22,9 @@
   color: #667682;
 }
 
-.race td.votes,
-.race th.votes {
-  width: 10%;
+.primary .race td.votes,
+.primary .race th.votes {
+  width: 15%;
   color: #667682;
 }
 
@@ -46,7 +45,7 @@
 }
 
 .percent-bar-bg {
-  width: 70%;
+  width: 80%;
   background: #cdcdcd;
   height: 20px;
   float: left;
@@ -98,13 +97,26 @@ button.view-hide {
   margin-bottom: 2rem;
 }
 
+@media (max-width: 900px) {
+  .race td.candidate {
+    padding-right: 0.5rem;
+  }
+  .race td.votes {
+    padding-left: 0.7rem;
+  }
+}
+
 @media (max-width: 600px) {
   .percent-bar-bg,
   .percent-bar {
     display: none;
   }
+  .race th {
+    padding: 0;
+  }
   .race td.candidate {
     width: 40%;
+    padding-right: 0.5rem;
   }
   .race td.party-col,
   .race td.votes,
@@ -135,7 +147,7 @@ button.view-hide {
 
   th:nth-child(even),
   td:nth-child(even) {
-    background-color: #fafafa;
+    background-color: #f6f6f6;
   }
 
   .fixed {
@@ -156,7 +168,6 @@ button.view-hide {
       display: block;
       text-align: left !important;
     }
-
     td:nth-child(even) {
       background-color: inherit;
     }
@@ -167,7 +178,7 @@ button.view-hide {
     }
 
     tr:nth-child(even) {
-      background-color: #fafafa;
+      background-color: #f6f6f6;
     }
 
     .fixed {

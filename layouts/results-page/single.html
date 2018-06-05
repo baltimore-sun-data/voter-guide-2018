@@ -7,7 +7,7 @@
 
 {{ define "main" }}
 {{ $baseURL := .Param "results-base-url" }}
-<div class="container">
+<div class="primary container">
     <h1 class="section-header-splash grey">{{.Title}}</h1>
     <main class="results-page">
         {{ .Content }}
@@ -25,7 +25,74 @@
     {{ partial "ad-autorefresh.html" . }}
 
     <button type="button" class="js-key-contests-btn btn btn-primary btn-lg">Refresh</button>
+    <div
+        class="js-results-container"
+        data-fetch-url=''
+        data-target="#info"
+        data-errors="#errors"
+        data-time="#time-all"
+        data-boe-update="#boe-update-time"
+        data-timeout="30000">
 
+        <h2 class="results-header">Find races</h2>
+        <hr>
+        <div class="row">
+          <div class="find-results col-sm-4 col-xs-12">
+            <select class="js-select2">
+              <option disabled selected>Choose by race name</option>
+              {{ range .Site.Data.results.AllContests }}
+                <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
+                  {{- .Name -}}
+                  {{- if ne .Jurisdiction "State of Maryland" -}}
+                    {{- " " -}}{{- .Jurisdiction -}}
+                  {{- end -}}
+                  {{- if ne .District "State of Maryland" -}}
+                    {{- " " -}}{{- .District -}}
+                  {{- end -}}
+                  {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
+                    {{- " " -}}({{- .Party -}})
+                  {{- end -}}
+                </option>
+              {{ end }}
+            </select>
+          </div>
+          <div class="find-results col-sm-4 col-xs-12">
+            <select class="js-select2">
+              <option disabled selected>Choose by candidate name</option>
+              {{ range .Site.Data.results.AllOptions }}
+                <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
+                  {{- .Name -}}
+                  {{- " • " }}{{ .Contest -}}
+                  {{- " • " }}{{ .District -}}
+                </option>
+              {{ end }}
+            </select>
+          </div>
+          <div class="find-results col-sm-4 col-xs-12">
+            <select class="js-select2">
+              <option disabled selected>Choose by district</option>
+              {{ range .Site.Data.results.AllDistricts }}
+                <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
+                  {{- if ne .Jurisdiction "State of Maryland" -}}
+                    {{- .Jurisdiction -}}{{- " " -}}
+                  {{- end -}}
+                  {{- .District -}}
+                  {{- if eq .Type "Senatorial District" }} (State Senate){{ end -}}
+                </option>
+              {{ end }}
+            </select>
+          </div>
+        </div>
+
+        <div class="last-refresh">
+          Results last refreshed: <span id="time-all"></span>
+        </div>
+
+        <div id="errors"></div>
+        <div id="info">
+          <p>Select race above</p>
+        </div>
+    </div>
     <h2 class="results-header">Key races</h2>
     <hr>
     <div class="last-refresh">
@@ -48,74 +115,6 @@
       </div>
     </section>
     {{ end }}
-
-    <div
-        class="js-results-container"
-        data-fetch-url=''
-        data-target="#info"
-        data-errors="#errors"
-        data-time="#time-all"
-        data-boe-update="#boe-update-time"
-        data-timeout="30000">
-
-        <h2 class="results-header">Find races</h2>
-        <hr>
-
-        <div class="find-results col-sm-4 col-xs-12">
-          <select class="js-select2">
-            <option disabled selected>Choose by race name</option>
-            {{ range .Site.Data.results.AllContests }}
-              <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
-                {{- .Name -}}
-                {{- if ne .Jurisdiction "State of Maryland" -}}
-                  {{- " " -}}{{- .Jurisdiction -}}
-                {{- end -}}
-                {{- if ne .District "State of Maryland" -}}
-                  {{- " " -}}{{- .District -}}
-                {{- end -}}
-                {{- if and (ne .Party "Non-Partisan") (ne .Party "Non Partisan") -}}
-                  {{- " " -}}({{- .Party -}})
-                {{- end -}}
-              </option>
-            {{ end }}
-          </select>
-        </div>
-        <div class="find-results col-sm-4 col-xs-12">
-          <select class="js-select2">
-            <option disabled selected>Choose by candidate name</option>
-            {{ range .Site.Data.results.AllOptions }}
-              <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
-                {{- .Name -}}
-                {{- " • " }}{{ .Contest -}}
-                {{- " • " }}{{ .District -}}
-              </option>
-            {{ end }}
-          </select>
-        </div>
-        <div class="find-results col-sm-4 col-xs-12">
-          <select class="js-select2">
-            <option disabled selected>Choose by district</option>
-            {{ range .Site.Data.results.AllDistricts }}
-              <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
-                {{- if ne .Jurisdiction "State of Maryland" -}}
-                  {{- .Jurisdiction -}}{{- " " -}}
-                {{- end -}}
-                {{- .District -}}
-                {{- if eq .Type "Senatorial District" }} (State Senate){{ end -}}
-              </option>
-            {{ end }}
-          </select>
-        </div>
-
-        <div class="last-refresh">
-          Results last refreshed: <span id="time-all"></span>
-        </div>
-
-        <div id="errors"></div>
-        <div id="info">
-          <p>Select race above</p>
-        </div>
-    </div>
 
     <button type="button" class="js-key-contests-btn btn btn-primary btn-lg">Refresh</button>
 
