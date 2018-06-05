@@ -6,6 +6,7 @@
   "repository": "git@github.com:baltimore-sun-data/voter-guide-2018.git",
   "author": "carljohnson@tronc.com",
   "license": "UNLICENSED",
+  "browserslist": ["> 1% in US", "defaults"],
   "scripts": {
     "build":
       "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && yarn run hugo && yarn run minify && yarn run clean:data",
