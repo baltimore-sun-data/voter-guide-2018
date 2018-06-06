@@ -36,6 +36,8 @@ func (c *Config) Serve() error {
 
 func (c *Config) Routes() http.Handler {
 	mux := http.NewServeMux()
+	mux.Handle(c.Path+c.P2PSlug, http.StripPrefix(c.Path+c.P2PSlug,
+		c.stdMiddleware(c.handleBarker)))
 	mux.Handle(c.Path+"contests/", http.StripPrefix(c.Path+"contests/",
 		c.stdMiddleware(c.handleContests)))
 	mux.Handle(c.Path+"districts/", http.StripPrefix(c.Path+"districts/",
@@ -51,10 +53,6 @@ func (c *Config) stdMiddleware(h erroringHandler) http.Handler {
 		w.Header().Set("Access-Control-Allow-Origin", "*")
 		w.Header().Set("Cache-Control", "max-age=0")
 
-		if !strings.HasSuffix(r.URL.Path, ".html") {
-			http.NotFound(w, r)
-			return
-		}
 		if err := h(w, r); err != nil {
 			status := http.StatusInternalServerError
 			if s, ok := err.(interface{ Status() int }); ok {
@@ -78,10 +76,21 @@ func (s statusError) Status() int {
 	return int(s)
 }
 
-func (c *Config) handleContests(w http.ResponseWriter, r *http.Request) error {
+func extractID(r *http.Request) (int, error) {
+	if !strings.HasSuffix(r.URL.Path, ".html") {
+		return 0, statusError(http.StatusNotFound)
+	}
 	id, err := strconv.Atoi(strings.TrimSuffix(r.URL.Path, ".html"))
 	if err != nil {
-		return statusError(http.StatusNotFound)
+		return 0, statusError(http.StatusNotFound)
+	}
+	return id, nil
+}
+
+func (c *Config) handleContests(w http.ResponseWriter, r *http.Request) error {
+	id, err := extractID(r)
+	if err != nil {
+		return err
 	}
 	cid := ContestID(id)
 
@@ -114,9 +123,9 @@ func (c *Config) handleContests(w http.ResponseWriter, r *http.Request) error {
 }
 
 func (c *Config) handleDistricts(w http.ResponseWriter, r *http.Request) error {
-	id, err := strconv.Atoi(strings.TrimSuffix(r.URL.Path, ".html"))
+	id, err := extractID(r)
 	if err != nil {
-		return statusError(http.StatusNotFound)
+		return err
 	}
 	did := DistrictID(id)
 
@@ -142,6 +151,31 @@ func (c *Config) handleDistricts(w http.ResponseWriter, r *http.Request) error {
 	}
 
 	err = t.ExecuteTemplate(w, "district.html", data)
+	if err != nil {
+		// too late to return 500
+		log.Printf("error executing template: %v", err)
+	}
+	return nil
+}
+
+func (c *Config) handleBarker(w http.ResponseWriter, r *http.Request) error {
+	t, err := c.template()
+	if err != nil {
+		return err
+	}
+
+	m, err := MetadataFrom(c.MetadataLocation)
+	if err != nil {
+		return err
+	}
+
+	rc, err := ResultsContainerFrom(c.ResultsLocation)
+	if err != nil {
+		return err
+	}
+
+	cr := MapContestResults(m, rc)
+	err = t.ExecuteTemplate(w, "barker.html", cr)
 	if err != nil {
 		// too late to return 500
 		log.Printf("error executing template: %v", err)
