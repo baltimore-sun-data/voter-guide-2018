@@ -7,6 +7,7 @@ import (
 	"log"
 	"os"
 	"os/signal"
+	"strings"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
@@ -168,7 +169,12 @@ func (c *Config) RemoteTick(cl client) error {
 		}
 	}
 	log.Printf("handled %d items", loops)
-	return hadErr
+	if hadErr != nil {
+		return hadErr
+	}
+
+	log.Print("updating P2P")
+	return c.UpdateP2P(cl, cr)
 }
 
 func (c *Config) uploadFile(cl client, filename, templatename string, data interface{}) error {
@@ -190,4 +196,14 @@ func (c *Config) uploadFile(cl client, filename, templatename string, data inter
 		log.Printf("error uploading %s: %v", filename, err)
 	}
 	return err
+}
+
+func (c *Config) UpdateP2P(cl client, data interface{}) error {
+	var buf strings.Builder
+	err := cl.template.ExecuteTemplate(&buf, "barker.html", data)
+	if err != nil {
+		return err
+	}
+	client := NewP2PClient()
+	return client.Update(c.P2PSlug, buf.String())
 }
