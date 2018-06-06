@@ -1,0 +1,8 @@
+{{ $gov := index . 1 }}
+
+<h1>Governor Results</h1>
+
+{{ range $gov.Options }}
+    {{ .Text | titlecase }}: {{ .TotalVotes | commas }}<br>
+    {{ .PercentageVotes | printf "%.1f" }}%<br>
+{{ end }}
