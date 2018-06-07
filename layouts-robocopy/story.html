@@ -12,19 +12,20 @@
 <h3>Governor</h3>
 
 {{ block "story-results" $gov }}
-<ul>
-  {{ range .Options }}
-    <li>
+  <p>
+    {{ range .Options }}
+      •
       {{ .Text | titlecase }}: {{ .TotalVotes | commas }}
       {{ .PercentageVotes | printf "%.1f" }}%
-    </li>
-  {{ end }}
-</ul>
-
-<i>
-  {{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% )
-  {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
-</i>
+      <br>
+    {{ end }}
+  </p>
+  <p>
+    <i>
+      {{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% )
+      {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
+    </i>
+  </p>
 {{ end }}
 
 <h3>Baltimore City State's Attorney</h3>
