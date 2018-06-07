@@ -1,0 +1,56 @@
+{{ $gov := index . 1 }}
+{{ $bsa := index . 454 }}
+{{ $sr := index . 7 }}
+{{ $sd := index . 8 }}
+{{ $bced := index . 225 }}
+{{ $bcer := index . 226 }}
+
+<p>
+  <i>Results as of {{ $gov.LastUpdate.Format "3:04pm Jan. 2, 2006" }}</i>
+</p>
+
+<h3>Governor</h3>
+
+{{ block "story-results" $gov }}
+<ul>
+  {{ range .Options }}
+    <li>
+      {{ .Text | titlecase }}: {{ .TotalVotes | commas }}
+      {{ .PercentageVotes | printf "%.1f" }}%
+    </li>
+  {{ end }}
+</ul>
+
+<i>
+  {{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% )
+  {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
+</i>
+{{ end }}
+
+<h3>Baltimore City State's Attorney</h3>
+
+{{ template "story-results" $bsa }}
+
+<h3>Republican U.S. Senator</h3>
+
+{{ template "story-results" $sr }}
+
+<h3>Democratic U.S. Senator</h3>
+
+{{ template "story-results" $sd }}
+
+<h3>Republican Baltimore County Executive</h3>
+
+{{ template "story-results" $bcer }}
+
+<h3>Democratic Baltimore County Executive</h3>
+
+{{ template "story-results" $bsa }}
+
+<hr>
+
+<p>
+  See more detailed results
+  <a href="https://elections2018.news.baltimoresun.com/results/">at
+  our 2018 election site</a>.
+</p>

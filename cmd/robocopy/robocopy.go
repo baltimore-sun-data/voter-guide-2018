@@ -46,7 +46,8 @@ type Config struct {
 	Region           string
 	Bucket           string
 	Path             string
-	P2PSlug          string
+	BarkerSlug       string
+	StorySlug        string
 	PollInterval     time.Duration
 	DevPort          int
 	NumWorkers       int
@@ -65,7 +66,8 @@ func FromArgs(args []string) *Config {
 	fl.StringVar(&conf.Region, "region", "us-east-1", "Amazon region for S3")
 	fl.StringVar(&conf.Bucket, "bucket", "elections2018-news-baltimoresun-com", "Amazon S3 bucket")
 	fl.StringVar(&conf.Path, "path", "/results/", "Amazon S3 destination path")
-	fl.StringVar(&conf.P2PSlug, "p2p-slug", "bs-2018-elections-primary-barker", "barker to update")
+	fl.StringVar(&conf.BarkerSlug, "barker-slug", "bs-2018-elections-primary-barker", "barker to update")
+	fl.StringVar(&conf.StorySlug, "story-slug", "bs-2018-elections-primary-story", "story to update")
 	fl.DurationVar(&conf.PollInterval, "poll-interval", 30*time.Second, "time between refreshing S3")
 	fl.IntVar(&conf.DevPort, "dev-port", 9191, "port for dev server")
 	fl.IntVar(&conf.NumWorkers, "workers", 5, "number of upload workers")
