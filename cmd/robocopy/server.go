@@ -36,8 +36,10 @@ func (c *Config) Serve() error {
 
 func (c *Config) Routes() http.Handler {
 	mux := http.NewServeMux()
-	mux.Handle(c.Path+c.P2PSlug, http.StripPrefix(c.Path+c.P2PSlug,
+	mux.Handle(c.Path+c.BarkerSlug, http.StripPrefix(c.Path+c.BarkerSlug,
 		c.stdMiddleware(c.handleBarker)))
+	mux.Handle(c.Path+c.StorySlug, http.StripPrefix(c.Path+c.StorySlug,
+		c.stdMiddleware(c.handleStory)))
 	mux.Handle(c.Path+"contests/", http.StripPrefix(c.Path+"contests/",
 		c.stdMiddleware(c.handleContests)))
 	mux.Handle(c.Path+"districts/", http.StripPrefix(c.Path+"districts/",
@@ -159,6 +161,16 @@ func (c *Config) handleDistricts(w http.ResponseWriter, r *http.Request) error {
 }
 
 func (c *Config) handleBarker(w http.ResponseWriter, r *http.Request) error {
+	return c.handleP2P("barker.html", w, r)
+}
+
+func (c *Config) handleStory(w http.ResponseWriter, r *http.Request) error {
+	return c.handleP2P("story.html", w, r)
+}
+
+func (c *Config) handleP2P(templatename string, w http.ResponseWriter, r *http.Request) error {
+	w.Header().Set("Content-Type", "text/html")
+
 	t, err := c.template()
 	if err != nil {
 		return err
@@ -175,7 +187,7 @@ func (c *Config) handleBarker(w http.ResponseWriter, r *http.Request) error {
 	}
 
 	cr := MapContestResults(m, rc)
-	err = t.ExecuteTemplate(w, "barker.html", cr)
+	err = t.ExecuteTemplate(w, templatename, cr)
 	if err != nil {
 		// too late to return 500
 		log.Printf("error executing template: %v", err)
