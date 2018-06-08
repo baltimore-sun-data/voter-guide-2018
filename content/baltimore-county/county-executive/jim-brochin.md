@@ -9,6 +9,7 @@
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/245-e950e7267dc9338afee3011f1f5df499_000750.JPG",
   "last-name": "Brochin",
   "party": "Democrat",
+  "profile": "[Democrat Jim Brochin says his run for Baltimore County executive touts 'people's message'](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-brochin-profile-20180516-story.html)",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

@@ -9,6 +9,7 @@
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/179-886e253a3cb8e8bcc1119bf078e73205_Johnny_O_%281%29.jpg",
   "last-name": "Olszewski",
   "party": "Democrat",
+  "profile": "[Democrat Johnny Olszewski Jr. seeks comeback in Baltimore County executive race](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-olszewski-profile-20180529-story.html)",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",
