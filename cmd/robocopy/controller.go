@@ -237,3 +237,18 @@ func MapDistrictResults(m *Metadata, contests map[ContestID]*Result) map[Distric
 	}
 	return districts
 }
+
+func (result Result) TopN(n int) []*OptionResult {
+	options := make([]*OptionResult, len(result.Options))
+	copy(options, result.Options)
+	sort.SliceStable(options, func(i, j int) bool {
+		return options[i].TotalVotes > options[j].TotalVotes
+	})
+	var i int
+	for i = 0; i < n; i++ {
+		if i > n || i > len(options) || options[i].TotalVotes == 0 {
+			break
+		}
+	}
+	return options[:i]
+}

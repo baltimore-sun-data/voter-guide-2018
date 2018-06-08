@@ -199,11 +199,23 @@ func (c *Config) uploadFile(cl client, filename, templatename string, data inter
 }
 
 func (c *Config) UpdateP2P(cl client, data interface{}) error {
+	err := renderToP2P(c.BarkerSlug, "barker.html", cl, data)
+	if err != nil {
+		return fmt.Errorf("problem updating P2P barker: %v", err)
+	}
+	err = renderToP2P(c.StorySlug, "story.html", cl, data)
+	if err != nil {
+		return fmt.Errorf("problem updating P2P story: %v", err)
+	}
+	return nil
+}
+
+func renderToP2P(slug, templatename string, cl client, data interface{}) error {
 	var buf strings.Builder
-	err := cl.template.ExecuteTemplate(&buf, "barker.html", data)
+	err := cl.template.ExecuteTemplate(&buf, templatename, data)
 	if err != nil {
 		return err
 	}
 	client := NewP2PClient()
-	return client.Update(c.P2PSlug, buf.String())
+	return client.Update(slug, buf.String())
 }
