@@ -4,6 +4,7 @@
   "full-name": "Pat McDonough",
   "last-name": "McDonough",
   "party": "Republican",
+  "profile": "[GOP primary: Pat McDonough sees Baltimore County as 'runaway train' he can get on track as executive](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-mcdonough-profile-20180522-story.html)",
   "race": "baltimore-county/county-executive",
   "sn1": "Kamenetz record",
   "sn2": "Resources/Taxes",

@@ -9,6 +9,7 @@
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/245-ef414cf05ef2d039d595f39774fd9f4a_campaign.jpg",
   "last-name": "Redmer",
   "party": "Republican",
+  "profile": "[GOP primary: Backed by governor, Al Redmer says he would bring executive experience to Baltimore County](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-redmer-profile-20180504-story.html)",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

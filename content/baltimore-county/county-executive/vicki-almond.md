@@ -8,6 +8,7 @@
   "full-name": "Vicki Almond",
   "last-name": "Almond",
   "party": "Democrat",
+  "profile": "[Democrat Vicki Almond seeks to complete rise in politics by becoming Baltimore County executive](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-almond-profile-20180604-story.html)",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",
