@@ -39,7 +39,7 @@ func (c *Config) RemoteExec() error {
 	var cl = client{
 		uploader: s3manager.NewUploader(s),
 		cachecontrol: aws.String(
-			fmt.Sprintf("public, max-age=%.0f", c.PollInterval.Seconds()),
+			fmt.Sprintf("public, max-age=%.0f", c.CacheTime.Seconds()),
 		),
 		metadata: m,
 	}
