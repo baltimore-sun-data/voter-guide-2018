@@ -10,6 +10,7 @@
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-889682b2c6ccbacf2f5f0d751e291291_Ted_Sophocleus.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Sophocleus",
+  "note": "Theodore Sophocleus [died on June 8](http://www.capitalgazette.com/news/general_assembly/ac-cn-ted-sophocleus-20180608-story.html).",
   "party": "Democrat",
   "questions": [
     {
