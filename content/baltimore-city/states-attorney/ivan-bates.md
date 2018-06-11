@@ -4,6 +4,7 @@
   "directory": "content/baltimore-city/states-attorney",
   "dob": "9/7/1968",
   "education": "My father was in the military, so as a kid I went to school in New Mexico, Virginia, and even Germany. After high school, I enlisted into United States Army. After my honorable discharge, I graduated cum laude from Howard University in 1992 and recieved my law degree from William & Mary in Virginia in 1995.",
+  "endorsement": true,
   "filename": "ivan-bates.md",
   "full-name": "Ivan Bates",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4296412/245-5a69ebb1e6248afd8f2b3133f43eb50c_IvanBates-1192_preview.jpeg",
