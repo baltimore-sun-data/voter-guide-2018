@@ -49,6 +49,7 @@ type Config struct {
 	BarkerSlug       string
 	StorySlug        string
 	PollInterval     time.Duration
+	CacheTime        time.Duration
 	DevPort          int
 	NumWorkers       int
 }
@@ -69,6 +70,7 @@ func FromArgs(args []string) *Config {
 	fl.StringVar(&conf.BarkerSlug, "barker-slug", "bs-2018-elections-primary-barker", "barker to update")
 	fl.StringVar(&conf.StorySlug, "story-slug", "bs-2018-elections-primary-story", "story to update")
 	fl.DurationVar(&conf.PollInterval, "poll-interval", 30*time.Second, "time between refreshing S3")
+	fl.DurationVar(&conf.CacheTime, "cache-time", 10*time.Second, "cache time header")
 	fl.IntVar(&conf.DevPort, "dev-port", 9191, "port for dev server")
 	fl.IntVar(&conf.NumWorkers, "workers", 5, "number of upload workers")
 	fl.Usage = func() {
