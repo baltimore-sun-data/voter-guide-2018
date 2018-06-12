@@ -54,7 +54,7 @@
      <div id="cand-bio-text">
       <div class="cand-details">
         {{ if .Param "endorsement"}}
-          <div class="endorsement"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></div>
+          <div class="endorsement"><a href='{{ .Param "endorsement" }}' target="_blank"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></a></div>
         {{ end }}
         <div class="social-icons candidate-page">
           <span class="icon-facebook js-click"></span>
