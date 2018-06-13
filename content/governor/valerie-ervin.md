@@ -4,7 +4,7 @@
   "full-name": "Valerie Ervin",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-kamenetz-ervin-20180509-htmlstory.html",
   "last-name": "Ervin",
-  "note": "Kevin Kamenetz [died suddenly on May 10](http://www.baltimoresun.com/news/maryland/politics/bs-md-kevin-kamenetz-ill-20180510-story.html). Under state law, his running mate, Valerie Ervin, has chosen to replace him as a candidate for governor. However, because ballots were already being printed before she entered the race, her name is not expected to appear among the gubernatorial candidates, and state officials are [still developing a procedure for voters to choose her](http://www.baltimoresun.com/news/maryland/politics/bs-md-ervin-ballot-20180518-story.html).",
+  "note": "Valerie Ervin has [suspended her campaign for governor](http://www.baltimoresun.com/news/maryland/politics/bs-md-ervin-baker-20180612-story.html).",
   "party": "Democrat",
   "profile": "[From tragedy, Valerie Ervin's Democratic campaign for Maryland governor emerges](http://www.baltimoresun.com/news/maryland/politics/bs-md-ervin-profile-20180523-story.html)",
   "q1": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
