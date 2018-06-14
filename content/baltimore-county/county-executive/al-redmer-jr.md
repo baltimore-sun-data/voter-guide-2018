@@ -4,6 +4,7 @@
   "directory": "content/baltimore-county/county-executive",
   "dob": "1/15/1956",
   "education": "High School Graduate. Multiple professional, college level courses",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0614-redmer-endorsement-20180613-story.html",
   "filename": "al-redmer-jr.md",
   "full-name": "Al Redmer Jr.",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/245-ef414cf05ef2d039d595f39774fd9f4a_campaign.jpg",
