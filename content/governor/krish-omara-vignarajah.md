@@ -7,7 +7,7 @@
   "filename": "krish-omara-vignarajah.md",
   "full-name": "Krish O'Mara Vignarajah",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/117-75abfb0882df46d66c25fb582513d290_Krish_Headshot.jpg",
-  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-krish-vignarajah-20171214-htmlstory.html",
+  "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-krish-vignarajah-mean-tweets-20180614-htmlstory.html",
   "last-name": "Vignarajah",
   "party": "Democrat",
   "profile": "[Democrat Krish Vignarajah says it's time for a woman to be Maryland's governor](http://www.baltimoresun.com/news/maryland/politics/bs-md-krish-vignarajah-profile-20180521-story.html)",
