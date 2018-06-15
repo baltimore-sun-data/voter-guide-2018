@@ -13,6 +13,8 @@ var app = {
     app.toggle_fixed_nav();
     app.party_toggle();
     app.results_download();
+    app.smooth_scroll();
+    app.results_nav();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -370,6 +372,61 @@ var app = {
         $("#choosePartyText").text(party);
       }
     });
+  },
+
+  smooth_scroll: function() {
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (
+          location.pathname.replace(/^\//, "") ==
+            this.pathname.replace(/^\//, "") &&
+          location.hostname == this.hostname
+        ) {
+          var target = $(this.hash);
+          target = target.length
+            ? target
+            : $("[name=" + this.hash.slice(1) + "]");
+          if (target.length) {
+            var scrollx = target.offset().top - 100;
+            $("html, body").animate(
+              {
+                scrollTop: scrollx
+              },
+              1000
+            );
+            target.focus(); // Setting focus
+            if (target.is(":focus")) {
+              // Checking if the target was focused
+              return false;
+            } else {
+              target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+              target.focus(); // Setting focus
+            }
+            return false;
+          }
+        }
+      });
+    });
+  },
+
+  results_nav: function() {
+    window.onscroll = function() {
+      stickyNav();
+    };
+
+    var nav = document.getElementById("nav");
+
+    // Get the offset position of the navbar
+    var sticky = nav.offsetTop;
+
+    // Add the sticky class to the nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function stickyNav() {
+      if (window.pageYOffset >= sticky) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
   },
 
   results_toggle: function() {
