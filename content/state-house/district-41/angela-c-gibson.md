@@ -5,6 +5,7 @@
   "district": 41,
   "dob": "3/21/1949",
   "education": "Morgan State University, B.S.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "angela-c-gibson.md",
   "full-name": "Angela C. Gibson",
   "jurisdiction": "Baltimore City",

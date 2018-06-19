@@ -5,6 +5,7 @@
   "district": 41,
   "dob": "5/18/1950",
   "education": "Graduate of Baltimore public schools, City College, 1968; Amherst College, 1972; and Columbia University Law School, 1975",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "samuel-i-sandy-rosenberg.md",
   "full-name": "Samuel I. \"Sandy\" Rosenberg",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-6193e1f94f041b73050e0b6dead8517a_Rosenberg_Headshot_%281%29.jpg",
