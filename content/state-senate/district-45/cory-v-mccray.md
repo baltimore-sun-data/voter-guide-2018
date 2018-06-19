@@ -5,6 +5,7 @@
   "district": 45,
   "dob": "10/31/1982",
   "education": "Fairmount-Harford Institute (Baltimore City Public Schools, 2001), International Brotherhood of Electrical Workers Apprenticeship (2008), Associates Degree in Business Administration - Baltimore City Community College (2011), Bachelors Degree in Business Administration - National Labor College (2014)",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "cory-v-mccray.md",
   "full-name": "Cory V. McCray",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-8b39a27d6046d0a7ad7d463382a14dc1_cm2015_%281%29.jpg",

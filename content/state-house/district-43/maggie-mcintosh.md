@@ -5,6 +5,7 @@
   "district": 43,
   "dob": "12/22/1947",
   "education": "- Independence Junior College, AA 1967 - Wichita State University, B.A.E., Arts Education, 1970 - The Johns Hopkins University, M.S./A.B.S., Concentration in Human and Organizational Resources, Division of Administration and Business, 1987",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "maggie-mcintosh.md",
   "full-name": "Maggie McIntosh",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-d3e47e7023506163675715acf06d2838_Maggie_portrait.jpg",

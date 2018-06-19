@@ -5,6 +5,7 @@
   "district": 40,
   "dob": "10/3/1983",
   "education": "Masters of Public Policy from American University",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "melissa-wells.md",
   "full-name": "Melissa Wells",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-51a70b606be6dabbd310994caabe7815_MWells817-22.jpg",

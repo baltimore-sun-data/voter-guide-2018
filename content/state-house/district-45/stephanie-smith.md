@@ -5,6 +5,7 @@
   "district": 45,
   "dob": "5/20/1981",
   "education": "BA in Political Science, Hampton University  MA in Urban Affairs and Public Policy, University of Delaware  JD, Howard University School of Law",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "stephanie-smith.md",
   "full-name": "Stephanie Smith",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-11ca60db0c1db016c7d1d18e1433d7b0_DK9G2879.jpg",

@@ -5,6 +5,7 @@
   "district": 41,
   "dob": "1/21/1977",
   "education": "Baltimore Polytechinic Institute - 1995 Frostburg State University - Bachelor of Science in Mass Communications - 2000 Towson University - Certificate in Communications Management & Strategic Public Relations - 2002",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "tony-bridges.md",
   "full-name": "Tony Bridges",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-6d4d8aba275cdea51ff467c665d2425c_TB_Head_Shot_2_.jpg",
