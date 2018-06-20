@@ -25,6 +25,13 @@
   font-size: 1.1em;
   font-weight: 600;
 }
+.results-nav li .results-item:hover,
+.results-nav li .results-item:hover:active,
+.nav .open > a,
+.nav .open > a:focus {
+  background-color: #818e98;
+}
+
 .race {
   margin: 20px 0 20px 0;
 }
