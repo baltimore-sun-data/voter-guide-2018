@@ -5,6 +5,7 @@
   "district": 46,
   "dob": "9/24/1972",
   "education": "H.S., 1990, Baltimore Polytechnic Institute; B.A., 1994, Earlham College; J.D., 2007, University of Louisville.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "luke-clippinger.md",
   "full-name": "Luke Clippinger",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-a10d594fe93327692c40b1be851dcc2c_LWV_headshot.JPG",
