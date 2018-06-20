@@ -48,6 +48,7 @@
     <div class="col-md-6 col-sm-6 col-xs-6">
      <a href="{{.URL}}" class="btn btn-primary btn-lg district-button">
       {{ .Title }}
+      {{ if .Params "endorsement" }}✔︎{{ end }}
      </a>
     </div>
     {{ end }}
