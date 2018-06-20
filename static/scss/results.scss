@@ -10,7 +10,10 @@
   top: 0;
   width: 100%;
 }
-
+:focus {
+  outline: none;
+  border: none;
+}
 .sticky + .content {
   padding-top: 102px;
 }
@@ -21,14 +24,6 @@
   font-family: "Source Sans Pro", arial, sans-serif;
   font-size: 1.1em;
   font-weight: 600;
-}
-.results-nav > li > a:hover,
-.results-nav > li > a:focus,
-.results-nav > li > a:active,
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-  background-color: #818e98;
 }
 .race {
   margin: 20px 0 20px 0;
