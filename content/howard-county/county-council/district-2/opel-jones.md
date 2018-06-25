@@ -1,6 +1,7 @@
 {
   "directory": "content/howard-county/county-council/district-2",
   "district": 2,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "opel-jones.md",
   "full-name": "Opel Jones",
   "last-name": "Jones",

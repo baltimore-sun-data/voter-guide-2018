@@ -1,6 +1,7 @@
 {
   "directory": "content/baltimore-county/county-council/district-1",
   "district": 1,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "pete-melcavage-ii.md",
   "full-name": "Pete Melcavage II",
   "last-name": "Melcavage",

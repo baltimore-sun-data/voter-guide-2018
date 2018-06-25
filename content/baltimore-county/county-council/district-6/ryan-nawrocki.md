@@ -5,6 +5,7 @@
   "district": 6,
   "dob": "7/13/1983",
   "education": "I attended Loyola High School in Towson. I earned an undergraduate degree from St. Mary's College of Maryland in southern Maryland where I graduated with honors. As an undergrad, I was the first person in the college's history to graduate with four majors, which were political science, public policy, economics, and sociology. I recently completed my master's degree in public management from Johns Hopkins University and completed the Leadership Baltimore County program.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "ryan-nawrocki.md",
   "full-name": "Ryan Nawrocki",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/191-9eb8c3b2a1e2eff7f19b83fd771db7f7_IMG_0221_%281%29.JPG",

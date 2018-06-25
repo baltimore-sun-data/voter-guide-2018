@@ -6,6 +6,7 @@
   "district": 3,
   "dob": "6/29/1951",
   "education": "BA, MBA, JD",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "paul-v-konka.md",
   "full-name": "Paul V. Konka",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/179-cdbaf547287e4b12b97b6b8075110968_Paul_Konka_Picture.pdf",

@@ -4,6 +4,7 @@
   "directory": "content/anne-arundel-county/county-council/district-2",
   "dob": "10/2/1961",
   "education": "Bachelor's Degree – Applied Science and Technology – Thomas Edison State University, 39 Credit Hours from Anne Arundel Community College.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "tom-gardner.md",
   "full-name": "Tom Gardner",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/191-5603158fe61c12e918d39b6f5ba558b3_Tom_Gardner.jpg",
