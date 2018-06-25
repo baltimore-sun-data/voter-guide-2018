@@ -4,7 +4,6 @@ var app = {
   init: function() {
     app.activate_social_buttons();
     app.news_animation();
-    app.questionnaire_nav();
     app.find_district();
     app.homepage_toggle();
     app.candidate_table_filter();
@@ -67,33 +66,6 @@ var app = {
       .on("mouseleave", ".newsfeed ul li", function() {
         $(".newsfeed ul li").removeClass("faded");
       });
-  },
-
-  questionnaire_nav: function() {
-    // Define a variable to house the setTimeout
-    var defaultText;
-
-    $("#questionnaire-nav ul li").hover(
-      function() {
-        clearTimeout(defaultText);
-        $("#questionnaire-nav div").html($(this).attr("data-subject"));
-      },
-      function() {
-        defaultText = setTimeout(function() {
-          $("#questionnaire-nav div").html("Jump to:");
-        }, 1000);
-      }
-    );
-
-    $("#questionnaire-nav ul li a").click(function(e) {
-      // Find vertical displacement of the question we want to scroll to
-      // We have to do some math because of the fixed nav
-      var goal = /#.*?$/.exec(e.target.href)[0];
-      var qPosition = $(goal).offset();
-      $.scrollTo(qPosition.top - 85, 800);
-      window.location = goal;
-      return false;
-    });
   },
 
   toggle_fixed_nav: function() {
@@ -410,17 +382,21 @@ var app = {
   },
 
   results_nav: function() {
-    window.onscroll = function() {
+    window.addEventListener("scroll", function() {
+      var $nav = $("#navjs");
+      if ($nav.length === 0) {
+        return
+      };
       stickyNav();
-    };
-
-    var nav = document.getElementById("nav");
-
-    // Get the offset position of the navbar
-    var sticky = nav.offsetTop;
+    });
 
     // Add the sticky class to the nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
     function stickyNav() {
+      var nav = document.getElementById("navjs");
+      var navpos = document.getElementById("navposition");
+
+      // Get the offset position of the navbar
+      var sticky = navpos.offsetTop;
       if (window.pageYOffset >= sticky) {
         nav.classList.add("sticky");
       } else {

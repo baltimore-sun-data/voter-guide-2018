@@ -18,14 +18,15 @@
         </em>
     </main>
 </div>
-<div id="nav">
+<div id="navposition"></div>
+<div id="navjs">
   <div class="container">
     <div class="row">
-          <ul class="results-nav nav nav-pills nav-justified">
-            <li class="col-sm-4">
+          <ul class="results-nav">
+            <li class="col-xs-4">
               <a class="results-item" href="#find">Find race</a>
             </li>
-            <li class="col-sm-4 dropdown">
+            <li class="col-xs-4 dropdown">
               <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 {{ range $race := .Site.Data.KeyContests2018Primary }}
@@ -33,8 +34,8 @@
                 {{ end }}
               </ul>
             </li>
-            <li class="col-sm-4">
-              <a class="results-item" href="#coverage">Election coverage</a>
+            <li class="col-xs-4">
+              <a class="results-item" href="#coverage"><span class="mobile-hide">Election</span> coverage</a>
             </li>
           </ul>
   </div>
