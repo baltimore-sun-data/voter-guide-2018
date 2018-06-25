@@ -5,6 +5,7 @@
   "district": 3,
   "dob": "9/21/1961",
   "education": "Ph.D. in Spanish from the University of Michigan; M.A. in Spanish from Marquette University, B.A. from Marquette University in English/Spanish/Philosophy. Undergraduate studies at the Universidad Complutense in Madrid, Spain and graduate studies at the Universidad de Concepción in Chile.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "colleen-marie-ebacher.md",
   "full-name": "Colleen Marie Ebacher",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/52-6063cde97396fa5d32c3b9b8af831853_Colleen_Marie_Ebacher_Headshot.jpeg",

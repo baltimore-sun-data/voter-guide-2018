@@ -4,6 +4,7 @@
   "directory": "content/howard-county/county-executive",
   "dob": "9/2/1975",
   "education": "Bachelor of Arts in Philosophy and Religion from Towson State University Master of Arts in Legal and Ethical Studies from University of Baltimore Doctor of Education from Morgan State University",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "calvin-ball.md",
   "full-name": "Calvin Ball",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/191-0b7a6e57d1b8cfd509841da129a1618e_Headshot_with_flags.png",

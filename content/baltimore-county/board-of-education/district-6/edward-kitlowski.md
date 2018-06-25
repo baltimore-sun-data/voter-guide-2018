@@ -6,6 +6,7 @@
   "district": 6,
   "dob": "10/27/1958",
   "education": "I Graduated B.A. Honors Ithaca College in 1976, M.Ed. Loyola University 1986. I have graduate credits from Edinburgh University, Towson U., Cape Breton U. I completed administration course work.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "edward-kitlowski.md",
   "full-name": "Edward Kitlowski",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/44-b2c2197808c4f0efacd1bb86732dc31e_BOE_picture.JPG",

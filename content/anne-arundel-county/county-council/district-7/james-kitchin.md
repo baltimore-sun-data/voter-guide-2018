@@ -4,6 +4,7 @@
   "directory": "content/anne-arundel-county/county-council/district-7",
   "dob": "11/7/1984",
   "education": "BA in Business Administration MA in Interational Studies MA in Interdiciplinary Studies (Political Science and Education) PhD in Public Policy (In progress, projected completion is summer of 2019)",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "james-kitchin.md",
   "full-name": "James Kitchin",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/44-f4c309d97b89204ce61beacd096ee64e_Kitchin-Headshot.jpg",
