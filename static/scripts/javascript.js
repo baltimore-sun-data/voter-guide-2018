@@ -385,8 +385,8 @@ var app = {
     window.addEventListener("scroll", function() {
       var $nav = $("#navjs");
       if ($nav.length === 0) {
-        return
-      };
+        return;
+      }
       stickyNav();
     });
 
