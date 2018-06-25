@@ -4,6 +4,7 @@
   "directory": "content/anne-arundel-county/county-council/district-5",
   "dob": "8/28/1971",
   "education": "Bachelor of Arts in Government and Politics, University of Maryland, College Park, Juris Doctor (cum laude), Tulane University, Master of Business Administration, Tulane University.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "dawn-gough-myers.md",
   "full-name": "Dawn Gough Myers",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/52-e5aa38058d430c414afaef264906ad18_Myers_Headshot_1-1-2.jpg",

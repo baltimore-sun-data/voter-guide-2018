@@ -4,7 +4,6 @@ var app = {
   init: function() {
     app.activate_social_buttons();
     app.news_animation();
-    app.questionnaire_nav();
     app.find_district();
     app.homepage_toggle();
     app.candidate_table_filter();
@@ -13,6 +12,8 @@ var app = {
     app.toggle_fixed_nav();
     app.party_toggle();
     app.results_download();
+    app.smooth_scroll();
+    app.results_nav();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -65,33 +66,6 @@ var app = {
       .on("mouseleave", ".newsfeed ul li", function() {
         $(".newsfeed ul li").removeClass("faded");
       });
-  },
-
-  questionnaire_nav: function() {
-    // Define a variable to house the setTimeout
-    var defaultText;
-
-    $("#questionnaire-nav ul li").hover(
-      function() {
-        clearTimeout(defaultText);
-        $("#questionnaire-nav div").html($(this).attr("data-subject"));
-      },
-      function() {
-        defaultText = setTimeout(function() {
-          $("#questionnaire-nav div").html("Jump to:");
-        }, 1000);
-      }
-    );
-
-    $("#questionnaire-nav ul li a").click(function(e) {
-      // Find vertical displacement of the question we want to scroll to
-      // We have to do some math because of the fixed nav
-      var goal = /#.*?$/.exec(e.target.href)[0];
-      var qPosition = $(goal).offset();
-      $.scrollTo(qPosition.top - 85, 800);
-      window.location = goal;
-      return false;
-    });
   },
 
   toggle_fixed_nav: function() {
@@ -370,6 +344,65 @@ var app = {
         $("#choosePartyText").text(party);
       }
     });
+  },
+
+  smooth_scroll: function() {
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (
+          location.pathname.replace(/^\//, "") ===
+            this.pathname.replace(/^\//, "") &&
+          location.hostname === this.hostname
+        ) {
+          var target = $(this.hash);
+          target = target.length
+            ? target
+            : $("[name=" + this.hash.slice(1) + "]");
+          if (target.length) {
+            var scrollx = target.offset().top - 100;
+            $("html, body").animate(
+              {
+                scrollTop: scrollx
+              },
+              1000
+            );
+            target.focus(); // Setting focus
+            if (target.is(":focus")) {
+              // Checking if the target was focused
+              return false;
+            } else {
+              target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+              target.focus(); // Setting focus
+            }
+            return false;
+          }
+        }
+      });
+    });
+  },
+
+  results_nav: function() {
+    window.addEventListener("scroll", function() {
+      var $nav = $("#navjs");
+      if ($nav.length === 0) {
+        return;
+      }
+      stickyNav();
+    });
+
+    // Add the sticky class to the nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function stickyNav() {
+      var nav = document.getElementById("navjs");
+      var navpos = document.getElementById("navposition");
+
+      // Get the offset position of the navbar
+      var sticky = navpos.offsetTop;
+      if (window.pageYOffset >= sticky) {
+        nav.classList.add("sticky");
+      } else {
+        nav.classList.remove("sticky");
+      }
+    }
   },
 
   results_toggle: function() {

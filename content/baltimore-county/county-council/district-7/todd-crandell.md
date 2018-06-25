@@ -1,6 +1,7 @@
 {
   "directory": "content/baltimore-county/county-council/district-7",
   "district": 7,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "todd-crandell.md",
   "full-name": "Todd Crandell",
   "last-name": "Crandell",

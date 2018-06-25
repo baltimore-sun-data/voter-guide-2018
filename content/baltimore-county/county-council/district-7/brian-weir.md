@@ -5,6 +5,7 @@
   "district": 7,
   "dob": "7/12/1960",
   "education": "Graduated High School 1978 Attended Dundalk Community College And Essex Community College",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "brian-weir.md",
   "full-name": "Brian Weir",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/191-50344611bba033c9df6f71c970c604ba_camp1.png",

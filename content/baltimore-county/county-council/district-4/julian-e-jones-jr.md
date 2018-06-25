@@ -5,6 +5,7 @@
   "district": 4,
   "dob": "3/14/1963",
   "education": "Bachelors of Science in Information Systems Management from the University of Maryland Baltimore County The highest National Professional qualifications available in Fire, Rescue, Haz Mat, training and Fire Service Management available. Licensed Md Real Estate Estate Agent",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "julian-e-jones-jr.md",
   "full-name": "Julian E. Jones Jr.",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/95-1c331202f5693808885cb856d8fa504e_IMG_5473B.JPG",

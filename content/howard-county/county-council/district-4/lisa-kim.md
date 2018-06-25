@@ -5,6 +5,7 @@
   "district": 4,
   "dob": "2/17/1972",
   "education": "I graduated from Parkdale High School in Prince George's County and attended Prince George's Community College before transferring to the University of Maryland University College (UMUC). I graduated from UMUC with honors with a Bachelor of Science Degree. I held office as Secretary and then Vice-President of the Sigma Mu Honor Society and was a Charter Member of the Psi Chi Honor Society. As an elected official in Prince George's County I attended multiple courses and seminars for advanced government training and education.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "lisa-kim.md",
   "full-name": "Lisa Kim",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/191-9908687e772bf7fadda50682e7144c7f_Campaign_Photo.JPG",
