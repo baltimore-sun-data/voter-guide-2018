@@ -2,6 +2,9 @@
 title = "2018 Primary Election Results"
 type = "results-page"
 results-base-url = "http://localhost:9191/results/"
+icon = "/images/primary-results-fb.png"
+image = "/images/primary-results-tw.png"
+share-text = "Get live results in the Maryland 2018 primary from The Baltimore Sun"
 draft = true
 +++
 
