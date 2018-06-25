@@ -5,6 +5,7 @@
   "district": 5,
   "dob": "9/24/1973",
   "education": "I received a master's degree in public policy from The Johns Hopkins University Institute for Policy Studies in 1997, and a bachelor's degree in government and politics from the University of Maryland, College Park, in 1995, with high honors. I graduated from Perry Hall High School in 1991.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "david-marks.md",
   "full-name": "David Marks",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/253-368c0077674e0659445a1baaceab6cf5_marks.jpg",

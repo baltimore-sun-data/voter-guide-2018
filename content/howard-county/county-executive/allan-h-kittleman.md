@@ -4,6 +4,7 @@
   "directory": "content/howard-county/county-executive",
   "dob": "10/20/1958",
   "education": "Atholton HS (1976); UMBC (Political Science, 1981); MD Law School (Juris Doctorate, 1988); Certified Mediator",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "allan-h-kittleman.md",
   "full-name": "Allan H. Kittleman",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/44-407892a683d9c6ccc01b02576e46cfc8_Allan-pic-4.jpg",

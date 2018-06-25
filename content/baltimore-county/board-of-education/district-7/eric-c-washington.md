@@ -6,6 +6,7 @@
   "district": 7,
   "dob": "10/21/1963",
   "education": "Leadership Baltimore County May 2009 Towson, Maryland Baltimore, Maryland Master of Management/Public Relations May 2005 Notre Dame of Maryland University Baltimore, Maryland Bachelors in Communications/Media Relations May 1987 Hunter College New York, New York",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "eric-c-washington.md",
   "full-name": "Eric C. Washington",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/253-df913c2618241263f8caeb3dd9ec9f30_10896916_10205553234451026_396190120307358212_n.jpg",
