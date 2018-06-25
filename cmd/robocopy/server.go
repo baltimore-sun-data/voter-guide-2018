@@ -176,7 +176,7 @@ func (c *Config) handleBarker(w http.ResponseWriter, r *http.Request) error {
 	brs := BarkerResults(cr)
 	for _, br := range brs {
 		if r.URL.Path == br.Slug {
-			return c.handleP2P("barker.html", br, w, r)
+			return c.execTemplate("barker.html", br, w, r)
 		}
 	}
 	return statusError(http.StatusNotFound)
@@ -194,10 +194,10 @@ func (c *Config) handleStory(w http.ResponseWriter, r *http.Request) error {
 	}
 	cr := MapContestResults(m, rc)
 
-	return c.handleP2P("story.html", cr, w, r)
+	return c.execTemplate("story.html", cr, w, r)
 }
 
-func (c *Config) handleP2P(templatename string, data interface{}, w http.ResponseWriter, r *http.Request) error {
+func (c *Config) execTemplate(templatename string, data interface{}, w http.ResponseWriter, r *http.Request) error {
 
 	w.Header().Set("Content-Type", "text/html")
 
