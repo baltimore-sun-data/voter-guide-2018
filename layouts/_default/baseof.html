@@ -95,6 +95,9 @@
   {{ block "header" . }}
     {{ partial "header.html" . }}
   {{ end }}
+  {{ block "primary" . }}
+    {{ partial "primary-results.html" . }}
+  {{ end }}
   {{ block "main" . }}{{ end }}
   {{ block "subscribe" . }}
     {{ partial "subscribe.html" . }}
