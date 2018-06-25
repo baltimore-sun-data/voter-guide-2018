@@ -252,3 +252,25 @@ func (result Result) TopN(n int) []*OptionResult {
 	}
 	return options[:i]
 }
+
+type barkerResult struct {
+	Slug, Name, Party string
+	Options           []*OptionResult
+}
+
+func BarkerResults(contests map[ContestID]*Result) []barkerResult {
+	results := []barkerResult{
+		{"bs-2018-elections-primary-barker-gov", "Governor (D)", "Democrat", nil},
+		{"bs-2018-elections-primary-barker-bsa", "Baltimore City State's Attorney (D)", "Democrat", nil},
+		{"bs-2018-elections-primary-barker-bced", "Baltimore County Executive (D)", "Democrat", nil},
+		{"bs-2018-elections-primary-barker-bcer", "Baltimore County Executive (R)", "Republican", nil},
+	}
+	// Hack so I can use this at startup time
+	if len(contests) > 0 {
+		results[0].Options = contests[1].TopN(3)
+		results[1].Options = contests[454].Options
+		results[2].Options = contests[225].Options
+		results[3].Options = contests[226].Options
+	}
+	return results
+}
