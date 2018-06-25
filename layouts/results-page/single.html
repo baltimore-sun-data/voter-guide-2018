@@ -62,7 +62,7 @@
           <div class="row" id="find">
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
-                <option disabled selected>Choose by race name</option>
+                <option value="0" disabled selected>Choose by race name</option>
                 {{ range .Site.Data.results.AllContests }}
                   <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
                     {{- .Name -}}
@@ -81,7 +81,7 @@
             </div>
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
-                <option disabled selected>Choose by candidate name</option>
+                <option value="0" disabled selected>Choose by candidate name</option>
                 {{ range .Site.Data.results.AllOptions }}
                   <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
                     {{- .Name -}}
@@ -93,7 +93,7 @@
             </div>
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
-                <option disabled selected>Choose by district</option>
+                <option value="0" disabled selected>Choose by district</option>
                 {{ range .Site.Data.results.AllDistricts }}
                   <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
                     {{- if ne .Jurisdiction "State of Maryland" -}}
