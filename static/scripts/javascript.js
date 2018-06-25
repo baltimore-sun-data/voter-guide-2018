@@ -540,17 +540,27 @@ var app = {
         el.setAttribute("data-fetch-url", e.target.value);
         el.dispatchEvent(new Event("update"));
         if (e.target.id === "find-race") {
-          $('#find-candidate').val('1').trigger('change');
-          $('#find-district').val('1').trigger('change');
+          $("#find-candidate")
+            .val("1")
+            .trigger("change");
+          $("#find-district")
+            .val("1")
+            .trigger("change");
+        } else if (e.target.id === "find-candidate") {
+          $("#find-race")
+            .val("1")
+            .trigger("change");
+          $("#find-district")
+            .val("1")
+            .trigger("change");
+        } else {
+          $("#find-race")
+            .val("1")
+            .trigger("change");
+          $("#find-candidate")
+            .val("1")
+            .trigger("change");
         }
-        else if (e.target.id === "find-candidate") {
-          $('#find-race').val('1').trigger('change');
-          $('#find-district').val('1').trigger('change');
-        }
-        else {
-          $('#find-race').val('1').trigger('change');
-          $('#find-candidate').val('1').trigger('change');
-        };
       });
     }
   }
