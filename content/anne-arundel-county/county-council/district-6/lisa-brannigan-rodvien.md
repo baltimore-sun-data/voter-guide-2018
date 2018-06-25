@@ -4,6 +4,7 @@
   "directory": "content/anne-arundel-county/county-council/district-6",
   "dob": "1/26/1974",
   "education": "B.A. Cornell University, 1996 J.D. Catholic University of America, Columbus School of Law, 2000, magna cum laude M.Ed. George Mason University, 2007",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "lisa-brannigan-rodvien.md",
   "full-name": "Lisa Brannigan Rodvien",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/95-08214f1a9bbbb8517ac020edef269ae1_LDBR_Newspaper_Headshot.jpg",

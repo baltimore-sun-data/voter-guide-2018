@@ -6,6 +6,7 @@
   "district": 2,
   "dob": "7/9/1949",
   "education": "B.A., English Education, University of MD, College Park M.S., Education, Morgan State University Administration/Supervision Certification, Loyola University Theater Fellowship, University of Pittsburgh",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "cheryl-e-pasteur.md",
   "full-name": "Cheryl E. Pasteur",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/179-b2c245e8939608eac50614c394730659_headshot.jpg",

@@ -5,6 +5,7 @@
   "district": 1,
   "dob": "7/26/1965",
   "education": "I was Born & Raised in India, I did my High School from a Catholic School, Bachelors in Business Administration from Meerut University, Certification in Computer Technology, and I am currently a Licensed Realtor.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "raj-kathuria.md",
   "full-name": "Raj Kathuria",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-4aacf6c1b93732e0008b1fca21b6c133_Raj55.jpg",
