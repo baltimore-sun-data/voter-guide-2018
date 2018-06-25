@@ -30,9 +30,8 @@ ARG HUGO_VERSION=0.40.1
 RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
 
 FROM go-curl as go-minify
-ARG MINIFY_VERSION=2.3.4
-# Using 386 version because 64 bit version require .so missing in Alpine
-RUN curl -L https://github.com/tdewolff/minify/releases/download/v${MINIFY_VERSION}/minify_${MINIFY_VERSION}_linux_386.tar.gz | tar xz -C /bin/
+ARG MINIFY_VERSION=2.3.5
+RUN curl -L https://github.com/tdewolff/minify/releases/download/v${MINIFY_VERSION}/minify_${MINIFY_VERSION}_linux_amd64.tar.gz | tar xz -C /bin/
 
 FROM go-curl as go-s3deploy
 ARG S3DEPLOY_VERSION=2.0.1

@@ -5,6 +5,7 @@
   "district": 5,
   "dob": "03/21/1967",
   "education": "Bachelors in Finance - Loyola University",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "david-yungmann.md",
   "full-name": "David Yungmann",
   "last-name": "Yungmann",

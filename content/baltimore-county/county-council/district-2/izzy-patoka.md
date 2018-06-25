@@ -5,6 +5,7 @@
   "district": 2,
   "dob": "9/26/1957",
   "education": "Master of Arts, Geography & Environmental Planning, Towson University Bachelor of Science, Geography & Environmental Planning, Towson University",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "izzy-patoka.md",
   "full-name": "Izzy Patoka",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/99-ed0904a00e847d3f72c018564f81ac6e_Izzy_Portrait.jpg",
