@@ -539,28 +539,13 @@ var app = {
         var el = e.target.closest(".js-results-container");
         el.setAttribute("data-fetch-url", e.target.value);
         el.dispatchEvent(new Event("update"));
-        if (e.target.id === "find-race") {
-          $("#find-candidate")
-            .val("1")
-            .trigger("change");
-          $("#find-district")
-            .val("1")
-            .trigger("change");
-        } else if (e.target.id === "find-candidate") {
-          $("#find-race")
-            .val("1")
-            .trigger("change");
-          $("#find-district")
-            .val("1")
-            .trigger("change");
-        } else {
-          $("#find-race")
-            .val("1")
-            .trigger("change");
-          $("#find-candidate")
-            .val("1")
-            .trigger("change");
-        }
+        var tempVal = $(e.target).val();
+        $(".js-select2")
+          .val("0")
+          .trigger("change");
+        $(e.target)
+          .val(tempVal)
+          .trigger("change");
       });
     }
   }
