@@ -1,24 +1,20 @@
-{{ $gov := index . 1 }}
-{{ $attorney := index . 454 }}
-{{ $bcexecdem := index . 225 }}
-{{ $bcexecrep := index . 226 }}
 <style type="text/css">
 body {
-	font-family: sans-serif;
+  font-family: sans-serif;
 }
 .race h1 {
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
-	font-size: 0.75rem;
-	font-weight: bolder;
-	border-bottom: 3px solid #d0d0d0;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: bolder;
+  border-bottom: 3px solid #d0d0d0;
 }
-.race h1.dem {
-	border-bottom: 3px solid #2e98cc;
+.race h1.Democrat {
+  border-bottom: 3px solid #2e98cc;
 }
-.race h1.rep {
-	border-bottom: 3px solid #ed4227;
+.race h1.Republican {
+  border-bottom: 3px solid #ed4227;
 }
 .race table {
   width: 100%;
@@ -49,100 +45,65 @@ body {
   border-bottom: 1px dashed #cdcdcd;
 }
 .race .result {
-	width: 25%;
-	padding: 10px;
+  width: 25%;
+  padding: 10px;
 }
 .frontrunner {
-	background-color: #efeeee;
+  background-color: #efeeee;
 }
-	@media
-	  only screen 
-    and (max-width: 760px), (min-device-width: 768px) 
-    and (max-device-width: 1024px)  {
+@media only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  .race table,
+  .race thead,
+  .race tbody,
+  .race th,
+  .race td,
+  .race tr {
+    display: block;
+  }
+  .race td.votes,
+  .race td.candidate {
+    width: 100%;
+  }
+  .race tr {
+    border-bottom: 1px dashed #cdcdcd;
+  }
 
-		/* Force table to not be like tables anymore */
-		.race table, .race thead, .race tbody, .race th, .race td, .race tr {
-			display: block;
-		}
-	.race td.votes, .race td.candidate {
-		width: 100%;
-	}
-    .race tr {
-      border-bottom: 1px dashed #cdcdcd;
-    }
-    
-		.race td {
-			/* Behave  like a "row" */
-			border: none;
-			border-bottom: none;
-			position: relative;
-		}
+  .race td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: none;
+    position: relative;
+  }
 
-		.race td:before {
-			/* Now like a table header */
-			position: absolute;
-			/* Top/left values mimic padding */
-			top: 0;
-			left: 6px;
-			width: 45%;
-			padding-right: 10px;
-			white-space: nowrap;
-		}
-	}
+  .race td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 0;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+}
 </style>
-	<div class="race container-fluid">
-		<div class="row">
-		<div class="result">
-				<h1 class="dem">Governor (D)</h1>
-				<table>
-					{{ range $gov.TopN 3 }}
-					{{ $titlecase := .Text | titlecase }}
-					{{ $truncated := $titlecase | truncateAt " and " }}
-				<tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
-				    <td class="candidate name">{{- $truncated -}}</td> 
-				    <td class="votes">{{ .TotalVotes | commas }} votes</td>
-				</tr>
-				{{ end }}
-				</table>
-		</div>
-		<div class="result">
-				<h1 class="dem">Baltimore City State's Attorney (D)</h1>
-				<table>
-					{{ range $attorney.Options }}
-					{{ $titlecase := .Text | titlecase }}
-					{{ $truncated := $titlecase | truncateAt " and " }}
-				<tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
-				    <td class="candidate name">{{- $truncated -}}</td> 
-				    <td class="votes">{{ .TotalVotes | commas }} votes</td>
-				</tr>
-				{{ end }}
-				</table>
-		</div>
-		<div class="result">
-				<h1 class="dem">Baltimore County Executive (D)</h1>
-				<table>
-					{{ range $bcexecdem.Options }}
-						{{ $titlecase := .Text | titlecase }}
-						{{ $truncated := $titlecase | truncateAt " and " }}
-							<tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
-							    <td class="candidate name">{{- $truncated -}}</td> 
-							    <td class="votes">{{ .TotalVotes | commas }} votes</td>
-							</tr>
-					{{ end }}
-				</table>
-		</div>
-		<div class="result">
-				<h1 class="rep">Baltimore County Executive (R)</h1>
-				<table>
-					{{ range $bcexecrep.Options }}
-					{{ $titlecase := .Text | titlecase }}
-					{{ $truncated := $titlecase | truncateAt " and " }}
-				<tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
-				    <td class="candidate name">{{- $truncated -}}</td> 
-				    <td class="votes">{{ .TotalVotes | commas }} votes</td>
-				</tr>
-				{{ end }}
-				</table>
-		</div>
-	</div>
+
+<div class="race">
+  <div class="row">
+    <div class="result">
+      <h1 class="{{ .Party }}">{{ .Name }}</h1>
+      <table>
+        {{ range .Options }}
+          {{ $titlecase := .Text | titlecase }}
+          {{ $truncated := $titlecase | truncateAt " and " }}
+          <tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
+            <td class="candidate name">{{- $truncated -}}</td>
+            <td class="votes">{{ .TotalVotes | commas }} votes</td>
+          </tr>
+        {{ end }}
+      </table>
+    </div>
+  </div>
 </div>
