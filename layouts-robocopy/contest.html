@@ -2,7 +2,7 @@
 {{ $nonPartisan := (eq (lowerAlpha .Party) "nonpartisan") }}
 {{ $isPrimary := .IsPrimary }}
 
-<div class="race" data-boe-update='{{ .LastUpdate.Format "3:04pm January 2, 2006" }}'>
+<div class="race" data-boe-update='{{ .LastUpdate.Format "January 2 3:04pm" }}'>
   {{ if ne .Jurisdiction "State of Maryland" }}
     <div class="sub-header">{{ .Jurisdiction }}</div>
   {{ end }}
@@ -21,8 +21,8 @@
     <thead>
       <th>Candidate</th>
       {{ if not $isPrimary }}<th>Party</th>{{ end }}
-      <th>Votes</th>
-      <th>Percentage</th>
+      <th class="votes">Votes</th>
+      <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
       <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">

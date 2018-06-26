@@ -14,6 +14,7 @@ var app = {
     app.results_download();
     app.smooth_scroll();
     app.results_nav();
+    app.key_close();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -400,6 +401,12 @@ var app = {
       } else {
         nav.classList.remove("sticky");
       }
+    });
+  },
+  key_close: function() {
+    var dropdown = $("#results-dropdown a");
+    dropdown.click(function() {
+      $(".dropdown").removeClass("open");
     });
   },
 

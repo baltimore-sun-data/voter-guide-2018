@@ -31,7 +31,7 @@
         </li>
         <li class="col-xs-4 dropdown">
           <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu" id="results-dropdown">
             {{ range $race := .Site.Data.KeyContests2018Primary }}
               <li><a href="#race-{{ $race.ID }}">{{ $race.Name }}</a></li>
             {{ end }}
@@ -61,7 +61,7 @@
           data-timeout="30000">
 
           <h2 class="results-header">Find races</h2>
-          <hr>
+  
           <div class="row" id="find">
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
@@ -120,7 +120,6 @@
           </div>
       </div>
       <h2 class="results-header">Key races</h2>
-      <hr>
       <div class="last-refresh">
         Results last refreshed: <span id="time-key">Still loading…</span>
       </div>
@@ -145,7 +144,6 @@
 
       <div class="newsfeed">
         <h2 class="results-header">Election coverage</h2>
-        <!-- TODO: Get proper election day results feed URL -->
         <ul id="coverage"
             data-feed-url="http://www.baltimoresun.com/bal-coverage-of-2018-primary-elections-20180616_ci_rss2.0.xml"
             data-refresh="60000">
