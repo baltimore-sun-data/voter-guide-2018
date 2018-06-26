@@ -14,7 +14,7 @@ var app = {
     app.results_download();
     app.smooth_scroll();
     app.results_nav();
-    app.key_close();
+    app.results_dropdown_close();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -403,10 +403,10 @@ var app = {
       }
     });
   },
-  key_close: function() {
-    var dropdown = $("#results-dropdown a");
-    dropdown.click(function() {
-      $(".dropdown").removeClass("open");
+
+  results_dropdown_close: function() {
+    $("#results-dropdown .dropdown-menu a").click(function() {
+      $("#results-dropdown").removeClass("open");
     });
   },
 

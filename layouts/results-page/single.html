@@ -26,9 +26,9 @@
         <li class="col-xs-4">
           <a class="results-item" href="#find">Find race</a>
         </li>
-        <li class="col-xs-4 dropdown">
+        <li class="col-xs-4 dropdown" id="results-dropdown">
           <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
-          <ul class="dropdown-menu" id="results-dropdown">
+          <ul class="dropdown-menu">
             {{ range $race := .Site.Data.KeyContests2018Primary }}
               <li><a href="#race-{{ $race.ID }}">{{ $race.Name }}</a></li>
             {{ end }}
@@ -58,7 +58,7 @@
           data-timeout="30000">
 
           <h2 class="results-header">Find races</h2>
-  
+
           <div class="row" id="find">
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
