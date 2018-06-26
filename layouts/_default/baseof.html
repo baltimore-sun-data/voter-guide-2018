@@ -17,7 +17,7 @@
   {{ block "extra-head" . }}{{ end }}
 
   {{ block "metadata" . }}
-  <link rel="icon" href='{{ dict "Site" .Site "Value" (.Param "icon") | partial "assets.html" }}'>
+  <link rel="icon" href='{{ dict "Site" .Site "Value" "images/icon.png" | partial "assets.html" }}'>
   <link rel="apple-touch-icon" href='{{ dict "Site" .Site "Value" (.Param "icon") | partial "assets.html" }}'>
   <!-- Google stuff -->
   <meta name="robots" content="index,follow">
