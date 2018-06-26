@@ -69,10 +69,9 @@
   word-break: break-word;
 }
 
-.primary .race td.candidate,
-.primary .race th.candidate {
+.race td.candidate,
+.race th.candidate {
   width: 35%;
-  color: #667682;
   @media (max-width: 900px) {
     padding-right: 0.5rem;
   }
@@ -88,12 +87,13 @@
   color: #667682;
 }
 
-.primary .race td.votes,
-.primary .race th.votes {
+.race td.votes,
+.race th.votes {
   width: 15%;
   color: #667682;
-  @media (max-width: 900px) {
-    padding-left: 0.7rem;
+  padding-left: 0.7rem;
+  @media (max-width: 600px) {
+    width: 20%;
   }
 }
 
@@ -101,8 +101,13 @@
 .race th.percent {
   width: 50%;
   color: #667682;
+  @media (max-width: 600px) {
+    width: 30%;
+  }
 }
-
+.race th.percent {
+  white-space: nowrap;
+}
 .race td.name {
   font-weight: bold;
 }
@@ -146,6 +151,10 @@
   font-family: brandon, Helvetica, sans-serif;
   text-transform: uppercase;
   font-size: 2em;
+  background-color: #f6f6f6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
 }
 
 .race .section-header {
@@ -172,21 +181,11 @@ button.view-hide {
   margin-bottom: 2rem;
 }
 
-@media (max-width: 600px) {
-  .race td.party-col,
-  .race td.votes,
-  .race td.percent {
-    width: 20%;
-  }
-  .section-header-results {
-    font-size: 1.5em;
-  }
-}
-
 .district-results {
   display: none; // Overrides on button push
   max-width: 100%;
   overflow-x: scroll;
+  margin-top: 15px;
 
   [title] {
     cursor: help;

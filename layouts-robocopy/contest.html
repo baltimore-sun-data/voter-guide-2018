@@ -21,8 +21,8 @@
     <thead>
       <th>Candidate</th>
       {{ if not $isPrimary }}<th>Party</th>{{ end }}
-      <th>Votes</th>
-      <th>Percentage</th>
+      <th class="votes">Votes</th>
+      <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
       <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
