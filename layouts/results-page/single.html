@@ -28,7 +28,7 @@
         </li>
         <li class="col-xs-4 dropdown">
           <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu" id="results-dropdown">
             {{ range $race := .Site.Data.KeyContests2018Primary }}
               <li><a href="#race-{{ $race.ID }}">{{ $race.Name }}</a></li>
             {{ end }}
