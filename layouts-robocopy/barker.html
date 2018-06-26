@@ -93,7 +93,9 @@ body {
 <div class="race">
   <div class="row">
     <div class="result">
-      <h1 class="{{ .Party }}">{{ .Name }}</h1>
+      <h1 class="{{ .Party }}">
+        <a href="https://elections2018.news.baltimoresun.com/results/#race-{{ .ID }}">{{ .Name }}</a>
+      </h1>
       <table>
         {{ range .Options }}
           {{ $titlecase := .Text | titlecase }}
