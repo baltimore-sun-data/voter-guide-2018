@@ -16,6 +16,11 @@ body {
 .race h1.Republican {
   border-bottom: 3px solid #ed4227;
 }
+.race a {
+  float: right;
+  color: black;
+  font-size: 0.75rem;
+}
 .race table {
   width: 100%;
 }
@@ -43,10 +48,6 @@ body {
 .race td {
   font-size: 0.8rem;
   border-bottom: 1px dashed #cdcdcd;
-}
-.race .result {
-  width: 90%;
-  padding: 10px;
 }
 .frontrunner {
   background-color: #efeeee;
@@ -93,9 +94,8 @@ body {
 <div class="race">
   <div class="row">
     <div class="result">
-      <h1 class="{{ .Party }}">
-        <a href="https://elections2018.news.baltimoresun.com/results/#race-{{ .ID }}">{{ .Name }}</a>
-      </h1>
+      <a href="https://elections2018.news.baltimoresun.com/results/#info-{{ .ID }}">See more race results >> </a>
+      <h1 class="{{ .Party }}">{{ .Name }}</h1>
       <table>
         {{ range .Options }}
           {{ $titlecase := .Text | titlecase }}
