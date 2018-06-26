@@ -198,12 +198,15 @@ func (c *Config) uploadFile(cl client, filename, templatename string, data inter
 	return err
 }
 
-func (c *Config) UpdateP2P(cl client, data interface{}) error {
-	err := renderToP2P(c.BarkerSlug, "barker.html", cl, data)
-	if err != nil {
-		return fmt.Errorf("problem updating P2P barker: %v", err)
+func (c *Config) UpdateP2P(cl client, cr map[ContestID]*Result) (err error) {
+	brs := BarkerResults(cr)
+	for _, br := range brs {
+		err = renderToP2P(br.Slug, "barker.html", cl, br)
+		if err != nil {
+			return fmt.Errorf("problem updating P2P barker: %v", err)
+		}
 	}
-	err = renderToP2P(c.StorySlug, "story.html", cl, data)
+	err = renderToP2P(c.StorySlug, "story.html", cl, cr)
 	if err != nil {
 		return fmt.Errorf("problem updating P2P story: %v", err)
 	}

@@ -25,22 +25,22 @@
 <div id="navjs">
   <div class="container">
     <div class="row">
-          <ul class="results-nav">
-            <li class="col-xs-4">
-              <a class="results-item" href="#find">Find race</a>
-            </li>
-            <li class="col-xs-4 dropdown">
-              <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                {{ range $race := .Site.Data.KeyContests2018Primary }}
-                  <li><a href="#race-{{ $race.ID }}">{{ $race.Name }}</a></li>
-                {{ end }}
-              </ul>
-            </li>
-            <li class="col-xs-4">
-              <a class="results-item" href="#coverage"><span class="mobile-hide">Election</span> coverage</a>
-            </li>
+      <ul class="results-nav">
+        <li class="col-xs-4">
+          <a class="results-item" href="#find">Find race</a>
+        </li>
+        <li class="col-xs-4 dropdown">
+          <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            {{ range $race := .Site.Data.KeyContests2018Primary }}
+              <li><a href="#race-{{ $race.ID }}">{{ $race.Name }}</a></li>
+            {{ end }}
           </ul>
+        </li>
+        <li class="col-xs-4">
+          <a class="results-item" href="#coverage"><span class="mobile-hide">Election</span> coverage</a>
+        </li>
+      </ul>
   </div>
  </div>
 </div>
@@ -65,7 +65,7 @@
           <div class="row" id="find">
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
-                <option disabled selected>Choose by race name</option>
+                <option value="0" disabled selected>Choose by race name</option>
                 {{ range .Site.Data.results.AllContests }}
                   <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
                     {{- .Name -}}
@@ -84,7 +84,7 @@
             </div>
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
-                <option disabled selected>Choose by candidate name</option>
+                <option value="0" disabled selected>Choose by candidate name</option>
                 {{ range .Site.Data.results.AllOptions }}
                   <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
                     {{- .Name -}}
@@ -96,7 +96,7 @@
             </div>
             <div class="find-results col-sm-4 col-xs-12">
               <select class="js-select2">
-                <option disabled selected>Choose by district</option>
+                <option value="0" disabled selected>Choose by district</option>
                 {{ range .Site.Data.results.AllDistricts }}
                   <option value='{{ $baseURL }}districts/{{ .ID }}.html'>
                     {{- if ne .Jurisdiction "State of Maryland" -}}
@@ -147,7 +147,7 @@
         <h2 class="results-header">Election coverage</h2>
         <!-- TODO: Get proper election day results feed URL -->
         <ul id="coverage"
-            data-feed-url="http://www.baltimoresun.com/news/maryland/politics/rss2.0.xml"
+            data-feed-url="http://www.baltimoresun.com/bal-coverage-of-2018-primary-elections-20180616_ci_rss2.0.xml"
             data-refresh="60000">
         </ul>
       </div>

@@ -36,8 +36,10 @@ func (c *Config) Serve() error {
 
 func (c *Config) Routes() http.Handler {
 	mux := http.NewServeMux()
-	mux.Handle(c.Path+c.BarkerSlug, http.StripPrefix(c.Path+c.BarkerSlug,
-		c.stdMiddleware(c.handleBarker)))
+	for _, br := range BarkerResults(nil) {
+		mux.Handle(c.Path+br.Slug, http.StripPrefix(c.Path,
+			c.stdMiddleware(c.handleBarker)))
+	}
 	mux.Handle(c.Path+c.StorySlug, http.StripPrefix(c.Path+c.StorySlug,
 		c.stdMiddleware(c.handleStory)))
 	mux.Handle(c.Path+"contests/", http.StripPrefix(c.Path+"contests/",
@@ -161,21 +163,6 @@ func (c *Config) handleDistricts(w http.ResponseWriter, r *http.Request) error {
 }
 
 func (c *Config) handleBarker(w http.ResponseWriter, r *http.Request) error {
-	return c.handleP2P("barker.html", w, r)
-}
-
-func (c *Config) handleStory(w http.ResponseWriter, r *http.Request) error {
-	return c.handleP2P("story.html", w, r)
-}
-
-func (c *Config) handleP2P(templatename string, w http.ResponseWriter, r *http.Request) error {
-	w.Header().Set("Content-Type", "text/html")
-
-	t, err := c.template()
-	if err != nil {
-		return err
-	}
-
 	m, err := MetadataFrom(c.MetadataLocation)
 	if err != nil {
 		return err
@@ -185,9 +172,41 @@ func (c *Config) handleP2P(templatename string, w http.ResponseWriter, r *http.R
 	if err != nil {
 		return err
 	}
-
 	cr := MapContestResults(m, rc)
-	err = t.ExecuteTemplate(w, templatename, cr)
+	brs := BarkerResults(cr)
+	for _, br := range brs {
+		if r.URL.Path == br.Slug {
+			return c.execTemplate("barker.html", br, w, r)
+		}
+	}
+	return statusError(http.StatusNotFound)
+}
+
+func (c *Config) handleStory(w http.ResponseWriter, r *http.Request) error {
+	m, err := MetadataFrom(c.MetadataLocation)
+	if err != nil {
+		return err
+	}
+
+	rc, err := ResultsContainerFrom(c.ResultsLocation)
+	if err != nil {
+		return err
+	}
+	cr := MapContestResults(m, rc)
+
+	return c.execTemplate("story.html", cr, w, r)
+}
+
+func (c *Config) execTemplate(templatename string, data interface{}, w http.ResponseWriter, r *http.Request) error {
+
+	w.Header().Set("Content-Type", "text/html")
+
+	t, err := c.template()
+	if err != nil {
+		return err
+	}
+
+	err = t.ExecuteTemplate(w, templatename, data)
 	if err != nil {
 		// too late to return 500
 		log.Printf("error executing template: %v", err)

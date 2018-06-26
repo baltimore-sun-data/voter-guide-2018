@@ -13,13 +13,13 @@ title = "Baltimore Sun Election Guide 2018"
 staticDir = ["static", "dist"]
 
 [Params]
-DefaultShareText = "Learn more about the upcoming election in the Baltimore Sun’s 2018 Maryland Voter Guide"
+share-text = "Learn more about the upcoming election in the Baltimore Sun’s 2018 Maryland Voter Guide"
 icon = "images/voter-guide-square-200.png"
 image = "images/voter-guide-square.png"
 omniture-page-name = "bs:newsserver:elections2018:news:maryland:politics:voter-guide-2018:dataproject"
 omniture-channel = "news:maryland:politics"
 omniture-server = "elections2018.news.baltimoresun.com"
-results-base-url = "/results/contests/"
+results-base-url = "https://news.baltimoresun.com/results/"
 Year = 2018
 
 
@@ -44,21 +44,26 @@ name = "Find District"
 weight = 4
 
 [[menu.main]]
+url = "/results/"
+name = "Primary Results"
+weight = 5
+
+[[menu.main]]
 url = "/about/"
 name = "About Questionnaires"
-weight = 5
+weight = 6
 
 [[menu.main]]
 url = "http://www.tribpub.com/central-terms-of-service/"
 name = "Terms"
-weight = 6
+weight = 7
 
 [[menu.main]]
 url = "http://www.tribpub.com/privacy-policy-and-your-privacy-rights/"
 name = "Privacy"
-weight = 7
+weight = 8
 
 [[menu.main]]
 url = "mailto:elections@baltsun.com"
 name = "Feedback"
-weight = 8
+weight = 9

@@ -25,10 +25,12 @@
       <th>Percentage</th>
     </thead>
     {{ range .Options }}
-      <tr>
-        <td class="candidate name">{{ .Text | titlecase }}{{ if .FrontRunner }} ✔{{ end }}</td>
+      <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
+        <td class="candidate name">{{ .Text | titlecase }}</td>
         {{ if not $isPrimary }}<td class="party-col">{{ .Party }}</td>{{ end }}
-        <td class="votes">{{ .TotalVotes | commas }}</td>
+        <td class="votes">
+          {{- if eq .TotalVotes 0 }}—{{ else }}{{ .TotalVotes | commas }}{{ end -}}
+        </td>
         <td class="percent">
           <div class="percent-bar-bg">
             <div class="percent-bar cand{{ .Party }}" style='width: {{ .PercentageVotes | printf "%.1f" }}%'></div>

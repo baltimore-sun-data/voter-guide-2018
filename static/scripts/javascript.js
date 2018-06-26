@@ -347,54 +347,52 @@ var app = {
   },
 
   smooth_scroll: function() {
-    $(function() {
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (
-          location.pathname.replace(/^\//, "") ===
-            this.pathname.replace(/^\//, "") &&
-          location.hostname === this.hostname
-        ) {
-          var target = $(this.hash);
-          target = target.length
-            ? target
-            : $("[name=" + this.hash.slice(1) + "]");
-          if (target.length) {
-            var scrollx = target.offset().top - 100;
-            $("html, body").animate(
-              {
-                scrollTop: scrollx
-              },
-              1000
-            );
-            target.focus(); // Setting focus
-            if (target.is(":focus")) {
-              // Checking if the target was focused
-              return false;
-            } else {
-              target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
-              target.focus(); // Setting focus
-            }
-            return false;
-          }
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (
+        location.pathname.replace(/^\//, "") !==
+          this.pathname.replace(/^\//, "") ||
+        location.hostname !== this.hostname
+      ) {
+        return;
+      }
+
+      var target = $(this.hash);
+      if (target.length === 0) {
+        target = $("[name=" + this.hash.slice(1) + "]");
+        if (target.length === 0) {
+          return;
         }
-      });
+      }
+
+      var scrollx = target.offset().top - 100;
+      $("html, body").animate(
+        {
+          scrollTop: scrollx
+        },
+        1000
+      );
+      target.focus(); // Setting focus
+      if (target.is(":focus")) {
+        // Checking if the target was focused
+        return false;
+      } else {
+        target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+        target.focus(); // Setting focus
+      }
+      return false;
     });
   },
 
   results_nav: function() {
-    window.addEventListener("scroll", function() {
-      var $nav = $("#navjs");
-      if ($nav.length === 0) {
-        return;
-      }
-      stickyNav();
-    });
+    var nav = document.getElementById("navjs");
+    var navpos = document.getElementById("navposition");
+
+    if (!nav) {
+      return;
+    }
 
     // Add the sticky class to the nav when you reach its scroll position. Remove "sticky" when you leave the scroll position
-    function stickyNav() {
-      var nav = document.getElementById("navjs");
-      var navpos = document.getElementById("navposition");
-
+    window.addEventListener("scroll", function() {
       // Get the offset position of the navbar
       var sticky = navpos.offsetTop;
       if (window.pageYOffset >= sticky) {
@@ -402,7 +400,7 @@ var app = {
       } else {
         nav.classList.remove("sticky");
       }
-    }
+    });
   },
 
   results_toggle: function() {
@@ -539,6 +537,13 @@ var app = {
         var el = e.target.closest(".js-results-container");
         el.setAttribute("data-fetch-url", e.target.value);
         el.dispatchEvent(new Event("update"));
+        var tempVal = $(e.target).val();
+        $(".js-select2")
+          .val("0")
+          .trigger("change");
+        $(e.target)
+          .val(tempVal)
+          .trigger("change");
       });
     }
   }
