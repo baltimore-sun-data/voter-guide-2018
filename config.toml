@@ -44,21 +44,26 @@ name = "Find District"
 weight = 4
 
 [[menu.main]]
+url = "/results/"
+name = "Primary Results"
+weight = 5
+
+[[menu.main]]
 url = "/about/"
 name = "About Questionnaires"
-weight = 5
+weight = 6
 
 [[menu.main]]
 url = "http://www.tribpub.com/central-terms-of-service/"
 name = "Terms"
-weight = 6
+weight = 7
 
 [[menu.main]]
 url = "http://www.tribpub.com/privacy-policy-and-your-privacy-rights/"
 name = "Privacy"
-weight = 7
+weight = 8
 
 [[menu.main]]
 url = "mailto:elections@baltsun.com"
 name = "Feedback"
-weight = 8
+weight = 9

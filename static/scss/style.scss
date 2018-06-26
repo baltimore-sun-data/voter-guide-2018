@@ -408,7 +408,43 @@ nav.revealed {
   font-size: 0.9em;
   margin: 10px 0 0 10px;
 }
-
+/******** PRIMARY TOPPER ********** */
+.primary-topper {
+  background-color: #667682;
+  padding-bottom: 20px;
+}
+.primary-topper h1 {
+  text-align: center;
+  color: black;
+  @media only screen and (max-width: 375px) {
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+.primary-topper h1 a {
+  color: black;
+  @media only screen and (max-width: 375px) {
+    color: white;
+  }
+}
+.primary-topper h1 a:hover,
+.primary-topper h1 a:visited {
+  color: #444;
+  text-decoration: none;
+}
+.primary-topper .primary-btn {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  white-space: inherit;
+  @media only screen and (max-width: 600px) {
+    padding: 5px;
+    font-size: 1em;
+  }
+}
 /******** SPLASH PAGE SPECIFIC STYLES********** */
 
 .splash-container {
@@ -1120,7 +1156,11 @@ img.cand-pic {
     margin-left: 0px;
   }
 }
-
+@media only screen and (max-width: 375px) {
+  .sm-mobile-hide {
+    display: none;
+  }
+}
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
