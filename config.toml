@@ -19,7 +19,7 @@ image = "images/voter-guide-square.png"
 omniture-page-name = "bs:newsserver:elections2018:news:maryland:politics:voter-guide-2018:dataproject"
 omniture-channel = "news:maryland:politics"
 omniture-server = "elections2018.news.baltimoresun.com"
-results-base-url = "/results/contests/"
+results-base-url = "https://news.baltimoresun.com/results/"
 Year = 2018
 
 
