@@ -43,8 +43,8 @@
     {{ if gt .VoteFor 1 }}
       Voters select {{ .VoteFor }} candidates |
     {{ end }}
-    {{ .TotalVotes | commas }} votes counted
-  | {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
+    {{ .TotalVotes | commas }} votes counted |
+    {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
   </div>
 
   {{ if gt (len .SubResults) 1 }}
