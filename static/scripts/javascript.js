@@ -538,12 +538,23 @@ var app = {
       });
     });
 
+    var baseURL = document
+      .querySelector("[data-results-base-url]")
+      .getAttribute("data-results-base-url");
+
     if (document.querySelector(".js-select2")) {
       $(".js-select2").select2({ width: "element" });
       $(".js-select2").on("select2:select", function(e) {
+        // fetch and update
         var el = e.target.closest(".js-results-container");
         el.setAttribute("data-fetch-url", e.target.value);
         el.dispatchEvent(new Event("update"));
+
+        // change URL
+        var contestURL = e.target.value.slice(baseURL.length);
+        window.history.replaceState({}, "", "?show=" + contestURL);
+
+        // reset other boxes
         var tempVal = $(e.target).val();
         $(".js-select2")
           .val("0")
@@ -551,6 +562,20 @@ var app = {
         $(e.target)
           .val(tempVal)
           .trigger("change");
+      });
+    }
+
+    // Load arbitrary races via query string in URL ?show=contestURL
+    var queryStringRegex = /\?show=(.+)/;
+    if (queryStringRegex.test(window.location.search)) {
+      var contestURL = queryStringRegex.exec(window.location.search)[1];
+      var url = baseURL + contestURL;
+      each(".js-results-container", function(el) {
+        if (el.getAttribute("data-fetch-url")) {
+          return;
+        }
+        el.setAttribute("data-fetch-url", url);
+        el.dispatchEvent(new Event("update"));
       });
     }
   }

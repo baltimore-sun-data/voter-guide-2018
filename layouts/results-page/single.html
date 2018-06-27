@@ -10,6 +10,8 @@
 
 {{ define "main" }}
 {{ $baseURL := .Param "results-base-url" }}
+<div data-results-base-url="{{ $baseURL }}"></div>
+
 <div class="primary container">
     <h1 class="section-header-splash grey">{{.Title}}</h1>
     <main class="results-page">
