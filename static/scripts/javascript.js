@@ -553,6 +553,22 @@ var app = {
           .trigger("change");
       });
     }
+
+    // Load arbitrary races via query string in URL ?contest=contestID
+    var queryStringRegex = /\?contest=(\d+)/;
+    if (queryStringRegex.test(window.location.search)) {
+      var raceID = queryStringRegex.exec(window.location.search)[1];
+      // HACK: Hardcoded URL
+      var url =
+        "https://news.baltimoresun.com/results/contests/" + raceID + ".html";
+      each(".js-results-container", function(el) {
+        if (el.getAttribute("data-fetch-url")) {
+          return;
+        }
+        el.setAttribute("data-fetch-url", url);
+        el.dispatchEvent(new Event("update"));
+      });
+    }
   }
 };
 
