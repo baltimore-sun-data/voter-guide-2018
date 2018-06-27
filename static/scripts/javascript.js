@@ -567,7 +567,6 @@ var app = {
     var queryStringRegex = /\?show=(.+)/;
     if (queryStringRegex.test(window.location.search)) {
       var contestURL = queryStringRegex.exec(window.location.search)[1];
-      // HACK: Hardcoded URL
       var url = baseURL + contestURL;
       each(".js-results-container", function(el) {
         if (el.getAttribute("data-fetch-url")) {
