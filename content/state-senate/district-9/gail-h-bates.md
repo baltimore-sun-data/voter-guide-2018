@@ -1,6 +1,7 @@
 {
   "directory": "content/state-senate/district-9",
   "district": 9,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "gail-h-bates.md",
   "full-name": "Gail H. Bates",
   "jurisdiction": "Howard County",

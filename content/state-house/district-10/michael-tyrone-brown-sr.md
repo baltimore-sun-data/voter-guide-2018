@@ -5,6 +5,7 @@
   "district": 10,
   "dob": "4/10/1955",
   "education": "B.S. Degree -University of Baltimore 1980 M.S. Degree -Coppin State College A.A. Degree- Anne Arundel Community College-1979 Graduate-Federal Officers Training Academy #11 -2016",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "michael-tyrone-brown-sr.md",
   "full-name": "Michael Tyrone Brown Sr.",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-915bb9d831b492cfb78eceb3306b03ec_IMG_0314.JPG",

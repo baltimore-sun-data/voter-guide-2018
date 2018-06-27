@@ -5,6 +5,7 @@
   "district": 42,
   "dob": "4/7/1950",
   "education": "Gilman School (1968).  Williams Collge, B.A. (1972).  University of Pennsylvania Law School, J. D. (1975)",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "chris-west.md",
   "full-name": "Chris West",
   "jurisdiction": "Baltimore County",

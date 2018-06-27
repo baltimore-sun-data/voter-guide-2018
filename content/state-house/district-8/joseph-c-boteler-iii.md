@@ -5,6 +5,7 @@
   "district": 8,
   "dob": "6/30/1949",
   "education": "Immaculate Heart of Mary- Graduated Archbishop Curley - 2 years Parkville High School - Graduated UMBC - Attended Essex Community College",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "joseph-c-boteler-iii.md",
   "full-name": "Joseph C. Boteler III",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-90a293f7ec606c8ce6adf06fb16f3ba7_Boteler.jpg",

@@ -5,6 +5,7 @@
   "district": 8,
   "dob": "10/1/1977",
   "education": "Admin 1: John's Hopkins University  Ph.D..: University of Maryland Baltimore County (Currently in progress)",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "harry-bhandari.md",
   "full-name": "Harry Bhandari",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-3fd8a2622689ca910886d6d66c224729_Harry_Bhandari.jpg",

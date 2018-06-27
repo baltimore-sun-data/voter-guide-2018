@@ -5,6 +5,7 @@
   "district": 12,
   "dob": "9/2/1968",
   "education": "Bachelor of Science Degree in Business and Management from the Johns Hopkins University in Baltimore.",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "joseph-d-joe-hooe.md",
   "full-name": "Joseph D. \"Joe\" Hooe",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-d5eeb2e38e285f9f5cc1e667bcbe30b2_DSC_0320.JPG",

@@ -5,6 +5,7 @@
   "district": 11,
   "dob": "1/12/1970",
   "education": "JD w/ Honors, Univ. MD School of Law, 2001 MA , Public Policy & Admin w/ Honors, UMBC, 1996 MA, Judaic Studies w/Honors, Towson Univ., 1996 BA, Internat'l Relations, Spanish, Tufts Univ, 1992 The Park School, 1988",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "jon-s-cardin.md",
   "full-name": "Jon S. Cardin",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-3931f8bc063aeb6d9bdb59f8df169462_headshot.jpg",

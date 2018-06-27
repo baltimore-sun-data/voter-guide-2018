@@ -5,6 +5,7 @@
   "district": 12,
   "dob": "5/3/1959",
   "education": "A.B. Bioelectirc Engineering - Harvard University M.D. Columbia University College of Physicians and Surgeons",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "terri-hill.md",
   "full-name": "Terri Hill",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-422a67e24aa78c927867d9120e157aff_Sun_photo_.jpg",

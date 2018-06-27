@@ -5,6 +5,7 @@
   "district": "42b",
   "dob": "10/19/1966",
   "education": "B.A. Vanderbilt University- Anthropology and Psychology M.A. Radcliffe Consortium of Women's Studies/Brandeis University- Joint degree in Women's Studies and Psychology Ph.D. Brandeis University - Developmental Psychology",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "michele-guyton.md",
   "full-name": "Michele Guyton",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-9ef1f0130fff91aef4cf31d5d4e99650_Michele_prof_headshot.jpg",

@@ -1,6 +1,7 @@
 {
   "directory": "content/state-senate/district-44",
   "district": 44,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "victor--clark-jr.md",
   "full-name": "Victor  Clark Jr.",
   "jurisdiction": "Baltimore City",
