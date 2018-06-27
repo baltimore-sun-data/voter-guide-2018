@@ -56,9 +56,9 @@
             <th class="fixed">District</th>
             <th class="fixed">Precincts Reporting / Total</th>
             <th class="fixed">Percent Counted</th>
-            {{ range .Options }}
-            {{ $titlecase := .Text | titlecase }}
-            {{ $truncated := $titlecase | truncateAt " and " }}
+            {{ range .SubResultOptions }}
+              {{ $titlecase := titlecase . }}
+              {{ $truncated := $titlecase | truncateAt " and " }}
               <th {{if ne $titlecase $truncated }}title="{{ $titlecase }}"{{end}}>
                 {{- $truncated -}}
               </th>
