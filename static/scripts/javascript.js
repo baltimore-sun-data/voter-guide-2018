@@ -14,7 +14,7 @@ var app = {
     app.results_download();
     app.smooth_scroll();
     app.results_nav();
-    app.key_close();
+    app.results_dropdown_close();
   },
 
   activate_social_buttons: function(socialMessage) {
@@ -403,10 +403,10 @@ var app = {
       }
     });
   },
-  key_close: function() {
-    var dropdown = $("#results-dropdown a");
-    dropdown.click(function() {
-      $(".dropdown").removeClass("open");
+
+  results_dropdown_close: function() {
+    $("#results-dropdown .dropdown-menu a").click(function() {
+      $("#results-dropdown").removeClass("open");
     });
   },
 
@@ -460,16 +460,18 @@ var app = {
       var boeUpdateEl = el.getAttribute("data-boe-update");
       var timeout = el.getAttribute("data-timeout");
 
-      if (!targetEl || !errorEl || !timeout) {
+      if (!targetEl || !errorEl) {
         console.warn(".js-results-container missing requirements");
         return;
       }
 
       var timeoutID;
       function setTimer() {
-        timeoutID = window.setTimeout(function() {
-          el.dispatchEvent(new Event("update"));
-        }, timeout);
+        if (timeout) {
+          timeoutID = window.setTimeout(function() {
+            el.dispatchEvent(new Event("update"));
+          }, timeout);
+        }
       }
 
       el.addEventListener(
@@ -538,12 +540,23 @@ var app = {
       });
     });
 
+    var baseURL = document
+      .querySelector("[data-results-base-url]")
+      .getAttribute("data-results-base-url");
+
     if (document.querySelector(".js-select2")) {
       $(".js-select2").select2({ width: "element" });
       $(".js-select2").on("select2:select", function(e) {
+        // fetch and update
         var el = e.target.closest(".js-results-container");
         el.setAttribute("data-fetch-url", e.target.value);
         el.dispatchEvent(new Event("update"));
+
+        // change URL
+        var contestURL = e.target.value.slice(baseURL.length);
+        window.history.replaceState({}, "", "?show=" + contestURL);
+
+        // reset other boxes
         var tempVal = $(e.target).val();
         $(".js-select2")
           .val("0")
@@ -551,6 +564,20 @@ var app = {
         $(e.target)
           .val(tempVal)
           .trigger("change");
+      });
+    }
+
+    // Load arbitrary races via query string in URL ?show=contestURL
+    var queryStringRegex = /\?show=(.+)/;
+    if (queryStringRegex.test(window.location.search)) {
+      var contestURL = queryStringRegex.exec(window.location.search)[1];
+      var url = baseURL + contestURL;
+      each(".js-results-container", function(el) {
+        if (el.getAttribute("data-fetch-url")) {
+          return;
+        }
+        el.setAttribute("data-fetch-url", url);
+        el.dispatchEvent(new Event("update"));
       });
     }
   }
