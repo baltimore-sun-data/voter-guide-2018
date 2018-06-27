@@ -5,6 +5,7 @@
   "district": 10,
   "dob": "3/13/1966",
   "education": "BS in Elementary Education, Miami University, Ohio MS in Educational Leadership, College of Notre Dame, Maryland ABD(All but Dissertation) Educational Leadership, Curriculum and Instruction, University of Phoenix",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "stephanie-boston.md",
   "full-name": "Stephanie Boston",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-450184a26ac1b37b54da607c465ff7b9_T49_0175.JPG",

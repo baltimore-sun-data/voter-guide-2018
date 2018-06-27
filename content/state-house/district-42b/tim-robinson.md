@@ -5,6 +5,7 @@
   "district": "42b",
   "dob": "10/29/1952",
   "education": "Medical Doctor",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "tim-robinson.md",
   "full-name": "Tim Robinson",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-7f7eef427bfb7d1a94a63d06a0afd7dd_Tim_headshot_larger_at_statehouse.jpg",

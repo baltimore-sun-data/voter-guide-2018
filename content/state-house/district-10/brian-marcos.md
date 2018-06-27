@@ -5,6 +5,7 @@
   "district": 10,
   "dob": "12/5/1986",
   "education": "Owings Mills High School Graduate 2004 CCBC, Classes in Law for completion of Baltimore County Police Academy",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "brian-marcos.md",
   "full-name": "Brian Marcos",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-e82baa33bab691527dc871f1dc302306_HP142.jpg",

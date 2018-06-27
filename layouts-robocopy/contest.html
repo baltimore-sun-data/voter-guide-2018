@@ -72,7 +72,7 @@
               <td data-col="Precincts Reporting / Total Precincts" class="fixed numeric">
                 {{- .PrecinctsReporting }}/{{ .TotalPrecincts -}}
               </td>
-              <td data-col="Percent Counted" class="fixed numeric">{{ .PercentCounted }}</td>
+              <td data-col="Percent Counted" class="fixed numeric">{{ .PercentCounted }}%</td>
               {{ range .Options }}
                 <td data-col="{{ .Text }}" class="numeric">
                   {{ .TotalVotes | commas }}

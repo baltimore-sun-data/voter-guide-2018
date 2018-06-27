@@ -5,6 +5,7 @@
   "district": "42a",
   "dob": "5/30/1975",
   "education": "BS Economics from the Wharton School of  The University of Pennsylvania Business concentration in Public Policy, minor in US History",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "stephen-a-mcintire.md",
   "full-name": "Stephen A. McIntire",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-90d0bdb92c4e6a440fa3c87222ae55bd_Family_PHoto.jpg",

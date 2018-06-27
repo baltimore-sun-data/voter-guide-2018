@@ -5,6 +5,7 @@
   "district": 12,
   "dob": "6/7/1990",
   "education": "I graduated from Fishburne Military School in 2008 I have been working on my Degree in political science at UMBC",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "michael-russell.md",
   "full-name": "Michael Russell",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-14929102182574ddd7293328f4621e07_IMG_4444.jpg",

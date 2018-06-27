@@ -1,6 +1,7 @@
 {
   "directory": "content/state-senate/district-30",
   "district": 30,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "ron-george.md",
   "full-name": "Ron George",
   "jurisdiction": "Anne Arundel County",

@@ -5,6 +5,7 @@
   "district": 8,
   "dob": "2/28/1981",
   "education": "Doctor of Law (J.D.), Emory University School of Law; Master of Arts (M.A.), Towson University; Bachelor of Science (B.S.), Towson University",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "christian-miele.md",
   "full-name": "Christian Miele",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-4065488d624b0f2524a881023e7a7715_Profile.jpg",

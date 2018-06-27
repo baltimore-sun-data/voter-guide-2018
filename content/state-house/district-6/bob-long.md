@@ -1,6 +1,7 @@
 {
   "directory": "content/state-house/district-6",
   "district": 6,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "bob-long.md",
   "full-name": "Bob Long",
   "jurisdiction": "Baltimore County",

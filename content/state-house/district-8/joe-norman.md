@@ -5,6 +5,7 @@
   "district": 8,
   "dob": "5/28/1983",
   "education": "High School Diploma, C. Milton Wright High School (2001) B.S. in Physics, Salisbury University (2005) M.S. in Electrical Engineering, Johns Hopkins University (2008)",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "joe-norman.md",
   "full-name": "Joe Norman",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-a86938808bf100457a85420745aed376_FullSizeRender_2.jpg",

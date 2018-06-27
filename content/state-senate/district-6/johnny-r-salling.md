@@ -5,6 +5,7 @@
   "district": 6,
   "dob": "10/31/1961",
   "education": "High school graduate. 3 years in the military. 2 years of CTY..",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "johnny-r-salling.md",
   "full-name": "Johnny R. Salling",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-b4e51aa8666917758c1cdc77f6225350_Screenshot_2018-04-12-13-00-36.png",

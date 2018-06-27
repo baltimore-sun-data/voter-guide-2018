@@ -1,6 +1,7 @@
 {
   "directory": "content/state-house/district-44b",
   "district": "44b",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "aisha-khan.md",
   "full-name": "Aisha Khan",
   "jurisdiction": "Baltimore County",

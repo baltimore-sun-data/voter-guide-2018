@@ -2,6 +2,9 @@
 body {
   font-family: sans-serif;
 }
+.race {
+  padding: 0 10px 0 10px;
+}
 .race h1 {
   text-transform: uppercase;
   padding: 0;
@@ -40,6 +43,7 @@ body {
 .race td.votes {
   width: 25%;
   color: #667682;
+  white-space: nowrap;
 }
 .race td.name {
   font-weight: bold;
@@ -52,41 +56,12 @@ body {
 .frontrunner {
   background-color: #efeeee;
 }
-@media only screen and (max-width: 760px),
-  (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Force table to not be like tables anymore */
-  .race table,
-  .race thead,
-  .race tbody,
-  .race th,
-  .race td,
-  .race tr {
-    display: block;
-  }
-  .race td.votes,
+@media (max-width: 750px) {
   .race td.candidate {
-    width: 100%;
-  }
-  .race tr {
-    border-bottom: 1px dashed #cdcdcd;
-  }
-
-  .race td {
-    /* Behave  like a "row" */
-    border: none;
-    border-bottom: none;
-    position: relative;
-  }
-
-  .race td:before {
-    /* Now like a table header */
-    position: absolute;
-    /* Top/left values mimic padding */
-    top: 0;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
+  width: 59%;
+}
+  .race td.votes {
+    width: 39%;
   }
 }
 </style>
@@ -94,7 +69,7 @@ body {
 <div class="race">
   <div class="row">
     <div class="result">
-      <a href="https://elections2018.news.baltimoresun.com/results/#info-{{ .ID }}">More race results >> </a>
+      <a href="https://elections2018.news.baltimoresun.com/results/" target="_blank">All race results >> </a>
       <h1 class="{{ .Party }}">{{ .Name }}</h1>
       <table>
         {{ range .Options }}

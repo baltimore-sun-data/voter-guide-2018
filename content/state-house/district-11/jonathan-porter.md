@@ -1,6 +1,7 @@
 {
   "directory": "content/state-house/district-11",
   "district": 11,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "jonathan-porter.md",
   "full-name": "Jonathan Porter",
   "jurisdiction": "Baltimore County",

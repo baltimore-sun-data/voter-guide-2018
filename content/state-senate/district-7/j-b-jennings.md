@@ -5,6 +5,7 @@
   "district": 7,
   "dob": "3/27/1974",
   "education": "Bachelor of Science, University of Baltimore",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "j-b-jennings.md",
   "full-name": "J. B. Jennings",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-92f333eac7a9e9aef1f32a6106544349_Senator_Jennings_Portrait.jpg",

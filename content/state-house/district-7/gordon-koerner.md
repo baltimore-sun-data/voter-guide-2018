@@ -5,6 +5,7 @@
   "district": 7,
   "dob": "3/22/1936",
   "education": "High School",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "gordon-koerner.md",
   "full-name": "Gordon Koerner",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-54be5627ab069c009250f2debd97cbfc_003.JPG",
