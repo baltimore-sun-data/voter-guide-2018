@@ -9,7 +9,9 @@
   "browserslist": ["> 1% in US", "defaults"],
   "scripts": {
     "build":
-      "yarn run clean && yarn run make-content && yarn run css && yarn run hash-assets && yarn run hugo && yarn run minify && yarn run clean:data",
+      "yarn run clean && yarn run build:results && yarn run make-content && yarn run css && yarn run hash-assets && yarn run hugo && yarn run minify && yarn run clean:data",
+    "build:results":
+      "robocopy -local -metadata-src data/primary-metadata.json -results-src data/primary-results.json",
     "build:robocopy":
       "GOPATH=$(mktemp -d) GOBIN=$(pwd) go get -v ./cmd/robocopy",
     "clean":

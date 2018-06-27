@@ -61,7 +61,7 @@ func FromArgs(args []string) *Config {
 	fl.BoolVar(&conf.CreateResults, "results", false, "create results metadata file")
 	fl.StringVar(&conf.MetadataLocation, "metadata-src", metadata18url, "url or filename for metadata")
 	fl.StringVar(&conf.ResultsLocation, "results-src", results18url, "url or filename for results")
-	fl.StringVar(&conf.OutputDir, "output-dir", "dist/results/contests", "directory to save into")
+	fl.StringVar(&conf.OutputDir, "output-dir", "dist/results", "directory to save into")
 	fl.StringVar(&conf.TemplateGlob, "template-glob", "layouts-robocopy/*.html", "pattern to look for templates with")
 	fl.StringVar(&conf.Region, "region", "us-east-1", "Amazon region for S3")
 	fl.StringVar(&conf.Bucket, "bucket", "elections2018-news-baltimoresun-com", "Amazon S3 bucket")
@@ -121,10 +121,19 @@ func (c *Config) LocalExec() error {
 
 	cr := MapContestResults(m, r)
 	for cid, rp := range cr {
-		filename := fmt.Sprintf("%d.html", cid)
+		filename := filepath.Join(c.OutputDir, "contests", fmt.Sprintf("%d.html", cid))
 		err = c.createFile(t, "contest.html", filename, rp)
 		if err != nil {
-			return fmt.Errorf("could not create results file: %v", err)
+			return fmt.Errorf("could not create contest results file: %v", err)
+		}
+	}
+
+	dr := MapDistrictResults(m, cr)
+	for did, dp := range dr {
+		filename := filepath.Join(c.OutputDir, "districts", fmt.Sprintf("%d.html", did))
+		err = c.createFile(t, "district.html", filename, dp)
+		if err != nil {
+			return fmt.Errorf("could not create district result file: %v", err)
 		}
 	}
 
@@ -143,11 +152,12 @@ func (c *Config) createJSON(filename string, data interface{}) (err error) {
 	return enc.Encode(data)
 }
 
-func (c *Config) createFile(t *template.Template, tplname, filename string, data interface{}) (err error) {
-	os.MkdirAll(c.OutputDir, os.ModePerm)
-	f, err := os.Create(filepath.Join(c.OutputDir, filename))
+func (c *Config) createFile(t *template.Template, tplname, path string, data interface{}) (err error) {
+	dir := filepath.Dir(path)
+	os.MkdirAll(dir, os.ModePerm)
+	f, err := os.Create(path)
 	if err != nil {
-		return fmt.Errorf("could not create template file %s/%s: %v", c.OutputDir, filename, err)
+		return fmt.Errorf("could not create template file %s: %v", path, err)
 	}
 	defer deferClose(&err, f.Close)
 

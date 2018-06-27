@@ -6,17 +6,18 @@ RUN apk --no-cache add \
     wget
 
 # Using wget for caching, see https://github.com/moby/moby/issues/15717
-RUN wget -O /usr/bin/dep https://github.com/golang/dep/releases/download/v0.4.1/dep-linux-amd64
+RUN wget -q -O /usr/bin/dep https://github.com/golang/dep/releases/download/v0.4.1/dep-linux-amd64
 RUN chmod +x /usr/bin/dep
 
 WORKDIR /go/src/github.com/baltimore-sun-data/voter-guide-2018
 COPY Gopkg.toml Gopkg.lock ./
 COPY cmd/ ./cmd/
 
-RUN dep ensure -v
+RUN dep ensure -v -vendor-only
 
 RUN go install \
     ./cmd/csv-splitter \
+    ./cmd/robocopy \
     ./vendor/github.com/carlmjohnson/scattered/cmd/scattered \
     ./vendor/github.com/baltimore-sun-data/boreas
 
@@ -44,6 +45,7 @@ COPY package.json yarn.lock ./
 RUN yarn
 
 COPY --from=go-builder /go/bin/csv-splitter /bin/
+COPY --from=go-builder /go/bin/robocopy /bin/
 COPY --from=go-builder /go/bin/scattered /bin/
 COPY --from=go-hugo /bin/hugo /bin/
 COPY --from=go-minify /bin/minify /bin/
