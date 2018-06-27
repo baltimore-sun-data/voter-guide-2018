@@ -48,10 +48,11 @@ type Result struct {
 	Jurisdiction string
 	Reporting
 
-	Options    []*OptionResult
-	orm        map[OptionID]*OptionResult
-	SubResults []*SubResult
-	srm        map[JurisdictionDistrictID]*SubResult
+	Options          []*OptionResult
+	orm              map[OptionID]*OptionResult
+	SubResults       []*SubResult
+	SubResultOptions []string
+	srm              map[JurisdictionDistrictID]*SubResult
 }
 
 func makeOptionResultSlice(cid ContestID, m *Metadata, orm map[OptionID]*OptionResult) []*OptionResult {
@@ -172,7 +173,8 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 	}
 
 	// set the total votes / percentage / front-runner
-	// sort options by BoE order
+	// sort main options by votes, fallback to BoE order
+	// sub-results are in BoE order
 	for cid, result := range contests {
 		// For some local races, the jurisdiction info seems wrong
 		if len(result.orm) == 0 && len(result.SubResults) == 1 {
@@ -203,8 +205,20 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 				result.Options[i].FrontRunner = true
 			}
 		}
+		// Make sub-result column headers by first sorting in BoE order
 		sort.Slice(result.Options, func(i, j int) bool {
 			return result.Options[i].Order < result.Options[j].Order
+		})
+		result.SubResultOptions = make([]string, len(result.Options))
+		for i, opt := range result.Options {
+			result.SubResultOptions[i] = opt.Text
+		}
+		// Now sort in vote order
+		sort.Slice(result.Options, func(i, j int) bool {
+			if result.Options[i].TotalVotes == result.Options[j].TotalVotes {
+				return result.Options[i].Order < result.Options[j].Order
+			}
+			return result.Options[i].TotalVotes > result.Options[j].TotalVotes
 		})
 		sort.Slice(result.SubResults, func(i, j int) bool {
 			if result.SubResults[i].District == result.SubResults[j].District {
