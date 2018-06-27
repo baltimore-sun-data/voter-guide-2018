@@ -17,7 +17,7 @@ RUN dep ensure -v -vendor-only
 
 RUN go install \
     ./cmd/csv-splitter \
-    ./cmd/robcopy \
+    ./cmd/robocopy \
     ./vendor/github.com/carlmjohnson/scattered/cmd/scattered \
     ./vendor/github.com/baltimore-sun-data/boreas
 
