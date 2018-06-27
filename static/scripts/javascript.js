@@ -460,16 +460,18 @@ var app = {
       var boeUpdateEl = el.getAttribute("data-boe-update");
       var timeout = el.getAttribute("data-timeout");
 
-      if (!targetEl || !errorEl || !timeout) {
+      if (!targetEl || !errorEl) {
         console.warn(".js-results-container missing requirements");
         return;
       }
 
       var timeoutID;
       function setTimer() {
-        timeoutID = window.setTimeout(function() {
-          el.dispatchEvent(new Event("update"));
-        }, timeout);
+        if (timeout) {
+          timeoutID = window.setTimeout(function() {
+            el.dispatchEvent(new Event("update"));
+          }, timeout);
+        }
       }
 
       el.addEventListener(
