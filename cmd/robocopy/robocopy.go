@@ -121,7 +121,7 @@ func (c *Config) LocalExec() error {
 
 	cr := MapContestResults(m, r)
 	for cid, rp := range cr {
-		filename := filepath.Join(c.OutputDir, fmt.Sprintf("contests/%d.html", cid))
+		filename := filepath.Join(c.OutputDir, "contests", fmt.Sprintf("%d.html", cid))
 		err = c.createFile(t, "contest.html", filename, rp)
 		if err != nil {
 			return fmt.Errorf("could not create contest results file: %v", err)
@@ -130,7 +130,7 @@ func (c *Config) LocalExec() error {
 
 	dr := MapDistrictResults(m, cr)
 	for did, dp := range dr {
-		filename := filepath.Join(c.OutputDir, fmt.Sprintf("districts/%d.html", did))
+		filename := filepath.Join(c.OutputDir, "districts", fmt.Sprintf("%d.html", did))
 		err = c.createFile(t, "district.html", filename, dp)
 		if err != nil {
 			return fmt.Errorf("could not create district result file: %v", err)
