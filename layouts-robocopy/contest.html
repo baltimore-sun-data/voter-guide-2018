@@ -13,9 +13,6 @@
   {{ if not $nonPartisan }}
     <div class="party-header {{ .Party }}">{{ .Party }}</div>
   {{ end }}
-  {{ if gt .VoteFor 1 }}
-    <div class="voter-for">Top {{ .VoteFor }} candidates advance</div>
-  {{ end }}
 
   <table class="main-results">
     <thead>
@@ -25,7 +22,7 @@
       <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
-      <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
+      <tr>
         <td class="candidate name">{{ .Text | titlecase }}</td>
         {{ if not $isPrimary }}<td class="party-col">{{ .Party }}</td>{{ end }}
         <td class="votes">
@@ -41,8 +38,12 @@
     {{ end }}
   </table>
 
+
   <div>
-    {{ .TotalVotes | commas }} votes counted ({{ .PercentCounted }}% )
+    {{ if gt .VoteFor 1 }}
+      Voters select {{ .VoteFor }} candidates |
+    {{ end }}
+    {{ .TotalVotes | commas }} votes counted
   | {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
   </div>
 
