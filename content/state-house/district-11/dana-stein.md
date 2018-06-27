@@ -5,6 +5,7 @@
   "district": 11,
   "dob": "9/19/1958",
   "education": "B.A., Harvard University M.P.A., Woodrow Wilson School, Princeton University J.D., Columbia Law School",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "dana-stein.md",
   "full-name": "Dana Stein",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-6485769aa6ce1b7928a75fa50ab5cf81_Headshot_%281%29.jpg",

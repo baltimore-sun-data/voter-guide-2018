@@ -5,6 +5,7 @@
   "district": 6,
   "dob": "12/3/1995",
   "education": "-Patapsco High School graduate  -University of Baltimore Government & Public Policy major",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "justin-holliday.md",
   "full-name": "Justin Holliday",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/104-ee14a831a386f5736622762752f2a0b5_erkgfe%5B.jpg",

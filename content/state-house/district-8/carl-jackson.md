@@ -1,6 +1,7 @@
 {
   "directory": "content/state-house/district-8",
   "district": 8,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "carl-jackson.md",
   "full-name": "Carl Jackson",
   "jurisdiction": "Baltimore County",

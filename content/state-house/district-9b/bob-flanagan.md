@@ -5,6 +5,7 @@
   "district": "9b",
   "dob": "11/01/1945",
   "education": "B.A. in Economics from Harvard University J.D. from Cornell University",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "bob-flanagan.md",
   "full-name": "Bob Flanagan",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-684502d0677aa3a737eb67a59357093f_PLP_7427_copy.jpg",

@@ -1,6 +1,7 @@
 {
   "directory": "content/state-house/district-6",
   "district": 6,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "megan-ann-mioduszewski.md",
   "full-name": "Megan Ann Mioduszewski",
   "jurisdiction": "Baltimore County",

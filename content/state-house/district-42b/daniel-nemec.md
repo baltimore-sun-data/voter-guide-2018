@@ -5,6 +5,7 @@
   "district": "42b",
   "dob": "11/6/1985",
   "education": "University of Maryland Bachelor of Science, Accounting Bachelor of Science, Operations Management",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "daniel-nemec.md",
   "full-name": "Daniel Nemec",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-ac8796e4da13b3e686013e480e615b51_headshot-why.jpg",

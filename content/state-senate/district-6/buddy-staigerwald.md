@@ -1,6 +1,7 @@
 {
   "directory": "content/state-senate/district-6",
   "district": 6,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "buddy-staigerwald.md",
   "full-name": "Buddy Staigerwald",
   "jurisdiction": "Baltimore County",

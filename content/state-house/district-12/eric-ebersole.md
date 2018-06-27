@@ -5,6 +5,7 @@
   "district": 12,
   "dob": "5/20/1958",
   "education": "1. Bachelor of Science - Mathematics Education -University of MD, 1980 (Summa Cum Laude) 2. Masters of Education -Mathematics Education - University of MD, 1986",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "eric-ebersole.md",
   "full-name": "Eric Ebersole",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-a55143f5f13d4d4b210cc80e4b73b374_Headshots_2017_%282%29ncropped.jpg",

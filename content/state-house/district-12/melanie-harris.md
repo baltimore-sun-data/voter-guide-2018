@@ -5,6 +5,7 @@
   "district": 12,
   "dob": "4/25/1986",
   "education": "College Graduate",
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "melanie-harris.md",
   "full-name": "Melanie Harris",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-fffd8b9796241b2586da54f874725563_Harris_Portrait.JPG",

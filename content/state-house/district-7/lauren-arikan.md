@@ -1,6 +1,7 @@
 {
   "directory": "content/state-house/district-7",
   "district": 7,
+  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "lauren-arikan.md",
   "full-name": "Lauren Arikan",
   "jurisdiction": "Harford County",
