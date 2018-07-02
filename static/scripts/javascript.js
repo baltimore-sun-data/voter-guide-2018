@@ -557,13 +557,7 @@ var app = {
         window.history.replaceState({}, "", "?show=" + contestURL);
 
         // reset other boxes
-        var tempVal = $(e.target).val();
-        $(".js-select2")
-          .val("0")
-          .trigger("change");
-        $(e.target)
-          .val(tempVal)
-          .trigger("change");
+        $(".js-select2").not(e.target).val("0").trigger("change");
       });
     }
 
