@@ -557,7 +557,10 @@ var app = {
         window.history.replaceState({}, "", "?show=" + contestURL);
 
         // reset other boxes
-        $(".js-select2").not(e.target).val("0").trigger("change");
+        $(".js-select2")
+          .not(e.target)
+          .val("0")
+          .trigger("change");
       });
     }
 
