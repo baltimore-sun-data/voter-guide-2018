@@ -540,9 +540,10 @@ var app = {
       });
     });
 
-    var baseURL = document
-      .querySelector("[data-results-base-url]")
-      .getAttribute("data-results-base-url");
+    var baseURL;
+    each("[data-results-base-url]", function(el) {
+      baseURL = el.getAttribute("data-results-base-url");
+    });
 
     if (document.querySelector(".js-select2")) {
       $(".js-select2").select2({ width: "element" });
