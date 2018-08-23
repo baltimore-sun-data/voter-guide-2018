@@ -7,6 +7,7 @@
   "education": "M.B.A. Loyola University of Maryland M.Ed.  The College of William and Mary in Virginia B. A.  The College of William and Mary in Virginia",
   "filename": "frank-robert.md",
   "full-name": "Frank Robert",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/52-a18bd31717acb00863d66c9de41a598f_Picture_1.docx",
   "last-name": "Robert",
   "party": "Republican",

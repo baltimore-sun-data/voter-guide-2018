@@ -5,13 +5,13 @@
   "district": 12,
   "dob": "8/1/1974",
   "education": "BA in Sociology and International Relations from Goucher College MS in Organization Development from American University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "jessica-feldmark.md",
   "full-name": "Jessica Feldmark",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-13d33183d09c9d2da6f248a6c5b2d24d_Jessica_Feldmark_-_headshot.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Feldmark",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

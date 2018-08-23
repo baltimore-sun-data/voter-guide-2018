@@ -4,6 +4,7 @@
   "education": "Graduate of Kenwood High School 70'    Some college; Dundalk Community and Johns Hopkins.",
   "filename": "samuel-t-gibson-iii.md",
   "full-name": "Samuel T. Gibson III",
+  "general-only": false,
   "last-name": "Gibson",
   "party": "Democrat",
   "questions": [

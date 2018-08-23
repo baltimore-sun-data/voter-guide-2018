@@ -6,6 +6,7 @@
   "education": "After a great education from local public schools—Edmondson Heights Elementary, Johnnycake Middle, and Woodlawn High School—I had the privilege to study at Yale College and Harvard Law School, where I served as President of the Harvard Law Review.  I've always known how important education is. My parents are retired Baltimore City public school teachers—my mom started teaching at Poly in 1970 and finished teaching at Morgan State; my father spent nearly 40 years as a city teacher, from Edmondson and Western to Digital Harbor and Douglass. He retired last year as the oldest teacher in Maryland, at the age of 80.  I have tried to pay tribute to my parents, teaching crime policy and constitutional law at Johns Hopkins University, University of Baltimore School of Law, and Maryland Law School, where I have repeatedly received the award for outstanding professor of the year. I have also helped coach debate at Frederick Douglass High School, where my father taught years ago.",
   "filename": "thiru-vignarajah.md",
   "full-name": "Thiru Vignarajah",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4296412/52-d2fa947fe839226298eea96f41500110_thiru-vignarajah-headshot.jpeg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-thiru-vignarajah-20180425-htmlstory.html",
   "last-name": "Vignarajah",

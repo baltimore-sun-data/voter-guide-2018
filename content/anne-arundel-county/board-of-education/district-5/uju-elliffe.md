@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "uju-elliffe.md",
   "full-name": "Uju Elliffe",
+  "general-only": false,
   "last-name": "Elliffe",
   "party": "Non-Partisan",
   "race": "anne-arundel-county/board-of-education",

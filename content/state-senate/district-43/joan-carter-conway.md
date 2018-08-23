@@ -5,12 +5,12 @@
   "district": 43,
   "dob": "4/5/1951",
   "education": "Master of Educ., (MEd)., Morgan State Univ. ,  May, 2018 BA, Univ of Baltimore, 1988 A.A., BCCC (CCB), 1987",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "joan-carter-conway.md",
   "full-name": "Joan Carter Conway",
   "jurisdiction": "Baltimore City",
   "last-name": "Carter Conway",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

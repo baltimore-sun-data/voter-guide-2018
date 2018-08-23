@@ -7,6 +7,7 @@
   "education": "I am a science major attending Howard Community College. I went to trade school for an electrician's license.",
   "filename": "ian-bradley-moller-knudsen.md",
   "full-name": "Ian Bradley Moller-Knudsen",
+  "general-only": false,
   "last-name": "Moller-Knudsen",
   "party": "Democrat",
   "questions": [

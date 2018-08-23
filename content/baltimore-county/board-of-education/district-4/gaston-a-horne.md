@@ -8,6 +8,7 @@
   "education": "I attended schools in the BCPS. I graduated from Catonsville High and finished 3 years at Coppin State University",
   "filename": "gaston-a-horne.md",
   "full-name": "Gaston A. Horne",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/95-2ea266e59627996fc1602b43d3a9d943_20180327_212223.jpg",
   "last-name": "Horne",
   "party": "Non-Partisan",

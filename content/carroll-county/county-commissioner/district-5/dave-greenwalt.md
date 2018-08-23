@@ -7,6 +7,7 @@
   "education": "Graduate of: South Carroll High  Catonsville Community College",
   "filename": "dave-greenwalt.md",
   "full-name": "Dave Greenwalt",
+  "general-only": false,
   "last-name": "Greenwalt",
   "party": "Republican",
   "questions": [

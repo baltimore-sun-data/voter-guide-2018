@@ -7,6 +7,7 @@
   "education": "High School Diploma College classes in Computer Information Systems and Electronics",
   "filename": "bret-d-grossnickle.md",
   "full-name": "Bret D. Grossnickle",
+  "general-only": false,
   "last-name": "Grossnickle",
   "party": "Republican",
   "questions": [

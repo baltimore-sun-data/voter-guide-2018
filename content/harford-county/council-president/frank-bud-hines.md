@@ -4,6 +4,7 @@
   "education": "B.S. in Business Administration from Towson University with Concentrations in Accounting and Finance.",
   "filename": "frank-bud-hines.md",
   "full-name": "Frank \"Bud\" Hines",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/191-6c5351c135e6f8ca3d9491c6ac0094b4_Bud_Hines_small.jpg",
   "last-name": "Hines",
   "party": "Democrat",

@@ -6,6 +6,7 @@
   "education": "I earned a Bachelor of Science degree in Biology from the College of William and Mary. I have taken graduate classes and several professional development courses and workshops in nonprofit management and marketing. My own childhood education growing up in a Navy family was comprised of attending eight different schools across the country and overseas.",
   "filename": "muri-dueppen.md",
   "full-name": "Muri Dueppen",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/95-3ab37b8ff6190820cd536a500588dbf5_27497202_10204073317308633_1540211133_n.jpg",
   "last-name": "Dueppen",
   "party": "Non-Partisan",

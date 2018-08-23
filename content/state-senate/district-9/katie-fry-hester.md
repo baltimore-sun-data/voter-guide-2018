@@ -5,13 +5,13 @@
   "district": 9,
   "dob": "12/31/1974",
   "education": "BSc. Agricultural and Biological Engineering, Cornell University, NY, 1997. Partnership Brokers Accreditation Scheme. Overseas Development Institute & International Business Leaders Forum. Accredited with Distinction, 2005. State of Maryland First Responder, 2010.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "katie-fry-hester.md",
   "full-name": "Katie Fry Hester",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-172b399213c57bf02b315ea8aa9ced9a_IMG_9870.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Hester",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

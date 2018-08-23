@@ -7,6 +7,7 @@
   "education": "Doctor of Medicine (M.D.), Eastern Virginia Medical School Georgetown Medical Center, Residency MBA Candidate, Johns Hopkins Carey Business School SUNY at Buffalo, BA Biology",
   "filename": "janet-siddiqui.md",
   "full-name": "Janet Siddiqui",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/95-699040ea16d788f8600f70ab8e55cdaa_Janet_main_photo.jpg",
   "last-name": "Siddiqui",
   "party": "Democrat",

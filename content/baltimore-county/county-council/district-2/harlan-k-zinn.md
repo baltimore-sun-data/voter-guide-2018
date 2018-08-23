@@ -3,6 +3,7 @@
   "district": 2,
   "filename": "harlan-k-zinn.md",
   "full-name": "Harlan K. Zinn",
+  "general-only": false,
   "last-name": "Zinn",
   "party": "Democrat",
   "race": "baltimore-county/county-council",

@@ -6,6 +6,7 @@
   "education": "I attended public schools in Montgomery County, Maryland until I attended and graduated from Georgetown Prep High School. I have a bachelor's degree in history and Russian studies and a masters' degree in public administration from Syracuse University.",
   "filename": "rich-madaleno.md",
   "full-name": "Rich Madaleno",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/52-9b45783d784e8b2a0e617cd85deb8ab1_Rich_Madaleno.jpg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-madaleno-jenkins-20180529-htmlstory.html",
   "last-name": "Madaleno",

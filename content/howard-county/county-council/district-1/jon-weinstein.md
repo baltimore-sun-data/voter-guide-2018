@@ -8,6 +8,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "jon-weinstein.md",
   "full-name": "Jon Weinstein",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/52-e108aec5ba5cb28a1580bcb9bcbc77c5_weinstein-9_2.jpg",
   "last-name": "Weinstein",
   "party": "Democrat",

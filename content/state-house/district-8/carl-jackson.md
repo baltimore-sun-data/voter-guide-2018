@@ -1,12 +1,12 @@
 {
   "directory": "content/state-house/district-8",
   "district": 8,
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "carl-jackson.md",
   "full-name": "Carl Jackson",
   "jurisdiction": "Baltimore County",
   "last-name": "Jackson",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "q1": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
   "q10": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
   "q11": "What if anything should the state do to address income inequality?",

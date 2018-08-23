@@ -6,6 +6,7 @@
   "education": "I am a proud product of public schools in West Virginia. I then went on to get my undergraduate degree from Northwestern University in Chicago, Illinois. Immediately after that, I came to Baltimore City as a public school teacher, and that's when I believe the most important part of my education truly began.",
   "filename": "alec-ross.md",
   "full-name": "Alec Ross",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/95-26f2703592c4e549f50fd0d8205afa27_AR_headshot_2.png",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-ross-verratti-tech-beer-20180522-htmlstory.html",
   "last-name": "Ross",

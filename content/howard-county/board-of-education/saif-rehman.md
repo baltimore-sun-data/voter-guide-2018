@@ -7,6 +7,7 @@
   "education": "University of Central Missouri Bachelor of Science - Computer Information Systems University of Baltimore Master of Science - Management Information Systems Northcentral University PhD - Management Information Systems",
   "filename": "saif-rehman.md",
   "full-name": "Saif Rehman",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/95-8b1a53efd457605b813b6ce061a5489e_Saif_Rehman.jpg",
   "last-name": "Rehman",
   "party": "Non-Partisan",

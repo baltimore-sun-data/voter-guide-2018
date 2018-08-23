@@ -5,13 +5,13 @@
   "district": 7,
   "dob": "10/10/1961",
   "education": "BS  Towson University - elementary education",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "kathy-szeliga.md",
   "full-name": "Kathy Szeliga",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-d62d792c9219f3c8eea4a4baf64d1560_headshot_Szeliga_2.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Szeliga",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

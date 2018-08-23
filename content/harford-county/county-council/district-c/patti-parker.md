@@ -3,6 +3,7 @@
   "district": "C",
   "filename": "patti-parker.md",
   "full-name": "Patti Parker",
+  "general-only": false,
   "last-name": "Parker",
   "party": "Republican",
   "race": "harford-county/county-council",

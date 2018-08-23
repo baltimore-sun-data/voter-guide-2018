@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "w-paul-burkett.md",
   "full-name": "W. Paul Burkett",
+  "general-only": false,
   "last-name": "Burkett",
   "party": "Republican",
   "q1": "Should county government incentivize growth in the county through zoning and, if so, what types of growth (residential, commercial, high density, etc.) should the county focus on and why? What steps should the county take to comply with state-mandated planning requirements?",

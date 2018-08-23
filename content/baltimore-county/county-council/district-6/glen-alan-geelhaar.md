@@ -7,6 +7,7 @@
   "education": "Stevenson University: B.S. Business Communications Villa Julie College: AA Business Administration",
   "filename": "glen-alan-geelhaar.md",
   "full-name": "Glen Alan Geelhaar",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/99-ee1dc7369267b13a56d3b34ffcb1561d_IMG_1446.JPG",
   "last-name": "Geelhaar",
   "party": "Republican",

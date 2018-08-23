@@ -7,6 +7,7 @@
   "education": "B.A. Social Science, St. Mary's College of Maryland; MPA, Public Administration University of Baltimore, Board of Trustees, St .Mary's College of Maryland",
   "filename": "doug-mathias.md",
   "full-name": "Doug Mathias",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/253-8bb8120098ba1c0aaf97a0ffa2743ba5_3x5.jpg",
   "last-name": "Mathias",
   "party": "Democrat",

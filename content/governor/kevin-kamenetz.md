@@ -6,6 +6,7 @@
   "education": "A lifelong Marylander and lifelong Democrat, Kevin Kamenetz graduated from the Johns Hopkins University and the University of Baltimore School of Law.",
   "filename": "kevin-kamenetz.md",
   "full-name": "Kevin Kamenetz",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/253-6578920ead565af63cb34b7236a45d33_CE_Headshot_2x2.png",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-kamenetz-ervin-20180509-htmlstory.html",
   "last-name": "Kamenetz",

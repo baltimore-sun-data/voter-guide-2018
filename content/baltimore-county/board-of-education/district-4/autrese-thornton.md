@@ -8,6 +8,7 @@
   "education": "Coppin State University-Bachelor's of Science, Special Education  Notre Dame of Maryland University-Master's, Leadership in Teaching",
   "filename": "autrese-thornton.md",
   "full-name": "Autrese Thornton",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/117-b8a145fd618f316457bff08e5bb28a9f_Screen_Shot_2018-05-02_at_11.00.06_PM.png",
   "last-name": "Thornton",
   "party": "Non-Partisan",

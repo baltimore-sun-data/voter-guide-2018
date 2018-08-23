@@ -5,13 +5,13 @@
   "district": 11,
   "dob": "8/26/1964",
   "education": "I attended Summit Park Elementary School, Pikesville Junior High School graduated from Pikesville Senior High School. I graduated from Northwestern University with a BA in political science.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "shelly-hettleman.md",
   "full-name": "Shelly Hettleman",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-f9a6062c09829aca8ded9bb17f679def_13-SHM-001_111713_Portraits_212567.pdf",
   "jurisdiction": "Baltimore County",
   "last-name": "Hettleman",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

@@ -5,11 +5,12 @@
   "district": 3,
   "dob": "2/3/1967",
   "education": "Some college",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "ed-hale-jr.md",
   "full-name": "Ed Hale Jr.",
+  "general-only": false,
   "last-name": "Hale",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

@@ -5,13 +5,13 @@
   "district": 43,
   "dob": "8/7/1976",
   "education": "Bachelors of Science in Kinesiology/Sport Psychology, Towson University; Masters in Public Administration, University of Baltimore",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "regina-t-boyce.md",
   "full-name": "Regina T. Boyce",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-566ba4edc8070ff0a557a8d26fbcf6de_file.jpeg",
   "jurisdiction": "Baltimore City",
   "last-name": "Boyce",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

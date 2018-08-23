@@ -6,6 +6,7 @@
   "education": "Havre de Grace High School Class of 1972 Harford Leadership Academy Class of 2015 University of Maryland Academy of Excellence in Governance Class of 2017 University of Maryland EMT Class 1974",
   "filename": "patrick-vincenti.md",
   "full-name": "Patrick Vincenti",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/44-1099e4c42f5151ab70ee938a032f3a2a_Pat_Vincenti%2C_District_E_Headshot.jpg",
   "last-name": "Vincenti",
   "party": "Republican",

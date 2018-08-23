@@ -7,6 +7,7 @@
   "education": "Graduate of Baltimore County Public Schools.",
   "filename": "deb-sullivan.md",
   "full-name": "Deb Sullivan",
+  "general-only": false,
   "last-name": "Sullivan",
   "party": "Republican",
   "questions": [

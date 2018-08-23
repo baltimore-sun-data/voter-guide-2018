@@ -7,6 +7,7 @@
   "education": "BS- Technical Writing, Towson University Have not completed MS Computer Science",
   "filename": "erik-lofstad.md",
   "full-name": "Erik Lofstad",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/44-073c20a95e3b6c0da1f3e333ba2c948c_headshot_erik_lofstad.jpg",
   "last-name": "Lofstad",
   "party": "Republican",

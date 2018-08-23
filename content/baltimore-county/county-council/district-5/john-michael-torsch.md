@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "john-michael-torsch.md",
   "full-name": "John Michael Torsch",
+  "general-only": false,
   "last-name": "Torsch",
   "party": "Democrat",
   "race": "baltimore-county/county-council",

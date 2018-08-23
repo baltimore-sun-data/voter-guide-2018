@@ -4,6 +4,7 @@
   "district": 1,
   "filename": "deborah-arnetta-cason.md",
   "full-name": "Deborah Arnetta Cason",
+  "general-only": false,
   "last-name": "Cason",
   "party": "Non-Partisan",
   "q1": "Why do you want to serve on the county school board?",

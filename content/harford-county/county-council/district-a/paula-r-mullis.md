@@ -3,6 +3,7 @@
   "district": "A",
   "filename": "paula-r-mullis.md",
   "full-name": "Paula R. Mullis",
+  "general-only": false,
   "last-name": "Mullis",
   "party": "Republican",
   "race": "harford-county/county-council",

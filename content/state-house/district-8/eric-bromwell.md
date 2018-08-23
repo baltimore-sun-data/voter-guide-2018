@@ -5,13 +5,13 @@
   "district": 8,
   "dob": "12/12/1976",
   "education": "Calvert Hall College  1991-1994 Salisbury University 1994-1998",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "eric-bromwell.md",
   "full-name": "Eric Bromwell",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-34104fe64c0954ac166e0e7ac308ce28_eb.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Bromwell",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

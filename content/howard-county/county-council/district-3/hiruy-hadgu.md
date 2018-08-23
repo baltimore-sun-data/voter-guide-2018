@@ -7,6 +7,7 @@
   "education": "I earned my bachelor's and master's degree in nuclear engineering and radiological sciences from the University of Michigan, Ann Arbor. I chose my career to combat climate change as more than 60% of America's, and 87% of Maryland's clean energy is produced using nuclear power. I also have a master of business administration degree from the University of Maryland, Robert H. Smith School of Business.",
   "filename": "hiruy-hadgu.md",
   "full-name": "Hiruy Hadgu",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/52-33fb52279691d3ef72e70907bce1089c_pics.jpg",
   "last-name": "Hadgu",
   "party": "Democrat",

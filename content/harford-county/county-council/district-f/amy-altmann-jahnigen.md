@@ -7,6 +7,7 @@
   "education": "I grew up in Harford County and graduated from C Milton Wright High School.  From there I matriculated to UMBC where I graduated with honors as a student-athlete with a double major in Economics and Computer Information Systems and a minor in Finance.",
   "filename": "amy-altmann-jahnigen.md",
   "full-name": "Amy Altmann Jahnigen",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/191-3f232602e1c2f43ffbc1b2fdaf3b181e_IMG_2210ed-_fav.jpg",
   "last-name": "Jahnigen",
   "party": "Republican",

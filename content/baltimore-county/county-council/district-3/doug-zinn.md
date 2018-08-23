@@ -7,6 +7,7 @@
   "education": "MS (JHU) MBA (Pace Univ.) BS (U of MD)",
   "filename": "doug-zinn.md",
   "full-name": "Doug Zinn",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/52-78d671734f93118e0cf28569b150ce90_fullsizeoutput_572.jpeg",
   "last-name": "Zinn",
   "party": "Republican",

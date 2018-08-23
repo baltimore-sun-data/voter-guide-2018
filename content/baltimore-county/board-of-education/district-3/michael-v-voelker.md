@@ -8,6 +8,7 @@
   "education": "B.S . Chemistry, University of Delaware",
   "filename": "michael-v-voelker.md",
   "full-name": "Michael V. Voelker",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/99-53e691ad40f9710721893178dacf2bcf_Michael_Voelker.JPG",
   "last-name": "Voelker",
   "party": "Non-Partisan",

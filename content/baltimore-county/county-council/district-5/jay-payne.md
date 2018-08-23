@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "jay-payne.md",
   "full-name": "Jay Payne",
+  "general-only": false,
   "last-name": "Payne",
   "party": "Republican",
   "race": "baltimore-county/county-council",

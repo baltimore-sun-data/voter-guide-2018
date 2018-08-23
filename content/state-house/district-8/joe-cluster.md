@@ -5,13 +5,13 @@
   "district": 8,
   "dob": "7/5/1979",
   "education": "Bachelors Degree from Towson University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "joe-cluster.md",
   "full-name": "Joe Cluster",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-fb5c640ab22eef010caa271659695e89_Me.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Cluster",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

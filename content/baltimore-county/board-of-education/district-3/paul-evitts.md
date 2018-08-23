@@ -8,6 +8,7 @@
   "education": "BA- Studio Art, Loras College, Dubuque, IA BA/MA - Speech Pathology, University of Northern Iowa, Cedar Falls, IA PhD - Speech Pathology, Bowling Green State University, Bowling Green, OH",
   "filename": "paul-evitts.md",
   "full-name": "Paul Evitts",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/52-a57972fa785873efb93c68494a2fc827_EVITTS_000.jpg",
   "last-name": "Evitts",
   "party": "Non-Partisan",

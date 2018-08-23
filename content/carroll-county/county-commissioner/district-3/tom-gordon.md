@@ -7,6 +7,7 @@
   "education": "McDaniel College (Formerly Western Maryland College)",
   "filename": "tom-gordon.md",
   "full-name": "Tom Gordon",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/52-10ec9038440f67e541b7140f68ef0542_TomGordon-Profile-Candidate.jpg",
   "last-name": "Gordon",
   "party": "Republican",

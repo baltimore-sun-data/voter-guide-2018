@@ -1,12 +1,12 @@
 {
   "directory": "content/state-senate/district-44",
   "district": 44,
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "victor--clark-jr.md",
   "full-name": "Victor  Clark Jr.",
   "jurisdiction": "Baltimore City",
   "last-name": "Clark",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "q1": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
   "q10": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
   "q11": "What if anything should the state do to address income inequality?",

@@ -5,13 +5,13 @@
   "district": 10,
   "dob": "7/2/1944",
   "education": "B.S. in Biology, Towson University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "george-h-harman.md",
   "full-name": "George H. Harman",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-9fb8c6ac8c8a6f8c5dfcc6980e1633d7_head_shot_professional.docx",
   "jurisdiction": "Baltimore County",
   "last-name": "Harman",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

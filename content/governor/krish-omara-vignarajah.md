@@ -6,6 +6,7 @@
   "education": "I'm a proud Maryland's public school kid. I attended Edmonson Heights Elementary, Woodbridge Elementary, Johnnycake Middle School, and Woodlawn High School.  In fact, I'm the only candidate running for governor who attended Maryland public schools from kindergarten through 12th grade.  After Woodlawn, I attended Yale College and graduated with a Master's degree in Political Science & a B.S. in Molecular Biology.  I received a Marshall Scholarship to attend Oxford University and study International Relations. I completed my law degree at Yale Law School.",
   "filename": "krish-omara-vignarajah.md",
   "full-name": "Krish O'Mara Vignarajah",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/117-75abfb0882df46d66c25fb582513d290_Krish_Headshot.jpg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-krish-vignarajah-mean-tweets-20180614-htmlstory.html",
   "last-name": "Vignarajah",

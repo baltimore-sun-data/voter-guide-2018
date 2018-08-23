@@ -4,6 +4,7 @@
   "district": 4,
   "filename": "regina-ann-smith.md",
   "full-name": "Regina Ann Smith",
+  "general-only": false,
   "last-name": "Smith",
   "party": "Non-Partisan",
   "q1": "Why do you want to serve on the county school board?",

@@ -5,13 +5,13 @@
   "district": 41,
   "dob": "1/28/1991",
   "education": "Baltimore City College, 2009.  B.A. in Education Policy from Davidson College, 2013.  M.S. in Educational Studies from The Johns Hopkins University, 2015.  Graduate Certificate in School Administration from The Johns Hopkins University, 2016.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "jd-merrill.md",
   "full-name": "J.D. Merrill",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-ca9fe5711dde8349a742ff318d4f19af_MerrillHeadshot2.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Merrill",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

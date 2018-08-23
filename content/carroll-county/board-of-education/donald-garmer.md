@@ -2,6 +2,7 @@
   "directory": "content/carroll-county/board-of-education",
   "filename": "donald-garmer.md",
   "full-name": "Donald Garmer",
+  "general-only": false,
   "last-name": "Garmer",
   "party": "Non-Partisan",
   "race": "carroll-county/board-of-education",

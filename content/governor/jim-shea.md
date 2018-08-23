@@ -6,6 +6,7 @@
   "education": "I am a lifelong Marylander. I attended Baltimore County Public Schools before going to boarding school. I graduated from Princeton University in 1974 and the University of Virginia School of Law in 1977.",
   "filename": "jim-shea.md",
   "full-name": "Jim Shea",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/253-79100d6890050b17bd8b1d93d126da51_JLSHeadshot.jpeg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-jim-shea-brandon-scott-20180607-htmlstory.html",
   "last-name": "Shea",

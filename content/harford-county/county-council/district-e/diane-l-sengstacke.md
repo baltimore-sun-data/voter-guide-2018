@@ -7,6 +7,7 @@
   "education": "JD University of Baltimore; AA Paralegal studies Villa Julie College, n/k/a Stevenson University; BS General Studies Dance Core Towson State n/k/a Towson University",
   "filename": "diane-l-sengstacke.md",
   "full-name": "Diane L. Sengstacke",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/95-709051fa7c4022faad81af2d0cd84b90_Head_Shot._LEO9497.jpg",
   "last-name": "Sengstacke",
   "party": "Republican",

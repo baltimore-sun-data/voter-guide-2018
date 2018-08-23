@@ -6,6 +6,7 @@
   "education": "Bachelor;s Degree, political science, University of Maryland Teacher certification, Towson University Masters Equivalency, Loyola College",
   "filename": "ralph-jaffe.md",
   "full-name": "Ralph Jaffe",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/44-90ce8aa377179f4125e2ce4acc030433_rj_picture.png",
   "last-name": "Jaffe",
   "party": "Democrat",

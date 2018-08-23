@@ -2,6 +2,7 @@
   "directory": "content/anne-arundel-county/county-council/district-1",
   "filename": "pete-smith.md",
   "full-name": "Pete Smith",
+  "general-only": false,
   "last-name": "Smith",
   "party": "Democrat",
   "race-district": 1,

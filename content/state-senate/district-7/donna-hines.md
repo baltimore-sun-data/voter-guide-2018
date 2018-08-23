@@ -5,13 +5,13 @@
   "district": 7,
   "dob": "8/2/1955",
   "education": "Although I was accepted to Wharton, I decided to study close to home for financial reasons. Later it proved to be fortuitous as it allowed me to take care of my dad when he got cancer. I graduated from Towson State University with two Majors: Business and Psychology. I also minored in Geography.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "donna-hines.md",
   "full-name": "Donna Hines",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-f1c1c7afadf5035c32bf4b8a3a9f8dd6_Donna_Hines.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Hines",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

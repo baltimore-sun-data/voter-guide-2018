@@ -5,12 +5,12 @@
   "district": 44,
   "dob": "5/20/1939",
   "education": "MAS, John Hopkins University  Bachelor of Science in Nursing, University of Maryland A.A. in Nursing Community College of Baltimore",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "shirley-nathan-pulliam.md",
   "full-name": "Shirley Nathan-Pulliam",
   "jurisdiction": "Baltimore County",
   "last-name": "Nathan-Pulliam",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

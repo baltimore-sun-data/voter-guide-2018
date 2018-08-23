@@ -5,13 +5,13 @@
   "district": 10,
   "dob": "4/23/1950",
   "education": "-Ebenezer High School (South Carolina) -South Carolina State University (B.S. Accounting)",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "benjamin-brooks.md",
   "full-name": "Benjamin Brooks",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-e4fe9233a3bc3288b1ac316a14d14823_11221540_387158238137224_4181987537628676580_n.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Brooks",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

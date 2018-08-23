@@ -5,13 +5,13 @@
   "district": "44a",
   "dob": "2/15/1963",
   "education": "University of Baltimore: Juris Doctor North Carolina Central University: Master of Public Administration cum laude  N.C. State University:  Bachelor of Arts - Political Science (concentration in Law and Political Philosophy):",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "keith-e-haynes.md",
   "full-name": "Keith E. Haynes",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-15f180fc6ddddba88fe126e839be0d9f_photo_2.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Haynes",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
