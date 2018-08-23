@@ -1,5 +1,5 @@
 {
-  "age": 76,
+  "age": 77,
   "background": "I have been a political science teacher since 1964 in the public school system and also in the private school sector. During my employment in Baltimore County, in 1969, I initiated a new teaching strategy, \"Student Activism in the Classroom.\" A bill was born in my classroom, and approximately 11 months later was signed into law by former President Richard Nixon. This new educational approach, which has become the foundation of my teaching philosophy today, made national news, as it was documented in the 1970 edition of Reader's Digest.  Since 2002, 15 years ago, I have been leading the movement to try to put a stop to the moral bankruptcy that has pervaded Maryland government and replace it with real ethical reform.",
   "directory": "content/governor",
   "dob": "8/21/1941",

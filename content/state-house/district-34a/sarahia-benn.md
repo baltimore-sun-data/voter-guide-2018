@@ -1,5 +1,5 @@
 {
-  "age": 51,
+  "age": 52,
   "background": "Sarahia Benn is a community organizer, Pro musical director/producer, educator, and entrepreneur.",
   "directory": "content/state-house/district-34a",
   "district": "34a",

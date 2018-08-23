@@ -1,5 +1,5 @@
 {
-  "age": 27,
+  "age": 28,
   "background": "Primarily working in language and information technology. Before joining the US Navy, I supported several clients' network infrastructure. Currently, I support the Department of Defense as my primary employment.",
   "directory": "content/anne-arundel-county/county-council/district-2",
   "dob": "10/14/1990",

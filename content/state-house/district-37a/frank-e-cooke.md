@@ -1,5 +1,5 @@
 {
-  "age": 72,
+  "age": 73,
   "background": "Software Engineer/Operations Research Analyst  Worked for the Navy, FBI, Intelligence Community",
   "directory": "content/state-house/district-37a",
   "district": "37a",

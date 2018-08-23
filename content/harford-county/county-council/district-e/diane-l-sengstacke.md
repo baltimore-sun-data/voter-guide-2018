@@ -1,5 +1,5 @@
 {
-  "age": 62,
+  "age": 63,
   "background": "Attorney - Principal Member, Sengstacke & Evans, LLC; and President, Home Title Co. of Md., Inc.",
   "directory": "content/harford-county/county-council/district-E",
   "district": "E",

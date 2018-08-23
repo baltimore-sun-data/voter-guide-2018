@@ -1,5 +1,5 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "24 years in potable water treatment, 12 years as Superintendent of The City of Westminster's Water Treatment System. 16 years as a Councilmember, 8 years as Mayor and 7 years as Planning Commission Member for The Town of Union Bridge.",
   "directory": "content/carroll-county/county-commissioner/district-4",
   "district": 4,

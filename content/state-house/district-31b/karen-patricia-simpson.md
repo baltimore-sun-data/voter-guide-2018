@@ -1,5 +1,5 @@
 {
-  "age": 50,
+  "age": 51,
   "background": "I have been a public servant since 1992, when I began as a Child Protective Services worker for Harford County Department of Social Services. I was involved in public government oversight at the Citizens Review Board for Children, the Deputy Director of Campaign Finance for the Election Board, a Family Court Facilitator, a grant writer for the Department of Human Services, and a couples' therapist for Christ Lutheran Church.  I currently serve as the Education Program Manager for the State Retirement Agency.",
   "directory": "content/state-house/district-31b",
   "district": "31b",

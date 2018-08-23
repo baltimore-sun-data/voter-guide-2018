@@ -1,5 +1,5 @@
 {
-  "age": 34,
+  "age": 35,
   "background": "After law school, I served as a judicial law clerk at the Circuit Court for Baltimore City for the Honorable George L. Russell, III. and then worked as a Policy Analyst with the Maryland Department of Public Safety and Correctional Services.  I then transitioned to become a small-business owner as an insurance agent.  With a great staff, I have been able to open a second agency, which is located in my district and transform my first agency into an award-winning operation that has since doubled in size.",
   "directory": "content/state-house/district-40",
   "district": 40,

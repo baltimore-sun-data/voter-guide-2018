@@ -1,5 +1,5 @@
 {
-  "age": 51,
+  "age": 52,
   "background": "Educational Advocacy and Early Childhood Interventionist Chair, Tourette Association of America Mid-Atlantic Chapter Member Maryland State Board of Education",
   "directory": "content/state-house/district-42b",
   "district": "42b",

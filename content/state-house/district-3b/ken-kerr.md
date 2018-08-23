@@ -1,5 +1,5 @@
 {
-  "age": 60,
+  "age": 61,
   "background": "I began my professional career as an elementary school teacher (after driving a school bus while finishing my certification). I then spent a decade in IT before returning to the classroom as a college English Professor in 1995. I joined the faculty of Frederick Community College in 1999 where I have also served for 6 years as department chair and a year as interim dean.",
   "directory": "content/state-house/district-3b",
   "district": "3b",

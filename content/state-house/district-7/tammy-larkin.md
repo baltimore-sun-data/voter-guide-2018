@@ -1,5 +1,5 @@
 {
-  "age": 47,
+  "age": 48,
   "background": "1992-1999 Maryland State Department of Education, Division of Rehabilitation Services providing counseling and training to individuals with disabilities.   2010- State Director, Women for Ehrlich  2011-2013- District Director, Senator J.B. Jennings  2011-2015- Principal, CTJ Consulting  2015-2018- Department of Budget and Management Administrator (Training Specialist) 2018- present Maryland Transportation Authority, Administrator (Learning and Development Specialist)",
   "directory": "content/state-house/district-7",
   "district": 7,

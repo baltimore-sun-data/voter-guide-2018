@@ -1,5 +1,5 @@
 {
-  "age": 45,
+  "age": 46,
   "background": "Founder and Principal, William Day Law Group Associate Attorney, Gill Sippel and Gallagher Account Executive, WTOP Radio Naval Officer, U.S. Navy",
   "directory": "content/state-house/district-16",
   "district": 16,

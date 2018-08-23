@@ -1,5 +1,5 @@
 {
-  "age": 55,
+  "age": 56,
   "background": "I am a retired Military Intelligence Officer. I served 20 years in the U.S. Army, including three deployments to Bosnia and time on the ground in Iraq. I started my Army career as a Company Clerk, then was trained as a Korean Linguist, then was selected for Officer Candidate School and became a Military Intelligence Officer. As an Officer, I served multiple deployments in Bosnia, where I think we did a good job, a one tour on the ground in Iraq, which was so frustrating that I submitted my retirement. I have worked at the Pentagon for 14 years, advising on Army Intelligence issues, and gaining valuable experience in dealing with Defense budget processes. For the past four years I have also served as the Director of Operations for a green energy research company, Avertica, which has been granted two patents for our conductive polymer technology which could be used to improve solar panels and for advanced energy storage.",
   "directory": "content/us-house/district-6",
   "district": 6,

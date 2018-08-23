@@ -1,5 +1,5 @@
 {
-  "age": 52,
+  "age": 53,
   "background": "I've been an Information Technology analyst and executive for over 25 years. I've managed tens of thousands of consultants and budgets over billion dollars. I've been responsible for assuring these very large budgets were vigilantly managed to maximize every dollar, while also meeting the organization's priorities and increasing shareholders earnings. I also started my own business, NextGen Consulting (NGCI), thirteen years ago. It's been recognized by Inc. 500 and many other organizations as one of the best and fastest growing IT companies in America. I also have experience as a government consultant, where I saved taxpayer money without compromising the quality of services. I have been on the front-lines of strategy, finance, management, procurement, and leadership as an analyst all the way to executive level. I think we need this experience to right the fiscal ship of the Howard County School Board. I know that large organizations have many moving parts and to keep them working correctly, we need open communication. If elected to the Board, I'll bring my experience and that communication between all stakeholders: teachers, parents, students, vendors and the community at-large.",
   "contact": "saif@vote4rehman.com",
   "directory": "content/howard-county/board-of-education",

@@ -1,5 +1,5 @@
 {
-  "age": 24,
+  "age": 25,
   "background": "I am the vice-president of my HOA and am a member of the Friend's of Bridge Columbia Committee. I helped in the preparation of the Transit Development Plan. I also manage two family-farms and have served as a missionary.",
   "directory": "content/howard-county/county-council/district-4",
   "district": 4,

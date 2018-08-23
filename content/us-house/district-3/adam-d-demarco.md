@@ -1,5 +1,5 @@
 {
-  "age": 32,
+  "age": 33,
   "background": "After graduating from West Point, I served as an active duty Army Officer training, developing, and leading America's sons and daughters, both stateside and during multiple combat deployments. I then transitioned from active duty service into consulting, where I worked for one of the largest professional services organizations in the world, working with both federal and commercial clients across the United States. During this time, I also became a small business owner focused on helping local, rural, economies by providing go-to market capabilities within the wine industry. I'm also an executive board member for several non-profits within the greater Maryland region—which focus on supporting wounded warriors and serving our military service men and women. Finally, I elected to continue my military service in the United States Army National Guard, where I am a Major supporting domestic emergency responses for the Federal Emergency Management Agency.",
   "directory": "content/us-house/district-3",
   "district": 3,

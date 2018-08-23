@@ -1,5 +1,5 @@
 {
-  "age": 27,
+  "age": 28,
   "background": "Currently Assistant State's Attorney. Previously did private sector legal work.",
   "directory": "content/state-house/district-41",
   "district": 41,

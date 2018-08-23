@@ -1,5 +1,5 @@
 {
-  "age": 58,
+  "age": 59,
   "background": "Community Activist & Homemaker. Served on boards of numerous civic organizations. Corporate work experience. Former Transportation Official, Legislative Liaison.",
   "directory": "content/state-house/district-8",
   "district": 8,

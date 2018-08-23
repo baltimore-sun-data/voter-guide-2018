@@ -1,5 +1,5 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "I am an international public health and policy professional. I am currently a member of the Maryland House of Delegates where I serve on the House Environment & Transportation Committee.   Before becoming Delegate, I devoted almost 20 years working around the world working on public health programs. My work included conducting clinical and operations research, scaling up health innovations, and strengthening health policies in Asia, Africa, the Caribbean. I am fluent in French, and skilled in Mandarin, Zarma and Haitian Creole.  I began my international health career as a Peace Corps Volunteer in Niger, where I worked in a remote Maternal & Child Health clinic. After, I worked for several years at other international organizations, such as the World Bank, UNICEF and Family Health International. After coming home, I worked at Johns Hopkins University for a decade managing international clinical trials, operations research studies and health programs. Most recently, I served as Special Assistant at the Maryland Health Benefit Exchange, where I helped expand access to affordable, quality health insurance coverage to over 1 million Marylanders.",
   "directory": "content/state-house/district-46",
   "district": 46,

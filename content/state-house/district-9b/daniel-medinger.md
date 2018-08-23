@@ -1,5 +1,5 @@
 {
-  "age": 66,
+  "age": 67,
   "background": "I have been an active entrepreneur creating businesses and jobs in printing and publishing (newspapers, books and magazines) and printing. Currently, I am the owner and president of Advertising Media Plus, a full service media, communications and development firm in Howard County. My initial career was as a reporter, working on weekly and daily newspapers. I also served as an editor and publisher at several publications.",
   "directory": "content/state-house/district-9b",
   "district": "9b",

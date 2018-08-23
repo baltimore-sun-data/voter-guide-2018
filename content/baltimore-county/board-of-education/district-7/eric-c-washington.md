@@ -1,5 +1,5 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "Student Conduct Administrator 2008-Present Community College of Baltimore County Baltimore, Maryland",
   "contact": "ericcarltonwashington@hotmail.com",
   "directory": "content/baltimore-county/board-of-education/district-7",

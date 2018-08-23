@@ -1,5 +1,5 @@
 {
-  "age": 46,
+  "age": 47,
   "background": "Mavourene Robinson brings a wealth of knowledge about Howard County Public School policies, as well as the Federal mandates impacting local level school governance, outcomes and funding. Mavourene has more than twenty years of experience in the areas of Strategic Planning, Employee Relations, Recruiting/Talent Acquisition & Risk Management, Program Design, Diversity & Inclusion Program Design, Contract and Vendor Management, Cost Control and Performance Improvement for international and multi-billion dollar organizations. She been an actively engaged Howard County parent, serving as River Hill Village Board Director; Chair, River Hill Village Development Committee; PTA Community Service Chair; Community Advisory Council (CAC) Vice Chair & Policy Representative; Operating Budget Committee member; Elementary School Reading Circle Volunteer and Room Mom.",
   "contact": "mavourene4boardofed@gmail.com",
   "directory": "content/howard-county/board-of-education",

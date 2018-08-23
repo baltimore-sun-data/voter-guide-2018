@@ -1,5 +1,5 @@
 {
-  "age": 72,
+  "age": 73,
   "background": "Self-employed attorney representing victims of domestic violence, clients on other family matters, and small local businesses.   Previously served as Maryland Secretary of Transportation.   U.S. Navy Veteran, served aboard the USS Patrick Henry, George Washington Class Nuclear Submarine.",
   "directory": "content/state-house/district-9b",
   "district": "9b",

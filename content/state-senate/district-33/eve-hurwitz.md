@@ -1,5 +1,5 @@
 {
-  "age": 45,
+  "age": 46,
   "background": "I am a Certifed QuickBooks ProAdvisor and owner of a full-service business bookkeeping and consulting business. I have 24 years of experience in the accounting field, including eight years of active duty military service, where I continued working on QuickBooks to stay sharp. I am a Naval Flight Officer, Advanced Mission Commander, and Aviation Safety Officer, among other qualifications and roles. After entering the Navy Reserve, I started my own business helping small businesses use QuickBooks to make their digital bookkeeping match reality. I am also on the board of several nonprofits - March On, March On Maryland, Maryland NORML, and The Milky Way Foundation. I am active in my VFW and American Legion, and I am a member of the Working Matters coalition, one of the groups that helped get earned sick leave passed in Maryland.",
   "directory": "content/state-senate/district-33",
   "district": 33,

@@ -1,5 +1,5 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "I was first elected delegate in 2006.  I have been executive director of Civic Works since 1992.  I am also an attorney and practiced law at Squire, Sanders & Dempsey between 1985 and 1992.",
   "directory": "content/state-house/district-11",
   "district": 11,

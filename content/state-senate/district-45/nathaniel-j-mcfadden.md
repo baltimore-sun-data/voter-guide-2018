@@ -1,5 +1,5 @@
 {
-  "age": 71,
+  "age": 72,
   "background": "Baltimore City Public Schools 1968-2013\nBaltimore City Council 1982-1987\nMaryland State Senate 1994-Present",
   "directory": "content/state-senate/district-45",
   "district": 45,

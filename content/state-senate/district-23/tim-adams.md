@@ -1,5 +1,5 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "Founder, President and CEO of Systems Application & Technologies for 30 years  In my background I also have varied work experience in finance, teaching, former head of engineering for CSA. Chairman of Procurement Council for the U.S. Chamber of Commerce",
   "directory": "content/state-senate/district-23",
   "district": 23,

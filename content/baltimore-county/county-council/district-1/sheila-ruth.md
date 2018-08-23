@@ -1,5 +1,5 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "A rich variety of experiences have led to my candidacy for County Council. I run a publishing company and website development business. As a small business owner, I understand the difficulties they face when large corporations have more power than ever to eliminate competition. I revitalized the nearly defunct Mid-Atlantic Book Publishers Association when I was its President, and I'm currently the Vice-President of the Cybils Awards, a nonprofit children's literature award. In recent years, my focus has been progressive political activism. I'm on the Board of Directors for Get Money Out - Maryland and I founded the Baltimore County Progressive Democrats Club. I was on the steering committee of the Our Revolution Baltimore City/County Chapter.",
   "directory": "content/baltimore-county/county-council/district-1",
   "district": 1,

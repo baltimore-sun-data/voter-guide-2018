@@ -1,5 +1,5 @@
 {
-  "age": 66,
+  "age": 67,
   "background": "38 years as the Principal in a successful insurance agency. Managing partner in Glen Oak Professional Bank Director Hospital Board Member Board member on many non-profit boards",
   "directory": "content/state-senate/district-32",
   "district": 32,

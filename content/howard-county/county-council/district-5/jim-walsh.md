@@ -1,5 +1,5 @@
 {
-  "age": 61,
+  "age": 62,
   "background": "Attorney in private practice (estates and trusts, and taxation) in Maryland since 1983, and in Howard County since 1995. I am also a certified public accountant. I served on both the Howard County Board of Appeals (10 years) and on the Howard County Charter Review Commission.",
   "directory": "content/howard-county/county-council/district-5",
   "district": 5,

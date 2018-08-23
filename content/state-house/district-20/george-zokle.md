@@ -1,5 +1,5 @@
 {
-  "age": 38,
+  "age": 39,
   "background": "I am a Maryland attorney based in Silver Spring. I previously worked in the Office of Child and Youth Protection at the Archdiocese of Baltimore for Cardinal William H. Keeler, as well as in a government relations firm and on Congressional races.",
   "directory": "content/state-house/district-20",
   "district": 20,

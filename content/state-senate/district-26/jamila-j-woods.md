@@ -1,5 +1,5 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "I have been a social justice advocate for 20+ years and have been actively involved in my community testifying in Annapolis, Maryland for numerous bills regarding issues such as, police accountability, putting services in place for domestic violence victims, and increasing minimum wage. I have also served in elected positions since 2014. More importantly, I have a working relationship with the current Maryland State Senator, C. Anthony Muse, and have actively engaged with him regarding legislation impacting the 26th District and Maryland. As a result, he has endorsed me for the Maryland State Senate seat, which he will be vacating. Finally, I was accepted in the 2018 Emerge Maryland class, which will further prepare me as a woman running for a Democratic office.",
   "directory": "content/state-senate/district-26",
   "district": 26,

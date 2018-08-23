@@ -1,5 +1,5 @@
 {
-  "age": 50,
+  "age": 51,
   "background": "My professional career includes experience as a Management Consultant and business owner. I have over 25 years of experience in assisting organizations, mostly in the Government sector, improving their performance through strategic planning, project management, process improvement, and change management. In 2005, I founded Line of Sight, a management consulting firm focused on improving performance in government organizations. In 2017, I achieved one of my key goals for starting my own business, to give my employees a chance at ownership. I merged my company with an employee-owned firm, The Newberry Group, where I now serve as Executive Director. I have written two books and a host of articles and book chapters on the subjects of leadership, management, and change in government organizations. Also, I received military training through the ROTC program at Boston University and was commissioned as an officer in the U.S. Army Reserves and served in the 220th Military Police Brigade HHC, then headquartered in Gaithersburg, Maryland.",
   "directory": "content/howard-county/county-council/district-1",
   "district": 1,

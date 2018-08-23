@@ -1,5 +1,5 @@
 {
-  "age": 71,
+  "age": 72,
   "background": "37 years with Maryland State Government, including 9 years as a fiscal and policy analyst with the State Legislature, 2 years as Special Assistant to Lt. Governor, and 9 nine years as Director of Business Services at the State Department of Education. Four years as an area transportation manager for Baltimore County Public Schools and 6 years as Executive Director of the Association of School Business Officials. Currently Executive Director of the Council of Education, Administrative and Supervisory Organizations of Maryland.",
   "contact": "jglang3@comcast.net",
   "directory": "content/baltimore-county/board-of-education/district-3",
