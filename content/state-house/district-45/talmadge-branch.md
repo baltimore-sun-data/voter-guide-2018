@@ -5,12 +5,12 @@
   "district": 45,
   "dob": "1/30/1956",
   "education": "BA degree, Salisbury University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "talmadge-branch.md",
   "full-name": "Talmadge Branch",
   "jurisdiction": "Baltimore City",
   "last-name": "Branch",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

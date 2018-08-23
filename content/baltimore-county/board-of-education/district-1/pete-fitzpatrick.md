@@ -8,6 +8,7 @@
   "education": "Bachelor of Science - Emergency Health Services Management UMBC '96 Associate of Science - Nursing - CCBC Catonsville '03 Bachelor of Science - Nursing - Western Governors' University '15",
   "filename": "pete-fitzpatrick.md",
   "full-name": "Pete Fitzpatrick",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/179-f0bc0dcd85752c88bf9d26af562b4372_29103396_188081085139271_7366719494110031424_n.jpg",
   "last-name": "Fitzpatrick",
   "party": "Non-Partisan",

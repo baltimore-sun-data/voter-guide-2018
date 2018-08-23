@@ -5,13 +5,13 @@
   "district": 46,
   "dob": "7/18/1963",
   "education": "I hold a BA Anthropology from the University of Chicago, and an MPH International Public Health from Columbia University in New York.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "robbyn-lewis.md",
   "full-name": "Robbyn Lewis",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-5b8a007f6282da1fdb9994a1f9f4bd92_Robbyn_Lewis_photo.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Lewis",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

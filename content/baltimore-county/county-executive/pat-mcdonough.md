@@ -2,6 +2,7 @@
   "directory": "content/baltimore-county/county-executive",
   "filename": "pat-mcdonough.md",
   "full-name": "Pat McDonough",
+  "general-only": false,
   "last-name": "McDonough",
   "party": "Republican",
   "profile": "[GOP primary: Pat McDonough sees Baltimore County as 'runaway train' he can get on track as executive](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-mcdonough-profile-20180522-story.html)",

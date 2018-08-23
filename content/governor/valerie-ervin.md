@@ -2,6 +2,7 @@
   "directory": "content/governor",
   "filename": "valerie-ervin.md",
   "full-name": "Valerie Ervin",
+  "general-only": false,
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-kamenetz-ervin-20180509-htmlstory.html",
   "last-name": "Ervin",
   "note": "Valerie Ervin has [suspended her campaign for governor](http://www.baltimoresun.com/news/maryland/politics/bs-md-ervin-baker-20180612-story.html).",

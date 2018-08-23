@@ -8,6 +8,7 @@
   "education": "Bachelor of Science (Sociology/Psychology) degree from SUNY, Albany, NY.   Master's Certification in Social Studies from UMBC.",
   "filename": "richard-m-young.md",
   "full-name": "Richard M. Young",
+  "general-only": false,
   "last-name": "Young",
   "party": "Non-Partisan",
   "questions": [

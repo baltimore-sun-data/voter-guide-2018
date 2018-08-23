@@ -5,6 +5,7 @@
   "education": "BA in Political Science and Philosophy  Course work toward an MA  in Human Resources",
   "filename": "kathy-fuller.md",
   "full-name": "Kathy Fuller",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/52-639db0cad8adf96023233597c06cbf8b_Kathy_Fuller_-_Carroll_Commissioner_D5.jpg",
   "last-name": "Fuller",
   "party": "Republican",

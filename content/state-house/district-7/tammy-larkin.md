@@ -5,13 +5,13 @@
   "district": 7,
   "dob": "7/8/1970",
   "education": "Bachelor of Arts, Towson University (International Studies)",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "tammy-larkin.md",
   "full-name": "Tammy Larkin",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-764d4173a2b66e68038bccd04cd7b6a1_Head_shot.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Larkin",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

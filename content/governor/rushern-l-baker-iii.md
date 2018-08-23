@@ -6,6 +6,7 @@
   "education": "I received my Bachelor's Degree and JD from Howard University and Howard Law.",
   "filename": "rushern-l-baker-iii.md",
   "full-name": "Rushern L. Baker III",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/179-3005753b5d3f45f3177ab7a53795312a_countyexec_thumb.jpg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-rushern-baker-20171012-htmlstory.html",
   "last-name": "Baker",

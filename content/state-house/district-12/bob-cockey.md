@@ -1,12 +1,12 @@
 {
   "directory": "content/state-house/district-12",
   "district": 12,
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "bob-cockey.md",
   "full-name": "Bob Cockey",
   "jurisdiction": "Baltimore County",
   "last-name": "Cockey",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "q1": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
   "q10": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
   "q11": "What if anything should the state do to address income inequality?",

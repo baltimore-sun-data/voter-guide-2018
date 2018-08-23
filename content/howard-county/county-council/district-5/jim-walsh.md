@@ -7,6 +7,7 @@
   "education": "B.S., John Carroll University J.D., University of Toledo College of Law",
   "filename": "jim-walsh.md",
   "full-name": "Jim Walsh",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/245-475e84ffa1260b54227b0ab6a03d3d4a_JDW_Photo_082409.JPG",
   "last-name": "Walsh",
   "party": "Republican",

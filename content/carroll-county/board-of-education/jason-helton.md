@@ -6,6 +6,7 @@
   "education": "50+ credit hours towards an Associate's Degree, with plans to complete in the Summer/Fall CompTIA A+ Certification in Information Systems",
   "filename": "jason-helton.md",
   "full-name": "Jason Helton",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/253-157e704490a761d9c2e48027b37a11db_headshot.jpg",
   "last-name": "Helton",
   "party": "Non-Partisan",

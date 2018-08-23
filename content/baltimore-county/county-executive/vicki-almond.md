@@ -6,6 +6,7 @@
   "education": "I attended Catonsville High School Served as PTA President at the middle and high school levels Established the Baltimore County School Resource Officer Program",
   "filename": "vicki-almond.md",
   "full-name": "Vicki Almond",
+  "general-only": false,
   "last-name": "Almond",
   "party": "Democrat",
   "profile": "[Democrat Vicki Almond seeks to complete rise in politics by becoming Baltimore County executive](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-almond-profile-20180604-story.html)",

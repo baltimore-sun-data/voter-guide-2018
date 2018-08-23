@@ -3,6 +3,7 @@
   "district": "F",
   "filename": "john-michael-finlayson.md",
   "full-name": "John Michael Finlayson",
+  "general-only": false,
   "last-name": "Finlayson",
   "party": "Republican",
   "race": "harford-county/county-council",

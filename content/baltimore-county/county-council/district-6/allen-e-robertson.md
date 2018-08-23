@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "allen-e-robertson.md",
   "full-name": "Allen E. Robertson",
+  "general-only": false,
   "last-name": "Robertson",
   "party": "Republican",
   "race": "baltimore-county/county-council",

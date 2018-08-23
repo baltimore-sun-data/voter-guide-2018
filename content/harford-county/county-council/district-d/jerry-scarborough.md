@@ -5,6 +5,7 @@
   "education": "Graduated from Edgewood High School and one class of Criminal Justice at Harford Community College",
   "filename": "jerry-scarborough.md",
   "full-name": "Jerry Scarborough",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/99-656f557219a6b3a589db7a7f60351972_13268335_10154281209988701_275489606747128042_o.jpg",
   "last-name": "Scarborough",
   "party": "Republican",

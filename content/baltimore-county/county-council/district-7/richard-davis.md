@@ -7,6 +7,7 @@
   "education": "Some College.",
   "filename": "richard-davis.md",
   "full-name": "Richard Davis",
+  "general-only": false,
   "last-name": "Davis",
   "party": "Democrat",
   "questions": [

@@ -8,6 +8,7 @@
   "education": "BS History, Loyola University MPA, University of Baltimore Master's work in Economics",
   "filename": "john-lang-iii.md",
   "full-name": "John Lang III",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/179-d63f09a39d2bfc994974e7484eccb9a9_Camapign_photo_coat.jpg",
   "last-name": "Lang III",
   "party": "Non-Partisan",

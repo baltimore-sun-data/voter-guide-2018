@@ -5,12 +5,12 @@
   "district": 10,
   "dob": "11/20/1954",
   "education": "Bachelor of Science Degree from the University of Maryland, Baltimore County",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "adrienne-a-jones.md",
   "full-name": "Adrienne A. Jones",
   "jurisdiction": "Baltimore County",
   "last-name": "Jones",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

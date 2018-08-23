@@ -5,13 +5,13 @@
   "district": 30,
   "dob": "9/9/1988",
   "education": "Bachelors degree from Towson University, Masters degree from The Johns Hopkins University.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "sarah-k-elfreth.md",
   "full-name": "Sarah K. Elfreth",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-8abbdcad77fb245d1303e43af41effe5_Elfreth_Headshot.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Elfreth",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

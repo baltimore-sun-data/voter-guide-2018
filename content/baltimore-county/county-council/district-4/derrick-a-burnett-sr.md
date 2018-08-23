@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "derrick-a-burnett-sr.md",
   "full-name": "Derrick A. Burnett Sr.",
+  "general-only": false,
   "last-name": "Burnett",
   "party": "Democrat",
   "race": "baltimore-county/county-council",

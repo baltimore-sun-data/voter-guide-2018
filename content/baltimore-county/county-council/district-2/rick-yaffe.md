@@ -7,6 +7,7 @@
   "education": "I grew up in Pikesville, and attended all 2nd District Baltimore County Public Schools. I graduated from Pikesville High School in 1973, and the University of Maryland with a degree in Business Administration.",
   "filename": "rick-yaffe.md",
   "full-name": "Rick Yaffe",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/52-2b11f70ad7ba5fc2d066d2ab93eec0c8_IMG_1848.jpg",
   "last-name": "Yaffe",
   "party": "Democrat",

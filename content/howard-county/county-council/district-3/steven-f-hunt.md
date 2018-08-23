@@ -7,6 +7,7 @@
   "education": "I have an Associate's in Arts Degree in Business Management and Administration from Prince George's Community College (PGCC), with a Minor in Business Law. Prior to attending PGCC, I studied Chemical Engineering at the University of Delaware.",
   "filename": "steven-f-hunt.md",
   "full-name": "Steven F. Hunt",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-e99afb51f57119fbb48fab863e77049a_SFH_Professional_Photo.jpg",
   "last-name": "Hunt",
   "party": "Democrat",

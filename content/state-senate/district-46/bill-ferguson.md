@@ -5,13 +5,13 @@
   "district": 46,
   "dob": "4/15/1983",
   "education": "Davidson College, B.A., 2005 (double major: economics & political science) Johns Hopkins School of Education, M.A.T., 2007 (secondary social studies) University of Maryland School of Law, J.D., 2010, magna cum laude",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "bill-ferguson.md",
   "full-name": "Bill Ferguson",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-4166328159df3d257c85b87ef3f49ea0_Bill_Headshot_%281%29.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Ferguson",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

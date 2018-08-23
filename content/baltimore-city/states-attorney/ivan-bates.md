@@ -4,13 +4,14 @@
   "directory": "content/baltimore-city/states-attorney",
   "dob": "9/7/1968",
   "education": "My father was in the military, so as a kid I went to school in New Mexico, Virginia, and even Germany. After high school, I enlisted into United States Army. After my honorable discharge, I graduated cum laude from Howard University in 1992 and recieved my law degree from William & Mary in Virginia in 1995.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0612-states-attorney-endorsement-20180611-story.html",
   "filename": "ivan-bates.md",
   "full-name": "Ivan Bates",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4296412/245-5a69ebb1e6248afd8f2b3133f43eb50c_IvanBates-1192_preview.jpeg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-bates-20180510-htmlstory.html",
   "last-name": "Bates",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0612-states-attorney-endorsement-20180611-story.html",
   "questions": [
     {
       "question": "What specifically will you do as state's attorney to minimize the number of cases that are nolle prossed?",

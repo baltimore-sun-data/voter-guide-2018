@@ -5,13 +5,13 @@
   "district": 12,
   "dob": "11/26/1980",
   "education": "MD (Medical Doctor) – University of Maryland, Baltimore MPH (Master of Public Health) – Johns Hopkins Bloomberg School of Public Health Board Certified in Preventive Medicine",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "filename": "clarence-k-lam.md",
   "full-name": "Clarence K. Lam",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-cf870094b1bd815ddba810ba32fe488f_CLARENCE_LAM-portrait%2C_formal.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Lam",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0626-sun-endorsements-20180625-story.html?15299435658554",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

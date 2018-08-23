@@ -8,6 +8,7 @@
   "education": "Ohio Wesleyan University, B.A. Liberal Arts Syracuse University, M.S. Education Johns Hopkins University, M.S. Applied Behavioral Psychology The George Washington University, completed 2 years of courses working towards PhD, Human Resource Development, incomplete",
   "filename": "john-w-egan.md",
   "full-name": "John W. Egan",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/245-5b2f0bf790e7f67e0e911279a6df2771_Preferred_Head_Shot.jpg",
   "last-name": "Egan",
   "party": "Non-Partisan",

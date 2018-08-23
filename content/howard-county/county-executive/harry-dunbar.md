@@ -6,6 +6,7 @@
   "education": "BA Early Childhood Education  Agency for Child Development (NYC)",
   "filename": "harry-dunbar.md",
   "full-name": "Harry Dunbar",
+  "general-only": false,
   "last-name": "Dunbar",
   "party": "Democrat",
   "questions": [

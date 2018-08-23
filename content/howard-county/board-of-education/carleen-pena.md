@@ -7,6 +7,7 @@
   "education": "BA in Psychology",
   "filename": "carleen-pena.md",
   "full-name": "Carleen Pena",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/191-e21201cafad059e7670957a2e5e0b735_carleenpenaprofilpic.jpg",
   "last-name": "Pena",
   "party": "Non-Partisan",

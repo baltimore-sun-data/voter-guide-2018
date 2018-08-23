@@ -6,6 +6,7 @@
   "education": "I graduated from Villanova University. After that I earned my Juris Doctorate from Widener University School of Law with a concentration in environmental law.",
   "filename": "scott-macmullan.md",
   "full-name": "Scott MacMullan",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/44-5353dd3e0f9649b77f6cad4e77e9fceb_scottmacmullan.jpg",
   "last-name": "MacMullan",
   "party": "Democrat",

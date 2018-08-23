@@ -7,6 +7,7 @@
   "education": "BS in Pharmacy Registered Pharmacist Management and Budget CEU's",
   "filename": "theodore-sophocleus.md",
   "full-name": "Theodore Sophocleus",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-889682b2c6ccbacf2f5f0d751e291291_Ted_Sophocleus.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Sophocleus",

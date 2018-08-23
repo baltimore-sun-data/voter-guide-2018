@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "sean-shaffer.md",
   "full-name": "Sean Shaffer",
+  "general-only": false,
   "last-name": "Shaffer",
   "party": "Republican",
   "race": "carroll-county/county-commissioner",

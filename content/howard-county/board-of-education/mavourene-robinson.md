@@ -7,6 +7,7 @@
   "education": "B.A., Business Studies, Fairleigh Dickinson University Master's Degree Candidate, Strategic Leadership, The King's University",
   "filename": "mavourene-robinson.md",
   "full-name": "Mavourene Robinson",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/191-5b78a93b2bb72ea767f0fa2b873ef0bb_SASE2.gif.JPG",
   "last-name": "Robinson",
   "party": "Non-Partisan",

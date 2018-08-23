@@ -7,6 +7,7 @@
   "education": "BA Towson University Harford Leadership Academy Graduate Fellow, Academy for Excellence in Local Governance Univ. of MD College Park School of Public Policy",
   "filename": "susan-burdette.md",
   "full-name": "Susan Burdette",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/253-202be3876b9581bb693e5f1db42b6b67_SBurdette.jpg",
   "last-name": "Burdette",
   "party": "Republican",

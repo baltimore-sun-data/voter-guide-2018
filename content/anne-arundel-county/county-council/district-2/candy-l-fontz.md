@@ -6,6 +6,7 @@
   "education": "I attended and graduated from Freeland High School (Freeland PA)",
   "filename": "candy-l-fontz.md",
   "full-name": "Candy L. Fontz",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/253-b1db41abfc32a1a5384559e566bb168a_IMG_6181.JPG",
   "last-name": "Fontz",
   "party": "Democrat",

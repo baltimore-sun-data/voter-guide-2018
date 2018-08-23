@@ -7,6 +7,7 @@
   "education": "Bachelor of Science in Government and Politics, University of Maryland- College Park Juris Doctor from Catholic University, Columbus School of Law Master of Laws in International and Comparative Law, University of Maryland, Francis King Carey School of Law",
   "filename": "greg-jennings.md",
   "full-name": "Greg Jennings",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-f6dda0fed08f93a822b32a5565779356_Headshot.jpg",
   "last-name": "Jennings",
   "party": "Democrat",

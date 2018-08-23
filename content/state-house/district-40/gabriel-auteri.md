@@ -5,13 +5,13 @@
   "district": 40,
   "dob": "7/13/1986",
   "education": "I have a BA in political science and a Master of Arts in Teaching from Drew University, and a Law Degree and Business Degree from American University.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "gabriel-auteri.md",
   "full-name": "Gabriel Auteri",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-2a857c551d2dc7ff0b1c755615e97551_AuteriHeadshot.jpeg",
   "jurisdiction": "Baltimore City",
   "last-name": "Auteri",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

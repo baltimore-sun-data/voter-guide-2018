@@ -6,12 +6,13 @@
   "district": 4,
   "dob": "10/5/1973",
   "education": "B.A. in Sociology from Bowling Green State University; J.D. from the University of Maryland School of Law; Certificate in Civic Sector Leadership, National Human Services Assembly and the Mendoza College of Business at the University of Notre Dame.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "tara-huffman.md",
   "full-name": "Tara Huffman",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/117-ec47ae59cb3e781d5514d12d813cd11d_HuffmanApril-63_cropped_small.jpg",
   "last-name": "Huffman",
   "party": "Non-Partisan",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "questions": [
     {
       "question": "Why do you want to serve on the county school board?",

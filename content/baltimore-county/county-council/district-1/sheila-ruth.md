@@ -5,12 +5,13 @@
   "district": 1,
   "dob": "10/22/1963",
   "education": "In 1995 I earned a B.S. degree with Highest Honors in Liberal Arts and Technology: Computers, from Stevenson University, formerly Villa Julie College. I completed most of my college degree as a part-time student while working full-time, after taking a hiatus after graduation from Glenelg High School in Glenelg, Maryland.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "sheila-ruth.md",
   "full-name": "Sheila Ruth",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/44-84493c9a5c8ee31fd47de8e9bdf0a560_library-headshot.jpg",
   "last-name": "Ruth",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

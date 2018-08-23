@@ -4,6 +4,7 @@
   "district": 3,
   "filename": "joan-magnani.md",
   "full-name": "Joan Magnani",
+  "general-only": false,
   "last-name": "Magnani",
   "party": "Non-Partisan",
   "q1": "Why do you want to serve on the county school board?",

@@ -5,13 +5,13 @@
   "district": 40,
   "dob": "3/10/1979",
   "education": "B.S. Electrical Engineering",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "nick-mosby.md",
   "full-name": "Nick Mosby",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-2921fb5469b1adaa163a801d5d11a260_NickMosby_Headshot.png",
   "jurisdiction": "Baltimore City",
   "last-name": "Mosby",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

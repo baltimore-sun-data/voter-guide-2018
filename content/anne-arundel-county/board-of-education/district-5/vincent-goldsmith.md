@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "vincent-goldsmith.md",
   "full-name": "Vincent Goldsmith",
+  "general-only": false,
   "last-name": "Goldsmith",
   "party": "Non-Partisan",
   "race": "anne-arundel-county/board-of-education",

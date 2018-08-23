@@ -5,13 +5,13 @@
   "district": 11,
   "dob": "4/24/1971",
   "education": "Wellwood Elementary Pikesville Middle School Pikesville High School B.A. Johns Hopkins University J.D. Georgetown University Law Center",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "bobby-a-zirkin.md",
   "full-name": "Bobby A. Zirkin",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-9beed3bf0550798c830e321fe74cddc0_Zirkin_90717_6_preview.jpeg",
   "jurisdiction": "Baltimore County",
   "last-name": "Zirkin",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

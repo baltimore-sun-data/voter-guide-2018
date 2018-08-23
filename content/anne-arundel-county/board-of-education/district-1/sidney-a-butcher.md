@@ -7,6 +7,7 @@
   "education": "Bachelor of Science in Business Administration Florida A& M University  Juris Doctor University of Kansas School of Law",
   "filename": "sidney-a-butcher.md",
   "full-name": "Sidney A. Butcher",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/179-a8c2004fbb695717c5af4ee3769852cc_Profile_Pic.jpg",
   "last-name": "Butcher",
   "party": "Non-Partisan",

@@ -7,6 +7,7 @@
   "education": "I have an Associates of Arts degree in General Education, a Bachelor of Arts, Cum Laude, with Honors in English, graduated Phi Beta Kappa and a Juris Doctor from the University of Maryland School of Law.",
   "filename": "katherine-adelaide.md",
   "full-name": "Katherine Adelaide",
+  "general-only": false,
   "last-name": "Adelaide",
   "party": "Republican",
   "questions": [

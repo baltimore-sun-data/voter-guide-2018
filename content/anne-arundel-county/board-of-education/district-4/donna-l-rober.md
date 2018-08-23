@@ -5,6 +5,7 @@
   "education": "I am an alumna of Randolph-Macon Womans College, U of MD and AA Community College and hold the professional equivalent of a PhD. I am not a professional educator but have developed and taught specialized classes and mentored many individuals over the years.",
   "filename": "donna-l-rober.md",
   "full-name": "Donna L. Rober",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/95-6e49f4d76c515838f4145db1e862121e_headshot.jpg",
   "last-name": "Rober",
   "party": "Non-Partisan",

@@ -5,12 +5,12 @@
   "district": "42a",
   "dob": "2/28/1949",
   "education": "JD, University of Baltimore School of Law MA, American Studies, Bowling Green State University BA, American Studies, UMCP Teachers Certificate, Towson University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "stephen-lafferty.md",
   "full-name": "Stephen Lafferty",
   "jurisdiction": "Baltimore County",
   "last-name": "Lafferty",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

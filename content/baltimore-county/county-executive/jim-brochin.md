@@ -6,6 +6,7 @@
   "education": "Graduate of Baltimore County Public Schools; Fort Garrison Elementary, Pikesville Middle School and Pikesville High School University of North Carolina at Greensboro, BA in Political Science University of Maryland College Park, MA in International Relations with a concentration in Soviet Foreign Policy",
   "filename": "jim-brochin.md",
   "full-name": "Jim Brochin",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/245-e950e7267dc9338afee3011f1f5df499_000750.JPG",
   "last-name": "Brochin",
   "party": "Democrat",

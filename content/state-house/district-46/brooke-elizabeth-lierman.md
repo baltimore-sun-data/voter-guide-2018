@@ -5,13 +5,13 @@
   "district": 46,
   "dob": "2/14/1979",
   "education": "I graduated from Dartmouth College (A.B., '01) and the University of Texas School of Law (J.D. '08).",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "brooke-elizabeth-lierman.md",
   "full-name": "Brooke Elizabeth Lierman",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-c707203eb451c88463f9feec2f9d14c0_Brooke-Lierman-Headshot_%282%29_%282%29.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Lierman",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

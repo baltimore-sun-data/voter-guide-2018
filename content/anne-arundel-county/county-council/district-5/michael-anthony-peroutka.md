@@ -2,6 +2,7 @@
   "directory": "content/anne-arundel-county/county-council/district-5",
   "filename": "michael-anthony-peroutka.md",
   "full-name": "Michael Anthony Peroutka",
+  "general-only": false,
   "last-name": "Peroutka",
   "party": "Republican",
   "race-district": 5,

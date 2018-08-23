@@ -5,13 +5,13 @@
   "district": 8,
   "dob": "2/22/1950",
   "education": "The Catholic High School of Baltimore AA from Essex Community College in General Studies Continuing Studies at Towson University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "katherine-klausmeier.md",
   "full-name": "Katherine Klausmeier",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-70a9227cb86d129d1e2c147f2404286b_18595366_102412603683290_2097353710808540764_o.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Klausmeier",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

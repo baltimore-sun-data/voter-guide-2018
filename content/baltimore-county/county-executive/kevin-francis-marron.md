@@ -6,6 +6,7 @@
   "education": "8 yr  St. Rita  1 yr  Dundalk Jr. 3 yr Dundalk Sr. 2 yr DCC  Professional Designation  Real Property Administrator BOMI Facility Property Administrator BOMI Dual Designate RPA/FMA  Building Operations Management Institute = Current",
   "filename": "kevin-francis-marron.md",
   "full-name": "Kevin Francis Marron",
+  "general-only": false,
   "last-name": "Marron",
   "party": "Democrat",
   "questions": [

@@ -4,12 +4,13 @@
   "directory": "content/anne-arundel-county/county-council/district-7",
   "dob": "11/7/1973",
   "education": "Bachelor of Science, Frostburg State Class of 1995, Leadership Anne Arundel Flagship Class 2017",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "jonathan-boniface.md",
   "full-name": "Jonathan Boniface",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/99-b8f625186d18a8b5ef20121e8c22af0f_Boniface_J_Headshot.jpg",
   "last-name": "Boniface",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Should the county develop small area plans as part of the upcoming General Development Plan and Comprehensive rezoning process?",

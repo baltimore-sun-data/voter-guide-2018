@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "bill-dotson.md",
   "full-name": "Bill Dotson",
+  "general-only": false,
   "jurisdiction": "Charles County",
   "last-name": "Dotson",
   "party": "Republican",

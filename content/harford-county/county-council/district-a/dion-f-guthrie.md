@@ -7,6 +7,7 @@
   "education": "BA Antioch University, BA amd AA from McKendree School of Religion, AA Dundalk Community College, Academy of Excellence in Local Governance-University of Maryland, Harford County Sheriff's Academy, Harford Leadership Academy-Top 20 graduate of all time.",
   "filename": "dion-f-guthrie.md",
   "full-name": "Dion F. Guthrie",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/191-299203134629b86277c8bb0a56bcd425_CBB01981-CDED-45C5-AE4E-66B6D08D6689.jpeg",
   "last-name": "Guthrie",
   "party": "Democrat",

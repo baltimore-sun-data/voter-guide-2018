@@ -7,6 +7,7 @@
   "education": "I grew up in New Orleans and attended St. Mary's Dominican High School and Louisiana State University where I graduated with a B.S. in environmental management systems. Learning doesn't stop when school does. Living and working overseas taught me how to interact and engage with people of differing cultures and ideals. Moving from environmental to agricultural education challenged me to become knowledgeable about farming. And as a foster parent, I have learned first hand about the social safety net.",
   "filename": "bronwyn-mitchell-strong.md",
   "full-name": "Bronwyn Mitchell-Strong",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/191-4945ad51dff56386021a6f7a415593e3_Bronwyn-23295_%282%29.jpg",
   "last-name": "Mitchell-Strong",
   "party": "Democrat",

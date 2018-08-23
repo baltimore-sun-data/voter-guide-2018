@@ -4,6 +4,7 @@
   "district": 3,
   "filename": "michael-petrella.md",
   "full-name": "Michael Petrella",
+  "general-only": false,
   "last-name": "Petrella",
   "party": "Non-Partisan",
   "q1": "Why do you want to serve on the county school board?",

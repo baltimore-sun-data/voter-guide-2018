@@ -5,12 +5,12 @@
   "district": 43,
   "dob": "1/20/1976",
   "education": "I earned a B.S. in chemistry at Yale in New Haven, CT (1997) and then went to medical school at SUNY Downstate in Brooklyn, NY (2003). I did my internal medicine residency at Emory University and Grady Memorial Hospital in Atlanta, GA (2006). Mid-career, I completed a AAAS (American Association for the Advancement of Science) Policy & Technology Fellowship at the National Institutes of Health in Bethesda, MD (2011).",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "nilesh-kalyanaraman.md",
   "full-name": "Nilesh Kalyanaraman",
   "jurisdiction": "Baltimore City",
   "last-name": "Kalyanaraman",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

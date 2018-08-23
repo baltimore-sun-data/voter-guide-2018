@@ -5,13 +5,13 @@
   "district": 10,
   "dob": "5/1/1936",
   "education": "Ph.D UMD-College Park MA. Purdue University MA. NYU BA. Virginia State College",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "filename": "delores-g-kelley.md",
   "full-name": "Delores G. Kelley",
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-6c9d640e739ef40ffb441d514047057d_Kelley_Photo.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Kelley",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0621-county-legislative-endorsements-20180619-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

@@ -7,6 +7,7 @@
   "education": "- Some College \n- Veteran  \n- USAF Electronics School Keesler AFB MS",
   "filename": "ray-leone.md",
   "full-name": "Ray Leone",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/245-4ea69b6d6b6f8a935e10e7ab005c3ff0_26903734_445624399185890_2055779463444218126_n.jpg",
   "last-name": "Leone",
   "party": "Non-Partisan",
