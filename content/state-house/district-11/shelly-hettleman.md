@@ -1,5 +1,5 @@
 {
-  "age": 53,
+  "age": 54,
   "background": "Delegate Shelly Hettleman was elected in 2014 to represent the 11th district of Baltimore County in the Maryland General Assembly where she serves on the Appropriations Committee, the Joint Audit Committee, and the Joint Committee to End Homelessness. Prior to serving in the House of Delegates, Shelly was the Campaign Manager of the 2012 Ben Cardin for Senate campaign that resulted in Sen. Cardin's resounding re-election. She also co-led the Maryland Democratic Party Coordinated Campaign that was responsible for the re-election of the Maryland Democratic congressional delegation. In prior positions, Shelly was the founding director of the domestic violence program, CHANA, worked in financial resource development at The Associated: Jewish Community Federation of Baltimore, was the Project Director for the Jewish Women's Archive oral history project Weaving Women's Words: Baltimore Stories, was the Director of Government Relations for the non-profit advocacy organization, Parent Action, as well as for the Baltimore Jewish Council. Shelly began her professional career serving as a Legislative Assistant in the office of then-Congressman Cardin and on the staff of Sen. Barbara Mikulski's first campaign for U.S. Senate.",
   "directory": "content/state-house/district-11",
   "district": 11,

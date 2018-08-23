@@ -1,5 +1,5 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "- Past President Maryland PTA, Anne Arundel PTA  \n- Cable TV installation, Repair, Design and Management.  \n- Self Employed Distribution agent Baltimore Sun in AA County.  \n- Currently Retail Management.",
   "directory": "content/anne-arundel-county/board-of-education/district-7",
   "district": 7,

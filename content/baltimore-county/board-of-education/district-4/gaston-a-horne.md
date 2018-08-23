@@ -1,5 +1,5 @@
 {
-  "age": 28,
+  "age": 29,
   "background": "Currently I am a purchasing specialist with American Office. In the past I have worked as a driving instructor, a youth sports coach and a tutor, so I've been around students and children in Baltimore County for a very long time. My experience is varied and includes positions more associated with the arts and performance as well as business, vocational and educational jobs.",
   "contact": "horneforeducation@gmail.com",
   "directory": "content/baltimore-county/board-of-education/district-4",

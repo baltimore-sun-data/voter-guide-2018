@@ -1,5 +1,5 @@
 {
-  "age": 31,
+  "age": 32,
   "background": "I am a former high-school history teacher and I've worked for the Baltimore City Health Department for the last 3 years. I currently serve as the Chief Policy and Engagement Officer and General Counsel.",
   "directory": "content/state-house/district-40",
   "district": 40,

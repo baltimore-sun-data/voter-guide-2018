@@ -1,5 +1,5 @@
 {
-  "age": 34,
+  "age": 35,
   "background": "I began my public service career twelve years ago on the Ben Cardin for U.S. Senate campaign. I served as a member of Senator Cardin's legislative staff. There, I covered universal health care reform – finding ways to end healthcare disparities, improving the Children's Health Insurance Program, and related health and wellness issues.   After working in the U.S. Senate, I joined local 1199 Service Employees International Union (SEIU) where I continued efforts toward affordable health care by facilitating the implementation of a $4.6 million Green Grant issued by the U.S. Department of Labor. The grant provided workforce training to over 500 workers, reduced the carbon footprint of 9 health care institutions throughout Maryland, and promoted cost savings by increasing recycling on patient floors, using rechargeable batteries, and initiating composting programs.  I continue to advocate for working families, workforce development, and patient centered healthcare in my current role at Johns Hopkins Home Care Group. I serve as a hospital administrator working with Hopkins physicians to integrate an expansive health care software system that will enhance care for seniors and children across Maryland.",
   "directory": "content/state-house/district-46",
   "district": 46,

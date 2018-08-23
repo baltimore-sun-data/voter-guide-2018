@@ -1,5 +1,5 @@
 {
-  "age": 34,
+  "age": 35,
   "background": "Attorney, member of the Maryland Bar since 2011. Prior to law school, staff aide and membership coordinator.",
   "directory": "content/state-house/district-39",
   "district": 39,

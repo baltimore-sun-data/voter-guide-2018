@@ -1,5 +1,5 @@
 {
-  "age": 49,
+  "age": 50,
   "background": "I began my legal career working for the NAACP Legal Defense protecting civil rights. I soon became a law clerk to Judge David Mitchell in 1995 and in 1996, I was hired by Patricia Jessmy to become an Assistant State's Attorney. After working in the public sector, I moved to the private sector and worked for Schulman, Treem from 2004 to 2006. In 2006 is when I started my law firm, Bates and Garcia.",
   "directory": "content/baltimore-city/states-attorney",
   "dob": "9/7/1968",

@@ -1,5 +1,5 @@
 {
-  "age": 56,
+  "age": 57,
   "background": "3 YRS MILITARY 30 YRS. STEEL WORKER. 1 YR. RAILROAD(PBR) 1 TERM STATE SENATOR",
   "directory": "content/state-senate/district-6",
   "district": 6,

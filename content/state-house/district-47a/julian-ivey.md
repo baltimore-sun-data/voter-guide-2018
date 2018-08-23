@@ -1,5 +1,5 @@
 {
-  "age": 22,
+  "age": 23,
   "background": "Automobile marketing  Theatre - Broadway credited Actor, Assistant play director.  Real estate community liaison",
   "directory": "content/state-house/district-47a",
   "district": "47a",

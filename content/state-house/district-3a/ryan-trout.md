@@ -1,5 +1,5 @@
 {
-  "age": 32,
+  "age": 33,
   "background": "For nearly 10 years Ryan has worked with policymakers and service providers across Frederick to improve the lives of working families.  He served on the board of directors at the United Way of Frederick County, as the chairman of the Frederick County Affordable Housing Council, and worked for the Housing Authority of the City of Frederick, promoting opportunities for residents to thrive in Frederick. Ryan also served as Senator Ronald N. Young's Legislative Aid and currently works for the City of Baltimore as a legislative liaison and public information officer.",
   "directory": "content/state-house/district-3a",
   "district": "3a",

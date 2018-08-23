@@ -1,5 +1,5 @@
 {
-  "age": 66,
+  "age": 67,
   "background": "Small Business Owner Ocean City Board of Zoning Appeals, 1987-1990.  Ocean City Councilman 1990-1996.  Mayor of Ocean City, 1996-2006 House of Delegates, 38B, 2006-2010 State Senate, 2011-Present",
   "directory": "content/state-senate/district-38",
   "district": 38,

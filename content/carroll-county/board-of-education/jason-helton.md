@@ -1,5 +1,5 @@
 {
-  "age": 39,
+  "age": 40,
   "background": "For twenty years I have focused on a career in Information Technology, having worked for numerous public, government, and non-profit agencies. Additionally, I have owned a small business, worked in broadcasting (XM Satellite Radio), and am a freelance journalist (Village Voice Media, etc)",
   "directory": "content/carroll-county/board-of-education",
   "dob": "10/3/1978",

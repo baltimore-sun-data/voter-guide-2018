@@ -1,5 +1,5 @@
 {
-  "age": 80,
+  "age": 81,
   "background": "Served on 18 different Boards and Commissions thruout Harford County and the State of Maryland.",
   "directory": "content/harford-county/county-council/district-A",
   "district": "A",

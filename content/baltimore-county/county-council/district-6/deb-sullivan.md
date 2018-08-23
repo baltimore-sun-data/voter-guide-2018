@@ -1,5 +1,5 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "Co-owner Sullivan & Sons, Inc (family business)- Secretary since 1984 to present, BCPS Title 1 Program - Teacher's Aide 1986-1992, Sears, Roebuck & Co. - Sales & HR Trainer 1992-1997, John's Hopkins University- Patient Service Coordinator (outpatient Oncology) 1997-2006, owner of Sweet Fixation (candy / gift shop) 2006-2013.",
   "directory": "content/baltimore-county/county-council/district-6",
   "district": 6,

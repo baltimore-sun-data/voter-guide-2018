@@ -1,5 +1,5 @@
 {
-  "age": 44,
+  "age": 45,
   "background": "I have more than 17 years' experience as a litigator, policy advocate and nonprofit leader. As part of my work, I also own an LLC to deliver training and technical assistance to emerging and established nonprofit and public sector organizations to help them improve their infrastructure, impact and sustainability.",
   "contact": "tara.andrews73@gmail.com",
   "directory": "content/baltimore-county/board-of-education/district-4",

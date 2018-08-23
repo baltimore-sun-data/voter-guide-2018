@@ -1,5 +1,5 @@
 {
-  "age": 66,
+  "age": 67,
   "background": "Family business, U.S. Senate, U.S. House of Representatives Staff; Allegany County ,Md.;  Executive Director, Greater Westminster Development Corporation with City of Westminster",
   "directory": "content/carroll-county/county-commissioner/district-3",
   "district": 3,

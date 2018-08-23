@@ -1,5 +1,5 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "I have served as County Executive of Prince George's County from 2010 to present. Prior to serving as County Executive, I worked in private practice from 2009-2010. From 2003-2009, I was the executive director of a non profit organization that recruited and trained teachers to work in schools with diverse populations and urban problems. From 1994-2003, I served in the Maryland House of Delegates, representing legislative district 22B. After law school, I worked at the Peoples Involvement Corporation, where I worked as a community organizer to promote the general welfare of the citizens of the District of Columbia. I served for over 15 years as a JAG officer in the U.S. Army.",
   "directory": "content/governor",
   "dob": "10/24/1958",

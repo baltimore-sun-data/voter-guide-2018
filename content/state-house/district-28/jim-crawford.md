@@ -1,5 +1,5 @@
 {
-  "age": 70,
+  "age": 71,
   "background": "Owner, CEO, COO of 3 Corps employing over 100 each. Served on many for-profit and non-profit Boards, often in executive capacity. Advocate, promoted, and testified for many citizen and business issues.",
   "directory": "content/state-house/district-28",
   "district": 28,

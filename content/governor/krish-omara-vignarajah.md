@@ -1,5 +1,5 @@
 {
-  "age": 38,
+  "age": 39,
   "background": "I have had the privilege to work at the highest levels of business and government.   Most recently, I served as the Policy Director for Michelle Obama in the White House, where I led the Obama's signature multi-billion dollar Let Girls Learn initiative and managed different initiatives related to veterans, nutrition, and education.  I previously served as a senior policy advisor in State Department under Secretaries Clinton and Kerry, where I helped develop and oversee the Department's $51.6 billion budget and led programs in private sector investment, infrastructure, entrepreneurship, women's issues, engagement with youth and religious communities, and climate change.  Before joining the government, I gained valuable private sector experience by consulting for Fortune 100 companies with McKinsey and Company, practicing law at Jenner & Block, and teaching courses on International Relations as an Adjunct Professor at Georgetown University.",
   "directory": "content/governor",
   "dob": "9/16/1979",

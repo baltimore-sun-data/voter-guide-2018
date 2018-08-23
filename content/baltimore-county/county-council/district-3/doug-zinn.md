@@ -1,5 +1,5 @@
 {
-  "age": 68,
+  "age": 69,
   "background": "Federal and County government administrator for 32+ years and Researcher/Grant Writer for 8+ years",
   "directory": "content/baltimore-county/county-council/district-3",
   "district": 3,

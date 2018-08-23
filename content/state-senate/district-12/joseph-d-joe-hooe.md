@@ -1,5 +1,5 @@
 {
-  "age": 49,
+  "age": 50,
   "background": "I am the president and founder of The Tire Network, Inc. Since 1998, The Tire Network has become an integral part of the revitalized section of Federal Hill where it is located, providing residents with a local small business that they can be proud of. I am a certified Maryland State Inspector and past volunteer fire fighter. I have advised various commissions and consultants on how to maximize transportation efficiency and ensure that the vehicles on our roads are safe, reliable and environmentally friendly. I am a defender of small business and in 2012, I took on the Goodyear Tire & Rubber Company for trademark infringement and won. I have acted as a political liaison –aid for the Finnish Foreign Affairs Committee, and as a past trustee of the Lansdowne Improvement Association, I worked hard to defeat the Maglev train proposal that would have torn apart neighborhoods in the train's path, and as chair of the CSX Abandoned Utility Pole Committee, I fought against sagging abandoned utility poles, scoring a major victory against CSX Transportation.",
   "directory": "content/state-senate/district-12",
   "district": 12,

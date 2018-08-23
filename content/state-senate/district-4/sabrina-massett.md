@@ -1,5 +1,5 @@
 {
-  "age": 61,
+  "age": 62,
   "background": "30 plus years of experience in human services in Frederick and Washington Counties, leading to expertise in Medicaid, Affordable Health Care, and other social support programs, as well as substance abuse illness and mental health challenges.",
   "directory": "content/state-senate/district-4",
   "district": 4,

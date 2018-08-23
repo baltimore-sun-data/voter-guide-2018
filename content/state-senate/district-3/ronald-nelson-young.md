@@ -1,5 +1,5 @@
 {
-  "age": 77,
+  "age": 78,
   "background": "Teacher Restaurant - Convience Store Owner Full Time Mayor of Frederick Deputy Sec. Md.Dept. of Planning Deputy Sec. Md. Dept. of Natural Resources Town Manager - Indian Head MD Commercial Real Estate - Realtor State Senator",
   "directory": "content/state-senate/district-3",
   "district": 3,

@@ -1,5 +1,5 @@
 {
-  "age": 68,
+  "age": 69,
   "background": "32 years - Sales and Marketing Owned - Three Businesses Owner / Print Solutions - 20 years Former State Delegate - 12 years",
   "directory": "content/state-house/district-8",
   "district": 8,

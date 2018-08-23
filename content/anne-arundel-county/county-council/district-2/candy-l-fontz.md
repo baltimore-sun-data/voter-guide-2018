@@ -1,5 +1,5 @@
 {
-  "age": 51,
+  "age": 52,
   "background": "I am currently employed as an Executive Assistant for Electrical Workers, Inc. I was previously appointed as the Community and Constituent Services Liaison for former County Executive Laura Neuman. I also served as the Community Liaison for Delegate Ned Carey and Delegate Mark Chang.",
   "directory": "content/anne-arundel-county/county-council/district-2",
   "dob": "10/21/1966",

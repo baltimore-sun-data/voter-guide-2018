@@ -1,5 +1,5 @@
 {
-  "age": 43,
+  "age": 44,
   "background": "Howard County Council Administrator Chief of Staff to County Executive Ken Ulman Special Assistant to County Council Member Ken Ulman Training Manager, Volunteer Maryland AmeriCorps Member",
   "directory": "content/state-house/district-12",
   "district": 12,

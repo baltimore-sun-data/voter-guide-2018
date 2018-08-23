@@ -1,5 +1,5 @@
 {
-  "age": 73,
+  "age": 74,
   "background": "Teacher - Baltimore County Public School Assistant State's Attorney - Baltimore City State's Attorneys' Coordinator for Maryland Deputy State's Attorney - Howard County State's Attorney - Howard County",
   "directory": "content/state-house/district-12",
   "district": 12,

@@ -1,5 +1,5 @@
 {
-  "age": 35,
+  "age": 36,
   "background": "Journeyman Electrician with the International Brotherhood of Electrical Workers Local 24 / Small Business Owner",
   "directory": "content/state-senate/district-45",
   "district": 45,

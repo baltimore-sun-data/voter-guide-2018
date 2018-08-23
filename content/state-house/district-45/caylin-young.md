@@ -1,5 +1,5 @@
 {
-  "age": 30,
+  "age": 31,
   "background": "2013 -- Legislative Assistant, Office of Delegate Cheryl D. Glenn (D-45) 2013-2015 -- Community Liaison, Office of Delegate Cheryl D. Glenn  (D-45) 2013-2015 -- Community Liaison, Office of Senator Nathaniel J. McFadden (D-45) 2014 -- Legal Fellow, Office of United States Senator Cory A. Booker (D-NJ) 2015 -- Felony Unit Law Clerk and Citywide Liaison, Office of Baltimore City State's Attorney Marilyn J. Mosby 2015-2016 -- National Chairman, National Black Law Students Association 2017 -- Law Clerk, Law Offices of Bond & Taylor, LLP 2017 -- Attorney, Allen Keene, LLC.",
   "directory": "content/state-house/district-45",
   "district": 45,

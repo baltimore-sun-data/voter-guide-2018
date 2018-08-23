@@ -1,5 +1,5 @@
 {
-  "age": 29,
+  "age": 30,
   "background": "Over a decade of experience working in environmental, education, and budget policy and job creation. Served as the Government Affairs Director for the National Aquarium, where she advocated for legislation to help protect the Chesapeake Bay and protect local wildlife. As an advocate for the Aquarium, Sarah successfully secured funding for capital projects and funding to allow hundreds of thousands of Maryland schoolchildren to visit the Aquarium free of charge, and worked to expand access to the Aquarium for all Marylanders. She later Senior Director of University Projects at Margrave Strategies, Sarah worked with universities to implement economic development plans and to revitalize local communities, all while creating 21st century jobs. Sarah currently consults for the National Aquarium, project managing the Marine Conservation District project.",
   "directory": "content/state-senate/district-30",
   "district": 30,

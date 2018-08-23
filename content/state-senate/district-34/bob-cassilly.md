@@ -1,5 +1,5 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "Attorney practicing in Maryland since 1988 Former Army officer",
   "directory": "content/state-senate/district-34",
   "district": 34,
