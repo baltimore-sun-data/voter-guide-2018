@@ -7,6 +7,7 @@
   "education": "An alumnus of the prestigious Berklee College of Music B.A.  Furthered formal education at M.I.T taking a series of Entrepreneurship studies under Bill Aulet and Law/Justice/Philosophy with Professor Michael Sandel at Harvard University. As a life-learner Sarahia Benn has studied American, African American & International History, theology, philosophy, psychology, and sociology.",
   "filename": "sarahia-benn.md",
   "full-name": "Sarahia Benn",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-d2063f0045787fefd36c855bbbeda380_27066830_185442432206324_5804395541623516729_n.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Benn",

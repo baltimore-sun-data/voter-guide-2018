@@ -3,6 +3,7 @@
   "district": "23a",
   "filename": "shabnam-ahmed.md",
   "full-name": "Shabnam Ahmed",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Ahmed",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "Benedictine High School, Richmond, VA B. A. Bus Adm and Banking, Colorado College M. A, economics, University of Colorado B. A. International Management,  Thunderbird Graduate School of International Management M. M. A. Marine Affairs, Univ of Rhode Islandl",
   "filename": "george-english.md",
   "full-name": "George English",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "English",
   "party": "Democrat",

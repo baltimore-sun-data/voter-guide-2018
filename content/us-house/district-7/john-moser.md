@@ -7,6 +7,7 @@
   "education": "Eastern Technical High School, 2003 Associate's Degree in Networking Technologies, CCBCMD",
   "filename": "john-moser.md",
   "full-name": "John Moser",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/179-df63a9abb86fe4bec6a06486fa807a6b_4dP2OT5g_400x400.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Moser",

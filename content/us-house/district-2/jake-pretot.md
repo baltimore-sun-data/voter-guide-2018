@@ -3,6 +3,7 @@
   "district": 2,
   "filename": "jake-pretot.md",
   "full-name": "Jake Pretot",
+  "general-only": false,
   "jurisdiction": "Howard County",
   "last-name": "Pretot",
   "party": "Democrat",

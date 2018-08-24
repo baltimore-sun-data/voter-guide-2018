@@ -3,6 +3,7 @@
   "district": 1,
   "filename": "lamont-taylor.md",
   "full-name": "Lamont Taylor",
+  "general-only": false,
   "jurisdiction": "Caroline County",
   "last-name": "Taylor",
   "party": "Republican",

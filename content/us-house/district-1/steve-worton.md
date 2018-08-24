@@ -7,6 +7,7 @@
   "education": "Masters Plus",
   "filename": "steve-worton.md",
   "full-name": "Steve Worton",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-3b62a75364f51fefef851d69c8dbb61e_pic_for_match_game.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Worton",

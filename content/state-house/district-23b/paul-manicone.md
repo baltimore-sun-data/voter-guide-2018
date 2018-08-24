@@ -7,6 +7,7 @@
   "education": "M.D. Sackler School of Medicine 2001 B.A. New York University 1994",
   "filename": "paul-manicone.md",
   "full-name": "Paul Manicone",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-f9215ce349c87b60051c360d6f5c33e8_PM_Headshot_Photo_2015.png",
   "jurisdiction": "Prince George's County",
   "last-name": "Manicone",

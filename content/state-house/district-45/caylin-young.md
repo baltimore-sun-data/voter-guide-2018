@@ -7,6 +7,7 @@
   "education": "High School: Baltimore City College  Undergraduate: Bachelor's of Science in Mathematics from Hampton University  Graduate: Juris Doctorate from the University of Baltimore School of Law",
   "filename": "caylin-young.md",
   "full-name": "Caylin Young",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Young",
   "party": "Democrat",

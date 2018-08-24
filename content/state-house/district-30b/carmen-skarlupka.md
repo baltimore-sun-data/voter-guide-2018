@@ -3,6 +3,7 @@
   "district": "30b",
   "filename": "carmen-skarlupka.md",
   "full-name": "Carmen Skarlupka",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Skarlupka",
   "party": "Democrat",

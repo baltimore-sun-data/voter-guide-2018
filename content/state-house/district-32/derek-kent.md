@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "derek-kent.md",
   "full-name": "Derek Kent",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Kent",
   "party": "Democrat",

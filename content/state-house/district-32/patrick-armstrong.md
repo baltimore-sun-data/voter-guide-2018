@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "patrick-armstrong.md",
   "full-name": "Patrick Armstrong",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Armstrong",
   "party": "Democrat",

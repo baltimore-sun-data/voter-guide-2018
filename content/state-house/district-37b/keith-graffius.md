@@ -3,6 +3,7 @@
   "district": "37b",
   "filename": "keith-graffius.md",
   "full-name": "Keith Graffius",
+  "general-only": false,
   "jurisdiction": "Dorchester County",
   "last-name": "Graffius",
   "party": "Republican",

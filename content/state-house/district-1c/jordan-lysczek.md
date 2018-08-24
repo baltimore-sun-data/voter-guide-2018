@@ -7,6 +7,7 @@
   "education": "J.D.-Penn State Law B.A.-Hood College",
   "filename": "jordan-lysczek.md",
   "full-name": "Jordan Lysczek",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-25aa4d31922e981013337889dfce7e3c_jordan_headshot3.jpg",
   "jurisdiction": "Washington County",
   "last-name": "Lysczek",

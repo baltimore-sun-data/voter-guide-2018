@@ -3,6 +3,7 @@
   "district": "23b",
   "filename": "denise-tyler.md",
   "full-name": "Denise Tyler",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Tyler",
   "party": "Democrat",

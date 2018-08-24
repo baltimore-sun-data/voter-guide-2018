@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "kevin-mack.md",
   "full-name": "Kevin Mack",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Mack",
   "party": "Democrat",

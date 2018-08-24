@@ -7,6 +7,7 @@
   "education": "I have a bachelor's degree in mathematics from the University of Maryland. I also have a master of public administration from the University of Baltimore and a Ph.D. in public policy from UMBC.",
   "filename": "james-howard.md",
   "full-name": "James Howard",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-09e2ea757df01a6246f3318047149d4b_JHDelegate_-_Headshot_-_1200.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Howard",

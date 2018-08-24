@@ -7,6 +7,7 @@
   "education": "BS in Elementary Education, Miami University, Ohio MS in Educational Leadership, College of Notre Dame, Maryland ABD(All but Dissertation) Educational Leadership, Curriculum and Instruction, University of Phoenix",
   "filename": "stephanie-boston.md",
   "full-name": "Stephanie Boston",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-450184a26ac1b37b54da607c465ff7b9_T49_0175.JPG",
   "jurisdiction": "Baltimore County",
   "last-name": "Boston",

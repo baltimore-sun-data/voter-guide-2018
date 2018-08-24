@@ -7,6 +7,7 @@
   "education": "Associate of Arts Degree, Paralegal Studies Bachelor of Arts Degree, Labor Studies Law School Student, Currently",
   "filename": "bishop-barry-chapman.md",
   "full-name": "Bishop Barry Chapman",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-094b3c8ed6460d63828800c707d4ace8_DSC_0190.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Chapman",

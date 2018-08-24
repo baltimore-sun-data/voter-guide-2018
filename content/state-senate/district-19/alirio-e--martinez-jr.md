@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "alirio-e--martinez-jr.md",
   "full-name": "Alirio E.  Martinez Jr.",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Martinez",
   "party": "Republican",

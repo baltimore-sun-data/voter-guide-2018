@@ -3,6 +3,7 @@
   "district": 20,
   "filename": "darian-unger.md",
   "full-name": "Darian Unger",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Unger",
   "party": "Democrat",

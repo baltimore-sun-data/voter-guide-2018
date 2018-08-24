@@ -3,6 +3,7 @@
   "district": 29,
   "filename": "thomas-brewer.md",
   "full-name": "Thomas Brewer",
+  "general-only": false,
   "jurisdiction": "St. Mary's County",
   "last-name": "Brewer",
   "party": "Democrat",

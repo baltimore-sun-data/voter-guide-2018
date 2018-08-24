@@ -7,6 +7,7 @@
   "education": "I obtained my Bachelor of Science in Political Science from Bowie State University in 2012 and I am pursuing my Master of Social Work degree with a concentration in Community, Administration and Policy at the Howard University School of Social Work.",
   "filename": "kevin-samuel-thomas.md",
   "full-name": "Kevin Samuel Thomas",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-fff6ef8896c58ea74c998940956e9584_P16.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Thomas",

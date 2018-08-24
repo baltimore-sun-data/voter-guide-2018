@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "rob-seyfferth.md",
   "full-name": "Rob Seyfferth",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Seyfferth",
   "party": "Republican",

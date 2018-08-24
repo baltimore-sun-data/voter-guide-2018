@@ -7,6 +7,7 @@
   "education": "Bachelor of Science, Xavier University of Louisiana Master of Business Administration, University of New Orleans Honorary Doctorate, Bowie State University",
   "filename": "tim-adams.md",
   "full-name": "Tim Adams",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Adams",
   "party": "Democrat",

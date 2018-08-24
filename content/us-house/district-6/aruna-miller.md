@@ -7,6 +7,7 @@
   "education": "Bachelors in Civil Engineering - University of Missouri - Rolla",
   "filename": "aruna-miller.md",
   "full-name": "Aruna Miller",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/245-d49f474b440fb393979e0fca9e77b496_Miller_Headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Miller",

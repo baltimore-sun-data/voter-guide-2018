@@ -7,6 +7,7 @@
   "education": "Hood College, BA in Sociology, Social Work concentration",
   "filename": "sabrina-massett.md",
   "full-name": "Sabrina Massett",
+  "general-only": false,
   "jurisdiction": "Frederick County",
   "last-name": "Massett",
   "party": "Democrat",

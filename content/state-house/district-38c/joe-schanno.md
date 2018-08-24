@@ -3,6 +3,7 @@
   "district": "38c",
   "filename": "joe-schanno.md",
   "full-name": "Joe Schanno",
+  "general-only": false,
   "jurisdiction": "Worcester County",
   "last-name": "Schanno",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "george-johnson.md",
   "full-name": "George Johnson",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Johnson",
   "party": "Democrat",

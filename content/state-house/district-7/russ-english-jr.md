@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "russ-english-jr.md",
   "full-name": "Russ English Jr.",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "English",
   "party": "Republican",

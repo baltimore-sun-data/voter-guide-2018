@@ -7,6 +7,7 @@
   "education": "I hold a Master of Social Sciences degree from the University of Helsinki, Finland.",
   "filename": "tommi-makila.md",
   "full-name": "Tommi Makila",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-6b2416c7324febb2ee4c112988d6f693_TMheadshot1_smaller_cropped.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Makila",

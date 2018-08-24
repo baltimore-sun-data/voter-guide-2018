@@ -7,6 +7,7 @@
   "education": "Studied Construction Management and Drafting at Anne Arundel Community College",
   "filename": "david-seman.md",
   "full-name": "David Seman",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-cd2201839cf2b5cb5ebdd0559ac64b13__LEO0105.JPG",
   "jurisdiction": "Harford County",
   "last-name": "Seman",

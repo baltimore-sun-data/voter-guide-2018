@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "bobby-bartlett.md",
   "full-name": "Bobby Bartlett",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Bartlett",
   "party": "Democrat",

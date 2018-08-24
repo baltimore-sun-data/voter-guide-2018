@@ -7,6 +7,7 @@
   "education": "Hampton University, BA  Political Science University of Yeshiva, Cardozo School of Law",
   "filename": "angela-m-angel.md",
   "full-name": "Angela M. Angel",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Angel",
   "party": "Democrat",

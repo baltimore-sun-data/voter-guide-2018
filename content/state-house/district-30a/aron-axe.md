@@ -3,6 +3,7 @@
   "district": "30a",
   "filename": "aron-axe.md",
   "full-name": "Aron Axe",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Axe",
   "party": "Democrat",

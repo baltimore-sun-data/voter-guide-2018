@@ -7,6 +7,7 @@
   "education": "I graduated Sollers Point Tech with honors and Dundalk High School. I began attending CCBC Dundalk during my last year of High School and continued at CCBC Essex.",
   "filename": "dave-rader.md",
   "full-name": "Dave Rader",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/245-eaf1778742529582274e6ccab532c182_SPG_0734-2_RT2_RT.jpg",
   "last-name": "Rader",
   "party": "Republican",

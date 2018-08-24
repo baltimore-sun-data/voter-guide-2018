@@ -3,6 +3,7 @@
   "district": 40,
   "filename": "blair-ducray.md",
   "full-name": "Blair DuCray",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "DuCray",
   "party": "Democrat",

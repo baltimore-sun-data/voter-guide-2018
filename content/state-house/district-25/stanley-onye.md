@@ -7,6 +7,7 @@
   "education": "Ph.D Government & Politics MA Public Administration and Political Science",
   "filename": "stanley-onye.md",
   "full-name": "Stanley Onye",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Onye",
   "party": "Democrat",

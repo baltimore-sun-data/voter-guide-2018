@@ -7,6 +7,7 @@
   "education": "AA Degree in Dental Hygiene 3 years apprentice  Interior Decorating",
   "filename": "jan-marie-christensen.md",
   "full-name": "Jan Marie Christensen",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Christensen",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "sia-finoh.md",
   "full-name": "Sia Finoh",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Finoh",
   "party": "Democrat",

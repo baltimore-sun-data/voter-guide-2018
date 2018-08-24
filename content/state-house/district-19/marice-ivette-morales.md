@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "marice-ivette-morales.md",
   "full-name": "Marice Ivette Morales",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Morales",
   "party": "Democrat",

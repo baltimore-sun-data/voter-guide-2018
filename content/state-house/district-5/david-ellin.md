@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "david-ellin.md",
   "full-name": "David Ellin",
+  "general-only": false,
   "jurisdiction": "Carroll County",
   "last-name": "Ellin",
   "party": "Republican",

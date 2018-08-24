@@ -3,6 +3,7 @@
   "district": 10,
   "filename": "lawrence-williams.md",
   "full-name": "Lawrence Williams",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Williams",
   "party": "Democrat",

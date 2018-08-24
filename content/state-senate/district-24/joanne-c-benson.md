@@ -7,6 +7,7 @@
   "education": "I am a graduate of South Hampton High School, B.S. Degree – Bowie State University and M.A. Degree – Catholic University",
   "filename": "joanne-c-benson.md",
   "full-name": "Joanne C. Benson",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-a32dae769079c1580d8a480ef43c4fca_Senator_Benson_2014.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Benson",

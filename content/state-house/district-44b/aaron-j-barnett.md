@@ -3,6 +3,7 @@
   "district": "44b",
   "filename": "aaron-j-barnett.md",
   "full-name": "Aaron J. Barnett",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Barnett",
   "party": "Democrat",

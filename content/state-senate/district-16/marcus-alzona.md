@@ -3,6 +3,7 @@
   "district": 16,
   "filename": "marcus-alzona.md",
   "full-name": "Marcus Alzona",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Alzona",
   "party": "Republican",

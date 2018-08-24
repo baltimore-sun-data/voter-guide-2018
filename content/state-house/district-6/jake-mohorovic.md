@@ -7,6 +7,7 @@
   "education": "Dundalk High School   Towson State University, Bachelor of Science political science.  University of Baltimore,  Master of Public Administration.",
   "filename": "jake-mohorovic.md",
   "full-name": "Jake Mohorovic",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-5d56d74806ae6d4e505cb985ac7116e8_FB_IMG_1512406301374.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Mohorovic",

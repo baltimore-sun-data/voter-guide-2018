@@ -7,6 +7,7 @@
   "education": "Perry Hall High School",
   "filename": "bill-paulshock.md",
   "full-name": "Bill Paulshock",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Paulshock",
   "party": "Republican",

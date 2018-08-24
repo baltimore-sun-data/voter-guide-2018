@@ -3,6 +3,7 @@
   "district": "37b",
   "filename": "mimi-gedamu.md",
   "full-name": "Mimi Gedamu",
+  "general-only": false,
   "jurisdiction": "Wicomico County",
   "last-name": "Gedamu",
   "party": "Republican",

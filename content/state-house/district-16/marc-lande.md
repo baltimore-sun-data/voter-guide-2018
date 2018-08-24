@@ -7,6 +7,7 @@
   "education": "Guilford College, BA Anthropology Peace and Justice Minor, 1995 Bethesda Chevy Chase High School, Diploma, 1991 Montgomery College, Certified Nursing Assistant, 2010",
   "filename": "marc-lande.md",
   "full-name": "Marc Lande",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Lande",
   "party": "Democrat",

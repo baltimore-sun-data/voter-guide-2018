@@ -3,6 +3,7 @@
   "district": "42b",
   "filename": "justin-kinsey.md",
   "full-name": "Justin Kinsey",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Kinsey",
   "party": "Republican",

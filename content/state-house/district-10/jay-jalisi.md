@@ -7,6 +7,7 @@
   "education": "Medical Doctor",
   "filename": "jay-jalisi.md",
   "full-name": "Jay Jalisi",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-19e9a31fbe163df02d6aa29f75914fef_CAB05FC0-2533-4492-80CA-EBB78526499E.jpeg",
   "jurisdiction": "Baltimore County",
   "last-name": "Jalisi",

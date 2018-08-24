@@ -7,6 +7,7 @@
   "education": "I have a BA in political science and a Master of Arts in Teaching from Drew University, and a Law Degree and Business Degree from American University.",
   "filename": "gabriel-auteri.md",
   "full-name": "Gabriel Auteri",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-2a857c551d2dc7ff0b1c755615e97551_AuteriHeadshot.jpeg",
   "jurisdiction": "Baltimore City",
   "last-name": "Auteri",

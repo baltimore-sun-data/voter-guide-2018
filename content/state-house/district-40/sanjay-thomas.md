@@ -7,6 +7,7 @@
   "education": "As a proud Terp alumnus, I attended the University of Maryland at College Park, receiving a Bachelor of Science in Finance, with Honors, a Bachelor of Arts in Economics, and a Citation in Philosophy. I went on to Washington and Lee University School of Law, earning a Juris Doctor degree.",
   "filename": "sanjay-thomas.md",
   "full-name": "Sanjay Thomas",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-f323b04c94e5f9e4063d97e978854c3b_IMG_6165.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Thomas",

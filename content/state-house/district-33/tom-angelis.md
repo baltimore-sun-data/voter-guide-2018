@@ -3,6 +3,7 @@
   "district": 33,
   "filename": "tom-angelis.md",
   "full-name": "Tom Angelis",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Angelis",
   "party": "Republican",

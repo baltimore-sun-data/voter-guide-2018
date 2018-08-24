@@ -3,6 +3,7 @@
   "district": 2,
   "filename": "mark-shell.md",
   "full-name": "Mark Shell",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Shell",
   "party": "Republican",

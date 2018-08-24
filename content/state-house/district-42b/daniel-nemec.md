@@ -7,6 +7,7 @@
   "education": "University of Maryland Bachelor of Science, Accounting Bachelor of Science, Operations Management",
   "filename": "daniel-nemec.md",
   "full-name": "Daniel Nemec",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-ac8796e4da13b3e686013e480e615b51_headshot-why.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Nemec",

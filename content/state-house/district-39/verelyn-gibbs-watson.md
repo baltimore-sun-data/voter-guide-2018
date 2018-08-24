@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "verelyn-gibbs-watson.md",
   "full-name": "Verelyn Gibbs Watson",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Gibbs Watson",
   "party": "Republican",

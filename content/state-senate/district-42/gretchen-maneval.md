@@ -3,6 +3,7 @@
   "district": 42,
   "filename": "gretchen-maneval.md",
   "full-name": "Gretchen Maneval",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Maneval",
   "party": "Democrat",

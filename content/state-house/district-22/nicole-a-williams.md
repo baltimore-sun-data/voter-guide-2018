@@ -3,6 +3,7 @@
   "district": 22,
   "filename": "nicole-a-williams.md",
   "full-name": "Nicole A. Williams",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Williams",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 17,
   "filename": "rebecca-smondrowski.md",
   "full-name": "Rebecca Smondrowski",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Smondrowski",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "Masters of International Management, University of Maryland University College, College Park, Maryland, 2002 Masters of Law, Dhaka University, Bangladesh, 1980 Bachelor of Law, Dhaka University, Bangladesh, 1978",
   "filename": "anis-ahmed.md",
   "full-name": "Anis Ahmed",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/247-bdc70c51cf135fd1b94580d11533c57e_Anis_Ahhmed_pic_1.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Ahmed",

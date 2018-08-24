@@ -7,6 +7,7 @@
   "education": "Bachelor of Arts, Government & International Politics, 2006, George Mason University Juris Doctorate, University of Baltimore School of Law, 2011",
   "filename": "andy-hoverman.md",
   "full-name": "Andy Hoverman",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-0dd179674aa9c077d0953b81b18872d3_Andy_Hoverman.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Hoverman",

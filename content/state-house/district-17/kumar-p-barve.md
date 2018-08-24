@@ -7,6 +7,7 @@
   "education": "Georgetown University, Bachelor of Science, Accounting, 1980  Attended K-12 in the Montgomery County Public School System",
   "filename": "kumar-p-barve.md",
   "full-name": "Kumar P. Barve",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Barve",
   "party": "Democrat",

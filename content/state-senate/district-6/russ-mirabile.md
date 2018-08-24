@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "russ-mirabile.md",
   "full-name": "Russ Mirabile",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Mirabile",
   "party": "Democrat",

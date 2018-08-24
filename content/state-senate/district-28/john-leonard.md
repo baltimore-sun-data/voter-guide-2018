@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "john-leonard.md",
   "full-name": "John Leonard",
+  "general-only": false,
   "jurisdiction": "Charles County",
   "last-name": "Leonard",
   "party": "Republican",

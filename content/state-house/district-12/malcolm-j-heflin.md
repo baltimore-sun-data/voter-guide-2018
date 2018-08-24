@@ -7,6 +7,7 @@
   "education": "I am currently a full-time student at UMBC, majoring in statistics.",
   "filename": "malcolm-j-heflin.md",
   "full-name": "Malcolm J. Heflin",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-113276cdb8e48e844ca6467b78450112_Heflin_Headshot.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Heflin",

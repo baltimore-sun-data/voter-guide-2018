@@ -7,6 +7,7 @@
   "education": "I hold a Bachelors Degree in Government from the University of Maryland, and a Masters in Public Policy with an environmental policy specialization from the University of Maryland, College Park.",
   "filename": "matt-dernoga.md",
   "full-name": "Matt Dernoga",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-c69df19b1df4b07352f940084211d624_Headshot_smaller_size.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Dernoga",

@@ -3,6 +3,7 @@
   "district": 27,
   "filename": "roussan-rou--etienne-jr.md",
   "full-name": "Roussan \"Rou\"  Etienne Jr.",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Etienne",
   "party": "Republican",

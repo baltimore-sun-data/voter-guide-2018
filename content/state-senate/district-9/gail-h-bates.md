@@ -3,6 +3,7 @@
   "district": 9,
   "filename": "gail-h-bates.md",
   "full-name": "Gail H. Bates",
+  "general-only": false,
   "jurisdiction": "Howard County",
   "last-name": "Bates",
   "party": "Republican",

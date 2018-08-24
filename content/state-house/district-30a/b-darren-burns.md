@@ -7,6 +7,7 @@
   "education": "College of William & Mary, J.D. (1990) Hampden-Sydney College, B.A. (1986) Severn School (1982)",
   "filename": "b-darren-burns.md",
   "full-name": "B. Darren Burns",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/104-174c2a083d29860dab0eb8d5eb5ddc18_BURNS_darren_photo.pdf",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Burns",

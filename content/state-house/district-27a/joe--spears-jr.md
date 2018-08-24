@@ -3,6 +3,7 @@
   "district": "27a",
   "filename": "joe--spears-jr.md",
   "full-name": "Joe  Spears Jr.",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Spears",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "Boston College—BA magna cum laude  Johns Hopkins University--MS Academy for Excellence in Local Governance",
   "filename": "mary-kay-sigaty.md",
   "full-name": "Mary Kay Sigaty",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-b7321545fc9c5ee836c0cb61a0099e90_MKS_closecrop.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Sigaty",

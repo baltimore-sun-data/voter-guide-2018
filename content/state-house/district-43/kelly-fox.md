@@ -3,6 +3,7 @@
   "district": 43,
   "filename": "kelly-fox.md",
   "full-name": "Kelly Fox",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Fox",
   "party": "Democrat",

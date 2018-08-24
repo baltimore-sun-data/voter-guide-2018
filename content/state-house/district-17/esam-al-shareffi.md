@@ -7,6 +7,7 @@
   "education": "B.S. (Chemistry), 2006 Ph.D. (Biochemistry), 2014 M.D., 2016 All degrees earned from Stony Brook University, in Stony Brook, NY",
   "filename": "esam-al-shareffi.md",
   "full-name": "Esam Al-Shareffi",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-8b89d64c11e775ec052dcbbdfccf651f_Esam-Al-Shareffi.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Al-Shareffi",

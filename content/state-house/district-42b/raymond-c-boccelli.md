@@ -3,6 +3,7 @@
   "district": "42b",
   "filename": "raymond-c-boccelli.md",
   "full-name": "Raymond C. Boccelli",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Boccelli",
   "party": "Republican",

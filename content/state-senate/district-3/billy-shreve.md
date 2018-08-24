@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "billy-shreve.md",
   "full-name": "Billy Shreve",
+  "general-only": false,
   "jurisdiction": "Frederick County",
   "last-name": "Shreve",
   "party": "Republican",

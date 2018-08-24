@@ -7,6 +7,7 @@
   "education": "Mount St. Mary's University (College), B.A. History, magna cum laude, 1983.",
   "filename": "jennifer-dougherty.md",
   "full-name": "Jennifer Dougherty",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-47b4cc32350bf3f9eaf0acbbed6cc762_jennifer-annapolis-stone-headshot.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Dougherty",

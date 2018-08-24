@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "william-t-newton.md",
   "full-name": "William T. Newton",
+  "general-only": false,
   "last-name": "Newton",
   "party": "Republican",
   "race": "us-house",

@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "tiffany-alston.md",
   "full-name": "Tiffany Alston",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Alston",
   "party": "Democrat",

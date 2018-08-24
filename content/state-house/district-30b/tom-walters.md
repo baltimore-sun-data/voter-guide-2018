@@ -3,6 +3,7 @@
   "district": "30b",
   "filename": "tom-walters.md",
   "full-name": "Tom Walters",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Walters",
   "party": "Republican",

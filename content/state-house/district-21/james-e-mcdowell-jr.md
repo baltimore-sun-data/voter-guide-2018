@@ -7,6 +7,7 @@
   "education": "Masters in Educational Leadership - Walden Univ. B.A.  in Public Justice & Administration - SUNY Oswego A.O.S in Paralegal Studies - Bryant & Stratton",
   "filename": "james-e-mcdowell-jr.md",
   "full-name": "James E. McDowell Jr.",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-e009b688cbe6441b9e09ff61057218bd_McDowell_Campaign_Pic_2018.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "McDowell",

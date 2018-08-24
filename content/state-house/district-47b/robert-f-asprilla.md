@@ -3,6 +3,7 @@
   "district": "47b",
   "filename": "robert-f-asprilla.md",
   "full-name": "Robert F. Asprilla",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Asprilla",
   "party": "Democrat",

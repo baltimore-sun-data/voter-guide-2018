@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "maureen-bryant.md",
   "full-name": "Maureen Bryant",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Bryant",
   "party": "Republican",

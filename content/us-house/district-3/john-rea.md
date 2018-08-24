@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "john-rea.md",
   "full-name": "John Rea",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Rea",
   "party": "Democrat",

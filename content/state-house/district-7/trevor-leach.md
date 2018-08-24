@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "trevor-leach.md",
   "full-name": "Trevor Leach",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Leach",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "MBA, Robert H. Smith School of Business, University of Maryland Master of Public Administration, University of Delaware Bachelor of Science, Towson University",
   "filename": "michael-a-geppi.md",
   "full-name": "Michael A. Geppi",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/247-104c5157849172173a6385428c538938_Mike_Geppi_With_Tie_.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Geppi",

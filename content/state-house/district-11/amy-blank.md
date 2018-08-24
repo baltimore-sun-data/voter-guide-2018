@@ -7,6 +7,7 @@
   "education": "- Secondary Education, Milford Mill High School, Baltimore, MD.  - Undergraduate Education, B.A. in Community Service Administration, Metropolitan State College, Denver, CO.",
   "filename": "amy-blank.md",
   "full-name": "Amy Blank",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/104-f77efea37238779299752fbb8ecb218b_5K8A9265_%281%29.jpeg",
   "jurisdiction": "Baltimore County",
   "last-name": "Blank",

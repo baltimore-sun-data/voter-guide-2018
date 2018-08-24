@@ -7,6 +7,7 @@
   "education": "I earned a B.A. in Biochemistry and Molecular Biology, with a minor in English, from Cornell College. I received my Ph.D. in the Biomedical Sciences, with a concentration in Biochemistry and Cancer Biology, from the MD Anderson Cancer Center – UT Health Graduate School of Biomedical Sciences. I completed my postdoctoral studies as a National Science Foundation – Defense Threat Reduction Agency fellow at the United States Army Medical Research Institute of Infectious Diseases.",
   "filename": "jennifer-m-brannan.md",
   "full-name": "Jennifer M. Brannan",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-865cc77db10bc1a25d8db3db24510bf6_Brannan.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Brannan",

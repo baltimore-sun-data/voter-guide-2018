@@ -7,6 +7,7 @@
   "education": "I am a graduate of Northwestern High School in Baltimore City; Williams College in Williamstown , Massachusetts (B.A.) and Northwestern University Kellogg Graduate School of Management (M.B.A.)",
   "filename": "linda-dorsey-walker.md",
   "full-name": "Linda Dorsey-Walker",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-89b90ba700ee0b9af7cc6428986819fa_2017_LINDA_DORSEY_WALKER_HEADSHOT_%2809_17_17%29_%284%29.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Dorsey-Walker",

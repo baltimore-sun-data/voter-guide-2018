@@ -7,6 +7,7 @@
   "education": "Criminal Justice, law enforcement, Fire Service, Emergency medical, public health and Safety",
   "filename": "anthony-sr-carter.md",
   "full-name": "Anthony Sr. Carter",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Carter",
   "party": "Democrat",

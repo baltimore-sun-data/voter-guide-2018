@@ -7,6 +7,7 @@
   "education": "I graduated from Temple University in Philadelphia, PA in 2006 with a Bachelor of Arts degree in mathematical economics and political science and a minor in physics. I went on to earn a master's degree in 2008 from American University's School of Public Affairs. I then completed my law degree with honors from the University of Mississippi School of Law in 2013. I also earned a second master's degree from the University of North Dakota's Space Studies program in 2015.",
   "filename": "christopher-hearsey.md",
   "full-name": "Christopher Hearsey",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/245-1bbde47990f490b523157e658540c005_headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Hearsey",

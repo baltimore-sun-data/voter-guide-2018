@@ -3,6 +3,7 @@
   "district": 10,
   "filename": "nathaniel-m-costley-sr.md",
   "full-name": "Nathaniel M. Costley Sr.",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Costley",
   "party": "Democrat",

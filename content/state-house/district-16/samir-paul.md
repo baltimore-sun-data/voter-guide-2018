@@ -7,6 +7,7 @@
   "education": "Harvard University, Computer Science (undergraduate) American University, Teaching (graduate)",
   "filename": "samir-paul.md",
   "full-name": "Samir Paul",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-a8d3a087413d1d61171105f10bc7f24a_161_-_headshot.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Paul",

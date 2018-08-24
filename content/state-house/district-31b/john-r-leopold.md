@@ -3,6 +3,7 @@
   "district": "31b",
   "filename": "john-r-leopold.md",
   "full-name": "John R. Leopold",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Leopold",
   "party": "Republican",

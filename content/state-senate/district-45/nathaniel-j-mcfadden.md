@@ -7,6 +7,7 @@
   "education": "1964 graduate of Baltimore City College \n1968 graduate of Morgan State University\n1972 Masters Degree, Morgan State University",
   "filename": "nathaniel-j-mcfadden.md",
   "full-name": "Nathaniel J. McFadden",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "McFadden",
   "party": "Democrat",

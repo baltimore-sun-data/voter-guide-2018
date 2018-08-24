@@ -7,6 +7,7 @@
   "education": "Case Western Reserve University - JD Johns Hopkins University - MA Government Youngstown State University - BA Political Science",
   "filename": "george-zokle.md",
   "full-name": "George Zokle",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-6b1fa061c920de89c0d00ad36ba06e4a_me.stairs.folded.hands.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Zokle",

@@ -7,6 +7,7 @@
   "education": "Proud graduate of the Baltimore City Public School System. Current student of Nazarene bible college, (B.A.Min.) program.",
   "filename": "westley-west.md",
   "full-name": "Westley West",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-c343cb3a09f3c3b9c634db592e5aa1f8_Pastors_Image.JPG",
   "jurisdiction": "Baltimore City",
   "last-name": "West",

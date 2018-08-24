@@ -7,6 +7,7 @@
   "education": "- BS in Biology, St. Joseph's University - MA in Theology/Ethics, Union Theological Seminary - Master's in International Public Policy, Johns Hopkins University - Leadership certificate, Harvard University Kennedy School of Government",
   "filename": "leslie-milano.md",
   "full-name": "Leslie Milano",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Milano",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "BA in Political Philosophy and an MA in American Government",
   "filename": "mary-beth-carozza.md",
   "full-name": "Mary Beth Carozza",
+  "general-only": false,
   "jurisdiction": "Worcester County",
   "last-name": "Carozza",
   "party": "Republican",

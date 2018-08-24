@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "andy-pierre.md",
   "full-name": "Andy Pierre",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Pierre",
   "party": "Democrat",

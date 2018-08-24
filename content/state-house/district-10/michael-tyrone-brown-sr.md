@@ -7,6 +7,7 @@
   "education": "B.S. Degree -University of Baltimore 1980 M.S. Degree -Coppin State College A.A. Degree- Anne Arundel Community College-1979 Graduate-Federal Officers Training Academy #11 -2016",
   "filename": "michael-tyrone-brown-sr.md",
   "full-name": "Michael Tyrone Brown Sr.",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-915bb9d831b492cfb78eceb3306b03ec_IMG_0314.JPG",
   "jurisdiction": "Baltimore County",
   "last-name": "Brown",

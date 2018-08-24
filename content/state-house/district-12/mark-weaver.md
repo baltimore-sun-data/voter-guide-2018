@@ -7,6 +7,7 @@
   "education": "BA- History- University of Baltimore  Teaching Certificate- Notre Dame",
   "filename": "mark-weaver.md",
   "full-name": "Mark Weaver",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-66202d0d958fc202a853064e56b10fd2_mark15.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Weaver",

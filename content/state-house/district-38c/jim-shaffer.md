@@ -3,6 +3,7 @@
   "district": "38c",
   "filename": "jim-shaffer.md",
   "full-name": "Jim Shaffer",
+  "general-only": false,
   "jurisdiction": "Worcester County",
   "last-name": "Shaffer",
   "party": "Republican",

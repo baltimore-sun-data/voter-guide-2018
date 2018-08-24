@@ -7,6 +7,7 @@
   "education": "B.M.; M.B.A.",
   "filename": "bridgette-l-cooper.md",
   "full-name": "Bridgette L. Cooper",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/245-653fbbf04e2e42901eca80ae202993d3_30704915_584052758614326_7588203980686098432_n_%282%29.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Cooper",

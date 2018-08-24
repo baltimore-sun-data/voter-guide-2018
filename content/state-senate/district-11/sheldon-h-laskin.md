@@ -7,6 +7,7 @@
   "education": "BA, JD Rutgers University.  LL.M in Taxation, University of Baltimore",
   "filename": "sheldon-h-laskin.md",
   "full-name": "Sheldon H. Laskin",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-e5eaf31a478bb204de72061ab6f1301c_Head_shot.png",
   "jurisdiction": "Baltimore County",
   "last-name": "Laskin",

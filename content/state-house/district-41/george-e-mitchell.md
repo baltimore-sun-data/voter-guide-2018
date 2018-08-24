@@ -7,6 +7,7 @@
   "education": "I attended Mervo Vocational High School. I also attended Morgan State University.",
   "filename": "george-e-mitchell.md",
   "full-name": "George E. Mitchell",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-fa697c57ea9c6080d6069ca28713d8f5_George_Picture.JPG",
   "jurisdiction": "Baltimore City",
   "last-name": "Mitchell",

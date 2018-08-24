@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "carl-ward.md",
   "full-name": "Carl Ward",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Ward",
   "party": "Democrat",

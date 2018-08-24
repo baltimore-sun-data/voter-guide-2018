@@ -7,6 +7,7 @@
   "education": "Bachelor's degree in Government & Public Policy from the University of Baltimore.",
   "filename": "jonathan-h-campbell.md",
   "full-name": "Jonathan H. Campbell",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/247-9f885c4cf7c08b210a43cb2f30b40d1f_20180422_222532.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Campbell",

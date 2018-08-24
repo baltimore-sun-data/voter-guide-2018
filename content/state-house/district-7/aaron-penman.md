@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "aaron-penman.md",
   "full-name": "Aaron Penman",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Penman",
   "party": "Republican",

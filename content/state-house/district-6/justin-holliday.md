@@ -7,6 +7,7 @@
   "education": "-Patapsco High School graduate  -University of Baltimore Government & Public Policy major",
   "filename": "justin-holliday.md",
   "full-name": "Justin Holliday",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/104-ee14a831a386f5736622762752f2a0b5_erkgfe%5B.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Holliday",

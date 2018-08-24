@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "brian-crider.md",
   "full-name": "Brian Crider",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Crider",
   "party": "Democrat",

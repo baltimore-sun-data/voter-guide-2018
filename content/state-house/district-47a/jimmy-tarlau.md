@@ -7,6 +7,7 @@
   "education": "BA - Princeton University MA - Rutgers University MA - Villanova University",
   "filename": "jimmy-tarlau.md",
   "full-name": "Jimmy Tarlau",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-d20c8587da44ab7ad7bda337a1dbcf33_JimmyTarlau_Head_Shot.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Tarlau",

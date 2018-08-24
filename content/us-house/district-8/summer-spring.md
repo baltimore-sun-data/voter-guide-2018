@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "summer-spring.md",
   "full-name": "Summer Spring",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Spring",
   "party": "Democrat",

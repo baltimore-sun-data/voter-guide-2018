@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "marlin-jenkins.md",
   "full-name": "Marlin Jenkins",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Jenkins",
   "party": "Democrat",

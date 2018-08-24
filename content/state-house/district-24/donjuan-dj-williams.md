@@ -7,6 +7,7 @@
   "education": "Masters in Art - Public administration Bachelors of Arts- Political Science",
   "filename": "donjuan-dj-williams.md",
   "full-name": "Donjuan \"DJ\" Williams",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-d80641e928bc001a6a44b394e5d57e48_council_pic_1.JPG",
   "jurisdiction": "Prince George's County",
   "last-name": "Williams",

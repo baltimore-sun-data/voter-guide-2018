@@ -3,6 +3,7 @@
   "district": 29,
   "filename": "steve-waugh.md",
   "full-name": "Steve Waugh",
+  "general-only": false,
   "jurisdiction": "Calvert County",
   "last-name": "Waugh",
   "party": "Republican",

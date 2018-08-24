@@ -3,6 +3,7 @@
   "district": 1,
   "filename": "martin-elborn.md",
   "full-name": "Martin Elborn",
+  "general-only": false,
   "jurisdiction": "Queen Anne's County",
   "last-name": "Elborn",
   "party": "Republican",

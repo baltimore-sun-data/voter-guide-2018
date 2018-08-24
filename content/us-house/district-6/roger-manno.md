@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "roger-manno.md",
   "full-name": "Roger Manno",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Manno",
   "party": "Democrat",

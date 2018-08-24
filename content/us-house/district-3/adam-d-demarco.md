@@ -7,6 +7,7 @@
   "education": "I graduated from the United States Military Academy at West Point, NY, with a Bachelor of Science in Business Management. I then received a Master of Arts in International Business and Policy from Georgetown University, in Washington, DC.",
   "filename": "adam-d-demarco.md",
   "full-name": "Adam D. DeMarco",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/253-0b94e7fad0edfe267e4e24cc3cfdc507_Demarco-6357.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "DeMarco",

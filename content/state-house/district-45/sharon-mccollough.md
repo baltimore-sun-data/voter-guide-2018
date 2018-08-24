@@ -7,6 +7,7 @@
   "education": "BS, Computer Information Systems Notre Dame of Maryland University MS, Clinical Community Counseling Johns Hopkins University Post Masters, Leadership in Teaching/Library Media Notre Dame of Maryland University",
   "filename": "sharon-mccollough.md",
   "full-name": "Sharon McCollough",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "McCollough",
   "party": "Democrat",

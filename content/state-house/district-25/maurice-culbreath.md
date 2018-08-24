@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "maurice-culbreath.md",
   "full-name": "Maurice Culbreath",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Culbreath",
   "party": "Democrat",

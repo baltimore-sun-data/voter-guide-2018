@@ -3,6 +3,7 @@
   "district": 2,
   "filename": "mitchell-j--toland-jr.md",
   "full-name": "Mitchell J.  Toland Jr.",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Toland",
   "party": "Republican",

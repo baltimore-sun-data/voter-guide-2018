@@ -7,6 +7,7 @@
   "education": "Western Md College, BA Sociology Attended University of Balto. Law School Various Military Schools \"Fellow\" Academy of Excellence University of Maryland School of Public Policy",
   "filename": "james-v-mcmahan.md",
   "full-name": "James V. McMahan",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-df2a32d5e1a56a3dad714a6c717467d9_JamesMcMahan.jpg",
   "jurisdiction": "Harford County",
   "last-name": "McMahan",

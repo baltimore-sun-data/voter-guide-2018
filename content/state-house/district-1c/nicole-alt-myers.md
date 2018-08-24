@@ -3,6 +3,7 @@
   "district": "1c",
   "filename": "nicole-alt-myers.md",
   "full-name": "Nicole Alt-Myers",
+  "general-only": false,
   "jurisdiction": "Washington County",
   "last-name": "Alt-Myers",
   "party": "Republican",

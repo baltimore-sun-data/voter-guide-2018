@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "norm-gifford.md",
   "full-name": "Norm Gifford",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Gifford",
   "party": "Republican",

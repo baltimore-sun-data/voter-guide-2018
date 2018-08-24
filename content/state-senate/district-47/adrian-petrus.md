@@ -3,6 +3,7 @@
   "district": 47,
   "filename": "adrian-petrus.md",
   "full-name": "Adrian Petrus",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Petrus",
   "party": "Democrat",

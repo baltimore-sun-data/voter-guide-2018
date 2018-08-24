@@ -3,6 +3,7 @@
   "district": 41,
   "filename": "joyce-j-smith.md",
   "full-name": "Joyce J. Smith",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Smith",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": "1a",
   "filename": "wendell-r-beitzel.md",
   "full-name": "Wendell R. Beitzel",
+  "general-only": false,
   "jurisdiction": "Garrett County",
   "last-name": "Beitzel",
   "party": "Republican",

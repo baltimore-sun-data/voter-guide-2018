@@ -7,6 +7,7 @@
   "education": "I grew up in southwest Baltimore City and later in Baltimore County. My father, Stephan Loewentheil, owned a restaurant called the Cultured Pearl down the street from my childhood home. I attended the Park School and then Yale, where I graduated cum laude. I returned to Yale for law school, where I graduated in 2013.",
   "filename": "nate-loewentheil.md",
   "full-name": "Nate Loewentheil",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-505bb608a77170d0e026d68fdfe9f3d4_head_shot_1.png",
   "jurisdiction": "Baltimore City",
   "last-name": "Loewentheil",

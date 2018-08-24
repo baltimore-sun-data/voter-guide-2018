@@ -7,6 +7,7 @@
   "education": "Bachelor of Arts, Towson University (International Studies)",
   "filename": "tammy-larkin.md",
   "full-name": "Tammy Larkin",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-764d4173a2b66e68038bccd04cd7b6a1_Head_shot.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Larkin",

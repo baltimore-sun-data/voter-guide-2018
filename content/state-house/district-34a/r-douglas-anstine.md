@@ -3,6 +3,7 @@
   "district": "34a",
   "filename": "r-douglas-anstine.md",
   "full-name": "R. Douglas Anstine",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Anstine",
   "party": "Republican",

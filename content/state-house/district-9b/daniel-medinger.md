@@ -7,6 +7,7 @@
   "education": "I have a Master of Arts degree in Journalism from Marquette University.  My undergraduate degree is from the UW-La Crosse with a B.A. in Political Science and English.",
   "filename": "daniel-medinger.md",
   "full-name": "Daniel Medinger",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-63a7646f941e950e64fd6eafa35df685_Dan_Medinger.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Medinger",

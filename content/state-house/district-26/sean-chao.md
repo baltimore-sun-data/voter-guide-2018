@@ -7,6 +7,7 @@
   "education": "(1) Juris Doctor candidate (2017-2021) (2) Master of Strategic Intelligence (3) Master of Business Administration (4) Master of Public Administration (5) Baccalaureate in Political Science (6) Baccalaureate in Chinese (7) Baccalaureate in International Studies: Security & Intelligence (8) Baccalaureate in International Studies: East Asian Studies (9) Certified Information Systems Security Professional (CISSP) (10) Certified Ethical Hacker (CEH) (11) Certified Information Systems Auditor (CISA)",
   "filename": "sean-chao.md",
   "full-name": "Sean Chao",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-dec1094afb6fda9a9c81db65806b65a0_sean_chao_photo.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Chao",

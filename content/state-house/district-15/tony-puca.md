@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "tony-puca.md",
   "full-name": "Tony Puca",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Puca",
   "party": "Democrat",

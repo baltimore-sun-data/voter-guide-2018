@@ -7,6 +7,7 @@
   "education": "Carver Vo-Tech High (Baltimore City)- Diploma Frostburg State Univ- Bachelor's in Law & Society Frostburg State Univ- Master's in Education (M.ed)",
   "filename": "latia-hopkins.md",
   "full-name": "Latia Hopkins",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-af6dfe78cea67ee77b4c543c5c2a6575_headshot.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Hopkins",

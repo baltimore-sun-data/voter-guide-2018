@@ -7,6 +7,7 @@
   "education": "AAS, Business Management   Current Student for BS, Public Safety Administration  Leadership Anne Arundel Flagship Program Graduate  Nationally Registered Paramedic",
   "filename": "doug-rathell.md",
   "full-name": "Doug Rathell",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-546d9013524e7d5b35ad40fd670ccf2f_69D25649-3BCF-4141-9919-80154BBC4F94.jpeg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Rathell",

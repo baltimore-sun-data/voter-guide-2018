@@ -7,6 +7,7 @@
   "education": "MSPH, Johns Hopkins Bloomberg School of Public Health BA, Vassar College",
   "filename": "jordan-cooper.md",
   "full-name": "Jordan Cooper",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-a6f0c697943d2007d541eb8a25282cd5_Jordan_Cooper_015r_copy.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Cooper",

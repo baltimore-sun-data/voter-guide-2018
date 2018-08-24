@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "john-coller.md",
   "full-name": "John Coller",
+  "general-only": false,
   "jurisdiction": "Charles County",
   "last-name": "Coller",
   "party": "Democrat",

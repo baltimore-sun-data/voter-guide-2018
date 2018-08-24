@@ -7,6 +7,7 @@
   "education": "Financial Economics, B.S. UMBC Accounting",
   "filename": "bradley-st-rohrs.md",
   "full-name": "Bradley St. Rohrs",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/95-bd5a04c37c42ece4706a57e3ea0c2306_photo1.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Rohrs",

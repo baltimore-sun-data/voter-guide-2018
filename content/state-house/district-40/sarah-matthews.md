@@ -3,6 +3,7 @@
   "district": 40,
   "filename": "sarah-matthews.md",
   "full-name": "Sarah Matthews",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Matthews",
   "party": "Democrat",
