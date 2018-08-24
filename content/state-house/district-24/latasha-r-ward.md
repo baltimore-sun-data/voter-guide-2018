@@ -7,6 +7,7 @@
   "education": "I have a Bachelor of Science in Business Management and Marketing Management",
   "filename": "latasha-r-ward.md",
   "full-name": "LaTasha R. Ward",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-899c5983838f7da6991b2ed96b14c657_LaTasha_headshot.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Ward",

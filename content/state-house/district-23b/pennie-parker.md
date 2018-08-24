@@ -3,6 +3,7 @@
   "district": "23b",
   "filename": "pennie-parker.md",
   "full-name": "Pennie Parker",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Parker",
   "party": "Democrat",

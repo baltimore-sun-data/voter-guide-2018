@@ -3,6 +3,7 @@
   "district": 1,
   "filename": "erik-lane.md",
   "full-name": "Erik Lane",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Lane",
   "party": "Democrat",

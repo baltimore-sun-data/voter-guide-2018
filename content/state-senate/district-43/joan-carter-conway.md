@@ -7,6 +7,7 @@
   "education": "Master of Educ., (MEd)., Morgan State Univ. ,  May, 2018 BA, Univ of Baltimore, 1988 A.A., BCCC (CCB), 1987",
   "filename": "joan-carter-conway.md",
   "full-name": "Joan Carter Conway",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Carter Conway",
   "party": "Democrat",

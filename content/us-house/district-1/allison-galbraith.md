@@ -7,6 +7,7 @@
   "education": "I have an AA in General Studies from Harford Community College, a BA in Philosophy from University of MD - College Park, where I also completed graduate coursework in Public Management/ Public Policy with a specialization in Federal Acquisition. I also hold certificates in FDA Regulatory Affairs and Good Manufacturing Processes as well as numerous professional certifications related to federal program management.",
   "filename": "allison-galbraith.md",
   "full-name": "Allison Galbraith",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/44-93c292d0d697a78d867ce56ab0422f13_44079641-EB35-490A-A797-FE94873DCA3A.jpeg",
   "jurisdiction": "Harford County",
   "last-name": "Galbraith",

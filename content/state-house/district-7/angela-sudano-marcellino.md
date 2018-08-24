@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "angela-sudano-marcellino.md",
   "full-name": "Angela Sudano-Marcellino",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Sudano-Marcellino",
   "party": "Republican",

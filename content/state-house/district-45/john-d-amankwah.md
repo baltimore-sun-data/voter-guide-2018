@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "john-d-amankwah.md",
   "full-name": "John D. Amankwah",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Amankwah",
   "party": "Democrat",

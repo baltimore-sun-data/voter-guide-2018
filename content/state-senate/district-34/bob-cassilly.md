@@ -7,6 +7,7 @@
   "education": "J.D. University of Baltimore School of Law B.A. Johns Hopkins University",
   "filename": "bob-cassilly.md",
   "full-name": "Bob Cassilly",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-c96b4c493cd71230b5a2e68a25c68843_IMG_2598_Cropped.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Cassilly",

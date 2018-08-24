@@ -3,6 +3,7 @@
   "district": 11,
   "filename": "kate-skovron.md",
   "full-name": "Kate Skovron",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Skovron",
   "party": "Democrat",

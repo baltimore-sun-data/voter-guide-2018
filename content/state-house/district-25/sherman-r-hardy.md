@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "sherman-r-hardy.md",
   "full-name": "Sherman R. Hardy",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Hardy",
   "party": "Democrat",

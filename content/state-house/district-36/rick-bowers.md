@@ -7,6 +7,7 @@
   "education": "Bachelors Degree in Theology",
   "filename": "rick-bowers.md",
   "full-name": "Rick Bowers",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-53517dddb29a3dc9f8e6112ae57cc486_Campaign_2018_Headshot_blue_shirt_no_tie_black_jacket.jpeg",
   "jurisdiction": "Queen Anne's County",
   "last-name": "Bowers",

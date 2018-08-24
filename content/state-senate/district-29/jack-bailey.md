@@ -3,6 +3,7 @@
   "district": 29,
   "filename": "jack-bailey.md",
   "full-name": "Jack Bailey",
+  "general-only": false,
   "jurisdiction": "St. Mary's County",
   "last-name": "Bailey",
   "party": "Republican",

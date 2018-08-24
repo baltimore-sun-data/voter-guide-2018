@@ -7,6 +7,7 @@
   "education": "Baltimore County Schools. Oakleigh Elementary, Hereford High. Graduate Loyola College in Maryland, Economics. Goucher College Historic Preservation.",
   "filename": "norma-secoura.md",
   "full-name": "Norma Secoura",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-71210f0c0ec7061b4d6075730d79d536__LEO4124_Final___resize.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Secoura",

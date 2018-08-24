@@ -3,6 +3,7 @@
   "district": 40,
   "filename": "anees-abdul-rahim.md",
   "full-name": "Anees Abdul-Rahim",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Abdul-Rahim",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "marnitta-l-king.md",
   "full-name": "Marnitta L. King",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "King",
   "party": "Democrat",

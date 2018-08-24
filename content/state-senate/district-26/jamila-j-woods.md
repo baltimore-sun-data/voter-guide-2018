@@ -7,6 +7,7 @@
   "education": "I have undergraduate degrees in Political Science and Sociology from Howard University; and graduate degrees in Divinity from Howard University and Social Work from University of Maryland, Baltimore.",
   "filename": "jamila-j-woods.md",
   "full-name": "Jamila J. Woods",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-027d18cba60a5e9c680ccb7f0a23774c_jamila_Head_shot_04-09-2018_%281%29.png",
   "jurisdiction": "Prince George's County",
   "last-name": "Woods",

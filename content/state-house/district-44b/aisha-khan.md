@@ -3,6 +3,7 @@
   "district": "44b",
   "filename": "aisha-khan.md",
   "full-name": "Aisha Khan",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Khan",
   "party": "Democrat",

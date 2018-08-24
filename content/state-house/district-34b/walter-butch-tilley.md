@@ -7,6 +7,7 @@
   "education": "Bachelor of Science in Management from York College of Pennsylvania Master of Business Administration from Loyola University of Maryland",
   "filename": "walter-butch-tilley.md",
   "full-name": "Walter \"Butch\" Tilley",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-32fdac9353961d573d0a123360cee615_Butch.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Tilley",

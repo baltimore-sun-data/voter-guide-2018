@@ -7,6 +7,7 @@
   "education": "I attended Montgomery County Public Schools, graduating from Stone Mill Elementary School, Cabin John Middle School, and Wootton High School.  I then double majored in History and Political Science at the University of Wisconsin.",
   "filename": "andy-van-wye.md",
   "full-name": "Andy Van Wye",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-a52de66d0789c696e9e1098b957c4f2a_For_Sarah.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Van Wye",

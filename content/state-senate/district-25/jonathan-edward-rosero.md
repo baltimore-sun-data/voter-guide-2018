@@ -7,6 +7,7 @@
   "education": "Doctor of Veterinary Medicine, Tuskegee University (2009) Bachelor of Science, Laboratory Animal Science, magna cum laude, North Carolina A&T State University (2003)",
   "filename": "jonathan-edward-rosero.md",
   "full-name": "Jonathan Edward Rosero",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-8aa56d6027a7a3dfa2f1c89f49fec5c3_17424854_1751062155209084_9181525235073256348_n.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Rosero",

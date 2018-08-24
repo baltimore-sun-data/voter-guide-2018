@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "jade-jr-wiles.md",
   "full-name": "Jade Jr. Wiles",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Wiles",
   "party": "Democrat",

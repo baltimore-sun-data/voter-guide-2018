@@ -3,6 +3,7 @@
   "district": "31b",
   "filename": "david-therrien.md",
   "full-name": "David Therrien",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Therrien",
   "party": "Republican",

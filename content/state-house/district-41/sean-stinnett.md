@@ -7,6 +7,7 @@
   "education": "A.A. Degree in Mass Communications at Baltimore City Community College  B.S. Degree in Sports Management with minors in Journalism and Business Management at Coppin State University",
   "filename": "sean-stinnett.md",
   "full-name": "Sean Stinnett",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-7b3714b02389637811c71cc360b38f4f_Sean_Stinnett_Headshot.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Stinnett",

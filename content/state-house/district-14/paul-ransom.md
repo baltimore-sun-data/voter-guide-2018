@@ -3,6 +3,7 @@
   "district": 14,
   "filename": "paul-ransom.md",
   "full-name": "Paul Ransom",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Ransom",
   "party": "Democrat",

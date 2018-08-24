@@ -5,6 +5,7 @@
   "education": "Bachelor's Degree from the Univ. of Baltimore Master's Degree from Coppin State Univ. C.A.S.E. from the Johns Hopkins Univ.",
   "filename": "barbara-a-robinson.md",
   "full-name": "Barbara A. Robinson",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-5a2fe7e77b5b256b83354b3c04ab352a_SenatorRobinsonHeadshot.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Robinson",

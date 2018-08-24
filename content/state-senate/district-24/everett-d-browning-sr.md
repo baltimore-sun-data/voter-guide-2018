@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "everett-d-browning-sr.md",
   "full-name": "Everett D. Browning Sr.",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Browning",
   "party": "Democrat",

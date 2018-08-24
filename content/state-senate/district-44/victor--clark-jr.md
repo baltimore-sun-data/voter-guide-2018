@@ -3,6 +3,7 @@
   "district": 44,
   "filename": "victor--clark-jr.md",
   "full-name": "Victor  Clark Jr.",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Clark",
   "party": "Republican",

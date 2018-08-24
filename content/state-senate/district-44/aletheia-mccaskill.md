@@ -7,6 +7,7 @@
   "education": "Villa Julie College  College of Notre Dame of Maryland",
   "filename": "aletheia-mccaskill.md",
   "full-name": "Aletheia McCaskill",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "McCaskill",
   "party": "Democrat",

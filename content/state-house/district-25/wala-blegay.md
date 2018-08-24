@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "wala-blegay.md",
   "full-name": "Wala Blegay",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Blegay",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": "27a",
   "filename": "ronald-mcdaniel-jr.md",
   "full-name": "Ronald McDaniel Jr.",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "McDaniel",
   "party": "Democrat",

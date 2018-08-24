@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "linzy-jackson.md",
   "full-name": "Linzy Jackson",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Jackson",
   "party": "Democrat",

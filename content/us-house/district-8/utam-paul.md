@@ -7,6 +7,7 @@
   "education": "Author of LEAN FORWARD - ASK ME WHEN THE FEDERAL RESERVE AND WASHINGTON DO NOT HAVE CLUE ABOUT ECONOMY.",
   "filename": "utam-paul.md",
   "full-name": "Utam Paul",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/44-b398ca5be257cb57e626e9a1debf7e37_1.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Paul",

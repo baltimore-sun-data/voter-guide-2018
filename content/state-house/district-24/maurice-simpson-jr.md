@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "maurice-simpson-jr.md",
   "full-name": "Maurice Simpson Jr.",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Simpson",
   "party": "Democrat",

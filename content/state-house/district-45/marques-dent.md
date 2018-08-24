@@ -7,6 +7,7 @@
   "education": "B.A. Business Information Systems M.A. Information Technology Management",
   "filename": "marques-dent.md",
   "full-name": "Marques Dent",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-06ce1c6f3946df5aaf17de0a5719ae9f_Dent_Head_Shot.JPG",
   "jurisdiction": "Baltimore City",
   "last-name": "Dent",

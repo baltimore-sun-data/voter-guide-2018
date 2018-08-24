@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "hamza-sarwar-khan.md",
   "full-name": "Hamza Sarwar Khan",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Khan",
   "party": "Democrat",

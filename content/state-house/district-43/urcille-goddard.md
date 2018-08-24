@@ -3,6 +3,7 @@
   "district": 43,
   "filename": "urcille-goddard.md",
   "full-name": "Urcille Goddard",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Goddard",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "Dr. Shen graduated with Ph.D. degree from Johns Hopkins University School of Medicine and M.D. degree from Shanghai Jiao Tong University School of Medicine.",
   "filename": "dong-shen.md",
   "full-name": "Dong Shen",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-60197ef0d992f85f5959993c0f49cab3_dongshen3.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Shen",

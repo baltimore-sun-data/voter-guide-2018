@@ -7,6 +7,7 @@
   "education": "BS - Loyola University Baltimore JD - University of Baltimore School of Law LL.M - University of Baltimore School of Law",
   "filename": "dario-j-broccolino.md",
   "full-name": "Dario J. Broccolino",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-e80e844a905a6d2a36b58a4c7043e7be_IMG_0016.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Broccolino",

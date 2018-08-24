@@ -7,6 +7,7 @@
   "education": "I was born in West Baltimore, and raised there by a single mother with the support of my aunts, uncles, and grandparents. I attended Baltimore City Public Schools, James Mosher Elementary School, Mt. Royal Middle School, Walbrook Sr. High for a year, and graduated from Baltimore City College High School. I earned a Bachelor of Arts degree in Political Science from Franklin Pierce University in Rindge, NH. In May 2012, I was named a National Urban Fellow at Baruch College –City University of New York, where I earned a Master's of Public Administration degree.",
   "filename": "terrell-boston-smith.md",
   "full-name": "Terrell Boston-Smith",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Boston-Smith",
   "party": "Democrat",

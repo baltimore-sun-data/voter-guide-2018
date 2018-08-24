@@ -7,6 +7,7 @@
   "education": "I attended Brandeis University in Waltham, Massachusetts from 1996-2000 and graduated cum laude with dual degrees in Biology and Islamic and Middle Eastern Studies. I then obtained my medical degree from SUNY Downstate in 2005 and completed my pediatric training at NYU/Bellevue Hospital in New York City from 2005-2008.",
   "filename": "nadia-hashimi.md",
   "full-name": "Nadia Hashimi",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/179-dc05dc42b387bde85dfcd787c0654508_IMG_0697.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Hashimi",

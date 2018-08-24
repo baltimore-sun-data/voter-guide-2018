@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "wick-dudley.md",
   "full-name": "Wick Dudley",
+  "general-only": false,
   "jurisdiction": "Queen Anne's County",
   "last-name": "Dudley",
   "party": "Republican",

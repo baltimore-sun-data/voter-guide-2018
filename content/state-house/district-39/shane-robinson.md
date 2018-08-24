@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "shane-robinson.md",
   "full-name": "Shane Robinson",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Robinson",
   "party": "Democrat",

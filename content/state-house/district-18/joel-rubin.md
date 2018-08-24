@@ -7,6 +7,7 @@
   "education": "Brandeis University: Bachelor of Arts degree in Politics, with a Minor in Near Eastern Studies and a Program Certificate in Elementary Education. Carnegie Mellon University: Joint Master of Science degree in Public Policy & Management from the Heinz School, with a Minor in Business Administration from the Tepper School.",
   "filename": "joel-rubin.md",
   "full-name": "Joel Rubin",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-8618e175e4eded116fc319f2bd2b0a71_Joel_Rubin_Square_Portrait.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Rubin",

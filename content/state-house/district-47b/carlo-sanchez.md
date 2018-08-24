@@ -7,6 +7,7 @@
   "education": "High School - Takoma Academy College - Montgomery College - AA College - University of Maryland, College Park - BS",
   "filename": "carlo-sanchez.md",
   "full-name": "Carlo Sanchez",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-186a820ce30b46bfc4476406a6b75f8e_Carlo_Sanchez_Headshot_1.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Sanchez",

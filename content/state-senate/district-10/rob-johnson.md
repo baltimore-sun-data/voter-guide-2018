@@ -7,6 +7,7 @@
   "education": "UMBC - BA (2003) - Political Science UDC Law - JD (2008) MD Bar Admission - 2008",
   "filename": "rob-johnson.md",
   "full-name": "Rob Johnson",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-387802390c5422216d46b4986eb34120_Profile_-_Rob_Johnson.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Johnson",

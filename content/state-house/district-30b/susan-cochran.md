@@ -7,6 +7,7 @@
   "education": "BA, Master of Arts in Teaching, University of Vermont.  Juris Doctor, Antonin Scalia School of Law, George Mason University.",
   "filename": "susan-cochran.md",
   "full-name": "Susan Cochran",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Cochran",
   "party": "Democrat",

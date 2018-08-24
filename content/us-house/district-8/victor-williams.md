@@ -7,6 +7,7 @@
   "education": "B.A. Ouachita Baptist University (Arkansas) Ed.M.  Harvard University J.D. University of California, Hastings College of Law LL.M. Columbia University School of Law LL.M.  George Mason University Scalia School of Law",
   "filename": "victor-williams.md",
   "full-name": "Victor Williams",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/247-d9d3fe3b80b2c256645af9cdc168b48f_16c9c8_78b774a7480c454aa0af06b32b697b1b%7Emv2.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Williams",

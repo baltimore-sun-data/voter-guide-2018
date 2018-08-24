@@ -3,6 +3,7 @@
   "district": 10,
   "filename": "jordan-f-porompyae.md",
   "full-name": "Jordan F. Porompyae",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Porompyae",
   "party": "Democrat",

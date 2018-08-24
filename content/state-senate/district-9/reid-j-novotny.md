@@ -3,6 +3,7 @@
   "district": 9,
   "filename": "reid-j-novotny.md",
   "full-name": "Reid J. Novotny",
+  "general-only": false,
   "jurisdiction": "Howard County",
   "last-name": "Novotny",
   "party": "Republican",

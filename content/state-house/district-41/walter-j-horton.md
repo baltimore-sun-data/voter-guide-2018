@@ -3,6 +3,7 @@
   "district": 41,
   "filename": "walter-j-horton.md",
   "full-name": "Walter J. Horton",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Horton",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "I attended Prince George's County Public Schools, where I grew up in Oxon Hill, Maryland.  I have earned some college in Information Systems from Strayer University.  I began working on my Social Science degree, at University of Maryland University College (UMUC) in 2012.",
   "filename": "larry-pretlow-ii.md",
   "full-name": "Larry Pretlow II",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-3c9a8ba1c3beaf330ca2a2a56131182a_Larry_Pretlow_II.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Pretlow",

@@ -7,6 +7,7 @@
   "education": "B.S. in Psychology JD",
   "filename": "fatmata-barrie.md",
   "full-name": "Fatmata Barrie",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-3ec0b6a355698a496cc54111748e41b1_Ad_Pic.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Barrie",

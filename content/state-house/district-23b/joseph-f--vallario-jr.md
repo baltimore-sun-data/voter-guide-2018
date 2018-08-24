@@ -3,6 +3,7 @@
   "district": "23b",
   "filename": "joseph-f--vallario-jr.md",
   "full-name": "Joseph F.  Vallario Jr.",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Vallario",
   "party": "Democrat",

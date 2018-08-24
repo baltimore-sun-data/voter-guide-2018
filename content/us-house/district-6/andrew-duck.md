@@ -7,6 +7,7 @@
   "education": "I am a proud product of Maryland Public Schools, having graduated from Middletown High School in Frederick County. I completed my college education by going to night school while serving in the Army, attending 8 Colleges or Universities on two continents. I have a Bachelor's Degree in Public Administration from Southwest Texas State University, and I studied Economics at the graduate level at University of Oklahoma.",
   "filename": "andrew-duck.md",
   "full-name": "Andrew Duck",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/245-2c357fcd714f0cd03936ecb42c8f91c5_close_up_pic.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Duck",

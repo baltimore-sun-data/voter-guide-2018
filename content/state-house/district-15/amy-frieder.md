@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "amy-frieder.md",
   "full-name": "Amy Frieder",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Frieder",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "mac-middleton.md",
   "full-name": "Mac Middleton",
+  "general-only": false,
   "jurisdiction": "Charles County",
   "last-name": "Middleton",
   "party": "Democrat",

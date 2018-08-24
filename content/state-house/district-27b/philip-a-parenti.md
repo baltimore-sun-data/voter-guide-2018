@@ -3,6 +3,7 @@
   "district": "27b",
   "filename": "philip-a-parenti.md",
   "full-name": "Philip A. Parenti",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Parenti",
   "party": "Republican",

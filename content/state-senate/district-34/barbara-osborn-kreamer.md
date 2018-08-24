@@ -5,6 +5,7 @@
   "education": "B.A. Washington College M.L.A. the Johns Hopkins University J.D. University of MD School of Law",
   "filename": "barbara-osborn-kreamer.md",
   "full-name": "Barbara Osborn Kreamer",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Kreamer",
   "party": "Democrat",

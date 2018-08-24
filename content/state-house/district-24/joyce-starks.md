@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "joyce-starks.md",
   "full-name": "Joyce Starks",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Starks",
   "party": "Democrat",

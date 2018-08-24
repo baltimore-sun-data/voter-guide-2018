@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "joe-werner.md",
   "full-name": "Joe Werner",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Werner",
   "party": "Democrat",

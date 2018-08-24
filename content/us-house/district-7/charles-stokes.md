@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "charles-stokes.md",
   "full-name": "Charles Stokes",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Stokes",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 20,
   "filename": "malik-lendzondzo.md",
   "full-name": "Malik Lendzondzo",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Lendzondzo",
   "party": "Democrat",

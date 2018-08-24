@@ -3,6 +3,7 @@
   "district": 18,
   "filename": "helga-luest.md",
   "full-name": "Helga Luest",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Luest",
   "party": "Democrat",

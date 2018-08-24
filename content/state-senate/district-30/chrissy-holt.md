@@ -5,6 +5,7 @@
   "education": "London School of Economics, MS in Social Psychology, London, England, 1992\nUniversity of Maryland, BA, Psychology, College Park, Maryland, 1988\nParent Advisory Council, University of Maryland College Park, 2013-2015\nFederal and State Advocate for National Hemophilia Foundation, and Hemophilia Foundation of Maryland, 1995-present\nMember Severn Sailing Association\nVolunteer of the Year, National Hemophilia Foundation, for lobbying State Health Care reform in Maryland, 2003",
   "filename": "chrissy-holt.md",
   "full-name": "Chrissy Holt",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Holt",
   "party": "Democrat",

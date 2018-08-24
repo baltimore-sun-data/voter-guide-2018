@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "leonard-lennie-moses.md",
   "full-name": "Leonard \"Lennie\" Moses",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Moses",
   "party": "Democrat",

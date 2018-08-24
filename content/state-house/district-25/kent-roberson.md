@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "kent-roberson.md",
   "full-name": "Kent Roberson",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Roberson",
   "party": "Democrat",

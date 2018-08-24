@@ -3,6 +3,7 @@
   "district": "30a",
   "filename": "mary-reese.md",
   "full-name": "Mary Reese",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Reese",
   "party": "Democrat",

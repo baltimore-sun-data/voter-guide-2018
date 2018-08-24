@@ -7,6 +7,7 @@
   "education": "B.S in Criminal Justice /M.P. A in public policy /PhD candidate studying public policy Administration",
   "filename": "rita-church.md",
   "full-name": "Rita Church",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-f8d2095bdd9c7c68477a228dab3b4603_Photo_Rita_Church.png",
   "jurisdiction": "Baltimore City",
   "last-name": "Church",

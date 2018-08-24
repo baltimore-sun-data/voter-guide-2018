@@ -3,6 +3,7 @@
   "district": 1,
   "filename": "michael-brown.md",
   "full-name": "Michael Brown",
+  "general-only": false,
   "jurisdiction": "Wicomico County",
   "last-name": "Brown",
   "party": "Democrat",

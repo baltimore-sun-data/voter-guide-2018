@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "charles-u-smith.md",
   "full-name": "Charles U. Smith",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Smith",
   "party": "Democrat",

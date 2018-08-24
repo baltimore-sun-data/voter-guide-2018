@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "hongjun-xin.md",
   "full-name": "Hongjun Xin",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Xin",
   "party": "Democrat",

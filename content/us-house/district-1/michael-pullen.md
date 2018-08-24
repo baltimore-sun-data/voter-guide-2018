@@ -7,6 +7,7 @@
   "education": "Graduated with honors with BA in History from Boston College in 1973. Graduated with honors from Suffolk Law School in 1977.",
   "filename": "michael-pullen.md",
   "full-name": "Michael Pullen",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/179-36860cce5f64d09e1e05ff257836a52c_Mike_Headshot.jpg",
   "jurisdiction": "Talbot County",
   "last-name": "Pullen",

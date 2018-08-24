@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "vanessa-jones.md",
   "full-name": "Vanessa Jones",
+  "general-only": false,
   "jurisdiction": "Charles County",
   "last-name": "Jones",
   "party": "Republican",

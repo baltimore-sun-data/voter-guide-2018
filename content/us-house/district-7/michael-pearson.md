@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "michael-pearson.md",
   "full-name": "Michael Pearson",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Pearson",
   "party": "Republican",

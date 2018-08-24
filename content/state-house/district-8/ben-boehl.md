@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "ben-boehl.md",
   "full-name": "Ben Boehl",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Boehl",
   "party": "Republican",

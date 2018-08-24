@@ -3,6 +3,7 @@
   "district": 12,
   "filename": "jonathan-bratt.md",
   "full-name": "Jonathan Bratt",
+  "general-only": false,
   "jurisdiction": "Howard County",
   "last-name": "Bratt",
   "party": "Democrat",

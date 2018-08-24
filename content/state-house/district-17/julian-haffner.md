@@ -3,6 +3,7 @@
   "district": 17,
   "filename": "julian-haffner.md",
   "full-name": "Julian Haffner",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Haffner",
   "party": "Democrat",

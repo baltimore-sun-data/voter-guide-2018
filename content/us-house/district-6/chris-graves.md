@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "chris-graves.md",
   "full-name": "Chris Graves",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Graves",
   "party": "Democrat",

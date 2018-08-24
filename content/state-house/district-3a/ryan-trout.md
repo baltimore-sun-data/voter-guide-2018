@@ -7,6 +7,7 @@
   "education": "Mount St. Mary's University - BA Political Science University of Maryland - Candidate for Dual MBA/MPP",
   "filename": "ryan-trout.md",
   "full-name": "Ryan Trout",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-d3d7230fa5f80ff6be161685ecde8a9f_Ryan_head_shot_on_stoop.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Trout",

@@ -3,6 +3,7 @@
   "district": 47,
   "filename": "malcolm-augustine.md",
   "full-name": "Malcolm Augustine",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Augustine",
   "party": "Democrat",

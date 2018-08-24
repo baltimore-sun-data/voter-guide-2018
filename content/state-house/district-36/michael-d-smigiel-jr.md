@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "michael-d-smigiel-jr.md",
   "full-name": "Michael D. Smigiel Jr.",
+  "general-only": false,
   "jurisdiction": "Cecil County",
   "last-name": "Smigiel",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": 2,
   "filename": "hubert--owens-jr.md",
   "full-name": "Hubert  Owens Jr.",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Owens",
   "party": "Republican",

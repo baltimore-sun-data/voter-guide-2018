@@ -3,6 +3,7 @@
   "district": 21,
   "filename": "brencis-smith.md",
   "full-name": "Brencis Smith",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Smith",
   "party": "Democrat",

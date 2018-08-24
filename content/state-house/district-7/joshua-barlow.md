@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "joshua-barlow.md",
   "full-name": "Joshua Barlow",
+  "general-only": false,
   "jurisdiction": "Harford County",
   "last-name": "Barlow",
   "party": "Republican",

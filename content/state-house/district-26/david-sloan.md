@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "david-sloan.md",
   "full-name": "David Sloan",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Sloan",
   "party": "Democrat",

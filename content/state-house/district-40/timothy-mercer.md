@@ -3,6 +3,7 @@
   "district": 40,
   "filename": "timothy-mercer.md",
   "full-name": "Timothy Mercer",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Mercer",
   "party": "Democrat",

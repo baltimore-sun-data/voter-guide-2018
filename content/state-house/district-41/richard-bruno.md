@@ -7,6 +7,7 @@
   "education": "Little Rock School District (K-12), Princeton University (Bachelor's), Oregon Health and Science University (Medical Degree), John's Hopkins University (Master's in Public Health)",
   "filename": "richard-bruno.md",
   "full-name": "Richard Bruno",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-6b1d04c98f17caede2422ca3d18e460e_Richard_Bruno_Headshot.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Bruno",

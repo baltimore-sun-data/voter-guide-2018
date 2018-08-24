@@ -7,6 +7,7 @@
   "education": "132 credit hours at University of Baltimore, electronic and appliance technical training",
   "filename": "ray-bly.md",
   "full-name": "Ray Bly",
+  "general-only": false,
   "jurisdiction": "Howard County",
   "last-name": "Bly",
   "party": "Republican",

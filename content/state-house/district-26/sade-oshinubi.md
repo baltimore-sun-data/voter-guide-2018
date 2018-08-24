@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "sade-oshinubi.md",
   "full-name": "Sade Oshinubi",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Oshinubi",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 16,
   "filename": "joseph-aloysius-hennessey.md",
   "full-name": "Joseph Aloysius Hennessey",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Hennessey",
   "party": "Democrat",

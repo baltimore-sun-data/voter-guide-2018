@@ -7,6 +7,7 @@
   "education": "University of Kansas- B.A. 2003 University of Miami, School of Law- J.D. 2010",
   "filename": "ron-franks.md",
   "full-name": "Ron Franks",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-5711a949ad28d31b66ec3358707fe097_FINAL0014.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Franks",

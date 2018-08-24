@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "jared-wineberg.md",
   "full-name": "Jared Wineberg",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Wineberg",
   "party": "Republican",

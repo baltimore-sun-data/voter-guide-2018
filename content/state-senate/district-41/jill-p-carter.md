@@ -7,6 +7,7 @@
   "education": "Juris Doctor,  University of Baltimore Bachelor of Arts,  Loyola university Western High School",
   "filename": "jill-p-carter.md",
   "full-name": "Jill P. Carter",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Carter",
   "party": "Democrat",

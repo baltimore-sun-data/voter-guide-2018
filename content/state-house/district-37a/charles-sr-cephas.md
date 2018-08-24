@@ -3,6 +3,7 @@
   "district": "37a",
   "filename": "charles-sr-cephas.md",
   "full-name": "Charles Sr. Cephas",
+  "general-only": false,
   "jurisdiction": "Dorchester County",
   "last-name": "Cephas",
   "party": "Democrat",

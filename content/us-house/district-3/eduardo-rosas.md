@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "eduardo-rosas.md",
   "full-name": "Eduardo Rosas",
+  "general-only": false,
   "jurisdiction": "Howard County",
   "last-name": "Rosas",
   "party": "Democrat",

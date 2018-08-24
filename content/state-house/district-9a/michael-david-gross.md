@@ -7,6 +7,7 @@
   "education": "High school and some university.",
   "filename": "michael-david-gross.md",
   "full-name": "Michael David Gross",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-c5a611b6073efe25b048ebc0417ae7e8_Screenshot_20180402-004157.png",
   "jurisdiction": "Howard County",
   "last-name": "Gross",

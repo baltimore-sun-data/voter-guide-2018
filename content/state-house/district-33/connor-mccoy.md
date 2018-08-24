@@ -7,6 +7,7 @@
   "education": "Some College, currently a student.",
   "filename": "connor-mccoy.md",
   "full-name": "Connor McCoy",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-4d71dc574dfda2c86ccfde77644f6033_image_%281%29.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "McCoy",

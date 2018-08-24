@@ -7,6 +7,7 @@
   "education": "BS Hood College, Frederick, MD",
   "filename": "janice-lee-dymowski.md",
   "full-name": "Janice Lee Dymowski",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-e9e37cb47ecd9db9f08a05a2f8facf63_1075376_10200502188378799_117348377_o.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Lee Dymowski",

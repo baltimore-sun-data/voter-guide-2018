@@ -7,6 +7,7 @@
   "education": "Master of Science: Health Systems Management University of Baltimore  Bachelor of Arts: Political Science Howard University  High School Diploma: Roland Park Country School",
   "filename": "dea-thomas.md",
   "full-name": "Dea Thomas",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-cc0ccf7afe05e121f3773f5cc9ba0a77_Dea_Thomas_Headshot_3.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Thomas",

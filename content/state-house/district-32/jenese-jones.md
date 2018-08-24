@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "jenese-jones.md",
   "full-name": "Jenese Jones",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Jones",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 40,
   "filename": "brian-murphy.md",
   "full-name": "Brian Murphy",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Murphy",
   "party": "Democrat",

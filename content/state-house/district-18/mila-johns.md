@@ -7,6 +7,7 @@
   "education": "I received by B.A. in Government & Politics, with a concentration in Persian Studies, from the University of Maryland - College Park in 2010. I did my graduate work at American University in Washington D.C., receiving a Masters of International Affairs in Comparative & Regional Studies of the Middle East with a concentration in Terrorism and Intelligence Studies. I also studied Intensive Beginning Chinese during my semester abroad at Beijing Language & Culture University in Beijing, China.",
   "filename": "mila-johns.md",
   "full-name": "Mila Johns",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-f574460d04afcd3f1d142d949a349a8e_Headshot_for_Bethesda_Magazine.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Johns",

@@ -3,6 +3,7 @@
   "district": "27a",
   "filename": "lynn-jackson.md",
   "full-name": "Lynn Jackson",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Jackson",
   "party": "Democrat",

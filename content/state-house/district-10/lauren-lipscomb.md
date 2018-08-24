@@ -3,6 +3,7 @@
   "district": 10,
   "filename": "lauren-lipscomb.md",
   "full-name": "Lauren Lipscomb",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Lipscomb",
   "party": "Democrat",

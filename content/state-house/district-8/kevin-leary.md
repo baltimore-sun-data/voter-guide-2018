@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "kevin-leary.md",
   "full-name": "Kevin Leary",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Leary",
   "party": "Republican",

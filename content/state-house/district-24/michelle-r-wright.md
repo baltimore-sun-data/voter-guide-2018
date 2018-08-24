@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "michelle-r-wright.md",
   "full-name": "Michelle R. Wright",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Wright",
   "party": "Democrat",

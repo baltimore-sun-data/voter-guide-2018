@@ -3,6 +3,7 @@
   "district": 41,
   "filename": "tessa-hill-aston.md",
   "full-name": "Tessa Hill-Aston",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Hill-Aston",
   "party": "Democrat",

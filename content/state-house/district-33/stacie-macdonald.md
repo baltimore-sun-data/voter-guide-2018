@@ -7,6 +7,7 @@
   "education": "University of Michigan B.A. Loyola Law School J.D.",
   "filename": "stacie-macdonald.md",
   "full-name": "Stacie MacDonald",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-010d4ba88bbe77f475489892c3ba4099_McDonald_8168-2x3x300-crop.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "MacDonald",

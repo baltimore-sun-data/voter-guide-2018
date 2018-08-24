@@ -7,6 +7,7 @@
   "education": "Bronx HS of Science Cornell University College of Arts and Sciences University of Pennsylvania School of Medicine Harvard Kennedy School Senior Executive Leadership Program",
   "filename": "dana-beyer.md",
   "full-name": "Dana Beyer",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-d00cc0c2c6a400bedc5fda0790072c03_Dana_head_shot.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Beyer",

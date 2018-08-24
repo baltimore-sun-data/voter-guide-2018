@@ -7,6 +7,7 @@
   "education": "Bachelor of science in Business Administration and project Management From Purdue University United States Marine Corps",
   "filename": "kurt-elsasser.md",
   "full-name": "Kurt Elsasser",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-b55244e2094f243000e26b63950cdc3b_6DFC7B06-4785-45EE-AB19-3B0FA977E792.jpeg",
   "jurisdiction": "Washington County",
   "last-name": "Elsasser",

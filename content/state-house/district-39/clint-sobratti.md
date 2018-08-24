@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "clint-sobratti.md",
   "full-name": "Clint Sobratti",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Sobratti",
   "party": "Democrat",

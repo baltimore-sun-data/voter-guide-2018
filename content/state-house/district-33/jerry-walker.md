@@ -3,6 +3,7 @@
   "district": 33,
   "filename": "jerry-walker.md",
   "full-name": "Jerry Walker",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Walker",
   "party": "Republican",

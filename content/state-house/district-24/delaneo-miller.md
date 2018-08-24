@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "delaneo-miller.md",
   "full-name": "Delaneo Miller",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Miller",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 22,
   "filename": "ashanti-martinez.md",
   "full-name": "Ashanti Martinez",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Martinez",
   "party": "Democrat",

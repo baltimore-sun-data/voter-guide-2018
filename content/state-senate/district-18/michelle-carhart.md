@@ -3,6 +3,7 @@
   "district": 18,
   "filename": "michelle-carhart.md",
   "full-name": "Michelle Carhart",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Carhart",
   "party": "Democrat",

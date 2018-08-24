@@ -3,6 +3,7 @@
   "district": 16,
   "filename": "nuchhi-currier.md",
   "full-name": "Nuchhi Currier",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Currier",
   "party": "Democrat",

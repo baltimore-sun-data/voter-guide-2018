@@ -7,6 +7,7 @@
   "education": "I have a Bachelor's degree in Psychology from the  University of Baltimore, and a Master's degree in Psychology from Coppin State University.",
   "filename": "bilal-ali.md",
   "full-name": "Bilal Ali",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-ffa51819ce73156eda3c986be2dda018_Screen_Shot_2018-04-18_at_4.38.10_PM.png",
   "jurisdiction": "Baltimore City",
   "last-name": "Ali",

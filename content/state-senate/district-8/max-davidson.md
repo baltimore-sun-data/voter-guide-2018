@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "max-davidson.md",
   "full-name": "Max Davidson",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Davidson",
   "party": "Democrat",

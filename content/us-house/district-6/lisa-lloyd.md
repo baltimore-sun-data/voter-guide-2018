@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "lisa-lloyd.md",
   "full-name": "Lisa Lloyd",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Lloyd",
   "party": "Republican",

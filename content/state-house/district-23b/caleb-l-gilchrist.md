@@ -3,6 +3,7 @@
   "district": "23b",
   "filename": "caleb-l-gilchrist.md",
   "full-name": "Caleb L. Gilchrist",
+  "general-only": false,
   "jurisdiction": "Prince George's County",
   "last-name": "Gilchrist",
   "party": "Democrat",

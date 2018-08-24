@@ -3,6 +3,7 @@
   "district": "1a",
   "filename": "james-m-virts-jr.md",
   "full-name": "James M. Virts Jr.",
+  "general-only": false,
   "jurisdiction": "Garrett County",
   "last-name": "Virts",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "undergraduate Delaware state university graduate coppin state university johns hopkin university",
   "filename": "thomas-e-pinkston-harris.md",
   "full-name": "Thomas E. \"Pinkston\" Harris",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Harris",
   "party": "Republican",

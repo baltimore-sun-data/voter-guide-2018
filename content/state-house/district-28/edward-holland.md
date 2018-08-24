@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "edward-holland.md",
   "full-name": "Edward Holland",
+  "general-only": false,
   "jurisdiction": "Charles County",
   "last-name": "Holland",
   "party": "Democrat",

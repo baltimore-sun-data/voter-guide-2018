@@ -3,6 +3,7 @@
   "district": 46,
   "filename": "christine-digman.md",
   "full-name": "Christine Digman",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Digman",
   "party": "Republican",

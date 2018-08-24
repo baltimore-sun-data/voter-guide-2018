@@ -3,6 +3,7 @@
   "district": 43,
   "filename": "destinee-parker.md",
   "full-name": "Destinee Parker",
+  "general-only": false,
   "jurisdiction": "Baltimore City",
   "last-name": "Parker",
   "party": "Democrat",
