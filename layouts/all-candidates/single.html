@@ -32,7 +32,8 @@
           <tbody>
             {{ $inSection := where .Site.Pages ".Section" "ne" "" }}
             {{ $pagesInSection := where $inSection "Kind" "page" }}
-            {{ range sort $pagesInSection ".URL" }}
+            {{ $generalists := where $pagesInSection ".Params.general-only" true }}
+            {{ range sort $generalists ".URL" }}
             <tr>
               <td>
                 <span><b>Name: </b></span>
