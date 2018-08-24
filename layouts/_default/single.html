@@ -31,9 +31,14 @@
   </div>
 
   <!-- social icons-->
-  <div class="container {{ .Params.party | lower }}-color">
+  <div class='container {{ .Params.party | default "independent" | lower }}-color'>
+    {{ if not (.Param "general-only") }}
+      <div class="alert alert-warning" role="alert">
+        <strong>Note</strong>: This candidate participated in the 2018 Maryland primary, but <strong>will not be on the ballot</strong> in the general election. This information is for archival purposes only.
+      </div>
+    {{ end }}
    <section id="top" class="row">
-    <div id="cand-bio" class="col-md-9 col-sm-12 {{ .Params.party | lower }}">
+    <div id="cand-bio" class='col-md-9 col-sm-12 {{ .Params.party | default "independent" | lower }}'>
       <h1 id="cand-name">
         {{ .Param "full-name" }}
       </h1>
@@ -48,7 +53,7 @@
             {{ dict "Site" .Site "Value" $imageRetina | partial "assets.html" }} 2x
           '
         {{ end }}
-        class="cand-pic {{ .Params.party | lower }}">
+        class="cand-pic {{ .Params.party | default "independent" | lower }}">
      </div>
     {{ end }}
      <div id="cand-bio-text">
@@ -61,7 +66,7 @@
           <span class="icon-twitter js-click" data-share-text="Learn more about {{.Title}} in the Baltimore Sun Voter Guide:"></span>
         </div>
        <ul>
-        <li id="party" class="{{ .Params.party | lower }}-color">
+        <li id="party" class='{{ .Params.party | default "independent" | lower }}-color'>
           {{ .Params.party }}
         </li>
         {{ if $.Param "running-mate" }}
@@ -112,9 +117,11 @@
              {{ default .Key (index $adjective .Key) }} Candidates:
             </h6>
             {{ range .Pages }}
-              <li>
-               <a href="{{ .URL }}" class="dropdown-item">{{.Title}}</a>
-              </li>
+              {{ if .Param "general-only" }}
+                <li>
+                  <a href="{{ .URL }}" class="dropdown-item">{{.Title}}</a>
+                </li>
+              {{ end }}
             {{ end }}
           {{ end }}
         </ul>
@@ -223,7 +230,7 @@
   <div class="container">
     <div class="row">
      <section id="bio" class="col-sm-9">
-      <h2 class="section-header {{.Params.party | lower }}">
+      <h2 class='section-header {{ .Params.party | default "independent" | lower }}'>
         About {{ .Param "full-name" }}
       </h2>
       <div class="candidate-p">
@@ -250,7 +257,7 @@
       {{ end }}
       </div>
      </section>
-      <section id="social" class="col-sm-3 {{.Params.party | lower }}">
+      <section id="social" class='col-sm-3 {{.Params.party | default "independent" | lower }}'>
         <ul>
          {{ with .Param "web" }}
          <li>
@@ -291,10 +298,10 @@
       </section>
     </div>
    <!-- /bio -->
-   <section id="questionnaire" class="{{.Params.party | lower }}">
+   <section id="questionnaire" class="{{.Params.party | default "independent" | lower }}">
     <div class="row">
     <div class="col-sm-12">
-      <h2 class="section-header {{.Params.party | lower }}">
+      <h2 class="section-header {{.Params.party | default "independent" | lower }}">
        Questionnaire
       </h2>
       {{ if not .Params.questions }}
@@ -368,7 +375,7 @@
    <!-- /questionnaire -->
    <div class="row">
     <section id="news" class="newsfeed col-sm-8">
-     <h2 class="section-header {{.Params.party | lower }}">
+     <h2 class="section-header {{.Params.party | default "independent" | lower }}">
       Election Coverage
      </h2>
       {{ if or (.Param "interview") (.Param "profile") }}

@@ -25,7 +25,8 @@
         <tbody>
           {{ $parent := . }}
           {{ $regularPages := where .Site.Pages "Kind" "page" }}
-          {{ range sort $regularPages ".URL" }}
+          {{ $generalists := where $regularPages ".Params.general-only" true }}
+          {{ range sort $generalists ".URL" }}
           {{ if .IsDescendant $parent }}
           <tr>
             <td>
