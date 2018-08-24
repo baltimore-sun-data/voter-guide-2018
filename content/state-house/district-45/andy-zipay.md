@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "andy-zipay.md",
   "full-name": "Andy Zipay",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Zipay",
   "party": "Republican",

@@ -6,6 +6,7 @@
   "education": "BA in Mathematics, Washington College 1972 15 +/- hours and student teaching for Teacher Certification, Western MD College 1974",
   "filename": "kenneth-a-kiler.md",
   "full-name": "Kenneth A. Kiler",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/99-7c8dcdddce9ab5cd4d1c000bfba21929_Kenny_Kiler_Web.jpg",
   "last-name": "Kiler",
   "party": "Non-Partisan",

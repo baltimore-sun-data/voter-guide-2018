@@ -3,6 +3,7 @@
   "district": 16,
   "filename": "ariana-kelly.md",
   "full-name": "Ariana Kelly",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Kelly",
   "party": "Democrat",

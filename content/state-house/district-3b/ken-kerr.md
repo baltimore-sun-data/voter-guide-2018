@@ -7,6 +7,7 @@
   "education": "AA General Studies, Frederick Community College 1978 BA Music, Hood College 1981 MS Professional Writing, Towson University 1995 EdD Higher Education Leadership Morgan State University",
   "filename": "ken-kerr.md",
   "full-name": "Ken Kerr",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-b2440f64a26f4efed15bd13bc1836f26_kkerr.jpeg",
   "jurisdiction": "Frederick County",
   "last-name": "Kerr",

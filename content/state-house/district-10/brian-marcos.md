@@ -7,6 +7,7 @@
   "education": "Owings Mills High School Graduate 2004 CCBC, Classes in Law for completion of Baltimore County Police Academy",
   "filename": "brian-marcos.md",
   "full-name": "Brian Marcos",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-e82baa33bab691527dc871f1dc302306_HP142.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Marcos",

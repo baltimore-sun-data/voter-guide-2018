@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "tim-walters.md",
   "full-name": "Tim Walters",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Walters",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "BA Criminology University of Maryland  JD California Western School of Law",
   "filename": "dave-pasti.md",
   "full-name": "Dave Pasti",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-a111d057453da54b1aee77dbbad6b071_JCC17944-Pasti%2C_David_N._-.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Pasti",

@@ -6,6 +6,7 @@
   "education": "Westminster High School Class of 1996 Carroll Community College (studied Elementary Education for Special Needs) still in process",
   "filename": "tara-battaglia.md",
   "full-name": "Tara Battaglia",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/191-480c43b585bb2c2365a6eef69d24af9b_IMG_0821.JPG",
   "last-name": "Battaglia",
   "party": "Non-Partisan",

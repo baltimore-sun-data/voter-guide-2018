@@ -3,6 +3,7 @@
   "district": 14,
   "filename": "michael-a-ostroff.md",
   "full-name": "Michael A. Ostroff",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Ostroff",
   "party": "Republican",

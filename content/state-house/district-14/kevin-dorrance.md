@@ -3,6 +3,7 @@
   "district": 14,
   "filename": "kevin-dorrance.md",
   "full-name": "Kevin Dorrance",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Dorrance",
   "party": "Republican",

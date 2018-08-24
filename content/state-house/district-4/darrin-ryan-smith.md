@@ -7,6 +7,7 @@
   "education": "no comment",
   "filename": "darrin-ryan-smith.md",
   "full-name": "Darrin Ryan Smith",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/247-f62557134fd4a091a49cd8a7f4c535f8_IMG_1808.JPG",
   "jurisdiction": "Frederick County",
   "last-name": "Smith",

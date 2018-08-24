@@ -3,6 +3,7 @@
   "district": "34b",
   "filename": "jeff-dinger.md",
   "full-name": "Jeff Dinger",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Dinger",
   "party": "Democrat",

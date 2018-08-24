@@ -3,6 +3,7 @@
   "district": 21,
   "filename": "lee-havis.md",
   "full-name": "Lee Havis",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Havis",
   "party": "Republican",

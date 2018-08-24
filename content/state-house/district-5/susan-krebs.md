@@ -7,6 +7,7 @@
   "education": "B.S. Towson State University - Business Administration & Acounting 1981 post Graduate work in Taxation- University of Baltimore",
   "filename": "susan-krebs.md",
   "full-name": "Susan Krebs",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-4c29280fbaab98a937269397c0900d28_Krebs_Red.JPG",
   "jurisdiction": "Carroll County",
   "last-name": "Krebs",

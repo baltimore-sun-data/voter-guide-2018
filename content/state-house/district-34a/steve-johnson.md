@@ -3,6 +3,7 @@
   "district": "34a",
   "filename": "steve-johnson.md",
   "full-name": "Steve Johnson",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Johnson",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "paul-johnson.md",
   "full-name": "Paul Johnson",
+  "general-only": true,
   "last-name": "Johnson",
   "party": "Democrat",
   "race": "carroll-county/county-commissioner",

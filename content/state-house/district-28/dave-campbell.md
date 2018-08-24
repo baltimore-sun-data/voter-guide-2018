@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "dave-campbell.md",
   "full-name": "Dave Campbell",
+  "general-only": true,
   "jurisdiction": "Charles County",
   "last-name": "Campbell",
   "party": "Republican",

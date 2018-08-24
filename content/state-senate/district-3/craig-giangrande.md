@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "craig-giangrande.md",
   "full-name": "Craig Giangrande",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Giangrande",
   "party": "Republican",

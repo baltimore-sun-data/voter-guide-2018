@@ -3,6 +3,7 @@
   "district": 14,
   "filename": "patricia-fenati.md",
   "full-name": "Patricia Fenati",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Fenati",
   "party": "Republican",

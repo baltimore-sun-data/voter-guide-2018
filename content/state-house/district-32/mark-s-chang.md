@@ -7,6 +7,7 @@
   "education": "Graduate of Glen Burnie High School 1994  Undergraduate University of Maryland Baltimore County, Cum Laude, 1999  Master of Business Administration Loyola University, 2010",
   "filename": "mark-s-chang.md",
   "full-name": "Mark S. Chang",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Chang",
   "party": "Democrat",

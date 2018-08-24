@@ -3,6 +3,7 @@
   "district": 20,
   "filename": "jheanelle-wilkins.md",
   "full-name": "Jheanelle Wilkins",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Wilkins",
   "party": "Democrat",

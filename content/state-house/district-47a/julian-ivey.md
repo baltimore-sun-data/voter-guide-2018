@@ -7,6 +7,7 @@
   "education": "Judith P. Hoyer Early Childhood Learning Center (Cheverly) Gladys Noon Spellman (Cheverly) Robert Goddard Montessori (Seabrook) Eleanor Roosevelt High (Greenbelt) University of Maryland (College Park)",
   "filename": "julian-ivey.md",
   "full-name": "Julian Ivey",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-f86f807470b323f65a83e0c911faac9b_9233F86A-C701-451D-BBB4-30318216BDA0.jpeg",
   "jurisdiction": "Prince George's County",
   "last-name": "Ivey",

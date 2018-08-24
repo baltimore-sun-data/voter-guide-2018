@@ -7,6 +7,7 @@
   "education": "University of Michigan, Masters of Educational Studies University of Michigan, Masters of Public Policy University of Chicago, BA Rockville High School",
   "filename": "anne-r-kaiser.md",
   "full-name": "Anne R. Kaiser",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-de0447fbe2400a3517b3bc36fcd26996_with_coach_milloy_%282%29.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Kaiser",

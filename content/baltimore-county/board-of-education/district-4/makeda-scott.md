@@ -8,6 +8,7 @@
   "education": "Bachelor's Degree",
   "filename": "makeda-scott.md",
   "full-name": "Makeda Scott",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/44-c1148c91acc73d416bfac48115cf7fee_1383178_564162056985547_1730356833_n.jpg",
   "last-name": "Scott",
   "party": "Non-Partisan",

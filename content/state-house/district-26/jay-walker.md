@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "jay-walker.md",
   "full-name": "Jay Walker",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Walker",
   "party": "Democrat",

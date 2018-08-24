@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "dan-cox.md",
   "full-name": "Dan Cox",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Cox",
   "party": "Republican",

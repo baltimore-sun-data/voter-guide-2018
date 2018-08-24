@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "carl-jackson.md",
   "full-name": "Carl Jackson",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Jackson",
   "party": "Democrat",

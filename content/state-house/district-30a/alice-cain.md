@@ -7,6 +7,7 @@
   "education": "Bachelor's Degree from Gettysburg College and Graduate work towards a Master's in Policy Management.  I was recruited to work on the U.S. House of Representatives' education committee staff when I was one semester away from finishing my Master's.",
   "filename": "alice-cain.md",
   "full-name": "Alice Cain",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-3ad2ee1e114fb1d0756bcd9060fdca3a_Alice_-_photo.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Cain",

@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "crystal-woodward.md",
   "full-name": "Crystal Woodward",
+  "general-only": true,
   "jurisdiction": "Queen Anne's County",
   "last-name": "Woodward",
   "party": "Democrat",

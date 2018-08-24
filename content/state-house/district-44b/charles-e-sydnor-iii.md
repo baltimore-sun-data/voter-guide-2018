@@ -7,6 +7,7 @@
   "education": "Baltimore Polytechnic Institute, A Course diploma Johns Hopkins University, BA University of MD Baltimore County, MPS University of MD School of Law, JD",
   "filename": "charles-e-sydnor-iii.md",
   "full-name": "Charles E. Sydnor III",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-1f71f28c0c42e3fcb700b91a3c33f0da_DSC_3589.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Sydnor",

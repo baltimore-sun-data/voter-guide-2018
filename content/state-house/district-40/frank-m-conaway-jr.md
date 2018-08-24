@@ -3,6 +3,7 @@
   "district": 40,
   "filename": "frank-m-conaway-jr.md",
   "full-name": "Frank M. Conaway Jr.",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Conaway",
   "party": "Democrat",

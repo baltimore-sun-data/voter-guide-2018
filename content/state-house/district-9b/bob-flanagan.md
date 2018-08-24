@@ -7,6 +7,7 @@
   "education": "B.A. in Economics from Harvard University J.D. from Cornell University",
   "filename": "bob-flanagan.md",
   "full-name": "Bob Flanagan",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-684502d0677aa3a737eb67a59357093f_PLP_7427_copy.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Flanagan",

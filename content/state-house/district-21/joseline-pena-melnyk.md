@@ -7,6 +7,7 @@
   "education": "State University of New York at Buffalo Law School Juris Doctor, May 1991   State University of New York College at Buffalo Bachelor of Science: Criminal Justice, December 1987",
   "filename": "joseline-pena-melnyk.md",
   "full-name": "Joseline Peña-Melnyk",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-9d5182847845c688376b8fd66cc61a0c_IMG_4206_%282%29.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Peña-Melnyk",

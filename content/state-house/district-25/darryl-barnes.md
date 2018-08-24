@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "darryl-barnes.md",
   "full-name": "Darryl Barnes",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Barnes",
   "party": "Democrat",

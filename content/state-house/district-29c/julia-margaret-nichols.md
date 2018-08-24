@@ -3,6 +3,7 @@
   "district": "29c",
   "filename": "julia-margaret-nichols.md",
   "full-name": "Julia Margaret Nichols",
+  "general-only": true,
   "jurisdiction": "St. Mary's County",
   "last-name": "Nichols",
   "party": "Democrat",

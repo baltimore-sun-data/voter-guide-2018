@@ -3,6 +3,7 @@
   "district": 31,
   "filename": "bryan-w-simonaire.md",
   "full-name": "Bryan W. Simonaire",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Simonaire",
   "party": "Republican",

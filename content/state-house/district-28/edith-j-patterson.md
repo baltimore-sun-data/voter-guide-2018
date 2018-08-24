@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "edith-j-patterson.md",
   "full-name": "Edith J. Patterson",
+  "general-only": true,
   "jurisdiction": "Charles County",
   "last-name": "Patterson",
   "party": "Democrat",

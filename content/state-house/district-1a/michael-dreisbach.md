@@ -3,6 +3,7 @@
   "district": "1a",
   "filename": "michael-dreisbach.md",
   "full-name": "Michael Dreisbach",
+  "general-only": true,
   "jurisdiction": "Garrett County",
   "last-name": "Dreisbach",
   "party": "Democrat",

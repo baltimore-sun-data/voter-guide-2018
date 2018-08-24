@@ -7,6 +7,7 @@
   "education": "Georgetown University, Washington, DC M.A. in Philosophy of Psychology California Lutheran University, Thousand Oaks B.A in Psychology B.A in Sociology Minor in Art History",
   "filename": "sabina-taj.md",
   "full-name": "Sabina Taj",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/191-03bd49993f9b69fa4cc989b4c7d32769_Sabina_in_black-main-768x959.jpg",
   "last-name": "Taj",
   "party": "Non-Partisan",

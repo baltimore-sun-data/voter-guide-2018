@@ -7,6 +7,7 @@
   "education": "BS Math, U. of Houston MS Statistics, George Washington U. MS Computer Science, Johns Hopkins U. BS History, Salisbury U.",
   "filename": "frank-e-cooke.md",
   "full-name": "Frank E. Cooke",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-46f1e1b4555c2f10e0ce326e32582d58_headshot.jpg",
   "jurisdiction": "Dorchester County",
   "last-name": "Cooke",

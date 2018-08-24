@@ -7,6 +7,7 @@
   "education": "MS, Special Education, Old Dominion University BA, English, University of Virginia",
   "filename": "julie-k-hummer.md",
   "full-name": "Julie K. Hummer",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/52-a635cfc1366c5f7c170df71849a5134e_Hummer1.jpg",
   "last-name": "Hummer",
   "party": "Non-Partisan",

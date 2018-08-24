@@ -3,6 +3,7 @@
   "district": "37b",
   "filename": "christopher-t-adams.md",
   "full-name": "Christopher T. Adams",
+  "general-only": true,
   "jurisdiction": "Wicomico County",
   "last-name": "Adams",
   "party": "Republican",

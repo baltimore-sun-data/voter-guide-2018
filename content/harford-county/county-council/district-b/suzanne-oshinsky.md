@@ -5,6 +5,7 @@
   "education": "I received my B.A. from Columbia University in Asian and Middle Eastern Cultures,  with a minor in Environmental Science,  and was chosen to be a Centenniel Scholar.  I completed my M.A. in Near Eastern Studies at UC Berkeley.",
   "filename": "suzanne-oshinsky.md",
   "full-name": "Suzanne Oshinsky",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/99-bf607f61836e33b08f78a33b45b82d0e_mommy1a.png",
   "last-name": "Oshinsky",
   "party": "Democrat",

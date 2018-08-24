@@ -3,6 +3,7 @@
   "district": "A",
   "filename": "andre-v-johnson.md",
   "full-name": "Andre V. Johnson",
+  "general-only": true,
   "last-name": "Johnson",
   "party": "Democrat",
   "race": "harford-county/county-council",

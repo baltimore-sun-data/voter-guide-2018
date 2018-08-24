@@ -1,5 +1,5 @@
 {
-  "age": 52,
+  "age": 53,
   "background": "I spent many years as a government contractor in the Washington DC area working for agencies such as the FAA, NASA, Department of Defense and the NIH.  Over the last 4 years I have been working as a legislative aide for a Harford County Council Member.",
   "directory": "content/harford-county/county-council/district-A",
   "district": "A",
@@ -7,6 +7,7 @@
   "education": "BS  Business Administration Master in Public Administration, in process",
   "filename": "donna-blasdell.md",
   "full-name": "Donna Blasdell",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/44-105db2ea7ecc186cbc51999bbc4e1827_DJBlasdell.png",
   "last-name": "Blasdell",
   "party": "Republican",

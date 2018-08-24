@@ -3,6 +3,7 @@
   "district": "23a",
   "filename": "geraldine-valentino-smith.md",
   "full-name": "Geraldine Valentino-Smith",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Valentino-Smith",
   "party": "Democrat",

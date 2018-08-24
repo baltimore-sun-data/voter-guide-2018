@@ -7,6 +7,7 @@
   "education": "I earned a BS Marketing, BA Government and Politics, and a JD from the University of Maryland.",
   "filename": "tony-mcconkey.md",
   "full-name": "Tony McConkey",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-4044c79eeb7ccf164e4049cdbab2ef39_WAM-REO-Pic.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "McConkey",

@@ -7,6 +7,7 @@
   "education": "A Bachelor of Arts in Political Science, Religious Studies, and Philosophy  from Towson University",
   "filename": "pat-young.md",
   "full-name": "Pat Young",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-97a28e67871c9901109a6ba0429a031e_DSC_3608.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Young",

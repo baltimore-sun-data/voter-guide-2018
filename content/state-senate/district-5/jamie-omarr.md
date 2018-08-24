@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "jamie-omarr.md",
   "full-name": "Jamie O'Marr",
+  "general-only": true,
   "jurisdiction": "Carroll County",
   "last-name": "O'Marr",
   "party": "Democrat",

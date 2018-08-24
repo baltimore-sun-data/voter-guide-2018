@@ -3,6 +3,7 @@
   "district": 16,
   "filename": "sara-love.md",
   "full-name": "Sara Love",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Love",
   "party": "Democrat",

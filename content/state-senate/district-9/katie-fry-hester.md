@@ -7,6 +7,7 @@
   "education": "BSc. Agricultural and Biological Engineering, Cornell University, NY, 1997. Partnership Brokers Accreditation Scheme. Overseas Development Institute & International Business Leaders Forum. Accredited with Distinction, 2005. State of Maryland First Responder, 2010.",
   "filename": "katie-fry-hester.md",
   "full-name": "Katie Fry Hester",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-172b399213c57bf02b315ea8aa9ced9a_IMG_9870.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Hester",

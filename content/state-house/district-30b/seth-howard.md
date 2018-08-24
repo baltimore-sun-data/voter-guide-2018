@@ -3,6 +3,7 @@
   "district": "30b",
   "filename": "seth-howard.md",
   "full-name": "Seth Howard",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Howard",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "60 college credits in addition to Professional Development as a Union President.",
   "filename": "cheryl-d-glenn.md",
   "full-name": "Cheryl D. Glenn",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-e0ce096e2b571f0c06c9d6f56d182a04_JB1_3127.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Glenn",

@@ -7,6 +7,7 @@
   "education": "Bachelors of Science in Forestry from West Virginia University Masters of Public Policy from University of Maryland",
   "filename": "maria-warburton.md",
   "full-name": "Maria Warburton",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/191-85505137e0e5a40cff25085b0ecb075f_20180411_181809.jpg",
   "last-name": "Warburton",
   "party": "Democrat",

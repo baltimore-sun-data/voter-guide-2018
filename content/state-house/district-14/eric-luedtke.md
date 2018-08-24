@@ -7,6 +7,7 @@
   "education": "University of Maryland, College Park, B.A. 2002, M.Ed. 2004",
   "filename": "eric-luedtke.md",
   "full-name": "Eric Luedtke",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-8018851ad12043697f229638ea195091_headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Luedtke",

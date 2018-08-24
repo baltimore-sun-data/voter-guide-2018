@@ -7,6 +7,7 @@
   "education": "Masters (MPS)  in Management from The George Washington University BA in Comparative Politics from University of CA, at San Diego",
   "filename": "lesley-j-lopez.md",
   "full-name": "Lesley J. Lopez",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-0506ad2cafa90e06ae3b864eaab94715__MG_1178.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Lopez",

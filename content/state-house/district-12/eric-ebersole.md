@@ -7,6 +7,7 @@
   "education": "1. Bachelor of Science - Mathematics Education -University of MD, 1980 (Summa Cum Laude) 2. Masters of Education -Mathematics Education - University of MD, 1986",
   "filename": "eric-ebersole.md",
   "full-name": "Eric Ebersole",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-a55143f5f13d4d4b210cc80e4b73b374_Headshots_2017_%282%29ncropped.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Ebersole",

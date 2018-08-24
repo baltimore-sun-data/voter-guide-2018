@@ -7,6 +7,7 @@
   "education": "I attended public schools K-12 and graduated from Rutgers College, Rutgers University, with a degree in Music (Vocal Performance). I was a third of the way into an MBA in Accounting when 9/11 happened and I joined the Navy. I graduated in top of my class at Officer Candidate School, then went through flight school and earned my wings as a Naval Flight Officer. Once in the fleet, I received firefighting, damage control training, . graduate level training at the Airborne Mission Commander Course in Fallon, NV, and at the School of Aviation Safety in Pensacola, FL. I also graduated SERE (Survival Evasion Resistance and Escape) Training, which was instruction on how to handle being a Prisoner of War. After entering the Navy Reserve, I completed three semesters of graduate school with University of Maryland University College.",
   "filename": "eve-hurwitz.md",
   "full-name": "Eve Hurwitz",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-110d01c88d7ad32a2fdc2ad36955a2f4_eve_headshot.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Hurwitz",

@@ -7,6 +7,7 @@
   "education": "I am a graduate of Maryland public schools and have a Bachelor's degree from Towson University with additional studies at Wagner College, and the Second City in Chicago.",
   "filename": "heather-bagnall.md",
   "full-name": "Heather Bagnall",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-ef6558b8d2b6a76923cf299563af265a_HeatherBagnall.Arnold.MD.DelegateCandidateD33.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Bagnall",

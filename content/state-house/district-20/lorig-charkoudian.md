@@ -7,6 +7,7 @@
   "education": "Ph.D., Economics, 2001 Johns Hopkins University, Baltimore, MD  BA, Mathematical Economics, 1995 Pomona College, Claremont, CA  Newton (MA) Public Schools, Graduate, 1991",
   "filename": "lorig-charkoudian.md",
   "full-name": "Lorig Charkoudian",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-eb03471a18085d63c6fe1567fb78015f_Lorig_Head_Shot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Charkoudian",

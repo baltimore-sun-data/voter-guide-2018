@@ -7,6 +7,7 @@
   "education": "JD w/ Honors, Univ. MD School of Law, 2001 MA , Public Policy & Admin w/ Honors, UMBC, 1996 MA, Judaic Studies w/Honors, Towson Univ., 1996 BA, Internat'l Relations, Spanish, Tufts Univ, 1992 The Park School, 1988",
   "filename": "jon-s-cardin.md",
   "full-name": "Jon S. Cardin",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-3931f8bc063aeb6d9bdb59f8df169462_headshot.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Cardin",

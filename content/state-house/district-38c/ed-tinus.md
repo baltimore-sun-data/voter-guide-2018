@@ -7,6 +7,7 @@
   "education": "Master Universal mechanical artist.",
   "filename": "ed-tinus.md",
   "full-name": "Ed Tinus",
+  "general-only": true,
   "jurisdiction": "Worcester County",
   "last-name": "Tinus",
   "party": "Republican",

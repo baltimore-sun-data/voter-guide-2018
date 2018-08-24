@@ -3,6 +3,7 @@
   "district": 14,
   "filename": "craig-j-zucker.md",
   "full-name": "Craig J. Zucker",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Zucker",
   "party": "Democrat",

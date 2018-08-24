@@ -1,15 +1,16 @@
 {
-  "age": 46,
+  "age": 47,
   "background": "I worked for the State of Maryland as a budget and finance expert for almost 20 years. I began as a bill drafter and budget analyst for the Maryland General Assembly. From there, I became the Budget Director for the Department of Natural Resources, at the time a $500 million agency, and now I am the Director of Business and Finance for the Department of Physics at the University of Maryland, College Park. Over the course of my career as a public servant, I've drafted legislation, studied and implemented environmental, fiscal, education and smart growth policy, and ran complex government programs.",
   "directory": "content/anne-arundel-county/county-council/district-5",
   "dob": "8/28/1971",
   "education": "Bachelor of Arts in Government and Politics, University of Maryland, College Park, Juris Doctor (cum laude), Tulane University, Master of Business Administration, Tulane University.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "dawn-gough-myers.md",
   "full-name": "Dawn Gough Myers",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/52-e5aa38058d430c414afaef264906ad18_Myers_Headshot_1-1-2.jpg",
   "last-name": "Myers",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Should the county develop small area plans as part of the upcoming General Development Plan and Comprehensive rezoning process?",

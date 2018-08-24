@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "jesse-t-pippy.md",
   "full-name": "Jesse T. Pippy",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Pippy",
   "party": "Republican",

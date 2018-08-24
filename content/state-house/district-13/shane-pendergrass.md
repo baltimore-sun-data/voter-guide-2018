@@ -7,6 +7,7 @@
   "education": "University of Illinois, B.F.A. (fine arts), cum laude, 1973, M.A. (fine arts), 1974.",
   "filename": "shane-pendergrass.md",
   "full-name": "Shane Pendergrass",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-c63191d38a07a442c5bed42740e68d84_IMG_E4091.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Pendergrass",

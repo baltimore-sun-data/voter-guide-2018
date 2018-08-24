@@ -8,6 +8,7 @@
   "education": "Graduate of Parkville High School Magnet Program 1999 Associates Degree from Community College of Baltimore County",
   "filename": "william-feuer.md",
   "full-name": "William Feuer",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/245-e12bf46c30f22da24c0d2d8554a9a455_headshot.jpg",
   "last-name": "Feuer",
   "party": "Non-Partisan",

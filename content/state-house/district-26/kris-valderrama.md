@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "kris-valderrama.md",
   "full-name": "Kris Valderrama",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Valderrama",
   "party": "Democrat",

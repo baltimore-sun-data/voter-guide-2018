@@ -7,6 +7,7 @@
   "education": "High School Diploma, C. Milton Wright High School (2001) B.S. in Physics, Salisbury University (2005) M.S. in Electrical Engineering, Johns Hopkins University (2008)",
   "filename": "joe-norman.md",
   "full-name": "Joe Norman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-a86938808bf100457a85420745aed376_FullSizeRender_2.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Norman",

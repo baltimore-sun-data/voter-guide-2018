@@ -7,6 +7,7 @@
   "education": "H.S., 1990, Baltimore Polytechnic Institute; B.A., 1994, Earlham College; J.D., 2007, University of Louisville.",
   "filename": "luke-clippinger.md",
   "full-name": "Luke Clippinger",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-a10d594fe93327692c40b1be851dcc2c_LWV_headshot.JPG",
   "jurisdiction": "Baltimore City",
   "last-name": "Clippinger",

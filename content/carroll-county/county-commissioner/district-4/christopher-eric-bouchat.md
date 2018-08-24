@@ -1,5 +1,5 @@
 {
-  "age": 50,
+  "age": 51,
   "background": "Chairman of Bouchat Industries, inc. set. 1994",
   "directory": "content/carroll-county/county-commissioner/district-4",
   "district": 4,
@@ -7,6 +7,7 @@
   "education": "1-8th grades St. Augustine's Catholic School Howard High School Howard Vocational-Technical School, Welding Catonsville Com. College, Business Admn. UMBC, Political Science",
   "filename": "christopher-eric-bouchat.md",
   "full-name": "Christopher Eric Bouchat",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/245-e7ffeb086b82a609afde44e74e6e36ea_Campaign_photo.jpg",
   "last-name": "Bouchat",
   "party": "Republican",

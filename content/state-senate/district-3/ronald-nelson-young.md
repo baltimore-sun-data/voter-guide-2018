@@ -7,6 +7,7 @@
   "education": ".A.A. Frederick Community College B.A.  University of MD M.Ed. McDaniels College",
   "filename": "ronald-nelson-young.md",
   "full-name": "Ronald Nelson Young",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-7bb2b37bb56b680859c811ef91d1039a_RonYoung_headshot2.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Young",

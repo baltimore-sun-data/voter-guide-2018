@@ -7,6 +7,7 @@
   "education": "A.B., History and Theology, Georgetown University (Magna Cum Laude,  Phi Beta Kappa)  J.D.,  Georgetown University Law Center",
   "filename": "linda-willard.md",
   "full-name": "Linda Willard",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-a5224ada968eaa5e4f384c36f5b856a5_LW-35.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Willard",

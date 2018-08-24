@@ -7,6 +7,7 @@
   "education": "I have an undergraduate degree in Government and Politics from the University of Maryland as well as a Juris Doctorate from the Georgetown University Law Center.",
   "filename": "richmond-davis.md",
   "full-name": "Richmond Davis",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/52-f7c62fc56e38b3daadcc31cef101be10_campaign_photo_2.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Davis",

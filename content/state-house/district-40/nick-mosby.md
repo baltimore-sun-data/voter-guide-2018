@@ -7,6 +7,7 @@
   "education": "B.S. Electrical Engineering",
   "filename": "nick-mosby.md",
   "full-name": "Nick Mosby",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-2921fb5469b1adaa163a801d5d11a260_NickMosby_Headshot.png",
   "jurisdiction": "Baltimore City",
   "last-name": "Mosby",

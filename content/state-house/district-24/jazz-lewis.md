@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "jazz-lewis.md",
   "full-name": "Jazz Lewis",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Lewis",
   "party": "Democrat",

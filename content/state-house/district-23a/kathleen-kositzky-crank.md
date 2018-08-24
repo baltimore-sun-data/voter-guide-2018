@@ -3,6 +3,7 @@
   "district": "23a",
   "filename": "kathleen-kositzky-crank.md",
   "full-name": "Kathleen Kositzky Crank",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Crank",
   "party": "Republican",

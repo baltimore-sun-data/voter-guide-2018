@@ -7,6 +7,7 @@
   "education": "BA- University of Maryland College Park JD- Unversity of San Francisco School of Law",
   "filename": "susan-c-lee.md",
   "full-name": "Susan C. Lee",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-7067c3a078c993fd2574b0bea67486a2_LeeHeadshot.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Lee",

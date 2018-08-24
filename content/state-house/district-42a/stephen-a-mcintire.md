@@ -7,6 +7,7 @@
   "education": "BS Economics from the Wharton School of  The University of Pennsylvania Business concentration in Public Policy, minor in US History",
   "filename": "stephen-a-mcintire.md",
   "full-name": "Stephen A. McIntire",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-90d0bdb92c4e6a440fa3c87222ae55bd_Family_PHoto.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "McIntire",

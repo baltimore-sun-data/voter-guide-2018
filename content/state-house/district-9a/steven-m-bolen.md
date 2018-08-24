@@ -7,6 +7,7 @@
   "education": "I hold a Doctorate's Degree (Ph.D.), Master of Science (M.S.) Degree, and Bachelor of Science (B.S.) Degree in Electrical Engineering.",
   "filename": "steven-m-bolen.md",
   "full-name": "Steven M. Bolen",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-932f7ce8a5697404c36106f35c70118a_Steve_HeadShot_JFP_19MAR2018.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Bolen",

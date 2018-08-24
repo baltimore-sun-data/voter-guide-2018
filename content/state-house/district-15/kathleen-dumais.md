@@ -7,6 +7,7 @@
   "education": "JD, University of MD School of Law BA, Mount Vernon College, Washington, DC",
   "filename": "kathleen-dumais.md",
   "full-name": "Kathleen Dumais",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-e230a3636492833353a3f7937208c678_dumais_12_05_11_%284%29.JPG",
   "jurisdiction": "Montgomery County",
   "last-name": "Dumais",

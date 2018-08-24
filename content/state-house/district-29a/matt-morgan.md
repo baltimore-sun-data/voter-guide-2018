@@ -3,6 +3,7 @@
   "district": "29a",
   "filename": "matt-morgan.md",
   "full-name": "Matt Morgan",
+  "general-only": true,
   "jurisdiction": "St. Mary's County",
   "last-name": "Morgan",
   "party": "Republican",

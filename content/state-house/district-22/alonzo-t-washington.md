@@ -3,6 +3,7 @@
   "district": 22,
   "filename": "alonzo-t-washington.md",
   "full-name": "Alonzo T. Washington",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Washington",
   "party": "Democrat",

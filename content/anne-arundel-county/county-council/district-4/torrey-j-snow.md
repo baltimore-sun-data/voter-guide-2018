@@ -2,6 +2,7 @@
   "directory": "content/anne-arundel-county/county-council/district-4",
   "filename": "torrey-j-snow.md",
   "full-name": "Torrey J. Snow",
+  "general-only": true,
   "last-name": "Snow",
   "party": "Republican",
   "race-district": 4,

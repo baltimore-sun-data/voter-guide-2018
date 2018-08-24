@@ -7,6 +7,7 @@
   "education": "Educated in Baltimore City Public Schools and Bachelor of Science, Frostburg State University",
   "filename": "antonio-hayes.md",
   "full-name": "Antonio Hayes",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-10df9277763f056348d4cf870e81066d_IMG_2140.JPG",
   "jurisdiction": "Baltimore City",
   "last-name": "Hayes",

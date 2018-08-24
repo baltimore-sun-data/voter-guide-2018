@@ -7,6 +7,7 @@
   "education": "BA in Sociology and International Relations from Goucher College MS in Organization Development from American University",
   "filename": "jessica-feldmark.md",
   "full-name": "Jessica Feldmark",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-13d33183d09c9d2da6f248a6c5b2d24d_Jessica_Feldmark_-_headshot.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Feldmark",

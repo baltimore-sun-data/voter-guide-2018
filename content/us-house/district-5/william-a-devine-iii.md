@@ -3,6 +3,7 @@
   "district": 5,
   "filename": "william-a-devine-iii.md",
   "full-name": "William A. Devine III",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Devine",
   "party": "Republican",

@@ -5,6 +5,7 @@
   "education": "University of Maryland, College Park, MD Western Maryland College, Westminster, MD",
   "filename": "c-richard-weaver.md",
   "full-name": "C. Richard Weaver",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/179-0fd56d2d959eedc46039b89d38cd2613_IMG_9162.jpg",
   "last-name": "Weaver",
   "party": "Republican",

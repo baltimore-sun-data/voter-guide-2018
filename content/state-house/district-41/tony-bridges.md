@@ -7,6 +7,7 @@
   "education": "Baltimore Polytechinic Institute - 1995 Frostburg State University - Bachelor of Science in Mass Communications - 2000 Towson University - Certificate in Communications Management & Strategic Public Relations - 2002",
   "filename": "tony-bridges.md",
   "full-name": "Tony Bridges",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-6d4d8aba275cdea51ff467c665d2425c_TB_Head_Shot_2_.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Bridges",

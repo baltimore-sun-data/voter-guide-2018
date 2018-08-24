@@ -3,6 +3,7 @@
   "district": 46,
   "filename": "jeremy-baron.md",
   "full-name": "Jeremy Baron",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Baron",
   "party": "Republican",

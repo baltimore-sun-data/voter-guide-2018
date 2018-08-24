@@ -7,6 +7,7 @@
   "education": "Studied Political Science at Penn State University",
   "filename": "michelle-corkadel.md",
   "full-name": "Michelle Corkadel",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/95-f440babf22fd9b0b65b30aedf8d01f9e_Corkadel_Image.jpg",
   "last-name": "Corkadel",
   "party": "Non-Partisan",

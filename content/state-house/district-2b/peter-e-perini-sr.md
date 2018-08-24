@@ -7,6 +7,7 @@
   "education": "I have a Master of Science Degree in Civil Engineering (MSCE) from the University of Maryland, College Park's Clark School of Engineering.  I have a Bachelor of Engineering in Civil Engineering (BE) from Hofstra University in New York.  I have a diploma from Saint James School, St. James, Maryland.",
   "filename": "peter-e-perini-sr.md",
   "full-name": "Peter E. Perini Sr.",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-2471619b3e3d18c2f2d30f3f7f20e085_PEP_headshot_2018.png",
   "jurisdiction": "Washington County",
   "last-name": "Perini",

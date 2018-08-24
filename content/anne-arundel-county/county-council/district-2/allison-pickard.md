@@ -1,15 +1,16 @@
 {
-  "age": 45,
+  "age": 46,
   "background": "Constituent Service with US Senator Hollings 2 Years of Service with AmeriCorps 12 year career working in Senior Housing and Community Services. Anne Arundel County Council of PTAs Anne Arundel County Board of Education Anne Arundel County School Board Appt. Commission",
   "directory": "content/anne-arundel-county/county-council/district-2",
   "dob": "7/11/1972",
   "education": "Bachelor of Science in. Sociology, minor Political Science: College of Charleston Masters Level Graduate certificate in Non-Profit Management: Georgetown University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "allison-pickard.md",
   "full-name": "Allison Pickard",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/179-f894b5c7a487c59b1a20dd0e13367633_IMG_2195.jpg",
   "last-name": "Pickard",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Should the county develop small area plans as part of the upcoming General Development Plan and Comprehensive rezoning process?",

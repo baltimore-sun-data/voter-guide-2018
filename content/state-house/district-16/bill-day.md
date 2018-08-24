@@ -7,6 +7,7 @@
   "education": "United States Naval Academy, Bacholer of Science Catholic University, Columbus School of Law, Juris Doctor",
   "filename": "bill-day.md",
   "full-name": "Bill Day",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-31bd3d7b336ab9b955fee384860916f1_DayB_profile_pic.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Day",

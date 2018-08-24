@@ -3,6 +3,7 @@
   "district": "35b",
   "filename": "teresa-reilly.md",
   "full-name": "Teresa Reilly",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Reilly",
   "party": "Republican",

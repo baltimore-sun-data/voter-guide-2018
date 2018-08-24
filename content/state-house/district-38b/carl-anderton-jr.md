@@ -3,6 +3,7 @@
   "district": "38b",
   "filename": "carl-anderton-jr.md",
   "full-name": "Carl Anderton Jr.",
+  "general-only": true,
   "jurisdiction": "Wicomico County",
   "last-name": "Anderton",
   "party": "Republican",

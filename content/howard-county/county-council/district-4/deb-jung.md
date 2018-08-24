@@ -8,6 +8,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "deb-jung.md",
   "full-name": "Deb Jung",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/253-a49fd822d31e5a1a10e1527f2f4c6131_Campaign_Website_30.jpg",
   "last-name": "Jung",
   "party": "Democrat",

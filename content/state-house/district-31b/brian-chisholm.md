@@ -3,6 +3,7 @@
   "district": "31b",
   "filename": "brian-chisholm.md",
   "full-name": "Brian Chisholm",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Chisholm",
   "party": "Republican",

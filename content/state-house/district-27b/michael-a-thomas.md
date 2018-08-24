@@ -3,6 +3,7 @@
   "district": "27b",
   "filename": "michael-a-thomas.md",
   "full-name": "Michael A. Thomas",
+  "general-only": true,
   "jurisdiction": "Calvert County",
   "last-name": "Thomas",
   "party": "Republican",

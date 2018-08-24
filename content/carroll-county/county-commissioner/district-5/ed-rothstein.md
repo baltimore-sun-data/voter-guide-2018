@@ -7,6 +7,7 @@
   "education": "Master's Of Science, National Resource Strategy, Industrial College of Armed Forces, National Defense University   Master's of Arts, Human Resources, Webster University   Bachelor of Science in Education, Lock Haven University of Pennsylvania",
   "filename": "ed-rothstein.md",
   "full-name": "Ed Rothstein",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/245-e26a11525329c153d4b54a46cb60eb76_2x3_final_rothstein_DSC_5955.jpg",
   "last-name": "Rothstein",
   "party": "Republican",

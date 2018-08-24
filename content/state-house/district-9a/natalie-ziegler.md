@@ -1,5 +1,5 @@
 {
-  "age": 62,
+  "age": 63,
   "background": "My first career was in broadcast journalism, primarily at CNN. In 1989 I took over management of our family farm, and in 2001 my husband and I opened a small manufacturing company. We continue to operate both the farm and the manufacturing company.",
   "directory": "content/state-house/district-9a",
   "district": "9a",
@@ -7,6 +7,7 @@
   "education": "B.A. Oberlin College in Psychology     M.A. Johns Hopkins School of Advanced International Studies (SAIS), International Relations",
   "filename": "natalie-ziegler.md",
   "full-name": "Natalie Ziegler",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-9d6f252b8e14916f02782764cfe42ae3_head-shot-Natalie-ziegler.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Ziegler",

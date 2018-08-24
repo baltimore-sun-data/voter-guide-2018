@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "veronica-turner.md",
   "full-name": "Veronica Turner",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Turner",
   "party": "Democrat",

@@ -8,6 +8,7 @@
   "education": "Attended Alexandria City Public Schools from Elementary through High School. Graduated from TC Williams High School. Virginia Tech , 1989 Bachelor of Science Management Information Systems Maryland Real Estate Commission 1995 -2000 Complete requirements to become Licensed Residential Realtor and Continuing Education Courses Maryland Association of Boards of Education, Annapolis, MD 2015 to present - Complete Numerous Professional Development Courses including: 2 day New Board Member Training, PARCC Assessments, Understanding the Work of State Board, Appeals Process, Communications Guide for School Boards. M.A.B.E Conference - Workshops and Committees 2015, 2106, 2017 National School Board Conference - Workshops and Continuing Education, 2016, 2017, 2018",
   "filename": "kathleen-causey.md",
   "full-name": "Kathleen Causey",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/245-b19145578711225ba79f6c50a0be22f1_20150701_kathleen_causey_boe.jpg",
   "last-name": "Causey",
   "party": "Non-Partisan",

@@ -4,6 +4,7 @@
   "district": 2,
   "filename": "anthony-miles-glasser.md",
   "full-name": "Anthony Miles Glasser",
+  "general-only": true,
   "last-name": "Glasser",
   "party": "Non-Partisan",
   "q1": "Why do you want to serve on the county school board?",

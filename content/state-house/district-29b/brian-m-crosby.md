@@ -3,6 +3,7 @@
   "district": "29b",
   "filename": "brian-m-crosby.md",
   "full-name": "Brian M. Crosby",
+  "general-only": true,
   "jurisdiction": "St. Mary's County",
   "last-name": "Crosby",
   "party": "Democrat",

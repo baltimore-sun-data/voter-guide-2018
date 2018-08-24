@@ -7,6 +7,7 @@
   "education": "Bachelors Degree from Towson University",
   "filename": "joe-cluster.md",
   "full-name": "Joe Cluster",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-fb5c640ab22eef010caa271659695e89_Me.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Cluster",

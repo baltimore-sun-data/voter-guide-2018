@@ -7,6 +7,7 @@
   "education": "Associate's Degree from Carroll  Community College B.A. in Political Science from Salisbury University Masters of Business Administration from University of Maryland - University College",
   "filename": "justin-ready.md",
   "full-name": "Justin Ready",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-c310bfc4a93b98b8fc2ad159455bb48a_Ready-8x10-HiRes.jpg",
   "jurisdiction": "Carroll County",
   "last-name": "Ready",

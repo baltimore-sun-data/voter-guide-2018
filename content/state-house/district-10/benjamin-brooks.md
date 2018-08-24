@@ -7,6 +7,7 @@
   "education": "-Ebenezer High School (South Carolina) -South Carolina State University (B.S. Accounting)",
   "filename": "benjamin-brooks.md",
   "full-name": "Benjamin Brooks",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-e4fe9233a3bc3288b1ac316a14d14823_11221540_387158238137224_4181987537628676580_n.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Brooks",

@@ -7,6 +7,7 @@
   "education": "Bachelor of Arts, Criminal Justice, University of Maryland, College Park, MD, Class 2000",
   "filename": "paul-d-corderman.md",
   "full-name": "Paul D. Corderman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-e4094897867776d6a3cf96457e5b8e89_Profile_Pic.jpg",
   "jurisdiction": "Washington County",
   "last-name": "Corderman",

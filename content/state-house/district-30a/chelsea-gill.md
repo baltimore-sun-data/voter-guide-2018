@@ -3,6 +3,7 @@
   "district": "30a",
   "filename": "chelsea-gill.md",
   "full-name": "Chelsea Gill",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Gill",
   "party": "Republican",

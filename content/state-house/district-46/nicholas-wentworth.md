@@ -3,6 +3,7 @@
   "district": 46,
   "filename": "nicholas-wentworth.md",
   "full-name": "Nicholas Wentworth",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Wentworth",
   "party": "Republican",

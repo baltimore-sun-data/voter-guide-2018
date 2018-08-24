@@ -7,6 +7,7 @@
   "education": "BA, Psychology, Ryokan College",
   "filename": "ysela-bravo.md",
   "full-name": "Ysela Bravo",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-9cfed8dacf5d195a7e903d14095038ee_Ysela_Bravo-closedsmile.jpeg",
   "jurisdiction": "Frederick County",
   "last-name": "Bravo",

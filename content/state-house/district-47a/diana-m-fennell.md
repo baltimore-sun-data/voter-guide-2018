@@ -3,6 +3,7 @@
   "district": "47a",
   "filename": "diana-m-fennell.md",
   "full-name": "Diana M. Fennell",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Fennell",
   "party": "Democrat",

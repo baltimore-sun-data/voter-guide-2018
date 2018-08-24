@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "arthur-ellis.md",
   "full-name": "Arthur Ellis",
+  "general-only": true,
   "jurisdiction": "Charles County",
   "last-name": "Ellis",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": "38c",
   "filename": "wayne-a-hartman.md",
   "full-name": "Wayne A. Hartman",
+  "general-only": true,
   "jurisdiction": "Worcester County",
   "last-name": "Hartman",
   "party": "Republican",

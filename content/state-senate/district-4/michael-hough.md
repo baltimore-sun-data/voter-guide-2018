@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "michael-hough.md",
   "full-name": "Michael Hough",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Hough",
   "party": "Republican",

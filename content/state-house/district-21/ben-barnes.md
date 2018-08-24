@@ -7,6 +7,7 @@
   "education": "University of Baltimore School of Law, JD, 2003; University of North Carolina at Greensboro, BA in economics and political science, 1998.",
   "filename": "ben-barnes.md",
   "full-name": "Ben Barnes",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-32a5ea2cfcdaae1f3115361f957c1849_Binetti-Ben-156-1024x683_%281%29.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Barnes",

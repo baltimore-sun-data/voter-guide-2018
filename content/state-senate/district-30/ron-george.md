@@ -3,6 +3,7 @@
   "district": 30,
   "filename": "ron-george.md",
   "full-name": "Ron George",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "George",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "College Graduate",
   "filename": "melanie-harris.md",
   "full-name": "Melanie Harris",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-fffd8b9796241b2586da54f874725563_Harris_Portrait.JPG",
   "jurisdiction": "Baltimore County",
   "last-name": "Harris",

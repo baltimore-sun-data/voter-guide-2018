@@ -1,17 +1,18 @@
 {
-  "age": 34,
+  "age": 35,
   "background": "Melissa Wells is a community advocate, labor leader, and financial security specialist. She is a proud Baltimorean and a longtime advocate for neighborhoods in the 40th District.  As a member of the Baltimore-D.C. Building Trades Unions, Melissa works with Baltimore's underserved communities. She helps residents— including women, youth, and returning citizens— find apprenticeships and secure family-supporting careers that provide the stability we all deserve.   Over her career Melissa has worked with federal, state, and local decision makers to bring resources and investments to the 40th district that benefit families across the economic spectrum.  Just and fair inclusion, as well as access to financial security for the most vulnerable,  are key principles that guide Melissa.",
   "directory": "content/state-house/district-40",
   "district": 40,
   "dob": "10/3/1983",
   "education": "Masters of Public Policy from American University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "filename": "melissa-wells.md",
   "full-name": "Melissa Wells",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-51a70b606be6dabbd310994caabe7815_MWells817-22.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Wells",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-city-legislative-endorsements-20180618-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

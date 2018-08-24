@@ -3,6 +3,7 @@
   "district": "47b",
   "filename": "wanika-fisher.md",
   "full-name": "Wanika Fisher",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Fisher",
   "party": "Democrat",

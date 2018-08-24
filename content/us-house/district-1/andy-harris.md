@@ -7,6 +7,7 @@
   "education": "B.S. Human Biology M.D. M.H.S. Health Policy and Management",
   "filename": "andy-harris.md",
   "full-name": "Andy Harris",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Harris",
   "party": "Republican",

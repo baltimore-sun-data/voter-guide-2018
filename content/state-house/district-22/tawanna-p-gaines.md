@@ -7,6 +7,7 @@
   "education": "Attended the District of Columbia Teachers College and Townson University.",
   "filename": "tawanna-p-gaines.md",
   "full-name": "Tawanna P. Gaines",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-2bf97f308d733523f7bc2eb8a4feda30_GainesPortrait.png",
   "jurisdiction": "Prince George's County",
   "last-name": "Gaines",

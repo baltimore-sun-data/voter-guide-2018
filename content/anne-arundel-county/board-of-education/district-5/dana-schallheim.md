@@ -7,6 +7,7 @@
   "education": "Leadership in Energy and Environmental Design (LEED) Accredited Professional, 2008 MBA, University of Brighton, Brighton, England, 2002 BA Business Administration, Western Washington University, Bellingham, Washington, 1998",
   "filename": "dana-schallheim.md",
   "full-name": "Dana Schallheim",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/179-2bc41ef26665ccbc15ac64b7d50801c4_20180322_152109.jpg",
   "last-name": "Schallheim",
   "party": "Non-Partisan",

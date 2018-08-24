@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "stephen-s-hershey-jr.md",
   "full-name": "Stephen S. Hershey Jr.",
+  "general-only": true,
   "jurisdiction": "Queen Anne's County",
   "last-name": "Hershey",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": "29c",
   "filename": "gerald-w-jerry-clark.md",
   "full-name": "Gerald W. \"Jerry\" Clark",
+  "general-only": true,
   "jurisdiction": "Calvert County",
   "last-name": "Clark",
   "party": "Republican",

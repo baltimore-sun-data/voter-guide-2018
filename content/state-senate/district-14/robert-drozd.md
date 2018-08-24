@@ -7,6 +7,7 @@
   "education": "- BS, Business from Wright State University; Masters, Aeronautical Science from Embry-Riddle Aeronautical University; Masters, Military Operational Art & Sciences from Air University - Basic, Intermediate, & Senior Developmental Professional Military Education - Post-grad certificate in Strategic Leadership, Chartered Management Institute; Project Management Professional course, Syracuse University",
   "filename": "robert-drozd.md",
   "full-name": "Robert Drozd",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-1c798e0eca3579ee7e01f57488fe3b97_Drozd_-_photov2.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Drozd",

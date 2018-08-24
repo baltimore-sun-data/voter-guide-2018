@@ -3,6 +3,7 @@
   "district": 2,
   "filename": "andrew-a-serafini.md",
   "full-name": "Andrew A. Serafini",
+  "general-only": true,
   "jurisdiction": "Washington County",
   "last-name": "Serafini",
   "party": "Republican",

@@ -1,5 +1,5 @@
 {
-  "age": 61,
+  "age": 62,
   "background": "12 years active duty in the U.S. Army.  For the last 30 years, small business owner specializing in financial services, insurance, investments and retirement planning services for individuals, small and medium sized businesses.",
   "directory": "content/harford-county/county-council/district-F",
   "district": "F",
@@ -7,6 +7,7 @@
   "education": "High School graduate with completion of college and business management courses while on Active duty in the military.  I graduated from the Harford Leadership Academy in 2015 and am a 2017 graduate of the Academy of Excellence in Governance through the University of Maryland's School of Public Policy.",
   "filename": "curtis-l-beulah.md",
   "full-name": "Curtis L. Beulah",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/52-d3505a39c53a284d6addc77415a8c2e6_Curtis.Headshot.4.11.18.jpg",
   "last-name": "Beulah",
   "party": "Republican",

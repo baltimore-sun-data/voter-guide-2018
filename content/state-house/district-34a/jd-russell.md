@@ -3,6 +3,7 @@
   "district": "34a",
   "filename": "jd-russell.md",
   "full-name": "J.D. Russell",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Russell",
   "party": "Republican",

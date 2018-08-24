@@ -5,6 +5,7 @@
   "education": "MA , BA IN Education  Taft Fellow in Politicsl Science",
   "filename": "josephine-j-wang.md",
   "full-name": "Josephine J. Wang",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Wang",
   "party": "Republican",

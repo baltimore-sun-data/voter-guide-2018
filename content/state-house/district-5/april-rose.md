@@ -7,6 +7,7 @@
   "education": "Graduated from Arlington Baptist High School Villa Julie College ( now Stevenson University) - 2 semesters",
   "filename": "april-rose.md",
   "full-name": "April Rose",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-e54df022e3ae8341c912cbf3236fac5a_april_rose_122017_new_2_-_Copy.jpg",
   "jurisdiction": "Carroll County",
   "last-name": "Rose",

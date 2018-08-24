@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "gabriel-acevero.md",
   "full-name": "Gabriel Acevero",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Acevero",
   "party": "Democrat",

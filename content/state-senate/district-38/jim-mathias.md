@@ -7,6 +7,7 @@
   "education": "Calvert Hall College, Class of 1969 University of Maryland, Baltimore County, Class of 1974, B.A. in Political Science",
   "filename": "jim-mathias.md",
   "full-name": "Jim Mathias",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-3fd3b7fc39836b632807202e6f8648b4_34056_115055341874272_5303605_n.jpg",
   "jurisdiction": "Worcester County",
   "last-name": "Mathias",

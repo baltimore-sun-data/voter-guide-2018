@@ -3,6 +3,7 @@
   "district": 31,
   "filename": "scott-harman.md",
   "full-name": "Scott Harman",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Harman",
   "party": "Democrat",

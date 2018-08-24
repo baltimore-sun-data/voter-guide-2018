@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "jay-a-jacobs.md",
   "full-name": "Jay A. Jacobs",
+  "general-only": true,
   "jurisdiction": "Kent County",
   "last-name": "Jacobs",
   "party": "Republican",

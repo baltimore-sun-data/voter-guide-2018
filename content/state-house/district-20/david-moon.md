@@ -7,6 +7,7 @@
   "education": "American University, JD 2004 Tufts University, BA in Sociology & Philosophy 2001 Walt Whitman High School, 1997",
   "filename": "david-moon.md",
   "full-name": "David Moon",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-5ba401d67c5e9c9d1c1cc665320e1fa9_headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Moon",

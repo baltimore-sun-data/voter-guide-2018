@@ -7,6 +7,7 @@
   "education": "Bachelor of Science in Nursing, University of Maryland, 1990",
   "filename": "vicky-cutroneo.md",
   "full-name": "Vicky Cutroneo",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/44-3b1b6e2d8a3adc9157e143bf6176b040_fullsizeoutput_1c9.jpeg",
   "last-name": "Cutroneo",
   "party": "Non-Partisan",

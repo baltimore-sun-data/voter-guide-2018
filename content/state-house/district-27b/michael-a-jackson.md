@@ -7,6 +7,7 @@
   "education": "Masters Degree -Management --The Johns Hopkins University",
   "filename": "michael-a-jackson.md",
   "full-name": "Michael A. Jackson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/104-618eb121c2ef0f5d4a8746d5ed60b9d9_2018_official_pic.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Jackson",

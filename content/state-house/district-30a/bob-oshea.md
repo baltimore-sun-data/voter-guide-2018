@@ -3,6 +3,7 @@
   "district": "30a",
   "filename": "bob-oshea.md",
   "full-name": "Bob O'Shea",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "O'Shea",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "buddy-staigerwald.md",
   "full-name": "Buddy Staigerwald",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Staigerwald",
   "party": "Democrat",

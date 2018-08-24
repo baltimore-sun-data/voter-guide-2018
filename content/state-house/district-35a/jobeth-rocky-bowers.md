@@ -3,6 +3,7 @@
   "district": "35a",
   "filename": "jobeth-rocky-bowers.md",
   "full-name": "Jobeth Rocky Bowers",
+  "general-only": true,
   "jurisdiction": "Cecil County",
   "last-name": "Bowers",
   "party": "Democrat",

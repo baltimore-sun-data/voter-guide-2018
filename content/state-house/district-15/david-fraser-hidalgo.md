@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "david-fraser-hidalgo.md",
   "full-name": "David Fraser-Hidalgo",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Fraser-Hidalgo",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "B.A., Harvard University M.P.A., Woodrow Wilson School, Princeton University J.D., Columbia Law School",
   "filename": "dana-stein.md",
   "full-name": "Dana Stein",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-6485769aa6ce1b7928a75fa50ab5cf81_Headshot_%281%29.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Stein",

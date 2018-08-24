@@ -8,6 +8,7 @@
   "education": "BA, Marquette University Executive MBA, Loyola University in Maryland",
   "filename": "julie-c-henn.md",
   "full-name": "Julie C. Henn",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/253-bf2c3e36fec642d16bd71c538fec42e4_headshot.jpg",
   "last-name": "Henn",
   "party": "Non-Partisan",

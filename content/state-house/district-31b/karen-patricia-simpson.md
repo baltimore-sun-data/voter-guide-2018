@@ -7,6 +7,7 @@
   "education": "I earned a Bachelor of Science in Psychology from Radford University and later a Master's Degree in Community Counseling from Towson University. I also am a Certified Professional in Learning and Performance (CPLP) by the Association of Talent Development",
   "filename": "karen-patricia-simpson.md",
   "full-name": "Karen Patricia Simpson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-31e32f30c3178e6a0ef131b34d72265f_Karen_Simpson_Candidate_Headshot.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Simpson",

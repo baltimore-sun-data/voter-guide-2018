@@ -6,6 +6,7 @@
   "education": "Tuskegee University, 2002   Political Science  Magna Cum Laude Boston College Law School, 2005  Juris Doctorate",
   "filename": "marilyn-j-mosby.md",
   "full-name": "Marilyn J. Mosby",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4296412/52-f2bfa98919034daa649ec6160ced7d16_Mosby.jpg",
   "last-name": "Mosby",
   "party": "Democrat",

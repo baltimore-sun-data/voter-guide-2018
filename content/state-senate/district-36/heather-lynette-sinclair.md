@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "heather-lynette-sinclair.md",
   "full-name": "Heather Lynette Sinclair",
+  "general-only": true,
   "jurisdiction": "Kent County",
   "last-name": "Sinclair",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "Maryland High School graduate (public school)",
   "filename": "matthew-kaliszak.md",
   "full-name": "Matthew Kaliszak",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-db2db71b2f3f751652b689a516cc487e_campaignphoto.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Kaliszak",

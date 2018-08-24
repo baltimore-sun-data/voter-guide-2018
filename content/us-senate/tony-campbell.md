@@ -6,6 +6,7 @@
   "education": "D.Min., Liberty University M.Div., Liberty University M.S., Social Science, Towson University B.A., Political Science, University of Pittsburgh",
   "filename": "tony-campbell.md",
   "full-name": "Tony Campbell",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-fb7a3edf60190159e6a73aea49b6f27f_Tony2cmyk.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Campbell",

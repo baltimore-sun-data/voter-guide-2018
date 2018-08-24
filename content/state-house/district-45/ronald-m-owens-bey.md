@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "ronald-m-owens-bey.md",
   "full-name": "Ronald M. Owens-Bey",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Owens-Bey",
   "party": "Republican",

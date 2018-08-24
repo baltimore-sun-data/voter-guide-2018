@@ -6,6 +6,7 @@
   "education": "Bachelors of Science in Economics from the Wharton School of the University of PA, 1987",
   "filename": "doug-howard.md",
   "full-name": "Doug Howard",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/253-9fa307cb3f9234c7521176c873e29369_Doug.jpg",
   "last-name": "Howard",
   "party": "Non-Partisan",

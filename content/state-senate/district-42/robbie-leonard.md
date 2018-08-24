@@ -7,6 +7,7 @@
   "education": "University of Baltimore School of Law, J.D. Towson University, B.S. Political Science",
   "filename": "robbie-leonard.md",
   "full-name": "Robbie Leonard",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-8462060052c3c509f25cbafe3eb5b38f_26197844_2185634881663833_6143363972853150301_o.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Leonard",

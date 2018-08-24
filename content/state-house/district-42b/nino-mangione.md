@@ -3,6 +3,7 @@
   "district": "42b",
   "filename": "nino-mangione.md",
   "full-name": "Nino Mangione",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Mangione",
   "party": "Republican",

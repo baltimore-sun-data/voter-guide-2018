@@ -5,6 +5,7 @@
   "education": "Yale College and Georgetown University",
   "filename": "jim-rosapepe.md",
   "full-name": "Jim Rosapepe",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-40870fe8d7c6b6f460862fe2bc8afe9e_JCR_wiki_cropped.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Rosapepe",

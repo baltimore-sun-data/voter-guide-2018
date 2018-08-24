@@ -7,6 +7,7 @@
   "education": "University of Minnesota, BA in Art History University of Baltimore School of Law, JD",
   "filename": "pam-luby.md",
   "full-name": "Pam Luby",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-2ab593a50f50ceaa9edafa66e4269518_Luby_0042_Edit_Web.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Luby",

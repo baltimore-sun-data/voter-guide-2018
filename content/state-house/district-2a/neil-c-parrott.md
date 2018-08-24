@@ -3,6 +3,7 @@
   "district": "2a",
   "filename": "neil-c-parrott.md",
   "full-name": "Neil C. Parrott",
+  "general-only": true,
   "jurisdiction": "Washington County",
   "last-name": "Parrott",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "Howard Univ.(Phi Beta Kappa 1973). Univ.Maryland Law School(JD 1976).",
   "filename": "elijah-cummings.md",
   "full-name": "Elijah Cummings",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/95-78a8bd62a6ce9ec3d5d7daea5b2d7478_ElijahCummings-2018.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Cummings",

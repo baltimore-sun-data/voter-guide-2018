@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "barrie-s-ciliberti.md",
   "full-name": "Barrie S. Ciliberti",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Ciliberti",
   "party": "Republican",

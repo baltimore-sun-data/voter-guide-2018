@@ -7,6 +7,7 @@
   "education": "Immaculate Heart of Mary- Graduated Archbishop Curley - 2 years Parkville High School - Graduated UMBC - Attended Essex Community College",
   "filename": "joseph-c-boteler-iii.md",
   "full-name": "Joseph C. Boteler III",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-90a293f7ec606c8ce6adf06fb16f3ba7_Boteler.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Boteler",

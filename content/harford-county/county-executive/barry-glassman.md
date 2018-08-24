@@ -6,6 +6,7 @@
   "education": "Graduated Harford County Public Schools Washington College, Bachelor of Arts - Political Science",
   "filename": "barry-glassman.md",
   "full-name": "Barry Glassman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/253-91217cc7ec1c4fc18e925c9d38c3d823_Barry_Glassman.jpg",
   "last-name": "Glassman",
   "party": "Republican",

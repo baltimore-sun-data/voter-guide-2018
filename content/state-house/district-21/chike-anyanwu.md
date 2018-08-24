@@ -3,6 +3,7 @@
   "district": 21,
   "filename": "chike-anyanwu.md",
   "full-name": "Chike Anyanwu",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Anyanwu",
   "party": "Republican",

@@ -1,5 +1,5 @@
 {
-  "age": 48,
+  "age": 49,
   "background": "Certified Financial Planner.  Chartered Retirement Investment Counselor  Small Business owner, top 5% financial advisory company",
   "directory": "content/baltimore-county/county-council/district-1",
   "district": 1,
@@ -7,6 +7,7 @@
   "education": "Triple Major, Economics, Business, and Political Science  McDaniel College  Class of 1992",
   "filename": "tom-quirk.md",
   "full-name": "Tom Quirk",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/117-39200279b3d1347273e3409426c7a1d9_Quirk_baltsun.jpg",
   "last-name": "Quirk",
   "party": "Democrat",

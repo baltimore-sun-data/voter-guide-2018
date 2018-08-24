@@ -7,6 +7,7 @@
   "education": "Attended Anne Arundel County Public Schools.  Earned BA Degree in Economics and Political Science from Hood College, Frederick, MD",
   "filename": "tracie-cramer-hovermale.md",
   "full-name": "Tracie Cramer Hovermale",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-033143bc742b8b9ef0e533b4f2e48759_Hovermale_0062_Edit_Web.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Hovermale",

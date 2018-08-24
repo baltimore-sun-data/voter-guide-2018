@@ -3,6 +3,7 @@
   "district": "3a",
   "filename": "mike-bowersox.md",
   "full-name": "Mike Bowersox",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Bowersox",
   "party": "Republican",

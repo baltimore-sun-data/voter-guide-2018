@@ -8,6 +8,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "lisa-kim.md",
   "full-name": "Lisa Kim",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/191-9908687e772bf7fadda50682e7144c7f_Campaign_Photo.JPG",
   "last-name": "Kim",
   "party": "Republican",

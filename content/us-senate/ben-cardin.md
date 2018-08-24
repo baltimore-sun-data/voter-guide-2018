@@ -1,11 +1,12 @@
 {
-  "age": 74,
+  "age": 75,
   "background": "A lifelong Marylander, Senator Cardin serves as Ranking Member of the Senate Small Business and Entrepreneurship Committee. He is a senior member of the Senate Foreign Relations Committee and also is a member of the Environment & Public Works and Finance committees. From 1987-2006, Ben Cardin represented Maryland's Third Congressional District in the U.S. House of Representatives, including 17 years on the Ways & Means Committee. He was a member of the Maryland House of Delegates from 1967-1986. During his time as Speaker from 1979-1986, he reformed Maryland's property tax system, the school financing formula and the ethical standards for elected officials. After receiving his law degree, he actively practiced law until elected to the U.S. House of Representatives.",
   "directory": "content/us-senate",
   "dob": "10/05/1943",
   "education": "Graduated University of Maryland School of Law (1st in his class) Earned BA degree from the University of Pittsburgh (cum laude) Graduated Baltimore City College High School",
   "filename": "ben-cardin.md",
   "full-name": "Ben Cardin",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/253-de39e3f0bfe50ec3c6f51302f93fc6ca_headshot_close_2018.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Cardin",

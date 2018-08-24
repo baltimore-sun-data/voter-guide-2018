@@ -7,6 +7,7 @@
   "education": "MS National Security Policy MS Organizational Development MS Naval National Security Policy BS Political Science",
   "filename": "ike-puzon.md",
   "full-name": "Ike Puzon",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-94a45114698cc163683967ef0f9ccf2c_9D845219-8F2B-4911-B4F7-A567A33B73E6.jpeg",
   "jurisdiction": "Prince George's County",
   "last-name": "Puzon",

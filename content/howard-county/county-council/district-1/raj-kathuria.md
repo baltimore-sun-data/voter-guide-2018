@@ -1,5 +1,5 @@
 {
-  "age": 52,
+  "age": 53,
   "background": "14 years in Information Technology, currently I am a local Realtor in Howard County, also owned multiple retail businesses including Bistro Blanc restaurant in Western Howard County.",
   "directory": "content/howard-county/county-council/district-1",
   "district": 1,
@@ -8,6 +8,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "raj-kathuria.md",
   "full-name": "Raj Kathuria",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-4aacf6c1b93732e0008b1fca21b6c133_Raj55.jpg",
   "last-name": "Kathuria",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": 17,
   "filename": "george-ivan-hernandez.md",
   "full-name": "George Ivan Hernandez",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Hernandez",
   "party": "Republican",

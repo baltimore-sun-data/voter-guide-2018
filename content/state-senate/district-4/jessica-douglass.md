@@ -7,6 +7,7 @@
   "education": "Bachelor's degree at The Pennsylvania State University in Secondary English and Communication Education, with a minor in International Studies - 2003 Master's degree in Education and Human Development from The University of Maryland in 2007.",
   "filename": "jessica-douglass.md",
   "full-name": "Jessica Douglass",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-0c78037db1f1f470eca9d03b124d010f_28279321_10213945537529994_192240630563164184_n.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Douglass",

@@ -7,6 +7,7 @@
   "education": "MBA, Robert H Smith School of Business, University of Maryland JD, Howard University School of Law BA, Columbia University",
   "filename": "liz-matory.md",
   "full-name": "Liz Matory",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/95-474f619bbc1247d82592ae2c2744b855_Liz_Matory_Headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Matory",

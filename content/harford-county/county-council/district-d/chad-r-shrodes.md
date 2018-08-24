@@ -7,6 +7,7 @@
   "education": "I'm a lifelong resident of Norrisville, a father, a graduate of North Harford High School, Harford Community College and Towson University; and former land use planner for the County and State, currently serving a third term as Councilman. I have a BS in Land Use and Environmental Planning. My Council experience, planning background, understanding of sound planning practices, and level of local knowledge have been vital to the success of the council this term and in past terms. My experience will continue to be important as the next Council will include three or more new members.",
   "filename": "chad-r-shrodes.md",
   "full-name": "Chad R. Shrodes",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/95-d06f8370db09e06179c5542789b030eb__TS24618_MODIFIED.jpg",
   "last-name": "Shrodes",
   "party": "Republican",

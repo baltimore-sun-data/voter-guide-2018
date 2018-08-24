@@ -3,6 +3,7 @@
   "district": "35b",
   "filename": "andrew-cassilly.md",
   "full-name": "Andrew Cassilly",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Cassilly",
   "party": "Republican",

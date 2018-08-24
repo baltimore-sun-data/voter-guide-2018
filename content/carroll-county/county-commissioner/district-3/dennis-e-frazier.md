@@ -5,6 +5,7 @@
   "education": "BS from Towson, MS from Western Maryland College.",
   "filename": "dennis-e-frazier.md",
   "full-name": "Dennis E. Frazier",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/245-46f542af77e731e924e3a2730ce0b42b_WIN_20180321_15_52_22_Pro.jpg",
   "last-name": "Frazier",
   "party": "Republican",

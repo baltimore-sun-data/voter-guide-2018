@@ -7,6 +7,7 @@
   "education": "I received a Bachelor of Arts from University of Maryland Baltimore County in 1993. I majored in psychology and focused my studies on child development and education. As an undergraduate, I participated in two large-scale faculty research projects and presented my own research as a part of one of those projects at a conference for the American Psychological Association.",
   "filename": "melissa-ellis.md",
   "full-name": "Melissa Ellis",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299929/179-d45ad59f629f54d1f4827a4ffe771700_Melissa_Ellis_Headshot_C.jpg",
   "last-name": "Ellis",
   "party": "Non-Partisan",

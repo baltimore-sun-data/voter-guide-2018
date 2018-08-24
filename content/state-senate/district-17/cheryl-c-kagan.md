@@ -3,6 +3,7 @@
   "district": 17,
   "filename": "cheryl-c-kagan.md",
   "full-name": "Cheryl C. Kagan",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Kagan",
   "party": "Democrat",

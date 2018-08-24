@@ -3,6 +3,7 @@
   "district": "1c",
   "filename": "mike-mckay.md",
   "full-name": "Mike McKay",
+  "general-only": true,
   "jurisdiction": "Allegany County",
   "last-name": "McKay",
   "party": "Republican",

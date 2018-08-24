@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "j-sandy-bartlett.md",
   "full-name": "J. Sandy Bartlett",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Bartlett",
   "party": "Democrat",

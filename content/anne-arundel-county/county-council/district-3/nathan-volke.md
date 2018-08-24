@@ -2,6 +2,7 @@
   "directory": "content/anne-arundel-county/county-council/district-3",
   "filename": "nathan-volke.md",
   "full-name": "Nathan Volke",
+  "general-only": true,
   "last-name": "Volke",
   "party": "Republican",
   "race-district": 3,

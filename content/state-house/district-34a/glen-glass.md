@@ -3,6 +3,7 @@
   "district": "34a",
   "filename": "glen-glass.md",
   "full-name": "Glen Glass",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Glass",
   "party": "Republican",

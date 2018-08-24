@@ -3,6 +3,7 @@
   "district": 21,
   "filename": "richard-douglas.md",
   "full-name": "Richard Douglas",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Douglas",
   "party": "Republican",

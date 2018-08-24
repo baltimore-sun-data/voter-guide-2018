@@ -7,6 +7,7 @@
   "education": "BA degree, Salisbury University",
   "filename": "talmadge-branch.md",
   "full-name": "Talmadge Branch",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Branch",
   "party": "Democrat",

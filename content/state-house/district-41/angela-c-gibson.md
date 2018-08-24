@@ -7,6 +7,7 @@
   "education": "Morgan State University, B.S.",
   "filename": "angela-c-gibson.md",
   "full-name": "Angela C. Gibson",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Gibson",
   "party": "Democrat",

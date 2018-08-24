@@ -4,6 +4,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "opel-jones.md",
   "full-name": "Opel Jones",
+  "general-only": true,
   "last-name": "Jones",
   "party": "Democrat",
   "race": "howard-county/county-council",

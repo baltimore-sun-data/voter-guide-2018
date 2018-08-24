@@ -5,6 +5,7 @@
   "education": "B.A. with a concentration in Government and International Relations from the University of South Carolina. Master of Planning from the University of Maryland, College Park.",
   "filename": "bridgette-johnson.md",
   "full-name": "Bridgette Johnson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/95-08b31289c4e32ac5fb3ad14f1e42577d_5609-_Bridgette_Johnson.jpg",
   "last-name": "Johnson",
   "party": "Democrat",

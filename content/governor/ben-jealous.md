@@ -4,13 +4,14 @@
   "directory": "content/governor",
   "dob": "1/19/1973",
   "education": "I studied at Columbia University earning a bachelor's degree in political science in 1997. I went on to study at Oxford as a Rhodes Scholar writing my thesis on suicide prevention for a master's degree in comparative social research. I now teach criminal justice as a Visiting Professor at Princeton University.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0613-jealous-endorsement-20180612-story.html",
   "filename": "ben-jealous.md",
   "full-name": "Ben Jealous",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/52-4abe643c0ca256765bcff4d275d026c2_20170427_BJEALOUS_HEADSHOTS-1416_%281%29_%281%29.jpg",
   "interview": "http://www.baltimoresun.com/news/maryland/dan-rodricks-blog/bs-roughly-speaking-ben-jeaous-20180301-htmlstory.html",
   "last-name": "Jealous",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0613-jealous-endorsement-20180612-story.html",
   "profile": "[Democrat Ben Jealous pitches health care for all, free college tuition in bid for Maryland governor](http://www.baltimoresun.com/news/maryland/politics/bs-md-ben-jealous-profile-20180508-story.html)",
   "questions": [
     {

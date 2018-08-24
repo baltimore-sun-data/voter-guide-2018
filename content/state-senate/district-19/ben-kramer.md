@@ -7,6 +7,7 @@
   "education": "BA Criminal Justice/Law Enforcement",
   "filename": "ben-kramer.md",
   "full-name": "Ben Kramer",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-1380f48c904b77a4eecbf86c84285465_Del._Ben_Kramer_-_headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Kramer",

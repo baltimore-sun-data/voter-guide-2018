@@ -7,6 +7,7 @@
   "education": "Bachelor of Arts Degree, Towson University Social Sciences and Secondary Education, 1974 Master's Degree, Loyola University, Modern Studies, 1981 Advanced Graduate Studies, The Johns Hopkins University, Loyola University, University of Connecticut, 40 hours beyond Masters Degree: administration & supervision certification, human relations, education research, statistics, doctoral seminars, curriculum development, and gifted education.",
   "filename": "bob-glascock.md",
   "full-name": "Bob Glascock",
+  "general-only": true,
   "last-name": "Glascock",
   "party": "Non-Partisan",
   "questions": [

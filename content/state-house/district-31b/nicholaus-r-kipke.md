@@ -7,6 +7,7 @@
   "education": "Graduated from Chesapeake High School Some College",
   "filename": "nicholaus-r-kipke.md",
   "full-name": "Nicholaus R. Kipke",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-a2e3c76263b7fa29994e6fb0abffc475_73713373-Kipke%252C%2BNicMF%2B04.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Kipke",
