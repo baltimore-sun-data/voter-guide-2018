@@ -171,6 +171,19 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 		datum["title"] = fullname
 	}
 
+	if generalCandidate, _ := datum["general-only"].(bool); !generalCandidate {
+		dir := get(datum, "directory")
+		fn := get(datum, "filename")
+		// // temp
+		// oldFile := filepath.Join(dir, fn)
+		// log.Printf("removing %s: %v", oldFile, os.Remove(oldFile))
+		datum["directory"] = strings.Replace(dir, "content/", "content/primary/", 1)
+		oldURL := fmt.Sprintf("%s/%s/",
+			dir[len("content"):],
+			fn[:len(fn)-len(".md")])
+		datum["aliases"] = []string{oldURL}
+	}
+
 	return datum, nil
 }
 

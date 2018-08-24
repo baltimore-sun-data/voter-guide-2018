@@ -117,11 +117,9 @@
              {{ default .Key (index $adjective .Key) }} Candidates:
             </h6>
             {{ range .Pages }}
-              {{ if .Param "general-only" }}
-                <li>
-                  <a href="{{ .URL }}" class="dropdown-item">{{.Title}}</a>
-                </li>
-              {{ end }}
+              <li>
+                <a href="{{ .URL }}" class="dropdown-item">{{.Title}}</a>
+              </li>
             {{ end }}
           {{ end }}
         </ul>

@@ -37,8 +37,7 @@
     </ul>
    </div>
 
-   {{ $generalists := where .CurrentSection.Pages ".Params.general-only" true }}
-   {{ range $generalists.GroupByParam "party" }}
+   {{ range .CurrentSection.Pages.GroupByParam "party" }}
    <div class="js-party-group js-party-{{ .Key | pluralize }}">
     <div class="col-md-12 col-sm-12 col-xs-12">
      <div class="party-header {{.Key|lower}}">
