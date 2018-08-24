@@ -7,6 +7,7 @@
   "education": "High School",
   "filename": "gordon-koerner.md",
   "full-name": "Gordon Koerner",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-54be5627ab069c009250f2debd97cbfc_003.JPG",
   "jurisdiction": "Harford County",
   "last-name": "Koerner",

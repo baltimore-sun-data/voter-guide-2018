@@ -5,11 +5,12 @@
   "district": 6,
   "dob": "2/16/1959",
   "education": "High School Diploma",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "cathy-bevins.md",
   "full-name": "Cathy Bevins",
+  "general-only": true,
   "last-name": "Bevins",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

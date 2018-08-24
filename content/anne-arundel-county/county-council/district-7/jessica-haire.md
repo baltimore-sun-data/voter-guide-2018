@@ -2,6 +2,7 @@
   "directory": "content/anne-arundel-county/county-council/district-7",
   "filename": "jessica-haire.md",
   "full-name": "Jessica Haire",
+  "general-only": true,
   "last-name": "Haire",
   "party": "Republican",
   "race-district": 7,

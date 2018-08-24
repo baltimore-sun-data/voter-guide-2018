@@ -1,15 +1,16 @@
 {
-  "age": 56,
+  "age": 57,
   "background": "23 years as an Army Aviator achieving the rank of Chief Warrant Officer 5 (Ret), Retired CIO for the Maryland Motor Vehicle Administration, Program Manager for Xerox State & Local Government, Director of Government Service for The Canton Group Past Chairman of the Anne Arundel County Spending and Affordability Committee Board of Directors – Tipton Airport Authority Co-Founder and President of Collective Technology Consultants.",
   "directory": "content/anne-arundel-county/county-council/district-2",
   "dob": "10/2/1961",
   "education": "Bachelor's Degree – Applied Science and Technology – Thomas Edison State University, 39 Credit Hours from Anne Arundel Community College.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "filename": "tom-gardner.md",
   "full-name": "Tom Gardner",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/191-5603158fe61c12e918d39b6f5ba558b3_Tom_Gardner.jpg",
   "last-name": "Gardner",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-arundel-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Should the county develop small area plans as part of the upcoming General Development Plan and Comprehensive rezoning process?",

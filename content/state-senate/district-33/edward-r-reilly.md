@@ -3,6 +3,7 @@
   "district": 33,
   "filename": "edward-r-reilly.md",
   "full-name": "Edward R. Reilly",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Reilly",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "I graduated from Dartmouth College (A.B., '01) and the University of Texas School of Law (J.D. '08).",
   "filename": "brooke-elizabeth-lierman.md",
   "full-name": "Brooke Elizabeth Lierman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-c707203eb451c88463f9feec2f9d14c0_Brooke-Lierman-Headshot_%282%29_%282%29.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Lierman",

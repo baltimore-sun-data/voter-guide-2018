@@ -3,6 +3,7 @@
   "district": "29a",
   "filename": "roberta-miles-loker.md",
   "full-name": "Roberta Miles Loker",
+  "general-only": true,
   "jurisdiction": "St. Mary's County",
   "last-name": "Loker",
   "party": "Democrat",

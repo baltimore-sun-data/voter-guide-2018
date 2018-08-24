@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "c-t-wilson.md",
   "full-name": "C. T. Wilson",
+  "general-only": true,
   "jurisdiction": "Charles County",
   "last-name": "Wilson",
   "party": "Democrat",

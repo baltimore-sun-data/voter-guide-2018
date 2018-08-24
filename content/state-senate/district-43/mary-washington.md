@@ -7,6 +7,7 @@
   "education": "B.A.  Antioch University M.A.; Ph.D. Sociology, The Johns Hopkins University, 1997",
   "filename": "mary-washington.md",
   "full-name": "Mary Washington",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-5beee341472a571234de2f76f76a22f9_JDavis_MaryWashington_031510_018.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Washington",

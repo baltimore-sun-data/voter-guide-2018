@@ -3,6 +3,7 @@
   "district": "38a",
   "filename": "charles-james-otto.md",
   "full-name": "Charles James Otto",
+  "general-only": true,
   "jurisdiction": "Somerset County",
   "last-name": "Otto",
   "party": "Republican",

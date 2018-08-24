@@ -3,6 +3,7 @@
   "district": 23,
   "filename": "douglas-j-j-peters.md",
   "full-name": "Douglas J. J. Peters",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Peters",
   "party": "Democrat",

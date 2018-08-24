@@ -7,6 +7,7 @@
   "education": "Bachelors of Science in Kinesiology/Sport Psychology, Towson University; Masters in Public Administration, University of Baltimore",
   "filename": "regina-t-boyce.md",
   "full-name": "Regina T. Boyce",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-566ba4edc8070ff0a557a8d26fbcf6de_file.jpeg",
   "jurisdiction": "Baltimore City",
   "last-name": "Boyce",

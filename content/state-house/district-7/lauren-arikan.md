@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "lauren-arikan.md",
   "full-name": "Lauren Arikan",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Arikan",
   "party": "Republican",

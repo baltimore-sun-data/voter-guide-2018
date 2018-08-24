@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "al-phillips.md",
   "full-name": "Al Phillips",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Phillips",
   "party": "Republican",

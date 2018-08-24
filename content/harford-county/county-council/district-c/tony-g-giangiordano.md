@@ -3,6 +3,7 @@
   "district": "C",
   "filename": "tony-g-giangiordano.md",
   "full-name": "Tony \"G\" Giangiordano",
+  "general-only": true,
   "last-name": "Giangiordano",
   "party": "Republican",
   "race": "harford-county/county-council",

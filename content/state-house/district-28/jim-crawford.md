@@ -7,6 +7,7 @@
   "education": "University of Maryland,  Business Admin",
   "filename": "jim-crawford.md",
   "full-name": "Jim Crawford",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-c6cb5dc613f1b5f55f69e21a618ea336_Jim_Crawford%2C_Charles_Co._Republican.jpg",
   "jurisdiction": "Charles County",
   "last-name": "Crawford",

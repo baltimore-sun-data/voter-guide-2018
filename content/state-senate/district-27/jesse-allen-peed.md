@@ -3,6 +3,7 @@
   "district": 27,
   "filename": "jesse-allen-peed.md",
   "full-name": "Jesse Allen Peed",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Peed",
   "party": "Republican",

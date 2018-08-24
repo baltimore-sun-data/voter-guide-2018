@@ -1,5 +1,5 @@
 {
-  "age": 33,
+  "age": 34,
   "background": "As Vice-Chair of the Kings Contrivance Village Board, I work on the concerns and issues directly affecting our community. In 2016 I led the board to support meaningful, affordable housing and fiscally responsible policy in Downtown Columbia. In addition, I proudly serve on the Economic Resource Allocation Committee under the Howard County Board to Promote Self Sufficiency, where I work with a dedicated team to ensure Howard County's fair share of state and federal funding to improve economic stability and reduce poverty in the County. I also serve on the board of Howard EcoWorks, a nonprofit that organizes environmental improvement and workforce development programs for a more sustainable and environmentally healthier Howard County. After graduating from UMBC, I joined Arizona Public Interest Research Group (Arizona PIRG) as a community organizer. I worked with communities to lead consumer protection initiatives, strengthened environmental regulations, and fought to safeguard employment opportunities for the LGBTQ community. I have also worked for United Way of Central Maryland, the US Fish and Wildlife Service, Alice Ferguson Foundation, and the National Breast Cancer Coalition to build coalitions and partnerships. I am a vocal, progressive champion of grassroots activism and I work to inspire others to stay involved and work collaboratively to solve tough challenges as the founder of the Women's Democratic Alliance of Howard County.",
   "directory": "content/howard-county/county-council/district-3",
   "district": 3,
@@ -8,6 +8,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "christiana-rigby.md",
   "full-name": "Christiana Rigby",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-535382a9302e93cea08d77382a0344d6_christiana.jpg",
   "last-name": "Rigby",
   "party": "Democrat",

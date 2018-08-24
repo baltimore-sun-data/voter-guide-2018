@@ -6,6 +6,7 @@
   "education": "BA History MS Education",
   "filename": "andrew-c-pruski.md",
   "full-name": "Andrew C. Pruski",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/44-256a4879bce169d4b8d8fcc2473a54f5_Pruski_pic.jpg",
   "last-name": "Pruski",
   "party": "Democrat",

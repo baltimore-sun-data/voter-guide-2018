@@ -7,6 +7,7 @@
   "education": "Bachelor of Science Degree in Business and Management from the Johns Hopkins University in Baltimore.",
   "filename": "joseph-d-joe-hooe.md",
   "full-name": "Joseph D. \"Joe\" Hooe",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-d5eeb2e38e285f9f5cc1e667bcbe30b2_DSC_0320.JPG",
   "jurisdiction": "Baltimore County",
   "last-name": "Hooe",

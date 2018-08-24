@@ -1,5 +1,5 @@
 {
-  "age": 60,
+  "age": 61,
   "background": "Freight Brokerage   2013-2018 Harford County Council President 2002-2006 Harford County Council Dist. E    1990-2002 Wagner Farm LLC  2000-2004 Family Farm Mgr.   1980-2003",
   "directory": "content/harford-county/county-council/district-E",
   "district": "E",
@@ -7,6 +7,7 @@
   "education": "Bel Air Sr. High School    1975 Harford Community College     1979  AA",
   "filename": "robert-s-wagner.md",
   "full-name": "Robert S. Wagner",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/99-c0915080280447a626ab4d91d1ce80cd_IMG_1959.jpg",
   "last-name": "Wagner",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": 15,
   "filename": "david-wilson.md",
   "full-name": "David Wilson",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Wilson",
   "party": "Republican",

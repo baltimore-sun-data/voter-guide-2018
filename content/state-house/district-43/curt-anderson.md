@@ -3,6 +3,7 @@
   "district": 43,
   "filename": "curt-anderson.md",
   "full-name": "Curt Anderson",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Anderson",
   "party": "Democrat",

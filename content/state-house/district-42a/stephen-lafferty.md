@@ -7,6 +7,7 @@
   "education": "JD, University of Baltimore School of Law MA, American Studies, Bowling Green State University BA, American Studies, UMCP Teachers Certificate, Towson University",
   "filename": "stephen-lafferty.md",
   "full-name": "Stephen Lafferty",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Lafferty",
   "party": "Democrat",

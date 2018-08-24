@@ -5,6 +5,7 @@
   "education": "12 plus",
   "filename": "ric-metzgar.md",
   "full-name": "Ric Metzgar",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Metzgar",
   "party": "Republican",

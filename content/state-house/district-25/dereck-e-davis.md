@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "dereck-e-davis.md",
   "full-name": "Dereck E. Davis",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Davis",
   "party": "Democrat",

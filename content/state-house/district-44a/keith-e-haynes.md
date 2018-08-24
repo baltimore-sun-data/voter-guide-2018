@@ -7,6 +7,7 @@
   "education": "University of Baltimore: Juris Doctor North Carolina Central University: Master of Public Administration cum laude  N.C. State University:  Bachelor of Arts - Political Science (concentration in Law and Political Philosophy):",
   "filename": "keith-e-haynes.md",
   "full-name": "Keith E. Haynes",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-15f180fc6ddddba88fe126e839be0d9f_photo_2.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Haynes",

@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "robin-l-grammer.md",
   "full-name": "Robin L. Grammer",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Grammer",
   "party": "Republican",

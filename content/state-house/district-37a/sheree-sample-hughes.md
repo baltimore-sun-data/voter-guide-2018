@@ -7,6 +7,7 @@
   "education": "Bachelor of Arts -Public Administration  Master's of Science in Management- Public Administration",
   "filename": "sheree-sample-hughes.md",
   "full-name": "Sheree Sample-Hughes",
+  "general-only": true,
   "jurisdiction": "Wicomico County",
   "last-name": "Sample-Hughes",
   "party": "Democrat",

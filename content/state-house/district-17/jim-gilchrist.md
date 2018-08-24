@@ -7,6 +7,7 @@
   "education": "I have a B.A. from Grinnell College and an M.B.A. from the George Washington University.",
   "filename": "jim-gilchrist.md",
   "full-name": "Jim Gilchrist",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-61edd37d9b43788bd901b40ef6267b35_Gilchrist_16.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Gilchrist",

@@ -3,6 +3,7 @@
   "district": "2a",
   "filename": "william-joseph-wivell.md",
   "full-name": "William Joseph Wivell",
+  "general-only": true,
   "jurisdiction": "Washington County",
   "last-name": "Wivell",
   "party": "Republican",

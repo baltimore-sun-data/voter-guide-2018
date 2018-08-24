@@ -7,6 +7,7 @@
   "education": "Masters Degree in Public Service with a major in Urban Planning & Development",
   "filename": "marc-a-king.md",
   "full-name": "Marc A. King",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-7be2db76ddb9bc37f4f62e5ce1864fc5_Head_shot_with_Flag.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "King",

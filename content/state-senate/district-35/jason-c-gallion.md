@@ -3,6 +3,7 @@
   "district": 35,
   "filename": "jason-c-gallion.md",
   "full-name": "Jason C. Gallion",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Gallion",
   "party": "Republican",

@@ -3,6 +3,7 @@
   "district": "27c",
   "filename": "mark-n-fisher.md",
   "full-name": "Mark N. Fisher",
+  "general-only": true,
   "jurisdiction": "Calvert County",
   "last-name": "Fisher",
   "party": "Republican",

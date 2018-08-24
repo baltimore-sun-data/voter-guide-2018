@@ -3,6 +3,7 @@
   "district": 28,
   "filename": "debra-davis.md",
   "full-name": "Debra Davis",
+  "general-only": true,
   "jurisdiction": "Charles County",
   "last-name": "Davis",
   "party": "Democrat",

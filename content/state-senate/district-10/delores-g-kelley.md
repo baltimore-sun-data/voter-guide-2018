@@ -7,6 +7,7 @@
   "education": "Ph.D UMD-College Park MA. Purdue University MA. NYU BA. Virginia State College",
   "filename": "delores-g-kelley.md",
   "full-name": "Delores G. Kelley",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-6c9d640e739ef40ffb441d514047057d_Kelley_Photo.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Kelley",

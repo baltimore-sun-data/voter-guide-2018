@@ -3,6 +3,7 @@
   "district": "37b",
   "filename": "johnny-mautz.md",
   "full-name": "Johnny Mautz",
+  "general-only": true,
   "jurisdiction": "Talbot County",
   "last-name": "Mautz",
   "party": "Republican",

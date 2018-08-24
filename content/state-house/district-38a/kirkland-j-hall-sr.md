@@ -3,6 +3,7 @@
   "district": "38a",
   "filename": "kirkland-j-hall-sr.md",
   "full-name": "Kirkland J. Hall Sr.",
+  "general-only": true,
   "jurisdiction": "Somerset County",
   "last-name": "Hall",
   "party": "Democrat",

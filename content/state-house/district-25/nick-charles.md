@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "nick-charles.md",
   "full-name": "Nick Charles",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Charles",
   "party": "Democrat",

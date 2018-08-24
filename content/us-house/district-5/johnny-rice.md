@@ -7,6 +7,7 @@
   "education": "Graduated from Ohio University 1990 in Business Administration Bachelor's Degree.",
   "filename": "johnny-rice.md",
   "full-name": "Johnny Rice",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/104-051e0eca0eae66d4784802af5b3266ca_preview_%281%29.png",
   "jurisdiction": "Prince George's County",
   "last-name": "Rice",

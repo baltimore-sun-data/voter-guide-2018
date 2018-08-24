@@ -6,12 +6,13 @@
   "district": 5,
   "dob": "2/6/1960",
   "education": "B.A., Harvard College, 1981 M.D., Emory Univ. School of Medicine, 1987 M.P.H., Johns Hopkins School of Public Health, 1990",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "peter-beilenson.md",
   "full-name": "Peter Beilenson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/179-fde76813465fa856757909dbe26c349e_RRPF9245.jpg",
   "last-name": "Beilenson",
   "party": "Non-Partisan",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "questions": [
     {
       "question": "Why do you want to serve on the county school board?",

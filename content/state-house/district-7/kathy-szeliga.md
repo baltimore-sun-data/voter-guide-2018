@@ -7,6 +7,7 @@
   "education": "BS  Towson University - elementary education",
   "filename": "kathy-szeliga.md",
   "full-name": "Kathy Szeliga",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-d62d792c9219f3c8eea4a4baf64d1560_headshot_Szeliga_2.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Szeliga",

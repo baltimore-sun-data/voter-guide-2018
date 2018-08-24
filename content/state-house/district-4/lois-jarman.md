@@ -3,6 +3,7 @@
   "district": 4,
   "filename": "lois-jarman.md",
   "full-name": "Lois Jarman",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Jarman",
   "party": "Democrat",

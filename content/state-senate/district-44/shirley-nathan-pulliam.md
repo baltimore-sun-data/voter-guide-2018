@@ -7,6 +7,7 @@
   "education": "MAS, John Hopkins University  Bachelor of Science in Nursing, University of Maryland A.A. in Nursing Community College of Baltimore",
   "filename": "shirley-nathan-pulliam.md",
   "full-name": "Shirley Nathan-Pulliam",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Nathan-Pulliam",
   "party": "Democrat",

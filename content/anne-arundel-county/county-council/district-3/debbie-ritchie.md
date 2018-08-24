@@ -1,11 +1,12 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "Registered nurse, retired with 30yr of service  Dept. Veterans Affairs MC.   Served on AACPS Board of Education  5yrs PTA leadership, local, county and state level.",
   "directory": "content/anne-arundel-county/county-council/district-3",
   "dob": "09/26/1958",
   "education": "AA nursing, multiple leadership programs  Emerge MD class 2017",
   "filename": "debbie-ritchie.md",
   "full-name": "Debbie Ritchie",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/253-8f73a61216e9a717c54b3307db5e59d8_dritchie.jpg",
   "last-name": "Ritchie",
   "party": "Democrat",

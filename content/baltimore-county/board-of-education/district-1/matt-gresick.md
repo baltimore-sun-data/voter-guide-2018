@@ -6,12 +6,13 @@
   "district": 1,
   "dob": "3/16/1980",
   "education": "Bachelors in Secondary Education with an emphasis in history from Indiana University of Pennsylvania Masters in Curriculum and Instruction from McDaniel College Administrative Certificate",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "matt-gresick.md",
   "full-name": "Matt Gresick",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/245-768db2e0be3a71e9a04cffff853149c0_head_shot_resized.jpg",
   "last-name": "Gresick",
   "party": "Non-Partisan",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "questions": [
     {
       "question": "Why do you want to serve on the county school board?",

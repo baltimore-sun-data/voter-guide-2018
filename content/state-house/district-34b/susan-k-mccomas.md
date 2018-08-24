@@ -7,6 +7,7 @@
   "education": "Johns Hopkins Univ.  Social and Behavioral Science; Univ. of Colorado, Public Adm.  graduate work College of Law, Univ. of Wyoming J.D.",
   "filename": "susan-k-mccomas.md",
   "full-name": "Susan K. McComas",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "McComas",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "Davidson College, B.A., 2005 (double major: economics & political science) Johns Hopkins School of Education, M.A.T., 2007 (secondary social studies) University of Maryland School of Law, J.D., 2010, magna cum laude",
   "filename": "bill-ferguson.md",
   "full-name": "Bill Ferguson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-4166328159df3d257c85b87ef3f49ea0_Bill_Headshot_%281%29.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Ferguson",

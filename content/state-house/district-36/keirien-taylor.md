@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "keirien-taylor.md",
   "full-name": "Keirien Taylor",
+  "general-only": true,
   "jurisdiction": "Caroline County",
   "last-name": "Taylor",
   "party": "Democrat",

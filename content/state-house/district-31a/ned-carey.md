@@ -3,6 +3,7 @@
   "district": "31a",
   "filename": "ned-carey.md",
   "full-name": "Ned Carey",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Carey",
   "party": "Democrat",

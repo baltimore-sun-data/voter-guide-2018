@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "vaughn-stewart.md",
   "full-name": "Vaughn Stewart",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Stewart",
   "party": "Democrat",

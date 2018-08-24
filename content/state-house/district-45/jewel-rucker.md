@@ -3,6 +3,7 @@
   "district": 45,
   "filename": "jewel-rucker.md",
   "full-name": "Jewel Rucker",
+  "general-only": true,
   "jurisdiction": "Baltimore City",
   "last-name": "Rucker",
   "party": "Republican",

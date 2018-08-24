@@ -3,6 +3,7 @@
   "district": "3b",
   "filename": "william-bill-folden.md",
   "full-name": "William \"Bill\" Folden",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Folden",
   "party": "Republican",

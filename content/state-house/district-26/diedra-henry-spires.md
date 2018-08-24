@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "diedra-henry-spires.md",
   "full-name": "Diedra Henry-Spires",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Henry-Spires",
   "party": "Democrat",

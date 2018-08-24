@@ -8,6 +8,7 @@
   "education": "Doctorate of Education Degree Master of Education Degree Administration and Supervision Certification Bachelor of Science Degree",
   "filename": "kathleen-white.md",
   "full-name": "Kathleen White",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/99-0092038cc37d5e0e20ae79ec3928c385_Headshot.jpg",
   "last-name": "White",
   "party": "Non-Partisan",

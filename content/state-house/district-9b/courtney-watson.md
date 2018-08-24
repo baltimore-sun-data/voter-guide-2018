@@ -1,17 +1,18 @@
 {
-  "age": 55,
+  "age": 56,
   "background": "Certified Insurance Counselor Sales Executive for International Insurance Broker",
   "directory": "content/state-house/district-9b",
   "district": "9b",
   "dob": "9/8/1962",
   "education": "BA Loyola University MBA Loyola University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "courtney-watson.md",
   "full-name": "Courtney Watson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-12183116d0ac4fa8192841b548ca8c1b_PJL_1456_-_Version_2.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Watson",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",

@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "michael-ian-welker.md",
   "full-name": "Michael Ian Welker",
+  "general-only": true,
   "jurisdiction": "Cecil County",
   "last-name": "Welker",
   "party": "Democrat",

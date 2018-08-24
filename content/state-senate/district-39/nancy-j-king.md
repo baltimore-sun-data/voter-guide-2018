@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "nancy-j-king.md",
   "full-name": "Nancy J. King",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "King",
   "party": "Democrat",

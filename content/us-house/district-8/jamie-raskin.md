@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "jamie-raskin.md",
   "full-name": "Jamie Raskin",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Raskin",
   "party": "Democrat",

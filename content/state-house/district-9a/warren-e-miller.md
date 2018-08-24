@@ -7,6 +7,7 @@
   "education": "BS Towson State University",
   "filename": "warren-e-miller.md",
   "full-name": "Warren E. Miller",
+  "general-only": true,
   "headshot": "https://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-3d7e31b688622cfb9eb61c80d78aa450_Miller1.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Miller",

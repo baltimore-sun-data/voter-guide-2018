@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "helen-domenici.md",
   "full-name": "Helen Domenici",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Domenici",
   "party": "Republican",

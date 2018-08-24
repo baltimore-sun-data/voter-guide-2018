@@ -7,6 +7,7 @@
   "education": "UMBC, BA 1987 Widener University School of Law,  JD 1992",
   "filename": "haven-shoemaker.md",
   "full-name": "Haven Shoemaker",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-7a585b1dd910acc96b1c634d711b10b9_received_10214376793828269.jpeg",
   "jurisdiction": "Carroll County",
   "last-name": "Shoemaker",

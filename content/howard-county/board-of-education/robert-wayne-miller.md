@@ -7,6 +7,7 @@
   "education": "I have a B.S. in Psychology, a B.S. in Music Education. and a M.Ed. in Music Education, all from the University of Maryland, College Park.",
   "filename": "robert-wayne-miller.md",
   "full-name": "Robert Wayne Miller",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/253-1e5e1ca4711bd6a1d513bfbf8e8d388a_Roberts_Campaign_Photo_copy.jpg",
   "last-name": "Miller",
   "party": "Non-Partisan",

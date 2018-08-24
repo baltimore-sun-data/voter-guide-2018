@@ -3,6 +3,7 @@
   "district": 33,
   "filename": "sid-saab.md",
   "full-name": "Sid Saab",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Saab",
   "party": "Republican",

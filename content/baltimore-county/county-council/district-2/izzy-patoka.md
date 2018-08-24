@@ -1,16 +1,17 @@
 {
-  "age": 60,
+  "age": 61,
   "background": "I am trained as a Community Planner. Currently, I am the Director of Community Development for LifeBridge Health. I work to enhance community leadership and capacity building, education and workforce development, business and economic development, and neighborhood improvement for the communities that surround LifeBridge Health campus locations in Baltimore County, Baltimore City and Carroll County. Previously, I served as the Executive Director of the Governor's Office of Community Initiatives and also the Director of the Governor's Intergovernmental Affairs Office for the Governor of Maryland. Prior to that appointment, I worked for the Mayor of Baltimore as the founding Director of the Mayor's Office of Neighborhoods. I served as the Deputy Director for the Baltimore County Department of Planning. Prior to that I was Chief of Capital Budgeting for Baltimore City. I am nationally certified as a planner by the American Institute of Certified Planners. During my tenure as Director of the Mayor's Office of Neighborhoods, the Office was nationally recognized as a recipient of the National Association of Counties' (NACO) Multicultural Diversity Award for extraordinary outreach to ethnic communities. This award is cosponsored by the Women Officials in NACo (WON), the National Association of Black County Officials (NABCO), and the National Association of Hispanic County Officials (NAHCO). I have also been presented the distinction of Fellow with the Academy for Excellence in Local Governance by the University of Maryland's Institute for Governmental Service, the Local Government Insurance Trust, the Maryland Association of Counties and the Maryland Municipal League.",
   "directory": "content/baltimore-county/county-council/district-2",
   "district": 2,
   "dob": "9/26/1957",
   "education": "Master of Arts, Geography & Environmental Planning, Towson University Bachelor of Science, Geography & Environmental Planning, Towson University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "izzy-patoka.md",
   "full-name": "Izzy Patoka",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/99-ed0904a00e847d3f72c018564f81ac6e_Izzy_Portrait.jpg",
   "last-name": "Patoka",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

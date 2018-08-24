@@ -7,6 +7,7 @@
   "education": "Admin 1: John's Hopkins University  Ph.D..: University of Maryland Baltimore County (Currently in progress)",
   "filename": "harry-bhandari.md",
   "full-name": "Harry Bhandari",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-3fd8a2622689ca910886d6d66c224729_Harry_Bhandari.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Bhandari",

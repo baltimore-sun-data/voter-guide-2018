@@ -3,6 +3,7 @@
   "district": "29b",
   "filename": "deb-rey.md",
   "full-name": "Deb Rey",
+  "general-only": true,
   "jurisdiction": "St. Mary's County",
   "last-name": "Rey",
   "party": "Republican",

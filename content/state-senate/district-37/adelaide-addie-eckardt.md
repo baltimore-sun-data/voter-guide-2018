@@ -3,6 +3,7 @@
   "district": 37,
   "filename": "adelaide-addie-eckardt.md",
   "full-name": "Adelaide \"Addie\" Eckardt",
+  "general-only": true,
   "jurisdiction": "Dorchester County",
   "last-name": "Eckardt",
   "party": "Republican",

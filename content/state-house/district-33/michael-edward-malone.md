@@ -7,6 +7,7 @@
   "education": "I have a Bachelors in Accounting and a Masters in Industrial and Labor Relations from West Virginia University.  I have a Juris Doctorate from the University of Baltimore",
   "filename": "michael-edward-malone.md",
   "full-name": "Michael Edward Malone",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-4fae1d397a2be5cb75d777d3b14273bc_Michael_Malone_-_Headshot_1.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Malone",

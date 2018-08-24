@@ -7,6 +7,7 @@
   "education": "I received my Bachelor of Science from University of Maryland, College Park. I then received my Juris Doctorate from the University of Maryland School of Law.",
   "filename": "mary-dulany-james.md",
   "full-name": "Mary-Dulany James",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-b847bcc288cc64446ce2ffd77c5c64c4_Headshot.jpg",
   "jurisdiction": "Harford County",
   "last-name": "James",

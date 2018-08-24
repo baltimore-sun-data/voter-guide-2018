@@ -6,6 +6,7 @@
   "education": "Miami Southridge Senior High School – Vocational Training in the graphic arts industry. Also, specific technical, computer and business courses focusing on the printing trade and production.",
   "filename": "bob-lord.md",
   "full-name": "Bob Lord",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/99-83432a01067480264998a2499b1191fe_BFC_3600_Head.png",
   "last-name": "Lord",
   "party": "Non-Partisan",

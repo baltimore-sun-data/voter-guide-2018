@@ -7,6 +7,7 @@
   "education": "-The Park School (High school) -Duke University (B.A. in history and Arabic) -Columbia University (Master of International Affairs in International Security Policy, the Middle East, and Arabic)",
   "filename": "jesse-colvin.md",
   "full-name": "Jesse Colvin",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/104-437964dc83c054e87a2a8bffef0c9ab0_Baltimore_Son_headshot.pdf",
   "jurisdiction": "Baltimore County",
   "last-name": "Colvin",

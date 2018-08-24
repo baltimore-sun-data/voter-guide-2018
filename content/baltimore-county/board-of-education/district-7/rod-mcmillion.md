@@ -1,5 +1,5 @@
 {
-  "age": 64,
+  "age": 65,
   "background": "Baltimore County Public Schools: 35 years teaching Physical Education; coaching football, basketball, baseball & softball; and working as an Athletic Director",
   "contact": "rodmcmillion@gmail.com",
   "directory": "content/baltimore-county/board-of-education/district-7",
@@ -8,6 +8,7 @@
   "education": "AA; Essex Community College BS in PE; Towson University MS in PE; MorganState University MS in Counseling Psychology; Loyola College 40 grad credits in Sports Psychology; UMCP",
   "filename": "rod-mcmillion.md",
   "full-name": "Rod McMillion",
+  "general-only": true,
   "last-name": "McMillion",
   "party": "Non-Partisan",
   "questions": [

@@ -5,6 +5,7 @@
   "education": "Towson University Grad- B.S.  Mass Comm - 1994   Cambridge South-Dorchester  High Grad- 1987",
   "filename": "winifred-wini-roche.md",
   "full-name": "Winifred \"Wini\" Roche",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/44-4b4e3714ecd490835aa6cc1b1df165ec_1a-LARGE-Roche-Wini18MF.jpg",
   "last-name": "Roche",
   "party": "Democrat",

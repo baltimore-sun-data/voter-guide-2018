@@ -1,5 +1,5 @@
 {
-  "age": 48,
+  "age": 49,
   "background": "Chairperson, HCPSS Community Advisory Council Vice Chairperson, HCPSS Community Advisory Council President, Swansfield PTA PTA and school-based positions held: PTA Secretary, Cultural Arts Chairperson, Carson Reading Room Coordinator and Developer, Grant Writer, Grant and Project Manager, Guided-Level Reading Book Room Coordinator, Classroom Volunteer. Orchestra Support Coordinator, Boosters Casino Night Committee Member, Athletics Photographer President, East Columbia Cooperative Preschool Co-Founder and President, Parents AT Home in Howard County, a 501c3 charity Intelligence Analyst, Department of Defense",
   "contact": "jenmallo4boe@gmail.com",
   "directory": "content/howard-county/board-of-education",
@@ -7,6 +7,7 @@
   "education": "Master of Arts -George Washington University, Major: East Asian Studies, Language: Mandarin Chinese Bachelor of Arts—Wittenberg University, Majors: Economics, East Asian Studies, Language: Mandarin Chinese",
   "filename": "jen-mallo.md",
   "full-name": "Jen Mallo",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/191-e44aee40bce71f6f136617d199f81531_Jen_Mallo_HCPSS_BOE_Candidate.jpg",
   "last-name": "Mallo",
   "party": "Non-Partisan",

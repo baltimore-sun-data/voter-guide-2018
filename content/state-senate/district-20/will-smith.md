@@ -7,6 +7,7 @@
   "education": "Graduated from William and Mary in 2004 with a B.A. in Government. Completed a Masters in Government from Johns Hopkins in 2006 and then returned to William and Mary for Law school which I completed in 2009.",
   "filename": "will-smith.md",
   "full-name": "Will Smith",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-2ad55a15c4d1d6c86efc2d7594f5d615_WillSmithWiki.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Smith",

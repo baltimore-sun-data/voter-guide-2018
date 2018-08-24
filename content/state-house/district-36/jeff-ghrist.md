@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "jeff-ghrist.md",
   "full-name": "Jeff Ghrist",
+  "general-only": true,
   "jurisdiction": "Caroline County",
   "last-name": "Ghrist",
   "party": "Republican",

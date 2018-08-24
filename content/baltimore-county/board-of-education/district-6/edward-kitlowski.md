@@ -1,17 +1,18 @@
 {
-  "age": 59,
+  "age": 60,
   "background": "I am a teacher. I retired from BCPS in 2016 after 30+ years of teaching. I was Special Ed. Dept. Chair and ran the I.E.P. Team. I currently am the Director of Piping at the US Naval Academy. I taught exchange students here and taught in Poland. I was on the faculty of Project Access at Howard Community College. I am also a published author, and professional bagpiper.",
   "contact": "ekit@verizon.net",
   "directory": "content/baltimore-county/board-of-education/district-6",
   "district": 6,
   "dob": "10/27/1958",
   "education": "I Graduated B.A. Honors Ithaca College in 1976, M.Ed. Loyola University 1986. I have graduate credits from Edinburgh University, Towson U., Cape Breton U. I completed administration course work.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "edward-kitlowski.md",
   "full-name": "Edward Kitlowski",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/44-b2c2197808c4f0efacd1bb86732dc31e_BOE_picture.JPG",
   "last-name": "Kitlowski",
   "party": "Non-Partisan",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "questions": [
     {
       "question": "Why do you want to serve on the county school board?",

@@ -7,6 +7,7 @@
   "education": "I earned a B.A. from Furman University in 1977, graduating magna cum laude, Phi Beta Kappa. By taking out student loans I was able to continue my education, and I earned an MBA from the Wharton School at the University of Pennsylvania in 1985. I serve on the boards of American University, Furman University, the Baker Retail Center at Wharton, the Baltimore Symphony Orchestra, the Atlantic Council, Suburban Hospital, the Montgomery County Chamber of Commerce, and the Wharton Graduate Board.",
   "filename": "david-trone.md",
   "full-name": "David Trone",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/52-5d307fc6872df10b59b2cb60aca45b41_Headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Trone",

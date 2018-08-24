@@ -3,6 +3,7 @@
   "district": 20,
   "filename": "dwight-patel.md",
   "full-name": "Dwight Patel",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Patel",
   "party": "Republican",

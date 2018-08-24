@@ -3,6 +3,7 @@
   "district": 22,
   "filename": "paul-g-pinsky.md",
   "full-name": "Paul G. Pinsky",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Pinsky",
   "party": "Democrat",

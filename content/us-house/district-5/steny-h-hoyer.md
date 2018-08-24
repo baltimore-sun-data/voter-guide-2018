@@ -7,6 +7,7 @@
   "education": "Graduated from Suitland High School in Prince George's County in 1957; graduated with high honors from the University of Maryland and was selected \"Outstanding Male Graduate\" in 1963; and received law degree from Georgetown University Law Center in 1966.",
   "filename": "steny-h-hoyer.md",
   "full-name": "Steny H. Hoyer",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-65245578884a9430a0b706136856f1fb_SHH_Official_Photo.JPG",
   "jurisdiction": "St. Mary's County",
   "last-name": "Hoyer",

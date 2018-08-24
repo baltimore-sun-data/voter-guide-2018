@@ -7,6 +7,7 @@
   "education": "Calvert Hall College  1991-1994 Salisbury University 1994-1998",
   "filename": "eric-bromwell.md",
   "full-name": "Eric Bromwell",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-34104fe64c0954ac166e0e7ac308ce28_eb.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Bromwell",

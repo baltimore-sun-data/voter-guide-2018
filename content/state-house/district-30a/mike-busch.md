@@ -7,6 +7,7 @@
   "education": "B.A., Temple University",
   "filename": "mike-busch.md",
   "full-name": "Mike Busch",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-c744491f949f532d20444e7ac4510ab3_Headshot1.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Busch",

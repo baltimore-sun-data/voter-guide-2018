@@ -6,6 +6,7 @@
   "education": "I received a Bachelor of Science degree from Morgan State College (now Morgan State University) in 1972; a Master of Education degree from Western Maryland College (now McDaniel College) in 1983; and a Doctor of Education degree from the University of Maryland College Park in 1999 in the area of education policy, planning, and administration.",
   "filename": "patricia-ann-dorsey.md",
   "full-name": "Patricia Ann Dorsey",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299919/52-19f4ff6d2c06a9dcf5a82fcd18c92a60_Dorsey_Headshot_%281%29.jpg",
   "last-name": "Dorsey",
   "party": "Non-Partisan",

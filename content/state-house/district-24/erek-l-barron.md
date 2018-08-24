@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "erek-l-barron.md",
   "full-name": "Erek L. Barron",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Barron",
   "party": "Democrat",

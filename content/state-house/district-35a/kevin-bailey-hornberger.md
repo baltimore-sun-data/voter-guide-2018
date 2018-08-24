@@ -3,6 +3,7 @@
   "district": "35a",
   "filename": "kevin-bailey-hornberger.md",
   "full-name": "Kevin Bailey Hornberger",
+  "general-only": true,
   "jurisdiction": "Cecil County",
   "last-name": "Hornberger",
   "party": "Republican",

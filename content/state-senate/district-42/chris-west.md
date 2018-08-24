@@ -7,6 +7,7 @@
   "education": "Gilman School (1968).  Williams Collge, B.A. (1972).  University of Pennsylvania Law School, J. D. (1975)",
   "filename": "chris-west.md",
   "full-name": "Chris West",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "West",
   "party": "Republican",

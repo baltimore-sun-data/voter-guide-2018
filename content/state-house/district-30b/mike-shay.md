@@ -3,6 +3,7 @@
   "district": "30b",
   "filename": "mike-shay.md",
   "full-name": "Mike Shay",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Shay",
   "party": "Democrat",

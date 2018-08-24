@@ -1,16 +1,17 @@
 {
-  "age": 34,
+  "age": 35,
   "background": "I was the youngest gubernatorial appointee in the administration of former Governor Bob Ehrlich having served as a spokesperson for the Maryland Aviation Administration which includes BWI Airport and Martin State Airport in Middle River. After the Ehrlich Administration, I was able to continue to serve the public by working as a spokesperson for several Members of Congress including Congressman Andy Harris of Maryland in Washington, D.C. Recently, I served as an appointee of Governor Larry Hogan at the Maryland Transit Administration (MTA) as the senior director of communications and marketing for the agency. In this role, I managed a team of nearly 30 people and oversaw a multi-million dollar marketing and communications budget for the agency that delivers transit options to the residents of Maryland. For my efforts in this role I was recognized by the Maryland Daily Record newspaper as one of their VIP List, which is 40 people under 40 who are leaders in the Baltimore area. I also received a similar 40 under 40 distinction from the national industry publication Mass Transit Magazine for my work transforming the MTA's communications efforts. My success at the MTA allowed me to form my own communications consulting firm. As a small business owner, I now provide strategic communications and marketing advice for state agencies and other organizations throughout Maryland.",
   "directory": "content/baltimore-county/county-council/district-6",
   "district": 6,
   "dob": "7/13/1983",
   "education": "I attended Loyola High School in Towson. I earned an undergraduate degree from St. Mary's College of Maryland in southern Maryland where I graduated with honors. As an undergrad, I was the first person in the college's history to graduate with four majors, which were political science, public policy, economics, and sociology. I recently completed my master's degree in public management from Johns Hopkins University and completed the Leadership Baltimore County program.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "ryan-nawrocki.md",
   "full-name": "Ryan Nawrocki",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/191-9eb8c3b2a1e2eff7f19b83fd771db7f7_IMG_0221_%281%29.JPG",
   "last-name": "Nawrocki",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

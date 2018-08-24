@@ -1,5 +1,5 @@
 {
-  "age": 40,
+  "age": 41,
   "background": "I am a senior engineer, worked in the FDA, satellite industry and consumer electronics industry. I have been working in the areas of signal progressing, computer programming, data analysis, machine learning algorithm design and AI research. I have been twice elected as a board member of Columbia Association and River Hill Village Association since 2015.",
   "contact": "chaowu2016@gmail.com",
   "directory": "content/howard-county/board-of-education",
@@ -7,6 +7,7 @@
   "education": "I received my PhD from the Department of Electrical and Computer Engineering of University of Maryland, College Park, my master degree from National University of Singapore and bachelor degree from University of Science and Technology of China, Hefei, China.",
   "filename": "chao-wu.md",
   "full-name": "Chao Wu",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/44-99f90f8507b46381bb76cc3645efaf80_Chao_Wu_Portrait_original.jpg",
   "last-name": "Wu",
   "party": "Non-Partisan",

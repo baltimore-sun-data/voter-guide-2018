@@ -1,15 +1,16 @@
 {
-  "age": 35,
+  "age": 36,
   "background": "I have a broad depth of professional experience that will serve me well as Baltimore County Executive. In addition to serving as a member of the Baltimore County School Board and a BCPS teacher, I served in the Maryland House of Delegates for nine years, representing southeastern Baltimore County. My time in the House included four years as Chairman of the Baltimore County House Delegation, and I am the youngest person ever elected to that position. I also served as a transportation official for Baltimore City, advocating for a better regional transportation system including the Red Line project. For the past three years, I have served as a software executive focused on leveraging big data analytics to help local and state governments make smarter decisions to better serve their citizens.",
   "directory": "content/baltimore-county/county-executive",
   "dob": "9/10/1982",
   "education": "I am a proud product of the Baltimore County Public Schools, having attended a BCPS school for every year of my K-12 education. After graduating from Sparrows Point High School, I earned my BA from Goucher College (Political Science and American Studies double major, Phi Beta Kappa), MA from The George Washington University (Political Management, concentration in Political Leadership), and PhD from UMBC (Public Policy, concentration in Public Administration) this past December.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0614-olszewski-20180613-story.html",
   "filename": "john-johnny-o-olszewski-jr.md",
   "full-name": "John \"Johnny O\" Olszewski Jr.",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/179-886e253a3cb8e8bcc1119bf078e73205_Johnny_O_%281%29.jpg",
   "last-name": "Olszewski",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0614-olszewski-20180613-story.html",
   "profile": "[Democrat Johnny Olszewski Jr. seeks comeback in Baltimore County executive race](http://www.baltimoresun.com/news/maryland/baltimore-county/bs-md-co-olszewski-profile-20180529-story.html)",
   "questions": [
     {

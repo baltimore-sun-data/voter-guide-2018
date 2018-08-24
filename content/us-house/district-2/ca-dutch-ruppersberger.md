@@ -7,6 +7,7 @@
   "education": "J.D., University of Baltimore",
   "filename": "ca-dutch-ruppersberger.md",
   "full-name": "C.A. Dutch Ruppersberger",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/191-dbcf9da6ce454c2cffbd15bedb6c6c86_2017-05-18_FAS_0003.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Ruppersberger",

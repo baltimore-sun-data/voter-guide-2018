@@ -7,6 +7,7 @@
   "education": "I graduated from Fishburne Military School in 2008 I have been working on my Degree in political science at UMBC",
   "filename": "michael-russell.md",
   "full-name": "Michael Russell",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-14929102182574ddd7293328f4621e07_IMG_4444.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Russell",

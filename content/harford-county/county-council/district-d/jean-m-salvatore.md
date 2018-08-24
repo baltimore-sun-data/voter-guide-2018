@@ -5,6 +5,7 @@
   "education": "Bachelor's Degree in English Master's Degree in Administrative Science",
   "filename": "jean-m-salvatore.md",
   "full-name": "Jean M. Salvatore",
+  "general-only": true,
   "last-name": "Salvatore",
   "party": "Democrat",
   "questions": [

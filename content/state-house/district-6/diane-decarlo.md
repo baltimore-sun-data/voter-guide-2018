@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "diane-decarlo.md",
   "full-name": "Diane DeCarlo",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "DeCarlo",
   "party": "Democrat",

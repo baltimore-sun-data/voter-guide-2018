@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "amie-hoeber.md",
   "full-name": "Amie Hoeber",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Hoeber",
   "party": "Republican",

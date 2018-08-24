@@ -3,6 +3,7 @@
   "district": 11,
   "filename": "jonathan-porter.md",
   "full-name": "Jonathan Porter",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Porter",
   "party": "Republican",

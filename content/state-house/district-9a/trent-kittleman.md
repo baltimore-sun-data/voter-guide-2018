@@ -3,6 +3,7 @@
   "district": "9a",
   "filename": "trent-kittleman.md",
   "full-name": "Trent Kittleman",
+  "general-only": true,
   "jurisdiction": "Howard County",
   "last-name": "Kittleman",
   "party": "Republican",

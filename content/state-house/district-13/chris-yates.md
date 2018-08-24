@@ -7,6 +7,7 @@
   "education": "5.\tEducation B.S. Aerospace Engineering from the United States Naval Academy B.S. Mathematics\tfrom the United States Naval Academy M.A. International Relations\t from Salve Regina College M.A. National Security and Strategic Studies from the Naval War College Master's in Business Administration from \t\t\tSouthern Illinois University",
   "filename": "chris-yates.md",
   "full-name": "Chris Yates",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-96b3c64f086df5eff56a16a14e54953d_headshot.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Yates",

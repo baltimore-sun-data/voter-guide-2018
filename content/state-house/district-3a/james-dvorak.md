@@ -3,6 +3,7 @@
   "district": "3a",
   "filename": "james-dvorak.md",
   "full-name": "James Dvorak",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Dvorak",
   "party": "Republican",

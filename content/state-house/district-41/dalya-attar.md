@@ -7,6 +7,7 @@
   "education": "After attending community college, I graduated from the University of Baltimore and then from the University of Maryland School of Law.",
   "filename": "dalya-attar.md",
   "full-name": "Dalya Attar",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-4228424f23ae6e19b9e1cdc69befff5d_Dalya_Attar_-_headshot.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Attar",

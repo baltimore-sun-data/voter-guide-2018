@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "megan-ann-mioduszewski.md",
   "full-name": "Megan Ann Mioduszewski",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Mioduszewski",
   "party": "Democrat",

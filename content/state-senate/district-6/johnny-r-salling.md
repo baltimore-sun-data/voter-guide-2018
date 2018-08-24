@@ -7,6 +7,7 @@
   "education": "High school graduate. 3 years in the military. 2 years of CTY..",
   "filename": "johnny-r-salling.md",
   "full-name": "Johnny R. Salling",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-b4e51aa8666917758c1cdc77f6225350_Screenshot_2018-04-12-13-00-36.png",
   "jurisdiction": "Baltimore County",
   "last-name": "Salling",

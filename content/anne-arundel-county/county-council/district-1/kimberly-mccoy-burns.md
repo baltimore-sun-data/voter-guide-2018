@@ -1,11 +1,12 @@
 {
-  "age": 54,
+  "age": 55,
   "background": "Currently serve in Hogan administration as the Chief of Staff, Maryland Department of Labor, Licensing and Regulation since 2015.  Worked at BWI Thurgood Marshall Airport with the Community Enhancement Grant program and in the Office of Business Relations.  Former President, Maryland Business for Responsive Government (MBRG).  Former small business co-owner, Government Affairs-Maryland, Inc., for 15+ years.  Also appointed to serve two terms on the Board of Trustees for Anne Arundel Community College.",
   "directory": "content/anne-arundel-county/county-council/district-1",
   "dob": "10/23/1963",
   "education": "Juris Doctor (University of Baltimore School of Law) Masters in Business Administration (College of William & Mary) Bachelor of Arts (College of Notre Dame of Maryland University)",
   "filename": "kimberly-mccoy-burns.md",
   "full-name": "Kimberly McCoy Burns",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299924/191-4048264f84fa9728c61f319e32e6b86b_Headshot_Kim_Burnsfin.jpg",
   "last-name": "Burns",
   "party": "Republican",

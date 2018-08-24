@@ -7,6 +7,7 @@
   "education": "MD (Medical Doctor) – University of Maryland, Baltimore MPH (Master of Public Health) – Johns Hopkins Bloomberg School of Public Health Board Certified in Preventive Medicine",
   "filename": "clarence-k-lam.md",
   "full-name": "Clarence K. Lam",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-cf870094b1bd815ddba810ba32fe488f_CLARENCE_LAM-portrait%2C_formal.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Lam",

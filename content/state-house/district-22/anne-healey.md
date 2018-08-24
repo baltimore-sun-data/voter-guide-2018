@@ -3,6 +3,7 @@
   "district": 22,
   "filename": "anne-healey.md",
   "full-name": "Anne Healey",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Healey",
   "party": "Democrat",

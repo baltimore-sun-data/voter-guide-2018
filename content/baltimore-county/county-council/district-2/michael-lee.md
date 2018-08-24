@@ -5,11 +5,12 @@
   "district": 2,
   "dob": "1/11/1971",
   "education": "University of Pennsylvania, 94 Moore School of Engineering B.S.E.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "michael-lee.md",
   "full-name": "Michael Lee",
+  "general-only": true,
   "last-name": "Lee",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

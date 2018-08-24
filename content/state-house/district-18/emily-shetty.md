@@ -3,6 +3,7 @@
   "district": 18,
   "filename": "emily-shetty.md",
   "full-name": "Emily Shetty",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Shetty",
   "party": "Democrat",

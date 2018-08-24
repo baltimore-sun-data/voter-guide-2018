@@ -3,6 +3,7 @@
   "district": "27a",
   "filename": "susie-proctor.md",
   "full-name": "Susie Proctor",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Proctor",
   "party": "Democrat",

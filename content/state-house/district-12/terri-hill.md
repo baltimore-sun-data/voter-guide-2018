@@ -7,6 +7,7 @@
   "education": "A.B. Bioelectirc Engineering - Harvard University M.D. Columbia University College of Physicians and Surgeons",
   "filename": "terri-hill.md",
   "full-name": "Terri Hill",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-422a67e24aa78c927867d9120e157aff_Sun_photo_.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Hill",

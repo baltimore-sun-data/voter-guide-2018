@@ -1,17 +1,18 @@
 {
-  "age": 66,
+  "age": 67,
   "background": "Currently a teacher in the Baltimore County Public Schools and Adjunct Professor with the University of Maryland University College. Previous work included: Supervisory Accountant, Contracting Officer, Management Consultant, Computer Programmer and Analyst, and Navy Captain (24 years service).",
   "contact": "pvkonka@verizon.net",
   "directory": "content/baltimore-county/board-of-education/district-3",
   "district": 3,
   "dob": "6/29/1951",
   "education": "BA, MBA, JD",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "filename": "paul-v-konka.md",
   "full-name": "Paul V. Konka",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/179-cdbaf547287e4b12b97b6b8075110968_Paul_Konka_Picture.pdf",
   "last-name": "Konka",
   "party": "Non-Partisan",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0624-school-board-endorsements-20180621-story.html",
   "questions": [
     {
       "question": "Why do you want to serve on the county school board?",

@@ -3,6 +3,7 @@
   "district": 18,
   "filename": "al-carr.md",
   "full-name": "Al Carr",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Carr",
   "party": "Democrat",

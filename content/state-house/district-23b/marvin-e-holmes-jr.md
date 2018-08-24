@@ -3,6 +3,7 @@
   "district": "23b",
   "filename": "marvin-e-holmes-jr.md",
   "full-name": "Marvin E. Holmes Jr.",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Holmes",
   "party": "Democrat",

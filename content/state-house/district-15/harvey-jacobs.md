@@ -7,6 +7,7 @@
   "education": "The George Washington University – Bachelor of Business Administration in Accounting – 1980  Brooklyn Law School – Juris Doctor – 1983",
   "filename": "harvey-jacobs.md",
   "full-name": "Harvey Jacobs",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/104-edef0bb9ae8c35ef2437c635020075a1_Headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Jacobs",

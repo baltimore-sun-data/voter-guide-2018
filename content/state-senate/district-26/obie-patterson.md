@@ -3,6 +3,7 @@
   "district": 26,
   "filename": "obie-patterson.md",
   "full-name": "Obie Patterson",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Patterson",
   "party": "Democrat",

@@ -7,6 +7,7 @@
   "education": "Bachelor of Science, University of Baltimore",
   "filename": "j-b-jennings.md",
   "full-name": "J. B. Jennings",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-92f333eac7a9e9aef1f32a6106544349_Senator_Jennings_Portrait.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Jennings",

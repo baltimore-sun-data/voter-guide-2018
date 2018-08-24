@@ -3,6 +3,7 @@
   "district": 12,
   "filename": "bob-cockey.md",
   "full-name": "Bob Cockey",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Cockey",
   "party": "Republican",

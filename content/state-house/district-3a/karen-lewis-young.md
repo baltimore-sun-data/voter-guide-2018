@@ -7,6 +7,7 @@
   "education": "BA History-Franklin &Marshall College MA American History-Columbia University MBA- Columbia University",
   "filename": "karen-lewis-young.md",
   "full-name": "Karen Lewis Young",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-f7f2f5731f6a041150cea0f8cb0f4acd_IMG_3038.jpg",
   "jurisdiction": "Frederick County",
   "last-name": "Lewis Young",

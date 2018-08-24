@@ -7,6 +7,7 @@
   "education": "Bachelor of Science in Elementary Education, Masters in Elementary Education, Administrator I Certification. Life, Business and Career Coaching Certifications",
   "filename": "ronnie-teitler-davis.md",
   "full-name": "Ronnie Teitler Davis",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-06936e0d80dd14b7d45f1d24fce505da_Ronnie_headshot_resized.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Davis",

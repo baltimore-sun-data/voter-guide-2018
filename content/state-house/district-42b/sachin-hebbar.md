@@ -7,6 +7,7 @@
   "education": "PhD - Radiation Biology. Studied radiation therapy for cancer.",
   "filename": "sachin-hebbar.md",
   "full-name": "Sachin Hebbar",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-f07a95d109c58060703d09ca9e1f819a_hebbar021019215-001.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Hebbar",

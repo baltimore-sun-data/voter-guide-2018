@@ -3,6 +3,7 @@
   "district": 27,
   "filename": "thomas-v-mike-jr-miller.md",
   "full-name": "Thomas V. Mike Jr. Miller",
+  "general-only": true,
   "jurisdiction": "Calvert County",
   "last-name": "Miller",
   "party": "Democrat",

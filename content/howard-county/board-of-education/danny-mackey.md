@@ -7,6 +7,7 @@
   "education": "I attended the Howard County Public School system from Kindergarten through graduation. I went to Northfield Elementary School, Dunloggin Middle School, and graduated from Wilde Lake High School in 2012. I continued my education at the University of Maryland College Park where I graduated in 2016 with a Bachelor of Science in Civil Engineering.",
   "filename": "danny-mackey.md",
   "full-name": "Danny Mackey",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299900/191-67f3fd23c9ecca6ce2767be3513c02a6_DSC_0661.JPG",
   "last-name": "Mackey",
   "party": "Non-Partisan",

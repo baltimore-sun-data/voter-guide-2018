@@ -3,6 +3,7 @@
   "district": 18,
   "filename": "jeff-waldstreicher.md",
   "full-name": "Jeff Waldstreicher",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Waldstreicher",
   "party": "Democrat",

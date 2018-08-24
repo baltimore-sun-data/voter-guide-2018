@@ -6,6 +6,7 @@
   "education": "Graduated High School and some college.",
   "filename": "maryann-connaghan-forgan.md",
   "full-name": "Maryann Connaghan Forgan",
+  "general-only": true,
   "last-name": "Forgan",
   "party": "Democrat",
   "questions": [

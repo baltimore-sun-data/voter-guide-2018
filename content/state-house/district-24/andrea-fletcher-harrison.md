@@ -3,6 +3,7 @@
   "district": 24,
   "filename": "andrea-fletcher-harrison.md",
   "full-name": "Andrea Fletcher Harrison",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Harrison",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": 36,
   "filename": "steven-james-arentz.md",
   "full-name": "Steven James Arentz",
+  "general-only": true,
   "jurisdiction": "Queen Anne's County",
   "last-name": "Arentz",
   "party": "Republican",

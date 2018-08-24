@@ -1,11 +1,12 @@
 {
-  "age": 56,
+  "age": 57,
   "background": "I have 33 years' experience managing nonprofit organizations and small businesses. I worked as a community organizer empowering citizens to influence local government, a farmer and re-trainer of racehorses for second careers, and director of a national non-profit called Retired Racehorse Project.",
   "directory": "content/anne-arundel-county/county-executive",
   "dob": "9/11/1961",
   "education": "I graduated from University of Chicago in 1984 with a BA in Political Science.",
   "filename": "steuart-pittman.md",
   "full-name": "Steuart Pittman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299923/52-093691c6ae7287260925493912f9adab_cropped-empty_background.jpg",
   "last-name": "Pittman",
   "party": "Democrat",

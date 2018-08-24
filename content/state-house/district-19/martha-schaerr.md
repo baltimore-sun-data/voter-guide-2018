@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "martha-schaerr.md",
   "full-name": "Martha Schaerr",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Schaerr",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "Ph.D. in Communication, University of Maryland MA in Communication, Northern Illinois University BA in Political Science, Northern Illinois University",
   "filename": "winnie-obike.md",
   "full-name": "Winnie Obike",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-9960f923c1e81d418bea674f63ceb38a_Winnie_2.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Obike",

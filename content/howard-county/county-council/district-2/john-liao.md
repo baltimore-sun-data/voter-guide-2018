@@ -4,6 +4,7 @@
   "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "john-liao.md",
   "full-name": "John Liao",
+  "general-only": true,
   "last-name": "Liao",
   "party": "Republican",
   "race": "howard-county/county-council",

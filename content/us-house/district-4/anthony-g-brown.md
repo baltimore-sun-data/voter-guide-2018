@@ -7,6 +7,7 @@
   "education": "Harvard College, BA, Government, 1984 Harvard Law Scool, JD, 1992",
   "filename": "anthony-g-brown.md",
   "full-name": "Anthony G. Brown",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-73881a6fbd79017aa61c8d17b2035f72_397765C0-00C3-446E-AEF6-FDACBBB5BB03.jpeg",
   "jurisdiction": "Prince George's County",
   "last-name": "Brown",

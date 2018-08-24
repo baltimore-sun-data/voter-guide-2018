@@ -5,6 +5,7 @@
   "education": "Emergency Service and Public Safety leadership studies with National Board certifications.",
   "filename": "joe-woods.md",
   "full-name": "Joe Woods",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299906/95-57edb1702c6a440da66af0767796db00_s.jpg",
   "last-name": "Woods",
   "party": "Republican",

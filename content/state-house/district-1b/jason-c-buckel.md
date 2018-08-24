@@ -3,6 +3,7 @@
   "district": "1b",
   "filename": "jason-c-buckel.md",
   "full-name": "Jason C. Buckel",
+  "general-only": true,
   "jurisdiction": "Allegany County",
   "last-name": "Buckel",
   "party": "Republican",

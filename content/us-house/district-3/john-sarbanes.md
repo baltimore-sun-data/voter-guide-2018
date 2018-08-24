@@ -7,6 +7,7 @@
   "education": "I graduated from the Woodrow Wilson School of Public and International Affairs at Princeton University, studied law and politics in Greece on a Fulbright Scholarship, and graduated from Harvard Law School.",
   "filename": "john-sarbanes.md",
   "full-name": "John Sarbanes",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/95-1d976555e59b57e75e8c61168aba7bd8_clarke_07126_0107.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Sarbanes",

@@ -3,6 +3,7 @@
   "district": "37b",
   "filename": "dan-ohare.md",
   "full-name": "Dan O'Hare",
+  "general-only": true,
   "jurisdiction": "Wicomico County",
   "last-name": "O'Hare",
   "party": "Democrat",

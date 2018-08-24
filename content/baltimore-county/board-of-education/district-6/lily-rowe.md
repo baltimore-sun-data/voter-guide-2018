@@ -4,6 +4,7 @@
   "district": 6,
   "filename": "lily-rowe.md",
   "full-name": "Lily Rowe",
+  "general-only": true,
   "last-name": "Rowe",
   "party": "Non-Partisan",
   "q1": "Why do you want to serve on the county school board?",

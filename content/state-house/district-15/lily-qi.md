@@ -7,6 +7,7 @@
   "education": "Ohio University -  MA, Organizational and Interpersonal Communications American University -  MBA, Marketing and Global Information Technology Management",
   "filename": "lily-qi.md",
   "full-name": "Lily Qi",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-ba9e850102973ffb524074b9ad4d44c7_Headshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Qi",

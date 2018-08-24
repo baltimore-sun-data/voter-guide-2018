@@ -3,6 +3,7 @@
   "district": 7,
   "filename": "rick-impallaria.md",
   "full-name": "Rick Impallaria",
+  "general-only": true,
   "jurisdiction": "Harford County",
   "last-name": "Impallaria",
   "party": "Republican",

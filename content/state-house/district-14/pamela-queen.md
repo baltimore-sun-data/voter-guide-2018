@@ -7,6 +7,7 @@
   "education": "EDUCATION -  \tPh.D. in Finance from George Washington University, Washington, DC; \tM.S. in Technical Management from Johns Hopkins University, Baltimore, Maryland; and        M.S. in Computer Science from Johns Hopkins University, Baltimore, Maryland; and        B.S. in Mathematics from  Tuskegee University, Tuskegee, Alabama",
   "filename": "pamela-queen.md",
   "full-name": "Pamela Queen",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-b1a8709c01f1ccb2082495fc4d6c96f1_Amazing_picture_of_The_Houses_Queen.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Queen",

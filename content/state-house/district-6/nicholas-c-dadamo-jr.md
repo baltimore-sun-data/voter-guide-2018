@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "nicholas-c-dadamo-jr.md",
   "full-name": "Nicholas C. D'Adamo Jr.",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "D'Adamo",
   "party": "Democrat",

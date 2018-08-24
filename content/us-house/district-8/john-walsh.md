@@ -3,6 +3,7 @@
   "district": 8,
   "filename": "john-walsh.md",
   "full-name": "John Walsh",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Walsh",
   "party": "Republican",

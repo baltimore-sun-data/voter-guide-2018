@@ -1,5 +1,5 @@
 {
-  "age": 44,
+  "age": 45,
   "background": "Educator Civil Servant",
   "directory": "content/anne-arundel-county/board-of-education/district-7",
   "district": 7,
@@ -7,6 +7,7 @@
   "education": "I hold a B.A. in Criminology with a minor in political science from the University of Miami, a M.P.A. and a certificate in HR policy and management from Florida International University, and a M.A. in education from New Jersey City University.",
   "filename": "laticia-hicks.md",
   "full-name": "Laticia Hicks",
+  "general-only": true,
   "last-name": "Hicks",
   "party": "Non-Partisan",
   "questions": [

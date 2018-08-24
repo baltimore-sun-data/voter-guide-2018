@@ -7,6 +7,7 @@
   "education": "B.S. in Biology, Towson University",
   "filename": "george-h-harman.md",
   "full-name": "George H. Harman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-9fb8c6ac8c8a6f8c5dfcc6980e1633d7_head_shot_professional.docx",
   "jurisdiction": "Baltimore County",
   "last-name": "Harman",

@@ -3,6 +3,7 @@
   "district": 47,
   "filename": "fred-price-jr.md",
   "full-name": "Fred Price Jr.",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Price",
   "party": "Republican",

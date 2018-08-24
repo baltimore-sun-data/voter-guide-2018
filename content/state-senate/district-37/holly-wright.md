@@ -5,6 +5,7 @@
   "education": "Wells College, BA Columbia University, EdD",
   "filename": "holly-wright.md",
   "full-name": "Holly Wright",
+  "general-only": true,
   "jurisdiction": "Talbot County",
   "last-name": "Wright",
   "party": "Democrat",

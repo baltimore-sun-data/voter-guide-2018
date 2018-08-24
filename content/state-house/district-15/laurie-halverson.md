@@ -7,6 +7,7 @@
   "education": "Bachelors of Business Administration in Marketing and Human Resources",
   "filename": "laurie-halverson.md",
   "full-name": "Laurie Halverson",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-31cb0a43ba0f9dfb48f8b9db63f72635_P5.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Halverson",

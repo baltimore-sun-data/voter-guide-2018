@@ -7,6 +7,7 @@
   "education": "*Doctor of Social Work at University of Southern California, in progress, expected completion in December, 2019 Master of Social Work at University of Central Florida, 2013 Bachelor of Social Work at University of Central Florida, 2012",
   "filename": "allison-berkowitz.md",
   "full-name": "Allison Berkowitz",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-6e077661d2fe490345940ba29f89bb34_IMG_0986-2.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Berkowitz",

@@ -3,6 +3,7 @@
   "district": 13,
   "filename": "guy-guzzone.md",
   "full-name": "Guy Guzzone",
+  "general-only": true,
   "jurisdiction": "Howard County",
   "last-name": "Guzzone",
   "party": "Democrat",

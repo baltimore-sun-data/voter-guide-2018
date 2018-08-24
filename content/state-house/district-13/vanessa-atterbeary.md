@@ -7,6 +7,7 @@
   "education": "The College of William and Mary, B.A., Government, 97' The Villanova University School of Law, J.D., 00' I attended Howard County Public Schools and graduated from Atholton High School in 93'.",
   "filename": "vanessa-atterbeary.md",
   "full-name": "Vanessa Atterbeary",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-ec7538474b0a31081c876ebd19c65fc1_Del_Atterbeary_Pic.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Atterbeary",

@@ -1,16 +1,17 @@
 {
-  "age": 57,
+  "age": 58,
   "background": "Management: Last 31 years Parts DIrector For Thompson Automotive",
   "directory": "content/baltimore-county/county-council/district-7",
   "district": 7,
   "dob": "7/12/1960",
   "education": "Graduated High School 1978 Attended Dundalk Community College And Essex Community College",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "brian-weir.md",
   "full-name": "Brian Weir",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/191-50344611bba033c9df6f71c970c604ba_camp1.png",
   "last-name": "Weir",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

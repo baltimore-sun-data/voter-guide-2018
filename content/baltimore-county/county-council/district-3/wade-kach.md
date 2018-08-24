@@ -1,5 +1,5 @@
 {
-  "age": 70,
+  "age": 71,
   "background": "Mathematics teacher, Baltimore County Public Schools (Ridgely and Loch Raven Middle Schools) Auditor, Baltimore County Public Schools",
   "directory": "content/baltimore-county/county-council/district-3",
   "district": 3,
@@ -7,6 +7,7 @@
   "education": "BA, Western Maryland College Baltimore Polytechnic Institute",
   "filename": "wade-kach.md",
   "full-name": "Wade Kach",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/245-e92b5144bc629cb812884655a0a3905f_wade.kach_%281%29.jpg",
   "last-name": "Kach",
   "party": "Republican",

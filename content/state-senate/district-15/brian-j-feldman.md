@@ -7,6 +7,7 @@
   "education": "University of Pittsburgh School of Law-J.D. Johns Hopkins Univ.-Masters, Government Penn State Univ.-B.S., Accounting",
   "filename": "brian-j-feldman.md",
   "full-name": "Brian J. Feldman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-11960673e93e8c8cf300bea8b68f7898_FeldmanHeadshot.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Feldman",

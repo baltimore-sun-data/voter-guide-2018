@@ -3,6 +3,7 @@
   "district": "1b",
   "filename": "penny-lyn-walker.md",
   "full-name": "Penny Lyn Walker",
+  "general-only": true,
   "jurisdiction": "Allegany County",
   "last-name": "Walker",
   "party": "Democrat",

@@ -3,6 +3,7 @@
   "district": "31b",
   "filename": "harry-e-freeman.md",
   "full-name": "Harry E. Freeman",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Freeman",
   "party": "Democrat",

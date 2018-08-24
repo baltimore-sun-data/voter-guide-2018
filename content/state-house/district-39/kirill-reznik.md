@@ -3,6 +3,7 @@
   "district": 39,
   "filename": "kirill-reznik.md",
   "full-name": "Kirill Reznik",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Reznik",
   "party": "Democrat",

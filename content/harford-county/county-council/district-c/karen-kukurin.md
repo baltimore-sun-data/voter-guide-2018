@@ -3,6 +3,7 @@
   "district": "C",
   "filename": "karen-kukurin.md",
   "full-name": "Karen Kukurin",
+  "general-only": true,
   "last-name": "Kukurin",
   "party": "Democrat",
   "race": "harford-county/county-council",

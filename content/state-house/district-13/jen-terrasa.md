@@ -7,6 +7,7 @@
   "education": "I graduated from the University of Baltimore School of Law, after getting a Bachelor's Degree in sociology from the University of Maryland, College Park. I attended elementary and middle school in Howard County, and I am a proud graduate of Oakland Mills High School, Class of 1987.",
   "filename": "jen-terrasa.md",
   "full-name": "Jen Terrasa",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-78d3e2b5aa8c73d42cdda08c7a474a68_jen_headshot_from_facebook.jpg",
   "jurisdiction": "Howard County",
   "last-name": "Terrasa",

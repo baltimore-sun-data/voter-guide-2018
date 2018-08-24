@@ -3,6 +3,7 @@
   "district": 18,
   "filename": "jared-solomon.md",
   "full-name": "Jared Solomon",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Solomon",
   "party": "Democrat",

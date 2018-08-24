@@ -3,6 +3,7 @@
   "district": "31a",
   "filename": "brooks-bennett.md",
   "full-name": "Brooks Bennett",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Bennett",
   "party": "Republican",

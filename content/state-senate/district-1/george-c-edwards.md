@@ -3,6 +3,7 @@
   "district": 1,
   "filename": "george-c-edwards.md",
   "full-name": "George C. Edwards",
+  "general-only": true,
   "jurisdiction": "Garrett County",
   "last-name": "Edwards",
   "party": "Republican",

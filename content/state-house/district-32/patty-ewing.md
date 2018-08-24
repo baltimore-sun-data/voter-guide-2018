@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "patty-ewing.md",
   "full-name": "Patty Ewing",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Ewing",
   "party": "Republican",

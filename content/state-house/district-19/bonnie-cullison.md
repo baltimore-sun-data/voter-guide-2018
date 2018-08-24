@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "bonnie-cullison.md",
   "full-name": "Bonnie Cullison",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Cullison",
   "party": "Democrat",

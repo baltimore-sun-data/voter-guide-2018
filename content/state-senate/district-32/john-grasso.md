@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "john-grasso.md",
   "full-name": "John Grasso",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Grasso",
   "party": "Republican",

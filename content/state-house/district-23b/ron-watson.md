@@ -3,6 +3,7 @@
   "district": "23b",
   "filename": "ron-watson.md",
   "full-name": "Ron Watson",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Watson",
   "party": "Democrat",

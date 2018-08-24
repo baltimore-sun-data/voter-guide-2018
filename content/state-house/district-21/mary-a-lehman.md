@@ -7,6 +7,7 @@
   "education": "B.A. English Literature, UMD, 1987 B.S. Journalism, UMD, 1987 30 graduate credits in Government, Johhs Hopkins,  1996-2003",
   "filename": "mary-a-lehman.md",
   "full-name": "Mary A. Lehman",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Lehman",
   "party": "Democrat",

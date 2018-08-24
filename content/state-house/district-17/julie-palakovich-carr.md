@@ -7,6 +7,7 @@
   "education": "I'm a biologist by training and have an M.S. in Biology from the University of Minnesota and a B.A. in Biology from Boston University.",
   "filename": "julie-palakovich-carr.md",
   "full-name": "Julie Palakovich Carr",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-ffbc173899c10af426257cafde451817_DSC_1299-Julie.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Palakovich Carr",

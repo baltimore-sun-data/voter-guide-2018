@@ -7,6 +7,7 @@
   "education": "Graduated Richard Montgomery High School in Rockville.  BA from the University of Southern California.  Masters from Johns Hopkins University.  JD from University of Maryland School of Law.",
   "filename": "marc-korman.md",
   "full-name": "Marc Korman",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-81f3510f1b7626145a36e9b9c6716934_Korman_Headshot.PNG",
   "jurisdiction": "Montgomery County",
   "last-name": "Korman",

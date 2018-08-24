@@ -7,6 +7,7 @@
   "education": "Georgetown Law School: LLM (Master's in Law, Taxation. Certificate in International Taxation. St. Thomas University: MBA (Master in Business Adminstration, JD (Juris Doctor), Tax Certificate Eckerd College, BAs (Ancient Studies & Modern Languages) DeMatha High: High School Diploma",
   "filename": "jason-t-fowler.md",
   "full-name": "Jason T. Fowler",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-c21b7cf46487d74260ba81983a6046c2_Courthouse_-_Jason_Portrait_v.1_Icarus.jpg",
   "jurisdiction": "Calvert County",
   "last-name": "Fowler",

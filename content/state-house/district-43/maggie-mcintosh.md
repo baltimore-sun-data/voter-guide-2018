@@ -7,6 +7,7 @@
   "education": "- Independence Junior College, AA 1967 - Wichita State University, B.A.E., Arts Education, 1970 - The Johns Hopkins University, M.S./A.B.S., Concentration in Human and Organizational Resources, Division of Administration and Business, 1987",
   "filename": "maggie-mcintosh.md",
   "full-name": "Maggie McIntosh",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/52-d3e47e7023506163675715acf06d2838_Maggie_portrait.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "McIntosh",

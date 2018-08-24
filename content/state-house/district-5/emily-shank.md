@@ -7,6 +7,7 @@
   "education": "I have a Juris Doctorate Degree",
   "filename": "emily-shank.md",
   "full-name": "Emily Shank",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-50a302681fe39fdfa848e45afd338506_IMG_1125.JPG",
   "jurisdiction": "Carroll County",
   "last-name": "Shank",

@@ -3,6 +3,7 @@
   "district": 6,
   "filename": "bob-long.md",
   "full-name": "Bob Long",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Long",
   "party": "Republican",

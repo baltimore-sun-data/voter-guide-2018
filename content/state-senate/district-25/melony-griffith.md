@@ -3,6 +3,7 @@
   "district": 25,
   "filename": "melony-griffith.md",
   "full-name": "Melony Griffith",
+  "general-only": true,
   "jurisdiction": "Prince George's County",
   "last-name": "Griffith",
   "party": "Democrat",

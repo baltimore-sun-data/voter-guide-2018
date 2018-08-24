@@ -1,11 +1,12 @@
 {
-  "age": 57,
+  "age": 58,
   "background": "I am a small business owner in Anne Arundel County, former financial services professional and State Delegate, and have served as Anne Arundel County Executive since 2014. I am a lifelong Maryland resident and have lived, worked or operated a business in almost every part of Anne Arundel County. I have a deep understanding of every part of the County and have an immense appreciation for what a special place our County is. I raised my family here and understand the challenges that young families face in this community. I have also started and grown businesses here and understand how local government can make it easier or harder to create economic opportunity and jobs. I have now served for 11 years in elected office representing the citizens of Anne Arundel County and have always done my best to put people before politics.",
   "directory": "content/anne-arundel-county/county-executive",
   "dob": "7/25/1960",
   "education": "I have a Bachelor of Arts in Political Science and Economics from Dartmouth College, a MBA from Harvard University, and a Masters of Science in Education from Johns Hopkins University.",
   "filename": "steve-schuh.md",
   "full-name": "Steve Schuh",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299923/52-d50a5454e7d2f1aa36ae8f48e7869dcd_schuh-portrait-sq_CMYK_300dpi.jpg",
   "last-name": "Schuh",
   "party": "Republican",

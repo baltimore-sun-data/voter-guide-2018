@@ -1,5 +1,5 @@
 {
-  "age": 60,
+  "age": 61,
   "background": "30 years in Baltimore County Fire Department 42 years in Pleasant Valley Volunteer Fire Company 32 years as owner of Wantz Lawn Care",
   "directory": "content/carroll-county/county-commissioner/district-1",
   "district": 1,
@@ -7,6 +7,7 @@
   "education": "Graduate Francis Scott Key High School Some college including McDaniel, UMBC, University of Maryland Fire and Rescue Institute and Excellence in Governance. Baltimore County Fire Academy",
   "filename": "stephen-albert-wantz.md",
   "full-name": "Stephen Albert Wantz",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299916/245-52c9768c49c24dad74fd8d159170e0e9_181.jpg",
   "last-name": "Wantz",
   "party": "Republican",

@@ -7,6 +7,7 @@
   "education": "Doctor of Law (J.D.), Emory University School of Law; Master of Arts (M.A.), Towson University; Bachelor of Science (B.S.), Towson University",
   "filename": "christian-miele.md",
   "full-name": "Christian Miele",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/117-4065488d624b0f2524a881023e7a7715_Profile.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Miele",

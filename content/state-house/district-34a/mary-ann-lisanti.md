@@ -7,6 +7,7 @@
   "education": "BA- Political Science, College of Notre Dame of Maryland MA - Public Administration, Central Michigan University",
   "filename": "mary-ann-lisanti.md",
   "full-name": "Mary Ann Lisanti",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/95-06b116753155a45101dd41814e531cd3_Mary_Ann_Lisanti_headshot_copy.jpg",
   "jurisdiction": "Harford County",
   "last-name": "Lisanti",

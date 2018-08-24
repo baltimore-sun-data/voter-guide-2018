@@ -7,6 +7,7 @@
   "education": "I hold a BA Anthropology from the University of Chicago, and an MPH International Public Health from Columbia University in New York.",
   "filename": "robbyn-lewis.md",
   "full-name": "Robbyn Lewis",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/44-5b8a007f6282da1fdb9994a1f9f4bd92_Robbyn_Lewis_photo.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Lewis",

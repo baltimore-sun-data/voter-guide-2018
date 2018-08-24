@@ -7,6 +7,7 @@
   "education": "Masters Degree",
   "filename": "mike-rogers.md",
   "full-name": "Mike Rogers",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/247-cada251dcbf0fc6271ec19ee2d277fde_image.jpg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Rogers",

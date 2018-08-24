@@ -1,16 +1,17 @@
 {
-  "age": 56,
+  "age": 57,
   "background": "Professor - Towson University 1995-2018 Professor - The University of Utah 1992-1995 Graduate Assistant - The University of Michigan 1987-1992",
   "directory": "content/baltimore-county/county-council/district-3",
   "district": 3,
   "dob": "9/21/1961",
   "education": "Ph.D. in Spanish from the University of Michigan; M.A. in Spanish from Marquette University, B.A. from Marquette University in English/Spanish/Philosophy. Undergraduate studies at the Universidad Complutense in Madrid, Spain and graduate studies at the Universidad de Concepción in Chile.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "filename": "colleen-marie-ebacher.md",
   "full-name": "Colleen Marie Ebacher",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/52-6063cde97396fa5d32c3b9b8af831853_Colleen_Marie_Ebacher_Headshot.jpeg",
   "last-name": "Ebacher",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0622-county-council-20180620-story.html",
   "questions": [
     {
       "question": "What do you consider the greatest accomplishments and failings of the Kamenetz administration?",

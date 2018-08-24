@@ -3,6 +3,7 @@
   "district": 32,
   "filename": "mark-e-bailey.md",
   "full-name": "Mark E. Bailey",
+  "general-only": true,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Bailey",
   "party": "Republican",

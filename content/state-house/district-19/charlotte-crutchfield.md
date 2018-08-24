@@ -3,6 +3,7 @@
   "district": 19,
   "filename": "charlotte-crutchfield.md",
   "full-name": "Charlotte Crutchfield",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Crutchfield",
   "party": "Democrat",

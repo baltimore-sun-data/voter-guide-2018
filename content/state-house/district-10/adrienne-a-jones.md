@@ -7,6 +7,7 @@
   "education": "Bachelor of Science Degree from the University of Maryland, Baltimore County",
   "filename": "adrienne-a-jones.md",
   "full-name": "Adrienne A. Jones",
+  "general-only": true,
   "jurisdiction": "Baltimore County",
   "last-name": "Jones",
   "party": "Democrat",

@@ -8,6 +8,7 @@
   "education": "In 1989, after the birth of my 3rd child, I started school and went to night and weekend school for seventeen straight years to earn an AA from CCBC in 1996, a BA in Human Services Administration from College of Notre Dame in 2000, and a dual MA in Management and Finance from College of Notre Dame of Maryland in 2006.",
   "filename": "lisa-a-mack.md",
   "full-name": "Lisa A. Mack",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299887/52-2ab6a8c9e51642b92e523ef7172820ea_Me.jpg",
   "last-name": "Mack",
   "party": "Non-Partisan",

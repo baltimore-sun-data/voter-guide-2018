@@ -7,6 +7,7 @@
   "education": "Wellwood Elementary Pikesville Middle School Pikesville High School B.A. Johns Hopkins University J.D. Georgetown University Law Center",
   "filename": "bobby-a-zirkin.md",
   "full-name": "Bobby A. Zirkin",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/191-9beed3bf0550798c830e321fe74cddc0_Zirkin_90717_6_preview.jpeg",
   "jurisdiction": "Baltimore County",
   "last-name": "Zirkin",

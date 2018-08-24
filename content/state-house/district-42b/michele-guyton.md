@@ -7,6 +7,7 @@
   "education": "B.A. Vanderbilt University- Anthropology and Psychology M.A. Radcliffe Consortium of Women's Studies/Brandeis University- Joint degree in Women's Studies and Psychology Ph.D. Brandeis University - Developmental Psychology",
   "filename": "michele-guyton.md",
   "full-name": "Michele Guyton",
+  "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/99-9ef1f0130fff91aef4cf31d5d4e99650_Michele_prof_headshot.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Guyton",

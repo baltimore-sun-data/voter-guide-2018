@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "charles-anthony.md",
   "full-name": "Charles Anthony",
+  "general-only": true,
   "jurisdiction": "Montgomery County",
   "last-name": "Anthony",
   "party": "Republican",

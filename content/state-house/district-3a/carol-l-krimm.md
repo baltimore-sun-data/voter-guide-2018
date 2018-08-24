@@ -3,6 +3,7 @@
   "district": "3a",
   "filename": "carol-l-krimm.md",
   "full-name": "Carol L. Krimm",
+  "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Krimm",
   "party": "Democrat",
