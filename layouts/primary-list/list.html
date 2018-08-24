@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <div id="state-races" class="splash-container" style="text-align: center;">
+   <h1 class="section-header-splash grey">
+    {{ .Title }}
+   </h1>
+   <div id="splash-text">
+    {{ .Content }}
+   </div>
+   <hr class="clear-splash">
+  </div>
+
+  {{ partial "ad-leaderboard.html" . }}
+
+  {{ partial "candidate-list.html" . }}
+{{ end }}
