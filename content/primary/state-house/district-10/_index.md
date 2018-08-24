@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 10",
   "title": "Maryland House of Delegates District 10",
+  "type": "primary-list",
   "weight": 15
 }

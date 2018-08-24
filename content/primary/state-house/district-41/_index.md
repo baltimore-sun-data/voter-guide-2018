@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 41",
   "title": "Maryland House of Delegates District 41",
+  "type": "primary-list",
   "weight": 58
 }

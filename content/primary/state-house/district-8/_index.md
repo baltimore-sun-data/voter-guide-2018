@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 8",
   "title": "Maryland House of Delegates District 8",
+  "type": "primary-list",
   "weight": 12
 }

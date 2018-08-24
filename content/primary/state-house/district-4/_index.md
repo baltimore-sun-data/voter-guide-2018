@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 4",
   "title": "Maryland House of Delegates District 4",
+  "type": "primary-list",
   "weight": 8
 }

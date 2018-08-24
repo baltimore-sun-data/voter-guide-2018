@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 14",
   "title": "Maryland State Senate District 14",
+  "type": "primary-list",
   "weight": 14
 }

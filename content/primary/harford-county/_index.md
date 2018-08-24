@@ -3,6 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "Harford County",
   "title": "Harford County",
-  "type": "local-list",
+  "type": "primary-list",
   "weight": 4
 }

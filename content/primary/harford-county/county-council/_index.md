@@ -4,7 +4,7 @@
   "filename": "_index.md",
   "shortTitle": "County Council",
   "title": "County Council for Harford County",
-  "type": "district-list",
+  "type": "primary-list",
   "customDistricts": [
     "A", "B", "C", "D", "E", "F"
   ]

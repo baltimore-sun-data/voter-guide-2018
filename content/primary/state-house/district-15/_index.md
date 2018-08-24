@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 15",
   "title": "Maryland House of Delegates District 15",
+  "type": "primary-list",
   "weight": 20
 }

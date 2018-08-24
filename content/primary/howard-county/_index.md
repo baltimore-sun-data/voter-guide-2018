@@ -3,6 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "Howard County",
   "title": "Howard County",
-  "type": "local-list",
+  "type": "primary-list",
   "weight": 4
 }

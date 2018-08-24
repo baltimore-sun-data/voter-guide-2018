@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 21",
   "title": "Maryland House of Delegates District 21",
+  "type": "primary-list",
   "weight": 26
 }

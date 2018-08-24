@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 2",
   "title": "Anne Arundel County Board of Education District 2",
+  "type": "primary-list",
   "weight": 2
 }

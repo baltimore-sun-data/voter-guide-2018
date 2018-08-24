@@ -4,5 +4,5 @@
   "filename": "_index.md",
   "shortTitle": "Board of Education",
   "title": "Board of Education for Anne Arundel County",
-  "type": "district-list"
+  "type": "primary-list"
 }

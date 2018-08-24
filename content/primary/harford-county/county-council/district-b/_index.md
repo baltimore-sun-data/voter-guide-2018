@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District B",
   "title": "Harford County County Council District B",
+  "type": "primary-list",
   "weight": 2
 }

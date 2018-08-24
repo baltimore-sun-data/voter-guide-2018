@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 7",
   "title": "Maryland House of Delegates District 7",
+  "type": "primary-list",
   "weight": 11
 }

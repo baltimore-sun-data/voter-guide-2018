@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 9A",
   "title": "Maryland House of Delegates District 9A",
+  "type": "primary-list",
   "weight": 13
 }

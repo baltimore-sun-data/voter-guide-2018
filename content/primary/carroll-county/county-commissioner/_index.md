@@ -4,5 +4,5 @@
   "filename": "_index.md",
   "shortTitle": "County Commissioner",
   "title": "County Commissioner for Carroll County",
-  "type": "district-list"
+  "type": "primary-list"
 }

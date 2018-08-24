@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 5",
   "title": "U.S. House of Representatives Maryland District 5",
+  "type": "primary-list",
   "weight": 5
 }

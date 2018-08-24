@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 33",
   "title": "Maryland House of Delegates District 33",
+  "type": "primary-list",
   "weight": 45
 }
