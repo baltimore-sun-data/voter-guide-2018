@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 22",
   "title": "Maryland House of Delegates District 22",
+  "type": "primary-list",
   "weight": 27
 }

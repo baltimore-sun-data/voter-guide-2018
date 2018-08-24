@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 3",
   "title": "Baltimore County County Council District 3",
+  "type": "primary-list",
   "weight": 3
 }

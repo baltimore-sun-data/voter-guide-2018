@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 38C",
   "title": "Maryland House of Delegates District 38C",
+  "type": "primary-list",
   "weight": 55
 }

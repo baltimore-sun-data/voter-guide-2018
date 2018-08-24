@@ -3,6 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "Anne Arundel County",
   "title": "Anne Arundel County",
-  "type": "local-list",
+  "type": "primary-list",
   "weight": 2
 }

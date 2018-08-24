@@ -1,7 +1,7 @@
 {
   "shortTitle": "State Senator",
   "title": "Maryland State Senator",
-  "type": "district-list",
+  "type": "primary-list",
   "districts": 47,
   "slug": "state-senate",
   "weight": 6,

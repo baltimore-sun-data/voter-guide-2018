@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 2",
   "title": "Carroll County County Commissioner District 2",
+  "type": "primary-list",
   "weight": 2
 }

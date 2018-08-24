@@ -3,6 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "Baltimore County",
   "title": "Baltimore County",
-  "type": "local-list",
+  "type": "primary-list",
   "weight": 3
 }

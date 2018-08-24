@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 40",
   "title": "Maryland State Senate District 40",
+  "type": "primary-list",
   "weight": 40
 }

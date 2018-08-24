@@ -4,5 +4,5 @@
   "shortTitle": "Baltimore City",
   "title": "Baltimore City",
   "type": "redirect",
-  "Permalink": "/baltimore-city/states-attorney/"
+  "Permalink": "/primary/baltimore-city/states-attorney/"
 }

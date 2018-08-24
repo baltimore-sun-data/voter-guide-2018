@@ -3,5 +3,6 @@
   "filename": "_index.md",
   "shortTitle": "District 4",
   "title": "Howard County County Council District 4",
+  "type": "primary-list",
   "weight": 4
 }

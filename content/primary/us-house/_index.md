@@ -2,7 +2,7 @@
   "shortTitle": "Representative in Congress",
   "title": "U.S. House of Representatives",
   "weight": 5,
-  "type": "district-list",
+  "type": "primary-list",
   "districts": 8,
   "slug": "us-house",
   "mapFile": "/json/congressional-districts.json"
