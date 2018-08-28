@@ -171,7 +171,11 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 		datum["title"] = fullname
 	}
 
-	if generalCandidate, _ := datum["general-only"].(bool); !generalCandidate {
+	generalCandidate, ok := datum["general-only"].(bool)
+	if !ok {
+		return nil, fmt.Errorf("missing general-only status: %q", datum["title"])
+	}
+	if !generalCandidate {
 		dir := get(datum, "directory")
 		fn := get(datum, "filename")
 		datum["directory"] = strings.Replace(dir, "content/", "content/primary/", 1)
