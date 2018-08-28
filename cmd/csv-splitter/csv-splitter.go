@@ -226,6 +226,13 @@ func normalize(s string) interface{} {
 var errMissingInfo = fmt.Errorf("missing filename/directory")
 
 func saveDatum(datum map[string]interface{}) (err error) {
+	// If you're not in the general and unaffiliated, you didn't get enough
+	// signatures/dropped out, so ignore you
+	generalOnly, _ := datum["general-only"].(bool)
+	if party := get(datum, "party"); !generalOnly && party == "Unaffiliated" {
+		return nil
+	}
+
 	dir := get(datum, "directory")
 	fn := get(datum, "filename")
 
