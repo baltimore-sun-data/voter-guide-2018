@@ -9,6 +9,7 @@
   "education": "High School w/ some college.",
   "filename": "brian-charles-vaeth.md",
   "full-name": "Brian Charles Vaeth",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-6d205f5e3484b0e431191ca4b336d8d5_gov2.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Vaeth",

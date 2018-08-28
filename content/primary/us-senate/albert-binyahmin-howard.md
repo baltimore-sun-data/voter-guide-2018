@@ -9,6 +9,7 @@
   "education": "University of Michigan",
   "filename": "albert-binyahmin-howard.md",
   "full-name": "Albert Binyahmin Howard",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/245-634db0faff8b03d0a98bcff698439c45_459A0682-52B0-452C-842A-7CE117BD341B.jpeg",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Howard",

@@ -9,6 +9,7 @@
   "education": "Erik earned his bachelor's degree (with honors) in Psychology with a minor in Sociology while on active duty from American Military University with a specialty in: Psychology of War and Terrorism. He earned a master's degree in Military Studies / Intelligence Operations from American Military University while on active duty. With the repeated urging of his leadership and mentors while on active duty at NSA, he pursued his passion for public policy by working on his PhD in Public Policy / Homeland Security at Walden University and is currently a PhD candidate working on his dissertation. Erik also attended Harvard Extension school while on active duty, studying Middle Eastern studies.",
   "filename": "erik-jetmir.md",
   "full-name": "Erik Jetmir",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-933fe99cebfebcf599c6f22c7011876c_press_release.jpg",
   "jurisdiction": "Prince George's County",
   "last-name": "Jetmir",

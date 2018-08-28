@@ -9,6 +9,7 @@
   "education": "Bachelor of Arts, History, The George Washington University (1990); Master of Arts, Education Policy (with honors), The George Washington University (1992); Juris Doctor, the University of Maryland School of Law (1996)",
   "filename": "christina-j-grigorian.md",
   "full-name": "Christina J. Grigorian",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Grigorian",
   "party": "Republican",

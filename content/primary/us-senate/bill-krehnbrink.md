@@ -9,6 +9,7 @@
   "education": "Coppin State University BS Special Education Coppin State Masters - Curriculum & Instruction",
   "filename": "bill-krehnbrink.md",
   "full-name": "Bill Krehnbrink",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/99-9bdd588f3c2734d7be529026685fe9b7_IMG_0979.JPG",
   "jurisdiction": "Baltimore County",
   "last-name": "Krehnbrink",

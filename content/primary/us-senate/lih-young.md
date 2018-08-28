@@ -9,6 +9,7 @@
   "education": "DR. LIH YOUNG: PhD. MA, economics, City University of New York (CUNY). BA, economics, National Taiwan University (the best in Taiwan). Dissertation: \"Household Demands for Leisure Activities: Readings and TV-Watching (with econometric models), Thesis: \"An Evaluation of Economic Development in Taiwan\" (with linear programming models). Spouse: Kan Hua, PhD. Columbia U.; Two children: Albert, PhD, MIT (double major; physics/math; 3 yrs; first place, NJ state-wide math competition; and in Maryland. Janice, MA, MIT. (both children: early graduation; skipped altogether 5 yrs, inc. college). DR. LIH YOUNG turned them around, when schools had failed them. Save family and government tremendously; while raise the reputation of school system a lot. Participated/attended/commented in numerous forum (academic, universities, associations, think tanks, civic and political organizations, etc.; frequently, continually for a long period of time up to present.",
   "filename": "lih-young.md",
   "full-name": "Lih Young",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/95-7600cbe24e137770a6978cab139d463e_ly_candidate-vote-md_lwv_photo.jpg",
   "jurisdiction": "Montgomery County",
   "last-name": "Young",

@@ -9,6 +9,7 @@
   "education": "BA History Major Towson State College 1972. Minor: Political Science",
   "filename": "blaine-taylor.md",
   "full-name": "Blaine Taylor",
+  "general-only": false,
   "jurisdiction": "Baltimore County",
   "last-name": "Taylor",
   "party": "Republican",

@@ -5,6 +5,7 @@
   "directory": "content/primary/us-senate",
   "filename": "john-r-graziani.md",
   "full-name": "John R. Graziani",
+  "general-only": false,
   "jurisdiction": "Anne Arundel County",
   "last-name": "Graziani",
   "party": "Republican",

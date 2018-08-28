@@ -9,6 +9,7 @@
   "education": "BS- Hampton University magna cum laude MBA- University of the Southwest",
   "filename": "richard-rikki-vaughn.md",
   "full-name": "Richard \"Rikki\" Vaughn",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/179-21af3c6d8c3b9e22a68e4327a9c340ad_Rikki_Vaughn_US_Senate_Headshot.jpg",
   "jurisdiction": "Baltimore County",
   "last-name": "Vaughn",

@@ -9,6 +9,7 @@
   "education": "Graduated High School, Studied business and electronics at University of Maryland College Park and Motorola and Test Electronics. Online classes at Hills Dale College on the  Constitution",
   "filename": "chris-chaffee.md",
   "full-name": "Chris Chaffee",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/95-af69ec245091d07bd3f57a432e8bb249_Photo-Chris.jpg",
   "jurisdiction": "Calvert County",
   "last-name": "Chaffee",

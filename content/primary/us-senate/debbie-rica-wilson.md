@@ -9,6 +9,7 @@
   "education": "Wilson graduated from St. Augustine's University in Raleigh, North Carolina with a Bachelor's degree in English. She has a Master's Degree in English, with an emphasis in teaching English as a Second Language, from Indiana University of Pennsylvania. She holds a doctorate in ministry with a focus on Pastoral Counseling and a certificate in Complementary and Alternative Medicine.",
   "filename": "debbie-rica-wilson.md",
   "full-name": "Debbie \"Rica\" Wilson",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/253-0ac96b0f4ea368e3e31209cdd6a8f572_IMG_0530.JPG",
   "jurisdiction": "Charles County",
   "last-name": "Wilson",

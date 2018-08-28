@@ -7,6 +7,7 @@
   "education": "Graduate of Rutgers University",
   "filename": "nnabu-eze.md",
   "full-name": "Nnabu Eze",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/44-dc914e4cea9db2db4014dda194c6eb4d_Pic.png",
   "jurisdiction": "Baltimore County",
   "last-name": "Eze",
