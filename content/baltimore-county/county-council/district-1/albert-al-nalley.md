@@ -1,5 +1,6 @@
 {
-  "directory": "content/baltimore-county/county-council",
+  "directory": "content/baltimore-county/county-council/district-1",
+  "district": 1,
   "filename": "albert-al-nalley.md",
   "full-name": "Albert \"Al\" Nalley",
   "general-only": true,
