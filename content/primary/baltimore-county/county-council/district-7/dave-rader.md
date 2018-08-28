@@ -62,7 +62,7 @@
     }
   ],
   "race": "baltimore-county/county-council",
-  "residence": "Dundalk",
+  "residence": "Catonsville",
   "social-fb": "davidraderii",
   "social-tw": "davidrader",
   "survey-response": true,

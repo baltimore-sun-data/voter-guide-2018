@@ -5,6 +5,8 @@
   "full-name": "Frank Esposito",
   "general-only": true,
   "last-name": "Esposito",
+  "party": "Unaffiliated",
   "race": "state-senate",
+  "survey-response": false,
   "title": "Frank Esposito"
 }

@@ -5,6 +5,7 @@
   "directory": "content/primary/us-senate",
   "filename": "marcia-h-morgan.md",
   "full-name": "Marcia H. Morgan",
+  "general-only": false,
   "jurisdiction": "Montgomery County",
   "last-name": "Morgan",
   "party": "Democrat",

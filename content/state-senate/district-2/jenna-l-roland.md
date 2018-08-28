@@ -5,6 +5,8 @@
   "full-name": "Jenna L. Roland",
   "general-only": true,
   "last-name": "Roland",
+  "party": "Green",
   "race": "state-senate",
+  "survey-response": false,
   "title": "Jenna L. Roland"
 }

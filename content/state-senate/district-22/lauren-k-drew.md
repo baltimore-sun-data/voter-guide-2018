@@ -5,6 +5,8 @@
   "full-name": "Lauren K. Drew",
   "general-only": true,
   "last-name": "Drew",
+  "party": "Libertarian",
   "race": "state-senate",
+  "survey-response": false,
   "title": "Lauren K. Drew"
 }

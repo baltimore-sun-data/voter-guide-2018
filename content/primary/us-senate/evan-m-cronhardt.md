@@ -9,6 +9,7 @@
   "education": "BS pre law; psychology minor",
   "filename": "evan-m-cronhardt.md",
   "full-name": "Evan M. Cronhardt",
+  "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/191-7cd71c72f11058c934a7c0a6df0944c0_Photo.JPG",
   "jurisdiction": "Anne Arundel County",
   "last-name": "Cronhardt",
