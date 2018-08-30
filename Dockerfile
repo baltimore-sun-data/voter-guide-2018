@@ -23,15 +23,19 @@ RUN apk --no-cache add \
 
 FROM go-curl as go-hugo
 ARG HUGO_VERSION=0.48
-RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
+RUN curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
 
 FROM go-curl as go-s3deploy
 ARG S3DEPLOY_VERSION=2.0.1
 RUN curl -L https://github.com/bep/s3deploy/releases/download/v${S3DEPLOY_VERSION}/s3deploy_${S3DEPLOY_VERSION}_Linux-64bit.tar.gz | tar xz -C /bin/
 
-# Node comes with yarn
-FROM node:9-alpine as yarn-builder
-WORKDIR /go/src/github.com/baltimore-sun-data/voter-guide-2018
+FROM ubuntu:18.04 as yarn-builder
+RUN apt-get update -qq && \
+    apt-get install -qq -y curl build-essential && \
+    curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
+    apt-get install -qq -y nodejs && \
+    npm install -g yarn
+
 COPY package.json yarn.lock ./
 RUN yarn
 
