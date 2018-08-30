@@ -1,5 +1,0 @@
-# Install required tools:
-required = [
-    "github.com/carlmjohnson/scattered/cmd/scattered",
-    "github.com/baltimore-sun-data/boreas",
-]
