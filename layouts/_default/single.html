@@ -1,19 +1,19 @@
 {{ define "main" }}
+  {{ $image := "" }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imageJPG) }}
-      {{ $.Scratch.Set "image" $imageJPG }}
+      {{ $image = $imageJPG }}
   {{ end }}
   {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imagePNG) }}
-      {{ $.Scratch.Set "image" $imagePNG }}
+      {{ $image = $imagePNG }}
   {{ end }}
-  {{ $image := $.Scratch.Get "image" }}
   <!-- Retina images are optional, always JPEG -->
+  {{ $imageRetina := "" }}
   {{ $image500 := printf "images/candidates/%s-500.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $image500) }}
-      {{ $.Scratch.Set "imageRetina" $image500 }}
+      {{ $imageRetina = $image500 }}
   {{ end }}
-  {{ $imageRetina := $.Scratch.Get "imageRetina" }}
 
   {{ $partyLower := .Params.party | default "independent" | lower }}
   {{ $partyCSS := default $partyLower (index (dict "unaffiliated" "independent") $partyLower) }}
