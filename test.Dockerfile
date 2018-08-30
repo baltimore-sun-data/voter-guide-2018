@@ -13,8 +13,7 @@ RUN go mod download
 
 RUN CGO_ENABLED=0 go install \
     ./cmd/csv-splitter \
-    ./cmd/robocopy \
-    github.com/carlmjohnson/scattered/cmd/scattered
+    ./cmd/robocopy
 
 FROM alpine as go-curl
 RUN apk --no-cache add \
@@ -33,7 +32,6 @@ RUN yarn
 
 COPY --from=go-builder /go/bin/csv-splitter /bin/
 COPY --from=go-builder /go/bin/robocopy /bin/
-COPY --from=go-builder /go/bin/scattered /bin/
 COPY --from=go-hugo /bin/hugo /bin/
 
 COPY . .

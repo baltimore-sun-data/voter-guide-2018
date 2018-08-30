@@ -46,11 +46,7 @@
 
 * Run `yarn server` to run a development server at [http://localhost:1313/](http://localhost:1313/).
 
-* Run `yarn build` to create files for distribution in `public/`. Builds additionally require "scattered" and "minify". Install in current working directory with:
-
-  - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/tdewolff/minify/cmd/minify`
-  - `GOBIN="$(pwd)" GOPATH="$(mktemp -d)" go get github.com/carlmjohnson/scattered/cmd/scattered`
-
+* Run `yarn build` to create files for distribution in `public/`.
 
 ## Robocopy for primary:
 
