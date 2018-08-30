@@ -23,20 +23,18 @@
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="{{ .Page.URL | absURL }}">
   <!-- Facebook stuff -->
-  {{ $.Scratch.Set "fb-image" (.Param "icon") }}
-  {{ $.Scratch.Set "tw-image" (.Param "image") }}
+  {{ $imageFB := .Param "icon" }}
+  {{ $imageTW := .Param "image" }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imageJPG) }}
-      {{ $.Scratch.Set "fb-image" $imageJPG }}
-      {{ $.Scratch.Set "tw-image" $imageJPG }}
+      {{ $imageFB = $imageJPG }}
+      {{ $imageTW = $imageJPG }}
   {{ end }}
   {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imagePNG) }}
-      {{ $.Scratch.Set "fb-image" $imagePNG }}
-      {{ $.Scratch.Set "tw-image" $imagePNG }}
+      {{ $imageFB = $imagePNG }}
+      {{ $imageTW = $imagePNG }}
   {{ end }}
-  {{ $imageFB := $.Scratch.Get "fb-image" }}
-  {{ $imageTW := $.Scratch.Get "tw-image" }}
 
   <meta name="description" content="{{ .Summary }}">
   <meta name="author" content="Baltimore Sun">
@@ -58,17 +56,17 @@
   <meta name="twitter:domain" content="baltimoresun.com">
 
   <!-- Baltimore Sun Omniture -->
-  {{ $.Scratch.Set "pageName" (.Param "omniture-page-name") }}
+  {{ $pageName := .Param "omniture-page-name" }}
   {{ if (eq .Kind "page") }}
-    {{ $.Scratch.Add "pageName" (printf ":%s." (.Title | lower | urlize))}}
+    {{ $pageName = (printf "%s:%s." $pageName (.Title | lower | urlize))}}
   {{ else }}
-    {{ $.Scratch.Add "pageName" (printf ":%s." .Kind) }}
+    {{ $pageName = (printf "%s:%s." $pageName .Kind) }}
   {{ end}}
   <script>
   (
     ((window.trb || (window.trb = {})).data || (trb.data = {})).metrics || (trb.data.metrics = {})
   ).thirdparty = {
-    pageName: '{{$.Scratch.Get "pageName"}}',
+    pageName: '{{$pageName}}',
     channel: '{{.Param "omniture-channel"}}',
     server: '{{.Param "omniture-server"}}',
     hier1: 'baltimoresun:{{.Param "omniture-channel"}}',
