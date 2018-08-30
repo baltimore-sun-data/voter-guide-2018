@@ -4,5 +4,5 @@ node_modules
 public
 csv
 dist
-data/assets.json
 vendor
+resources

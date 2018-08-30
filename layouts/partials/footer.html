@@ -2,7 +2,8 @@
    <div id="footer-container">
       <div class="col-md-12 col-sm-12 col-xs-12">
         <a href="http://www.baltimoresun.com" target="_blank">
-          <img alt="The Baltimore Sun" src='{{ dict "Site" $.Site "Value" "images/logo-grey.svg" | partial "assets.html" }}'>
+          {{ $logo := resources.Get "images/logo-grey.svg" | minify | fingerprint }}
+          <img alt="The Baltimore Sun" src='{{ $logo.Permalink }}'>
         </a>
       </div>
       {{ range .Site.Menus.main }}

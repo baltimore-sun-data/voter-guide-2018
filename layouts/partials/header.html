@@ -33,7 +33,8 @@
      </ul>
     </div>
     <a href="http://www.baltimoresun.com">
-     <img id="top-sun-logo" src='{{ dict "Site" $.Site "Value" "images/logo-white.svg" | partial "assets.html" }}' alt="The Baltimore Sun" width="190">
+     {{ $logo := resources.Get "images/logo-white.svg" | minify | fingerprint }}
+     <img id="top-sun-logo" src='{{ $logo.Permalink }}' alt="The Baltimore Sun" width="190">
     </a>
    </div>
   </header>

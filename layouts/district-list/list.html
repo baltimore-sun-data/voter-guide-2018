@@ -1,7 +1,10 @@
 {{ define "extra-head" }}
-  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/leaflet.js") }}'></script>
-  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/geosearch.js") }}'></script>
-  <script src='{{ partial "assets.html" (dict "Site" .Site "Value" "scripts/leaflet-pip.js") }}'></script>
+  {{ $leafletJS := resources.Get "scripts/leaflet.js" }}
+  {{ $geosearchJS := resources.Get "scripts/geosearch.js" }}
+  {{ $pipJS := resources.Get "scripts/leaflet-pip.js" }}
+
+  {{ $js := slice $leafletJS $geosearchJS $pipJS | resources.Concat "scripts/leaflet-bundle.js" | minify | fingerprint }}
+  <script src='{{ $js.Permalink }}'></script>
 {{ end }}
 {{ define "main" }}
   <div class="district-list">
