@@ -1,5 +1,4 @@
-data/assets.json
-dist
 public
 vendor
 **/test/*
+resources
