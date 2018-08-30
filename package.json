@@ -9,7 +9,7 @@
   "browserslist": ["> 1% in US", "defaults"],
   "scripts": {
     "build":
-      "yarn run clean && yarn run build:results && yarn run make-content && yarn run css && yarn run hash-assets && yarn run hugo && yarn run minify && yarn run clean:data",
+      "yarn run clean && yarn run build:results && yarn run make-content && yarn run css && yarn run hash-assets && yarn run hugo && yarn run clean:data",
     "build:results":
       "robocopy -local -metadata-src data/primary-metadata.json -results-src data/primary-results.json",
     "build:robocopy":
@@ -27,7 +27,7 @@
       "postcss --watch --parser postcss-scss --use postcss-node-sass --use autoprefixer --map -o dist/css/app.css static/scss/app.scss",
     "hash-assets":
       "scattered -srcbasepath dist -output data/assets.json '*.css' '*.jpeg' '*.jpg' '*.js' '*.png' '*.svg' && scattered -srcbasepath static -dstbasepath dist -merge-existing -output data/assets.json '*.css' '*.jpeg' '*.jpg' '*.js' '*.png' '*.svg'",
-    "hugo": "hugo version && hugo -v",
+    "hugo": "hugo version && hugo -v --minify",
     "format": "prettier --write '**/*.{js,json,scss}'",
     "make-content": "./make-content.sh",
     "minify": "minify -r -o public public",
