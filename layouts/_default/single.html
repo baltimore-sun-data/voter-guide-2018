@@ -2,17 +2,17 @@
   {{ $image := "" }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imageJPG) }}
-      {{ $image = $imageJPG }}
+      {{ $image = (resources.Get $imageJPG | fingerprint).Permalink }}
   {{ end }}
   {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $imagePNG) }}
-      {{ $image = $imagePNG }}
+      {{ $image = (resources.Get $imagePNG | fingerprint).Permalink }}
   {{ end }}
   <!-- Retina images are optional, always JPEG -->
   {{ $imageRetina := "" }}
   {{ $image500 := printf "images/candidates/%s-500.jpg" .Page.File.BaseFileName }}
   {{ if fileExists (printf "static/%s" $image500) }}
-      {{ $imageRetina = $image500 }}
+      {{ $imageRetina = (resources.Get $image500 | fingerprint).Permalink }}
   {{ end }}
 
   {{ $partyLower := .Params.party | default "independent" | lower }}
@@ -49,11 +49,11 @@
      <div id="cand-pic">
       <img
         alt='{{ .Param "full-name" }}'
-        src='{{ dict "Site" .Site "Value" $image | partial "assets.html" }}'
+        src='{{ $image }}'
         {{ if $imageRetina }}
           srcset='
-            {{ dict "Site" .Site "Value" $image | partial "assets.html" }} 1x,
-            {{ dict "Site" .Site "Value" $imageRetina | partial "assets.html" }} 2x
+            {{ $image }} 1x,
+            {{ $imageRetina }} 2x
           '
         {{ end }}
         class="cand-pic {{ $partyCSS }}">
@@ -61,8 +61,9 @@
     {{ end }}
      <div id="cand-bio-text">
       <div class="cand-details">
-        {{ if .Param "endorsement"}}
-          <div class="endorsement"><a href='{{ .Param "endorsement" }}' target="_blank"><img src='{{ dict "Site" .Site "Value" "images/endorsement-small.svg"| partial "assets.html" }}'></a></div>
+        {{ if .Param "endorsement" }}
+          {{ $endorseSVG := resources.Get "images/endorsement-small.svg" | minify | fingerprint }}
+          <div class="endorsement"><a href='{{ .Param "endorsement" }}' target="_blank"><img src='{{ $endorseSVG.Permalink }}'></a></div>
         {{ end }}
         <div class="social-icons candidate-page">
           <span class="icon-facebook js-click"></span>
@@ -173,11 +174,11 @@
     {{ if $image }}
     <img
       alt='{{ .Param "full-name" }}'
-      src='{{ dict "Site" $.Site "Value" $image | partial "assets.html" }}'
+      src='{{ $image }}'
       {{ if $imageRetina }}
         srcset='
-          {{ dict "Site" .Site "Value" $image | partial "assets.html" }} 1x,
-          {{ dict "Site" .Site "Value" $imageRetina | partial "assets.html" }} 2x
+          {{ $image }} 1x,
+          {{ $imageRetina }} 2x
         '
       {{ end }}
       class="nav-photo">
@@ -430,6 +431,7 @@
 {{ if fileExists (printf "static/%s" $image500) }}
     {{ $.Scratch.Add "google-image" $image500 }}
 {{ end }}
+{{ $icon := resources.Get "/images/icon.png" | fingerprint }}
 <script type="application/ld+json">
 {
   "@context": "http://schema.org",
@@ -440,9 +442,9 @@
   },
   "headline": "{{ .Title }}",
   "image": [
-   {{ range $i, $image := $.Scratch.Get "google-image" }}
-   {{ if gt $i 0 }},{{ end }}
-   {{ dict "Site" $.Site "Value" $image | partial "assets.html" | jsonify }}
+   {{ range $i, $subimage := $.Scratch.Get "google-image" }}
+     {{ if gt $i 0 }},{{ end }}
+     {{ (resources.Get $subimage | fingerprint).Permalink | jsonify }}
    {{ end }}
   ],
   "datePublished": "2018-04-25T09:20:00+04:00",
@@ -456,7 +458,7 @@
     "name": "The Baltimore Sun",
     "logo": {
       "@type": "ImageObject",
-      "url": {{ dict "Site" $.Site "Value" "/images/icon.png" | partial "assets.html" | jsonify }}
+      "url": {{ $icon.Permalink | jsonify }}
     }
   },
   "description": "{{ .Param "full-name" }} answers an election 2018 questionnaire for The Baltimore Sun"
