@@ -1,17 +1,17 @@
 {{ define "main" }}
   {{ $image := "" }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
-  {{ if fileExists (printf "static/%s" $imageJPG) }}
+  {{ if fileExists (printf "assets/%s" $imageJPG) }}
       {{ $image = (resources.Get $imageJPG | fingerprint).Permalink }}
   {{ end }}
   {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
-  {{ if fileExists (printf "static/%s" $imagePNG) }}
+  {{ if fileExists (printf "assets/%s" $imagePNG) }}
       {{ $image = (resources.Get $imagePNG | fingerprint).Permalink }}
   {{ end }}
   <!-- Retina images are optional, always JPEG -->
   {{ $imageRetina := "" }}
   {{ $image500 := printf "images/candidates/%s-500.jpg" .Page.File.BaseFileName }}
-  {{ if fileExists (printf "static/%s" $image500) }}
+  {{ if fileExists (printf "assets/%s" $image500) }}
       {{ $imageRetina = (resources.Get $image500 | fingerprint).Permalink }}
   {{ end }}
 
@@ -420,15 +420,15 @@
 <!-- Magic Google metadata -->
 {{ $.Scratch.Set "google-image" (slice (.Param "icon") (.Param "image") ) }}
 {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
-{{ if fileExists (printf "static/%s" $imageJPG) }}
+{{ if fileExists (printf "assets/%s" $imageJPG) }}
     {{ $.Scratch.Add "google-image" $imageJPG }}
 {{ end }}
 {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
-{{ if fileExists (printf "static/%s" $imagePNG) }}
+{{ if fileExists (printf "assets/%s" $imagePNG) }}
     {{ $.Scratch.Add "google-image" $imagePNG }}
 {{ end }}
 {{ $image500 := printf "images/candidates/%s-500.jpg" .Page.File.BaseFileName }}
-{{ if fileExists (printf "static/%s" $image500) }}
+{{ if fileExists (printf "assets/%s" $image500) }}
     {{ $.Scratch.Add "google-image" $image500 }}
 {{ end }}
 {{ $icon := resources.Get "/images/icon.png" | fingerprint }}

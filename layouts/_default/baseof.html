@@ -28,12 +28,12 @@
   {{ $imageFB := .Param "icon" }}
   {{ $imageTW := .Param "image" }}
   {{ $imageJPG := printf "images/candidates/%s.jpg" .Page.File.BaseFileName }}
-  {{ if fileExists (printf "static/%s" $imageJPG) }}
+  {{ if fileExists (printf "assets/%s" $imageJPG) }}
       {{ $imageFB = $imageJPG }}
       {{ $imageTW = $imageJPG }}
   {{ end }}
   {{ $imagePNG := printf "images/candidates/%s.png" .Page.File.BaseFileName }}
-  {{ if fileExists (printf "static/%s" $imagePNG) }}
+  {{ if fileExists (printf "assets/%s" $imagePNG) }}
       {{ $imageFB = $imagePNG }}
       {{ $imageTW = $imagePNG }}
   {{ end }}
