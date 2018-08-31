@@ -5,8 +5,9 @@ set -eux -o pipefail
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 cd "$SCRIPT_DIR"
 
-docker build -f test.Dockerfile -t voter-guide-2018-tester .
+docker build -f dockerfiles/base.Dockerfile -t voter-guide-2018:base .
+docker build -f dockerfiles/test.Dockerfile -t voter-guide-2018:tester .
 docker run \
     -t \
     --rm \
-    voter-guide-2018-tester
+    voter-guide-2018:tester
