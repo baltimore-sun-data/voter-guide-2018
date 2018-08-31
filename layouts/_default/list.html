@@ -27,12 +27,16 @@
     <ul class="dropdown-menu">
      <!-- choose race district -->
      {{ range .CurrentSection.Pages.GroupByParam "party" }}
-     <li class="js-filter-party" data-party-toggle="{{ .Key | pluralize }}">
-      {{ .Key | pluralize }}
+     <li>
+      <a class="js-filter-party dropdown-item" data-party-toggle="{{ .Key | pluralize }}" href="#">
+       {{ .Key | pluralize }}
+      </a>
      </li>
      {{ end }}
-     <li class="js-filter-party" data-party-toggle="all">
-      See all
+     <li>
+      <a class="js-filter-party dropdown-item" data-party-toggle="all" href="#">
+       See all
+      </a>
      </li>
     </ul>
    </div>
