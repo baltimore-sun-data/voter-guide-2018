@@ -1,5 +1,6 @@
 .git
 data/assets.json
+dist
 node_modules
 public
 vendor
