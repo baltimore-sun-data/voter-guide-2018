@@ -10,7 +10,7 @@ languageCode = "en-us"
 layoutDir = "layouts"
 publishDir = "public"
 title = "Baltimore Sun Election Guide 2018"
-staticDir = ["static", "dist"]
+staticDir = "static"
 
 [Params]
 share-text = "Learn more about the upcoming election in the Baltimore Sun’s 2018 Maryland Voter Guide"

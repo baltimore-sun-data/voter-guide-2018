@@ -3,6 +3,5 @@
 node_modules
 public
 csv
-dist
 vendor
 resources
