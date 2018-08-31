@@ -5,10 +5,11 @@ set -eux -o pipefail
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 cd "$SCRIPT_DIR"
 
-docker build . -t voter-guide-2018-deployer
+docker build -f dockerfiles/base.Dockerfile -t voter-guide-2018:base .
+docker build -f dockerfiles/deploy.Dockerfile -t voter-guide-2018:deployer .
 docker run \
     -t \
     --rm \
     -e AWS_ACCESS_KEY_ID \
     -e AWS_SECRET_ACCESS_KEY \
-    voter-guide-2018-deployer
+    voter-guide-2018:deployer
