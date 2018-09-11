@@ -24,7 +24,7 @@
     {
       "question": "Do you support or oppose the federal tax cuts passed in 2017? What effect do you believe they will have on the economy?",
       "answer": "I strongly support the federal tax cuts and overall tax reform measures of 2017.   The tax cuts will allow the free market to boom in coming years.",
-      "shortname": "2069 Tax cuts"
+      "shortname": "2017 Tax cuts"
     },
     {
       "question": "Is the level of national debt a concern? What, if anything, should be done to reduce it or constrain its increase?",
