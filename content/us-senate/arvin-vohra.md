@@ -9,7 +9,6 @@
   "race": "us-senate",
   "social-fb": "vohraeducation",
   "social-tw": "votevohra",
-  "survey-response": false,
   "title": "Arvin Vohra",
   "web": "http://www.votevohra.com"
 }

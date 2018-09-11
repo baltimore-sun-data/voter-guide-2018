@@ -78,7 +78,7 @@
   "residence": "Arnold",
   "social-fb": "DaveBishopforCongress",
   "social-tw": "Bishop4House",
-  "survey-response": "LATE SUB",
+  "survey-response": true,
   "title": "Dave Bishop",
   "web": "http://www.bishop4congress.com"
 }

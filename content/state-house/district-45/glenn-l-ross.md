@@ -1,39 +1,83 @@
 {
+  "age": 68,
+  "background": "I have been a community leader of some sort or another in East Baltimore for over 40 years.  I served as President of the McElderry Park Community Association for a total of seven terms. Under my leadership, the association was awarded nearly a million dollars from Obama's Department of Justice. These funds were used to create job-training programs and other community-support programs to help the neediest people in the community.  I also directed CPHA's (Citizens Planning and Housing Association's) Neighborhood Resource Bank. During this time the program was successful enough to be expanded and become the Resource Bank of Maryland, a state-wide program.  While serving on the board of SECO (Southeast Community Organization) as vice-president, I created the Southeast Stakeholders Coalition that included all of the neighborhood associations and other community stakeholders in Southeast Baltimore  I have also worked for several mayors and city council members, getting firsthand experience with the good and the bad of our political system. I currently serve as an advocate of the community to Johns Hopkins Medical Center. I also am the director of the Urban Environmental Toxic Tour, where I give educational tours of the environmental racism and industrial contamination of Baltimore to groups from around the country.",
   "directory": "content/state-house/district-45",
   "district": 45,
+  "dob": "12/23/1949",
+  "education": "Graduated from Northern Senior High School in 1969. Attended Community College of Baltimore.",
   "filename": "glenn-l-ross.md",
   "full-name": "Glenn L. Ross",
   "general-only": true,
+  "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/168-dcf45f027ea5f414755f1650da4a97f6_gr_portrait.JPG",
   "jurisdiction": "Baltimore City",
   "last-name": "Ross",
   "party": "Green",
-  "q1": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
-  "q10": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
-  "q11": "What if anything should the state do to address income inequality?",
-  "q12": "Do the state’s Public Information Act and open meetings laws adequately ensure Marylanders’ ability to exercise oversight of the government?",
-  "q2": "Is Maryland’s transportation spending appropriately balanced between roads and transit? Does the state have the resources to meet its transportation needs? With the cancellation of the Red Line and the advent of BaltimoreLink, is the Baltimore region adequately served by transit?",
-  "q3": "Do you support the legalization of recreational marijuana?",
-  "q4": "At a time when the federal government’s commitment to Chesapeake Bay restoration is questionable, what new steps should Maryland take to protect this resource?",
-  "q5": "What steps should Maryland take to ensure the broadest possible access to affordable health care?",
-  "q6": "What role should the state play in helping Baltimore address violent crime?",
-  "q7": "How would you characterize Maryland’s business climate? What can the state do to foster the creation of more family-supporting jobs?",
-  "q8": "Do you support the creation of a non-partisan, independent body to draw legislative and congressional district maps after each census?",
-  "q9": "Does the Law Enforcement Officers Bill of Rights adequately balance protections for police and the public? Should it be changed, and if so, how?",
+  "questions": [
+    {
+      "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
+      "answer": "The preliminary findings of the commission make clear and unmistakable what we already know: that our schools are woefully underfunded for achieving excellence. Sadly, in Baltimore our schools are struggling to achieve even bare adequacy, let alone to excel.   1) There are promises already made that have not been kept which would help us achieve this baseline of success. We need to reclaim the casino income that was supposed to be earmarked for education but got diverted through budgetary trickery and ensure that future incomes are protected from similar maneuvers.   2) We also need to stop spending our public tax dollars on subsidizing private education while our public schools are in this condition.   3) Achieving higher levels of success in accordance with the commission's goals will require new incomes and re-prioritizing what we spend from our current budget. Education should be the primary focus of funding acquired from increased taxes on the extremely wealthy.   4) We should also redress how previous funding formulas have favored wealthier schools by adjusting our future formulas to achieve equity, and I hope the final report of the commission will include actionable recommendations along these lines.",
+      "shortname": "Kirwan"
+    },
+    {
+      "question": "Is Maryland’s transportation spending appropriately balanced between roads and transit? Does the state have the resources to meet its transportation needs? With the cancellation of the Red Line and the advent of BaltimoreLink, is the Baltimore region adequately served by transit?",
+      "answer": "Funding is currently disproportionately aimed towards roads, including massive spending on \"luxury lane\" toll highways for the affluent, stifling the state's ability to invest in other modes of transportation. Buses are late and often infrequent, and the Metro's single line is so underfunded it was actually unsafe.   1) We need to redirect this road and highway funding towards public transit for those who rely upon it, especially in Baltimore where many people don't own a car and face burdensome commutes  every day.   2) Modest measures like the Baltimore Link have failed to fix the massive shortcomings. We need to build the Red Line and improve our bus and bicycle infrastructure to achieve transit equity. Access to transit means access to jobs, housing, and public resource centers that are needed if we are serious about providing our citizens security and equal opportunities.  3) The status quo of catering heavily to suburban drivers also has a direct impact on the economic productivity of our entire metropolitan area. Baltimore would be more appealing to major employers if the core of our region was easily reached by their workers. The inaccessibility of the urban center encourages suburban sprawl and a shift of economic activity to outlying counties, or to other cities with better transit like Washington.  4) Across our small, dense state, we also need to develop mass transportation connectivity between the 1-95 corridor and places like Frederick, Hagerstown, and the Eastern Shore to tie them into the economic opportunities of the greater region.",
+      "shortname": "Transportation"
+    },
+    {
+      "question": "Do you support the legalization of recreational marijuana?",
+      "answer": "At this point, the eventual legalization of marijuana is essentially guaranteed, and we need to be figuring out how to ensure that this change is implemented for maximum benefit to our communities.   1) We do not need a legalization model where a small number of politically-connected millionaires are licensed to reap massive profits in a economic sector that countless citizens have had their lives uprooted for participating in. We should be developing a marijuana market that people who previously were involved in illegally can now do so legally and use it to build opportunity for themselves and their communities. We need to expunge non-violent cannabis-related crimes from people's records so it no longer harms their ability to secure employment, scholarships, public benefits, or other services that have restrictions tied to criminal charges.   2) Since it is also inevitable that the state will seek to gain revenues from taxing the marijuana industry, it is crucial that we ensure that the proceeds of those taxes are used to invest in communities that have been disproportionately harmed by the failed war on drugs.   3) Citizens of legal age should be free to possess, consume, trade, and cultivate marijuana responsibly with sensible regulations that protect fellow citizens from being harmed by things like impaired driving or toxic additives to marijuana products.",
+      "shortname": "Marijuana"
+    },
+    {
+      "question": "At a time when the federal government’s commitment to Chesapeake Bay restoration is questionable, what new steps should Maryland take to protect this resource?",
+      "answer": "1) We need a zero tolerance policy for hazardous materials discharged into our waterways. The Baltimore region is rife with active polluters and industrial  legacy waste that goes untreated and finds its way into the Chesapeake Bay, passing through our soil, plant life, and sometimes our bodies on the way. We need to fund a more robust enforcement system for existing laws to protect both the environment and our public health.  2) I have spent much of my career documenting this environmental degradation and seeking for ways to reverse it. The state has long neglected to pursue existing opportunities for federal brownfield remediation funds. We should apply for these funds and use them to hire Baltimore residents and businesses to clean our toxic environment  3) We should commit fully to rapidly meeting the requirements of the federal consent decree around Baltimore's sewage discharge.   4) The largest long-term threat to the Chesapeake Bay is climate change. Changing water levels and water temperatures will have a drastic impact on life in and around the Bay. There are many reasons we need to shift to a foundation of renewable energy, but the condition of our Bay hits especially close to home. I join my fellow members of the Green Party in calling for a 100% transition to renewable energy by 2050. I recognize the magnitude of this shift and the political challenges of achieving it, but I also recognize the urgency of the climate crisis.",
+      "shortname": "Chesapeake Bay"
+    },
+    {
+      "question": "What steps should Maryland take to ensure the broadest possible access to affordable health care?",
+      "answer": "1) Private insurance companies are an unnecessary intermediary that drive up the cost of healthcare by entangling themselves in the heart of our healthcare system and using that position for profit. While federal law constrains our options in regulating the healthcare market, we can remove private companies from Maryland's administration of Medicaid.  2) Establish a network of community health clinics in poor, underserved areas around the state. Timely, easily available intervention on common, low-level health issues has an incredible preventative effect on future high-cost health problems.  3) Work with the federal government and other states to reduce the prices of prescription drugs for seniors and people with disabilities  4) Undertake efforts to remediate or reduce existing health hazards such as industrial waste, vehicle emissions, water contaminants, and food deserts that lead to chronic health conditions",
+      "shortname": "Health Care"
+    },
+    {
+      "question": "What role should the state play in helping Baltimore address violent crime?",
+      "answer": "The most important thing the state can do to address violent crime in Baltimore is to provide the resources needed to combat the root causes of violence, namely lack of economic opportunity, poor education, and paltry services for people in mental or financial distress.   1) Instead of reinforcing the oppressive police state, we should be reinforcing the efforts of community leaders who are developing successful pathways to violence reduction.   2) We should increase funding for mental health and mediation programs to address cyclical patterns of violence and trauma. This includes the need for more counselors and social workers directly involved with at-risk youth at public schools  3) Increase funding for drug rehabilitation programs to reduce the demand for the black market trade fueling much of the violence.",
+      "shortname": "Crime"
+    },
+    {
+      "question": "How would you characterize Maryland’s business climate? What can the state do to foster the creation of more family-supporting jobs?",
+      "answer": "Maryland is one of the wealthiest states in the nation, and certain parts are experiencing impressive growth, but the pervasive poverty of Baltimore and rural Maryland show that something is very, very wrong.   1) To create more family-supporting jobs the first thing we should do is ensure that a full-time job can actually support a family. Increasing the minimum wage is a first step to ensuring that individuals can at least provide for themselves.   2) We can provide tax relief and incentives to co-operatives and worker-owned businesses so that more workers are able to participate in this equitable and productive form of enterprise, and so that new small businesses are easier to start. We can also ease the running of such businesses by streamlining new laws and regulations where rules designed for single-proprietor or corporate businesses are impractical.  3) We can make use of Maryland's geography and Baltimore's industrial infrastructure to make the state a leader in the renewable energy industry. Most other states are neglecting this opportunity, and it is Chinese manufacturers who are currently on course to gain dominance in the green energy market. We should incentivize the establishment of green industry and technology hubs in the state that will provide high-paying skilled jobs to both blue-collar and white-collar workers.",
+      "shortname": "Business Climate"
+    },
+    {
+      "question": "Do you support the creation of a non-partisan, independent body to draw legislative and congressional district maps after each census?",
+      "answer": "Yes. Our democracy cannot function properly when politicians have the power to draw absurd boundaries for their own convenience with little regard for the existing bonds between actual towns and neighborhoods. There are places in Northeast Baltimore where people on the same block of the same street have three different congressmen! It is no surprise in a context like this that people have little connection to their elected representatives. We absolutely must empower an independent commission to draw these boundaries sensibly and fairly.",
+      "shortname": "Redistricting"
+    },
+    {
+      "question": "Does the Law Enforcement Officers Bill of Rights adequately balance protections for police and the public? Should it be changed, and if so, how?",
+      "answer": "The Law Enforcement Officers Bill of Rights is one of the most grossly regressive, police-protecting laws in the country. As currently standing it serves as a toolbox for bad cops to escape scrutiny for their misdeeds.   1) Police officers should not have over a week to prepare stories before they are compelled to speak to investigators. They have a right to legal counsel and due process, but giving them and their attorneys 10 days to coordinate with other officers who provide witness testimony and may be accused themselves is absurd.  2) We also cannot ignore the obvious conflict of interests produced by having officers' disciplinary issues decided mostly by their colleagues and friends within the very institutions that have proven so resistant to oversight and reform. There can be no meaningful improvement in our policing without civilian oversight that is empowered to enact disciplinary measures and initiate deeper investigations. Police officers deserve a seat at the table to bring their unique perspective to the process, but they should not be allowed to dominate it.  3) We should extend the period of time that citizens are given to file a complaint of police misconduct after an incident. In cases involving physical harm or sexual harassment that may take the victim a long time to be ready to come forwards, this deadline should extend indefinitely.  4) Failure to comply with laws and regulations designed to increase accountability, such as improper use of body-worn cameras, should be a serious disciplinary offense.",
+      "shortname": "LEOBR"
+    },
+    {
+      "question": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
+      "answer": "The solution to addiction is not incarceration. We need to address this public health crisis through a strategy of harm reduction that focuses on rehabilitating addicts rather than punishing them.   1) Increase funding for rehabilitation clinics and distribute life-saving anti-overdose drugs such as naloxone to family and friends of addicts.  2) Revise sentencing for possession of small amounts of scheduled narcotics so that addicts do not suffer the additional burdens of incarceration, loss of employment, expulsion from educational institutions, and other barriers to successful recovery.  3) Provide supervised but supportive work programs for long-term addicts who are preparing to reintegrate into society.",
+      "shortname": "Opioids"
+    },
+    {
+      "question": "What if anything should the state do to address income inequality?",
+      "answer": "1) The state legislature should pass an increased minimum wage law immediately. $15 per hour in several years' time simply isn't good enough. We need the $15 wage NOW, with future increases tied to the rising cost of living.  2) Our proposed Millionaire's Tax is explicitly designed to take the wealth our richest citizens extract for their sole benefit and put it to the public benefit, providing a higher standard of public education and other services to a broad majority of our society. This especially will have a long-term impact on the future earnings of today's young people.  3) Prohibit employers from asking about the salary history of new hires. This bad practice has the effect of ensuring that lower-earning workers continue to earn lower salaries.  4) Reduce the burden of rent by taxing landlords on long-term rental vacancies, which will incentivize them to seek new tenants at affordable rates rather than holding empty properties in hopes of future gentrification or distant redevelopment opportunities.  6) The state should pass strict regulation on \"freelance\"-employing companies such as Uber to ensure that their workers earn a real living wage for their labor.",
+      "shortname": "Income inequality"
+    },
+    {
+      "question": "Do the state’s Public Information Act and open meetings laws adequately ensure Marylanders’ ability to exercise oversight of the government?",
+      "answer": "No they do not. Our open meetings are often legally-required formalities arranged to avoid engagement with the public rather than encourage it. Active participation in governmental life is extremely difficult for the average citizen who has other demands on their schedule and little expertise on how to seek information on important issues that will affect them at even the most local level.  1) Important meetings on matters of wide public concern such as large new expenditures, or projects that will impact the entire community should be required to be scheduled and communicated in ways that maximize public oversight.  2) State and local bodies should invest in 21st-century technologies such as livesteaming, better search tools, modern web design and other digital infrastructure that brings government to the standard of information providing services we have come to expect from so many other aspects of our lives.  3) We should amend the Public Information Act to streamline the process for waiving fees for low-income individuals seeking public records, and  entirely eliminate by statute fees for types of information likely to be frequently requested by private citizens.",
+      "shortname": "Transparency"
+    }
+  ],
   "race": "state-house",
-  "sn1": "Kirwan",
-  "sn10": "Opioids",
-  "sn11": "Income inequality",
-  "sn12": "Transparency",
-  "sn2": "Transportation",
-  "sn3": "Marijuana",
-  "sn4": "Chesapeake Bay",
-  "sn5": "Health Care",
-  "sn6": "Crime",
-  "sn7": "Business Climate",
-  "sn8": "Redistricting",
-  "sn9": "LEOBR",
+  "residence": "Baltimore",
   "social-fb": "GlennRossForBaltimore",
-  "survey-response": false,
+  "survey-response": true,
   "title": "Glenn L. Ross",
   "web": "http://www.glennrossforbaltimore.com"
 }

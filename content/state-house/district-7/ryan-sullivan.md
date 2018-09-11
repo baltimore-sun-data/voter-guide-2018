@@ -33,6 +33,6 @@
   "sn8": "Redistricting",
   "sn9": "LEOBR",
   "social-fb": "ryansullivanforstatedelegatemd7th",
-  "survey-response": false,
+  "survey-response": "No",
   "title": "Ryan Sullivan"
 }

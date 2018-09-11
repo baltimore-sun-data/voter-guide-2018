@@ -1,40 +1,84 @@
 {
+  "age": 42,
+  "background": "I coached high school, college and middle school debate from 1996-2008. I also have worked with youth development programs throughout Baltimore City including programs focused on debate, youth entrepreneurship, advocacy, and artistic expression. I currently work as project manager and data analyst for a Columbia MD based market research company.",
   "directory": "content/state-house/district-45",
   "district": 45,
+  "dob": "7/28/1976",
+  "education": "I attended St.Mary's College and Towson University.",
   "filename": "steven-andy-ellis.md",
   "full-name": "Steven \"Andy\" Ellis",
   "general-only": true,
+  "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/168-fff5c7535e41cf4533673ebea2d8bd53_Album71.jpg",
   "jurisdiction": "Baltimore City",
   "last-name": "Ellis",
   "party": "Green",
-  "q1": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
-  "q10": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
-  "q11": "What if anything should the state do to address income inequality?",
-  "q12": "Do the state’s Public Information Act and open meetings laws adequately ensure Marylanders’ ability to exercise oversight of the government?",
-  "q2": "Is Maryland’s transportation spending appropriately balanced between roads and transit? Does the state have the resources to meet its transportation needs? With the cancellation of the Red Line and the advent of BaltimoreLink, is the Baltimore region adequately served by transit?",
-  "q3": "Do you support the legalization of recreational marijuana?",
-  "q4": "At a time when the federal government’s commitment to Chesapeake Bay restoration is questionable, what new steps should Maryland take to protect this resource?",
-  "q5": "What steps should Maryland take to ensure the broadest possible access to affordable health care?",
-  "q6": "What role should the state play in helping Baltimore address violent crime?",
-  "q7": "How would you characterize Maryland’s business climate? What can the state do to foster the creation of more family-supporting jobs?",
-  "q8": "Do you support the creation of a non-partisan, independent body to draw legislative and congressional district maps after each census?",
-  "q9": "Does the Law Enforcement Officers Bill of Rights adequately balance protections for police and the public? Should it be changed, and if so, how?",
+  "questions": [
+    {
+      "question": "Do you support the findings of the Commission on Innovation and Excellence in Education? Are you committed to funding associated reforms, and if so, how?",
+      "answer": "I believe that we have an obligation outlined in the Maryland Constitution to provide for a thorough and efficient system of public schools.Thus, I support the emphasis on the 5 areas and the 9 building blocks outlined in the initial report.   In order to meet those those recommendations I think that school systems that have been underfunded need to be made whole AND THEN receive the additional funding that the final recommendations will require. I also think it is essential that implementation of a new funding formula looks at the effects of concentrated and inter-generational poverty AND the lasting implications of systemic racism.  To fund this we need to  1)Ensure that all public education dollars go to public schools  2)Reinstate the Millionaire Tax  3)Put casino and sports betting revenue in a lock box and replace the money that should have been in that lock box the previous times voters approved it   4)Decrease incarceration, we spend an average of $40K per year per  inmate in a state correctional facility.  5)Consider a tax on persons and businesses that extract wealth from Maryland 6)Increase taxes on residents and residents and businesses  of wealthy school districts that have benefited from the inequity of our current funding formula",
+      "shortname": "Kirwan"
+    },
+    {
+      "question": "Is Maryland’s transportation spending appropriately balanced between roads and transit? Does the state have the resources to meet its transportation needs? With the cancellation of the Red Line and the advent of BaltimoreLink, is the Baltimore region adequately served by transit?",
+      "answer": "No, the Baltimore Region is not adequately served by transit. The Central Maryland Transportation Alliance found that the Baltimore Link did not result in an increase in access to jobs, nor did it result in increased access to designated Maryland Employment Centers. Transit times, especially for low wage workers are still among the longest in the state and there is no evidence that new employment opportunities have developed along adjusted lines.   The state is overly focused on road building for low density rural and exurban areas, including luxury lanes that only serve the wealthiest commuters in the state. Rail options are sorely lacking in Baltimore City, Southern Maryland, and from the expanding communities going toward Frederick.  The cancelation of the Redline,shocking safety issues surrounding the Metro and manufactured controversies in surrounding counties seeking to limit transit and employment options  of Baltimore City residents, show that Baltimore is not adequately served by transit. This has perpetuated a transit system in Baltimore City that is significantly more poor, more likely to face a disability, and more black and brown than the communities it serves  The General Assembly needs to 1)redirect luxury lane and highway expansion monies toward rail, bus, and bike infrastructure.  2)create a series of regional transit authorities which can raise funds, coordinate between jurisdictions and elect commissioners with the purpose of creating efficient and dependable regional transit networks.. 3)Mandate transit based connectivity to designated Maryland Employment centers and educational facilities 4)Improve data transparency and openness.",
+      "shortname": "Transportation"
+    },
+    {
+      "question": "Do you support the legalization of recreational marijuana?",
+      "answer": "I think it is inevitable that Maryland will legalize, tax and regulate recreational cannabis. I support this, but with some significant caveats.  1)The tax revenue should be heavily invested in capacity and institution building for the communities and people most directly affected by the war on weed. Much damage has been done to many communities as a result of the criminalization of Marijuana. The over policing and mass incarceration that has resulted has destroyed the community based institutions that help create economic self sufficiency and resilience . Racial equity demands that these communities get an amount of the tax revenue proportionate to the impact criminalization has had on them, and that the funds be in the control of the community. Simply including these targeted communities in a pool of services funded by tax revenue is not enough. We must invest the revenue in rebuilding the capacity that has been destroyed.  2)People who are incarcerated for nonviolent marijuana possession or use based charges AND/OR probation, parole or pretrial violations should be released from their sentence.   3)Other laws and regulations relating to probation, pretrial, parole, education, and housing need to be brought in accordance with new consumption and possession laws.  4)When possible there should be a pathway to legalization for people currently involved in the cannabis trade.",
+      "shortname": "Marijuana"
+    },
+    {
+      "question": "At a time when the federal government’s commitment to Chesapeake Bay restoration is questionable, what new steps should Maryland take to protect this resource?",
+      "answer": "1)Maryland needs to plan a transition to 100% renewable electricity generation by 2050 so that we can move away from a fossil fuel infrastructure.   2)Maryland and Baltimore City need to fully invest in remedying the sewage overflows into our watersheds and make sure that are no further delays in implementing the provisions of the federal consent decree.   3)Continue to push legislation to ban foam food containers throughout Maryland. The bill passed the senate last year but died in the house. We must continue pushing.   4)Understand the environmental risk  of Concentrated Animal Feeding Operations  and then use that data to regulate and then eventually phase out these \"factory farms\"  5) Push our congressional delegations to end all dumping and burning of hazardous military  waste  at the Indian Head Naval Surface Warfare Center, and to fully fund remediation of  previous dumping. The same applies to the Naval Air Station-Patuxent River.  6)Ban on fracking infrastructure-we must extend the ban on fracking to a ban on fracking infrastructure, which includes a prohibition on any new fracked natural gas pipelines.   7)Better protection of priority forests.  8)A Green New Deal for Baltimore which trains people and puts them  to work remediating and repairing the environmental damage and decay in many neighborhoods.",
+      "shortname": "Chesapeake Bay"
+    },
+    {
+      "question": "What steps should Maryland take to ensure the broadest possible access to affordable health care?",
+      "answer": "1)Remove insurance companies from the administration of medicaid. this model has been effective in reducing overhead costs in Connecticut and Oklahoma. 2)Medicaid reimbursement for clinical services provided by  Community Health Workers 3)Create community health clinics to provide services in the most underfunded and poor health zipcodes 4)Expanded support and funding for county and municipal governments seeking to implement \"Health in All Policy\" approaches.  5)Find a permanent solution to lower prescription costs for seniors.  6)Education and outreach to communities that have high instances of health problems but may not be involved in or utilizing public health opportunities.  7)Demand that our congressional delegation sign on and support National Improved and Expanded Medicare for All (National Single Payer)",
+      "shortname": "Health Care"
+    },
+    {
+      "question": "What role should the state play in helping Baltimore address violent crime?",
+      "answer": "The state should invest in an expansion of the existing YouthWorks program so that every young person who wants a job can have a guarantee of a job. This funding should include an element dedicated to investment in youth led and cooperative businesses so that community based economic engines can emerge.  The state should invest in job training, certification, and bonding for people returning from incarceration or still under supervision of the criminal justice system so that the lack of  good job is not a reason for people to turn back to crime.   The second major role that the state can play is working to end the criminalization of poverty by removing criminal penalties for civil infractions, Bringing people into the criminal justice system for crimes based in poverty creates a vicious cycle, that prevents access to many of the economic opportunities that do exist. This includes automatic expungement of all expungeable charges at the earliest possible date.   Furthermore the State should expand funding for alternatives to policing so that the police are not the only option for every situation. Expanded use of social workers, medical and mental health professionals, and community based mediation resources are needed to ensure that our only option is not to call a police force under a federal consent decree.   Finally the state needs to help restore citizen trust in the Baltimore Police Department by ensuring civilian and community participation of disciplinary processes and audits.",
+      "shortname": "Crime"
+    },
+    {
+      "question": "How would you characterize Maryland’s business climate? What can the state do to foster the creation of more family-supporting jobs?",
+      "answer": "The first step to creating more family supporting jobs is to raise the minimum wage, and to do it now. $15 an hour is the absolute floor of were the wage should be and we need to continue to raise that floor to keep up with the cost of living, and so that people working full time jobs can afford the basic necessities.   Second we need to remove barriers to middle class jobs by aggressively expanding expungement by a)automatically expunging any charge that is expungeable including all non convictions b)expunging non-violent felonies no later than  3-5 years after the end of the sentence  Third we need to expand access to startup capital for small community based businesses by chartering a Maryland Public Bank and prioritizing lending to people and places that have been underserved by corporate banks and by emphasizing worker ownership when possible.   Fourth we need to increase access to adult and continuing education programs so that they are not just open to recent graduates, but to anyone who otherwise qualifies.  Fifth, we need to ensure that equitable and affordable auto-insurance is available to all drivers by removing non-driving factors (like gender and education) from auto-insurance rates and by creating a low-income driver insurance program   Finally we need to invest heavily in a transition to Green Energy jobs so that Maryland can be a hub of renewable energy manufacturing.",
+      "shortname": "Business Climate"
+    },
+    {
+      "question": "Do you support the creation of a non-partisan, independent body to draw legislative and congressional district maps after each census?",
+      "answer": "Absolutely. As long as redistricting is the spoils of partisan political victories, some voters will be badly served. That being said, an Independent Commission alone cannot guarantee minority participation, broad  representation, partisan parity, or competitive elections.   An independent commission is better than a partisan process and should strive to  1)Ensure public participation and transparency in the process 2)Comply with the voting rights act by empowering minority populations to elect representatives  3)Draw boundries that are  compact, contiguous, and consistent with existing community boundaries. 4)Act free of political influence by the Legislative and Executive Branch.  Beyond independent commissions we need to change the voting processes to better represent districts. This includes an expansion of multi member-districts, proportional representation, taxpayer funded primaries for non-principal parties, and mail in ballots.",
+      "shortname": "Redistricting"
+    },
+    {
+      "question": "Does the Law Enforcement Officers Bill of Rights adequately balance protections for police and the public? Should it be changed, and if so, how?",
+      "answer": "No, the current Law Enforcement Officers Bill of Rights extends protections to the police which prevent transparency and erode public trust. We need a wide ranging reform of policing in Maryland, which increases civilian involvement and control over disciplinary processes. Specifically and immediately  the following reforms must be made: 1)Empower civilian review boards with expanded and enforceable power to investigate police misconduct. 2)Civilians  must have real and meaningful roles on police disciplinary boards. 3)Police disciplinary records must be available for pubic review. 4)Increasing the time civilians have to make complaints about police misconduct. 5)Decreasing the amount of time officers have before making a statement so that it is more in line with other public sector union employees.  6)Making results sof internal investigations discoverable.",
+      "shortname": "LEOBR"
+    },
+    {
+      "question": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
+      "answer": "We must adopt a harm reduction public health based approach which treats opioid addiction as a health issue instead of as a police and criminal justice issue. This includes expansion of evidence based approaches to drug treatment such as overdose response training, safer injection sites, needle exchanges.   We must also expand medicaid coverage of hepatitis c and HIV medications.   \"Housing first\" and \"Health in all policy\" frameworks must also be adopted so root causes of addiction can be addressed first.  Finally there is substantial proof that marijuana legalization drives down opioid use. Maryland should move in that direction and should also decriminalize all drug use.",
+      "shortname": "Opioids"
+    },
+    {
+      "question": "What if anything should the state do to address income inequality?",
+      "answer": "1)Re-institute a millionaires tax 2)Reduce the sales tax 3)Increase the minimum wage 4)Prevent salary history from being part of salary determination for a new job 5)Further Expand the child care subsidy for low and moderate income families 6)Reform the tax code to remove special tax breaks that favor large corporations over small businesses, and create exemptions that only protect the wealthiest Marylanders.  7)Further expand the Earned Income Tax Credit  8)Constitutional Amendment requiring tax equity    At the end of the day there are many things we can do to address income inequality in this state because our tax-laws, wage requirements, and budgeting priorities favor wealthy people and businesses as the expense of poor, working and middle class people. We must also address and remedy the racialized implications of our current tax code in which African American and Hispanic Marylanders are more likely to be in a tax bracket that pays a higher portion of their earnings that white Marylanders. While we have made some progress on this in recent years there is still a long way to go.",
+      "shortname": "Income inequality"
+    },
+    {
+      "question": "Do the state’s Public Information Act and open meetings laws adequately ensure Marylanders’ ability to exercise oversight of the government?",
+      "answer": "No, too often the meetings that most need to be open are not because of either flaunting of the law, utilization of loopholes, or difficult to pin down public private partnerships. More transparency and more participation is an essential element of a functioning people powered democracy.",
+      "shortname": "Transparency"
+    }
+  ],
   "race": "state-house",
-  "sn1": "Kirwan",
-  "sn10": "Opioids",
-  "sn11": "Income inequality",
-  "sn12": "Transparency",
-  "sn2": "Transportation",
-  "sn3": "Marijuana",
-  "sn4": "Chesapeake Bay",
-  "sn5": "Health Care",
-  "sn6": "Crime",
-  "sn7": "Business Climate",
-  "sn8": "Redistricting",
-  "sn9": "LEOBR",
+  "residence": "Baltimore",
   "social-fb": "andyellisfor45",
   "social-tw": "bmoreconnected",
-  "survey-response": false,
+  "survey-response": true,
   "title": "Steven \"Andy\" Ellis",
   "web": "http://www.andyellisforbaltimore.com"
 }

@@ -78,7 +78,7 @@
   "residence": "Elkton",
   "social-fb": "martin4congress",
   "social-tw": "martin4maryland",
-  "survey-response": "LATE SUB",
+  "survey-response": true,
   "title": "Jenica Martin",
   "web": "http://www.martin4congress.us"
 }
