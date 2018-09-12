@@ -21,7 +21,7 @@
     {
       "question": "Do you support or oppose the federal tax cuts passed in 2017? What effect do you believe they will have on the economy?",
       "answer": "I oppose the cuts because they were too small and there was no spending cuts to go along with.",
-      "shortname": "2071 Tax cuts"
+      "shortname": "2017 Tax cuts"
     },
     {
       "question": "Is the level of national debt a concern? What, if anything, should be done to reduce it or constrain its increase?",
@@ -77,7 +77,7 @@
   "race": "us-house",
   "residence": "Sykesville",
   "social-tw": "jasenwunder",
-  "survey-response": "LATE SUB",
+  "survey-response": true,
   "title": "Jasen Wunder",
   "web": "http://www.jasenwunder.org"
 }

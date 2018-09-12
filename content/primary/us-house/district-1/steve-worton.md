@@ -24,7 +24,7 @@
     {
       "question": "Do you support or oppose the federal tax cuts passed in 2017? What effect do you believe they will have on the economy?",
       "answer": "No - the corporate tax and wealthy cuts were too large and have created major deficit issues which will decimate Medicare and Social Security if allowed to continue.",
-      "shortname": "2070 Tax cuts"
+      "shortname": "2017 Tax cuts"
     },
     {
       "question": "Is the level of national debt a concern? What, if anything, should be done to reduce it or constrain its increase?",

@@ -76,6 +76,6 @@
   ],
   "race": "us-house",
   "residence": "Columbia",
-  "survey-response": "LATE SUB",
+  "survey-response": true,
   "title": "David R. Griggs"
 }
