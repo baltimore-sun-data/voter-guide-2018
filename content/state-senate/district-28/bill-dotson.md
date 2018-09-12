@@ -32,6 +32,8 @@
   "sn7": "Business Climate",
   "sn8": "Redistricting",
   "sn9": "LEOBR",
+  "social-fb": "electbilldotson",
   "survey-response": false,
-  "title": "Bill Dotson"
+  "title": "Bill Dotson",
+  "web": "http://www.electbilldotson.com"
 }
