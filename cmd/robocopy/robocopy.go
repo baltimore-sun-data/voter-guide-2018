@@ -38,7 +38,7 @@ func main() {
 type Config struct {
 	Local            bool
 	DevServer        bool
-	CreateResults    bool
+	CreateContests   bool
 	MetadataLocation string
 	ResultsLocation  string
 	OutputDir        string
@@ -58,7 +58,7 @@ func FromArgs(args []string) *Config {
 	fl := flag.NewFlagSet("robocopy", flag.ExitOnError)
 	fl.BoolVar(&conf.Local, "local", false, "just save files locally")
 	fl.BoolVar(&conf.DevServer, "dev-server", false, "start a local development server")
-	fl.BoolVar(&conf.CreateResults, "results", false, "create results metadata file")
+	fl.BoolVar(&conf.CreateContests, "contests", false, "create contests metadata file")
 	fl.StringVar(&conf.MetadataLocation, "metadata-src", metadata18url, "url or filename for metadata")
 	fl.StringVar(&conf.ResultsLocation, "results-src", results18url, "url or filename for results")
 	fl.StringVar(&conf.OutputDir, "output-dir", "dist/results", "directory to save into")
@@ -106,8 +106,8 @@ func (c *Config) LocalExec() error {
 		return err
 	}
 
-	if c.CreateResults {
-		err = c.createJSON("results.json", m)
+	if c.CreateContests {
+		err = c.createJSON("contests.json", m)
 		if err != nil {
 			return fmt.Errorf("could not create results file: %v", err)
 		}
