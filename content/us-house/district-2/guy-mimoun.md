@@ -1,35 +1,80 @@
 {
+  "age": 47,
+  "background": "Most of my professional career has centered on Managment, specifically in Real Estate and Veterinary Medicine. I'm also a small business owner in selling Pet Products online at www.sneefers.com.",
   "directory": "content/us-house/district-2",
   "district": 2,
+  "dob": "11/23/1970",
+  "education": "I graduated with a degree in Communications from Hunter College. I also posses several certificates in Property Management, Urban Farming and on track for an additional certifacte in Accounting.",
   "filename": "guy-mimoun.md",
   "full-name": "Guy Mimoun",
   "general-only": true,
+  "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299807/225-29379b05e25eec02d96d91f646a8603e_Guillaume_Color_copy.jpeg",
+  "jurisdiction": "Baltimore County",
   "last-name": "Mimoun",
   "party": "Green",
-  "q1": "How do you assess the Trump administration so far?",
-  "q10": "Should the United States continue with the free trade policies it pursued for the last several decades, or should it enact restrictions in an attempt to help domestic industries?",
-  "q11": "Do you support the Iran nuclear deal?",
-  "q12": "How should the United States address the rise of North Korea’s nuclear program?",
-  "q2": "Do you support or oppose the federal tax cuts passed in 2017? What effect do you believe they will have on the economy?",
-  "q3": "Is the level of national debt a concern? What, if anything, should be done to reduce it or constrain its increase?",
-  "q4": "Is the level of economic inequality in the United States a problem, and if so, what should the federal government do to address it?",
-  "q5": "Should federal gun laws be changed, and if so, how?",
-  "q6": "What should Congress do with respect to the Affordable Care Act? Should it be strengthened, and if so, how? Should it be scrapped? If so, what if anything should replace it?",
-  "q7": "What role should the federal government play in helping cities like Baltimore?",
-  "q8": "What can Congress do to address the opioid epidemic?",
-  "q9": "What changes if any should Congress make to our immigration and deportation laws and policies?",
+  "questions": [
+    {
+      "question": "How do you assess the Trump administration so far?",
+      "answer": "That's a pretty loaded question and as much as I'm not a fan of Trump my disdain for him and past Presidents stretches as far back as Reagan.  During the past forty years, America's middle class has devolved transitioning away from being healthy and robust, able to save, invest, expense on leisure and recreation to living paycheck to paycheck with no job security along with the largest homeless and prison population. In his first four years of Reagan's tenure he syphoned $141 Billion from social programs simultaneously allocated $180 Billion to the Military while passing Tax cuts to the wealth estimated at $190 Billion. Despite is assurances he would balance the budget, the consensus among Economists reflected this was not going to happen but ever since this shift, the mismanagement of Government at the behest of democrats and republicans would continue to drift away from it's mandate from serving the public purpose to special interests. Cuts to public services continued under Clinton who gutted welfare which specifically targeted single mothers with dependent children but the dismantling of the New Deal didn't end there but expanded with Clinton deregulating the banks, the communications industry, overturning Citizens United  followed up by the Bush era where America went to war, passed the Patriot Act eroding our civil liberties, creating the surveillance state and more tax cuts. Obama suspended Habeas Corpus, Healthcare was sold to the Insurance Industry and wars expanded. Trump is just a continuation of the same corruption.",
+      "shortname": "Trump record"
+    },
+    {
+      "question": "Do you support or oppose the federal tax cuts passed in 2017? What effect do you believe they will have on the economy?",
+      "answer": "The recent round of Tax Cuts were allegedly going to increase wages up to $9,000 for the average worker but wages have remained relatively stagnant. In fact with the increase costs of living as seen in the rising prices of gasoline, food, prescription drug prices, and more, net income has actually decreased. If anything, the round of tax cuts made the 1% hoard even more wealth by creating tax loopholes in the already massively overinflated Real Estate industry, an industry that can claim fame to demanding more than 50% of worker incomes for housing and Big Pharma which is estimated to save roughly $76 Billion while layoffs in that sector rise along with prescription drug prices increasing. Basically the net benefit goes to the rich while the poor receive crumbs but this is nothing new, it's Special Interest business as usual mismanagement of Government run by a powerful minority who cares next to nothing about the majority! The tax cuts also enabled Corporations to institute stock buy backs, in other words rather than increase worker pay and create more jobs, companies are taking advantage of the $1.5 Trillion tax benefit to increase shareholder value! This conduct was fostered by an 80's era SEC rule 10b-18 allowing companies to allow buy back which was contradictory to the SEC act post Great Depression essentially making the agency a  promoter rather than a regulator of Wall Street. In essence, the tax cut has created profits without any real scope of prosperity.",
+      "shortname": "2017 Tax cuts"
+    },
+    {
+      "question": "Is the level of national debt a concern? What, if anything, should be done to reduce it or constrain its increase?",
+      "answer": "So let's be clear about one thing; American currency is monetarily sovereign. We don't borrow money from China nor future generations. As a net importer of goods, foreign nations receive payment in dollars. Money that they have no need to spend is typically invested into treasuries gaining interest no different than you and I gaining interest from money in a bank account. The deficit is simply the total amount of money sitting in accounts. Taking things a step further, taxes at the federal level do not fund anything. Federal tax remittances are simply deleted upon receipt which decrease the deficit and serve as a means to control inflation.  Article 1, Section 8, Clause 1 of the United States Constitution explicitly states how the spending power granted to Congress by the People to pay the debts of the United States, and to provide for the common defense and general welfare.  There never seems to be a shortage of money when it comes to spending on our military, on foreign aid, on bailing out banks and insurance companies or providing subsidies for corporations ranging anywhere from Big Pharma, Big Ag, Big Oil the Private Prison Industry and more but dare say deficit spend on the people, the general welfare as it were, all of a sudden money can't be found. Running up deficits isn't harmful so long as the dollars created reflect the resources and production capacity of a nation coupled with interests rates and taxes to control inflation.",
+      "shortname": "National debt"
+    },
+    {
+      "question": "Is the level of economic inequality in the United States a problem, and if so, what should the federal government do to address it?",
+      "answer": "There was a time when a high school diploma was adequate in securing a job, a job that would allow a single earner to afford a home and all the expenses required to maintain it and the needs of a family. The expense to income ratio was such that even after all bills were paid, any excess could put into savings which could then be used for a variety of things like opening up a small business, invest, travel, etc. The flow of that disposable income for the most part has all but disappeared over the past forty years as  have benefits and perks that typically come with full time employment. Compounding the cost of living which has atrociously increased with income failing keeping pace to match so began eroding the middle class and transitioning them into the working poor. This lead to people working more than one job to make ends meet. For families, having both parents work is very much the norm whereas two decades ago it wasn't which begs to question who is raising the kids, the housekeeper? Additionally, millennials are reported to be doing worse off than their parents to the point where having kids isn't really economically viable. Half a million people are homeless in America while 50% of the population lives on or below the poverty line. To be blunt unstable economics create unstable individuals and this instability fostered by artificial disparity is what is killing the American dream.",
+      "shortname": "Income inequality"
+    },
+    {
+      "question": "Should federal gun laws be changed, and if so, how?",
+      "answer": "I firmly believe in the validity of second amendment but hold steadfast to the notion that large caliber automatic military weaponry has no place in the hands of civilians nor the police. The gun show loophole must be closed and background checks must be universal along with a waiting period for any firearm. Federally funded studies need to be conducted on gun violence to deconstruct why gun violence is so rampant in America but if I had to take a guess, it mostly boils down to inequality. Artificial Disparity will make otherwise good people resort to criminality if necessary in order to survive. Create a society where people have equal access to education and healthcare, a soceity that cares for it's people rather than weaponize economics as a tool of attrition, prevent the boom and bust economic cycels, create a Federal Jobs Guaranteed ensuring anyone a job who wants one and perhaps gun violence might drop drastically.",
+      "shortname": "Gun laws"
+    },
+    {
+      "question": "What should Congress do with respect to the Affordable Care Act? Should it be strengthened, and if so, how? Should it be scrapped? If so, what if anything should replace it?",
+      "answer": "The Affordable Care Act, an oxymoron, was a plan that was conceived by a the Heritage foundation, a Republican think tank and backed by the private insurance industry. It was first implimented in the state of Massachuesstes but as States are not monetarilly soverign the plan failed as the rising costs of healthcare couldn't be covered by state taxe remittances, however, at the Federal level the plan could work as Congress isn't financially constrained and so the Democrats adopted it and while at first the plan seemed equitable, the rising cost in premiums and large deductible amounts made the program unsustainable for the public. In fact the leading cause of bankruptcy in America is resultant from medical expenses. Privatizing medical care has perverted medicine. It has turned patients into consumers. It has also enabled Doctors lured by profit to perform unecessary procedures. In fact, medical erros are the third leading cause of death in America with infant mortality not to far behind! Ideall, a public healthcare option is needed which is why I support Medicare For All. It will repalce the the Affordable Care Act but not necessarily displace private insurance. Private insurance should be an option but it shouldn't receive any subsidies in order to operate. Currently 20 cents of every dollar spent into the program goes directly to the insurance industry which is part of the reason why Insurance CEO's are make tens of millions in pay which is just a pervasion of medicine.",
+      "shortname": "ACA"
+    },
+    {
+      "question": "What role should the federal government play in helping cities like Baltimore?",
+      "answer": "What a loaded question! Let's start with the air quality. Baltimore's air is listed as one of the worst in the nation.  Pollution has been directly correlated with respiratory diseases, cognitive impairment including but not limited to dementia and Alzheimers disease and diabetes! Depending where you live water quality has been compromised specifically in areas in and around Montgomery County and West Baltimore, areas labeled as sacrifice zones where the lead content in water is well above safe limits. The neurotoxic damage incurred by the ingestion of lead specifically to kids is horrific and sadly nobody is doing anything about it! As the problem of lead contamination in public water stems beyond the city of Flint Michigan, its time to have a national conversation of refitting our entire infrastructure which can be done by means of a federal job guarantee. This plan could pave the way not only to refit our public works but our energy systems as well. The extraction, transport and refining of oil is one of the most toxic industries with particulate contaminants that include endocrine disrupters, dioxins and carcinogens. Baltimore can be helped by divesting completely from oil and adopt renewables as a primary energy source. As Maryland is home to the beekeeping industry, I'd like to ban neonicotinoids, a pesticide deadly to bees and also 6000 times more toxic than DDT. If it's killing the bees imagine what it's doing to us. Jobs, a clean environment and police reform will help Baltimore.",
+      "shortname": "Urban policy"
+    },
+    {
+      "question": "What can Congress do to address the opioid epidemic?",
+      "answer": "There are physical conditions that absolutely call for palliative care to maintain quality of life and yet the conversation has turned to restricting patient access to opioids who are in chronic pain due to the rise in deaths resultant from opioid abuse so what can Congress do? Criminalizing patients isn't the answer. However, I can see Congress allocating more funding not only toward counseling that addresses addiction but to support R&D into different classes of Medication that have the same level of pain relief without the side effects that typically come with opioids. A team of scientists led by Prof. Mei-Chuan Ko, of the Wake Forest Baptist Medical Center in Winston-Salem, NC, developed a non-addictive painkiller called AT-121. AT-121 was designed with a dual purpose in mind: to block the addictive action of opioids and to relieve chronic pain at the same time.  One in five Americans suffer from chronic pain, as a member of Congress, I would work to allocate as much funding as possible to solve the opioid crisis by replacing the current roster of pain medications with new more effective ones while expanding counseling services. To be clear, taming the opioid epidemic will require changes beyond health care and genetic predispositions to addiction. The lack of jobs, housing, and stable environments drives escapism through drug abuse. If settings are stabilized, chances are people will be as well.",
+      "shortname": "Opioids"
+    },
+    {
+      "question": "What changes if any should Congress make to our immigration and deportation laws and policies?",
+      "answer": "Comprehensive Immigration Legislation is badly needed but the problem is multifaceted.  Generally speaking people don't move very far from their point of origin. To do so would require all cultural ties and move to a locality where a person doesn't know anybody. For a person to make that decision typically requires a set of circumstances that force a person to leave their ancestral home which typically can be attributed to war or disproportionate trade agreements. As America has been at the forefront of global economic hegemony it has worked extensively at regime change all over the world from East Asia, South America, Central America and the Middle East which have resulted in economic upheaval as seen in sanctions, proxy wars and full blown American invasions causing massive death and destruction. Survivors of worn torn and disproportionate trade impacted regions has resulted in mass migrations all over the planet from Western Europe, Scandinavia and America. What Congress needs to do is have an open and compassionate conversation about immigration and what we can do to stop American Imperialism and operate as agents of peace and prosperity not destruction and death. In changing our foreign policy the expectation is that people will remain in their place of origin. Until such time, accommodations must be made for the people that seek asylum and have been displaced to the benefit of Military Industrial Complex.",
+      "shortname": "Immigration"
+    },
+    {
+      "question": "Should the United States continue with the free trade policies it pursued for the last several decades, or should it enact restrictions in an attempt to help domestic industries?",
+      "answer": "I support Free Trade tarrif free with respect to goods that can be exchanged from America for goods that cannot be made domestically, products that are unique to countries belonging to EFTA, NAFTA and CAFTA  but what I absolutely condemn is undermining of the American worker by enabling capitalist to lower their overhead by exporting work abroad. Trade agreements need to equitable and not lead to the obscene levels of inequality we are now enduring.",
+      "shortname": "Free trade"
+    },
+    {
+      "question": "Do you support the Iran nuclear deal?",
+      "answer": "For what it is I do support it but ideally all nations should pursue an outright ban on all nuclear weapons.  If we absolutely have to have big bombs, the military has the capacity to create conventional weapons with as much destructive power as nuclear weapons without the irradiating component that would render an area uninhabitable.",
+      "shortname": "Iran"
+    },
+    {
+      "question": "How should the United States address the rise of North Korea’s nuclear program?",
+      "answer": "Through diplomacy with the intent on reunifying Korea as one nation. It's time America and the Chinese have an adult conversation about this issue and stop with the proxy war nonsense.",
+      "shortname": "North Korea"
+    }
+  ],
   "race": "us-house",
-  "sn1": "Trump record",
-  "sn10": "Free trade",
-  "sn11": "Iran",
-  "sn12": "North Korea",
-  "sn2": "2017 Tax cuts",
-  "sn3": "National debt",
-  "sn4": "Income inequality",
-  "sn5": "Gun laws",
-  "sn6": "ACA",
-  "sn7": "Urban policy",
-  "sn8": "Opioids",
-  "sn9": "Immigration",
+  "residence": "Cockeysville",
   "title": "Guy Mimoun"
 }

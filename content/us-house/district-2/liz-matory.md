@@ -75,7 +75,7 @@
     }
   ],
   "race": "us-house",
-  "residence": "Silver Spring",
+  "residence": "Parkville",
   "social-fb": "LizForCongress",
   "social-tw": "LizForCongress",
   "survey-response": "LATE SUB",
