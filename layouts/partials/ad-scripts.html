@@ -4,9 +4,17 @@ var googletag = googletag || {};
 googletag.cmd = googletag.cmd || [];
 
 document.addEventListener("DOMContentLoaded", function(event) {
+  function each(qs, callback) {
+    var els = typeof qs === "string" ? document.querySelectorAll(qs) : qs;
+    var i;
+    for (i = 0; i < els.length; i++) {
+      callback(els[i], i);
+    }
+  }
+
   var adUnit = "/4011/trb.baltimoresun/news/local/politics";
 
-  document.querySelectorAll("[data-slot-sizes]").forEach(function(el, n) {
+  each("[data-slot-sizes]", function(el, n) {
     // Create inner div
     var divId = "ad-unit-" + n.toString();
     var slot = document.createElement("div");
@@ -37,16 +45,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
       googletag.enableServices();
       googletag.display(divId);
 
-      var timeout = el.getAttribute("data-refresh");
-      if (timeout) {
-        var timer = function() {
-          googletag.cmd.push(function() {
-            console.log("refreshing", slot)
-            googletag.pubads().refresh([slot]);
+      // If we're supposed to refresh this periodically, do that
+      var refreshInterval = el.getAttribute("data-refresh");
+      if (refreshInterval) {
+        window.adIntervalTimer = window.setInterval(function() {
+          window.googletag.cmd.push(function() {
+            window.googletag.pubads().refresh([slot]);
           });
-          window.setTimeout(timer, timeout);
-        };
-        window.setTimeout(timer, timeout);
+        }, refreshInterval);
       }
     });
   });
