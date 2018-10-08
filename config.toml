@@ -45,7 +45,7 @@ weight = 4
 
 [[menu.main]]
 url = "/results/"
-name = "Primary Results"
+name = "Election Results"
 weight = 5
 
 [[menu.main]]

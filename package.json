@@ -11,7 +11,7 @@
     "build":
       "yarn run clean && yarn run build:results && yarn run make-content && yarn run hugo",
     "build:results":
-      "robocopy -local -metadata-src data/primary-metadata.json -results-src data/primary-results.json",
+      "robocopy -local -metadata-src data/primary-metadata.json -results-src data/primary-results.json -output-dir dist/primary-results/",
     "build:robocopy":
       "GOPATH=$(mktemp -d) GOBIN=$(pwd) go get -v ./cmd/robocopy",
     "clean": "yarn run clean:public",
