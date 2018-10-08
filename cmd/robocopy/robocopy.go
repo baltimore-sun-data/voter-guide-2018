@@ -18,9 +18,9 @@ import (
 )
 
 const (
-	results18url         = "https://elections.maryland.gov/elections/results_data/GP18/Results.js"
-	precinctResults18url = "https://elections.maryland.gov/elections/results_data/GP18/PrecinctResults.js"
-	metadata18url        = "https://elections.maryland.gov/elections/results_data/GP18/MetaData.js"
+	results18url         = "https://elections.maryland.gov/elections/results_data/GG18/Results.js"
+	precinctResults18url = "https://elections.maryland.gov/elections/results_data/GG18/PrecinctResults.js"
+	metadata18url        = "https://elections.maryland.gov/elections/results_data/GG18/MetaData.js"
 )
 
 func init() {
