@@ -4,6 +4,8 @@ type = "results-page"
 icon = "/images/primary-results-fb.png"
 image = "/images/primary-results-tw.png"
 share-text = "Get live results in the Maryland 2018 primary from The Baltimore Sun"
+contests = "Contests2018Primary"
+key-contests = "KeyContests2018Primary"
 results-base-url = "/primary-results/"
 aliases = [
     "/results/",
