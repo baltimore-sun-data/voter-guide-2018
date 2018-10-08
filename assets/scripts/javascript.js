@@ -322,7 +322,7 @@ var app = {
       if (
         hostname &&
         !(
-          hostname.endsWith("baltimoresun.com") ||
+          hostname.match(/baltimoresun\.com$/) ||
           hostname === window.location.hostname
         )
       ) {
