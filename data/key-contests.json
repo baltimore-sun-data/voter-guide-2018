@@ -1,23 +1,26 @@
 [
   {
-    "Name": "Governor / Lt. Governor",
-    "Jurisdiction": "State of Maryland",
-    "District": "State of Maryland",
-    "Party": "Non Partisan",
+    "Name": "Governor",
     "ID": 7263
   },
   {
     "Name": "Attorney General",
-    "Jurisdiction": "State of Maryland",
-    "District": "State of Maryland",
-    "Party": "Non Partisan",
     "ID": 7265
   },
   {
-    "Name": "U.S. Senator",
-    "Jurisdiction": "State of Maryland",
-    "District": "State of Maryland",
-    "Party": "Non Partisan",
-    "ID": 7266
+    "Name": "Baltimore County Executive",
+    "ID": 7391
+  },
+  {
+    "Name": "Howard County Executive",
+    "ID": 7394
+  },
+  {
+    "Name": "Anne Arundel County Executive",
+    "ID": 7390
+  },
+  {
+    "Name": "U.S. House District 6",
+    "ID": 7272
   }
 ]
