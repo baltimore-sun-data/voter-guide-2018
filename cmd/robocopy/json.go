@@ -299,6 +299,7 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 		Contest      string
 		Jurisdiction string
 		District     string
+		IsRaceOption bool
 	}
 	type districtReturnJSON struct {
 		ID           string
@@ -346,12 +347,14 @@ func (m *Metadata) MarshalJSON() (b []byte, err error) {
 	for _, o := range m.Options {
 		contest := o.ContestID.From(m)
 		dist, jur := contest.DistrictJurisdiction(m)
+		isRaceOption := contest.Type == Race && o.WriteIn == RegularOption
 		r.AllOptions = append(r.AllOptions, optionReturnJSON{
 			ID:           int(o.ContestID),
 			Name:         o.Text,
 			Contest:      contest.Name,
 			Jurisdiction: jur,
 			District:     dist,
+			IsRaceOption: isRaceOption,
 		})
 	}
 	sort.Slice(r.AllOptions, func(i, j int) bool {
