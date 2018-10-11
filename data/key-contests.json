@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Governor / Lt. Governor",
+    "Jurisdiction": "State of Maryland",
+    "District": "State of Maryland",
+    "Party": "Non Partisan",
+    "ID": 7263
+  },
+  {
+    "Name": "Attorney General",
+    "Jurisdiction": "State of Maryland",
+    "District": "State of Maryland",
+    "Party": "Non Partisan",
+    "ID": 7265
+  },
+  {
+    "Name": "U.S. Senator",
+    "Jurisdiction": "State of Maryland",
+    "District": "State of Maryland",
+    "Party": "Non Partisan",
+    "ID": 7266
+  }
+]
