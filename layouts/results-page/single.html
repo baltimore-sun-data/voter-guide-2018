@@ -91,11 +91,13 @@
               <select class="js-select2">
                 <option value="0" disabled selected>Choose by candidate name</option>
                 {{ range index $contests.AllOptions }}
-                  <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
-                    {{- .Name -}}
-                    {{- " • " }}{{ .Contest -}}
-                    {{- " • " }}{{ .District -}}
-                  </option>
+                  {{ if .IsRaceOption }}
+                    <option value='{{ $baseURL }}contests/{{ .ID }}.html'>
+                      {{- .Name -}}
+                      {{- " • " }}{{ .Contest -}}
+                      {{- " • " }}{{ .District -}}
+                    </option>
+                  {{ end }}
                 {{ end }}
               </select>
             </div>
