@@ -54,7 +54,7 @@
         <h2>Warning: This page requires Javascript.</h2>
       </noscript>
 
-      {{ partial "ad-leaderboard.html" . }}
+      {{ partial "ad-autorefresh.html" . }}
 
       <div
           class="js-results-container"
@@ -63,6 +63,7 @@
           data-errors="#errors"
           data-time="#time-all"
           data-boe-update="#boe-update-time"
+          data-timeout="30000"
       >
 
           <h2 class="results-header">Find races</h2>
@@ -117,7 +118,7 @@
             </div>
           </div>
 
-          <div class="last-refresh hidden">
+          <div class="last-refresh">
             Results last refreshed: <span id="time-all"></span>
           </div>
 
@@ -127,7 +128,7 @@
           </div>
       </div>
       <h2 class="results-header">Key races</h2>
-      <div class="last-refresh hidden">
+      <div class="last-refresh">
         Results last refreshed: <span id="time-key">Still loading…</span>
       </div>
       {{ range $race := $keyContests }}
@@ -140,6 +141,7 @@
           data-errors='#errors-{{ $race.ID }}'
           data-time='#time-key'
           data-boe-update="#boe-update-time"
+          data-timeout="30000"
         >
             <div id="errors-{{ $race.ID }}"></div>
             <div id="info-{{ $race.ID }}">
@@ -154,6 +156,7 @@
         <ul
           id="coverage"
           data-feed-url="http://www.baltimoresun.com/bal-coverage-of-2018-primary-elections-20180616_ci_rss2.0.xml"
+          data-refresh="60000"
         >
         </ul>
       </div>
