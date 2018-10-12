@@ -39,7 +39,7 @@
     },
     {
       "question": "What role should the state play in helping Baltimore address violent crime?",
-      "answer": "Five steps the Maryland General Assembly should take:\n1.             See reply to question 7;\n2.             stop sending mixed messages about the use of marijuana and other controlled substances;\n3.            enact legislation to make illegal possession of a firearm a felony, and establish minimum mandatory jail terms for first and later offenses;\n4.            place legislative limits on prosecutor use of nolle prosequi, the stet docket, and probation before judgment dispositions in Maryland criminal proceedings involving illegal possession of firearms;\n5.            stop the legislative war on Baltimore City police.",
+      "answer": "Five steps the Maryland General Assembly should take:\n\n1.             See reply to question 7;\n2.             stop sending mixed messages about the use of marijuana and other controlled substances;\n3.            enact legislation to make illegal possession of a firearm a felony, and establish minimum mandatory jail terms for first and later offenses;\n4.            place legislative limits on prosecutor use of nolle prosequi, the stet docket, and probation before judgment dispositions in Maryland criminal proceedings involving illegal possession of firearms;\n5.            stop the legislative war on Baltimore City police.",
       "shortname": "Crime"
     },
     {
@@ -59,7 +59,7 @@
     },
     {
       "question": "What strategy would you adopt to address the opioid addiction and overdose crisis?",
-      "answer": "Among other things, the Maryland General Assembly should:\n1.            hold Maryland's lackluster U.S. congressional delegation directly accountable for ensuring maximum federal treatment resources for Maryland, and the closest possible federal law enforcement cooperation with state officials;\n\n2.            enact heavy mandatory minimum sentences for traffickers;\n\nOn a broader front:\n\n3.            stop sending mixed messages to citizens about the use of controlled substances;\n\n4.            to ensure full federal-state law enforcement cooperation, defund and end the Maryland Attorney General's political war on the federal government;\n\n5.            ensure that Maryland National Guard units are fully engaged in lawful counter-narcotics operations on the U.S.-Mexico border as required.",
+      "answer": "Among other things, the Maryland General Assembly should:\n\n1.            hold Maryland's lackluster U.S. congressional delegation directly accountable for ensuring maximum federal treatment resources for Maryland, and the closest possible federal law enforcement cooperation with state officials;\n\n2.            enact heavy mandatory minimum sentences for traffickers;\n\nOn a broader front:\n\n3.            stop sending mixed messages to citizens about the use of controlled substances;\n\n4.            to ensure full federal-state law enforcement cooperation, defund and end the Maryland Attorney General's political war on the federal government;\n\n5.            ensure that Maryland National Guard units are fully engaged in lawful counter-narcotics operations on the U.S.-Mexico border as required.",
       "shortname": "Opioids"
     },
     {
