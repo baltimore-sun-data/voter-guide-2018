@@ -75,6 +75,6 @@
   ],
   "race": "state-house",
   "residence": "College Park",
-  "survey-response": false,
+  "survey-response": true,
   "title": "Richard Douglas"
 }
