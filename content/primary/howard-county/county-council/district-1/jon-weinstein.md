@@ -8,13 +8,13 @@
   "district": 1,
   "dob": "10/28/1967",
   "education": "BA, International Relations, Boston University (minors in Geography and History) MA, International Affairs, The American University (concentration in National Security Policy) Certified Project Management Professional (PMP), Project Management Institute",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "jon-weinstein.md",
   "full-name": "Jon Weinstein",
   "general-only": false,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/52-e108aec5ba5cb28a1580bcb9bcbc77c5_weinstein-9_2.jpg",
   "last-name": "Weinstein",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "What are your views on the use of tax-increment financing as an incentive for private building and redevelopment projects, including remodeling blighted village centers in Columbia?",

@@ -1,12 +1,12 @@
 {
   "directory": "content/howard-county/county-council/district-2",
   "district": 2,
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "john-liao.md",
   "full-name": "John Liao",
   "general-only": true,
   "last-name": "Liao",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "race": "howard-county/county-council",
   "sn1": "TIFs",
   "sn2": "School safety",

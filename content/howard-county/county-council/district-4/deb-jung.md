@@ -5,13 +5,13 @@
   "district": 4,
   "dob": "5/13/1956",
   "education": "I graduated from Duke University with a Bachelor of Arts degree and obtained my Juris Doctorate from the University of Maryland School of Law.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "deb-jung.md",
   "full-name": "Deb Jung",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/253-a49fd822d31e5a1a10e1527f2f4c6131_Campaign_Website_30.jpg",
   "last-name": "Jung",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "What are your views on the use of tax-increment financing as an incentive for private building and redevelopment projects, including remodeling blighted village centers in Columbia?",
