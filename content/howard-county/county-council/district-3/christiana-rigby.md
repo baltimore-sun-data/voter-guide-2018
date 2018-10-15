@@ -5,13 +5,13 @@
   "district": 3,
   "dob": "7/27/1984",
   "education": "I am a University of Maryland Baltimore County (UMBC) graduate with a degree in Environmental Studies (domestic policy concentration). I have minor degrees from UMBC in Sociology and Dance. I attended Atholton ES, Hammond MS, and am a proud Hammond Golden Bear graduate.",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "christiana-rigby.md",
   "full-name": "Christiana Rigby",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-535382a9302e93cea08d77382a0344d6_christiana.jpg",
   "last-name": "Rigby",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "What are your views on the use of tax-increment financing as an incentive for private building and redevelopment projects, including remodeling blighted village centers in Columbia?",

@@ -1,12 +1,12 @@
 {
   "directory": "content/howard-county/county-council/district-2",
   "district": 2,
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "opel-jones.md",
   "full-name": "Opel Jones",
   "general-only": true,
   "last-name": "Jones",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "race": "howard-county/county-council",
   "sn1": "TIFs",
   "sn2": "School safety",

@@ -5,12 +5,12 @@
   "district": 5,
   "dob": "03/21/1967",
   "education": "Bachelors in Finance - Loyola University",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "david-yungmann.md",
   "full-name": "David Yungmann",
   "general-only": true,
   "last-name": "Yungmann",
   "party": "Republican",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "What are your views on the use of tax-increment financing as an incentive for private building and redevelopment projects, including remodeling blighted village centers in Columbia?",

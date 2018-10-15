@@ -5,13 +5,13 @@
   "district": 5,
   "dob": "8/29/1973",
   "education": "BA in philosophy, classics, and the history of math and science",
-  "endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "filename": "china-williams.md",
   "full-name": "China Williams",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299893/179-8ad6ab13a2abdf321899958f03efba71_ChinaWilliams-OfficialPortrait_171022.jpg",
   "last-name": "Williams",
   "party": "Democrat",
+  "primary-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-0625-howard-endorsements-20180622-story.html",
   "questions": [
     {
       "question": "What are your views on the use of tax-increment financing as an incentive for private building and redevelopment projects, including remodeling blighted village centers in Columbia?",
