@@ -80,5 +80,5 @@
   "social-tw": "harrisforbmore",
   "survey-response": true,
   "title": "Joshua Harris",
-  "web": "http//www.harrisforbaltimore.com"
+  "web": "http://www.harrisforbaltimore.com"
 }
