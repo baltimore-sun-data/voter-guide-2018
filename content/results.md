@@ -7,6 +7,8 @@ share-text = "Get live results in the 2018 Maryland general election from The Ba
 contests = "contests"
 key-contests = "key-contests"
 results-base-url = "http://localhost:9191/results/"
+# force a refresh every hour
+refresh-interval = "3600"
 draft = true
 +++
 
