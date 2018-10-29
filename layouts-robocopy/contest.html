@@ -22,7 +22,7 @@
       <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
-      <tr>
+      <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
         <td class="candidate name">{{ .Text | titlecase }}</td>
         {{ if not $isPrimary }}<td class="party-col">{{ .Party }}</td>{{ end }}
         <td class="votes">
@@ -43,7 +43,8 @@
     {{ if gt .VoteFor 1 }}
       Voters select {{ .VoteFor }} candidates |
     {{ end }}
-    {{ .TotalVotes | commas }} votes counted |
+    {{ .TotalVotes | commas }} votes counted
+    {{ if le .PercentCounted 100.0 }}({{ .PercentCounted }}% ){{ end }} |
     {{ .PrecinctsReporting }} out of {{ .TotalPrecincts }} precincts reporting
   </div>
 
