@@ -91,6 +91,9 @@
   <script src="//www.baltimoresun.com/thirdpartyservice?disablenav=true&amp;disablessor=true" async>
   </script>
   {{ end }}
+  {{ with .Param "refresh-interval" }}
+    <meta http-equiv="refresh" content="{{ . }}">
+  {{ end }}
   {{ .Hugo.Generator }}
  </head>
  <body>
