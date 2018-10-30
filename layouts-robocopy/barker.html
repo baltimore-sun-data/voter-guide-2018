@@ -63,6 +63,40 @@ body {
     width: 39%;
   }
 }
+
+.percent-bar-bg {
+  width: 80%;
+  background: #cdcdcd;
+  height: 20px;
+  float: left;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.percent-bar {
+  background: #667682;
+  height: 20px;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.Democrat .percent-bar {
+  background-color: #2e98cc;
+}
+
+.Green .percent-bar {
+  background-color: #00a967;
+}
+
+.Republican .percent-bar {
+  background-color: #ed4227;
+}
+
+.Libertarian .percent-bar {
+  background-color: #d5bc46;
+}
 </style>
 
 <div class="race">
@@ -74,10 +108,15 @@ body {
         {{ range .Options }}
           {{ $titlecase := .Text | titlecase }}
           {{ $truncated := $titlecase | truncateAt " and " }}
-          <tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
+          <tr class="{{ .Party }} {{ if .FrontRunner }}frontrunner{{ end }}">
             <td class="candidate name">{{ $truncated }}</td>
             <td class="party">{{ .Party }}</td>
             <td class="votes">{{ .TotalVotes | commas }} votes</td>
+            <td class="percent">
+              <div class="percent-bar-bg">
+                <div class="percent-bar" style='width: {{ .PercentageVotes | printf "%.1f" }}%'></div>
+              </div>
+            </td>
           </tr>
         {{ end }}
       </table>
