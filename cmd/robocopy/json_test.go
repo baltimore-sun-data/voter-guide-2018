@@ -67,7 +67,7 @@ func TestMetadataObj(t *testing.T) {
 
 			for _, c := range m.Contests {
 				if c.Type != Race {
-					if c.PartyID != 0 {
+					if c.PartyID != 0 && c.PartyID.From(&m).Code != "Non Partisan" {
 						t.Errorf("PartyID present for non-race contest: %#v", c)
 					}
 				} else if _, ok := m.Parties[c.PartyID]; !ok {
