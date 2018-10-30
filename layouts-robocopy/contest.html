@@ -1,5 +1,11 @@
 {{ $contestParty := .Party }}
 {{ $nonPartisan := (eq (lowerAlpha .Party) "nonpartisan") }}
+{{ $multiparty := false }}
+{{- range .Options -}}
+  {{- if (ne (lowerAlpha .Party) "nonpartisan") -}}
+    {{- $multiparty = true -}}
+  {{- end -}}
+{{- end -}}
 {{ $isPrimary := .IsPrimary }}
 
 <div class="race" data-boe-update='{{ .LastUpdate.Format "January 2 3:04pm" }}'>
@@ -17,14 +23,14 @@
   <table class="main-results">
     <thead>
       <th>Candidate</th>
-      {{ if not $isPrimary }}<th>Party</th>{{ end }}
+      {{ if $multiparty }}<th>Party</th>{{ end }}
       <th class="votes">Votes</th>
       <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
       <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
         <td class="candidate name">{{ .Text | titlecase }}</td>
-        {{ if not $isPrimary }}<td class="party-col">{{ .Party }}</td>{{ end }}
+        {{ if $multiparty }}<td class="party-col">{{ .Party }}</td>{{ end }}
         <td class="votes">
           {{- if eq .TotalVotes 0 }}—{{ else }}{{ .TotalVotes | commas }}{{ end -}}
         </td>
