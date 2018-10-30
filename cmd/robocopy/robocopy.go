@@ -206,6 +206,7 @@ var funcMap = map[string]interface{}{
 		}
 		return string(b)
 	},
+	"dict": Dictionary,
 }
 
 func (c *Config) template() (*template.Template, error) {
@@ -215,4 +216,28 @@ func (c *Config) template() (*template.Template, error) {
 		return nil, fmt.Errorf("could not load templates from %s: %v", c.TemplateGlob, err)
 	}
 	return t, err
+}
+
+// Dictionary creates a map[string]interface{} from the given parameters by
+// walking the parameters and treating them as key-value pairs.  The number
+// of parameters must be even.
+//
+// Taken from Hugo, which I believe is allowed under the Apache license.
+// https://github.com/gohugoio/hugo/blob/31a8bb8c071c6f2ca8cbd73057912932a1e7e943/tpl/collections/collections.go#L145
+func Dictionary(values ...interface{}) (map[string]interface{}, error) {
+	if len(values)%2 != 0 {
+		return nil, fmt.Errorf("invalid dictionary call")
+	}
+
+	dict := make(map[string]interface{}, len(values)/2)
+
+	for i := 0; i < len(values); i += 2 {
+		key, ok := values[i].(string)
+		if !ok {
+			return nil, fmt.Errorf("dictionary keys must be strings")
+		}
+		dict[key] = values[i+1]
+	}
+
+	return dict, nil
 }
