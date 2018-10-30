@@ -13,37 +13,36 @@ body {
   font-weight: bolder;
   border-bottom: 3px solid #d0d0d0;
 }
-.race h1.Democrat {
-  border-bottom: 3px solid #2e98cc;
-}
-.race h1.Republican {
-  border-bottom: 3px solid #ed4227;
+.race h1 {
+  border-bottom: 3px solid #551033;
 }
 .race a {
   float: right;
   color: black;
   font-size: 0.75rem;
 }
+
 .race table {
+  border-collapse: collapse;
   width: 100%;
 }
 
-.race th {
-  font-weight: normal;
-  word-break: break-word;
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 0.6rem;
+.race td {
+  white-space: nowrap;
+  color: #667682;
+  padding: 2px;
 }
 
 .race td.candidate {
-  width: 50%;
-  color: #667682;
+  width: 40%;
 }
+
+.race td.party {
+  width: 15%;
+}
+
 .race td.votes {
-  width: 25%;
-  color: #667682;
-  white-space: nowrap;
+  width: 20%;
 }
 .race td.name {
   font-weight: bold;
@@ -70,13 +69,14 @@ body {
   <div class="row">
     <div class="result">
       <a href="https://elections2018.news.baltimoresun.com/results/" target="_blank">All race results >> </a>
-      <h1 class="{{ .Party }}">{{ .Name }}</h1>
+      <h1>{{ .Name }}</h1>
       <table>
         {{ range .Options }}
           {{ $titlecase := .Text | titlecase }}
           {{ $truncated := $titlecase | truncateAt " and " }}
           <tr class="{{ if .FrontRunner }} frontrunner{{ end }}">
-            <td class="candidate name">{{- $truncated -}}</td>
+            <td class="candidate name">{{ $truncated }}</td>
+            <td class="party">{{ .Party }}</td>
             <td class="votes">{{ .TotalVotes | commas }} votes</td>
           </tr>
         {{ end }}

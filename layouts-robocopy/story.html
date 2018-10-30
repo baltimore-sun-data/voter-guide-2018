@@ -1,9 +1,6 @@
-{{ $gov := index . 1 }}
-{{ $bsa := index . 454 }}
-{{ $sr := index . 7 }}
-{{ $sd := index . 8 }}
-{{ $bced := index . 225 }}
-{{ $bcer := index . 226 }}
+{{ $gov := index . 7263 }}
+{{ $ag := index . 7265 }}
+{{ $bce := index . 7391 }}
 
 <p>
   <i>Results as of {{ $gov.LastUpdate.Format "3:04pm Jan. 2, 2006" }}</i>
@@ -14,8 +11,8 @@
 {{ block "story-results" $gov }}
   <p>
     {{ range .Options }}
-      •
-      {{ .Text | titlecase }}: {{ .TotalVotes | commas }}
+      &middot;
+      {{ .Text | titlecase }}: {{ .TotalVotes | commas }} votes,
       {{ .PercentageVotes | printf "%.1f" }}%
       <br>
     {{ end }}
@@ -28,25 +25,13 @@
   </p>
 {{ end }}
 
-<h3>Baltimore City State's Attorney</h3>
+<h3>Attorney General</h3>
 
-{{ template "story-results" $bsa }}
+{{ template "story-results" $ag }}
 
-<h3>Republican U.S. Senator</h3>
+<h3>Baltimore County Executive</h3>
 
-{{ template "story-results" $sr }}
-
-<h3>Democratic U.S. Senator</h3>
-
-{{ template "story-results" $sd }}
-
-<h3>Republican Baltimore County Executive</h3>
-
-{{ template "story-results" $bcer }}
-
-<h3>Democratic Baltimore County Executive</h3>
-
-{{ template "story-results" $bced }}
+{{ template "story-results" $bce }}
 
 <hr>
 
