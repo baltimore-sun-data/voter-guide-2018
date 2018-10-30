@@ -61,9 +61,9 @@
     {{ end }}
      <div id="cand-bio-text">
       <div class="cand-details">
-        {{ if .Param "endorsement" }}
+        {{ if .Param "general-endorsement" }}
           {{ $endorseSVG := resources.Get "images/endorsement-small.svg" | minify | fingerprint }}
-          <div class="endorsement"><a href='{{ .Param "endorsement" }}' target="_blank"><img src='{{ $endorseSVG.Permalink }}'></a></div>
+          <div class="endorsement"><a href='{{ .Param "general-endorsement" }}' target="_blank"><img src='{{ $endorseSVG.Permalink }}'></a></div>
         {{ end }}
         <div class="social-icons candidate-page">
           <span class="icon-facebook js-click"></span>

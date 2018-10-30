@@ -7,6 +7,7 @@
   "education": "Bachelors degree from Towson University, Masters degree from The Johns Hopkins University.",
   "filename": "sarah-k-elfreth.md",
   "full-name": "Sarah K. Elfreth",
+  "general-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-1030-state-senate-endorsements-20181029-story.html",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/245-8abbdcad77fb245d1303e43af41effe5_Elfreth_Headshot.jpg",
   "jurisdiction": "Anne Arundel County",

@@ -6,6 +6,7 @@
   "education": "I am a proud product of the Baltimore County Public Schools, having attended a BCPS school for every year of my K-12 education. After graduating from Sparrows Point High School, I earned my BA from Goucher College (Political Science and American Studies double major, Phi Beta Kappa), MA from The George Washington University (Political Management, concentration in Political Leadership), and PhD from UMBC (Public Policy, concentration in Public Administration) this past December.",
   "filename": "john-johnny-o-olszewski-jr.md",
   "full-name": "John \"Johnny O\" Olszewski Jr.",
+  "general-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-1023-olszewski-endorsement-20181022-story.html",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4299880/179-886e253a3cb8e8bcc1119bf078e73205_Johnny_O_%281%29.jpg",
   "last-name": "Olszewski",
