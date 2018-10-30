@@ -7,6 +7,7 @@
   "education": "The Catholic High School of Baltimore AA from Essex Community College in General Studies Continuing Studies at Towson University",
   "filename": "katherine-klausmeier.md",
   "full-name": "Katherine Klausmeier",
+  "general-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-1030-state-senate-endorsements-20181029-story.html",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/253-70a9227cb86d129d1e2c147f2404286b_18595366_102412603683290_2097353710808540764_o.jpg",
   "jurisdiction": "Baltimore County",

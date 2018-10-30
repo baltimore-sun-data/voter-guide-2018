@@ -6,6 +6,7 @@
   "education": "Governor Hogan attended DeMatha Catholic High School in Hyattsville, Maryland and Florida State University.",
   "filename": "larry-hogan.md",
   "full-name": "Larry Hogan",
+  "general-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-1024-hogan-endorsement-20181022-story.html",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4255081/52-29b73a7f6ec6c84761fc4bddd8c612fd_larry-hogan-md-gov.jpg",
   "last-name": "Hogan",

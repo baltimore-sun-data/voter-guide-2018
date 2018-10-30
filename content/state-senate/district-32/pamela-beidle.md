@@ -7,6 +7,7 @@
   "education": "BS in Business Administration, Towson University Graduate of Leadership Anne Arundel Fellow,  Academy of Excellence in Education",
   "filename": "pamela-beidle.md",
   "full-name": "Pamela Beidle",
+  "general-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-1030-state-senate-endorsements-20181029-story.html",
   "general-only": true,
   "headshot": "http://surveygizmoresponseuploads.s3.amazonaws.com/fileuploads/296249/4297291/179-e20b0934fa761a63a11ef96292761bc3_Pams_New_head_shot.jpg",
   "jurisdiction": "Anne Arundel County",

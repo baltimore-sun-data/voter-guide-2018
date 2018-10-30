@@ -3,6 +3,7 @@
   "district": 3,
   "filename": "craig-giangrande.md",
   "full-name": "Craig Giangrande",
+  "general-endorsement": "http://www.baltimoresun.com/news/opinion/editorial/bs-ed-1030-state-senate-endorsements-20181029-story.html",
   "general-only": true,
   "jurisdiction": "Frederick County",
   "last-name": "Giangrande",
