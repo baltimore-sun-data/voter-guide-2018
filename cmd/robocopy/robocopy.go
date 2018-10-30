@@ -66,7 +66,7 @@ func FromArgs(args []string) *Config {
 	fl.StringVar(&conf.Region, "region", "us-east-1", "Amazon region for S3")
 	fl.StringVar(&conf.Bucket, "bucket", "elections2018-news-baltimoresun-com", "Amazon S3 bucket")
 	fl.StringVar(&conf.Path, "path", "/results/", "Amazon S3 destination path")
-	fl.StringVar(&conf.StorySlug, "story-slug", "bs-2018-elections-primary-story", "story to update")
+	fl.StringVar(&conf.StorySlug, "story-slug", "bs-2018-elections-general-story", "story to update")
 	fl.DurationVar(&conf.PollInterval, "poll-interval", 30*time.Second, "time between refreshing S3")
 	fl.DurationVar(&conf.CacheTime, "cache-time", 10*time.Second, "cache time header")
 	fl.IntVar(&conf.DevPort, "dev-port", 9191, "port for dev server")
