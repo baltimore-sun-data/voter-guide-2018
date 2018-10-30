@@ -1,3 +1,4 @@
+{{ $partyDict := dict "Republican" "REP" "Democrat" "DEM" "Libertarian" "LIB" "Green" "GRN" "Non Partisan" ""}}
 <style type="text/css">
 body {
   font-family: sans-serif;
@@ -119,7 +120,7 @@ body {
           {{ $truncated := $titlecase | truncateAt " and " }}
           <tr class="{{ .Party }} {{ if .FrontRunner }}frontrunner{{ end }}">
             <td class="candidate name">{{ $truncated }}</td>
-            <td class="party">{{ .Party }}</td>
+            <td class="party">{{ index $partyDict .Party }}</td>
             <td class="votes">{{ .TotalVotes | commas }} votes</td>
             <td class="percent">
               <div class="percent-bar-bg">
