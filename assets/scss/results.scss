@@ -191,6 +191,33 @@ button.view-hide {
     max-width: 500px;
   }
 
+  svg {
+    path {
+      fill: #667682;
+      stroke: #667682;
+    }
+
+    .democrat {
+      fill: #2e98cc;
+    }
+
+    .green {
+      fill: #00a967;
+    }
+
+    .republican {
+      fill: #ed4227;
+    }
+
+    .libertarian {
+      fill: #d5bc46;
+    }
+
+    path:hover {
+      opacity: 0.6;
+    }
+  }
+
   [title] {
     cursor: help;
   }
