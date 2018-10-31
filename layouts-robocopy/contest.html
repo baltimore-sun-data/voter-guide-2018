@@ -57,6 +57,13 @@
   {{ if gt (len .SubResults) 1 }}
     <button class="view-hide" onclick="app.results_toggle();">View results by district</button>
     <div class="district-results">
+
+      {{ if len .CountyResults | ne 0 }}
+        <div class="county-map">
+          {{ template "counties_svg.html" .CountyResults }}
+        </div>
+      {{ end }}
+
       <table>
         <thead>
           <tr>

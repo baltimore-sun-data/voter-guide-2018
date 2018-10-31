@@ -33,6 +33,11 @@ type OptionResult struct {
 	FrontRunner     bool
 }
 
+type CountyResult struct {
+	DistrictID
+	Name, Path, Party, OptionText string
+}
+
 type Result struct {
 	LastUpdate           time.Time
 	IsPrimary            bool
@@ -53,6 +58,7 @@ type Result struct {
 	SubResults       []*SubResult
 	SubResultOptions []string
 	srm              map[JurisdictionDistrictID]*SubResult
+	CountyResults    []CountyResult
 }
 
 func makeOptionResultSlice(cid ContestID, m *Metadata, orm map[OptionID]*OptionResult) []*OptionResult {
@@ -175,6 +181,7 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 	// set the total votes / percentage / front-runner
 	// sort main options by votes, fallback to BoE order
 	// sub-results are in BoE order
+	// Add CountyResults as needed
 	for cid, result := range contests {
 		// For some local races, the jurisdiction info seems wrong
 		if len(result.orm) == 0 && len(result.SubResults) == 1 {
@@ -232,6 +239,36 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 			sort.Slice(subr.Options, func(i, j int) bool {
 				return subr.Options[i].Order < subr.Options[j].Order
 			})
+		}
+
+		hasCountyResults := true
+		for _, county := range MarylandCounties {
+			if _, ok := result.srm[JurisdictionDistrictID{0, county.ID}]; !ok {
+				hasCountyResults = false
+				break
+			}
+		}
+		if hasCountyResults {
+			result.CountyResults = make([]CountyResult, len(MarylandCounties))
+			for i, county := range MarylandCounties {
+				party, optionText := "", ""
+				mostVotes := 0
+				subr := result.srm[JurisdictionDistrictID{0, county.ID}]
+				for _, opt := range subr.Options {
+					if opt.TotalVotes > mostVotes {
+						mostVotes = opt.TotalVotes
+						party = opt.Party
+						optionText = opt.Text
+					}
+				}
+				result.CountyResults[i] = CountyResult{
+					DistrictID: county.ID,
+					Name:       county.Name,
+					Path:       county.Path,
+					Party:      party,
+					OptionText: optionText,
+				}
+			}
 		}
 	}
 	return contests

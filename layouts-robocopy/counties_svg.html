@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 400">
+  <style>
+  path {
+    fill: #667682;
+    stroke: #667682;
+  }
+
+  .democrat {
+    fill: #2e98cc;
+  }
+
+  .green {
+    fill: #00a967;
+  }
+
+  .republican {
+    fill: #ed4227;
+  }
+
+  .libertarian {
+    fill: #d5bc46;
+  }
+
+  path:hover {
+    opacity: .6;
+  }
+  </style>
+  {{ range . }}
+    <path class="district-{{ .DistrictID }} {{ lowerAlpha .Party }}" d="{{ .Path }}">
+      <title>{{ .Name }} {{ if .OptionText }}- {{ .OptionText }}{{ end }}</title>
+    </path>
+  {{ end }}
+</svg>

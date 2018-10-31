@@ -187,6 +187,10 @@ button.view-hide {
   overflow-x: scroll;
   margin-top: 15px;
 
+  .county-map {
+    max-width: 500px;
+  }
+
   [title] {
     cursor: help;
   }
