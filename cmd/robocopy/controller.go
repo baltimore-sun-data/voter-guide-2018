@@ -19,6 +19,8 @@ type Reporting struct {
 type SubResult struct {
 	Jurisdiction string
 	District     string
+	JurisdictionID
+	DistrictID
 	Reporting
 	Options []*OptionResult
 	orm     map[OptionID]*OptionResult
@@ -166,10 +168,12 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 				subDist := rawResult.DistrictID.From(m).Name
 				subJur := rawResult.JurisdictionID.From(m).Name
 				subres = &SubResult{
-					Jurisdiction: subJur,
-					District:     subDist,
-					Reporting:    reporting[jdid],
-					orm:          make(map[OptionID]*OptionResult),
+					Jurisdiction:   subJur,
+					District:       subDist,
+					JurisdictionID: rawResult.JurisdictionID,
+					DistrictID:     rawResult.DistrictID,
+					Reporting:      reporting[jdid],
+					orm:            make(map[OptionID]*OptionResult),
 				}
 				result.SubResults = append(result.SubResults, subres)
 				result.srm[jdid] = subres

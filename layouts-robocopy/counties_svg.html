@@ -1,6 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 400">
   {{ range . }}
-    <path class="{{ lowerAlpha .Party }}" d="{{ .Path }}">
+    <path
+      class="{{ lowerAlpha .Party }}"
+      d="{{ .Path }}"
+      data-district="{{ .DistrictID }}"
+      onmouseover="app.results_hover();"
+    >
       <title>{{ .Name }} {{ if .OptionText }}- {{ .OptionText }}{{ end }}</title>
     </path>
   {{ end }}

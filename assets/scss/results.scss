@@ -288,3 +288,37 @@ button.view-hide {
     color: #2e98cc;
   }
 }
+
+// Hide the district info map boxes until hovered
+.district-results {
+  .district-info {
+    display: none;
+  }
+
+  [data-show-district="3"] & .district-3,
+  [data-show-district="4"] & .district-4,
+  [data-show-district="5"] & .district-5,
+  [data-show-district="6"] & .district-6,
+  [data-show-district="7"] & .district-7,
+  [data-show-district="8"] & .district-8,
+  [data-show-district="9"] & .district-9,
+  [data-show-district="10"] & .district-10,
+  [data-show-district="11"] & .district-11,
+  [data-show-district="12"] & .district-12,
+  [data-show-district="13"] & .district-13,
+  [data-show-district="14"] & .district-14,
+  [data-show-district="15"] & .district-15,
+  [data-show-district="16"] & .district-16,
+  [data-show-district="17"] & .district-17,
+  [data-show-district="18"] & .district-18,
+  [data-show-district="19"] & .district-19,
+  [data-show-district="20"] & .district-20,
+  [data-show-district="21"] & .district-21,
+  [data-show-district="22"] & .district-22,
+  [data-show-district="23"] & .district-23,
+  [data-show-district="24"] & .district-24,
+  [data-show-district="25"] & .district-25,
+  [data-show-district="26"] & .district-26 {
+    display: block;
+  }
+}
