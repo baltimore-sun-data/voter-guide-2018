@@ -415,6 +415,12 @@ var app = {
     parent.classList.toggle("show-district-results");
   },
 
+  results_hover: function() {
+    var parent = event.target.closest(".js-results-container");
+    var districtID = event.target.getAttribute("data-district");
+    parent.setAttribute("data-show-district", districtID);
+  },
+
   results_download: function() {
     // Simple convenience functions
     function each(qs, callback) {

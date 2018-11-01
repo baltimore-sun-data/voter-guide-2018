@@ -62,6 +62,18 @@
         <div class="county-map">
           {{ template "counties_svg.html" .CountyResults }}
         </div>
+        <div class="county-box">
+          {{ range .SubResults }}
+            {{ if ne .JurisdictionID 0 }}
+              <div class="district-info district-{{ .DistrictID }}">
+                {{ range .Options }}
+                  {{ .Text }}: {{ .TotalVotes | commas }}
+                  </td>
+                {{ end }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
       {{ end }}
 
       <table>
