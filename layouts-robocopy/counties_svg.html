@@ -5,6 +5,7 @@
       d="{{ .Path }}"
       data-district="{{ .DistrictID }}"
       onmouseover="app.results_hover();"
+      onclick="app.results_hover();"
     >
       <title>{{ .Name }} {{ if .OptionText }}- {{ .OptionText }}{{ end }}</title>
     </path>

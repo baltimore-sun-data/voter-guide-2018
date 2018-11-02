@@ -188,37 +188,6 @@ button.view-hide {
   overflow-x: scroll;
   margin-top: 15px;
 
-  .county-map {
-    max-width: 500px;
-    margin: 0 auto;
-  }
-
-  svg {
-    path {
-      fill: #667682;
-      stroke: white;
-    }
-
-    .democrat {
-      fill: #2e98cc;
-    }
-
-    .green {
-      fill: #00a967;
-    }
-
-    .republican {
-      fill: #ed4227;
-    }
-
-    .libertarian {
-      fill: #d5bc46;
-    }
-
-    path:hover {
-      opacity: 0.6;
-    }
-  }
 
   [title] {
     cursor: help;
@@ -290,9 +259,71 @@ button.view-hide {
 }
 
 // Hide the district info map boxes until hovered
-.district-results {
+.results-map {
+  display: grid;
+  grid-gap: 1.5% 10px;
+  grid-template-columns: 15% 15% 15% 15% 15% 15%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  @media (max-width: 700px) {
+    display: block;
+  }
+  .county-map {
+    max-width: 500px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    @media (max-width: 830px) {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+
+  svg {
+    path {
+      fill: #667682;
+      stroke: white;
+    }
+
+    .democrat {
+      fill: #2e98cc;
+    }
+
+    .green {
+      fill: #00a967;
+    }
+
+    .republican {
+      fill: #ed4227;
+    }
+
+    .libertarian {
+      fill: #d5bc46;
+    }
+
+    path:hover {
+      opacity: 0.6;
+    }
+  }
+  .county-box {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    text-align: center;
+    @media (max-width: 830px) {
+      grid-column-start: 4;
+      grid-column-end: 7;
+    }
+  }
   .district-info {
     display: none;
+    .district-name {
+      text-transform: uppercase;
+      color: #667682;
+      font-size: 1.5em;
+      @media (max-width: 700px) {
+        font-size: 1.1em;
+      }
+    }
   }
 
   [data-show-district="3"] & .district-3,
