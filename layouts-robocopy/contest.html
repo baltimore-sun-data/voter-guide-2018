@@ -55,32 +55,31 @@
   </div>
 
   {{ if gt (len .SubResults) 1 }}
+    {{ if len .CountyResults | ne 0 }}
+      {{ $contestName := lowerAlpha .Contest }}
+      <div class="results-map" id="map-{{- $contestName -}}">
+        <div class="county-map">
+          {{ template "counties_svg.html" .CountyResults }}
+        </div>
+        <div class="county-box">
+          <p><em>Hover or click on a county for more information</em></p>
+          {{ range .SubResults }}
+            {{ if ne .JurisdictionID 0 }}
+              <div class="district-info district-{{ .DistrictID }}">
+                <div class="district-name">{{ .District }}</div>
+                {{ range .Options }}
+                  {{ $truncated := .Text| truncateAt " And " }}
+                  <div class="district-candidate"><b>{{- $truncated -}}:</b>  {{ .TotalVotes | commas }}</div>
+                  </td>
+                {{ end }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
     <button class="view-hide" onclick="app.results_toggle();">View results by district</button>
     <div class="district-results">
-
-      {{ if len .CountyResults | ne 0 }}
-        <div class="results-map">
-          <div class="county-map">
-            {{ template "counties_svg.html" .CountyResults }}
-          </div>
-          <div class="county-box">
-            <p><em>Hover or click on a county for more information</em></p>
-            {{ range .SubResults }}
-              {{ if ne .JurisdictionID 0 }}
-                <div class="district-info district-{{ .DistrictID }}">
-                  <div class="district-name">{{ .District }}</div>
-                  {{ range .Options }}
-                    {{ $truncated := .Text| truncateAt " And " }}
-                    <div class="district-candidate"><b>{{- $truncated -}}:</b>  {{ .TotalVotes | commas }}</div>
-                    </td>
-                  {{ end }}
-                </div>
-              {{ end }}
-            {{ end }}
-          </div>
-        </div>
-      {{ end }}
-
       <table>
         <thead>
           <tr>
