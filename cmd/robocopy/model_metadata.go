@@ -109,7 +109,7 @@ func (id PartyID) From(m *Metadata) Party {
 }
 
 func (c Contest) Party(m *Metadata) string {
-	return c.PartyID.From(m).Code
+	return c.PartyID.From(m).Description
 }
 
 func (c Contest) JurisdictionID(m *Metadata) JurisdictionID {
