@@ -1,6 +1,6 @@
 {
   "background": "I have been working in the field of economic development for the last 16 years.",
-  "directory": "content/harford-county/county-council/district-E",
+  "directory": "content/harford-county/county-council/district-e",
   "district": "E",
   "education": "B.A. with a concentration in Government and International Relations from the University of South Carolina. Master of Planning from the University of Maryland, College Park.",
   "filename": "bridgette-johnson.md",

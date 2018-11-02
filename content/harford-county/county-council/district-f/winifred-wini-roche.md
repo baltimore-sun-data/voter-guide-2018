@@ -1,6 +1,6 @@
 {
   "background": "I have worked for 24 years as a tourism professional and business promoter. Most of this time I worked for local or county Government. For the past 3 years I have owned my own consulting firm and have consulted for the Maryland Tourism Coalition.   Dorchester County Tourism 9 years    * Founder of Sailwinds Park & Heritage Tourism effort in County Havre de Grace Office of Tourism 3 years*Creator of First Fridays Harford County Office of Economic Development 9 years  *Advocated for hotel tax and creation of Visit Harford, Inc. , LPGA Liaison, Coordinated successful County promotions such as Love it Campaign, Restaurant Week and Taste of Harford  Roche & Associates /MTC 3 years *Increased MTC membership,  raised profile of Maryland's tourism industry  and successfully lobbied for 1 million increase in state tourism Funding along with other state-wide tourism issues.",
-  "directory": "content/harford-county/county-council/district-F",
+  "directory": "content/harford-county/county-council/district-f",
   "district": "F",
   "education": "Towson University Grad- B.S.  Mass Comm - 1994   Cambridge South-Dorchester  High Grad- 1987",
   "filename": "winifred-wini-roche.md",

@@ -1,7 +1,7 @@
 {
   "age": 61,
   "background": "Freight Brokerage   2013-2018 Harford County Council President 2002-2006 Harford County Council Dist. E    1990-2002 Wagner Farm LLC  2000-2004 Family Farm Mgr.   1980-2003",
-  "directory": "content/harford-county/county-council/district-E",
+  "directory": "content/harford-county/county-council/district-e",
   "district": "E",
   "dob": "7/1/1957",
   "education": "Bel Air Sr. High School    1975 Harford Community College     1979  AA",

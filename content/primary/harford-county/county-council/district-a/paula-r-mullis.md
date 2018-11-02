@@ -1,8 +1,8 @@
 {
   "aliases": [
-    "/harford-county/county-council/district-A/paula-r-mullis/"
+    "/harford-county/county-council/district-a/paula-r-mullis/"
   ],
-  "directory": "content/primary/harford-county/county-council/district-A",
+  "directory": "content/primary/harford-county/county-council/district-a",
   "district": "A",
   "filename": "paula-r-mullis.md",
   "full-name": "Paula R. Mullis",

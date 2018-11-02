@@ -1,5 +1,5 @@
 {
-  "directory": "content/state-house/district-3A",
+  "directory": "content/state-house/district-3a",
   "district": "3A",
   "filename": "jeremy-harbaugh.md",
   "full-name": "Jeremy Harbaugh",

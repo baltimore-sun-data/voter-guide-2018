@@ -1,7 +1,7 @@
 {
   "age": 64,
   "background": "Occupational Therapist",
-  "directory": "content/state-house/district-1C",
+  "directory": "content/state-house/district-1c",
   "district": "1C",
   "dob": "1/21/1954",
   "education": "MSOT, Springfield College, MA BS, Master Certificate, Georgetown University, Washington, DC",

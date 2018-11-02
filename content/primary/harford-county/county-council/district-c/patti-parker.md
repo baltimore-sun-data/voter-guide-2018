@@ -1,8 +1,8 @@
 {
   "aliases": [
-    "/harford-county/county-council/district-C/patti-parker/"
+    "/harford-county/county-council/district-c/patti-parker/"
   ],
-  "directory": "content/primary/harford-county/county-council/district-C",
+  "directory": "content/primary/harford-county/county-council/district-c",
   "district": "C",
   "filename": "patti-parker.md",
   "full-name": "Patti Parker",

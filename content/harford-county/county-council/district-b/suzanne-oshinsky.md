@@ -1,6 +1,6 @@
 {
   "background": "I have worked as an educator, as well as being a writer and editor for several in print and online publications. I am also a mom to two kids with special needs, one of whom I homeschool, who have been my chief occupation.",
-  "directory": "content/harford-county/county-council/district-B",
+  "directory": "content/harford-county/county-council/district-b",
   "district": "B",
   "education": "I received my B.A. from Columbia University in Asian and Middle Eastern Cultures,  with a minor in Environmental Science,  and was chosen to be a Centenniel Scholar.  I completed my M.A. in Near Eastern Studies at UC Berkeley.",
   "filename": "suzanne-oshinsky.md",

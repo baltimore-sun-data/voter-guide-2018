@@ -1,7 +1,7 @@
 {
   "age": 53,
   "background": "I spent many years as a government contractor in the Washington DC area working for agencies such as the FAA, NASA, Department of Defense and the NIH.  Over the last 4 years I have been working as a legislative aide for a Harford County Council Member.",
-  "directory": "content/harford-county/county-council/district-A",
+  "directory": "content/harford-county/county-council/district-a",
   "district": "A",
   "dob": "7/1/1965",
   "education": "BS  Business Administration Master in Public Administration, in process",

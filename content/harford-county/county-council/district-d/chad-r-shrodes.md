@@ -1,7 +1,7 @@
 {
   "age": 44,
   "background": "In addition to my tenure on the Council, I have more than two decades of land use planning experience, with specific experience in the fields of transportation, the environment, and historic and agricultural land preservation. I have also worked as a Real Estate Agent for 11 years.  I am a graduate of the Maryland Academy for Excellence in Local Governance, the Harford County Leadership Academy, and the Harford County Sheriff's Office Citizens Police Academy.",
-  "directory": "content/harford-county/county-council/district-D",
+  "directory": "content/harford-county/county-council/district-d",
   "district": "D",
   "dob": "12/28/1973",
   "education": "I'm a lifelong resident of Norrisville, a father, a graduate of North Harford High School, Harford Community College and Towson University; and former land use planner for the County and State, currently serving a third term as Councilman. I have a BS in Land Use and Environmental Planning. My Council experience, planning background, understanding of sound planning practices, and level of local knowledge have been vital to the success of the council this term and in past terms. My experience will continue to be important as the next Council will include three or more new members.",

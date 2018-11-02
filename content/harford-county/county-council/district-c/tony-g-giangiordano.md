@@ -1,5 +1,5 @@
 {
-  "directory": "content/harford-county/county-council/district-C",
+  "directory": "content/harford-county/county-council/district-c",
   "district": "C",
   "filename": "tony-g-giangiordano.md",
   "full-name": "Tony \"G\" Giangiordano",
