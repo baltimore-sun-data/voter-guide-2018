@@ -163,7 +163,6 @@
 }
 
 button.view-hide {
-  margin-top: 10px;
   background-color: transparent;
   text-transform: uppercase;
   font-weight: bold;
@@ -174,6 +173,7 @@ button.view-hide {
   border-radius: 0;
   border-bottom: 1px solid black;
   text-align: left;
+  padding: 0 5px 5px 5px;
 }
 
 .find-results {
@@ -264,6 +264,7 @@ button.view-hide {
   grid-template-columns: 15% 15% 15% 15% 15% 15%;
   max-width: 900px;
   margin: 0 auto;
+  padding-top: 20px;
 
   @media (max-width: 700px) {
     display: block;
