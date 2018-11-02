@@ -1,6 +1,6 @@
 {
   "background": "I have 30 plus years experience in business, government and non-profits. As a business executive and an environmentalists, I joined Governor Schwarzenegger's staff and helped to create a cutting edge green economy, which resulted in the creation of a half-a-million green jobs. I also served as the first woman vice president of a 5,000 member employer organization and oversaw the organization's legislation and legal divisions. Former business owner of a public relations/advocacy firm. Former consultant to United Way, Inc., working with its 230 non-profit member agencies.",
-  "directory": "content/harford-county/county-council/district-C",
+  "directory": "content/harford-county/county-council/district-c",
   "district": "C",
   "education": "Penn State University, B.S. Environmental Relations with an emphasis in Communications.",
   "filename": "karen-kukurin.md",

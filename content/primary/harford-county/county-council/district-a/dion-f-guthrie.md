@@ -1,10 +1,10 @@
 {
   "age": 81,
   "aliases": [
-    "/harford-county/county-council/district-A/dion-f-guthrie/"
+    "/harford-county/county-council/district-a/dion-f-guthrie/"
   ],
   "background": "Served on 18 different Boards and Commissions thruout Harford County and the State of Maryland.",
-  "directory": "content/primary/harford-county/county-council/district-A",
+  "directory": "content/primary/harford-county/county-council/district-a",
   "district": "A",
   "dob": "7/31/1937",
   "education": "BA Antioch University, BA amd AA from McKendree School of Religion, AA Dundalk Community College, Academy of Excellence in Local Governance-University of Maryland, Harford County Sheriff's Academy, Harford Leadership Academy-Top 20 graduate of all time.",

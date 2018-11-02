@@ -1,5 +1,5 @@
 {
-  "directory": "content/harford-county/county-council/district-A",
+  "directory": "content/harford-county/county-council/district-a",
   "district": "A",
   "filename": "andre-v-johnson.md",
   "full-name": "Andre V. Johnson",

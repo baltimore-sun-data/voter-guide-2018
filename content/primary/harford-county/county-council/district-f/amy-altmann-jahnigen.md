@@ -1,10 +1,10 @@
 {
   "age": 41,
   "aliases": [
-    "/harford-county/county-council/district-F/amy-altmann-jahnigen/"
+    "/harford-county/county-council/district-f/amy-altmann-jahnigen/"
   ],
   "background": "I am a Senior Technology Engineer with FICO.  I have been with them for over 20 years.  I started as an intern in college and then joined full time after I graduated.  I was selected to represent FICO at the Women in Technology Summit in Silicon Valley in 2016.  I have also presented at conferences in Miami and Las Vegas speaking on best practices in Business Intelligence and Data Analytics.",
-  "directory": "content/primary/harford-county/county-council/district-F",
+  "directory": "content/primary/harford-county/county-council/district-f",
   "district": "F",
   "dob": "5/18/1977",
   "education": "I grew up in Harford County and graduated from C Milton Wright High School.  From there I matriculated to UMBC where I graduated with honors as a student-athlete with a double major in Economics and Computer Information Systems and a minor in Finance.",

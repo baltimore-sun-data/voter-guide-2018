@@ -1,10 +1,10 @@
 {
   "age": 63,
   "aliases": [
-    "/harford-county/county-council/district-E/diane-l-sengstacke/"
+    "/harford-county/county-council/district-e/diane-l-sengstacke/"
   ],
   "background": "Attorney - Principal Member, Sengstacke & Evans, LLC; and President, Home Title Co. of Md., Inc.",
-  "directory": "content/primary/harford-county/county-council/district-E",
+  "directory": "content/primary/harford-county/county-council/district-e",
   "district": "E",
   "dob": "7/11/1955",
   "education": "JD University of Baltimore; AA Paralegal studies Villa Julie College, n/k/a Stevenson University; BS General Studies Dance Core Towson State n/k/a Towson University",

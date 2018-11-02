@@ -1,6 +1,6 @@
 {
   "background": "I have served in a number of Emergency Service and Public Safety leadership rolls on the local, state, and national levels. In Harford County I have served our Community since 1994 as a Volunteer Firefighter rising to the Office of Fire Chief. I was a Search and Rescue K9 handler and an Urban Search and Rescue search manager at the State level. On the National level I have served as a Firefighter with the Department of Defense and as an Emergency Manager being deployed with FEMA during the 2017 hurricane season. I am also a small business owner. My wife Laura and I started Maryland Quartermaster in 2011. Maryland Quartermaster is a police, military, and public safety supply store located in Fallston.",
-  "directory": "content/harford-county/county-council/district-B",
+  "directory": "content/harford-county/county-council/district-b",
   "district": "B",
   "education": "Emergency Service and Public Safety leadership studies with National Board certifications.",
   "filename": "joe-woods.md",

@@ -1,7 +1,7 @@
 {
   "age": 26,
   "background": "Presently, I work as an adjunct faculty member at Frederick Community College teaching a variety of courses in philosophy, ethics, and biology.  I hold previous work experience with individuals with developmental disabilities as a behavior technician at Monocacy Start Center in Frederick, MD.  I also hold previous experience as a research assistant in social science, health, and medicine while pursuing my Master's degree at King's College London.",
-  "directory": "content/state-house/district-2A",
+  "directory": "content/state-house/district-2a",
   "district": "2A",
   "dob": "6/17/1992",
   "education": "High School Diploma with International Baccalaureate Certificate from North Hagerstown High School.  Bachelor of Science in Biology & Philosophy from the University of Massachusetts at Amherst.  Master of Arts in Bioethics & Society from King's College London.",

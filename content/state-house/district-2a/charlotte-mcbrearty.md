@@ -1,7 +1,7 @@
 {
   "age": 32,
   "background": "I had an internship with a county tourism bureau and spent a full school year as a substitute teacher but I have primarily worked in warehouses doing a little bit of everything.",
-  "directory": "content/state-house/district-2A",
+  "directory": "content/state-house/district-2a",
   "district": "2A",
   "dob": "9/16/1986",
   "education": "I have a B.A. in History with a minor in International Hospitality and Tourism from Saint Leo University.",

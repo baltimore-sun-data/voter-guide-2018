@@ -1,9 +1,9 @@
 {
   "aliases": [
-    "/harford-county/county-council/district-D/jerry-scarborough/"
+    "/harford-county/county-council/district-d/jerry-scarborough/"
   ],
   "background": "Retired Maryland State Trooper and Business Owner for 26 years.",
-  "directory": "content/primary/harford-county/county-council/district-D",
+  "directory": "content/primary/harford-county/county-council/district-d",
   "district": "D",
   "education": "Graduated from Edgewood High School and one class of Criminal Justice at Harford Community College",
   "filename": "jerry-scarborough.md",

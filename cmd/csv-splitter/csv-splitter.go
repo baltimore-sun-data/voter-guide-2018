@@ -149,6 +149,7 @@ func makeDatum(dataHeader, fields []string) (map[string]interface{}, error) {
 	if dir == "" && fn == "" {
 		if race := get(datum, "race"); race != "" {
 			if district := get(datum, "district"); district != "" {
+				district = strings.ToLower(district)
 				datum["directory"] = fmt.Sprintf("content/%s/district-%s",
 					race, district)
 			} else {

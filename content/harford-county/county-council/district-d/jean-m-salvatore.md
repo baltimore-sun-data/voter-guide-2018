@@ -1,6 +1,6 @@
 {
   "background": "I am retired from Federal Service, spending most of my 34-year career at Aberdeen Proving Ground as a logistician and logistics chief.  I am an adjunct faculty member at Harford Community College and the founder and president of Best Friends in Harford County, an animal welfare non-profit organization.",
-  "directory": "content/harford-county/county-council/district-D",
+  "directory": "content/harford-county/county-council/district-d",
   "district": "D",
   "education": "Bachelor's Degree in English Master's Degree in Administrative Science",
   "filename": "jean-m-salvatore.md",

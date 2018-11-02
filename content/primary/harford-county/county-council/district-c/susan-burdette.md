@@ -1,10 +1,10 @@
 {
   "age": 65,
   "aliases": [
-    "/harford-county/county-council/district-C/susan-burdette/"
+    "/harford-county/county-council/district-c/susan-burdette/"
   ],
   "background": "Harford County Public Library 35 years Librarian, Marketing, Programming and Community Relations Town Commissioner 4 years Mayor and Chair of the Board, Town of Bel Air, 3 years President Cecil-Harford Chapter Maryland Municipal League Advisory Board Member Non-Partisan MD Chapter of Smart Growth America Local Leaders Council Member and Chair Harford County Council Citizens Budget Advisory Board",
-  "directory": "content/primary/harford-county/county-council/district-C",
+  "directory": "content/primary/harford-county/county-council/district-c",
   "district": "C",
   "dob": "9/11/1953",
   "education": "BA Towson University Harford Leadership Academy Graduate Fellow, Academy for Excellence in Local Governance Univ. of MD College Park School of Public Policy",
