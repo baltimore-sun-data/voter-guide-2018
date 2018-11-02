@@ -1,2 +1,7 @@
 User-agent: *
+Disallow: /results/contests/
+Disallow: /results/districts/
+Disallow: /primary-results/contests/
+Disallow: /primary-results/districts/
+
 Sitemap: {{ .Sitemap.Filename | default "sitemap.xml" | absURL }}
