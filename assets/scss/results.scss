@@ -25,6 +25,12 @@
   .dropdown-menu li a {
     white-space: inherit;
   }
+  .col-xs-3 {
+    @media (max-width: 600px) {
+      padding-right: 3px;
+      padding-left: 3px;
+    }
+  }
 
   .results-item {
     background-color: #667682;
