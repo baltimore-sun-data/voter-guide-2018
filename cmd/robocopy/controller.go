@@ -301,10 +301,7 @@ func (result Result) TopN(n int) []*OptionResult {
 		return options[i].TotalVotes > options[j].TotalVotes
 	})
 	var i int
-	for i = 0; i < n; i++ {
-		if i > n || i > len(options) || options[i].TotalVotes == 0 {
-			break
-		}
+	for i = 0; i < n && i < len(options); i++ {
 	}
 	return options[:i]
 }
@@ -329,7 +326,7 @@ func BarkerResults(contests map[ContestID]*Result) []barkerResult {
 		return results
 	}
 	for i := range results {
-		results[i].Options = contests[results[i].ID].Options
+		results[i].Options = contests[results[i].ID].TopN(4)
 	}
 	return results
 }
