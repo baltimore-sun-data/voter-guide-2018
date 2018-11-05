@@ -320,12 +320,16 @@ func BarkerResults(contests map[ContestID]*Result) []barkerResult {
 		{7263, "bs-2018-elections-general-barker-gov", "Governor", nil},
 		{7265, "bs-2018-elections-general-barker-ag", "Attorney General", nil},
 		{7391, "bs-2018-elections-general-barker-bce", "Baltimore County Executive", nil},
+		{7390, "bs-2018-elections-general-barker-aace", "Anne Arundel County Executive", nil},
+		{7529, "bs-2018-elections-general-barker-aasa", "Anne Arundel State’s Attorney", nil},
+		{7330, "bs-2018-elections-general-barker-del5", "House of Delegates District 5", nil},
 	}
-	// Hack so I can use this at startup time
-	if len(contests) > 0 {
-		results[0].Options = contests[results[0].ID].Options
-		results[1].Options = contests[results[1].ID].Options
-		results[2].Options = contests[results[2].ID].Options
+	// Hack so I can use this at startup time with an empty map
+	if len(contests) == 0 {
+		return results
+	}
+	for i := range results {
+		results[i].Options = contests[results[i].ID].Options
 	}
 	return results
 }
