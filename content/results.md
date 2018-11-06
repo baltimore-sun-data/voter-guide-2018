@@ -1,5 +1,5 @@
 +++
-title = "2018 General Election Results"
+title = "2018 Maryland Midterm Election Results"
 type = "results-page"
 icon = "/images/general-results.png"
 image = "/images/general-results.png"
@@ -12,4 +12,4 @@ refresh-interval = "3600"
 draft = false
 +++
 
-This page has a comprehensive list of 2018 general election results from the Maryland State Board of Election.
+This page has a comprehensive list of 2018 midterm election results from the Maryland State Board of Election.
