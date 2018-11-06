@@ -114,6 +114,18 @@
 .race th.party-col {
   width: 10%;
   color: #667682;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.race .small-party {
+  display: none;
+
+  @media (max-width: 600px) {
+    display: inline;
+  }
 }
 
 .race td.votes,
