@@ -8,3 +8,4 @@ refresh-interval = "3600"
 url = "/results/national/"
 +++
 
+This page has national results for the 2018 midterm elections. See our [Maryland election results](/results/) for more coverage.

@@ -1,16 +1,23 @@
 {{ define "main" }}
-  <!-- html embeds go here -->
-	<h2 class="results-header">National results</h2>
-  	<style type="text/css">
-  		iframe.ap-embed {
-  			height: 800px;
-  		}
-  	</style>
-	<div id="ap_widget_container_3ac0934ca0d90a9f27c4fa8c0d2a4130"></div>
+  <section class="national-results">
+    <h2 class="results-header">National results</h2>
+
+    <section class="content container">
+      {{ .Content }}
+    </section>
+
+    <div class="tier-widget">
+      <iframe src="https://elections-static.trbprodcloud.com/static/embeds/bop_combo.html?market=CT&amp;election=combined_bop&amp;timezone=EST"></iframe>
+    </div>
+
+    <div id="ap_widget_container_3ac0934ca0d90a9f27c4fa8c0d2a4130"></div>
+  </section>
 {{ end }}
+
 {{ define "extra-footer" }}
-	<script id="script_wgt_3ac0934ca0d90a9f27c4fa8c0d2a4130" src="https://digitalservices.ap.org/widget-content/3ac0934ca0d90a9f27c4fa8c0d2a4130"></script>
+  <script id="script_wgt_3ac0934ca0d90a9f27c4fa8c0d2a4130" src="https://digitalservices.ap.org/widget-content/3ac0934ca0d90a9f27c4fa8c0d2a4130"></script>
 {{ end }}
+
 {{ define "topper" }}
   <!--ignore-->
 {{ end }}
