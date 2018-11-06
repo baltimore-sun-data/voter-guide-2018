@@ -25,7 +25,7 @@
   }
 
   .content a {
-      color: #2e98cc;
+    color: #2e98cc;
   }
 
   .tier-widget iframe {
@@ -286,7 +286,6 @@ button.view-hide {
   }
 }
 
-// Hide the district info map boxes until hovered
 .results-map {
   display: grid;
   grid-gap: 1.5% 10px;
@@ -344,7 +343,9 @@ button.view-hide {
     }
   }
   .district-info {
+    // Hide the district info map boxes until hovered
     display: none;
+
     .district-name {
       text-transform: uppercase;
       color: #667682;
