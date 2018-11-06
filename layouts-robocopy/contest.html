@@ -1,3 +1,4 @@
+{{ $partyDict := dict "Republican" "REP" "Democrat" "DEM" "Libertarian" "LIB" "Green" "GRN" }}
 {{ $contestParty := .Party }}
 {{ $nonPartisan := (eq (lowerAlpha .Party) "nonpartisan") }}
 {{ $multiparty := false }}
@@ -23,13 +24,18 @@
   <table class="main-results">
     <thead>
       <th>Candidate</th>
-      {{ if $multiparty }}<th>Party</th>{{ end }}
+      {{ if $multiparty }}<th class="party-col">Party</th>{{ end }}
       <th class="votes">Votes</th>
       <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
       <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
-        <td class="candidate name">{{ .Text | titlecase }}</td>
+        <td class="candidate name">
+          {{- .Text | titlecase -}}
+          {{- if index $partyDict .Party | and $multiparty -}}
+            <span class="small-party"> ({{ index $partyDict .Party }})</span>
+          {{- end -}}
+        </td>
         {{ if $multiparty }}<td class="party-col">{{ .Party }}</td>{{ end }}
         <td class="votes">
           {{- if eq .TotalVotes 0 }}—{{ else }}{{ .TotalVotes | commas }}{{ end -}}
