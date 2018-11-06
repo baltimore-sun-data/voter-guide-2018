@@ -35,10 +35,10 @@
   <div class="container">
     <div class="row">
       <ul class="results-nav">
-        <li class="col-xs-3">
+        <li class="col-xs-3 small-padding">
           <a class="results-item" href="#find">Find race</a>
         </li>
-        <li class="col-xs-3 dropdown" id="results-dropdown">
+        <li class="col-xs-3 small-padding dropdown" id="results-dropdown">
           <a class="results-item dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Key races <span class="caret"></span></a>
           <ul class="dropdown-menu">
             {{ range $race := $keyContests }}
@@ -46,10 +46,10 @@
             {{ end }}
           </ul>
         </li>
-        <li class="col-xs-3">
+        <li class="col-xs-3 small-padding">
           <a class="results-item" href="#coverage"><span class="mobile-hide">Election</span> coverage</a>
         </li>
-        <li class="col-xs-3">
+        <li class="col-xs-3 small-padding">
           <a class="results-item" href="national/" target="_blank">National<span class="mobile-hide"> results</span></a>
         </li>
       </ul>

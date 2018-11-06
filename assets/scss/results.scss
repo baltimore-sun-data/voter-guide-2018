@@ -19,13 +19,36 @@
   background-color: #efeeee;
 }
 
+.national-results {
+  .content {
+    padding: 1rem;
+  }
+
+  .content a {
+      color: #2e98cc;
+  }
+
+  .tier-widget iframe {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 792px;
+    min-height: 320px;
+    width: 97.5%;
+  }
+
+  iframe.ap-embed {
+    height: 800px;
+  }
+}
+
 .results-nav {
   margin-top: 20px;
 
   .dropdown-menu li a {
     white-space: inherit;
   }
-  .col-xs-3 {
+  .small-padding {
     @media (max-width: 600px) {
       padding-right: 3px;
       padding-left: 3px;
@@ -159,7 +182,7 @@
   font-size: 2em;
   background-color: #f6f6f6;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   border-bottom: 1px solid #ccc;
 }
 
