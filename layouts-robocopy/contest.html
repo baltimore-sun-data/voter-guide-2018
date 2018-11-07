@@ -61,7 +61,7 @@
   </div>
 
   {{ if gt (len .SubResults) 1 }}
-    {{ if len .CountyResults | ne 0 | and $multiparty }}
+    {{ if len .CountyResults | ne 0 | and $multiparty | and (not $isPrimary) }}
       {{ $contestName := lowerAlpha .Contest }}
       <div class="results-map" id="map-{{- $contestName -}}">
         <div class="county-map">
