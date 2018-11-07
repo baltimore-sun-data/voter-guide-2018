@@ -224,14 +224,13 @@ func MapContestResults(m *Metadata, rc *ResultsContainer) map[ContestID]*Result 
 		for i, opt := range result.Options {
 			result.SubResultOptions[i] = opt.Text
 		}
-		// TODO: Turn back on sorting by vote after election night
-		// // Now sort in vote order
-		// sort.Slice(result.Options, func(i, j int) bool {
-		// 	if result.Options[i].TotalVotes == result.Options[j].TotalVotes {
-		// 		return result.Options[i].Order < result.Options[j].Order
-		// 	}
-		// 	return result.Options[i].TotalVotes > result.Options[j].TotalVotes
-		// })
+		// Now sort in vote order
+		sort.Slice(result.Options, func(i, j int) bool {
+			if result.Options[i].TotalVotes == result.Options[j].TotalVotes {
+				return result.Options[i].Order < result.Options[j].Order
+			}
+			return result.Options[i].TotalVotes > result.Options[j].TotalVotes
+		})
 		sort.Slice(result.SubResults, func(i, j int) bool {
 			if result.SubResults[i].District == result.SubResults[j].District {
 				return result.SubResults[i].Jurisdiction < result.SubResults[j].Jurisdiction
