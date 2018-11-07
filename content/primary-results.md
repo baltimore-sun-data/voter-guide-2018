@@ -9,6 +9,4 @@ key-contests = "KeyContests2018Primary"
 results-base-url = "/primary-results/"
 +++
 
-This page has a comprehensive list of 2018 primary results from the Maryland State Board of Election.
-
-[lb]: http://live.baltimoresun.com/Event/Primary_Election_Day_2018_Live_coverage_from_Maryland
+This page has a comprehensive list of 2018 primary results from the Maryland State Board of Election. See also our [comprehensive 2018 Maryland general election results](/results/).
