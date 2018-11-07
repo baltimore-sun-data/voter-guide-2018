@@ -572,7 +572,7 @@ var app = {
     }
 
     // Load arbitrary races via query string in URL ?show=contestURL
-    var queryStringRegex = /\?show=(.+)/;
+    var queryStringRegex = /\?show=([^&]+)/;
     if (queryStringRegex.test(window.location.search)) {
       var contestURL = queryStringRegex.exec(window.location.search)[1];
       var url = baseURL + contestURL;
