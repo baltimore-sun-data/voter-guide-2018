@@ -12,4 +12,4 @@ refresh-interval = "3600"
 draft = false
 +++
 
-This page has a comprehensive list of 2018 midterm election results from the Maryland State Board of Election. Results will not be posted until all polls have closed. Page refreshes automatically.
+This page has a comprehensive list of 2018 midterm election results from the Maryland State Board of Election.
