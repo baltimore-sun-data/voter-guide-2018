@@ -9,4 +9,4 @@ key-contests = "key-contests"
 results-base-url = "/results/"
 +++
 
-This page has a comprehensive list of 2018 midterm election results from the Maryland State Board of Election.
+This page has a comprehensive list of 2018 midterm election results from the Maryland State Board of Election. See also our [comprehensive 2018 Maryland primary results](/primary-results/).
