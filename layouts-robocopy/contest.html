@@ -29,7 +29,7 @@
       <th class="percent">Percentage</th>
     </thead>
     {{ range .Options }}
-      <tr class="{{ if .FrontRunner }}frontrunner{{ end }}">
+      <tr class="">
         <td class="candidate name">
           {{- .Text | titlecase -}}
           {{- if index $partyDict .Party | and $multiparty -}}
