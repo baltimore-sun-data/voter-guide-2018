@@ -410,14 +410,14 @@ var app = {
     });
   },
 
-  results_toggle: function() {
-    var parent = event.target.closest(".js-results-container");
+  results_toggle: function(target) {
+    var parent = target.closest(".js-results-container");
     parent.classList.toggle("show-district-results");
   },
 
-  results_hover: function() {
-    var parent = event.target.closest(".js-results-container");
-    var districtID = event.target.getAttribute("data-district");
+  results_hover: function(target) {
+    var parent = target.closest(".js-results-container");
+    var districtID = target.getAttribute("data-district");
     parent.setAttribute("data-show-district", districtID);
   },
 

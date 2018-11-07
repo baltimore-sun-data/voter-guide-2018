@@ -4,8 +4,8 @@
       class="{{ lowerAlpha .Party }}"
       d="{{ .Path }}"
       data-district="{{ .DistrictID }}"
-      onmouseover="app.results_hover();"
-      onclick="app.results_hover();"
+      onmouseover="app.results_hover(this);"
+      onclick="app.results_hover(this);"
     >
       <title>{{ .Name }} {{ if .OptionText }}- {{ .OptionText }}{{ end }}</title>
     </path>
