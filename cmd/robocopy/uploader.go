@@ -178,7 +178,6 @@ func (c *Config) RemoteTick(cl client) error {
 }
 
 func (c *Config) uploadFile(cl client, filename, templatename string, data interface{}) error {
-	// TODO upload jurisdictions
 	var buf = &bytes.Buffer{}
 	err := cl.template.ExecuteTemplate(buf, templatename, data)
 	if err != nil {
