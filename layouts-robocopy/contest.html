@@ -9,7 +9,7 @@
 {{- end -}}
 {{ $isPrimary := .IsPrimary }}
 
-<div class="race" data-boe-update='{{ .LastUpdate.Format "January 2 3:04pm" }}'>
+<div class="race" data-boe-update='{{ .LastUpdate.Format "January 2, 2006" }}'>
   {{ if ne .Jurisdiction "State of Maryland" }}
     <div class="sub-header">{{ .Jurisdiction }}</div>
   {{ end }}
