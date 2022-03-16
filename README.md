@@ -88,6 +88,11 @@ lorem ipsum
 
 Remove `results-base-url` from the front-matter if you want to go back to testing in local-mode.
 
+## License
+
+Code is available under the MIT License.
+
+Content is copyright Baltimore Sun Media Group.
 
 ## Old readme
 
